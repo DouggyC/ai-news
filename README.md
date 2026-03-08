@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI News
+
+Your central hub for tracking the latest in artificial intelligence - news, products, benchmarks, and model comparisons.
+
+## Features
+
+### 📰 AI News
+Stay updated with the latest AI news, model releases, product announcements, and industry updates. Features a daily.dev-style card grid layout with:
+- News cards with images and summaries
+- Category badges (Model, Product, Tool, Capability, Research)
+- Source attribution and publication dates
+- Direct links to original articles
+
+### 📦 AI Products
+Comprehensive landscape of AI products from frontier companies organized by category:
+- Chat / Assistants
+- IDE / Code Editors
+- CLI Tools
+- API / Developer Platforms
+- Automation / Orchestration
+- Image Generation
+- Video Generation
+- Voice / TTS
+- Audio / Music
+- Research Tools
+- Enterprise Solutions
+
+### 📊 Benchmarks
+Interactive comparison of frontier AI models across major benchmarks:
+- MMLU (Massive Multitask Language Understanding)
+- MMLU+ (Enhanced MMLU)
+- HumanEval (Code Generation)
+- LiveBench (Contamination-free evaluation)
+- GPQA (Graduate-Level Science Questions)
+
+Models grouped by open source vs closed source with radar and line charts.
+
+### ⚖️ Compare Models
+Detailed comparison table of flagship AI models including:
+- Pricing (input/output per million tokens)
+- Parameters and model size
+- Context length
+- Benchmark scores
+- Capabilities (multimodal, vision, function calling, JSON, search)
+
+## Tech Stack
+
+- **Framework**: Next.js 16
+- **UI**: React 19, Tailwind CSS 4
+- **Charts**: Recharts
+- **Language**: TypeScript
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/
+│   ├── page.tsx          # AI News homepage
+│   ├── products/         # Products landscape page
+│   ├── benchmarks/       # Model benchmarks page
+│   └── compare/         # Model comparison page
+├── components/
+│   ├── Navigation.tsx    # Main navigation
+│   ├── ModelCard.tsx    # Model display card
+│   └── StatsCards.tsx   # Statistics cards
+├── lib/
+│   ├── api.ts           # API utilities
+│   └── utils.ts         # Helper functions
+└── types/
+    └── models.ts        # TypeScript definitions
+```
 
-## Learn More
+## Research Sources
 
-To learn more about Next.js, take a look at the following resources:
+All research sources are documented in [RESEARCH-SOURCES.md](./RESEARCH-SOURCES.md).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
