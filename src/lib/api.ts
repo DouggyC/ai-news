@@ -2,6 +2,11 @@ import { AIModel } from '@/types/models';
 
 const HF_API_BASE = 'https://huggingface.co/api';
 
+/**
+ * Fetches an array of trending AI models from the Hugging Face API sorted by downloads.
+ * 
+ * Usage: Currently not used on any page. (Intended for a future Models listing page)
+ */
 export async function fetchTrendingModels(limit = 20): Promise<AIModel[]> {
   try {
     const response = await fetch(
@@ -25,6 +30,11 @@ export async function fetchTrendingModels(limit = 20): Promise<AIModel[]> {
   }
 }
 
+/**
+ * Retrieves detailed information for a specific AI model given its Hugging Face ID.
+ * 
+ * Usage: Currently not used on any page. (Intended for a future Model detail page)
+ */
 export async function fetchModelById(modelId: string): Promise<AIModel | null> {
   try {
     const response = await fetch(`${HF_API_BASE}/models/${modelId}`);
@@ -41,6 +51,11 @@ export async function fetchModelById(modelId: string): Promise<AIModel | null> {
   }
 }
 
+/**
+ * Searches for AI models on the Hugging Face API that match the provided text query.
+ * 
+ * Usage: Currently not used on any page. (Intended for a future Search Models page)
+ */
 export async function searchModels(query: string, limit = 20): Promise<AIModel[]> {
   try {
     const response = await fetch(
@@ -64,6 +79,11 @@ export async function searchModels(query: string, limit = 20): Promise<AIModel[]
   }
 }
 
+/**
+ * Transforms raw Hugging Face API model data into the unified AIModel type.
+ * 
+ * Usage: Used internally by fetchTrendingModels, fetchModelById, and searchModels in api.ts.
+ */
 function transformHFModel(hfModel: any): AIModel {
   const params = estimateParameters(hfModel);
   
@@ -88,6 +108,11 @@ function transformHFModel(hfModel: any): AIModel {
   };
 }
 
+/**
+ * Estimates the number of parameters for a model based on heuristic matching of its ID.
+ * 
+ * Usage: Used internally by transformHFModel in api.ts.
+ */
 function estimateParameters(model: any): number {
   const id = model.id.toLowerCase();
   
@@ -139,6 +164,11 @@ function estimateParameters(model: any): number {
   return 0;
 }
 
+/**
+ * Formats a raw parameter count into a human-readable string representation (e.g., '70B', '8M').
+ * 
+ * Usage: Used internally by transformHFModel in api.ts.
+ */
 function formatModelSize(params: number): string {
   if (params >= 1_000_000_000_000) return `${Math.round(params / 1_000_000_000_000)}T`;
   if (params >= 1_000_000_000) return `${Math.round(params / 1_000_000_000)}B`;
@@ -147,6 +177,11 @@ function formatModelSize(params: number): string {
   return params.toString();
 }
 
+/**
+ * Returns hardcoded benchmark test scores (like MMLU, HumanEval) for known models based on their ID.
+ * 
+ * Usage: Used internally by transformHFModel in api.ts.
+ */
 function getBenchmarkScores(modelId: string): AIModel['benchmarks'] {
   const scores: Record<string, AIModel['benchmarks']> = {
     'gpt-4': { mmlu: 86.4, humaneval: 67.0, hellaswag: 95.3 },
@@ -182,6 +217,11 @@ function getBenchmarkScores(modelId: string): AIModel['benchmarks'] {
   return undefined;
 }
 
+/**
+ * Infers a model's maximum context length from its tags or ID.
+ * 
+ * Usage: Used internally by transformHFModel in api.ts.
+ */
 function getContextLength(model: any): number | undefined {
   const id = model.id.toLowerCase();
   const tags = (model.tags || []).map((t: string) => t.toLowerCase());
@@ -196,159 +236,374 @@ function getContextLength(model: any): number | undefined {
   return undefined;
 }
 
+/**
+ * Returns a static list of popular fallback models for when the API query fails or is unavailable.
+ * 
+ * Usage: Used internally by fetchTrendingModels in api.ts.
+ */
 function getFallbackModels(): AIModel[] {
   return [
-    {
-      id: 'meta-llama/llama-3-70b-instruct',
-      name: 'Llama 3 70B Instruct',
-      author: 'meta-llama',
-      lastModified: '2024-12-15',
-      createdAt: '2024-04-18',
-      downloads: 8500000,
-      likes: 42000,
-      tags: ['llama', 'text-generation', 'instruct'],
-      pipeline_tag: 'text-generation',
-      library_name: 'transformers',
-      private: false,
-      gated: false,
-      parameters: 70_000_000_000,
-      modelSize: '70B',
-      benchmarks: { mmlu: 82.5, humaneval: 65.4, hellaswag: 93.5 },
-      contextLength: 8192,
-      license: 'open',
-    },
-    {
-      id: 'openai/gpt-4-turbo',
-      name: 'GPT-4 Turbo',
-      author: 'openai',
-      lastModified: '2024-11-01',
-      createdAt: '2023-11-06',
-      downloads: 12000000,
-      likes: 85000,
-      tags: ['gpt4', 'text-generation', 'chat'],
-      pipeline_tag: 'text-generation',
-      library_name: 'openai',
-      private: false,
-      gated: false,
-      parameters: 1_700_000_000_000,
-      modelSize: '1.7T',
-      benchmarks: { mmlu: 85.5, humaneval: 73.2, hellaswag: 95.8 },
-      contextLength: 128000,
-      license: 'proprietary',
-    },
-    {
-      id: 'anthropic/claude-3-5-sonnet',
-      name: 'Claude 3.5 Sonnet',
-      author: 'anthropic',
-      lastModified: '2024-10-22',
-      createdAt: '2024-04-17',
-      downloads: 9800000,
-      likes: 72000,
-      tags: ['claude', 'text-generation', 'chat'],
-      pipeline_tag: 'text-generation',
-      library_name: 'anthropic',
-      private: false,
-      gated: false,
-      parameters: 175_000_000_000,
-      modelSize: '175B',
-      benchmarks: { mmlu: 88.7, humaneval: 92.0, hellaswag: 95.7 },
-      contextLength: 200000,
-      license: 'proprietary',
-    },
-    {
-      id: 'google/gemini-1.5-pro',
-      name: 'Gemini 1.5 Pro',
-      author: 'google',
-      lastModified: '2024-12-01',
-      createdAt: '2024-05-14',
-      downloads: 7500000,
-      likes: 58000,
-      tags: ['gemini', 'text-generation', 'multimodal'],
-      pipeline_tag: 'text-generation',
-      library_name: 'google-generativeai',
-      private: false,
-      gated: false,
-      parameters: 156_000_000_000,
-      modelSize: '156B',
-      benchmarks: { mmlu: 85.9, humaneval: 84.1, hellaswag: 96.1 },
-      contextLength: 2000000,
-      license: 'proprietary',
-    },
-    {
-      id: 'mistralai/mixtral-8x22b',
-      name: 'Mixtral 8x22B',
-      author: 'mistralai',
-      lastModified: '2024-12-05',
-      createdAt: '2024-04-24',
-      downloads: 4200000,
-      likes: 31000,
-      tags: ['mixtral', 'text-generation', 'mixture-of-experts'],
-      pipeline_tag: 'text-generation',
-      library_name: 'transformers',
-      private: false,
-      gated: false,
-      parameters: 141_000_000_000,
-      modelSize: '141B',
-      benchmarks: { mmlu: 77.8, humaneval: 60.1, hellaswag: 87.2 },
-      contextLength: 65000,
-      license: 'apache-2.0',
-    },
-    {
-      id: 'Qwen/Qwen2.5-72B-Instruct',
-      name: 'Qwen 2.5 72B Instruct',
-      author: 'Qwen',
-      lastModified: '2024-12-10',
-      createdAt: '2024-09-19',
-      downloads: 3100000,
-      likes: 24000,
-      tags: ['qwen', 'text-generation', 'instruct'],
-      pipeline_tag: 'text-generation',
-      library_name: 'transformers',
-      private: false,
-      gated: false,
-      parameters: 72_000_000_000,
-      modelSize: '72B',
-      benchmarks: { mmlu: 77.8, humaneval: 61.0, hellaswag: 86.4 },
-      contextLength: 32768,
-      license: 'qwen-research',
-    },
-    {
-      id: 'meta-llama/llama-3-8b-instruct',
-      name: 'Llama 3 8B Instruct',
-      author: 'meta-llama',
-      lastModified: '2024-12-12',
-      createdAt: '2024-04-18',
-      downloads: 15000000,
-      likes: 68000,
-      tags: ['llama', 'text-generation', 'instruct'],
-      pipeline_tag: 'text-generation',
-      library_name: 'transformers',
-      private: false,
-      gated: false,
-      parameters: 8_000_000_000,
-      modelSize: '8B',
-      benchmarks: { mmlu: 68.5, humaneval: 48.1, hellaswag: 81.2 },
-      contextLength: 8192,
-      license: 'open',
-    },
-    {
-      id: 'microsoft/phi-4',
-      name: 'Phi-4',
-      author: 'microsoft',
-      lastModified: '2024-12-01',
-      createdAt: '2024-11-14',
-      downloads: 2800000,
-      likes: 19000,
-      tags: ['phi', 'text-generation', 'instruct'],
-      pipeline_tag: 'text-generation',
-      library_name: 'transformers',
-      private: false,
-      gated: false,
-      parameters: 14_000_000_000,
-      modelSize: '14B',
-      benchmarks: { mmlu: 72.8, humaneval: 55.4, hellaswag: 82.1 },
-      contextLength: 16384,
-      license: 'mit',
-    },
-  ];
+  {
+    "id": "sentence-transformers/all-MiniLM-L6-v2",
+    "name": "sentence-transformers/all-MiniLM-L6-v2",
+    "author": "sentence-transformers",
+    "createdAt": "2022-03-02T23:29:05.000Z",
+    "downloads": 205677817,
+    "likes": 4574,
+    "tags": [
+      "sentence-transformers",
+      "pytorch",
+      "tf",
+      "rust",
+      "onnx",
+      "safetensors",
+      "openvino",
+      "bert",
+      "feature-extraction",
+      "sentence-similarity",
+      "transformers",
+      "en",
+      "dataset:s2orc",
+      "dataset:flax-sentence-embeddings/stackexchange_xml",
+      "dataset:ms_marco",
+      "dataset:gooaq",
+      "dataset:yahoo_answers_topics",
+      "dataset:code_search_net",
+      "dataset:search_qa",
+      "dataset:eli5",
+      "dataset:snli",
+      "dataset:multi_nli",
+      "dataset:wikihow",
+      "dataset:natural_questions",
+      "dataset:trivia_qa",
+      "dataset:embedding-data/sentence-compression",
+      "dataset:embedding-data/flickr30k-captions",
+      "dataset:embedding-data/altlex",
+      "dataset:embedding-data/simple-wiki",
+      "dataset:embedding-data/QQP",
+      "dataset:embedding-data/SPECTER",
+      "dataset:embedding-data/PAQ_pairs",
+      "dataset:embedding-data/WikiAnswers",
+      "arxiv:1904.06472",
+      "arxiv:2102.07033",
+      "arxiv:2104.08727",
+      "arxiv:1704.05179",
+      "arxiv:1810.09305",
+      "license:apache-2.0",
+      "eval-results",
+      "text-embeddings-inference",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ],
+    "pipeline_tag": "sentence-similarity",
+    "library_name": "sentence-transformers",
+    "private": false,
+    "gated": false,
+    "parameters": 6000000000,
+    "modelSize": "6B",
+    "license": "Unknown",
+    "lastModified": "2022-03-02"
+  },
+  {
+    "id": "google-bert/bert-base-uncased",
+    "name": "google-bert/bert-base-uncased",
+    "author": "google-bert",
+    "createdAt": "2022-03-02T23:29:04.000Z",
+    "downloads": 70212030,
+    "likes": 2585,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "jax",
+      "rust",
+      "coreml",
+      "onnx",
+      "safetensors",
+      "bert",
+      "fill-mask",
+      "exbert",
+      "en",
+      "dataset:bookcorpus",
+      "dataset:wikipedia",
+      "arxiv:1810.04805",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ],
+    "pipeline_tag": "fill-mask",
+    "library_name": "transformers",
+    "private": false,
+    "gated": false,
+    "parameters": 0,
+    "modelSize": "0",
+    "license": "Unknown",
+    "lastModified": "2022-03-02"
+  },
+  {
+    "id": "google/electra-base-discriminator",
+    "name": "google/electra-base-discriminator",
+    "author": "google",
+    "createdAt": "2022-03-02T23:29:05.000Z",
+    "downloads": 51275969,
+    "likes": 84,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "tf",
+      "jax",
+      "rust",
+      "electra",
+      "pretraining",
+      "en",
+      "arxiv:1406.2661",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "library_name": "transformers",
+    "private": false,
+    "gated": false,
+    "parameters": 0,
+    "modelSize": "0",
+    "license": "Unknown",
+    "lastModified": "2022-03-02"
+  },
+  {
+    "id": "Falconsai/nsfw_image_detection",
+    "name": "Falconsai/nsfw_image_detection",
+    "author": "Falconsai",
+    "createdAt": "2023-10-13T23:50:01.000Z",
+    "downloads": 42226668,
+    "likes": 1011,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "safetensors",
+      "vit",
+      "image-classification",
+      "arxiv:2010.11929",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ],
+    "pipeline_tag": "image-classification",
+    "library_name": "transformers",
+    "private": false,
+    "gated": false,
+    "parameters": 0,
+    "modelSize": "0",
+    "license": "Unknown",
+    "lastModified": "2023-10-13"
+  },
+  {
+    "id": "sentence-transformers/all-mpnet-base-v2",
+    "name": "sentence-transformers/all-mpnet-base-v2",
+    "author": "sentence-transformers",
+    "createdAt": "2022-03-02T23:29:05.000Z",
+    "downloads": 28588402,
+    "likes": 1255,
+    "tags": [
+      "sentence-transformers",
+      "pytorch",
+      "onnx",
+      "safetensors",
+      "openvino",
+      "mpnet",
+      "fill-mask",
+      "feature-extraction",
+      "sentence-similarity",
+      "transformers",
+      "text-embeddings-inference",
+      "en",
+      "dataset:s2orc",
+      "dataset:flax-sentence-embeddings/stackexchange_xml",
+      "dataset:ms_marco",
+      "dataset:gooaq",
+      "dataset:yahoo_answers_topics",
+      "dataset:code_search_net",
+      "dataset:search_qa",
+      "dataset:eli5",
+      "dataset:snli",
+      "dataset:multi_nli",
+      "dataset:wikihow",
+      "dataset:natural_questions",
+      "dataset:trivia_qa",
+      "dataset:embedding-data/sentence-compression",
+      "dataset:embedding-data/flickr30k-captions",
+      "dataset:embedding-data/altlex",
+      "dataset:embedding-data/simple-wiki",
+      "dataset:embedding-data/QQP",
+      "dataset:embedding-data/SPECTER",
+      "dataset:embedding-data/PAQ_pairs",
+      "dataset:embedding-data/WikiAnswers",
+      "arxiv:1904.06472",
+      "arxiv:2102.07033",
+      "arxiv:2104.08727",
+      "arxiv:1704.05179",
+      "arxiv:1810.09305",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ],
+    "pipeline_tag": "sentence-similarity",
+    "library_name": "sentence-transformers",
+    "private": false,
+    "gated": false,
+    "parameters": 2000000000,
+    "modelSize": "2B",
+    "license": "Unknown",
+    "lastModified": "2022-03-02"
+  },
+  {
+    "id": "timm/mobilenetv3_small_100.lamb_in1k",
+    "name": "timm/mobilenetv3_small_100.lamb_in1k",
+    "author": "timm",
+    "createdAt": "2022-12-16T05:38:36.000Z",
+    "downloads": 25271053,
+    "likes": 54,
+    "tags": [
+      "timm",
+      "pytorch",
+      "safetensors",
+      "image-classification",
+      "transformers",
+      "dataset:imagenet-1k",
+      "arxiv:2110.00476",
+      "arxiv:1905.02244",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "pipeline_tag": "image-classification",
+    "library_name": "timm",
+    "private": false,
+    "gated": false,
+    "parameters": 3000000000,
+    "modelSize": "3B",
+    "license": "Unknown",
+    "lastModified": "2022-12-16"
+  },
+  {
+    "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "author": "sentence-transformers",
+    "createdAt": "2022-03-02T23:29:05.000Z",
+    "downloads": 23833971,
+    "likes": 1161,
+    "tags": [
+      "sentence-transformers",
+      "pytorch",
+      "tf",
+      "onnx",
+      "safetensors",
+      "openvino",
+      "bert",
+      "feature-extraction",
+      "sentence-similarity",
+      "transformers",
+      "multilingual",
+      "ar",
+      "bg",
+      "ca",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "es",
+      "et",
+      "fa",
+      "fi",
+      "fr",
+      "gl",
+      "gu",
+      "he",
+      "hi",
+      "hr",
+      "hu",
+      "hy",
+      "id",
+      "it",
+      "ja",
+      "ka",
+      "ko",
+      "ku",
+      "lt",
+      "lv",
+      "mk",
+      "mn",
+      "mr",
+      "ms",
+      "my",
+      "nb",
+      "nl",
+      "pl",
+      "pt",
+      "ro",
+      "ru",
+      "sk",
+      "sl",
+      "sq",
+      "sr",
+      "sv",
+      "th",
+      "tr",
+      "uk",
+      "ur",
+      "vi",
+      "arxiv:1908.10084",
+      "license:apache-2.0",
+      "text-embeddings-inference",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ],
+    "pipeline_tag": "sentence-similarity",
+    "library_name": "sentence-transformers",
+    "private": false,
+    "gated": false,
+    "parameters": 12000000000,
+    "modelSize": "12B",
+    "license": "Unknown",
+    "lastModified": "2022-03-02"
+  },
+  {
+    "id": "Qwen/Qwen2.5-7B-Instruct",
+    "name": "Qwen/Qwen2.5-7B-Instruct",
+    "author": "Qwen",
+    "createdAt": "2024-09-16T11:55:40.000Z",
+    "downloads": 23384870,
+    "likes": 1134,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen2",
+      "text-generation",
+      "chat",
+      "conversational",
+      "en",
+      "arxiv:2309.00071",
+      "arxiv:2407.10671",
+      "base_model:Qwen/Qwen2.5-7B",
+      "base_model:finetune:Qwen/Qwen2.5-7B",
+      "license:apache-2.0",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ],
+    "pipeline_tag": "text-generation",
+    "library_name": "transformers",
+    "private": false,
+    "gated": false,
+    "parameters": 7000000000,
+    "modelSize": "7B",
+    "license": "Unknown",
+    "lastModified": "2024-09-16"
+  }
+];
 }
