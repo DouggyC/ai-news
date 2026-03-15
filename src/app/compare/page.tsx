@@ -171,9 +171,45 @@ export default function ComparePage() {
           <div className="overflow-x-auto custom-scrollbar">
             <table className="w-full text-left border-collapse whitespace-nowrap">
               <thead>
-                <tr className="bg-zinc-50 dark:bg-zinc-800/50 text-sm border-b border-zinc-200 dark:border-zinc-800/50">
-                  <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors sticky left-0 z-10 bg-zinc-50 dark:bg-zinc-800/50 backdrop-blur" onClick={() => handleSort('name')}>
-                    Model {sortField === 'name' && (sortOrder === 'asc' ? '↑' : '↓')}
+                 <tr className="bg-zinc-50 dark:bg-zinc-800/50 text-sm border-b border-zinc-200 dark:border-zinc-800/50">
+                   <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors sticky left-0 z-10 bg-zinc-50 dark:bg-zinc-800/50 backdrop-blur" onClick={() => handleSort('name')}>
+                     Model {sortField === 'name' && (sortOrder === 'asc' ? '↑' : '↓')}
+                   </th>
+                   <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors" onClick={() => handleSort('provider')}>
+                     Provider {sortField === 'provider' && (sortOrder === 'asc' ? '↑' : '↓')}
+                   </th>
+                   <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors" onClick={() => handleSort('openSource')}>
+                     License {sortField === 'openSource' && (sortOrder === 'asc' ? '↑' : '↓')}
+                   </th>
+                   <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200">
+                     Released
+                   </th>
+                   <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-center">
+                     Size (TB)
+                   </th>
+                   <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-right cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors" onClick={() => handleSort('parameters')}>
+                     Params {sortField === 'parameters' && (sortOrder === 'asc' ? '↑' : '↓')}
+                   </th>
+                   <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-right cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors" onClick={() => handleSort('contextLength')}>
+                     Context {sortField === 'contextLength' && (sortOrder === 'asc' ? '↑' : '↓')}
+                   </th>
+                  <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 cursor-pointer hover:bg-zinc-100 dark:bg-zinc-800/50 backdrop-blur" onClick={() => handleSort('provider')}>
+                    Provider {sortField === 'provider' && (sortOrder === 'asc' ? '↑' : '↓')}
+                  </th>
+                  <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 cursor-pointer hover:bg-zinc-100 dark:bg-zinc-800/50 backdrop-blur" onClick={() => handleSort('openSource')}>
+                    License {sortField === 'openSource' && (sortOrder === 'asc' ? '↑' : '↓')}
+                  </th>
+                  <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200">
+                    Released
+                  </th>
+                  <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-center cursor-pointer hover:bg-zinc-100 dark:bg-zinc-800/50 backdrop-blur" onClick={() => handleSort('modelSizeGB')}>
+                    Size (TB) {sortField === 'modelSizeGB' && (sortOrder === 'asc' ? '↑' : '↓')}
+                  </th>
+                  <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-right cursor-pointer hover:bg-zinc-100 dark:bg-zinc-800/50 backdrop-blur" onClick={() => handleSort('parameters')}>
+                    Params {sortField === 'parameters' && (sortOrder === 'asc' ? '↑' : '↓')}
+                  </th>
+                  <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-right cursor-pointer hover:bg-zinc-100 dark:bg-zinc-800/50 backdrop-blur" onClick={() => handleSort('contextLength')}>
+                    Context {sortField === 'contextLength' && (sortOrder === 'asc' ? '↑' : '↓')}
                   </th>
                   <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors" onClick={() => handleSort('provider')}>
                     Provider {sortField === 'provider' && (sortOrder === 'asc' ? '↑' : '↓')}
@@ -183,6 +219,45 @@ export default function ComparePage() {
                   </th>
                   <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200">
                     Released
+                  </th>
+                  <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-center cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors" onClick={() => handleSort('modelSizeGB')}>
+                    Size (TB) {sortField === 'modelSizeGB' && (sortOrder === 'asc' ? '↑' : '↓')}
+                  </th>
+                  <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-right cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors" onClick={() => handleSort('parameters')}>
+                    Params {sortField === 'parameters' && (sortOrder === 'asc' ? '↑' : '↓')}
+                  </th>
+                  <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-right cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors" onClick={() => handleSort('contextLength')}>
+                    Context {sortField === 'contextLength' && (sortOrder === 'asc' ? '↑' : '↓')}
+                  </th>
+                  <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors" onClick={() => handleSort('provider')}>
+                    Provider {sortField === 'provider' && (sortOrder === 'asc' ? '↑' : '↓')}
+                  </th>
+                  <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors" onClick={() => handleSort('openSource')}>
+                    License {sortField === 'openSource' && (sortOrder === 'asc' ? '↑' : '↓')}
+                  </th>
+                  <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200">
+                    Released
+                  </th>
+                  <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-center cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors" onClick={() => handleSort('modelSizeGB')}>
+                    Size (TB) {sortField === 'modelSizeGB' && (sortOrder === 'asc' ? '↑' : '↓')}
+                  </th>
+                  <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-right cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors" onClick={() => handleSort('parameters')}>
+                    Params {sortField === 'parameters' && (sortOrder === 'asc' ? '↑' : '↓')}
+                  </th>
+                  <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-right cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors" onClick={() => handleSort('contextLength')}>
+                    Context {sortField === 'contextLength' && (sortOrder === 'asc' ? '↑' : '↓')}
+                  </th>
+                  <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors" onClick={() => handleSort('provider')}>
+                    Provider {sortField === 'provider' && (sortOrder === 'asc' ? '↑' : '↓')}
+                  </th>
+                  <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors" onClick={() => handleSort('openSource')}>
+                    License {sortField === 'openSource' && (sortOrder === 'asc' ? '↑' : '↓')}
+                  </th>
+                  <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200">
+                    Released
+                  </th>
+                  <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-center cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors" onClick={() => handleSort('modelSizeGB')}>
+                    Size (TB) {sortField === 'modelSizeGB' && (sortOrder === 'asc' ? '↑' : '↓')}
                   </th>
                   <th className="py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-right cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors" onClick={() => handleSort('parameters')}>
                     Params {sortField === 'parameters' && (sortOrder === 'asc' ? '↑' : '↓')}
@@ -243,6 +318,39 @@ export default function ComparePage() {
                     </td>
                     <td className="py-4 px-6 text-zinc-600 dark:text-zinc-400 text-sm">
                       {model.releaseDate}
+                    </td>
+                    <td className="py-4 px-6 text-center">
+                      {model.modelSizeGB >= 1000 ? (model.modelSizeGB / 1000).toFixed(1) + ' TB' : 'n/a'}
+                    </td>
+                    <td className="py-4 px-6 text-right font-medium text-zinc-700 dark:text-zinc-300">
+                      {formatNumber(model.parameters)}
+                      <span className="text-xs text-zinc-400 block">{model.modelSizeGB}GB VRAM</span>
+                    </td>
+                    <td className="py-4 px-6 text-right font-medium text-zinc-700 dark:text-zinc-300">
+                      {formatNumber(model.contextLength)}
+                    </td>
+                    <td className="py-4 px-6 text-center">
+                      {model.modelSizeGB >= 1000 ? (model.modelSizeGB / 1000).toFixed(1) + ' TB' : 'n/a'}
+                    </td>
+                    <td className="py-4 px-6 text-right font-medium text-zinc-700 dark:text-zinc-300">
+                      {formatNumber(model.parameters)}
+                      <span className="text-xs text-zinc-400 block">{model.modelSizeGB}GB VRAM</span>
+                    </td>
+                    <td className="py-4 px-6 text-right font-medium text-zinc-700 dark:text-zinc-300">
+                      {formatNumber(model.contextLength)}
+                    </td>
+                    <td className="py-4 px-6 text-center">
+                      {model.modelSizeGB >= 1000 ? (model.modelSizeGB / 1000).toFixed(1) + ' TB' : 'n/a'}
+                    </td>
+                    <td className="py-4 px-6 text-right font-medium text-zinc-700 dark:text-zinc-300">
+                      {formatNumber(model.parameters)}
+                      <span className="text-xs text-zinc-400 block">{model.modelSizeGB}GB VRAM</span>
+                    </td>
+                    <td className="py-4 px-6 text-right font-medium text-zinc-700 dark:text-zinc-300">
+                      {formatNumber(model.contextLength)}
+                    </td>
+                    <td className="py-4 px-6 text-center">
+                      {model.modelSizeGB >= 1000 ? (model.modelSizeGB / 1000).toFixed(1) + ' TB' : 'n/a'}
                     </td>
                     <td className="py-4 px-6 text-right font-medium text-zinc-700 dark:text-zinc-300">
                       {formatNumber(model.parameters)}
