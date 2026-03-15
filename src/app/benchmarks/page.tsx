@@ -219,6 +219,10 @@ export default function BenchmarksPage() {
           </div>
         </div>
 
+        <div className="mb-4 text-right text-sm text-zinc-500 dark:text-zinc-400 px-6">
+          Last updated: March 15, 2026
+        </div>
+        
         {/* Comparison Table Section */}
         <div className="mb-12">
           <h2 className="text-2xl font-bold text-zinc-900 dark:text-zinc-100 mb-6">

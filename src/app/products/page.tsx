@@ -86,6 +86,7 @@ const productData: ProductRow[] = [
       LangChain: { name: 'LangChain', url: 'https://langchain.dev', description: 'Agent framework' },
       LangGraph: { name: 'LangGraph', url: 'https://langchain-ai.github.io/langgraph/', description: 'Stateful agents' },
       Temporal: { name: 'Temporal', url: 'https://temporal.io', description: 'Durable execution' },
+      OpenClaw: { name: 'OpenClaw', url: 'https://openclaw.ai', description: 'Autonomous agent framework' },
     },
   },
   {
@@ -194,6 +195,8 @@ const companyOrder = [
   'MultiOn',
   'AutoGen',
   'LangGraph',
+  'n8n',
+  'OpenClaw',
 ];
 
 function getCompanyColor(company: string): string {
@@ -241,6 +244,7 @@ function getCompanyColor(company: string): string {
       MultiOn: 'bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300',
       AutoGen: 'bg-indigo-100 text-indigo-700 dark:bg-indigo-900 dark:text-indigo-300',
       LangGraph: 'bg-yellow-100 text-yellow-700 dark:bg-yellow-900 dark:text-yellow-300',
+      OpenClaw: 'bg-emerald-100 text-emerald-700 dark:bg-emerald-900 dark:text-emerald-300',
     };
   return colors[company] || 'bg-zinc-100 text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300';
 }
@@ -263,7 +267,10 @@ export default function ProductsPage() {
         </div>
 
         <div className="bg-white dark:bg-[#153457] rounded-2xl border border-zinc-200 dark:border-zinc-800/50 shadow-xl shadow-blue-900/5 overflow-hidden">
-          <div className="overflow-x-auto">
+          <div className="mb-4 text-right text-sm text-zinc-500 dark:text-zinc-400 px-6">
+            Last updated: March 15, 2026
+          </div>
+          <div className="overflow-x-auto custom-scrollbar">
             <table className="w-full text-left border-collapse">
               <thead>
                 <tr className="bg-zinc-50 dark:bg-zinc-800/50 text-sm border-b border-zinc-200 dark:border-zinc-800/50">
@@ -285,36 +292,36 @@ export default function ProductsPage() {
                     key={row.category}
                     className="hover:bg-zinc-50 dark:hover:bg-zinc-800/30 transition-colors group"
                   >
-                    <td className="py-4 px-6 font-medium text-zinc-900 dark:text-zinc-100">
+                    <td className="py-2 px-6 font-medium text-zinc-900 dark:text-zinc-100 text-xs">
                       {row.category}
                     </td>
                     {activeCompanies.map((company) => {
                       const product = row.products[company];
                       if (!product) {
                         return (
-                          <td key={company} className="py-4 px-6 text-center text-zinc-300 dark:text-zinc-600">
+                          <td key={company} className="py-2 px-6 text-center text-zinc-300 dark:text-zinc-600 text-xs">
                             —
                           </td>
                         );
                       }
                       return (
-                        <td key={company} className="py-4 px-6 text-center">
+                        <td key={company} className="py-2 px-6 text-center">
                           {product.url ? (
                             <a
                               href={product.url}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="text-sm text-blue-600 dark:text-blue-400 hover:underline font-semibold"
+                              className="text-xs text-blue-600 dark:text-blue-400 hover:underline font-semibold"
                             >
                               {product.name}
                             </a>
                           ) : (
-                            <span className="text-sm text-zinc-900 dark:text-zinc-100 font-semibold">
+                            <span className="text-xs text-zinc-900 dark:text-zinc-100 font-semibold">
                               {product.name}
                             </span>
                           )}
                           {product.description && (
-                            <p className="text-xs text-zinc-500 dark:text-zinc-400 mt-1">
+                            <p className="text-[10px] text-zinc-500 dark:text-zinc-400 mt-0.5">
                               {product.description}
                             </p>
                           )}

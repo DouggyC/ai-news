@@ -38,7 +38,7 @@ const newsCards: NewsCard[] = [
     summary: 'OpenAI launches GPT-5.4 combining advanced reasoning, coding, and agentic capabilities with native computer use for enterprise work.',
     source: 'OpenAI',
     sourceUrl: 'https://openai.com',
-    imageUrl: 'https://images.unsplash.com/photo-1507525428074-fed734f4ec64?w=400&h=250&fit=crop',
+    imageUrl: 'http://',
     category: 'model',
     publishedAt: '2026-03-05',
   },
@@ -108,7 +108,7 @@ const newsCards: NewsCard[] = [
     summary: 'Google launches Gemini Embedding 2, a multimodal embedding model that maps text, images, video, audio, and documents into a single embedding space.',
     source: 'Google',
     sourceUrl: 'https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-embedding-2',
-    imageUrl: 'https://images.unsplash.com/photo-1507525428074-fed734f4ec64?w=400&h=250&fit=crop',
+    imageUrl: 'http://',
     category: 'model',
     publishedAt: '2026-03-10',
   },
@@ -170,14 +170,15 @@ export default function AINewsPage() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {newsCards.map((card) => (
-            <a
-              key={card.id}
-              href={card.sourceUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group bg-white dark:bg-zinc-900 rounded-xl border border-zinc-200 dark:border-zinc-800 overflow-hidden hover:shadow-lg hover:border-blue-300 dark:hover:border-blue-700 transition-all duration-200"
-            >
+           {newsCards.map((card) => (
+             <a
+               key={card.id}
+               href={card.sourceUrl}
+               target="_blank"
+               rel="noopener noreferrer"
+               title={card.title}
+               className="group bg-white dark:bg-zinc-900 rounded-xl border border-zinc-200 dark:border-zinc-800 overflow-hidden hover:shadow-lg hover:border-blue-300 dark:hover:border-blue-700 transition-all duration-200"
+             >
               <div className="relative h-40 overflow-hidden">
                 <img
                   src={card.imageUrl}
