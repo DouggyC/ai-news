@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+text.txt
+data/images.json
+data/products-data.json
+data/models-data.json
+

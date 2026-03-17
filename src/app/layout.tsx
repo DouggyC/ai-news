@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Navigation } from "@/components/Navigation";
+import InvisibleFooter from "@/components/InvisibleFooter";
 
 export const metadata: Metadata = {
   title: "AI Model Tracker - Latest Models, Benchmarks & Research",
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body className="antialiased">
         <Navigation />
         {children}
+        <InvisibleFooter />
       </body>
     </html>
   );

@@ -147,14 +147,50 @@
           "description": "Microsoft Azure AI platform"
         },
         "Alibaba": {
-          "name": "Alibaba Cloud",
-          "description": "Alibaba Cloud AI services"
+          "name": "Alibaba Cloud PAI",
+          "description": "Platform for AI"
+        }
+      }
+    },
+    {
+      "category": "Hosting / Deployment",
+      "products": {
+        "HuggingFace": {
+          "name": "Inference Endpoints",
+          "url": "https://huggingface.co/inference-endpoints",
+          "description": "Production-ready inference"
+        },
+        "Replicate": {
+          "name": "Model Hosting",
+          "url": "https://replicate.com",
+          "description": "Deploy and run models in production"
+        },
+        "NVIDIA": {
+          "name": "NIM",
+          "description": "Inference microservices"
+        },
+        "AWS": {
+          "name": "SageMaker",
+          "description": "Managed ML platform"
+        },
+        "Google": {
+          "name": "Vertex AI",
+          "description": "Managed AI infrastructure"
+        },
+        "Azure": {
+          "name": "Azure AI Studio",
+          "description": "Managed AI platform"
+        },
+        "Alibaba": {
+          "name": "PAI-EAS",
+          "description": "Elastic Algorithm Service"
         }
       }
     },
     {
       "category": "Automation / Orchestration",
       "products": {
+        "Oracle": { "name": "AI Agent Studio", "description": "Enterprise agent orchestration" },
         "OpenAI": {
           "name": "Operator",
           "description": "Computer-using agent"
@@ -358,24 +394,84 @@
       }
     },
     {
-      "category": "Enterprise",
+      "category": "Hosting / Deployment",
       "products": {
+        "HuggingFace": {
+          "name": "Inference Endpoints",
+          "url": "https://huggingface.co/inference-endpoints",
+          "description": "Production-ready inference"
+        },
+        "Replicate": {
+          "name": "Model Hosting",
+          "url": "https://replicate.com",
+          "description": "Deploy and run models in production"
+        },
+        "NVIDIA": {
+          "name": "NIM",
+          "description": "Inference microservices"
+        },
+        "AWS": {
+          "name": "SageMaker",
+          "description": "Managed ML platform"
+        },
         "Google": {
-          "name": "Gemini Enterprise",
-          "description": "Workspace AI"
+          "name": "Vertex AI",
+          "description": "Managed AI infrastructure"
         },
-        "OpenAI": {
-          "name": "ChatGPT Enterprise",
-          "url": "https://openai.com/enterprise"
-        },
-        "Anthropic": {
-          "name": "Claude Enterprise",
-          "url": "https://anthropic.com/claude-enterprise"
-        },
-        "Microsoft": {
-          "name": "Copilot",
-          "url": "https://copilot.microsoft.com"
+        "Azure": {
+          "name": "Azure AI Studio",
+          "description": "Managed AI platform"
         }
+      }
+    },
+    {
+      "category": "Sovereign Engine",
+      "products": {
+        "Ollama": { "name": "Ollama", "description": "Local LLM execution framework" },
+        "LMStudio": { "name": "LM Studio", "description": "Local LLM GUI" },
+        "Jan": { "name": "Jan", "description": "Privacy-focused desktop app" },
+        "LocalAI": { "name": "LocalAI", "description": "Developer-centric engine" }
+      }
+    },
+    {
+      "category": "Sovereign Agent",
+      "products": {
+        "OpenClaw": { "name": "OpenClaw", "description": "Autonomous local agent" },
+        "OpenInterpreter": { "name": "OpenInterpreter", "description": "Terminal-based agent" },
+        "HuggingFace": { "name": "smolagents", "description": "Code-first agents" },
+        "ByteDance": { "name": "UI-TARS", "description": "Vision-based agent" }
+      }
+    },
+    {
+      "category": "Sovereign Orchestrator",
+      "products": {
+        "n8n": { "name": "n8n", "description": "Self-hosted automation" },
+        "deepset": { "name": "Haystack", "description": "Orchestration framework" },
+        "FlowiseAI": { "name": "Flowise", "description": "Visual orchestration" }
+      }
+    },
+    {
+      "category": "Enterprise Engine",
+      "products": {
+        "vLLM": { "name": "vLLM", "description": "Production-grade serving" },
+        "NVIDIA": { "name": "NIM", "description": "Enterprise inference" },
+        "HuggingFace": { "name": "TGI", "description": "Text Generation Inference" }
+      }
+    },
+    {
+      "category": "Enterprise Agent",
+      "products": {
+        "NVIDIA": { "name": "NemoClaw", "description": "Enterprise agent platform" },
+        "CrewAI": { "name": "CrewAI Enterprise", "description": "Enterprise agent crew" },
+        "LangChain": { "name": "LangGraph Studio", "description": "Visual agent debugging" }
+      }
+    },
+    {
+      "category": "Enterprise Orchestrator",
+      "products": {
+        "n8n": { "name": "n8n", "description": "Self-hosted automation" },
+        "deepset": { "name": "Haystack", "description": "Orchestration framework" },
+        "FlowiseAI": { "name": "Flowise", "description": "Visual orchestration" }
       }
     }
   ],
@@ -411,6 +507,15 @@
     "Temporal",
     "Make",
     "Courier",
-    "Zapier"
+    "Zapier",
+    "HuggingFace",
+    "Replicate",
+    "Ollama",
+    "LMStudio",
+    "OpenClaw",
+    "deepset",
+    "ByteDance",
+    "OpenInterpreter",
+    "FlowiseAI"
   ]
 }
