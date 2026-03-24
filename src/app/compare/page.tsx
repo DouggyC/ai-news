@@ -181,7 +181,7 @@ export default function ComparePage() {
         </div>
 
         <div className='mb-4 text-right text-sm text-zinc-500 dark:text-zinc-400 px-6'>
-          Last updated: March 15, 2026
+          Last updated: March 24, 2026
         </div>
         <div className='bg-white dark:bg-[#153457] rounded-2xl border border-zinc-200 dark:border-zinc-800/50 shadow-xl shadow-blue-900/5 overflow-hidden mb-12'>
           <div className='overflow-x-auto custom-scrollbar'>

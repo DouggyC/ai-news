@@ -108,7 +108,7 @@ const productData: ProductRow[] = [
       OpenAI: {
         name: 'ChatGPT',
         url: 'https://chat.openai.com',
-        description: 'Powered by GPT-5.4',
+        description: 'Powered by GPT-5.4 Thinking',
       },
       Anthropic: {
         name: 'Claude',
@@ -118,19 +118,19 @@ const productData: ProductRow[] = [
       Meta: {
         name: 'Meta AI',
         url: 'https://meta.ai',
-        description: 'Powered by Llama 4',
+        description: 'Powered by Llama 4 Scout',
       },
       xAI: {
         name: 'Grok',
         url: 'https://grok.com',
-        description: 'Powered by Grok 4',
+        description: 'Powered by Grok 4.20',
       },
       DeepSeek: {
         name: 'DeepSeek Chat',
         url: 'https://chat.deepseek.com',
-        description: 'Powered by DeepSeek V3.2',
+        description: 'Powered by DeepSeek V4',
       },
-      Mistral: { name: 'Le Chat', url: 'https://chat.mistral.ai' },
+      Mistral: { name: 'Le Chat', url: 'https://chat.mistral.ai', description: 'Powered by Mistral Large 3' },
       Amazon: {
         name: 'Amazon Q',
         url: 'https://aws.amazon.com/q/',
@@ -139,7 +139,7 @@ const productData: ProductRow[] = [
       ByteDance: {
         name: 'Doubao',
         url: 'https://www.doubao.com',
-        description: 'AI chatbot',
+        description: 'Powered by Doubao 2.0',
       },
       HuggingFace: {
         name: 'HuggingChat',
@@ -149,7 +149,7 @@ const productData: ProductRow[] = [
       Alibaba: {
         name: 'Qwen Chat',
         url: 'https://chat.qwen.com',
-        description: 'AI chatbot',
+        description: 'Powered by Qwen 3.5',
       },
       Tencent: {
         name: 'WeChat AI',
@@ -182,9 +182,9 @@ const productData: ProductRow[] = [
       },
       Anthropic: {
         name: 'Claude Desktop',
-        description: 'Desktop app with artifacts powered by Claude Sonnet 4.6',
+        description: 'Desktop app with artifacts powered by Claude Opus 4.6',
       },
-      Microsoft: { name: 'Copilot', description: 'VS Code extension' },
+      Microsoft: { name: 'Copilot', description: 'VS Code extension, now with GPT-5.4' },
       Amazon: {
         name: 'Amazon Q Developer',
         url: 'https://aws.amazon.com/q/developer',
@@ -206,14 +206,14 @@ const productData: ProductRow[] = [
   {
     category: 'CLI',
     products: {
-      Google: { name: 'Gemini CLI' },
-      OpenAI: { name: 'OpenAI CLI' },
+      Google: { name: 'Gemini CLI', description: 'Powered by Gemini 3.1 Pro' },
+      OpenAI: { name: 'OpenAI CLI', description: 'With GPT-5.4' },
       Anthropic: {
         name: 'Claude CLI',
         description: 'Claude Code agentic coding tool',
       },
       Cursor: { name: 'Cursor CLI', description: 'cursorr-cli' },
-      xAI: { name: 'Grok CLI' },
+      xAI: { name: 'Grok CLI', description: 'With Grok 4.20' },
       JetBrains: {
         name: 'Junie CLI',
         description: 'LLM-agnostic coding agent in beta',
@@ -792,7 +792,7 @@ export default function ProductsPage() {
 
         <div className='bg-white dark:bg-[#153457] rounded-2xl border border-zinc-200 dark:border-zinc-800/50 shadow-xl shadow-blue-900/5 overflow-hidden'>
           <div className='mb-4 text-right text-sm text-zinc-500 dark:text-zinc-400 px-6'>
-            Last updated: March 17, 2026
+            Last updated: March 24, 2026
           </div>
           <div className='overflow-x-auto custom-scrollbar'>
             <table className='w-full text-left border-collapse'>
@@ -904,7 +904,7 @@ export default function ProductsPage() {
                 <strong className='text-zinc-700 dark:text-zinc-300'>
                   Last Updated:
                 </strong>{' '}
-                March 2026. The AI space is highly dynamic!
+                March 24, 2026. The AI space is highly dynamic!
               </p>
             </div>
           </div>

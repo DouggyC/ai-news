@@ -28,10 +28,20 @@ Update the homepage news cards in `/src/app/page.tsx` with the latest AI news fr
    - Summaries should be 1-2 sentences describing the key announcement
 
 4. **Image Handling**:
-   - Use Unsplash URLs that are known to work (test with curl before including)
-   - Prioritize images that visually represent the topic (chips for hardware, brains/networks for AI models, etc.)
-   - If an image URL returns 404, replace it with a working alternative
-   - Preferred pattern: `https://images.unsplash.com/photo-[ID]?w=400&h=250&fit=crop`
+   - Use company-specific images from `data/data/images.json` instead of generic Unsplash images
+   - Match the correct image to the correct company based on the article:
+     - NVIDIA → Nemotron 3 Super image
+     - Anthropic → Claude Opus 4.6 image
+     - xAI → Grok 4.20 Beta image
+     - Meta → Llama 4 Scout/Maverick image
+     - OpenAI → GPT-5.4 image
+     - ByteDance → Doubao 2.0 image
+     - Alibaba → Qwen3.5 image
+     - DeepSeek → DeepSeek V4 image
+     - Mistral → Ministral 3 image
+     - MiniMax → M2.5 image
+   - For companies not in images.json (Google, Microsoft, Oracle, Adobe, Amazon), use appropriate fallback images or generic tech images
+   - Verify image URLs are accessible (return HTTP 200)
 
 5. **Link Verification**:
    - All sourceUrl links must be accessible (return HTTP 200)
