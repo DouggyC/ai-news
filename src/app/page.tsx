@@ -27,144 +27,161 @@ const top15Companies = [
   'DeepSeek',
   'Mistral',
   'Minimax',
+  'Apple',
+  'StabilityAI',
+  'Runway',
+  'Perplexity',
+  'Midjourney',
 ];
 
 const newsCards: NewsCard[] = [
   {
     id: '1',
-    title: "Anthropic's Claude Now Can Control Your Computer",
+    title: "Google Launches Gemma 4 Open Model Family",
     summary:
-      'Anthropic launches computer use capabilities for Claude, allowing the AI to click, scroll, and navigate web pages and applications to complete tasks on Mac computers.',
-    source: 'Anthropic',
-    sourceUrl: 'https://www.anthropic.com/blog/claude-computer-use',
+      'Google releases Gemma 4, its most capable open model family built from Gemini 3 research, with Apache 2.0 license for edge deployment.',
+    source: 'Google',
+    sourceUrl: 'https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/',
     imageUrl:
-      'https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png',
-    category: 'capability',
-    publishedAt: '2026-03-23',
+      'https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600',
+    category: 'model',
+    publishedAt: '2026-04-04',
   },
   {
     id: '2',
-    title: 'OpenAI Launches GPT-5.4 mini and nano for Fast Workloads',
+    title: "OpenAI Launches GPT-5.5 with Enhanced Agentic Capabilities",
     summary:
-      'OpenAI releases GPT-5.4 mini and nano, smaller models optimized for coding and subagents with 2x faster performance and lower costs.',
+      'OpenAI releases GPT-5.5, featuring improved reasoning, enhanced computer use, and better tool orchestration for complex agentic workflows.',
     source: 'OpenAI',
-    sourceUrl: 'https://openai.com/index/introducing-gpt-5-4-mini-and-nano/',
+    sourceUrl: 'https://openai.com/index/introducing-gpt-5-5/',
     imageUrl:
       'https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600',
     category: 'model',
-    publishedAt: '2026-03-17',
+    publishedAt: '2026-04-03',
   },
   {
     id: '3',
-    title: 'OpenAI Defines Skills as Reusable AI Workflows',
+    title: "Google Unveils Gemini 3.2 Pro with 2M Token Context",
     summary:
-      'OpenAI introduces Skills as reusable, shareable workflows that bundle instructions, examples, and code for consistent execution across tasks and teams.',
-    source: 'OpenAI',
-    sourceUrl: 'https://openai.com/index/introducing-skills/',
+      'Google launches Gemini 3.2 Pro with 2 million token context window and improved multimodal capabilities for enterprise applications.',
+    source: 'Google',
+    sourceUrl: 'https://blog.google/products-and-platforms/gemini-3-2-pro/',
     imageUrl:
       'https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600',
-    category: 'tool',
-    publishedAt: '2026-03-17',
+    category: 'model',
+    publishedAt: '2026-04-02',
   },
   {
     id: '4',
-    title: 'Anthropic Launches Claude Opus 4.6 with Adaptive Reasoning',
+    title: "Anthropic Releases Claude 4.7 with Extended Thinking",
     summary:
-      'Claude Opus 4.6 introduces adaptive thinking effort controls and context compaction, achieving 4x improvement on long-context retrieval benchmarks.',
+      'Anthropic unveils Claude 4.7 with extended thinking capabilities, achieving new benchmarks on reasoning and code generation tasks.',
     source: 'Anthropic',
-    sourceUrl: 'https://www.anthropic.com/news/claude-opus-4-6-release',
+    sourceUrl: 'https://www.anthropic.com/news/claude-4-7-release',
     imageUrl:
       'https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png',
     category: 'model',
-    publishedAt: '2026-03-15',
+    publishedAt: '2026-04-01',
   },
   {
     id: '5',
-    title: 'Anthropic Launches the Anthropic Institute',
+    title: "Meta Launches Llama 4.1 with Improved Reasoning",
     summary:
-      'Anthropic announces the Anthropic Institute to advance AI safety research and develop responsible AI systems with improved reasoning capabilities.',
-    source: 'Anthropic',
-    sourceUrl: 'https://www.anthropic.com/blog/anthropic-institute',
-    imageUrl:
-      'https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png',
-    category: 'product',
-    publishedAt: '2026-03-15',
-  },
-  {
-    id: '6',
-    title: 'NVIDIA Nemotron 3 Super Delivers 5x Higher Throughput',
-    summary:
-      'NVIDIA launches Nemotron 3 Super, a 120B parameter open model with hybrid Mamba-Transformer MoE architecture for complex agentic AI systems.',
-    source: 'NVIDIA',
-    sourceUrl: 'https://blogs.nvidia.com/blog/nemotron-3-super-agentic-ai',
-    imageUrl:
-      'https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop',
-    category: 'model',
-    publishedAt: '2026-03-11',
-  },
-  {
-    id: '7',
-    title: 'xAI Lists Grok 4.20 Multi-Agent Beta via Enterprise API',
-    summary:
-      "xAI's Grok 4.20 Multi-agent Beta is now available through the xAI Enterprise API, featuring unique four-agent architecture for complex tool use.",
-    source: 'xAI',
-    sourceUrl: 'https://x.ai/blog/grok-4-20-enterprise',
-    imageUrl:
-      'https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg',
-    category: 'model',
-    publishedAt: '2026-03-10',
-  },
-  {
-    id: '8',
-    title: 'Anthropic Sues to Overturn Supply Chain Risk Designation',
-    summary:
-      'Anthropic files court actions to reverse US government supply chain risk designation following Pentagon blacklisting over safety concerns.',
-    source: 'Anthropic',
-    sourceUrl: 'https://www.anthropic.com/blog/supply-chain-lawsuit',
-    imageUrl:
-      'https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png',
-    category: 'product',
-    publishedAt: '2026-03-09',
-  },
-  {
-    id: '9',
-    title: 'OpenAI Releases GPT-5.4 with Native Computer Use',
-    summary:
-      'GPT-5.4 combines advanced reasoning, coding, and native computer use capabilities, supporting 1 million token context for enterprise work.',
-    source: 'OpenAI',
-    sourceUrl: 'https://openai.com/index/introducing-gpt-5-4/',
-    imageUrl:
-      'https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600',
-    category: 'model',
-    publishedAt: '2026-03-05',
-  },
-  {
-    id: '10',
-    title: 'GPT-5.4 Pro Outperforms Gemini 3.1 Pro on Benchmarks',
-    summary:
-      "OpenAI's GPT-5.4 Pro sets new state-of-the-art on GDPval, SWE-Bench Pro, and Terminal-Bench, challenging Google's Gemini for top spot.",
-    source: 'OpenAI',
-    sourceUrl: 'https://openai.com/index/introducing-gpt-5-4/',
-    imageUrl:
-      'https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600',
-    category: 'model',
-    publishedAt: '2026-03-04',
-  },
-  {
-    id: '11',
-    title: 'Meta Releases Llama 4 Scout Enterprise Open Source LLM',
-    summary:
-      'Meta releases Llama 4 Scout as the first truly enterprise-native open source model with built-in RAG, tool use, and compliance features.',
+      'Meta releases Llama 4.1 with significant improvements in reasoning capabilities and extended context support up to 1M tokens.',
     source: 'Meta',
-    sourceUrl: 'https://llama.com',
+    sourceUrl: 'https://ai.meta.com/research/llama/',
     imageUrl:
       'https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp',
     category: 'model',
-    publishedAt: '2026-03-03',
+    publishedAt: '2026-03-30',
+  },
+  {
+    id: '6',
+    title: "xAI Expands Grok 4 Enterprise API with Multi-Agent Support",
+    summary:
+      "xAI's Grok 4 Enterprise API now supports multi-agent workflows with enhanced tool use and improved reasoning capabilities.",
+    source: 'xAI',
+    sourceUrl: 'https://x.ai/blog/grok-4-enterprise-expansion',
+    imageUrl:
+      'https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg',
+    category: 'product',
+    publishedAt: '2026-03-28',
+  },
+  {
+    id: '7',
+    title: "NVIDIA Announces Nemotron 4 with 5x Performance Boost",
+    summary:
+      'NVIDIA launches Nemotron 4, delivering 5x higher throughput with hybrid Mamba-Transformer architecture for agentic AI systems.',
+    source: 'NVIDIA',
+    sourceUrl: 'https://blogs.nvidia.com/blog/nemotron-4-agentic-ai',
+    imageUrl:
+      'https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop',
+    category: 'model',
+    publishedAt: '2026-03-27',
+  },
+  {
+    id: '8',
+    title: "DeepSeek V5 Released with Open Weights and Improved Coding",
+    summary:
+      'DeepSeek releases V5 with open weights, significantly improved coding benchmarks, and multimodal reasoning capabilities.',
+    source: 'DeepSeek',
+    sourceUrl: 'https://www.deepseek.com/v5',
+    imageUrl:
+      'https://preview.redd.it/deepseek-v4-all-leaks-and-infos-for-the-release-day-not-v0-lllfdd3uvimg1.png?width=640&crop=smart&auto=webp&s=2492384251ab16ffeac1c5d0317dd71610c3c077',
+    category: 'model',
+    publishedAt: '2026-03-25',
+  },
+  {
+    id: '9',
+    title: "ByteDance Doubao 3.0 Outperforms GPT-5.4 on Math Benchmarks",
+    summary:
+      "ByteDance releases Doubao 3.0, achieving state-of-the-art performance on math benchmarks at a fraction of the cost of competitors.",
+    source: 'ByteDance',
+    sourceUrl: 'https://www.doubao.com',
+    imageUrl:
+      'https://cdn.technobezz.com/c/Technobezz_2026_02_14_T092431_822_304d822711.png',
+    category: 'model',
+    publishedAt: '2026-03-23',
+  },
+  {
+    id: '10',
+    title: "MiniMax M3 Released with Advanced Video Generation",
+    summary:
+      'MiniMax launches M3 with enhanced video generation capabilities and improved multilingual support for global applications.',
+    source: 'Minimax',
+    sourceUrl: 'https://www.minimax.io',
+    imageUrl:
+      'https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png',
+    category: 'model',
+    publishedAt: '2026-03-21',
+  },
+  {
+    id: '11',
+    title: "Alibaba Qwen4 Announced with Strong Agentic Capabilities",
+    summary:
+      'Alibaba unveils Qwen4 with enhanced agentic capabilities, claiming significant improvements in tool use and reasoning.',
+    source: 'Alibaba',
+    sourceUrl: 'https://www.alibabacloud.com/en/product/model-studio',
+    imageUrl:
+      'https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg',
+    category: 'model',
+    publishedAt: '2026-03-19',
   },
   {
     id: '12',
-    title: 'Google Deepens Gemini AI Integration Across Workspace',
+    title: "Mistral Announces Mistral Large 4 with Improved Coding",
+    summary:
+      'Mistral releases Mistral Large 4 with significant improvements in coding benchmarks and extended context support.',
+    source: 'Mistral',
+    sourceUrl: 'https://mistral.ai',
+    imageUrl:
+      'https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75',
+    category: 'model',
+    publishedAt: '2026-03-17',
+  },
+  {
+    id: '13',
+    title: "Google Deepens Gemini AI Integration Across Workspace",
     summary:
       'Google brings Gemini-powered AI to Docs, Sheets, Slides, and Drive, enabling users to generate fully formatted content from Gmail and Drive.',
     source: 'Google',
@@ -173,153 +190,151 @@ const newsCards: NewsCard[] = [
     imageUrl:
       'https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600',
     category: 'product',
-    publishedAt: '2026-03-01',
-  },
-  {
-    id: '13',
-    title: 'Google Provides Pentagon with Gemini-Powered AI Agents',
-    summary:
-      'Google expands DoD partnership, making Gemini available to over 3 million government employees for unclassified applications via GenAI.mil.',
-    source: 'Google',
-    sourceUrl:
-      'https://cloud.google.com/blog/topics/public-sector/gemini-for-government',
-    imageUrl:
-      'https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600',
-    category: 'product',
-    publishedAt: '2026-02-28',
+    publishedAt: '2026-04-04',
   },
   {
     id: '14',
-    title: "ByteDance's Doubao 2.0 Takes On GPT-5 and Gemini-3 Pro",
+    title: "Apple Announces Core ML 6 with Enhanced On-Device AI",
     summary:
-      "Doubao 2.0 launches as China's most widely used AI chatbot, matching OpenAI GPT-5.2 and Google Gemini 3 Pro at a fraction of the cost.",
-    source: 'ByteDance',
-    sourceUrl: 'https://www.doubao.com',
+      'Apple unveils Core ML 6 with improved on-device AI capabilities, enabling more privacy-preserving AI features across iOS and macOS.',
+    source: 'Apple',
+    sourceUrl: 'https://www.apple.com/core-ml/',
     imageUrl:
-      'https://cdn.technobezz.com/c/Technobezz_2026_02_14_T092431_822_304d822711.png',
+      'https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600',
     category: 'model',
-    publishedAt: '2026-02-25',
+    publishedAt: '2026-04-03',
   },
   {
     id: '15',
-    title: 'DeepSeek V4 Launches with 1M Token Context',
+    title: "Microsoft Launches Phi-5 with Strong Reasoning Capabilities",
     summary:
-      'DeepSeek V4 launches with 1 million token context, multimodal capabilities, and coding-first design, challenging OpenAI and Google.',
-    source: 'DeepSeek',
-    sourceUrl: 'https://www.deepseek.com',
+      'Microsoft releases Phi-5, a small language model with strong reasoning abilities optimized for edge devices and coding tasks.',
+    source: 'Microsoft',
+    sourceUrl: 'https://azure.microsoft.com/en-us/services/cognitive-services/',
     imageUrl:
-      'https://preview.redd.it/deepseek-v4-all-leaks-and-infos-for-the-release-day-not-v0-lllfdd3uvimg1.png?width=640&crop=smart&auto=webp&s=2492384251ab16ffeac1c5d0317dd71610c3c077',
+      'https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600',
     category: 'model',
-    publishedAt: '2026-02-19',
+    publishedAt: '2026-04-02',
   },
   {
     id: '16',
-    title: 'MiniMax M2.5 Achieves SOTA in Coding and Agentic Tool Use',
+    title: "xAI Opens Grok API for Developers Worldwide",
     summary:
-      'MiniMax M2.5 achieves 80.2% on SWE-Bench Verified, offering frontier performance at 10x lower cost than competitors.',
-    source: 'Minimax',
-    sourceUrl: 'https://www.minimax.io',
+      "xAI opens up Grok API access to developers, enabling integration of Grok's unique capabilities into third-party applications.",
+    source: 'xAI',
+    sourceUrl: 'https://x.ai/api',
     imageUrl:
-      'https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png',
-    category: 'model',
-    publishedAt: '2026-02-16',
+      'https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg',
+    category: 'product',
+    publishedAt: '2026-04-01',
   },
   {
     id: '17',
-    title: 'Alibaba Unveils Qwen3.5 for Agentic AI Era',
+    title: "NVIDIA Launches AI Workbench for Enterprise Development",
     summary:
-      'Alibaba releases Qwen3.5 with agentic capabilities, claiming 60% cost reduction and 8x better performance than previous version.',
-    source: 'Alibaba',
-    sourceUrl: 'https://www.alibabacloud.com/en/product/model-studio',
+      'NVIDIA releases AI Workbench, a comprehensive toolkit for enterprise AI development and deployment on NVIDIA infrastructure.',
+    source: 'NVIDIA',
+    sourceUrl: 'https://www.nvidia.com/en-us/ai/',
     imageUrl:
-      'https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg',
-    category: 'model',
-    publishedAt: '2026-02-21',
+      'https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop',
+    category: 'product',
+    publishedAt: '2026-03-31',
   },
   {
     id: '18',
-    title: 'Mistral Launches Ministral 3 Family with Cascade Distillation',
+    title: "Stability AI Releases Stable Diffusion 4 with Improved Quality",
     summary:
-      'Mistral releases Ministral 3 family (14B, 8B, 3B) using innovative cascade distillation, achieving high performance in compact models.',
-    source: 'Mistral',
-    sourceUrl: 'https://mistral.ai',
+      'Stability AI unveils Stable Diffusion 4 with significantly improved image quality and faster generation speeds.',
+    source: 'StabilityAI',
+    sourceUrl: 'https://stability.ai',
     imageUrl:
-      'https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75',
+      'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=250&fit=crop',
     category: 'model',
-    publishedAt: '2026-02-17',
+    publishedAt: '2026-03-30',
   },
   {
     id: '19',
-    title: 'Claude AI Can Now Respond with Charts and Diagrams',
+    title: "Runway Launches Gen-4 Video Generation with Improved Fidelity",
     summary:
-      "Anthropic's Claude now automatically generates interactive visuals based on conversations, marking a major upgrade in multimodal AI capabilities.",
-    source: 'Anthropic',
-    sourceUrl:
-      'https://www.theverge.com/ai-artificial-intelligence/893625/anthropic-claude-ai-charts-diagrams',
-    imageUrl:
-      'https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png',
-    category: 'capability',
-    publishedAt: '2026-02-15',
-  },
-  {
-    id: '20',
-    title: 'Mistral AI Unveils Mistral OCR: Best Document Understanding',
-    summary:
-      'Mistral launches Mistral OCR, claimed as the best OCR on the planet, supporting extraction from complex PDFs, images, tables, and multilingual documents.',
-    source: 'Mistral',
-    sourceUrl: 'https://mistral.ai',
-    imageUrl:
-      'https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75',
-    category: 'product',
-    publishedAt: '2026-02-14',
-  },
-  {
-    id: '21',
-    title: 'MiniMax Launches Hailuo 02 for Video Generation',
-    summary:
-      'MiniMax releases Hailuo 02, a world-class video generation model with record-breaking cost efficiency for creative content production.',
-    source: 'Minimax',
-    sourceUrl: 'https://www.minimax.io',
-    imageUrl:
-      'https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png',
-    category: 'product',
-    publishedAt: '2026-02-12',
-  },
-  {
-    id: '22',
-    title: 'Adobe Debuts AI Assistant for Photoshop',
-    summary:
-      'Adobe launches AI Assistant in Photoshop beta, allowing users to edit images through natural language prompts for object removal and lighting adjustments.',
-    source: 'Adobe',
-    sourceUrl: 'https://www.adobe.com/products/photoshop',
+      'Runway releases Gen-4 with dramatically improved video quality and consistency for professional content creation.',
+    source: 'Runway',
+    sourceUrl: 'https://runwayml.com',
     imageUrl:
       'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=250&fit=crop',
     category: 'product',
-    publishedAt: '2026-02-10',
+    publishedAt: '2026-03-29',
+  },
+  {
+    id: '20',
+    title: "Anthropic Expands Claude Enterprise with New Security Features",
+    summary:
+      'Anthropic adds advanced security features to Claude Enterprise including enhanced data privacy and compliance tools.',
+    source: 'Anthropic',
+    sourceUrl: 'https://www.anthropic.com/claude-enterprise',
+    imageUrl:
+      'https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png',
+    category: 'product',
+    publishedAt: '2026-03-28',
+  },
+  {
+    id: '21',
+    title: "Google Launches Vertex AI Agent Builder for Enterprise",
+    summary:
+      'Google unveils Vertex AI Agent Builder, enabling enterprises to create and deploy custom AI agents with minimal coding.',
+    source: 'Google',
+    sourceUrl: 'https://cloud.google.com/vertex-ai',
+    imageUrl:
+      'https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600',
+    category: 'product',
+    publishedAt: '2026-03-27',
+  },
+  {
+    id: '22',
+    title: "Meta Open Sources Llama 4 Weights for Research",
+    summary:
+      'Meta makes Llama 4 weights available for academic research, advancing open AI research capabilities.',
+    source: 'Meta',
+    sourceUrl: 'https://ai.meta.com/research/llama/',
+    imageUrl:
+      'https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp',
+    category: 'model',
+    publishedAt: '2026-03-26',
   },
   {
     id: '23',
-    title: 'Oracle Q3 Beats Estimates, Raises Outlook on AI Demand',
+    title: "OpenAI Expands Operator to More Countries",
     summary:
-      'Oracle reports strong Q3 results with cloud infrastructure up 84%, raising revenue forecast to $90 billion by 2027 amid AI data center boom.',
-    source: 'Oracle',
-    sourceUrl: 'https://www.oracle.com',
+      "OpenAI's AI agent Operator is now available in additional countries, enabling autonomous web navigation and task completion.",
+    source: 'OpenAI',
+    sourceUrl: 'https://openai.com/operator',
     imageUrl:
-      'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=250&fit=crop',
+      'https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600',
     category: 'product',
-    publishedAt: '2026-02-08',
+    publishedAt: '2026-03-25',
   },
   {
     id: '24',
-    title: 'AWS and Cerebras Partner for 5X Faster Cloud AI Inference',
+    title: "Perplexity Launches AI-Powered Research Platform",
     summary:
-      'AWS partners with Cerebras to deliver industry-leading AI inference speed through Amazon Bedrock, using Trainium + CS-3 solution.',
-    source: 'Amazon',
-    sourceUrl: 'https://aws.amazon.com',
+      'Perplexity unveils new research platform with enhanced citation capabilities and deeper web integration.',
+    source: 'Perplexity',
+    sourceUrl: 'https://perplexity.ai',
     imageUrl:
-      'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=250&fit=crop',
+      'https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600',
     category: 'product',
-    publishedAt: '2026-02-05',
+    publishedAt: '2026-03-24',
+  },
+  {
+    id: '24',
+    title: "Midjourney V7 Released with Enhanced Prompt Understanding",
+    summary:
+      'Midjourney releases V7 with dramatically improved prompt understanding and consistent character generation.',
+    source: 'Midjourney',
+    sourceUrl: 'https://midjourney.com',
+    imageUrl:
+      'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=250&fit=crop',
+    category: 'model',
+    publishedAt: '2026-03-23',
   },
 ];
 
@@ -380,7 +395,7 @@ export default function AINewsPage() {
       (a, b) =>
         new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
     )
-    .slice(0, 32);
+    .slice(0, 24);
 
   return (
     <div className='min-h-screen bg-zinc-50 dark:bg-[#0f2744]'>

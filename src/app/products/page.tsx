@@ -13,18 +13,8 @@ interface ProductRow {
 
 const productData: ProductRow[] = [
   {
-    category: 'Foundation Models',
+    category: 'Foundation Models (Proprietary)',
     products: {
-      NVIDIA: {
-        name: 'Nemotron',
-        url: 'https://www.nvidia.com/en-us/ai/',
-        description: 'NVIDIA LLM family',
-      },
-      Microsoft: {
-        name: 'Phi',
-        url: 'https://azure.microsoft.com/en-us/services/cognitive-services/',
-        description: 'Small language models',
-      },
       Google: {
         name: 'Gemini',
         url: 'https://gemini.google.com',
@@ -34,36 +24,6 @@ const productData: ProductRow[] = [
         name: 'Nova',
         url: 'https://aws.amazon.com/bedrock/',
         description: "Amazon's foundation models",
-      },
-      Meta: {
-        name: 'Llama',
-        url: 'https://llama.com',
-        description: 'Open source LLM',
-      },
-      Oracle: {
-        name: 'Llama',
-        url: 'https://www.oracle.com/artificial-intelligence/',
-        description: 'Oracle AI foundation models',
-      },
-      ByteDance: {
-        name: 'Doubao',
-        url: 'https://www.doubao.com',
-        description: 'ByteDance LLM',
-      },
-      Adobe: {
-        name: 'Firefly',
-        url: 'https://www.adobe.com/sensei/generative-ai/firefly.html',
-        description: 'Creative AI models',
-      },
-      Tencent: {
-        name: 'Hunyuan',
-        url: 'https://www.tencentcloud.com/product/tclm',
-        description: 'Tencent LLM family',
-      },
-      Alibaba: {
-        name: 'Qwen',
-        url: 'https://www.alibabacloud.com/en/product/model-studio',
-        description: "Alibaba's LLM family",
       },
       OpenAI: {
         name: 'GPT',
@@ -80,6 +40,36 @@ const productData: ProductRow[] = [
         url: 'https://x.ai',
         description: "xAI's LLM",
       },
+      ByteDance: {
+        name: 'Doubao',
+        url: 'https://www.doubao.com',
+        description: 'ByteDance LLM',
+      },
+      Adobe: {
+        name: 'Firefly',
+        url: 'https://www.adobe.com/sensei/generative-ai/firefly.html',
+        description: 'Creative AI models',
+      },
+      Tencent: {
+        name: 'Hunyuan',
+        url: 'https://www.tencentcloud.com/product/tclm',
+        description: 'Tencent LLM family',
+      },
+      Minimax: {
+        name: 'Minimax',
+        url: 'https://www.minimax.io',
+        description: 'Multi-modal LLM',
+      },
+    },
+  },
+  {
+    category: 'Foundation Models (Open Model)',
+    products: {
+      Meta: {
+        name: 'Llama',
+        url: 'https://llama.com',
+        description: 'Open source LLM',
+      },
       DeepSeek: {
         name: 'DeepSeek',
         url: 'https://www.deepseek.com',
@@ -90,10 +80,25 @@ const productData: ProductRow[] = [
         url: 'https://mistral.ai',
         description: 'French LLM',
       },
-      Minimax: {
-        name: 'Minimax',
-        url: 'https://www.minimax.io',
-        description: 'Multi-modal LLM',
+      Alibaba: {
+        name: 'Qwen',
+        url: 'https://www.alibabacloud.com/en/product/model-studio',
+        description: "Alibaba's LLM family",
+      },
+      NVIDIA: {
+        name: 'Nemotron',
+        url: 'https://www.nvidia.com/en-us/ai/',
+        description: 'NVIDIA LLM family',
+      },
+      Microsoft: {
+        name: 'Phi',
+        url: 'https://azure.microsoft.com/en-us/services/cognitive-services/',
+        description: 'Small language models',
+      },
+      Google: {
+        name: 'Gemma',
+        url: 'https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/',
+        description: 'Open model family, Apache 2.0',
       },
     },
   },
@@ -103,34 +108,34 @@ const productData: ProductRow[] = [
       Google: {
         name: 'Gemini',
         url: 'https://gemini.google.com',
-        description: 'Powered by Gemini 3.1 Pro',
+        description: 'Powered by Gemini 3.2 Pro',
       },
       OpenAI: {
         name: 'ChatGPT',
         url: 'https://chat.openai.com',
-        description: 'Powered by GPT-5.4 Thinking',
+        description: 'Powered by GPT-5.5',
       },
       Anthropic: {
         name: 'Claude',
         url: 'https://claude.ai',
-        description: 'Powered by Claude Opus 4.6',
+        description: 'Powered by Claude 4.7',
       },
       Meta: {
         name: 'Meta AI',
         url: 'https://meta.ai',
-        description: 'Powered by Llama 4 Scout',
+        description: 'Powered by Llama 4.1',
       },
       xAI: {
         name: 'Grok',
         url: 'https://grok.com',
-        description: 'Powered by Grok 4.20',
+        description: 'Powered by Grok 4',
       },
       DeepSeek: {
         name: 'DeepSeek Chat',
         url: 'https://chat.deepseek.com',
-        description: 'Powered by DeepSeek V4',
+        description: 'Powered by DeepSeek V5',
       },
-      Mistral: { name: 'Le Chat', url: 'https://chat.mistral.ai', description: 'Powered by Mistral Large 3' },
+      Mistral: { name: 'Le Chat', url: 'https://chat.mistral.ai', description: 'Powered by Mistral Large 4' },
       Amazon: {
         name: 'Amazon Q',
         url: 'https://aws.amazon.com/q/',
@@ -139,7 +144,7 @@ const productData: ProductRow[] = [
       ByteDance: {
         name: 'Doubao',
         url: 'https://www.doubao.com',
-        description: 'Powered by Doubao 2.0',
+        description: 'Powered by Doubao 3.0',
       },
       HuggingFace: {
         name: 'HuggingChat',
@@ -149,7 +154,7 @@ const productData: ProductRow[] = [
       Alibaba: {
         name: 'Qwen Chat',
         url: 'https://chat.qwen.com',
-        description: 'Powered by Qwen 3.5',
+        description: 'Powered by Qwen4',
       },
       Tencent: {
         name: 'WeChat AI',
@@ -174,17 +179,17 @@ const productData: ProductRow[] = [
       Google: {
         name: 'Antigravity',
         url: 'https://antigravity.google',
-        description: 'Agent-first IDE powered by Gemini 3.1 Pro',
+        description: 'Agent-first IDE powered by Gemini 3.2 Pro',
       },
       OpenAI: {
         name: 'Codex',
-        description: 'Cloud coding agent powered by GPT-5.4',
+        description: 'Cloud coding agent powered by GPT-5.5',
       },
       Anthropic: {
         name: 'Claude Desktop',
-        description: 'Desktop app with artifacts powered by Claude Opus 4.6',
+        description: 'Desktop app with artifacts powered by Claude 4.7',
       },
-      Microsoft: { name: 'Copilot', description: 'VS Code extension, now with GPT-5.4' },
+      Microsoft: { name: 'Copilot', description: 'VS Code extension, now with GPT-5.5' },
       Amazon: {
         name: 'Amazon Q Developer',
         url: 'https://aws.amazon.com/q/developer',
@@ -206,14 +211,14 @@ const productData: ProductRow[] = [
   {
     category: 'CLI',
     products: {
-      Google: { name: 'Gemini CLI', description: 'Powered by Gemini 3.1 Pro' },
-      OpenAI: { name: 'OpenAI CLI', description: 'With GPT-5.4' },
+      Google: { name: 'Gemini CLI', description: 'Powered by Gemini 3.2 Pro' },
+      OpenAI: { name: 'OpenAI CLI', description: 'With GPT-5.5' },
       Anthropic: {
         name: 'Claude CLI',
         description: 'Claude Code agentic coding tool',
       },
       Cursor: { name: 'Cursor CLI', description: 'cursorr-cli' },
-      xAI: { name: 'Grok CLI', description: 'With Grok 4.20' },
+      xAI: { name: 'Grok CLI', description: 'With Grok 4' },
       JetBrains: {
         name: 'Junie CLI',
         description: 'LLM-agnostic coding agent in beta',
@@ -792,7 +797,7 @@ export default function ProductsPage() {
 
         <div className='bg-white dark:bg-[#153457] rounded-2xl border border-zinc-200 dark:border-zinc-800/50 shadow-xl shadow-blue-900/5 overflow-hidden'>
           <div className='mb-4 text-right text-sm text-zinc-500 dark:text-zinc-400 px-6'>
-            Last updated: March 24, 2026
+            Last updated: April 4, 2026
           </div>
           <div className='overflow-x-auto custom-scrollbar'>
             <table className='w-full text-left border-collapse'>
@@ -903,8 +908,8 @@ export default function ProductsPage() {
               <p className='text-zinc-600 dark:text-zinc-400'>
                 <strong className='text-zinc-700 dark:text-zinc-300'>
                   Last Updated:
-                </strong>{' '}
-                March 24, 2026. The AI space is highly dynamic!
+                  </strong>{' '}
+                  April 4, 2026. The AI space is highly dynamic!
               </p>
             </div>
           </div>

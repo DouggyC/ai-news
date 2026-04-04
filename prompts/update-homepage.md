@@ -20,7 +20,7 @@ Update the homepage news cards in `/src/app/page.tsx` with the latest AI news fr
    - Skip partnerships, acquisitions, or non-product news unless they're major AI launches
 
 3. **Update Specifications**:
-   - Replace the `newsCards` array in `/src/app/page.tsx` with exactly 12 cards
+   - Replace the `newsCards` array in `/src/app/page.tsx` with exactly 24 cards
    - Maintain the exact same TypeScript interface and format
    - Each card must have: id, title, summary, source, sourceUrl, imageUrl, category, publishedAt
    - Categories should be: 'model' for AI models, 'product' for AI products/features, 'tool' for AI tools
@@ -49,6 +49,7 @@ Update the homepage news cards in `/src/app/page.tsx` with the latest AI news fr
    - Test links with curl before including
 
 6. **Technical Requirements**:
+   - **DO NOT modify any UI or CSS** - only update content information (news cards data)
    - Maintain existing code structure and styling
    - Do not modify any other parts of the file
    - Ensure TypeScript compiles without errors
@@ -56,7 +57,7 @@ Update the homepage news cards in `/src/app/page.tsx` with the latest AI news fr
 
 ## Process
 1. Research latest AI news from target companies
-2. Select 12 most relevant/recent model/product announcements
+2. Select 24 most relevant/recent model/product announcements
 3. For each card:
    - Craft appropriate title and summary
    - Verify source URL accessibility
@@ -82,7 +83,7 @@ Update the homepage news cards in `/src/app/page.tsx` with the latest AI news fr
 ```
 
 ## Quality Checks Before Completion
-- [ ] Exactly 12 cards in the newsCards array
+- [ ] Exactly 24 cards in the newsCards array
 - [ ] All companies represented are frontier/FAANG AI leaders
 - [ ] All content is from current month (no outdated news)
 - [ ] All image URLs return HTTP 200 when tested

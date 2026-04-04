@@ -8,6 +8,7 @@ interface FrontierModel {
   name: string;
   provider: string;
   openSource: boolean;
+  license: string;
   releaseDate: string;
   parameters: number;
   modelSizeGB: number;
@@ -57,6 +58,7 @@ export default function ComparePage() {
             name: 'GPT-5.4 Thinking',
             provider: 'OpenAI',
             openSource: false,
+            license: 'Proprietary',
             releaseDate: '2026-03-05',
             parameters: 2_000_000_000_000,
             modelSizeGB: 1500,
@@ -181,7 +183,7 @@ export default function ComparePage() {
         </div>
 
         <div className='mb-4 text-right text-sm text-zinc-500 dark:text-zinc-400 px-6'>
-          Last updated: March 24, 2026
+          Last updated: April 4, 2026
         </div>
         <div className='bg-white dark:bg-[#153457] rounded-2xl border border-zinc-200 dark:border-zinc-800/50 shadow-xl shadow-blue-900/5 overflow-hidden mb-12'>
           <div className='overflow-x-auto custom-scrollbar'>
@@ -322,7 +324,7 @@ export default function ComparePage() {
                             : 'bg-indigo-50 dark:bg-indigo-500/10 text-indigo-700 dark:text-indigo-400 border-indigo-200 dark:border-indigo-500/20'
                         }`}
                       >
-                        {model.openSource ? 'Open Source' : 'Proprietary'}
+                        {model.openSource ? model.license : 'Proprietary'}
                       </span>
                     </td>
                     <td className='py-4 px-6 text-zinc-600 dark:text-zinc-400 text-sm'>
