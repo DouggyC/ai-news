@@ -53,7 +53,11 @@ const productData: ProductRow[] = [
       Meta: {
         name: 'Llama 4',
         url: 'https://www.llama.com/models/llama-4/',
-        description: 'Meta open-weight multimodal family used across Meta AI and partner stacks',
+      },
+      'Muse Spark': {
+        name: 'Muse Spark',
+        url: 'https://ai.meta.com/blog/muse-spark',
+        description: 'Meta\'s latest flagship model ranking 4th on AI Index with strong health and science reasoning. Closed model with API in private preview'
       },
       DeepSeek: {
         name: 'DeepSeek V3.2',
@@ -108,7 +112,7 @@ const productData: ProductRow[] = [
       Meta: {
         name: 'Meta AI',
         url: 'https://ai.meta.com',
-        description: 'Powered by Llama 4 across Meta apps and standalone assistant experiences',
+        description: 'Powered by Muse Spark, Meta\'s latest flagship. Ranks 4th on AI Index, leads on HealthBench, free at meta.ai and across Meta apps'
       },
       Amazon: {
         name: 'Amazon Q',

@@ -31,8 +31,12 @@ const top15Companies = [
   'StabilityAI',
   'Runway',
   'Perplexity',
-  'Midjourney',
+  'Hugging Face',
+  'Zhipu AI',
+  'Corti',
+  'Pony.ai',
 ];
+
 
 const newsCards: NewsCard[] = [
   {
