@@ -1,6 +1,13 @@
 # AI Model Tracker - Research Sources
 
 This document contains all the sources referenced when building the AI Model Tracker application.
+## Alternative Tech News Sources (for URLs that return 403)
+- https://techcrunch.com/tag/ai/
+- https://www.theverge.com/tag/ai
+- https://www.venturebeat.com/category/ai/
+- https://gizmodo.com/ai
+- https://www.wired.com/tag/artificial-intelligence/
+
 
 ## Products Page Research
 

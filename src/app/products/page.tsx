@@ -16,49 +16,34 @@ const productData: ProductRow[] = [
     category: 'Foundation Models (Proprietary)',
     products: {
       Google: {
-        name: 'Gemini',
-        url: 'https://gemini.google.com',
-        description: 'Multi-modal foundation model',
+        name: 'Gemini 3.1 Pro',
+        url: 'https://deepmind.google/technologies/gemini/',
+        description: 'Flagship multimodal model used across Gemini, Code Assist, and Vertex AI',
       },
       Amazon: {
-        name: 'Nova',
-        url: 'https://aws.amazon.com/bedrock/',
-        description: "Amazon's foundation models",
+        name: 'Nova Premier',
+        url: 'https://aws.amazon.com/ai/generative-ai/nova/',
+        description: 'Amazon’s top Bedrock model for multimodal enterprise workloads',
       },
       OpenAI: {
-        name: 'GPT',
-        url: 'https://openai.com',
-        description: 'GPT-5 series',
+        name: 'GPT-5.4',
+        url: 'https://developers.openai.com/api/docs/models',
+        description: 'Frontier reasoning and coding model powering ChatGPT, Codex, and the API',
       },
       Anthropic: {
-        name: 'Claude',
-        url: 'https://www.anthropic.com',
-        description: 'Claude LLM family',
+        name: 'Claude Opus 4.6',
+        url: 'https://www.anthropic.com/claude/opus',
+        description: 'Anthropic’s flagship hybrid reasoning model for coding and agent workflows',
       },
       xAI: {
-        name: 'Grok',
-        url: 'https://x.ai',
-        description: "xAI's LLM",
+        name: 'Grok 4.1',
+        url: 'https://docs.x.ai/overview',
+        description: 'xAI frontier model family for Grok, API, and developer tooling',
       },
       ByteDance: {
-        name: 'Doubao',
+        name: 'Doubao 1.5 Pro',
         url: 'https://www.doubao.com',
-        description: 'ByteDance LLM',
-      },
-      Adobe: {
-        name: 'Firefly',
-        url: 'https://www.adobe.com/sensei/generative-ai/firefly.html',
-        description: 'Creative AI models',
-      },
-      Tencent: {
-        name: 'Hunyuan',
-        url: 'https://www.tencentcloud.com/product/tclm',
-        description: 'Tencent LLM family',
-      },
-      Minimax: {
-        name: 'Minimax',
-        url: 'https://www.minimax.io',
-        description: 'Multi-modal LLM',
+        description: 'ByteDance multimodal model family behind Doubao experiences',
       },
     },
   },
@@ -66,39 +51,34 @@ const productData: ProductRow[] = [
     category: 'Foundation Models (Open Model)',
     products: {
       Meta: {
-        name: 'Llama',
-        url: 'https://llama.com',
-        description: 'Open source LLM',
+        name: 'Llama 4',
+        url: 'https://www.llama.com/models/llama-4/',
+        description: 'Meta open-weight multimodal family used across Meta AI and partner stacks',
       },
       DeepSeek: {
-        name: 'DeepSeek',
+        name: 'DeepSeek V3.2',
         url: 'https://www.deepseek.com',
-        description: 'Open source LLM',
+        description: 'Open-model reasoning and coding family used in DeepSeek Chat and API',
       },
       Mistral: {
-        name: 'Mistral',
-        url: 'https://mistral.ai',
-        description: 'French LLM',
+        name: 'Devstral',
+        url: 'https://mistral.ai/news/devstral',
+        description: 'Open coding model family from Mistral for agentic developer workflows',
       },
       Alibaba: {
-        name: 'Qwen',
-        url: 'https://www.alibabacloud.com/en/product/model-studio',
-        description: "Alibaba's LLM family",
-      },
-      NVIDIA: {
-        name: 'Nemotron',
-        url: 'https://www.nvidia.com/en-us/ai/',
-        description: 'NVIDIA LLM family',
+        name: 'Qwen3',
+        url: 'https://qwenlm.ai/',
+        description: 'Open family spanning reasoning, coding, and multimodal variants',
       },
       Microsoft: {
-        name: 'Phi',
-        url: 'https://azure.microsoft.com/en-us/services/cognitive-services/',
-        description: 'Small language models',
+        name: 'Phi-4',
+        url: 'https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure?pivots=azure-openai',
+        description: 'Small open-weight model line optimized for efficient reasoning workloads',
       },
       Google: {
-        name: 'Gemma',
-        url: 'https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/',
-        description: 'Open model family, Apache 2.0',
+        name: 'Gemma 3',
+        url: 'https://ai.google.dev/gemma',
+        description: 'Google’s open model family for lightweight multimodal deployment',
       },
     },
   },
@@ -108,68 +88,72 @@ const productData: ProductRow[] = [
       Google: {
         name: 'Gemini',
         url: 'https://gemini.google.com',
-        description: 'Powered by Gemini 3.2 Pro',
+        description: 'Powered by Gemini 3.1 Pro and Gemini 3 Flash across chat and workspace tasks',
       },
       OpenAI: {
         name: 'ChatGPT',
-        url: 'https://chat.openai.com',
-        description: 'Powered by GPT-5.5',
+        url: 'https://developers.openai.com/chatgpt',
+        description: 'Powered by GPT-5.4, with Deep Research, voice, image, and agent tools',
       },
       Anthropic: {
         name: 'Claude',
-        url: 'https://claude.ai',
-        description: 'Powered by Claude 4.7',
+        url: 'https://claude.com/product/overview',
+        description: 'Default experience on Claude Sonnet 4.6 with Opus 4.6 for max capability',
+      },
+      Microsoft: {
+        name: 'Copilot',
+        url: 'https://copilot.microsoft.com',
+        description: 'OpenAI-powered assistant across web, work, and Microsoft 365 surfaces',
       },
       Meta: {
         name: 'Meta AI',
-        url: 'https://meta.ai',
-        description: 'Powered by Llama 4.1',
+        url: 'https://ai.meta.com',
+        description: 'Powered by Llama 4 across Meta apps and standalone assistant experiences',
+      },
+      Amazon: {
+        name: 'Amazon Q',
+        url: 'https://aws.amazon.com/q/',
+        description: 'Enterprise-first assistant grounded in AWS services and company data',
       },
       xAI: {
         name: 'Grok',
         url: 'https://grok.com',
-        description: 'Powered by Grok 4',
+        description: 'Powered by Grok 4.1 for web answers, coding, and multimodal chat',
       },
       DeepSeek: {
         name: 'DeepSeek Chat',
-        url: 'https://chat.deepseek.com',
-        description: 'Powered by DeepSeek V5',
+        url: 'https://www.deepseek.com',
+        description: 'Powered by DeepSeek V3.2 with strong reasoning and coding performance',
       },
-      Mistral: { name: 'Le Chat', url: 'https://chat.mistral.ai', description: 'Powered by Mistral Large 4' },
-      Amazon: {
-        name: 'Amazon Q',
-        url: 'https://aws.amazon.com/q/',
-        description: 'Enterprise AI assistant',
+      Mistral: {
+        name: 'Le Chat',
+        url: 'https://mistral.ai/products/le-chat',
+        description: 'Powered by Mistral’s latest flagship chat and reasoning models',
       },
       ByteDance: {
         name: 'Doubao',
         url: 'https://www.doubao.com',
-        description: 'Powered by Doubao 3.0',
+        description: 'Powered by Doubao 1.5 with chat, search, and creative generation modes',
+      },
+      Tencent: {
+        name: 'Yuanbao',
+        url: 'https://yuanbao.tencent.com',
+        description: 'Tencent assistant powered by Hunyuan models and Tencent ecosystem search',
+      },
+      Alibaba: {
+        name: 'Qwen Chat',
+        url: 'https://chat.qwen.ai/',
+        description: 'Powered by Qwen3 with multilingual chat, coding, and reasoning tools',
       },
       HuggingFace: {
         name: 'HuggingChat',
         url: 'https://huggingface.co/chat',
-        description: 'Open-source AI chat',
+        description: 'Multi-model open chat surface for Llama, Qwen, Mistral, and more',
       },
-      Alibaba: {
-        name: 'Qwen Chat',
-        url: 'https://chat.qwen.com',
-        description: 'Powered by Qwen4',
-      },
-      Tencent: {
-        name: 'WeChat AI',
-        url: 'https://weixin.qq.com/',
-        description: 'AI assistant in WeChat',
-      },
-      Oracle: {
-        name: 'Oracle AI',
-        url: 'https://www.oracle.com/artificial-intelligence/',
-        description: 'Enterprise AI assistant',
-      },
-      NVIDIA: {
-        name: 'ChatRTX',
-        url: 'https://www.nvidia.com/en-us/ai-on-rtx/chatrtx/',
-        description: 'Local AI chatbot for RTX PCs',
+      Perplexity: {
+        name: 'Perplexity',
+        url: 'https://docs.perplexity.ai/docs/getting-started/overview',
+        description: 'Answer engine combining frontier models with citation-heavy web research',
       },
     },
   },
@@ -177,136 +161,209 @@ const productData: ProductRow[] = [
     category: 'IDE / Code Editor',
     products: {
       Google: {
-        name: 'Antigravity',
-        url: 'https://antigravity.google',
-        description: 'Agent-first IDE powered by Gemini 3.2 Pro',
+        name: 'Gemini Code Assist',
+        url: 'https://developers.google.com/gemini-code-assist',
+        description: 'IDE coding agent powered by Gemini 2.5 today with Gemini 3 rollout underway',
       },
       OpenAI: {
         name: 'Codex',
-        description: 'Cloud coding agent powered by GPT-5.5',
+        url: 'https://developers.openai.com/codex/ide',
+        description: 'IDE extension and cloud coding agent powered by GPT-5.4 and GPT-5.3-Codex',
       },
       Anthropic: {
-        name: 'Claude Desktop',
-        description: 'Desktop app with artifacts powered by Claude 4.7',
+        name: 'Claude Code',
+        url: 'https://www.anthropic.com/claude-code',
+        description: 'Terminal-first coding agent with IDE workflows powered by Claude 4.6 models',
       },
-      Microsoft: { name: 'Copilot', description: 'VS Code extension, now with GPT-5.5' },
+      Microsoft: {
+        name: 'GitHub Copilot',
+        url: 'https://github.com/features/copilot',
+        description: 'Editor-native agent mode with GPT-5.4, Claude, and Gemini model options',
+      },
       Amazon: {
         name: 'Amazon Q Developer',
-        url: 'https://aws.amazon.com/q/developer',
-        description: 'AI coding assistant',
+        url: 'https://aws.amazon.com/q/developer/',
+        description: 'AWS coding assistant across IDEs, PR review, and modernization tasks',
+      },
+      JetBrains: {
+        name: 'Junie',
+        url: 'https://www.jetbrains.com/junie/',
+        description: 'JetBrains coding agent with IDE-native context, reviews, and async task flows',
+      },
+      Cursor: {
+        name: 'Cursor',
+        url: 'https://www.cursor.com',
+        description: 'AI-native editor with multi-file agent mode and frontier model routing',
       },
       Windsurf: {
-        name: 'Windsurf',
-        url: 'https://codeium.com/windsurf',
-        description:
-          'AI-powered IDE with Cascade for agentic workflows and multi-file editing',
-      },
-      Codeium: {
-        name: 'Windsurf Pro',
-        description:
-          'Enterprise AI IDE with advanced team features and security controls',
+        name: 'Windsurf Editor',
+        url: 'https://windsurf.com',
+        description: 'Cascade-powered IDE for long-running coding tasks and agentic editing',
       },
     },
   },
   {
     category: 'CLI',
     products: {
-      Google: { name: 'Gemini CLI', description: 'Powered by Gemini 3.2 Pro' },
-      OpenAI: { name: 'OpenAI CLI', description: 'With GPT-5.5' },
-      Anthropic: {
-        name: 'Claude CLI',
-        description: 'Claude Code agentic coding tool',
+      Google: {
+        name: 'Gemini CLI',
+        url: 'https://github.com/google-gemini/gemini-cli',
+        description: 'Open terminal agent linked to Gemini Code Assist and Gemini model workflows',
       },
-      Cursor: { name: 'Cursor CLI', description: 'cursorr-cli' },
-      xAI: { name: 'Grok CLI', description: 'With Grok 4' },
+      OpenAI: {
+        name: 'Codex CLI',
+        url: 'https://developers.openai.com/codex/cli',
+        description: 'Terminal coding agent powered by GPT-5.4 and GPT-5.3-Codex',
+      },
+      Anthropic: {
+        name: 'Claude Code',
+        url: 'https://www.anthropic.com/claude-code',
+        description: 'CLI coding agent powered by Claude Opus 4.6 and Sonnet 4.6',
+      },
       JetBrains: {
         name: 'Junie CLI',
-        description: 'LLM-agnostic coding agent in beta',
+        url: 'https://junie.jetbrains.com/docs/junie-cli.html',
+        description: 'Q2 2026 beta LLM-agnostic coding agent with BYOK, CI, and IDE bridge',
       },
       Courier: {
         name: 'Courier CLI',
-        description: 'Notification infrastructure for AI agents',
+        url: 'https://www.courier.com/docs/welcome',
+        description: 'Q2 2026 CLI for giving AI agents notification infrastructure and JSON-safe commands',
       },
       Amazon: {
         name: 'Amazon Q CLI',
-        url: 'https://aws.amazon.com/q/',
-        description: 'AI command-line assistant',
+        url: 'https://aws.amazon.com/q/developer/',
+        description: 'Command-line assistant for AWS operations, code changes, and shell workflows',
       },
       HuggingFace: {
-        name: 'hf CLI',
-        url: 'https://huggingface.co/docs/hub/',
-        description: 'Model management CLI',
+        name: 'Hugging Face CLI',
+        url: 'https://huggingface.co/docs/huggingface_hub/guides/cli',
+        description: 'CLI for model, dataset, repo, and inference workflow management',
       },
       Zapier: {
         name: 'Zapier Platform CLI',
-        description: 'Build and deploy integrations',
+        url: 'https://docs.zapier.com/platform/build-cli/overview',
+        description: 'CLI for building AI-enabled integrations, actions, and MCP-style tooling',
       },
-      n8n: { name: '@n8n/cli', description: 'Workflow automation CLI' },
+      n8n: {
+        name: 'n8n CLI',
+        url: 'https://docs.n8n.io/hosting/cli-commands/',
+        description: 'CLI for workflow lifecycle, self-hosting, and automation operations',
+      },
       NVIDIA: {
         name: 'AI Workbench CLI',
         url: 'https://docs.nvidia.com/ai-workbench/',
-        description: 'Developer toolkit for AI/ML projects',
+        description: 'CLI-backed local and remote AI dev environments for model teams',
       },
     },
   },
   {
     category: 'API / Developer',
     products: {
-      Google: { name: 'Vertex AI', description: 'Google Cloud AI platform' },
-      OpenAI: { name: 'OpenAI API', url: 'https://platform.openai.com' },
-      Anthropic: { name: 'Anthropic API', url: 'https://docs.anthropic.com' },
-      Meta: { name: 'Llama API', description: 'Via Cerebras & Groq' },
-      xAI: { name: 'xAI API', url: 'https://x.ai/api' },
-      DeepSeek: { name: 'DeepSeek API' },
-      Mistral: { name: 'Mistral AI API' },
-      NVIDIA: {
-        name: 'NVIDIA AI Enterprise',
-        description: 'End-to-end AI platform for enterprises',
+      Google: {
+        name: 'Gemini API',
+        url: 'https://ai.google.dev/gemini-api/docs',
+        description: 'Developer platform for Gemini models, tools, embeddings, and multimodal apps',
       },
-      AWS: {
+      OpenAI: {
+        name: 'OpenAI Platform',
+        url: 'https://developers.openai.com/api/docs',
+        description: 'Responses API with GPT-5.4, GPT Image 1.5, Realtime 1.5, and agent tooling',
+      },
+      Anthropic: {
+        name: 'Claude API',
+        url: 'https://docs.anthropic.com',
+        description: 'Claude 4.6 models, tools, computer use, and long-context developer platform',
+      },
+      Microsoft: {
+        name: 'Azure AI Foundry',
+        url: 'https://ai.azure.com',
+        description: 'Unified model, agent, eval, and deployment platform on Azure',
+      },
+      Amazon: {
         name: 'Amazon Bedrock',
         url: 'https://aws.amazon.com/bedrock/',
-        description: 'Fully managed service for foundation models',
+        description: 'Managed foundation model platform with Bedrock Agents and guardrails',
       },
-      Azure: {
-        name: 'Azure AI Studio',
-        description: 'Microsoft Azure AI platform',
+      Meta: {
+        name: 'Llama API',
+        url: 'https://www.llama.com/',
+        description: 'Official API access path for Meta’s Llama model ecosystem',
       },
-      Alibaba: { name: 'Alibaba Cloud PAI', description: 'Platform for AI' },
-      Tencent: {
-        name: 'Tencent Cloud AI',
-        url: 'https://www.tencentcloud.com/',
-        description: 'Cloud AI services',
+      xAI: {
+        name: 'xAI API',
+        url: 'https://docs.x.ai',
+        description: 'Developer access to Grok 4.1, multimodal reasoning, and tool use',
       },
-      Oracle: {
-        name: 'OCI AI',
-        url: 'https://www.oracle.com/cloud/ai/',
-        description: 'Oracle Cloud Infrastructure AI services',
+      DeepSeek: {
+        name: 'DeepSeek API',
+        url: 'https://api-docs.deepseek.com/',
+        description: 'Low-cost API access to DeepSeek reasoning and coding model families',
+      },
+      Mistral: {
+        name: 'La Plateforme',
+        url: 'https://docs.mistral.ai',
+        description: 'Mistral developer platform for chat, OCR, embeddings, agents, and code',
+      },
+      NVIDIA: {
+        name: 'NVIDIA Build',
+        url: 'https://build.nvidia.com',
+        description: 'NIM-backed API catalog and deployment platform for enterprise AI services',
+      },
+      Alibaba: {
+        name: 'Model Studio',
+        url: 'https://www.alibabacloud.com/en/product/model-studio',
+        description: 'Alibaba Cloud developer platform for Qwen models and agent apps',
+      },
+      HuggingFace: {
+        name: 'Inference API',
+        url: 'https://huggingface.co/inference-api',
+        description: 'Hosted API layer for open models, endpoints, and serverless inference',
       },
     },
   },
   {
     category: 'Hosting / Deployment',
     products: {
+      Google: {
+        name: 'Vertex AI',
+        url: 'https://cloud.google.com/vertex-ai',
+        description: 'Managed training, serving, and agent deployment on Google Cloud',
+      },
+      Microsoft: {
+        name: 'Azure AI Foundry',
+        url: 'https://ai.azure.com',
+        description: 'Managed deployment, monitoring, and model routing on Azure',
+      },
+      Amazon: {
+        name: 'SageMaker AI',
+        url: 'https://aws.amazon.com/sagemaker/',
+        description: 'Managed model training, deployment, and MLOps workflows on AWS',
+      },
+      NVIDIA: {
+        name: 'NIM',
+        url: 'https://build.nvidia.com',
+        description: 'Containerized inference microservices for enterprise deployment',
+      },
       HuggingFace: {
         name: 'Inference Endpoints',
         url: 'https://huggingface.co/inference-endpoints',
-        description: 'Production-ready inference & Spaces',
+        description: 'Dedicated hosting for open models with autoscaling and observability',
       },
       Replicate: {
-        name: 'Model Hosting',
+        name: 'Replicate',
         url: 'https://replicate.com',
-        description: 'Deploy and run models in production',
+        description: 'API-first model hosting and deployment for multimodal workloads',
       },
-      NVIDIA: { name: 'NIM', description: 'Inference microservices' },
-      AWS: { name: 'SageMaker', description: 'Managed ML platform' },
-      Google: { name: 'Vertex AI', description: 'Managed AI infrastructure' },
-      Azure: { name: 'Azure AI Studio', description: 'Managed AI platform' },
-      Alibaba: { name: 'PAI-EAS', description: 'Elastic Algorithm Service' },
-      Tencent: {
-        name: 'Tencent Cloud',
-        url: 'https://cloud.tencent.com/',
-        description: 'Cloud infrastructure',
+      Alibaba: {
+        name: 'PAI-EAS',
+        url: 'https://www.alibabacloud.com/en/product/machine-learning',
+        description: 'Elastic algorithm service for model serving on Alibaba Cloud',
+      },
+      vLLM: {
+        name: 'vLLM',
+        url: 'https://vllm.ai',
+        description: 'Open-source high-throughput serving engine used in self-hosted stacks',
       },
     },
   },
@@ -316,207 +373,256 @@ const productData: ProductRow[] = [
       Google: {
         name: 'AI Studio',
         url: 'https://aistudio.google.com',
-        description: 'Web-based prototyping',
+        description: 'Fast browser workspace for prompt prototyping and Gemini app iteration',
+      },
+      OpenAI: {
+        name: 'Playground',
+        url: 'https://developers.openai.com/',
+        description: 'Prompt, eval, and tool testing workspace for GPT-5.4 and platform APIs',
+      },
+      JetBrains: {
+        name: 'AI Assistant',
+        url: 'https://www.jetbrains.com/ai/',
+        description: 'In-IDE assistant for completion, chat, refactors, and team model routing',
       },
       Cursor: {
-        name: 'Cursor',
-        url: 'https://cursor.sh',
-        description: 'AI-native IDE',
+        name: 'Background Agent',
+        url: 'https://www.cursor.com',
+        description: 'Async dev workflows for longer tasks inside the Cursor coding environment',
       },
       HuggingFace: {
         name: 'Gradio',
-        url: 'https://gradio.app',
-        description: 'ML demo UI library',
+        url: 'https://www.gradio.app',
+        description: 'UI toolkit for demos, eval apps, and internal AI developer tools',
       },
-      Alibaba: {
-        name: 'PAI-LangStudio',
-        url: 'https://www.alibabacloud.com/',
-        description: 'Enterprise agent development',
+      LangChain: {
+        name: 'LangSmith',
+        url: 'https://www.langchain.com/langsmith',
+        description: 'Tracing, evaluation, prompt management, and observability for agent stacks',
       },
     },
   },
   {
     category: 'Automation / Orchestration',
     products: {
-      Oracle: {
-        name: 'AI Agent Studio',
-        description: 'Enterprise agent orchestration',
+      Google: {
+        name: 'Vertex AI Agent Builder',
+        url: 'https://cloud.google.com/vertex-ai/generative-ai/docs/agent-builder/overview',
+        description: 'Google orchestration layer for search, tools, and production agents',
       },
-      OpenAI: { name: 'Operator', description: 'Computer-using agent' },
+      OpenAI: {
+        name: 'Agent Platform',
+        url: 'https://developers.openai.com/api/docs/guides/agents',
+        description: 'Agent Builder, Agents SDK, ChatKit, and eval tooling on GPT-5.4',
+      },
       Anthropic: {
         name: 'Computer Use',
-        description: 'Autonomous computer control',
+        url: 'https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/computer-use',
+        description: 'Claude 4.6 computer control and tool use for autonomous task execution',
       },
-      Google: { name: 'Vertex AI Agent', description: 'Agent Builder' },
       Microsoft: {
         name: 'Copilot Studio',
-        url: 'https://copilot.microsoft.com/microsoft-copilot-studio',
+        url: 'https://learn.microsoft.com/en-us/microsoft-copilot-studio/',
+        description: 'Enterprise copilot orchestration for workflows, connectors, and approvals',
+      },
+      Amazon: {
+        name: 'Bedrock Agents',
+        url: 'https://aws.amazon.com/bedrock/agents/',
+        description: 'Managed agent runtime, memory, knowledge bases, and action groups',
       },
       AutoGen: {
         name: 'AutoGen',
         url: 'https://microsoft.github.io/autogen/',
-        description: 'Multi-agent framework',
+        description: 'Open orchestration framework for multi-agent collaboration and tool use',
       },
       CrewAI: {
         name: 'CrewAI',
-        url: 'https://crewai.com',
-        description: 'Multi-agent orchestration',
-      },
-      MultiOn: {
-        name: 'MultiOn',
-        url: 'https://multion.ai',
-        description: 'Web agent',
+        url: 'https://www.crewai.com',
+        description: 'Multi-agent orchestration with role-based crews and production controls',
       },
       n8n: {
         name: 'n8n',
         url: 'https://n8n.io',
-        description: 'Open-source automation',
+        description: 'Workflow automation platform increasingly used for AI agent backplanes',
       },
       Zapier: {
-        name: 'Zapier',
-        url: 'https://zapier.com',
-        description: 'No-code automation',
-      },
-      Amazon: {
-        name: 'Bedrock Agents',
-        url: 'https://aws.amazon.com/bedrock/',
-        description: 'Build autonomous agents',
-      },
-      Alibaba: {
-        name: 'Enterprise AI Agents',
-        url: 'https://www.alibabacloud.com/',
-        description: 'Autonomous business agents',
+        name: 'Zapier Agents',
+        url: 'https://zapier.com/agents',
+        description: 'Hosted agent automation wired into Zapier actions, MCP, and app connectors',
       },
       Make: {
         name: 'Make',
-        url: 'https://make.com',
-        description: 'Visual automation',
-      },
-      LangChain: {
-        name: 'LangChain',
-        url: 'https://langchain.dev',
-        description: 'Agent framework',
+        url: 'https://developers.make.com/custom-apps-documentation',
+        description: 'Visual automation platform for tool calling, triggers, and AI workflows',
       },
       LangGraph: {
         name: 'LangGraph',
         url: 'https://langchain-ai.github.io/langgraph/',
-        description: 'Stateful agents',
+        description: 'Stateful orchestration runtime for durable agent workflows and handoffs',
       },
       Temporal: {
         name: 'Temporal',
         url: 'https://temporal.io',
-        description: 'Durable execution',
-      },
-      OpenClaw: {
-        name: 'OpenClaw',
-        url: 'https://openclaw.ai',
-        description: 'Autonomous agent framework',
-      },
-      Tencent: {
-        name: 'QClaw / WorkBuddy',
-        url: 'https://openclaw.ai',
-        description: 'Internal AI agents',
+        description: 'Durable execution layer frequently used beneath production AI automations',
       },
     },
   },
   {
     category: 'Image Generation',
     products: {
-      Google: { name: 'Imagen', description: 'Imagen 3/4 via Gemini' },
-      OpenAI: { name: 'DALL-E', description: 'DALL-E 3 via ChatGPT/API' },
+      Google: {
+        name: 'Imagen 4',
+        url: 'https://deepmind.google/models/imagen/',
+        description: 'Google image generation stack surfaced through Gemini and Vertex AI',
+      },
+      OpenAI: {
+        name: 'GPT Image',
+        url: 'https://developers.openai.com/api/docs/guides/image-generation',
+        description: 'Powered by GPT Image 1.5 for high-fidelity generation and editing',
+      },
       Amazon: {
         name: 'Titan Image',
-        url: 'https://aws.amazon.com/bedrock/',
-        description: 'Text-to-image generation',
+        url: 'https://aws.amazon.com/bedrock/titan/',
+        description: 'Bedrock image model family for enterprise-safe generation and editing',
       },
-      xAI: { name: 'Grok Imagine', url: 'https://x.ai/imagine' },
-      Meta: { name: 'Imagine', description: 'Meta AI Imagine' },
-      Midjourney: { name: 'Midjourney', url: 'https://midjourney.com' },
-      Adobe: { name: 'Firefly', url: 'https://firefly.adobe.com' },
-      StabilityAI: { name: 'Stable Diffusion', description: 'SD 3.5' },
-      BlackForest: { name: 'Flux', description: 'Flux 2 Pro' },
-      Alibaba: {
-        name: 'Wan2.1',
-        url: 'https://www.alibabacloud.com/',
-        description: 'Text-to-image generation',
+      Meta: {
+        name: 'Imagine',
+        url: 'https://ai.meta.com',
+        description: 'Meta’s consumer image generation experience powered by Llama ecosystem tooling',
       },
-      Tencent: {
-        name: 'HunyuanImage 3.0',
-        url: 'https://www.tencentcloud.com/',
-        description: '80B MoE image generation',
+      Adobe: {
+        name: 'Firefly',
+        url: 'https://firefly.adobe.com',
+        description: 'Commercially safe image generation for creative and marketing workflows',
+      },
+      Midjourney: {
+        name: 'Midjourney',
+        description: 'High-end creative image model platform used for concept and visual design',
+      },
+      StabilityAI: {
+        name: 'Stable Diffusion 3.5',
+        url: 'https://stability.ai/stable-image',
+        description: 'Open image model family for self-hosted and API-driven generation',
+      },
+      BlackForest: {
+        name: 'FLUX.1',
+        url: 'https://bfl.ai',
+        description: 'Black Forest Labs image models widely adopted in open and hosted stacks',
       },
     },
   },
   {
     category: 'Video Generation',
     products: {
-      OpenAI: { name: 'Sora', url: 'https://sora.com' },
-      Google: { name: 'Veo', description: 'Veo 3 via Gemini' },
+      Google: {
+        name: 'Veo 3',
+        url: 'https://deepmind.google/models/veo/',
+        description: 'Google’s flagship video generation model for cinematic and prompt-driven clips',
+      },
+      OpenAI: {
+        name: 'Sora',
+        url: 'https://developers.openai.com/api/docs/guides/video-generation',
+        description: 'OpenAI video generation stack, including Sora-style workflows and API tooling',
+      },
       Runway: {
         name: 'Runway',
         url: 'https://runwayml.com',
-        description: 'Gen-4',
-      },
-      Pika: { name: 'Pika', url: 'https://pika.art' },
-      Kuaishou: { name: 'Kling', description: 'Kling 3.0' },
-      HeyGen: { name: 'HeyGen', url: 'https://heygen.com' },
-      Luma: { name: 'Dream Machine', url: 'https://lumalabs.ai' },
-      Alibaba: {
-        name: 'Wan2.1',
-        url: 'https://www.alibabacloud.com/',
-        description: 'Video generation',
+        description: 'Gen-4 video generation and editing suite for creators and teams',
       },
       Minimax: {
         name: 'Hailuo',
-        url: 'https://minimaxi.com',
-        description: 'Video generation',
+        url: 'https://www.minimax.io',
+        description: 'MiniMax video generation platform for short-form cinematic clips',
+      },
+      HeyGen: {
+        name: 'HeyGen',
+        url: 'https://www.heygen.com',
+        description: 'Avatar-first video generation with enterprise localization and dubbing flows',
+      },
+      Pika: {
+        name: 'Pika',
+        url: 'https://pika.art',
+        description: 'Consumer-friendly video generation and edit effects for short-form content',
+      },
+      Luma: {
+        name: 'Dream Machine',
+        url: 'https://lumalabs.ai/dream-machine',
+        description: 'Text and image to video generation focused on fast creative iteration',
       },
     },
   },
   {
     category: 'Voice / TTS',
     products: {
-      OpenAI: { name: 'GPT-4o Voice', description: 'Realtime TTS API' },
-      Google: { name: 'Cloud TTS', description: 'WaveNet/Echo' },
+      Google: {
+        name: 'Cloud Text-to-Speech',
+        url: 'https://cloud.google.com/text-to-speech',
+        description: 'Google voice stack spanning WaveNet, neural, and studio-quality synthesis',
+      },
+      OpenAI: {
+        name: 'Realtime Voice',
+        url: 'https://developers.openai.com/api/docs/guides/text-to-speech',
+        description: 'Speech generation powered by gpt-realtime-1.5 and GPT-4o mini TTS',
+      },
       Amazon: {
         name: 'Amazon Polly',
         url: 'https://aws.amazon.com/polly/',
-        description: 'Text-to-speech with 31+ voices',
+        description: 'Managed neural TTS with brand voice and enterprise deployment options',
       },
-      Alibaba: {
-        name: 'Qwen3-TTS',
-        url: 'https://qwen.ai/',
-        description: 'Voice cloning & TTS',
+      ElevenLabs: {
+        name: 'ElevenLabs',
+        url: 'https://elevenlabs.io',
+        description: 'High-quality speech synthesis, dubbing, and voice cloning platform',
       },
-      ElevenLabs: { name: 'ElevenLabs', url: 'https://elevenlabs.io' },
-      ByteDance: {
-        name: 'FineVoice',
-        url: 'https://finevoice.fun/',
-        description: 'AI voice cloning & TTS',
+      PlayHT: {
+        name: 'PlayAI',
+        url: 'https://docs.play.ht/reference',
+        description: 'Realtime voice agent and TTS stack built on the PlayHT platform',
       },
-      PlayHT: { name: 'PlayHT', url: 'https://play.ht', description: 'PlayAI' },
-      Coqui: { name: 'Coqui TTS', url: 'https://coqui.ai' },
-      Murf: { name: 'Murf AI', url: 'https://murf.ai' },
-      WellSaid: { name: 'WellSaid Labs', url: 'https://wellsaidlabs.com' },
+      Murf: {
+        name: 'Murf AI',
+        url: 'https://murf.ai',
+        description: 'Studio-style voice generation for narration, explainers, and enterprise media',
+      },
+      WellSaid: {
+        name: 'WellSaid Labs',
+        url: 'https://wellsaidlabs.com',
+        description: 'Enterprise voice generation for training, marketing, and product narration',
+      },
     },
   },
   {
     category: 'Audio / Music',
     products: {
-      OpenAI: { name: 'Audio API', description: 'Speech to text' },
-      Google: { name: 'Cloud Speech', description: 'Speech-to-Text' },
-      AssemblyAI: { name: 'AssemblyAI', url: 'https://assemblyai.com' },
-      Suno: { name: 'Suno', url: 'https://suno.ai' },
-      Udio: { name: 'Udio', url: 'https://udio.ai' },
-      Minimax: {
-        name: 'Minimax Audio',
-        url: 'https://www.minimax.io',
-        description: 'Audio generation models including MusicGen',
+      Google: {
+        name: 'Cloud Speech-to-Text',
+        url: 'https://cloud.google.com/speech-to-text',
+        description: 'Managed transcription and speech understanding APIs on Google Cloud',
       },
-      ByteDance: {
-        name: 'FineVoice',
-        url: 'https://finevoice.fun/',
-        description: 'AI voice & music generation',
+      OpenAI: {
+        name: 'Audio API',
+        url: 'https://developers.openai.com/api/docs/guides/audio',
+        description: 'Audio stack for transcription, translation, speech generation, and realtime apps',
+      },
+      AssemblyAI: {
+        name: 'AssemblyAI',
+        url: 'https://www.assemblyai.com',
+        description: 'Developer platform for transcription, speech understanding, and voice apps',
+      },
+      StabilityAI: {
+        name: 'Stable Audio',
+        url: 'https://stability.ai/stable-audio',
+        description: 'Music and sound generation model family from Stability AI',
+      },
+      Suno: {
+        name: 'Suno',
+        url: 'https://suno.com',
+        description: 'Consumer music generation platform for lyrics-to-song creation',
+      },
+      Udio: {
+        name: 'Udio',
+        url: 'https://udio.com',
+        description: 'AI music generation focused on high-quality songs and remix workflows',
       },
     },
   },
@@ -526,120 +632,203 @@ const productData: ProductRow[] = [
       Google: {
         name: 'NotebookLM',
         url: 'https://notebooklm.google',
-        description: 'AI research & notes',
+        description: 'Source-grounded research notebook with summaries, audio, and citation workflows',
       },
-      OpenAI: { name: 'Deep Research', url: 'https://chat.openai.com' },
-      DeepSeek: { name: 'DeepSeek Research' },
-      Perplexity: { name: 'Perplexity', url: 'https://perplexity.ai' },
-      xAI: { name: 'Grok Research' },
+      OpenAI: {
+        name: 'Deep Research',
+        url: 'https://developers.openai.com/api/docs/guides/deep-research',
+        description: 'ChatGPT research mode powered by GPT-5.4 with web and file investigation tools',
+      },
+      xAI: {
+        name: 'DeepSearch',
+        url: 'https://grok.com',
+        description: 'Grok research workflow combining live web search and reasoning chains',
+      },
+      DeepSeek: {
+        name: 'DeepSeek Search',
+        url: 'https://www.deepseek.com',
+        description: 'Research-oriented search and synthesis mode built into DeepSeek Chat',
+      },
+      Perplexity: {
+        name: 'Perplexity',
+        url: 'https://docs.perplexity.ai/docs/getting-started/overview',
+        description: 'Research-first answer engine with strong citation and follow-up workflows',
+      },
     },
   },
   {
     category: 'Enterprise',
     products: {
-      Google: { name: 'Gemini Enterprise', description: 'Workspace AI' },
+      Google: {
+        name: 'Gemini for Workspace',
+        url: 'https://workspace.google.com/solutions/ai/',
+        description: 'Workspace assistant powered by Gemini models for docs, mail, meetings, and sheets',
+      },
       OpenAI: {
         name: 'ChatGPT Enterprise',
-        url: 'https://openai.com/enterprise',
+        url: 'https://developers.openai.com/chatgpt',
+        description: 'Enterprise ChatGPT with GPT-5.4, admin controls, connectors, and security',
       },
       Anthropic: {
         name: 'Claude Enterprise',
-        url: 'https://anthropic.com/claude-enterprise',
+        url: 'https://claude.com/pricing/enterprise',
+        description: 'Claude workspace with enterprise controls, knowledge, and 4.6 model access',
       },
-      Microsoft: { name: 'Copilot', url: 'https://copilot.microsoft.com' },
+      Microsoft: {
+        name: 'Microsoft 365 Copilot',
+        url: 'https://learn.microsoft.com/en-us/microsoft-365/copilot/',
+        description: 'Enterprise productivity layer spanning Word, Excel, Teams, and business data',
+      },
       Amazon: {
         name: 'Amazon Q Business',
-        url: 'https://aws.amazon.com/q/',
-        description: 'Enterprise AI assistant',
+        url: 'https://aws.amazon.com/q/business/',
+        description: 'Enterprise assistant for internal knowledge, apps, and business automation',
       },
-      Zapier: {
-        name: 'Zapier Enterprise',
-        url: 'https://zapier.com',
-        description: 'Enterprise automation with AI governance',
+      NVIDIA: {
+        name: 'NVIDIA AI Enterprise',
+        url: 'https://www.nvidia.com/en-us/data-center/products/ai-enterprise/',
+        description: 'Enterprise software stack for building and running AI in production',
       },
-      Replicate: {
-        name: 'Replicate Enterprise',
-        url: 'https://replicate.com',
-        description: 'Enterprise model deployment',
+      Oracle: {
+        name: 'OCI AI',
+        url: 'https://www.oracle.com/artificial-intelligence/',
+        description: 'Oracle enterprise AI services across apps, infrastructure, and databases',
       },
       HuggingFace: {
         name: 'Enterprise Hub',
         url: 'https://huggingface.co/enterprise',
-        description: 'Enterprise AI platform',
-      },
-      Tencent: {
-        name: 'Tencent Cloud Enterprise',
-        url: 'https://cloud.tencent.com/',
-        description: 'Enterprise AI solutions',
-      },
-      Oracle: {
-        name: 'Oracle AI Enterprise',
-        url: 'https://www.oracle.com/artificial-intelligence/',
-        description: 'Enterprise-grade AI platform',
+        description: 'Private model hub, governance, and deployment controls for enterprise teams',
       },
     },
   },
   {
     category: 'Sovereign Engine',
     products: {
-      Ollama: { name: 'Ollama', description: 'Local LLM execution framework' },
-      LMStudio: { name: 'LM Studio', description: 'Local LLM GUI' },
-      Jan: { name: 'Jan', description: 'Privacy-focused desktop app' },
-      LocalAI: { name: 'LocalAI', description: 'Developer-centric engine' },
+      Ollama: {
+        name: 'Ollama',
+        url: 'https://ollama.com',
+        description: 'Local LLM runtime for private developer and team workflows',
+      },
+      LMStudio: {
+        name: 'LM Studio',
+        url: 'https://lmstudio.ai',
+        description: 'Desktop local-model runtime and chat environment for offline use',
+      },
+      Jan: {
+        name: 'Jan',
+        url: 'https://jan.ai',
+        description: 'Open local AI desktop app focused on privacy and self-hosting',
+      },
+      LocalAI: {
+        name: 'LocalAI',
+        url: 'https://localai.io',
+        description: 'Drop-in local inference engine for self-hosted OpenAI-compatible stacks',
+      },
     },
   },
   {
     category: 'Sovereign Agent',
     products: {
-      OpenClaw: { name: 'OpenClaw', description: 'Autonomous local agent' },
-      OpenInterpreter: {
-        name: 'OpenInterpreter',
-        description: 'Terminal-based agent',
+      OpenClaw: {
+        name: 'OpenClaw',
+        url: 'https://openclaw.ai',
+        description: 'Open autonomous agent stack for local or private task execution',
       },
-      HuggingFace: { name: 'smolagents', description: 'Code-first agents' },
-      ByteDance: { name: 'UI-TARS', description: 'Vision-based agent' },
+      HuggingFace: {
+        name: 'smolagents',
+        url: 'https://huggingface.co/docs/smolagents',
+        description: 'Code-first lightweight agent framework for self-hosted model stacks',
+      },
+      ByteDance: {
+        name: 'UI-TARS',
+        url: 'https://github.com/bytedance/UI-TARS',
+        description: 'Vision-first agent framework for GUI understanding and action planning',
+      },
       Tencent: {
-        name: 'WeChat AI Agent',
-        description: 'AI agent for WeChat super-app',
+        name: 'Hunyuan Agent',
+        url: 'https://hunyuan.tencent.com',
+        description: 'Tencent’s agent stack for private enterprise and ecosystem scenarios',
       },
     },
   },
   {
     category: 'Sovereign Orchestrator',
     products: {
-      n8n: { name: 'n8n', description: 'Self-hosted automation' },
-      deepset: { name: 'Haystack', description: 'Orchestration framework' },
-      FlowiseAI: { name: 'Flowise', description: 'Visual orchestration' },
+      n8n: {
+        name: 'n8n',
+        url: 'https://n8n.io',
+        description: 'Self-hosted automation backbone for private AI workflow orchestration',
+      },
+      deepset: {
+        name: 'Haystack',
+        url: 'https://haystack.deepset.ai',
+        description: 'Open framework for RAG, pipelines, and orchestrated agent workflows',
+      },
+      FlowiseAI: {
+        name: 'Flowise',
+        url: 'https://flowiseai.com',
+        description: 'Visual self-hostable orchestration for RAG and agent applications',
+      },
     },
   },
   {
     category: 'Enterprise Engine',
     products: {
-      vLLM: { name: 'vLLM', description: 'Production-grade serving' },
-      NVIDIA: { name: 'NIM', description: 'Enterprise inference' },
-      HuggingFace: { name: 'TGI', description: 'Text Generation Inference' },
+      vLLM: {
+        name: 'vLLM',
+        url: 'https://vllm.ai',
+        description: 'Production-grade high-throughput inference engine for enterprise serving',
+      },
+      NVIDIA: {
+        name: 'NIM',
+        url: 'https://build.nvidia.com',
+        description: 'Enterprise inference microservices for governed, repeatable deployment',
+      },
+      HuggingFace: {
+        name: 'TGI',
+        url: 'https://huggingface.co/docs/text-generation-inference',
+        description: 'Text Generation Inference server for enterprise open-model deployments',
+      },
     },
   },
   {
     category: 'Enterprise Agent',
     products: {
-      NVIDIA: { name: 'NemoClaw', description: 'Enterprise agent platform' },
+      NVIDIA: {
+        name: 'AI Blueprints',
+        url: 'https://build.nvidia.com',
+        description: 'Reference agent systems and services packaged for enterprise AI teams',
+      },
       CrewAI: {
         name: 'CrewAI Enterprise',
-        description: 'Enterprise agent crew',
+        url: 'https://www.crewai.com',
+        description: 'Governed multi-agent execution for teams running internal AI operations',
       },
       LangChain: {
-        name: 'LangGraph Studio',
-        description: 'Visual agent debugging',
+        name: 'LangGraph Platform',
+        url: 'https://www.langchain.com/langgraph',
+        description: 'Hosted runtime and controls for enterprise-grade stateful agents',
       },
     },
   },
   {
     category: 'Enterprise Orchestrator',
     products: {
-      n8n: { name: 'n8n', description: 'Self-hosted automation' },
-      deepset: { name: 'Haystack', description: 'Orchestration framework' },
-      FlowiseAI: { name: 'Flowise', description: 'Visual orchestration' },
+      n8n: {
+        name: 'n8n Enterprise',
+        url: 'https://n8n.io',
+        description: 'Enterprise automation platform for secure internal AI workflow execution',
+      },
+      deepset: {
+        name: 'Haystack',
+        url: 'https://haystack.deepset.ai',
+        description: 'Composable orchestration layer for enterprise search and agent pipelines',
+      },
+      FlowiseAI: {
+        name: 'Flowise',
+        url: 'https://flowiseai.com',
+        description: 'Visual orchestration layer for enterprise AI apps and internal copilots',
+      },
     },
   },
 ];
@@ -666,10 +855,15 @@ const companyOrder = [
   'Cursor',
   'Midjourney',
   'Runway',
+  'Pika',
+  'HeyGen',
+  'Luma',
   'StabilityAI',
   'BlackForest',
   'LangChain',
   'AssemblyAI',
+  'Suno',
+  'Udio',
   'ElevenLabs',
   'PlayHT',
   'WellSaid',
@@ -725,6 +919,9 @@ function getCompanyColor(company: string): string {
     Midjourney:
       'bg-white border border-zinc-300 text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100',
     Runway: 'bg-zinc-800 text-white dark:bg-zinc-700',
+    Pika: 'bg-pink-100 text-pink-700 dark:bg-pink-900 dark:text-pink-300',
+    HeyGen: 'bg-violet-100 text-violet-700 dark:bg-violet-900 dark:text-violet-300',
+    Luma: 'bg-sky-100 text-sky-700 dark:bg-sky-900 dark:text-sky-300',
     StabilityAI:
       'bg-orange-100 text-white dark:bg-orange-900 dark:text-orange-300',
     BlackForest: 'bg-blue-500 text-white dark:bg-blue-600 dark:text-blue-200',
@@ -732,6 +929,8 @@ function getCompanyColor(company: string): string {
       'bg-yellow-100 text-white dark:bg-yellow-900 dark:text-yellow-300',
     AssemblyAI:
       'bg-indigo-100 text-white dark:bg-indigo-900 dark:text-indigo-300',
+    Suno: 'bg-fuchsia-100 text-fuchsia-700 dark:bg-fuchsia-900 dark:text-fuchsia-300',
+    Udio: 'bg-rose-100 text-rose-700 dark:bg-rose-900 dark:text-rose-300',
     ElevenLabs:
       'bg-purple-500 text-white dark:bg-purple-600 dark:text-purple-200',
     PlayHT: 'bg-blue-100 text-white dark:bg-blue-900 dark:text-blue-300',
@@ -797,7 +996,7 @@ export default function ProductsPage() {
 
         <div className='bg-white dark:bg-[#153457] rounded-2xl border border-zinc-200 dark:border-zinc-800/50 shadow-xl shadow-blue-900/5 overflow-hidden'>
           <div className='mb-4 text-right text-sm text-zinc-500 dark:text-zinc-400 px-6'>
-            Last updated: April 4, 2026
+            Last updated: April 14, 2026
           </div>
           <div className='overflow-x-auto custom-scrollbar'>
             <table className='w-full text-left border-collapse'>
@@ -909,7 +1108,7 @@ export default function ProductsPage() {
                 <strong className='text-zinc-700 dark:text-zinc-300'>
                   Last Updated:
                   </strong>{' '}
-                  April 4, 2026. The AI space is highly dynamic!
+                  April 14, 2026. The AI space is highly dynamic!
               </p>
             </div>
           </div>

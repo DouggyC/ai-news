@@ -45,7 +45,8 @@ Update the models compare page in `/src/app/compare/page.tsx` with the latest AI
 2. Verify all release dates are accurate (Q2 2026 = April-June 2026)
 3. Add any newly released major models
 4. Update any outdated pricing or specification information
-5. Add disclaimer about data being current as of update date if appropriate
+6. Add disclaimer about data being current as of update date if appropriate
+7. Update the "Last updated:" date in the compare page to current date (YYYY-MM-DD)
 
 ## Sources to Consult:
 - Official model announcement blogs (OpenAI, Anthropic, Google, Meta, etc.)

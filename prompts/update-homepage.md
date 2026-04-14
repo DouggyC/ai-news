@@ -43,7 +43,10 @@ Update the homepage news cards in `/src/app/page.tsx` with the latest AI news fr
    - For companies not in images.json (Google, Microsoft, Oracle, Adobe, Amazon), use appropriate fallback images or generic tech images
    - Verify image URLs are accessible (return HTTP 200)
 
-5. **Link Verification**:
+## Alternative Sources Strategy:
+- If official company URL returns HTTP 403 to curl → find the same announcement on alternative tech news sources (TechCrunch, The Verge, VentureBeat, Gizmodo, etc.)
+- For xAI or other companies with no qualifying April announcements → search tech news sites for coverage or omit if truly no coverage exists
+- Never leave broken URLs - always find working alternatives
    - All sourceUrl links must be accessible (return HTTP 200)
    - Prefer direct links to official announcements/blog posts
    - Test links with curl before including
