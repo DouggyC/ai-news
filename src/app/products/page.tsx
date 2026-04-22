@@ -1000,7 +1000,7 @@ export default function ProductsPage() {
 
         <div className='bg-white dark:bg-[#153457] rounded-2xl border border-zinc-200 dark:border-zinc-800/50 shadow-xl shadow-blue-900/5 overflow-hidden'>
           <div className='mb-4 text-right text-sm text-zinc-500 dark:text-zinc-400 px-6'>
-            Last updated: April 14, 2026
+            Last updated: April 23, 2026
           </div>
           <div className='overflow-x-auto custom-scrollbar'>
             <table className='w-full text-left border-collapse'>
@@ -1112,7 +1112,7 @@ export default function ProductsPage() {
                 <strong className='text-zinc-700 dark:text-zinc-300'>
                   Last Updated:
                   </strong>{' '}
-                  April 14, 2026. The AI space is highly dynamic!
+                  April 23, 2026. The AI space is highly dynamic!
               </p>
             </div>
           </div>
