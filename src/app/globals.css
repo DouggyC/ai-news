@@ -1,47 +1,237 @@
 @import "tailwindcss";
 
+/* ============================================
+   COMPOSIO DESIGN SYSTEM - AI News
+   ============================================ */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Background */
+  --void-black: #2a2a30;
+  --pure-black: #1e1e24;
+  
+  /* Brand Colors */
+  --composio-cobalt: #0007cd;
+  --electric-cyan: #00ffff;
+  --signal-blue: #0089ff;
+  --ocean-blue: #0096ff;
+  --charcoal: #2c2c2c;
+  
+  /* Text Colors */
+  --pure-white: #ffffff;
+  --ghost-white: rgba(255, 255, 255, 0.6);
+  --whisper-white: rgba(255, 255, 255, 0.5);
+  --phantom-white: rgba(255, 255, 255, 0.2);
+  --muted-smoke: #444444;
+  
+  /* Border Mist */
+  --border-mist-12: rgba(255, 255, 255, 0.12);
+  --border-mist-10: rgba(255, 255, 255, 0.10);
+  --border-mist-08: rgba(255, 255, 255, 0.08);
+  --border-mist-06: rgba(255, 255, 255, 0.06);
+  --border-mist-04: rgba(255, 255, 255, 0.04);
+  
+  /* Shadows */
+  --brutalist-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.15);
+  --floating-shadow: 0px 8px 32px rgba(0, 0, 0, 0.5);
+  
+  /* Typography */
+  --font-primary: 'abcDiatype', 'abcDiatype Fallback', ui-sans-serif, system-ui, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  --font-mono: 'JetBrains Mono', 'JetBrains Mono Fallback', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New';
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: var(--void-black);
+  --color-foreground: var(--pure-white);
+  --font-sans: var(--font-primary);
+  --font-mono: var(--font-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0f2744;
-    --foreground: #ededed;
-  }
+/* Base Styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #2a2a30;
+  background-image: 
+    radial-gradient(at 10% 20%, hsla(242, 91%, 61%, 0.4) 0px, transparent 50%),
+    radial-gradient(at 95% 5%, hsla(259, 87%, 66%, 0.4) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, hsla(212, 92%, 55%, 0.4) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(247, 83%, 67%, 0.4) 0px, transparent 50%),
+    radial-gradient(at 50% 50%, hsla(255, 94%, 72%, 0.3) 0px, transparent 50%);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: var(--pure-white);
+  font-family: var(--font-primary);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+/* Headings with ultra-tight line-heights */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 0.87;
+  font-weight: 400;
+  color: var(--pure-white);
+}
+
+h1 { font-size: 3rem; line-height: 0.87; }
+h2 { font-size: 2rem; line-height: 1.0; }
+h3 { font-size: 1.75rem; line-height: 1.0; }
+h4 { font-size: 1.5rem; line-height: 1.2; }
+
+/* Body text - Ghost White */
+p, span, div {
+  color: var(--ghost-white);
+}
+
+/* Code styling */
+code, pre {
+  font-family: var(--font-mono);
+  letter-spacing: -0.28px;
+}
+
+/* Custom scrollbar */
 .custom-scrollbar::-webkit-scrollbar {
   height: 8px;
   width: 8px;
 }
+
 .custom-scrollbar::-webkit-scrollbar-track {
   background: transparent;
 }
+
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #cbd5e1;
+  background-color: var(--charcoal);
   border-radius: 4px;
 }
-.dark .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #3f3f46;
-}
+
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background-color: #94a3b8;
+  background-color: var(--muted-smoke);
 }
-.dark .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background-color: #52525b;
+
+/* Card base styles */
+.card {
+  background: rgba(25, 25, 30, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 4px;
+}
+
+.card-brutalist {
+  background: rgba(35, 35, 42, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 4px;
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* Container */
+.container-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Category badge colors */
+.badge-model {
+  background: rgba(0, 255, 255, 0.12);
+  color: var(--electric-cyan);
+  border: 1px solid var(--ocean-blue);
+}
+
+.badge-product {
+  background: rgba(0, 119, 255, 0.12);
+  color: var(--signal-blue);
+  border: 1px solid var(--signal-blue);
+}
+
+.badge-tool {
+  background: rgba(0, 150, 255, 0.12);
+  color: var(--ocean-blue);
+  border: 1px solid var(--ocean-blue);
+}
+
+.badge-capability {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--whisper-white);
+  border: 1px solid var(--border-mist-08);
+}
+
+.badge-research {
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--whisper-white);
+  border: 1px solid var(--border-mist-04);
+}
+
+/* Provider badge colors */
+.badge-provider {
+  background: var(--phantom-white);
+  color: var(--whisper-white);
+}
+
+/* Button styles */
+.btn-primary {
+  background: var(--pure-white);
+  color: oklch(0.145 0 0);
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-secondary {
+  background: rgba(0, 255, 255, 0.12);
+  color: oklch(0.145 0 0);
+  padding: 8px 24px;
+  border: 1px solid var(--ocean-blue);
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--pure-white);
+  padding: 10px;
+  border: 1px solid var(--charcoal);
+  border-radius: 4px;
+}
+
+.btn-ghost:hover {
+  border-color: var(--signal-blue);
+}
+
+/* Section padding */
+.section-padding {
+  padding: 80px 24px;
+}
+
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 48px 16px;
+  }
+  
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
+}
+
+/* Glow effect for cards */
+.glow-cyan {
+  position: relative;
+}
+
+.glow-cyan::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  background: radial-gradient(ellipse at center, rgba(0, 255, 255, 0.08) 0%, transparent 70%);
+  border-radius: 4px;
+  z-index: -1;
 }

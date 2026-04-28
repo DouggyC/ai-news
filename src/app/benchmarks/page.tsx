@@ -193,17 +193,17 @@ const benchmarkModels: BenchmarkModel[] = [
 ];
 
 const providerColors: Record<string, string> = {
-  OpenAI: '#22c55e',
-  Anthropic: '#f97316',
-  Google: '#3b82f6',
-  xAI: '#374151',
-  Meta: '#a855f7',
-  DeepSeek: '#ef4444',
-  Alibaba: '#eab308',
-  Mistral: '#06b6d4',
+  OpenAI: '#4ade80',
+  Anthropic: '#fb923c',
+  Google: '#60a5fa',
+  xAI: 'rgba(255, 255, 255, 0.7)',
+  Meta: '#c084fc',
+  DeepSeek: '#f87171',
+  Alibaba: '#fbbf24',
+  Mistral: '#22d3ee',
   NVIDIA: '#76b900',
-  MiniMax: '#ff4d4f',
-  Moonshot: '#8b5cf6',
+  MiniMax: '#818cf8',
+  Moonshot: '#c084fc',
 };
 
 const chartData: Array<Record<string, string | number>> = [
@@ -237,12 +237,14 @@ function CustomLegend({ activeModels, toggleModel }: CustomLegendProps) {
           <button
             key={model.id}
             onClick={() => toggleModel(model.id)}
-            className={`flex items-center gap-2 px-3 py-1.5 rounded-full transition-all duration-300 border 
-              ${
-                isActive
-                  ? 'bg-white dark:bg-zinc-800 border-zinc-200 dark:border-zinc-700 shadow-sm'
-                  : 'bg-transparent border-zinc-200 dark:border-zinc-700 opacity-40 hover:opacity-100 grayscale'
-              }`}
+            className='flex items-center gap-2 px-3 py-1.5 rounded transition-all duration-300'
+            style={{
+              backgroundColor: isActive
+                ? 'rgba(255, 255, 255, 0.1)'
+                : 'transparent',
+              border: `1px solid ${isActive ? 'rgba(255, 255, 255, 0.2)' : 'rgba(255, 255, 255, 0.06)'}`,
+              opacity: isActive ? 1 : 0.4,
+            }}
           >
             <div
               className='w-3 h-3 rounded-full'
@@ -251,7 +253,13 @@ function CustomLegend({ activeModels, toggleModel }: CustomLegendProps) {
               }}
             />
             <span
-              className={`text-xs font-medium ${isActive ? 'text-zinc-700 dark:text-zinc-300' : 'text-zinc-500 dark:text-zinc-400'}`}
+              style={{
+                fontSize: '12px',
+                fontWeight: 500,
+                color: isActive
+                  ? 'rgba(255, 255, 255, 0.9)'
+                  : 'rgba(255, 255, 255, 0.4)',
+              }}
             >
               {model.name}
             </span>
@@ -278,7 +286,6 @@ export default function BenchmarksPage() {
   const getFilteredModels = () =>
     benchmarkModels.filter((m) => activeModels.includes(m.id));
 
-  // Sort logic for the new table
   const [sortField, setSortField] = useState<keyof BenchmarkModel>('mmlu');
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc');
 
@@ -306,13 +313,28 @@ export default function BenchmarksPage() {
   });
 
   return (
-    <div className='min-h-screen bg-zinc-50 dark:bg-[#0f2744]'>
+    <div className='min-h-screen'>
       <main className='mx-auto px-4 sm:px-6 lg:px-10 py-8'>
         <div className='mb-12'>
-          <h1 className='text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 mb-4 tracking-tight'>
+          <h1
+            style={{
+              fontSize: '3rem',
+              lineHeight: '0.87',
+              fontWeight: 400,
+              color: '#ffffff',
+              marginBottom: '8px',
+            }}
+          >
             AI Model Benchmarks
           </h1>
-          <p className='text-lg text-zinc-600 dark:text-zinc-300 max-w-3xl'>
+          <p
+            style={{
+              fontSize: '18px',
+              color: 'rgba(255, 255, 255, 0.6)',
+              maxWidth: '48rem',
+              lineHeight: '1.5',
+            }}
+          >
             Explore and compare the performance of leading AI models across
             industry-standard evaluations. Use the filters and sorting below to
             find the right model capabilities.
@@ -321,12 +343,36 @@ export default function BenchmarksPage() {
 
         {/* Enhanced Line Chart Section */}
         <div className='mb-16'>
-          <div className='bg-white dark:bg-[#153457] rounded-2xl border border-zinc-200 dark:border-zinc-800/50 p-6 shadow-xl shadow-blue-900/5'>
-            <div className='mb-6 flex flex-col sm:flex-row justify-between items-start sm:items-center'>
-              <h2 className='text-2xl font-bold text-zinc-900 dark:text-zinc-100'>
+          <div
+            style={{
+              backgroundColor: '#333138',
+              borderRadius: '4px',
+              border: '1px solid rgba(255, 255, 255, 0.1)',
+              padding: '24px',
+              boxShadow: '4px 4px 0px 0px rgba(0, 0, 0, 0.15)',
+            }}
+          >
+            <div
+              className='mb-6 flex flex-col sm:flex-row justify-between items-start sm:items-center'
+              style={{ marginBottom: '24px' }}
+            >
+              <h2
+                style={{
+                  fontSize: '1.5rem',
+                  fontWeight: 500,
+                  color: '#ffffff',
+                  lineHeight: '1.2',
+                }}
+              >
                 Performance Landscape
               </h2>
-              <div className='text-sm text-zinc-500 dark:text-zinc-400 mt-2 sm:mt-0'>
+              <div
+                style={{
+                  fontSize: '13px',
+                  color: 'rgba(255, 255, 255, 0.4)',
+                  marginTop: '8px',
+                }}
+              >
                 Click legend items to toggle models
               </div>
             </div>
@@ -344,10 +390,10 @@ export default function BenchmarksPage() {
                     x2='0'
                     y2='1'
                   >
-                    <stop offset='0%' stopColor='#3b82f6' stopOpacity={0.1} />
+                    <stop offset='0%' stopColor='#00ffff' stopOpacity={0.1} />
                     <stop
                       offset='100%'
-                      stopColor='#8b5cf6'
+                      stopColor='#0007cd'
                       stopOpacity={0.05}
                     />
                   </linearGradient>
@@ -359,32 +405,41 @@ export default function BenchmarksPage() {
                 />
                 <XAxis
                   dataKey='benchmark'
-                  tick={{ fill: '#64748b', fontSize: 13, fontWeight: 500 }}
-                  axisLine={{ stroke: '#cbd5e1', strokeWidth: 2 }}
+                  tick={{
+                    fill: 'rgba(255, 255, 255, 0.5)',
+                    fontSize: 13,
+                    fontWeight: 500,
+                  }}
+                  axisLine={{
+                    stroke: 'rgba(255, 255, 255, 0.1)',
+                    strokeWidth: 1,
+                  }}
                   tickLine={false}
                   dy={10}
                 />
                 <YAxis
                   domain={[40, 100]}
-                  tick={{ fill: '#64748b', fontSize: 13, fontWeight: 500 }}
+                  tick={{
+                    fill: 'rgba(255, 255, 255, 0.5)',
+                    fontSize: 13,
+                    fontWeight: 500,
+                  }}
                   axisLine={false}
                   tickLine={false}
                   dx={-10}
                 />
                 <Tooltip
                   cursor={{
-                    stroke: '#64748b',
+                    stroke: 'rgba(255, 255, 255, 0.2)',
                     strokeWidth: 1,
                     strokeDasharray: '4 4',
                   }}
                   contentStyle={{
-                    backgroundColor: 'rgba(15, 39, 68, 0.95)',
-                    border: '1px solid rgba(59, 130, 246, 0.2)',
-                    borderRadius: '12px',
-                    color: '#f8fafc',
-                    boxShadow:
-                      '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
-                    backdropFilter: 'blur(8px)',
+                    backgroundColor: 'rgba(0, 0, 0, 0.95)',
+                    border: '1px solid rgba(0, 255, 255, 0.2)',
+                    borderRadius: '4px',
+                    color: '#ffffff',
+                    boxShadow: '0 8px 32px rgba(0, 0, 0, 0.5)',
                   }}
                   itemStyle={{ fontWeight: 500 }}
                 />
@@ -407,7 +462,7 @@ export default function BenchmarksPage() {
                       r: 4,
                       fill: providerColors[model.provider],
                       strokeWidth: 1.5,
-                      stroke: '#fff',
+                      stroke: '#000',
                     }}
                     activeDot={{
                       r: 6,
@@ -424,23 +479,55 @@ export default function BenchmarksPage() {
           </div>
         </div>
 
-        <div className='mb-4 text-right text-sm text-zinc-500 dark:text-zinc-400 px-6'>
+        <div
+          className='mb-4 text-right'
+          style={{
+            fontSize: '13px',
+            color: 'rgba(255, 255, 255, 0.4)',
+            paddingRight: '24px',
+          }}
+        >
           Last updated: April 23, 2026
         </div>
 
         {/* Comparison Table Section */}
         <div className='mb-12'>
-          <h2 className='text-2xl font-bold text-zinc-900 dark:text-zinc-100 mb-6'>
+          <h2
+            style={{
+              fontSize: '1.5rem',
+              fontWeight: 500,
+              color: '#ffffff',
+              marginBottom: '24px',
+              lineHeight: '1.2',
+            }}
+          >
             Detailed Comparison
           </h2>
 
-          <div className='bg-white dark:bg-[#153457] rounded-2xl border border-zinc-200 dark:border-zinc-800/50 shadow-xl shadow-blue-900/5 overflow-hidden'>
-            <div className='overflow-x-auto'>
+          <div
+            style={{
+              backgroundColor: '#333138',
+              borderRadius: '4px',
+              border: '1px solid rgba(255, 255, 255, 0.1)',
+              overflow: 'hidden',
+              boxShadow: '4px 4px 0px 0px rgba(0, 0, 0, 0.15)',
+            }}
+          >
+            <div className='overflow-x-auto custom-scrollbar'>
               <table className='w-full text-left border-collapse'>
                 <thead>
-                  <tr className='bg-zinc-50 dark:bg-zinc-800/50 text-sm border-b border-zinc-200 dark:border-zinc-800/50'>
+                  <tr
+                    style={{
+                      backgroundColor: 'rgba(255, 255, 255, 0.02)',
+                      borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
+                    }}
+                  >
                     <th
-                      className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors'
+                      className='py-4 px-6 font-medium cursor-pointer hover:bg-white/5 transition-colors'
+                      style={{
+                        color: 'rgba(255, 255, 255, 0.8)',
+                        fontSize: '13px',
+                      }}
                       onClick={() => handleSort('name')}
                     >
                       <div className='flex items-center gap-2'>
@@ -450,7 +537,11 @@ export default function BenchmarksPage() {
                       </div>
                     </th>
                     <th
-                      className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors'
+                      className='py-4 px-6 font-medium cursor-pointer hover:bg-white/5 transition-colors'
+                      style={{
+                        color: 'rgba(255, 255, 255, 0.8)',
+                        fontSize: '13px',
+                      }}
                       onClick={() => handleSort('provider')}
                     >
                       <div className='flex items-center gap-2'>
@@ -459,11 +550,21 @@ export default function BenchmarksPage() {
                           (sortOrder === 'asc' ? '↑' : '↓')}
                       </div>
                     </th>
-                    <th className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200'>
+                    <th
+                      className='py-4 px-6 font-medium'
+                      style={{
+                        color: 'rgba(255, 255, 255, 0.8)',
+                        fontSize: '13px',
+                      }}
+                    >
                       Type
                     </th>
                     <th
-                      className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-right cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors'
+                      className='py-4 px-6 font-medium text-right cursor-pointer hover:bg-white/5 transition-colors'
+                      style={{
+                        color: 'rgba(255, 255, 255, 0.8)',
+                        fontSize: '13px',
+                      }}
                       onClick={() => handleSort('mmlu')}
                     >
                       <div className='flex items-center justify-end gap-2'>
@@ -473,7 +574,11 @@ export default function BenchmarksPage() {
                       </div>
                     </th>
                     <th
-                      className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-right cursor-pointer hover:bg-zinc-100 dark:bg-zinc-800 transition-colors'
+                      className='py-4 px-6 font-medium text-right cursor-pointer hover:bg-white/5 transition-colors'
+                      style={{
+                        color: 'rgba(255, 255, 255, 0.8)',
+                        fontSize: '13px',
+                      }}
                       onClick={() => handleSort('mmluPlus')}
                     >
                       <div className='flex items-center justify-end gap-2'>
@@ -483,7 +588,11 @@ export default function BenchmarksPage() {
                       </div>
                     </th>
                     <th
-                      className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-right cursor-pointer hover:bg-zinc-100 dark:bg-zinc-800 transition-colors'
+                      className='py-4 px-6 font-medium text-right cursor-pointer hover:bg-white/5 transition-colors'
+                      style={{
+                        color: 'rgba(255, 255, 255, 0.8)',
+                        fontSize: '13px',
+                      }}
                       onClick={() => handleSort('humaneval')}
                     >
                       <div className='flex items-center justify-end gap-2'>
@@ -493,7 +602,11 @@ export default function BenchmarksPage() {
                       </div>
                     </th>
                     <th
-                      className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-right cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors'
+                      className='py-4 px-6 font-medium text-right cursor-pointer hover:bg-white/5 transition-colors'
+                      style={{
+                        color: 'rgba(255, 255, 255, 0.8)',
+                        fontSize: '13px',
+                      }}
                       onClick={() => handleSort('livebench')}
                     >
                       <div className='flex items-center justify-end gap-2'>
@@ -503,7 +616,11 @@ export default function BenchmarksPage() {
                       </div>
                     </th>
                     <th
-                      className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-right cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors'
+                      className='py-4 px-6 font-medium text-right cursor-pointer hover:bg-white/5 transition-colors'
+                      style={{
+                        color: 'rgba(255, 255, 255, 0.8)',
+                        fontSize: '13px',
+                      }}
                       onClick={() => handleSort('gpqa')}
                     >
                       <div className='flex items-center justify-end gap-2'>
@@ -514,16 +631,28 @@ export default function BenchmarksPage() {
                     </th>
                   </tr>
                 </thead>
-                <tbody className='divide-y divide-zinc-200 dark:divide-zinc-800/50'>
+                <tbody
+                  className='divide-y'
+                  style={{ borderColor: 'rgba(255, 255, 255, 0.06)' }}
+                >
                   {sortedModels.map((model) => (
                     <tr
                       key={model.id}
-                      className='hover:bg-zinc-50 dark:hover:bg-zinc-800/30 transition-colors group'
+                      className='hover:bg-white/5 transition-colors group'
+                      style={{
+                        borderBottom: '1px solid rgba(255, 255, 255, 0.06)',
+                      }}
                     >
-                      <td className='py-4 px-6 font-medium text-zinc-900 dark:text-zinc-100'>
+                      <td
+                        className='py-4 px-6 font-medium'
+                        style={{ color: '#ffffff', fontSize: '14px' }}
+                      >
                         {model.name}
                       </td>
-                      <td className='py-4 px-6 text-zinc-600 dark:text-zinc-400'>
+                      <td
+                        className='py-4 px-6'
+                        style={{ color: 'rgba(255, 255, 255, 0.6)' }}
+                      >
                         <div className='flex items-center gap-2'>
                           <div
                             className='w-2.5 h-2.5 rounded-full'
@@ -537,29 +666,65 @@ export default function BenchmarksPage() {
                       </td>
                       <td className='py-4 px-6'>
                         <span
-                          className={`inline-flex px-2.5 py-1 rounded-full text-xs font-medium border
-                          ${
-                            model.openSource
-                              ? 'bg-emerald-50 dark:bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 border-emerald-200 dark:border-emerald-500/20'
-                              : 'bg-indigo-50 dark:bg-indigo-500/10 text-indigo-700 dark:text-indigo-400 border-indigo-200 dark:border-indigo-500/20'
-                          }`}
+                          style={{
+                            display: 'inline-flex',
+                            padding: '2px 10px',
+                            borderRadius: '2px',
+                            fontSize: '11px',
+                            fontWeight: 500,
+                            backgroundColor: model.openSource
+                              ? 'rgba(34, 197, 94, 0.1)'
+                              : 'rgba(99, 102, 241, 0.1)',
+                            color: model.openSource ? '#4ade80' : '#818cf8',
+                            border: `1px solid ${model.openSource ? 'rgba(34, 197, 94, 0.2)' : 'rgba(99, 102, 241, 0.2)'}`,
+                          }}
                         >
                           {model.openSource ? 'Open Source' : 'Proprietary'}
                         </span>
                       </td>
-                      <td className='py-4 px-6 text-right font-semibold text-zinc-700 dark:text-zinc-300'>
+                      <td
+                        className='py-4 px-6 text-right font-medium'
+                        style={{
+                          color: 'rgba(255, 255, 255, 0.9)',
+                          fontSize: '14px',
+                        }}
+                      >
                         {model.mmlu.toFixed(1)}%
                       </td>
-                      <td className='py-4 px-6 text-right font-semibold text-zinc-700 dark:text-zinc-300'>
+                      <td
+                        className='py-4 px-6 text-right font-medium'
+                        style={{
+                          color: 'rgba(255, 255, 255, 0.9)',
+                          fontSize: '14px',
+                        }}
+                      >
                         {model.mmluPlus.toFixed(1)}%
                       </td>
-                      <td className='py-4 px-6 text-right font-semibold text-zinc-700 dark:text-zinc-300'>
+                      <td
+                        className='py-4 px-6 text-right font-medium'
+                        style={{
+                          color: 'rgba(255, 255, 255, 0.9)',
+                          fontSize: '14px',
+                        }}
+                      >
                         {model.humaneval.toFixed(1)}%
                       </td>
-                      <td className='py-4 px-6 text-right font-semibold text-zinc-700 dark:text-zinc-300'>
+                      <td
+                        className='py-4 px-6 text-right font-medium'
+                        style={{
+                          color: 'rgba(255, 255, 255, 0.9)',
+                          fontSize: '14px',
+                        }}
+                      >
                         {model.livebench.toFixed(1)}%
                       </td>
-                      <td className='py-4 px-6 text-right font-semibold text-zinc-700 dark:text-zinc-300'>
+                      <td
+                        className='py-4 px-6 text-right font-medium'
+                        style={{
+                          color: 'rgba(255, 255, 255, 0.9)',
+                          fontSize: '14px',
+                        }}
+                      >
                         {model.gpqa.toFixed(1)}%
                       </td>
                     </tr>
@@ -570,52 +735,158 @@ export default function BenchmarksPage() {
           </div>
         </div>
 
-        <div className='bg-white dark:bg-[#153457] rounded-2xl border border-zinc-200 dark:border-zinc-800/50 p-8 shadow-xl shadow-blue-900/5'>
-          <h2 className='text-xl font-bold text-zinc-900 dark:text-zinc-100 mb-6 flex items-center gap-2'>
-            <span className='text-blue-500'>📖</span> Benchmark Definitions
+        <div
+          style={{
+            backgroundColor: '#333138',
+            borderRadius: '4px',
+            border: '1px solid rgba(255, 255, 255, 0.1)',
+            padding: '32px',
+            boxShadow: '4px 4px 0px 0px rgba(0, 0, 0, 0.15)',
+          }}
+        >
+          <h2
+            style={{
+              fontSize: '1.25rem',
+              fontWeight: 500,
+              color: '#ffffff',
+              marginBottom: '24px',
+              lineHeight: '1.2',
+            }}
+          >
+            Benchmark Definitions
           </h2>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
             <div className='group'>
-              <span className='inline-block px-3 py-1 bg-zinc-100 dark:bg-zinc-800 rounded-lg font-semibold text-zinc-800 dark:text-zinc-200 mb-3 group-hover:bg-blue-100 dark:group-hover:bg-blue-900/30 transition-colors'>
+              <span
+                style={{
+                  display: 'inline-block',
+                  padding: '4px 12px',
+                  borderRadius: '2px',
+                  fontSize: '13px',
+                  fontWeight: 500,
+                  marginBottom: '12px',
+                  backgroundColor: 'rgba(255, 255, 255, 0.06)',
+                  color: 'rgba(255, 255, 255, 0.8)',
+                  border: '1px solid rgba(255, 255, 255, 0.08)',
+                }}
+              >
                 MMLU
               </span>
-              <p className='text-zinc-600 dark:text-zinc-400 leading-relaxed'>
+              <p
+                style={{
+                  color: 'rgba(255, 255, 255, 0.6)',
+                  lineHeight: '1.7',
+                  fontSize: '14px',
+                }}
+              >
                 Massive Multitask Language Understanding - comprehensively tests
                 knowledge across 57 distinct academic subjects.
               </p>
             </div>
             <div className='group'>
-              <span className='inline-block px-3 py-1 bg-zinc-100 dark:bg-zinc-800 rounded-lg font-semibold text-zinc-800 dark:text-zinc-200 mb-3 group-hover:bg-emerald-100 dark:group-hover:bg-emerald-900/30 transition-colors'>
+              <span
+                style={{
+                  display: 'inline-block',
+                  padding: '4px 12px',
+                  borderRadius: '2px',
+                  fontSize: '13px',
+                  fontWeight: 500,
+                  marginBottom: '12px',
+                  backgroundColor: 'rgba(255, 255, 255, 0.06)',
+                  color: 'rgba(255, 255, 255, 0.8)',
+                  border: '1px solid rgba(255, 255, 255, 0.08)',
+                }}
+              >
                 MMLU+
               </span>
-              <p className='text-zinc-600 dark:text-zinc-400 leading-relaxed'>
+              <p
+                style={{
+                  color: 'rgba(255, 255, 255, 0.6)',
+                  lineHeight: '1.7',
+                  fontSize: '14px',
+                }}
+              >
                 Enhanced version of MMLU with improved few-shot evaluations to
                 prevent statistical contamination.
               </p>
             </div>
             <div className='group'>
-              <span className='inline-block px-3 py-1 bg-zinc-100 dark:bg-zinc-800 rounded-lg font-semibold text-zinc-800 dark:text-zinc-200 mb-3 group-hover:bg-amber-100 dark:group-hover:bg-amber-900/30 transition-colors'>
+              <span
+                style={{
+                  display: 'inline-block',
+                  padding: '4px 12px',
+                  borderRadius: '2px',
+                  fontSize: '13px',
+                  fontWeight: 500,
+                  marginBottom: '12px',
+                  backgroundColor: 'rgba(255, 255, 255, 0.06)',
+                  color: 'rgba(255, 255, 255, 0.8)',
+                  border: '1px solid rgba(255, 255, 255, 0.08)',
+                }}
+              >
                 HumanEval
               </span>
-              <p className='text-zinc-600 dark:text-zinc-400 leading-relaxed'>
+              <p
+                style={{
+                  color: 'rgba(255, 255, 255, 0.6)',
+                  lineHeight: '1.7',
+                  fontSize: '14px',
+                }}
+              >
                 Rigorous code generation benchmark evaluating functional
                 correctness across 164 Python programming problems.
               </p>
             </div>
             <div className='group'>
-              <span className='inline-block px-3 py-1 bg-zinc-100 dark:bg-zinc-800 rounded-lg font-semibold text-zinc-800 dark:text-zinc-200 mb-3 group-hover:bg-purple-100 dark:group-hover:bg-purple-900/30 transition-colors'>
+              <span
+                style={{
+                  display: 'inline-block',
+                  padding: '4px 12px',
+                  borderRadius: '2px',
+                  fontSize: '13px',
+                  fontWeight: 500,
+                  marginBottom: '12px',
+                  backgroundColor: 'rgba(255, 255, 255, 0.06)',
+                  color: 'rgba(255, 255, 255, 0.8)',
+                  border: '1px solid rgba(255, 255, 255, 0.08)',
+                }}
+              >
                 LiveBench
               </span>
-              <p className='text-zinc-600 dark:text-zinc-400 leading-relaxed'>
+              <p
+                style={{
+                  color: 'rgba(255, 255, 255, 0.6)',
+                  lineHeight: '1.7',
+                  fontSize: '14px',
+                }}
+              >
                 Continuously updated, contamination-free evaluation set designed
                 to measure zero-shot instruction following.
               </p>
             </div>
             <div className='group'>
-              <span className='inline-block px-3 py-1 bg-zinc-100 dark:bg-zinc-800 rounded-lg font-semibold text-zinc-800 dark:text-zinc-200 mb-3 group-hover:bg-rose-100 dark:group-hover:bg-rose-900/30 transition-colors'>
+              <span
+                style={{
+                  display: 'inline-block',
+                  padding: '4px 12px',
+                  borderRadius: '2px',
+                  fontSize: '13px',
+                  fontWeight: 500,
+                  marginBottom: '12px',
+                  backgroundColor: 'rgba(255, 255, 255, 0.06)',
+                  color: 'rgba(255, 255, 255, 0.8)',
+                  border: '1px solid rgba(255, 255, 255, 0.08)',
+                }}
+              >
                 GPQA
               </span>
-              <p className='text-zinc-600 dark:text-zinc-400 leading-relaxed'>
+              <p
+                style={{
+                  color: 'rgba(255, 255, 255, 0.6)',
+                  lineHeight: '1.7',
+                  fontSize: '14px',
+                }}
+              >
                 Graduate-Level Science Questions - extremely robust evaluate of
                 PhD-level reasoning in physics, chemistry, and biology.
               </p>
@@ -623,7 +894,10 @@ export default function BenchmarksPage() {
           </div>
         </div>
 
-        <div className='mt-8 text-center text-sm font-medium text-zinc-400 dark:text-zinc-500'>
+        <div
+          className='mt-8 text-center'
+          style={{ fontSize: '13px', color: 'rgba(255, 255, 255, 0.4)' }}
+        >
           <p>
             Benchmark data aggregated from independent framework evaluations •
             Last Updated: April 23, 2026

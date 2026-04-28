@@ -35,7 +35,6 @@ export default function ComparePage() {
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc');
 
   useEffect(() => {
-    // Load model data from JSON file
     fetch('/data/models-data.json')
       .then((response) => {
         if (!response.ok) {
@@ -51,7 +50,6 @@ export default function ComparePage() {
         console.error('Error loading model data:', error);
         setError('Failed to load model data');
         setLoading(false);
-        // Fallback to minimal hardcoded data if JSON fails
         setFrontierModels([
           {
             id: 'gpt-5.4-thinking',
@@ -86,7 +84,7 @@ export default function ComparePage() {
       setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc');
     } else {
       setSortField(field);
-      setSortOrder('desc'); // Default to desc for metrics when switching
+      setSortOrder('desc');
     }
   };
 
@@ -118,20 +116,21 @@ export default function ComparePage() {
   });
 
   const providerColors: Record<string, string> = {
-    OpenAI: '#22c55e',
-    Anthropic: '#f97316',
-    Google: '#3b82f6',
-    xAI: '#374151',
-    Meta: '#a855f7',
-    DeepSeek: '#ef4444',
-    Alibaba: '#eab308',
-    Mistral: '#06b6d4',
+    OpenAI: '#4ade80',
+    Anthropic: '#fb923c',
+    Google: '#60a5fa',
+    xAI: 'rgba(255, 255, 255, 0.7)',
+    Meta: '#c084fc',
+    DeepSeek: '#f87171',
+    Alibaba: '#fbbf24',
+    Mistral: '#22d3ee',
     NVIDIA: '#76b900',
-    MiniMax: '#ff4d4f',
+    MiniMax: '#818cf8',
+    Moonshot: '#c084fc',
   };
 
   function getFeatureIcon(enabled: boolean): string {
-    return enabled ? '✅' : '❌';
+    return enabled ? '✓' : '—';
   }
 
   function getPriceDisplay(price: number, free: boolean): string {
@@ -141,10 +140,25 @@ export default function ComparePage() {
 
   if (loading) {
     return (
-      <div className='min-h-screen bg-zinc-50 dark:bg-[#0f2744] flex items-center justify-center'>
+      <div className='min-h-screen flex items-center justify-center'>
         <div className='text-center'>
-          <div className='animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500'></div>
-          <p className='mt-4 text-zinc-500 dark:text-zinc-400'>
+          <div
+            style={{
+              width: '32px',
+              height: '32px',
+              borderRadius: '50%',
+              border: '2px solid rgba(255, 255, 255, 0.1)',
+              borderTopColor: '#00ffff',
+              animation: 'spin 1s linear infinite',
+            }}
+          />
+          <p
+            style={{
+              marginTop: '16px',
+              color: 'rgba(255, 255, 255, 0.5)',
+              fontSize: '14px',
+            }}
+          >
             Loading model data...
           </p>
         </div>
@@ -154,12 +168,19 @@ export default function ComparePage() {
 
   if (error && frontierModels.length === 0) {
     return (
-      <div className='min-h-screen bg-zinc-50 dark:bg-[#0f2744] flex items-center justify-center'>
+      <div className='min-h-screen flex items-center justify-center'>
         <div className='text-center'>
-          <p className='text-red-500 dark:text-red-400'>{error}</p>
+          <p style={{ color: '#ef4444' }}>{error}</p>
           <button
             onClick={() => window.location.reload()}
-            className='mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600'
+            style={{
+              marginTop: '16px',
+              padding: '8px 16px',
+              backgroundColor: '#00ffff',
+              color: '#000',
+              borderRadius: '4px',
+              fontWeight: 500,
+            }}
           >
             Retry
           </button>
@@ -169,36 +190,82 @@ export default function ComparePage() {
   }
 
   return (
-    <div className='min-h-screen bg-zinc-50 dark:bg-[#0f2744]'>
+    <div className='min-h-screen'>
       <main className='max-w-[98vw] mx-auto px-4 sm:px-6 lg:px-10 py-8'>
         <div className='mb-12'>
-          <h1 className='text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 mb-4 tracking-tight'>
-            ⚖️ Frontier Model Comparison
+          <h1
+            style={{
+              fontSize: '3rem',
+              lineHeight: '0.87',
+              fontWeight: 400,
+              color: '#ffffff',
+              marginBottom: '8px',
+            }}
+          >
+            Frontier Model Comparison
           </h1>
-          <p className='text-lg text-zinc-600 dark:text-zinc-300 max-w-3xl'>
+          <p
+            style={{
+              fontSize: '18px',
+              color: 'rgba(255, 255, 255, 0.6)',
+              maxWidth: '48rem',
+              lineHeight: '1.5',
+            }}
+          >
             Compare the latest flagship AI models across pricing, capabilities,
             parameters, and benchmarks. Use the interactive column headers to
             sort the table.
           </p>
         </div>
 
-        <div className='mb-4 text-right text-sm text-zinc-500 dark:text-zinc-400 px-6'>
+        <div
+          className='mb-4 text-right'
+          style={{
+            fontSize: '13px',
+            color: 'rgba(255, 255, 255, 0.4)',
+            paddingRight: '24px',
+          }}
+        >
           Last updated: April 23, 2026
         </div>
-        <div className='bg-white dark:bg-[#153457] rounded-2xl border border-zinc-200 dark:border-zinc-800/50 shadow-xl shadow-blue-900/5 overflow-hidden mb-12'>
+        <div
+          style={{
+            backgroundColor: '#333138',
+            borderRadius: '4px',
+            border: '1px solid rgba(255, 255, 255, 0.1)',
+            overflow: 'hidden',
+            marginBottom: '48px',
+            boxShadow: '4px 4px 0px 0px rgba(0, 0, 0, 0.15)',
+          }}
+        >
           <div className='overflow-x-auto custom-scrollbar'>
             <table className='w-full text-left border-collapse whitespace-nowrap'>
               <thead>
-                <tr className='bg-zinc-50 dark:bg-zinc-800/50 text-sm border-b border-zinc-200 dark:border-zinc-800/50'>
+                <tr
+                  style={{
+                    backgroundColor: 'rgba(255, 255, 255, 0.02)',
+                    borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
+                  }}
+                >
                   <th
-                    className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors sticky left-0 z-10 bg-zinc-50 dark:bg-zinc-800/50 backdrop-blur'
+                    className='py-4 px-6 font-medium cursor-pointer hover:bg-white/5 transition-colors sticky left-0 z-10'
+                    style={{
+                      backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                      backdropFilter: 'blur(8px)',
+                      color: 'rgba(255, 255, 255, 0.8)',
+                      fontSize: '13px',
+                    }}
                     onClick={() => handleSort('name')}
                   >
                     Model{' '}
                     {sortField === 'name' && (sortOrder === 'asc' ? '↑' : '↓')}
                   </th>
                   <th
-                    className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors'
+                    className='py-4 px-6 font-medium cursor-pointer hover:bg-white/5 transition-colors'
+                    style={{
+                      color: 'rgba(255, 255, 255, 0.8)',
+                      fontSize: '13px',
+                    }}
                     onClick={() => handleSort('provider')}
                   >
                     Provider{' '}
@@ -206,21 +273,41 @@ export default function ComparePage() {
                       (sortOrder === 'asc' ? '↑' : '↓')}
                   </th>
                   <th
-                    className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors'
+                    className='py-4 px-6 font-medium cursor-pointer hover:bg-white/5 transition-colors'
+                    style={{
+                      color: 'rgba(255, 255, 255, 0.8)',
+                      fontSize: '13px',
+                    }}
                     onClick={() => handleSort('openSource')}
                   >
                     License{' '}
                     {sortField === 'openSource' &&
                       (sortOrder === 'asc' ? '↑' : '↓')}
                   </th>
-                  <th className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200'>
+                  <th
+                    className='py-4 px-6 font-medium'
+                    style={{
+                      color: 'rgba(255, 255, 255, 0.8)',
+                      fontSize: '13px',
+                    }}
+                  >
                     Released
                   </th>
-                  <th className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-center'>
+                  <th
+                    className='py-4 px-6 font-medium text-center'
+                    style={{
+                      color: 'rgba(255, 255, 255, 0.8)',
+                      fontSize: '13px',
+                    }}
+                  >
                     Size (TB)
                   </th>
                   <th
-                    className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-right cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors'
+                    className='py-4 px-6 font-medium text-right cursor-pointer hover:bg-white/5 transition-colors'
+                    style={{
+                      color: 'rgba(255, 255, 255, 0.8)',
+                      fontSize: '13px',
+                    }}
                     onClick={() => handleSort('parameters')}
                   >
                     Params{' '}
@@ -228,15 +315,23 @@ export default function ComparePage() {
                       (sortOrder === 'asc' ? '↑' : '↓')}
                   </th>
                   <th
-                    className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-right cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors'
+                    className='py-4 px-6 font-medium text-right cursor-pointer hover:bg-white/5 transition-colors'
+                    style={{
+                      color: 'rgba(255, 255, 255, 0.8)',
+                      fontSize: '13px',
+                    }}
                     onClick={() => handleSort('contextLength')}
                   >
                     Context{' '}
                     {sortField === 'contextLength' &&
                       (sortOrder === 'asc' ? '↑' : '↓')}
-                  </th>                  
+                  </th>
                   <th
-                    className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-right cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors'
+                    className='py-4 px-6 font-medium text-right cursor-pointer hover:bg-white/5 transition-colors'
+                    style={{
+                      color: 'rgba(255, 255, 255, 0.8)',
+                      fontSize: '13px',
+                    }}
                     onClick={() => handleSort('inputPrice')}
                   >
                     In ($/M){' '}
@@ -244,16 +339,23 @@ export default function ComparePage() {
                       (sortOrder === 'asc' ? '↑' : '↓')}
                   </th>
                   <th
-                    className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-right cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors'
+                    className='py-4 px-6 font-medium text-right cursor-pointer hover:bg-white/5 transition-colors'
+                    style={{
+                      color: 'rgba(255, 255, 255, 0.8)',
+                      fontSize: '13px',
+                    }}
                     onClick={() => handleSort('outputPrice')}
                   >
                     Out ($/M){' '}
                     {sortField === 'outputPrice' &&
                       (sortOrder === 'asc' ? '↑' : '↓')}
                   </th>
-
                   <th
-                    className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-right cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors'
+                    className='py-4 px-6 font-medium text-right cursor-pointer hover:bg-white/5 transition-colors'
+                    style={{
+                      color: 'rgba(255, 255, 255, 0.8)',
+                      fontSize: '13px',
+                    }}
                     onClick={() => handleSort('liveBench')}
                   >
                     LiveBench{' '}
@@ -261,7 +363,11 @@ export default function ComparePage() {
                       (sortOrder === 'asc' ? '↑' : '↓')}
                   </th>
                   <th
-                    className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-center cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors'
+                    className='py-4 px-6 font-medium text-center cursor-pointer hover:bg-white/5 transition-colors'
+                    style={{
+                      color: 'rgba(255, 255, 255, 0.8)',
+                      fontSize: '13px',
+                    }}
                     onClick={() => handleSort('multimodal')}
                   >
                     Multi{' '}
@@ -269,7 +375,11 @@ export default function ComparePage() {
                       (sortOrder === 'asc' ? '↑' : '↓')}
                   </th>
                   <th
-                    className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-center cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors'
+                    className='py-4 px-6 font-medium text-center cursor-pointer hover:bg-white/5 transition-colors'
+                    style={{
+                      color: 'rgba(255, 255, 255, 0.8)',
+                      fontSize: '13px',
+                    }}
                     onClick={() => handleSort('vision')}
                   >
                     Vision{' '}
@@ -277,7 +387,11 @@ export default function ComparePage() {
                       (sortOrder === 'asc' ? '↑' : '↓')}
                   </th>
                   <th
-                    className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-center cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors'
+                    className='py-4 px-6 font-medium text-center cursor-pointer hover:bg-white/5 transition-colors'
+                    style={{
+                      color: 'rgba(255, 255, 255, 0.8)',
+                      fontSize: '13px',
+                    }}
                     onClick={() => handleSort('functionCalling')}
                   >
                     Func{' '}
@@ -285,7 +399,11 @@ export default function ComparePage() {
                       (sortOrder === 'asc' ? '↑' : '↓')}
                   </th>
                   <th
-                    className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-center cursor-pointer hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors'
+                    className='py-4 px-6 font-medium text-center cursor-pointer hover:bg-white/5 transition-colors'
+                    style={{
+                      color: 'rgba(255, 255, 255, 0.8)',
+                      fontSize: '13px',
+                    }}
                     onClick={() => handleSort('search')}
                   >
                     Search{' '}
@@ -294,16 +412,32 @@ export default function ComparePage() {
                   </th>
                 </tr>
               </thead>
-              <tbody className='divide-y divide-zinc-200 dark:divide-zinc-800/50'>
+              <tbody
+                className='divide-y'
+                style={{ borderColor: 'rgba(255, 255, 255, 0.06)' }}
+              >
                 {sortedModels.map((model) => (
                   <tr
                     key={model.id}
-                    className='hover:bg-zinc-50 dark:hover:bg-zinc-800/30 transition-colors group'
+                    className='hover:bg-white/5 transition-colors group'
+                    style={{
+                      borderBottom: '1px solid rgba(255, 255, 255, 0.06)',
+                    }}
                   >
-                    <td className='py-4 px-6 font-medium text-zinc-900 dark:text-zinc-100 sticky left-0 z-10 bg-white dark:bg-[#153457] group-hover:bg-zinc-50 dark:group-hover:bg-zinc-800/80'>
+                    <td
+                      className='py-4 px-6 font-medium sticky left-0 z-10'
+                      style={{
+                        backgroundColor: '#333138',
+                        color: '#ffffff',
+                        fontSize: '14px',
+                      }}
+                    >
                       {model.name}
                     </td>
-                    <td className='py-4 px-6 text-zinc-600 dark:text-zinc-400'>
+                    <td
+                      className='py-4 px-6'
+                      style={{ color: 'rgba(255, 255, 255, 0.6)' }}
+                    >
                       <div className='flex items-center gap-2'>
                         <div
                           className='w-2.5 h-2.5 rounded-full'
@@ -317,62 +451,154 @@ export default function ComparePage() {
                     </td>
                     <td className='py-4 px-6'>
                       <span
-                        className={`inline-flex px-2.5 py-1 rounded-full text-xs font-medium border
-                        ${
-                          model.openSource
-                            ? 'bg-emerald-50 dark:bg-emerald-500/10 text-emerald-700 dark:text-emerald-400 border-emerald-200 dark:border-emerald-500/20'
-                            : 'bg-indigo-50 dark:bg-indigo-500/10 text-indigo-700 dark:text-indigo-400 border-indigo-200 dark:border-indigo-500/20'
-                        }`}
+                        style={{
+                          display: 'inline-flex',
+                          padding: '2px 10px',
+                          borderRadius: '2px',
+                          fontSize: '11px',
+                          fontWeight: 500,
+                          backgroundColor: model.openSource
+                            ? 'rgba(34, 197, 94, 0.1)'
+                            : 'rgba(99, 102, 241, 0.1)',
+                          color: model.openSource ? '#4ade80' : '#818cf8',
+                          border: `1px solid ${model.openSource ? 'rgba(34, 197, 94, 0.2)' : 'rgba(99, 102, 241, 0.2)'}`,
+                        }}
                       >
                         {model.openSource ? model.license : 'Proprietary'}
                       </span>
                     </td>
-                    <td className='py-4 px-6 text-zinc-600 dark:text-zinc-400 text-sm'>
+                    <td
+                      className='py-4 px-6'
+                      style={{
+                        color: 'rgba(255, 255, 255, 0.6)',
+                        fontSize: '13px',
+                      }}
+                    >
                       {model.releaseDate}
                     </td>
-                    <td className='py-4 px-6 text-center'>
+                    <td
+                      className='py-4 px-6 text-center'
+                      style={{ color: 'rgba(255, 255, 255, 0.6)' }}
+                    >
                       {model.modelSizeGB >= 1000
                         ? (model.modelSizeGB / 1000).toFixed(1) + ' TB'
                         : 'n/a'}
                     </td>
-                    <td className='py-4 px-6 text-right font-medium text-zinc-700 dark:text-zinc-300'>
+                    <td
+                      className='py-4 px-6 text-right font-medium'
+                      style={{
+                        color: 'rgba(255, 255, 255, 0.9)',
+                        fontSize: '14px',
+                      }}
+                    >
                       {formatNumber(model.parameters)}
-                      <span className='text-xs text-zinc-400 block'>
+                      <span
+                        style={{
+                          fontSize: '11px',
+                          color: 'rgba(255, 255, 255, 0.4)',
+                          display: 'block',
+                        }}
+                      >
                         {model.modelSizeGB}GB VRAM
                       </span>
                     </td>
-                    <td className='py-4 px-6 text-right font-medium text-zinc-700 dark:text-zinc-300'>
+                    <td
+                      className='py-4 px-6 text-right font-medium'
+                      style={{
+                        color: 'rgba(255, 255, 255, 0.9)',
+                        fontSize: '14px',
+                      }}
+                    >
                       {formatNumber(model.contextLength)}
                     </td>
                     <td className='py-4 px-6 text-right'>
                       <span
-                        className={`font-medium ${model.free ? 'text-emerald-600 dark:text-emerald-400' : 'text-zinc-700 dark:text-zinc-300'}`}
+                        style={{
+                          fontWeight: 500,
+                          color: model.free
+                            ? '#4ade80'
+                            : 'rgba(255, 255, 255, 0.9)',
+                        }}
                       >
                         {getPriceDisplay(model.inputPrice, model.free)}
                       </span>
                     </td>
                     <td className='py-4 px-6 text-right'>
                       <span
-                        className={`font-medium ${model.free ? 'text-emerald-600 dark:text-emerald-400' : 'text-zinc-700 dark:text-zinc-300'}`}
+                        style={{
+                          fontWeight: 500,
+                          color: model.free
+                            ? '#4ade80'
+                            : 'rgba(255, 255, 255, 0.9)',
+                        }}
                       >
                         {getPriceDisplay(model.outputPrice, model.free)}
                       </span>
                     </td>
-
-                    <td className='py-4 px-6 text-right font-semibold text-zinc-700 dark:text-zinc-300'>
+                    <td
+                      className='py-4 px-6 text-right font-medium'
+                      style={{
+                        color: 'rgba(255, 255, 255, 0.9)',
+                        fontSize: '14px',
+                      }}
+                    >
                       {model.liveBench.toFixed(1)}%
                     </td>
-                    <td className='py-4 px-6 text-center text-lg'>
-                      {getFeatureIcon(model.multimodal)}
+                    <td
+                      className='py-4 px-6 text-center'
+                      style={{ fontSize: '16px' }}
+                    >
+                      <span
+                        style={{
+                          color: model.multimodal
+                            ? '#00ffff'
+                            : 'rgba(255, 255, 255, 0.2)',
+                        }}
+                      >
+                        {getFeatureIcon(model.multimodal)}
+                      </span>
                     </td>
-                    <td className='py-4 px-6 text-center text-lg'>
-                      {getFeatureIcon(model.vision)}
+                    <td
+                      className='py-4 px-6 text-center'
+                      style={{ fontSize: '16px' }}
+                    >
+                      <span
+                        style={{
+                          color: model.vision
+                            ? '#00ffff'
+                            : 'rgba(255, 255, 255, 0.2)',
+                        }}
+                      >
+                        {getFeatureIcon(model.vision)}
+                      </span>
                     </td>
-                    <td className='py-4 px-6 text-center text-lg'>
-                      {getFeatureIcon(model.functionCalling)}
+                    <td
+                      className='py-4 px-6 text-center'
+                      style={{ fontSize: '16px' }}
+                    >
+                      <span
+                        style={{
+                          color: model.functionCalling
+                            ? '#00ffff'
+                            : 'rgba(255, 255, 255, 0.2)',
+                        }}
+                      >
+                        {getFeatureIcon(model.functionCalling)}
+                      </span>
                     </td>
-                    <td className='py-4 px-6 text-center text-lg'>
-                      {getFeatureIcon(model.search)}
+                    <td
+                      className='py-4 px-6 text-center'
+                      style={{ fontSize: '16px' }}
+                    >
+                      <span
+                        style={{
+                          color: model.search
+                            ? '#00ffff'
+                            : 'rgba(255, 255, 255, 0.2)',
+                        }}
+                      >
+                        {getFeatureIcon(model.search)}
+                      </span>
                     </td>
                   </tr>
                 ))}
@@ -381,40 +607,99 @@ export default function ComparePage() {
           </div>
         </div>
 
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 bg-white dark:bg-[#153457] rounded-2xl border border-zinc-200 dark:border-zinc-800/50 p-8 shadow-xl shadow-blue-900/5'>
+        <div
+          className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'
+          style={{
+            backgroundColor: '#333138',
+            borderRadius: '4px',
+            border: '1px solid rgba(255, 255, 255, 0.1)',
+            padding: '32px',
+            boxShadow: '4px 4px 0px 0px rgba(0, 0, 0, 0.15)',
+          }}
+        >
           <div>
-            <h2 className='text-xl font-bold text-zinc-900 dark:text-zinc-100 mb-4 flex items-center gap-2'>
-              <span className='text-blue-500'>💰</span> Pricing
+            <h2
+              style={{
+                fontSize: '1.25rem',
+                fontWeight: 500,
+                color: '#ffffff',
+                marginBottom: '16px',
+                lineHeight: '1.2',
+              }}
+            >
+              Pricing
             </h2>
-            <ul className='space-y-3 text-sm text-zinc-600 dark:text-zinc-400'>
+            <ul
+              className='space-y-3'
+              style={{ fontSize: '14px', color: 'rgba(255, 255, 255, 0.6)' }}
+            >
               <li className='flex items-center gap-2'>
-                <span className='px-2 py-1 bg-emerald-50 text-emerald-700 dark:bg-emerald-500/10 dark:text-emerald-400 rounded font-medium border border-emerald-200 dark:border-emerald-500/20'>
+                <span
+                  style={{
+                    padding: '2px 8px',
+                    backgroundColor: 'rgba(34, 197, 94, 0.1)',
+                    color: '#4ade80',
+                    borderRadius: '2px',
+                    fontWeight: 500,
+                    fontSize: '12px',
+                    border: '1px solid rgba(34, 197, 94, 0.2)',
+                  }}
+                >
                   Free
                 </span>
                 <span>Open weights/No API cost</span>
               </li>
               <li className='flex items-center gap-2'>
-                <strong className='text-zinc-900 dark:text-zinc-100'>
-                  $X.XX
-                </strong>
+                <strong style={{ color: '#ffffff' }}>$X.XX</strong>
                 <span>Price per 1 Million Tokens</span>
               </li>
             </ul>
           </div>
 
           <div>
-            <h2 className='text-xl font-bold text-zinc-900 dark:text-zinc-100 mb-4 flex items-center gap-2'>
-              <span className='text-purple-500'>📜</span> Licensing
+            <h2
+              style={{
+                fontSize: '1.25rem',
+                fontWeight: 500,
+                color: '#ffffff',
+                marginBottom: '16px',
+                lineHeight: '1.2',
+              }}
+            >
+              Licensing
             </h2>
-            <ul className='space-y-3 text-sm text-zinc-600 dark:text-zinc-400'>
+            <ul
+              className='space-y-3'
+              style={{ fontSize: '14px', color: 'rgba(255, 255, 255, 0.6)' }}
+            >
               <li className='flex items-center gap-2'>
-                <span className='px-2 py-1 bg-emerald-50 text-emerald-700 dark:bg-emerald-500/10 dark:text-emerald-400 rounded font-medium border border-emerald-200 dark:border-emerald-500/20'>
+                <span
+                  style={{
+                    padding: '2px 8px',
+                    backgroundColor: 'rgba(34, 197, 94, 0.1)',
+                    color: '#4ade80',
+                    borderRadius: '2px',
+                    fontWeight: 500,
+                    fontSize: '12px',
+                    border: '1px solid rgba(34, 197, 94, 0.2)',
+                  }}
+                >
                   Open Source
                 </span>
                 <span>Available for download</span>
               </li>
               <li className='flex items-center gap-2'>
-                <span className='px-2 py-1 bg-indigo-50 text-indigo-700 dark:bg-indigo-500/10 dark:text-indigo-400 rounded font-medium border border-indigo-200 dark:border-indigo-500/20'>
+                <span
+                  style={{
+                    padding: '2px 8px',
+                    backgroundColor: 'rgba(99, 102, 241, 0.1)',
+                    color: '#818cf8',
+                    borderRadius: '2px',
+                    fontWeight: 500,
+                    fontSize: '12px',
+                    border: '1px solid rgba(99, 102, 241, 0.2)',
+                  }}
+                >
                   Proprietary
                 </span>
                 <span>API/Hosted access only</span>
@@ -423,27 +708,51 @@ export default function ComparePage() {
           </div>
 
           <div className='col-span-1 lg:col-span-2'>
-            <h2 className='text-xl font-bold text-zinc-900 dark:text-zinc-100 mb-4 flex items-center gap-2'>
-              <span className='text-amber-500'>⚙️</span> Feature Ticks
+            <h2
+              style={{
+                fontSize: '1.25rem',
+                fontWeight: 500,
+                color: '#ffffff',
+                marginBottom: '16px',
+                lineHeight: '1.2',
+              }}
+            >
+              Feature Ticks
             </h2>
-            <div className='grid grid-cols-2 gap-4 text-sm text-zinc-600 dark:text-zinc-400'>
+            <div
+              className='grid grid-cols-2 gap-4'
+              style={{ fontSize: '14px', color: 'rgba(255, 255, 255, 0.6)' }}
+            >
               <div className='flex items-center gap-2'>
-                <span className='text-lg'>✅</span> Supported out-of-the-box
+                <span style={{ fontSize: '16px', color: '#00ffff' }}>✓</span>
+                <span>Supported out-of-the-box</span>
               </div>
               <div className='flex items-center gap-2'>
-                <span className='text-lg'>❌</span> Lacking capability
+                <span
+                  style={{
+                    fontSize: '16px',
+                    color: 'rgba(255, 255, 255, 0.2)',
+                  }}
+                >
+                  —
+                </span>
+                <span>Lacking capability</span>
               </div>
               <div>
-                <strong>Multi:</strong> Natively Multimodal architecture
+                <strong style={{ color: '#ffffff' }}>Multi:</strong> Natively
+                Multimodal architecture
               </div>
               <div>
-                <strong>Vision:</strong> Vision/Image input allowed
+                <strong style={{ color: '#ffffff' }}>Vision:</strong>{' '}
+                Vision/Image input allowed
               </div>
               <div>
-                <strong>Func:</strong> Native Function Calling support
+                <strong style={{ color: '#ffffff' }}>Func:</strong> Native
+                Function Calling support
               </div>
               <div>
-                <strong>Search:</strong> Web Search grounding supported
+                <strong style={{ color: '#ffffff' }}>Search:</strong> Web Search
+                grounding supported
               </div>
             </div>
           </div>

@@ -18,32 +18,38 @@ const productData: ProductRow[] = [
       Google: {
         name: 'Gemini 3.1 Pro',
         url: 'https://deepmind.google/technologies/gemini/',
-        description: 'Flagship multimodal model used across Gemini, Code Assist, and Vertex AI',
+        description:
+          'Flagship multimodal model used across Gemini, Code Assist, and Vertex AI',
       },
       Amazon: {
         name: 'Nova Premier',
         url: 'https://aws.amazon.com/ai/generative-ai/nova/',
-        description: 'Amazon’s top Bedrock model for multimodal enterprise workloads',
+        description:
+          "Amazon's top Bedrock model for multimodal enterprise workloads",
       },
       OpenAI: {
         name: 'GPT-5.5',
         url: 'https://openai.com/index/introducing-gpt-5-5/',
-        description: 'Frontier reasoning and coding model powering ChatGPT, Codex, and the API',
+        description:
+          'Frontier reasoning and coding model powering ChatGPT, Codex, and the API',
       },
       Anthropic: {
         name: 'Claude Opus 4.7',
         url: 'https://www.anthropic.com/news/claude-opus-4-7',
-        description: 'Anthropic’s flagship hybrid reasoning model for coding and agent workflows',
+        description:
+          "Anthropic's flagship hybrid reasoning model for coding and agent workflows",
       },
       xAI: {
         name: 'Grok 4.20 Beta',
         url: 'https://docs.x.ai/overview',
-        description: 'xAI frontier model family for Grok, API, and developer tooling',
+        description:
+          'xAI frontier model family for Grok, API, and developer tooling',
       },
       ByteDance: {
         name: 'Doubao 2.0',
         url: 'https://www.doubao.com',
-        description: 'ByteDance multimodal model family behind Doubao experiences',
+        description:
+          'ByteDance multimodal model family behind Doubao experiences',
       },
     },
   },
@@ -57,32 +63,38 @@ const productData: ProductRow[] = [
       'Muse Spark': {
         name: 'Muse Spark',
         url: 'https://ai.meta.com/blog/muse-spark',
-        description: 'Meta\'s latest flagship model ranking 4th on AI Index with strong health and science reasoning. Closed model with API in private preview'
+        description:
+          "Meta's latest flagship model ranking 4th on AI Index with strong health and science reasoning. Closed model with API in private preview",
       },
       DeepSeek: {
         name: 'DeepSeek V3.2',
         url: 'https://www.deepseek.com',
-        description: 'Open-model reasoning and coding family used in DeepSeek Chat and API',
+        description:
+          'Open-model reasoning and coding family used in DeepSeek Chat and API',
       },
       Mistral: {
         name: 'Devstral',
         url: 'https://mistral.ai/news/devstral',
-        description: 'Open coding model family from Mistral for agentic developer workflows',
+        description:
+          'Open coding model family from Mistral for agentic developer workflows',
       },
       Alibaba: {
         name: 'Qwen3',
         url: 'https://qwenlm.ai/',
-        description: 'Open family spanning reasoning, coding, and multimodal variants',
+        description:
+          'Open family spanning reasoning, coding, and multimodal variants',
       },
       Microsoft: {
         name: 'Phi-4',
         url: 'https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure?pivots=azure-openai',
-        description: 'Small open-weight model line optimized for efficient reasoning workloads',
+        description:
+          'Small open-weight model line optimized for efficient reasoning workloads',
       },
       Google: {
         name: 'Gemma 3',
         url: 'https://ai.google.dev/gemma',
-        description: 'Google’s open model family for lightweight multimodal deployment',
+        description:
+          "Google's open model family for lightweight multimodal deployment",
       },
     },
   },
@@ -92,72 +104,86 @@ const productData: ProductRow[] = [
       Google: {
         name: 'Gemini',
         url: 'https://gemini.google.com',
-        description: 'Powered by Gemini 3.1 Pro and Gemini 3 Flash across chat and workspace tasks',
+        description:
+          'Powered by Gemini 3.1 Pro and Gemini 3 Flash across chat and workspace tasks',
       },
       OpenAI: {
         name: 'ChatGPT',
         url: 'https://developers.openai.com/chatgpt',
-        description: 'Powered by GPT-5.5, with Deep Research, voice, image, and agent tools',
+        description:
+          'Powered by GPT-5.5, with Deep Research, voice, image, and agent tools',
       },
       Anthropic: {
         name: 'Claude',
         url: 'https://claude.com/product/overview',
-        description: 'Default experience on Claude Sonnet 4.6 with Opus 4.6 for max capability',
+        description:
+          'Default experience on Claude Sonnet 4.6 with Opus 4.6 for max capability',
       },
       Microsoft: {
         name: 'Copilot',
         url: 'https://copilot.microsoft.com',
-        description: 'OpenAI-powered assistant across web, work, and Microsoft 365 surfaces',
+        description:
+          'OpenAI-powered assistant across web, work, and Microsoft 365 surfaces',
       },
       Meta: {
         name: 'Meta AI',
         url: 'https://ai.meta.com',
-        description: 'Powered by Muse Spark, Meta\'s latest flagship. Ranks 4th on AI Index, leads on HealthBench, free at meta.ai and across Meta apps'
+        description:
+          "Powered by Muse Spark, Meta's latest flagship. Ranks 4th on AI Index, leads on HealthBench, free at meta.ai and across Meta apps",
       },
       Amazon: {
         name: 'Amazon Q',
         url: 'https://aws.amazon.com/q/',
-        description: 'Enterprise-first assistant grounded in AWS services and company data',
+        description:
+          'Enterprise-first assistant grounded in AWS services and company data',
       },
       xAI: {
         name: 'Grok',
         url: 'https://grok.com',
-        description: 'Powered by Grok 4.1 for web answers, coding, and multimodal chat',
+        description:
+          'Powered by Grok 4.1 for web answers, coding, and multimodal chat',
       },
       DeepSeek: {
         name: 'DeepSeek Chat',
         url: 'https://www.deepseek.com',
-        description: 'Powered by DeepSeek V3.2 with strong reasoning and coding performance',
+        description:
+          'Powered by DeepSeek V3.2 with strong reasoning and coding performance',
       },
       Mistral: {
         name: 'Le Chat',
         url: 'https://mistral.ai/products/le-chat',
-        description: 'Powered by Mistral’s latest flagship chat and reasoning models',
+        description:
+          "Powered by Mistral's latest flagship chat and reasoning models",
       },
       ByteDance: {
         name: 'Doubao',
         url: 'https://www.doubao.com',
-        description: 'Powered by Doubao 1.5 with chat, search, and creative generation modes',
+        description:
+          'Powered by Doubao 1.5 with chat, search, and creative generation modes',
       },
       Tencent: {
         name: 'Yuanbao',
         url: 'https://yuanbao.tencent.com',
-        description: 'Tencent assistant powered by Hunyuan models and Tencent ecosystem search',
+        description:
+          'Tencent assistant powered by Hunyuan models and Tencent ecosystem search',
       },
       Alibaba: {
         name: 'Qwen Chat',
         url: 'https://chat.qwen.ai/',
-        description: 'Powered by Qwen3 with multilingual chat, coding, and reasoning tools',
+        description:
+          'Powered by Qwen3 with multilingual chat, coding, and reasoning tools',
       },
       HuggingFace: {
         name: 'HuggingChat',
         url: 'https://huggingface.co/chat',
-        description: 'Multi-model open chat surface for Llama, Qwen, Mistral, and more',
+        description:
+          'Multi-model open chat surface for Llama, Qwen, Mistral, and more',
       },
       Perplexity: {
         name: 'Perplexity',
         url: 'https://docs.perplexity.ai/docs/getting-started/overview',
-        description: 'Answer engine combining frontier models with citation-heavy web research',
+        description:
+          'Answer engine combining frontier models with citation-heavy web research',
       },
     },
   },
@@ -167,42 +193,50 @@ const productData: ProductRow[] = [
       Google: {
         name: 'Gemini Code Assist',
         url: 'https://developers.google.com/gemini-code-assist',
-        description: 'IDE coding agent powered by Gemini 2.5 today with Gemini 3 rollout underway',
+        description:
+          'IDE coding agent powered by Gemini 2.5 today with Gemini 3 rollout underway',
       },
       OpenAI: {
         name: 'Codex',
         url: 'https://developers.openai.com/codex/ide',
-        description: 'IDE extension and cloud coding agent powered by GPT-5.5 and Codex',
+        description:
+          'IDE extension and cloud coding agent powered by GPT-5.5 and Codex',
       },
       Anthropic: {
         name: 'Claude Code',
         url: 'https://www.anthropic.com/claude-code',
-        description: 'Terminal-first coding agent with IDE workflows powered by Claude 4.6 models',
+        description:
+          'Terminal-first coding agent with IDE workflows powered by Claude 4.6 models',
       },
       Microsoft: {
         name: 'GitHub Copilot',
         url: 'https://github.com/features/copilot',
-        description: 'Editor-native agent mode with GPT-5.5, Claude, and Gemini model options',
+        description:
+          'Editor-native agent mode with GPT-5.5, Claude, and Gemini model options',
       },
       Amazon: {
         name: 'Amazon Q Developer',
         url: 'https://aws.amazon.com/q/developer/',
-        description: 'AWS coding assistant across IDEs, PR review, and modernization tasks',
+        description:
+          'AWS coding assistant across IDEs, PR review, and modernization tasks',
       },
       JetBrains: {
         name: 'Junie',
         url: 'https://www.jetbrains.com/junie/',
-        description: 'JetBrains coding agent with IDE-native context, reviews, and async task flows',
+        description:
+          'JetBrains coding agent with IDE-native context, reviews, and async task flows',
       },
       Cursor: {
         name: 'Cursor',
         url: 'https://www.cursor.com',
-        description: 'AI-native editor with multi-file agent mode and frontier model routing',
+        description:
+          'AI-native editor with multi-file agent mode and frontier model routing',
       },
       Windsurf: {
         name: 'Windsurf Editor',
         url: 'https://windsurf.com',
-        description: 'Cascade-powered IDE for long-running coding tasks and agentic editing',
+        description:
+          'Cascade-powered IDE for long-running coding tasks and agentic editing',
       },
     },
   },
@@ -212,7 +246,8 @@ const productData: ProductRow[] = [
       Google: {
         name: 'Gemini CLI',
         url: 'https://github.com/google-gemini/gemini-cli',
-        description: 'Open terminal agent linked to Gemini Code Assist and Gemini model workflows',
+        description:
+          'Open terminal agent linked to Gemini Code Assist and Gemini model workflows',
       },
       OpenAI: {
         name: 'Codex CLI',
@@ -222,42 +257,50 @@ const productData: ProductRow[] = [
       Anthropic: {
         name: 'Claude Code',
         url: 'https://www.anthropic.com/claude-code',
-        description: 'CLI coding agent powered by Claude Opus 4.6 and Sonnet 4.6',
+        description:
+          'CLI coding agent powered by Claude Opus 4.6 and Sonnet 4.6',
       },
       JetBrains: {
         name: 'Junie CLI',
         url: 'https://junie.jetbrains.com/docs/junie-cli.html',
-        description: 'Q2 2026 beta LLM-agnostic coding agent with BYOK, CI, and IDE bridge',
+        description:
+          'Q2 2026 beta LLM-agnostic coding agent with BYOK, CI, and IDE bridge',
       },
       Courier: {
         name: 'Courier CLI',
         url: 'https://www.courier.com/docs/welcome',
-        description: 'Q2 2026 CLI for giving AI agents notification infrastructure and JSON-safe commands',
+        description:
+          'Q2 2026 CLI for giving AI agents notification infrastructure and JSON-safe commands',
       },
       Amazon: {
         name: 'Amazon Q CLI',
         url: 'https://aws.amazon.com/q/developer/',
-        description: 'Command-line assistant for AWS operations, code changes, and shell workflows',
+        description:
+          'Command-line assistant for AWS operations, code changes, and shell workflows',
       },
       HuggingFace: {
         name: 'Hugging Face CLI',
         url: 'https://huggingface.co/docs/huggingface_hub/guides/cli',
-        description: 'CLI for model, dataset, repo, and inference workflow management',
+        description:
+          'CLI for model, dataset, repo, and inference workflow management',
       },
       Zapier: {
         name: 'Zapier Platform CLI',
         url: 'https://docs.zapier.com/platform/build-cli/overview',
-        description: 'CLI for building AI-enabled integrations, actions, and MCP-style tooling',
+        description:
+          'CLI for building AI-enabled integrations, actions, and MCP-style tooling',
       },
       n8n: {
         name: 'n8n CLI',
         url: 'https://docs.n8n.io/hosting/cli-commands/',
-        description: 'CLI for workflow lifecycle, self-hosting, and automation operations',
+        description:
+          'CLI for workflow lifecycle, self-hosting, and automation operations',
       },
       NVIDIA: {
         name: 'AI Workbench CLI',
         url: 'https://docs.nvidia.com/ai-workbench/',
-        description: 'CLI-backed local and remote AI dev environments for model teams',
+        description:
+          'CLI-backed local and remote AI dev environments for model teams',
       },
     },
   },
@@ -267,62 +310,74 @@ const productData: ProductRow[] = [
       Google: {
         name: 'Gemini API',
         url: 'https://ai.google.dev/gemini-api/docs',
-        description: 'Developer platform for Gemini models, tools, embeddings, and multimodal apps',
+        description:
+          'Developer platform for Gemini models, tools, embeddings, and multimodal apps',
       },
       OpenAI: {
         name: 'OpenAI Platform',
         url: 'https://developers.openai.com/api/docs',
-        description: 'Responses API with GPT-5.5, GPT Image 1.5, Realtime 1.5, and agent tooling',
+        description:
+          'Responses API with GPT-5.5, GPT Image 1.5, Realtime 1.5, and agent tooling',
       },
       Anthropic: {
         name: 'Claude API',
         url: 'https://docs.anthropic.com',
-        description: 'Claude 4.6 models, tools, computer use, and long-context developer platform',
+        description:
+          'Claude 4.6 models, tools, computer use, and long-context developer platform',
       },
       Microsoft: {
         name: 'Azure AI Foundry',
         url: 'https://ai.azure.com',
-        description: 'Unified model, agent, eval, and deployment platform on Azure',
+        description:
+          'Unified model, agent, eval, and deployment platform on Azure',
       },
       Amazon: {
         name: 'Amazon Bedrock',
         url: 'https://aws.amazon.com/bedrock/',
-        description: 'Managed foundation model platform with Bedrock Agents and guardrails',
+        description:
+          'Managed foundation model platform with Bedrock Agents and guardrails',
       },
       Meta: {
         name: 'Llama API',
         url: 'https://www.llama.com/',
-        description: 'Official API access path for Meta’s Llama model ecosystem',
+        description:
+          "Official API access path for Meta's Llama model ecosystem",
       },
       xAI: {
         name: 'xAI API',
         url: 'https://docs.x.ai',
-        description: 'Developer access to Grok 4.1, multimodal reasoning, and tool use',
+        description:
+          'Developer access to Grok 4.1, multimodal reasoning, and tool use',
       },
       DeepSeek: {
         name: 'DeepSeek API',
         url: 'https://api-docs.deepseek.com/',
-        description: 'Low-cost API access to DeepSeek reasoning and coding model families',
+        description:
+          'Low-cost API access to DeepSeek reasoning and coding model families',
       },
       Mistral: {
         name: 'La Plateforme',
         url: 'https://docs.mistral.ai',
-        description: 'Mistral developer platform for chat, OCR, embeddings, agents, and code',
+        description:
+          'Mistral developer platform for chat, OCR, embeddings, agents, and code',
       },
       NVIDIA: {
         name: 'NVIDIA Build',
         url: 'https://build.nvidia.com',
-        description: 'NIM-backed API catalog and deployment platform for enterprise AI services',
+        description:
+          'NIM-backed API catalog and deployment platform for enterprise AI services',
       },
       Alibaba: {
         name: 'Model Studio',
         url: 'https://www.alibabacloud.com/en/product/model-studio',
-        description: 'Alibaba Cloud developer platform for Qwen models and agent apps',
+        description:
+          'Alibaba Cloud developer platform for Qwen models and agent apps',
       },
       HuggingFace: {
         name: 'Inference API',
         url: 'https://huggingface.co/inference-api',
-        description: 'Hosted API layer for open models, endpoints, and serverless inference',
+        description:
+          'Hosted API layer for open models, endpoints, and serverless inference',
       },
     },
   },
@@ -332,42 +387,50 @@ const productData: ProductRow[] = [
       Google: {
         name: 'Vertex AI',
         url: 'https://cloud.google.com/vertex-ai',
-        description: 'Managed training, serving, and agent deployment on Google Cloud',
+        description:
+          'Managed training, serving, and agent deployment on Google Cloud',
       },
       Microsoft: {
         name: 'Azure AI Foundry',
         url: 'https://ai.azure.com',
-        description: 'Managed deployment, monitoring, and model routing on Azure',
+        description:
+          'Managed deployment, monitoring, and model routing on Azure',
       },
       Amazon: {
         name: 'SageMaker AI',
         url: 'https://aws.amazon.com/sagemaker/',
-        description: 'Managed model training, deployment, and MLOps workflows on AWS',
+        description:
+          'Managed model training, deployment, and MLOps workflows on AWS',
       },
       NVIDIA: {
         name: 'NIM',
         url: 'https://build.nvidia.com',
-        description: 'Containerized inference microservices for enterprise deployment',
+        description:
+          'Containerized inference microservices for enterprise deployment',
       },
       HuggingFace: {
         name: 'Inference Endpoints',
         url: 'https://huggingface.co/inference-endpoints',
-        description: 'Dedicated hosting for open models with autoscaling and observability',
+        description:
+          'Dedicated hosting for open models with autoscaling and observability',
       },
       Replicate: {
         name: 'Replicate',
         url: 'https://replicate.com',
-        description: 'API-first model hosting and deployment for multimodal workloads',
+        description:
+          'API-first model hosting and deployment for multimodal workloads',
       },
       Alibaba: {
         name: 'PAI-EAS',
         url: 'https://www.alibabacloud.com/en/product/machine-learning',
-        description: 'Elastic algorithm service for model serving on Alibaba Cloud',
+        description:
+          'Elastic algorithm service for model serving on Alibaba Cloud',
       },
       vLLM: {
         name: 'vLLM',
         url: 'https://vllm.ai',
-        description: 'Open-source high-throughput serving engine used in self-hosted stacks',
+        description:
+          'Open-source high-throughput serving engine used in self-hosted stacks',
       },
     },
   },
@@ -377,32 +440,38 @@ const productData: ProductRow[] = [
       Google: {
         name: 'AI Studio',
         url: 'https://aistudio.google.com',
-        description: 'Fast browser workspace for prompt prototyping and Gemini app iteration',
+        description:
+          'Fast browser workspace for prompt prototyping and Gemini app iteration',
       },
       OpenAI: {
         name: 'Playground',
         url: 'https://developers.openai.com/',
-        description: 'Prompt, eval, and tool testing workspace for GPT-5.5 and platform APIs',
+        description:
+          'Prompt, eval, and tool testing workspace for GPT-5.5 and platform APIs',
       },
       JetBrains: {
         name: 'AI Assistant',
         url: 'https://www.jetbrains.com/ai/',
-        description: 'In-IDE assistant for completion, chat, refactors, and team model routing',
+        description:
+          'In-IDE assistant for completion, chat, refactors, and team model routing',
       },
       Cursor: {
         name: 'Background Agent',
         url: 'https://www.cursor.com',
-        description: 'Async dev workflows for longer tasks inside the Cursor coding environment',
+        description:
+          'Async dev workflows for longer tasks inside the Cursor coding environment',
       },
       HuggingFace: {
         name: 'Gradio',
         url: 'https://www.gradio.app',
-        description: 'UI toolkit for demos, eval apps, and internal AI developer tools',
+        description:
+          'UI toolkit for demos, eval apps, and internal AI developer tools',
       },
       LangChain: {
         name: 'LangSmith',
         url: 'https://www.langchain.com/langsmith',
-        description: 'Tracing, evaluation, prompt management, and observability for agent stacks',
+        description:
+          'Tracing, evaluation, prompt management, and observability for agent stacks',
       },
     },
   },
@@ -412,62 +481,74 @@ const productData: ProductRow[] = [
       Google: {
         name: 'Vertex AI Agent Builder',
         url: 'https://cloud.google.com/vertex-ai/generative-ai/docs/agent-builder/overview',
-        description: 'Google orchestration layer for search, tools, and production agents',
+        description:
+          'Google orchestration layer for search, tools, and production agents',
       },
       OpenAI: {
         name: 'Agent Platform',
         url: 'https://developers.openai.com/api/docs/guides/agents',
-        description: 'Agent Builder, Agents SDK, ChatKit, and eval tooling on GPT-5.5',
+        description:
+          'Agent Builder, Agents SDK, ChatKit, and eval tooling on GPT-5.5',
       },
       Anthropic: {
         name: 'Computer Use',
         url: 'https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/computer-use',
-        description: 'Claude 4.6 computer control and tool use for autonomous task execution',
+        description:
+          'Claude 4.6 computer control and tool use for autonomous task execution',
       },
       Microsoft: {
         name: 'Copilot Studio',
         url: 'https://learn.microsoft.com/en-us/microsoft-copilot-studio/',
-        description: 'Enterprise copilot orchestration for workflows, connectors, and approvals',
+        description:
+          'Enterprise copilot orchestration for workflows, connectors, and approvals',
       },
       Amazon: {
         name: 'Bedrock Agents',
         url: 'https://aws.amazon.com/bedrock/agents/',
-        description: 'Managed agent runtime, memory, knowledge bases, and action groups',
+        description:
+          'Managed agent runtime, memory, knowledge bases, and action groups',
       },
       AutoGen: {
         name: 'AutoGen',
         url: 'https://microsoft.github.io/autogen/',
-        description: 'Open orchestration framework for multi-agent collaboration and tool use',
+        description:
+          'Open orchestration framework for multi-agent collaboration and tool use',
       },
       CrewAI: {
         name: 'CrewAI',
         url: 'https://www.crewai.com',
-        description: 'Multi-agent orchestration with role-based crews and production controls',
+        description:
+          'Multi-agent orchestration with role-based crews and production controls',
       },
       n8n: {
         name: 'n8n',
         url: 'https://n8n.io',
-        description: 'Workflow automation platform increasingly used for AI agent backplanes',
+        description:
+          'Workflow automation platform increasingly used for AI agent backplanes',
       },
       Zapier: {
         name: 'Zapier Agents',
         url: 'https://zapier.com/agents',
-        description: 'Hosted agent automation wired into Zapier actions, MCP, and app connectors',
+        description:
+          'Hosted agent automation wired into Zapier actions, MCP, and app connectors',
       },
       Make: {
         name: 'Make',
         url: 'https://developers.make.com/custom-apps-documentation',
-        description: 'Visual automation platform for tool calling, triggers, and AI workflows',
+        description:
+          'Visual automation platform for tool calling, triggers, and AI workflows',
       },
       LangGraph: {
         name: 'LangGraph',
         url: 'https://langchain-ai.github.io/langgraph/',
-        description: 'Stateful orchestration runtime for durable agent workflows and handoffs',
+        description:
+          'Stateful orchestration runtime for durable agent workflows and handoffs',
       },
       Temporal: {
         name: 'Temporal',
         url: 'https://temporal.io',
-        description: 'Durable execution layer frequently used beneath production AI automations',
+        description:
+          'Durable execution layer frequently used beneath production AI automations',
       },
     },
   },
@@ -477,41 +558,49 @@ const productData: ProductRow[] = [
       Google: {
         name: 'Imagen 4',
         url: 'https://deepmind.google/models/imagen/',
-        description: 'Google image generation stack surfaced through Gemini and Vertex AI',
+        description:
+          'Google image generation stack surfaced through Gemini and Vertex AI',
       },
       OpenAI: {
         name: 'GPT Image',
         url: 'https://developers.openai.com/api/docs/guides/image-generation',
-        description: 'Powered by GPT Image 1.5 for high-fidelity generation and editing',
+        description:
+          'Powered by GPT Image 1.5 for high-fidelity generation and editing',
       },
       Amazon: {
         name: 'Titan Image',
         url: 'https://aws.amazon.com/bedrock/titan/',
-        description: 'Bedrock image model family for enterprise-safe generation and editing',
+        description:
+          'Bedrock image model family for enterprise-safe generation and editing',
       },
       Meta: {
         name: 'Imagine',
         url: 'https://ai.meta.com',
-        description: 'Meta’s consumer image generation experience powered by Llama ecosystem tooling',
+        description:
+          "Meta's consumer image generation experience powered by Llama ecosystem tooling",
       },
       Adobe: {
         name: 'Firefly',
         url: 'https://firefly.adobe.com',
-        description: 'Commercially safe image generation for creative and marketing workflows',
+        description:
+          'Commercially safe image generation for creative and marketing workflows',
       },
       Midjourney: {
         name: 'Midjourney',
-        description: 'High-end creative image model platform used for concept and visual design',
+        description:
+          'High-end creative image model platform used for concept and visual design',
       },
       StabilityAI: {
         name: 'Stable Diffusion 3.5',
         url: 'https://stability.ai/stable-image',
-        description: 'Open image model family for self-hosted and API-driven generation',
+        description:
+          'Open image model family for self-hosted and API-driven generation',
       },
       BlackForest: {
         name: 'FLUX.1',
         url: 'https://bfl.ai',
-        description: 'Black Forest Labs image models widely adopted in open and hosted stacks',
+        description:
+          'Black Forest Labs image models widely adopted in open and hosted stacks',
       },
     },
   },
@@ -521,37 +610,44 @@ const productData: ProductRow[] = [
       Google: {
         name: 'Veo 3',
         url: 'https://deepmind.google/models/veo/',
-        description: 'Google’s flagship video generation model for cinematic and prompt-driven clips',
+        description:
+          "Google's flagship video generation model for cinematic and prompt-driven clips",
       },
       OpenAI: {
         name: 'Sora',
         url: 'https://developers.openai.com/api/docs/guides/video-generation',
-        description: 'OpenAI video generation stack, including Sora-style workflows and API tooling',
+        description:
+          'OpenAI video generation stack, including Sora-style workflows and API tooling',
       },
       Runway: {
         name: 'Runway',
         url: 'https://runwayml.com',
-        description: 'Gen-4 video generation and editing suite for creators and teams',
+        description:
+          'Gen-4 video generation and editing suite for creators and teams',
       },
       Minimax: {
         name: 'Hailuo',
         url: 'https://www.minimax.io',
-        description: 'MiniMax video generation platform for short-form cinematic clips',
+        description:
+          'MiniMax video generation platform for short-form cinematic clips',
       },
       HeyGen: {
         name: 'HeyGen',
         url: 'https://www.heygen.com',
-        description: 'Avatar-first video generation with enterprise localization and dubbing flows',
+        description:
+          'Avatar-first video generation with enterprise localization and dubbing flows',
       },
       Pika: {
         name: 'Pika',
         url: 'https://pika.art',
-        description: 'Consumer-friendly video generation and edit effects for short-form content',
+        description:
+          'Consumer-friendly video generation and edit effects for short-form content',
       },
       Luma: {
         name: 'Dream Machine',
         url: 'https://lumalabs.ai/dream-machine',
-        description: 'Text and image to video generation focused on fast creative iteration',
+        description:
+          'Text and image to video generation focused on fast creative iteration',
       },
     },
   },
@@ -561,37 +657,44 @@ const productData: ProductRow[] = [
       Google: {
         name: 'Cloud Text-to-Speech',
         url: 'https://cloud.google.com/text-to-speech',
-        description: 'Google voice stack spanning WaveNet, neural, and studio-quality synthesis',
+        description:
+          'Google voice stack spanning WaveNet, neural, and studio-quality synthesis',
       },
       OpenAI: {
         name: 'Realtime Voice',
         url: 'https://developers.openai.com/api/docs/guides/text-to-speech',
-        description: 'Speech generation powered by gpt-realtime-1.5 and GPT-4o mini TTS',
+        description:
+          'Speech generation powered by gpt-realtime-1.5 and GPT-4o mini TTS',
       },
       Amazon: {
         name: 'Amazon Polly',
         url: 'https://aws.amazon.com/polly/',
-        description: 'Managed neural TTS with brand voice and enterprise deployment options',
+        description:
+          'Managed neural TTS with brand voice and enterprise deployment options',
       },
       ElevenLabs: {
         name: 'ElevenLabs',
         url: 'https://elevenlabs.io',
-        description: 'High-quality speech synthesis, dubbing, and voice cloning platform',
+        description:
+          'High-quality speech synthesis, dubbing, and voice cloning platform',
       },
       PlayHT: {
         name: 'PlayAI',
         url: 'https://docs.play.ht/reference',
-        description: 'Realtime voice agent and TTS stack built on the PlayHT platform',
+        description:
+          'Realtime voice agent and TTS stack built on the PlayHT platform',
       },
       Murf: {
         name: 'Murf AI',
         url: 'https://murf.ai',
-        description: 'Studio-style voice generation for narration, explainers, and enterprise media',
+        description:
+          'Studio-style voice generation for narration, explainers, and enterprise media',
       },
       WellSaid: {
         name: 'WellSaid Labs',
         url: 'https://wellsaidlabs.com',
-        description: 'Enterprise voice generation for training, marketing, and product narration',
+        description:
+          'Enterprise voice generation for training, marketing, and product narration',
       },
     },
   },
@@ -601,32 +704,38 @@ const productData: ProductRow[] = [
       Google: {
         name: 'Cloud Speech-to-Text',
         url: 'https://cloud.google.com/speech-to-text',
-        description: 'Managed transcription and speech understanding APIs on Google Cloud',
+        description:
+          'Managed transcription and speech understanding APIs on Google Cloud',
       },
       OpenAI: {
         name: 'Audio API',
         url: 'https://developers.openai.com/api/docs/guides/audio',
-        description: 'Audio stack for transcription, translation, speech generation, and realtime apps',
+        description:
+          'Audio stack for transcription, translation, speech generation, and realtime apps',
       },
       AssemblyAI: {
         name: 'AssemblyAI',
         url: 'https://www.assemblyai.com',
-        description: 'Developer platform for transcription, speech understanding, and voice apps',
+        description:
+          'Developer platform for transcription, speech understanding, and voice apps',
       },
       StabilityAI: {
         name: 'Stable Audio',
         url: 'https://stability.ai/stable-audio',
-        description: 'Music and sound generation model family from Stability AI',
+        description:
+          'Music and sound generation model family from Stability AI',
       },
       Suno: {
         name: 'Suno',
         url: 'https://suno.com',
-        description: 'Consumer music generation platform for lyrics-to-song creation',
+        description:
+          'Consumer music generation platform for lyrics-to-song creation',
       },
       Udio: {
         name: 'Udio',
         url: 'https://udio.com',
-        description: 'AI music generation focused on high-quality songs and remix workflows',
+        description:
+          'AI music generation focused on high-quality songs and remix workflows',
       },
     },
   },
@@ -636,27 +745,32 @@ const productData: ProductRow[] = [
       Google: {
         name: 'NotebookLM',
         url: 'https://notebooklm.google',
-        description: 'Source-grounded research notebook with summaries, audio, and citation workflows',
+        description:
+          'Source-grounded research notebook with summaries, audio, and citation workflows',
       },
       OpenAI: {
         name: 'Deep Research',
         url: 'https://developers.openai.com/api/docs/guides/deep-research',
-        description: 'ChatGPT research mode powered by GPT-5.5 with web and file investigation tools',
+        description:
+          'ChatGPT research mode powered by GPT-5.5 with web and file investigation tools',
       },
       xAI: {
         name: 'DeepSearch',
         url: 'https://grok.com',
-        description: 'Grok research workflow combining live web search and reasoning chains',
+        description:
+          'Grok research workflow combining live web search and reasoning chains',
       },
       DeepSeek: {
         name: 'DeepSeek Search',
         url: 'https://www.deepseek.com',
-        description: 'Research-oriented search and synthesis mode built into DeepSeek Chat',
+        description:
+          'Research-oriented search and synthesis mode built into DeepSeek Chat',
       },
       Perplexity: {
         name: 'Perplexity',
         url: 'https://docs.perplexity.ai/docs/getting-started/overview',
-        description: 'Research-first answer engine with strong citation and follow-up workflows',
+        description:
+          'Research-first answer engine with strong citation and follow-up workflows',
       },
     },
   },
@@ -666,42 +780,50 @@ const productData: ProductRow[] = [
       Google: {
         name: 'Gemini for Workspace',
         url: 'https://workspace.google.com/solutions/ai/',
-        description: 'Workspace assistant powered by Gemini models for docs, mail, meetings, and sheets',
+        description:
+          'Workspace assistant powered by Gemini models for docs, mail, meetings, and sheets',
       },
       OpenAI: {
         name: 'ChatGPT Enterprise',
         url: 'https://developers.openai.com/chatgpt',
-        description: 'Enterprise ChatGPT with GPT-5.5, admin controls, connectors, and security',
+        description:
+          'Enterprise ChatGPT with GPT-5.5, admin controls, connectors, and security',
       },
       Anthropic: {
         name: 'Claude Enterprise',
         url: 'https://claude.com/pricing/enterprise',
-        description: 'Claude workspace with enterprise controls, knowledge, and 4.6 model access',
+        description:
+          'Claude workspace with enterprise controls, knowledge, and 4.6 model access',
       },
       Microsoft: {
         name: 'Microsoft 365 Copilot',
         url: 'https://learn.microsoft.com/en-us/microsoft-365/copilot/',
-        description: 'Enterprise productivity layer spanning Word, Excel, Teams, and business data',
+        description:
+          'Enterprise productivity layer spanning Word, Excel, Teams, and business data',
       },
       Amazon: {
         name: 'Amazon Q Business',
         url: 'https://aws.amazon.com/q/business/',
-        description: 'Enterprise assistant for internal knowledge, apps, and business automation',
+        description:
+          'Enterprise assistant for internal knowledge, apps, and business automation',
       },
       NVIDIA: {
         name: 'NVIDIA AI Enterprise',
         url: 'https://www.nvidia.com/en-us/data-center/products/ai-enterprise/',
-        description: 'Enterprise software stack for building and running AI in production',
+        description:
+          'Enterprise software stack for building and running AI in production',
       },
       Oracle: {
         name: 'OCI AI',
         url: 'https://www.oracle.com/artificial-intelligence/',
-        description: 'Oracle enterprise AI services across apps, infrastructure, and databases',
+        description:
+          'Oracle enterprise AI services across apps, infrastructure, and databases',
       },
       HuggingFace: {
         name: 'Enterprise Hub',
         url: 'https://huggingface.co/enterprise',
-        description: 'Private model hub, governance, and deployment controls for enterprise teams',
+        description:
+          'Private model hub, governance, and deployment controls for enterprise teams',
       },
     },
   },
@@ -711,22 +833,26 @@ const productData: ProductRow[] = [
       Ollama: {
         name: 'Ollama',
         url: 'https://ollama.com',
-        description: 'Local LLM runtime for private developer and team workflows',
+        description:
+          'Local LLM runtime for private developer and team workflows',
       },
       LMStudio: {
         name: 'LM Studio',
         url: 'https://lmstudio.ai',
-        description: 'Desktop local-model runtime and chat environment for offline use',
+        description:
+          'Desktop local-model runtime and chat environment for offline use',
       },
       Jan: {
         name: 'Jan',
         url: 'https://jan.ai',
-        description: 'Open local AI desktop app focused on privacy and self-hosting',
+        description:
+          'Open local AI desktop app focused on privacy and self-hosting',
       },
       LocalAI: {
         name: 'LocalAI',
         url: 'https://localai.io',
-        description: 'Drop-in local inference engine for self-hosted OpenAI-compatible stacks',
+        description:
+          'Drop-in local inference engine for self-hosted OpenAI-compatible stacks',
       },
     },
   },
@@ -736,22 +862,26 @@ const productData: ProductRow[] = [
       OpenClaw: {
         name: 'OpenClaw',
         url: 'https://openclaw.ai',
-        description: 'Open autonomous agent stack for local or private task execution',
+        description:
+          'Open autonomous agent stack for local or private task execution',
       },
       HuggingFace: {
         name: 'smolagents',
         url: 'https://huggingface.co/docs/smolagents',
-        description: 'Code-first lightweight agent framework for self-hosted model stacks',
+        description:
+          'Code-first lightweight agent framework for self-hosted model stacks',
       },
       ByteDance: {
         name: 'UI-TARS',
         url: 'https://github.com/bytedance/UI-TARS',
-        description: 'Vision-first agent framework for GUI understanding and action planning',
+        description:
+          'Vision-first agent framework for GUI understanding and action planning',
       },
       Tencent: {
         name: 'Hunyuan Agent',
         url: 'https://hunyuan.tencent.com',
-        description: 'Tencent’s agent stack for private enterprise and ecosystem scenarios',
+        description:
+          "Tencent's agent stack for private enterprise and ecosystem scenarios",
       },
     },
   },
@@ -761,17 +891,20 @@ const productData: ProductRow[] = [
       n8n: {
         name: 'n8n',
         url: 'https://n8n.io',
-        description: 'Self-hosted automation backbone for private AI workflow orchestration',
+        description:
+          'Self-hosted automation backbone for private AI workflow orchestration',
       },
       deepset: {
         name: 'Haystack',
         url: 'https://haystack.deepset.ai',
-        description: 'Open framework for RAG, pipelines, and orchestrated agent workflows',
+        description:
+          'Open framework for RAG, pipelines, and orchestrated agent workflows',
       },
       FlowiseAI: {
         name: 'Flowise',
         url: 'https://flowiseai.com',
-        description: 'Visual self-hostable orchestration for RAG and agent applications',
+        description:
+          'Visual self-hostable orchestration for RAG and agent applications',
       },
     },
   },
@@ -781,17 +914,20 @@ const productData: ProductRow[] = [
       vLLM: {
         name: 'vLLM',
         url: 'https://vllm.ai',
-        description: 'Production-grade high-throughput inference engine for enterprise serving',
+        description:
+          'Production-grade high-throughput inference engine for enterprise serving',
       },
       NVIDIA: {
         name: 'NIM',
         url: 'https://build.nvidia.com',
-        description: 'Enterprise inference microservices for governed, repeatable deployment',
+        description:
+          'Enterprise inference microservices for governed, repeatable deployment',
       },
       HuggingFace: {
         name: 'TGI',
         url: 'https://huggingface.co/docs/text-generation-inference',
-        description: 'Text Generation Inference server for enterprise open-model deployments',
+        description:
+          'Text Generation Inference server for enterprise open-model deployments',
       },
     },
   },
@@ -801,17 +937,20 @@ const productData: ProductRow[] = [
       NVIDIA: {
         name: 'AI Blueprints',
         url: 'https://build.nvidia.com',
-        description: 'Reference agent systems and services packaged for enterprise AI teams',
+        description:
+          'Reference agent systems and services packaged for enterprise AI teams',
       },
       CrewAI: {
         name: 'CrewAI Enterprise',
         url: 'https://www.crewai.com',
-        description: 'Governed multi-agent execution for teams running internal AI operations',
+        description:
+          'Governed multi-agent execution for teams running internal AI operations',
       },
       LangChain: {
         name: 'LangGraph Platform',
         url: 'https://www.langchain.com/langgraph',
-        description: 'Hosted runtime and controls for enterprise-grade stateful agents',
+        description:
+          'Hosted runtime and controls for enterprise-grade stateful agents',
       },
     },
   },
@@ -821,17 +960,20 @@ const productData: ProductRow[] = [
       n8n: {
         name: 'n8n Enterprise',
         url: 'https://n8n.io',
-        description: 'Enterprise automation platform for secure internal AI workflow execution',
+        description:
+          'Enterprise automation platform for secure internal AI workflow execution',
       },
       deepset: {
         name: 'Haystack',
         url: 'https://haystack.deepset.ai',
-        description: 'Composable orchestration layer for enterprise search and agent pipelines',
+        description:
+          'Composable orchestration layer for enterprise search and agent pipelines',
       },
       FlowiseAI: {
         name: 'Flowise',
         url: 'https://flowiseai.com',
-        description: 'Visual orchestration layer for enterprise AI apps and internal copilots',
+        description:
+          'Visual orchestration layer for enterprise AI apps and internal copilots',
       },
     },
   },
@@ -896,85 +1038,190 @@ const companyOrder = [
 
 function getCompanyColor(company: string): string {
   const colors: Record<string, string> = {
-    NVIDIA: 'bg-green-800 text-green-200 dark:bg-green-900 dark:text-green-300',
-    Microsoft:
-      'bg-indigo-100 text-indigo-700 dark:bg-indigo-900 dark:text-indigo-300',
-    Google: 'bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300',
-    Amazon: 'bg-orange-400 text-white dark:bg-orange-500 dark:text-orange-200',
-    Meta: 'bg-purple-100 text-purple-700 dark:bg-purple-900 dark:text-purple-300',
-    Oracle: 'bg-red-600 text-white dark:bg-red-700 dark:text-red-200',
-    ByteDance: 'bg-red-100 text-red-700 dark:bg-red-900 dark:text-red-300',
-    Adobe: 'bg-red-100 text-white dark:bg-red-900 dark:text-red-300',
-    Tencent:
-      'bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300',
-    Alibaba: 'bg-red-400 text-white dark:bg-red-500 dark:text-red-200',
-    OpenAI: 'bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300',
-    Anthropic:
-      'bg-orange-100 text-orange-700 dark:bg-orange-900 dark:text-orange-300',
-    xAI: 'bg-purple-800 text-white dark:bg-purple-700 text-white',
-    DeepSeek: 'bg-red-100 text-white dark:bg-red-900 dark:text-red-300',
-    Mistral: 'bg-cyan-100 text-white dark:bg-cyan-900 dark:text-cyan-300',
-    Minimax: 'bg-indigo-500 text-white dark:bg-indigo-600 dark:text-indigo-200',
-    JetBrains: 'bg-gradient-to-r from-indigo-500 to-purple-500 text-white',
-    Perplexity:
-      'bg-amber-100 text-amber-700 dark:bg-amber-900 dark:text-amber-300',
-    Cursor:
-      'bg-emerald-100 text-emerald-700 dark:bg-emerald-900 dark:text-emerald-300',
+    NVIDIA: 'background: rgba(118, 185, 0, 0.2); color: #76b900;',
+    Microsoft: 'background: rgba(99, 102, 241, 0.2); color: #818cf8;',
+    Google: 'background: rgba(59, 130, 246, 0.2); color: #60a5fa;',
+    Amazon: 'background: rgba(249, 115, 22, 0.2); color: #fb923c;',
+    Meta: 'background: rgba(168, 85, 247, 0.2); color: #c084fc;',
+    Oracle: 'background: rgba(239, 68, 68, 0.2); color: #ef4444;',
+    ByteDance: 'background: rgba(239, 68, 68, 0.2); color: #f87171;',
+    Adobe: 'background: rgba(239, 68, 68, 0.2); color: #f87171;',
+    Tencent: 'background: rgba(34, 197, 94, 0.2); color: #4ade80;',
+    Alibaba: 'background: rgba(234, 179, 8, 0.2); color: #fbbf24;',
+    OpenAI: 'background: rgba(34, 197, 94, 0.2); color: #4ade80;',
+    Anthropic: 'background: rgba(249, 115, 22, 0.2); color: #fb923c;',
+    xAI: 'background: rgba(255, 255, 255, 0.1); color: rgba(255, 255, 255, 0.7);',
+    DeepSeek: 'background: rgba(239, 68, 68, 0.2); color: #f87171;',
+    Mistral: 'background: rgba(6, 182, 212, 0.2); color: #22d3ee;',
+    Minimax: 'background: rgba(99, 102, 241, 0.2); color: #818cf8;',
+    JetBrains: 'background: rgba(99, 102, 241, 0.2); color: #818cf8;',
+    Perplexity: 'background: rgba(234, 179, 8, 0.2); color: #fbbf24;',
+    Cursor: 'background: rgba(34, 197, 94, 0.2); color: #4ade80;',
     Midjourney:
-      'bg-white border border-zinc-300 text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100',
-    Runway: 'bg-zinc-800 text-white dark:bg-zinc-700',
-    Pika: 'bg-pink-100 text-pink-700 dark:bg-pink-900 dark:text-pink-300',
-    HeyGen: 'bg-violet-100 text-violet-700 dark:bg-violet-900 dark:text-violet-300',
-    Luma: 'bg-sky-100 text-sky-700 dark:bg-sky-900 dark:text-sky-300',
-    StabilityAI:
-      'bg-orange-100 text-white dark:bg-orange-900 dark:text-orange-300',
-    BlackForest: 'bg-blue-500 text-white dark:bg-blue-600 dark:text-blue-200',
-    LangChain:
-      'bg-yellow-100 text-white dark:bg-yellow-900 dark:text-yellow-300',
-    AssemblyAI:
-      'bg-indigo-100 text-white dark:bg-indigo-900 dark:text-indigo-300',
-    Suno: 'bg-fuchsia-100 text-fuchsia-700 dark:bg-fuchsia-900 dark:text-fuchsia-300',
-    Udio: 'bg-rose-100 text-rose-700 dark:bg-rose-900 dark:text-rose-300',
-    ElevenLabs:
-      'bg-purple-500 text-white dark:bg-purple-600 dark:text-purple-200',
-    PlayHT: 'bg-blue-100 text-white dark:bg-blue-900 dark:text-blue-300',
-    WellSaid:
-      'bg-purple-100 text-white dark:bg-purple-900 dark:text-purple-300',
-    Murf: 'bg-pink-100 text-white dark:bg-pink-900 dark:text-pink-200',
-    Coqui: 'bg-green-100 text-white dark:bg-green-900 dark:text-green-300',
-    Temporal:
-      'bg-purple-100 text-white dark:bg-purple-900 dark:text-purple-300',
-    Make: 'bg-orange-100 text-white dark:bg-orange-900 dark:text-orange-300',
-    Courier: 'bg-gradient-to-r from-green-400 to-yellow-400 text-white',
-    Zapier: 'bg-red-100 text-white dark:bg-red-900 dark:text-red-300',
-    HuggingFace:
-      'bg-yellow-100 text-yellow-700 dark:bg-yellow-900 dark:text-yellow-300',
+      'background: rgba(255, 255, 255, 0.06); color: rgba(255, 255, 255, 0.7); border: 1px solid rgba(255, 255, 255, 0.1);',
+    Runway:
+      'background: rgba(255, 255, 255, 0.06); color: rgba(255, 255, 255, 0.7);',
+    Pika: 'background: rgba(236, 72, 153, 0.2); color: #f472b6;',
+    HeyGen: 'background: rgba(139, 92, 246, 0.2); color: #a78bfa;',
+    Luma: 'background: rgba(56, 189, 248, 0.2); color: #38bdf8;',
+    StabilityAI: 'background: rgba(249, 115, 22, 0.2); color: #fb923c;',
+    BlackForest: 'background: rgba(59, 130, 246, 0.2); color: #60a5fa;',
+    LangChain: 'background: rgba(234, 179, 8, 0.2); color: #fbbf24;',
+    AssemblyAI: 'background: rgba(99, 102, 241, 0.2); color: #818cf8;',
+    Suno: 'background: rgba(236, 72, 153, 0.2); color: #f472b6;',
+    Udio: 'background: rgba(244, 63, 94, 0.2); color: #fb7185;',
+    ElevenLabs: 'background: rgba(168, 85, 247, 0.2); color: #c084fc;',
+    PlayHT: 'background: rgba(59, 130, 246, 0.2); color: #60a5fa;',
+    WellSaid: 'background: rgba(139, 92, 246, 0.2); color: #a78bfa;',
+    Murf: 'background: rgba(236, 72, 153, 0.2); color: #f472b6;',
+    Coqui: 'background: rgba(34, 197, 94, 0.2); color: #4ade80;',
+    Temporal: 'background: rgba(139, 92, 246, 0.2); color: #a78bfa;',
+    Make: 'background: rgba(249, 115, 22, 0.2); color: #fb923c;',
+    Courier: 'background: rgba(34, 197, 94, 0.2); color: #4ade80;',
+    Zapier: 'background: rgba(239, 68, 68, 0.2); color: #ef4444;',
+    HuggingFace: 'background: rgba(234, 179, 8, 0.2); color: #fbbf24;',
     Replicate:
-      'bg-zinc-100 text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100 border border-zinc-300',
-    Ollama: 'bg-zinc-800 text-white dark:bg-zinc-700',
-    LMStudio: 'bg-zinc-100 text-zinc-700 dark:bg-zinc-900 dark:text-zinc-300',
-    CrewAI: 'bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300',
-    MultiOn: 'bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300',
-    AutoGen:
-      'bg-indigo-100 text-indigo-700 dark:bg-indigo-900 dark:text-indigo-300',
-    LangGraph:
-      'bg-yellow-100 text-yellow-700 dark:bg-yellow-900 dark:text-yellow-300',
-    n8n: 'bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300',
-    OpenClaw:
-      'bg-emerald-100 text-emerald-700 dark:bg-emerald-900 dark:text-emerald-300',
-    deepset:
-      'bg-emerald-100 text-emerald-700 dark:bg-emerald-900 dark:text-emerald-300',
-    FlowiseAI:
-      'bg-indigo-100 text-indigo-700 dark:bg-indigo-900 dark:text-indigo-300',
-    Jan: 'bg-slate-100 text-slate-700 dark:bg-slate-900 dark:text-slate-300',
-    LocalAI:
-      'bg-orange-100 text-orange-700 dark:bg-orange-900 dark:text-orange-300',
-    vLLM: 'bg-amber-100 text-amber-700 dark:bg-amber-900 dark:text-amber-300',
+      'background: rgba(255, 255, 255, 0.06); color: rgba(255, 255, 255, 0.7); border: 1px solid rgba(255, 255, 255, 0.1);',
+    Ollama:
+      'background: rgba(255, 255, 255, 0.06); color: rgba(255, 255, 255, 0.7);',
+    LMStudio:
+      'background: rgba(255, 255, 255, 0.06); color: rgba(255, 255, 255, 0.7);',
+    CrewAI: 'background: rgba(34, 197, 94, 0.2); color: #4ade80;',
+    MultiOn: 'background: rgba(59, 130, 246, 0.2); color: #60a5fa;',
+    AutoGen: 'background: rgba(99, 102, 241, 0.2); color: #818cf8;',
+    LangGraph: 'background: rgba(234, 179, 8, 0.2); color: #fbbf24;',
+    n8n: 'background: rgba(34, 197, 94, 0.2); color: #4ade80;',
+    OpenClaw: 'background: rgba(34, 197, 94, 0.2); color: #4ade80;',
+    deepset: 'background: rgba(34, 197, 94, 0.2); color: #4ade80;',
+    FlowiseAI: 'background: rgba(99, 102, 241, 0.2); color: #818cf8;',
+    Jan: 'background: rgba(100, 116, 139, 0.2); color: #94a3b8;',
+    LocalAI: 'background: rgba(249, 115, 22, 0.2); color: #fb923c;',
+    vLLM: 'background: rgba(234, 179, 8, 0.2); color: #fbbf24;',
   };
   return (
     colors[company] ||
-    'bg-zinc-100 text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300'
+    'background: rgba(255, 255, 255, 0.06); color: rgba(255, 255, 255, 0.5);'
   );
+}
+
+function getCompanyBadgeStyle(company: string): React.CSSProperties {
+  const colors: Record<string, string> = {
+    NVIDIA:
+      'backgroundColor:rgba(118, 185, 0, 0.2);color:#76b900;borderColor:rgba(118, 185, 0, 0.3)',
+    Microsoft:
+      'backgroundColor:rgba(99, 102, 241, 0.2);color:#818cf8;borderColor:rgba(99, 102, 241, 0.3)',
+    Google:
+      'backgroundColor:rgba(59, 130, 246, 0.2);color:#60a5fa;borderColor:rgba(59, 130, 246, 0.3)',
+    Amazon:
+      'backgroundColor:rgba(249, 115, 22, 0.2);color:#fb923c;borderColor:rgba(249, 115, 22, 0.3)',
+    Meta: 'backgroundColor:rgba(168, 85, 247, 0.2);color:#c084fc;borderColor:rgba(168, 85, 247, 0.3)',
+    Oracle:
+      'backgroundColor:rgba(239, 68, 68, 0.2);color:#ef4444;borderColor:rgba(239, 68, 68, 0.3)',
+    ByteDance:
+      'backgroundColor:rgba(239, 68, 68, 0.2);color:#f87171;borderColor:rgba(239, 68, 68, 0.3)',
+    Adobe:
+      'backgroundColor:rgba(239, 68, 68, 0.2);color:#f87171;borderColor:rgba(239, 68, 68, 0.3)',
+    Tencent:
+      'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    Alibaba:
+      'backgroundColor:rgba(234, 179, 8, 0.2);color:#fbbf24;borderColor:rgba(234, 179, 8, 0.3)',
+    OpenAI:
+      'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    Anthropic:
+      'backgroundColor:rgba(249, 115, 22, 0.2);color:#fb923c;borderColor:rgba(249, 115, 22, 0.3)',
+    xAI: 'backgroundColor:rgba(255, 255, 255, 0.1);color:rgba(255, 255, 255, 0.7);borderColor:rgba(255, 255, 255, 0.15)',
+    DeepSeek:
+      'backgroundColor:rgba(239, 68, 68, 0.2);color:#f87171;borderColor:rgba(239, 68, 68, 0.3)',
+    Mistral:
+      'backgroundColor:rgba(6, 182, 212, 0.2);color:#22d3ee;borderColor:rgba(6, 182, 212, 0.3)',
+    Minimax:
+      'backgroundColor:rgba(99, 102, 241, 0.2);color:#818cf8;borderColor:rgba(99, 102, 241, 0.3)',
+    JetBrains:
+      'backgroundColor:rgba(99, 102, 241, 0.2);color:#818cf8;borderColor:rgba(99, 102, 241, 0.3)',
+    Perplexity:
+      'backgroundColor:rgba(234, 179, 8, 0.2);color:#fbbf24;borderColor:rgba(234, 179, 8, 0.3)',
+    Cursor:
+      'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    Midjourney:
+      'backgroundColor:rgba(255, 255, 255, 0.06);color:rgba(255, 255, 255, 0.7);borderColor:rgba(255, 255, 255, 0.1)',
+    Runway:
+      'backgroundColor:rgba(255, 255, 255, 0.06);color:rgba(255, 255, 255, 0.7);borderColor:rgba(255, 255, 255, 0.1)',
+    Pika: 'backgroundColor:rgba(236, 72, 153, 0.2);color:#f472b6;borderColor:rgba(236, 72, 153, 0.3)',
+    HeyGen:
+      'backgroundColor:rgba(139, 92, 246, 0.2);color:#a78bfa;borderColor:rgba(139, 92, 246, 0.3)',
+    Luma: 'backgroundColor:rgba(56, 189, 248, 0.2);color:#38bdf8;borderColor:rgba(56, 189, 248, 0.3)',
+    StabilityAI:
+      'backgroundColor:rgba(249, 115, 22, 0.2);color:#fb923c;borderColor:rgba(249, 115, 22, 0.3)',
+    BlackForest:
+      'backgroundColor:rgba(59, 130, 246, 0.2);color:#60a5fa;borderColor:rgba(59, 130, 246, 0.3)',
+    LangChain:
+      'backgroundColor:rgba(234, 179, 8, 0.2);color:#fbbf24;borderColor:rgba(234, 179, 8, 0.3)',
+    AssemblyAI:
+      'backgroundColor:rgba(99, 102, 241, 0.2);color:#818cf8;borderColor:rgba(99, 102, 241, 0.3)',
+    Suno: 'backgroundColor:rgba(236, 72, 153, 0.2);color:#f472b6;borderColor:rgba(236, 72, 153, 0.3)',
+    Udio: 'backgroundColor:rgba(244, 63, 94, 0.2);color:#fb7185;borderColor:rgba(244, 63, 94, 0.3)',
+    ElevenLabs:
+      'backgroundColor:rgba(168, 85, 247, 0.2);color:#c084fc;borderColor:rgba(168, 85, 247, 0.3)',
+    PlayHT:
+      'backgroundColor:rgba(59, 130, 246, 0.2);color:#60a5fa;borderColor:rgba(59, 130, 246, 0.3)',
+    WellSaid:
+      'backgroundColor:rgba(139, 92, 246, 0.2);color:#a78bfa;borderColor:rgba(139, 92, 246, 0.3)',
+    Murf: 'backgroundColor:rgba(236, 72, 153, 0.2);color:#f472b6;borderColor:rgba(236, 72, 153, 0.3)',
+    Coqui:
+      'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    Temporal:
+      'backgroundColor:rgba(139, 92, 246, 0.2);color:#a78bfa;borderColor:rgba(139, 92, 246, 0.3)',
+    Make: 'backgroundColor:rgba(249, 115, 22, 0.2);color:#fb923c;borderColor:rgba(249, 115, 22, 0.3)',
+    Courier:
+      'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    Zapier:
+      'backgroundColor:rgba(239, 68, 68, 0.2);color:#ef4444;borderColor:rgba(239, 68, 68, 0.3)',
+    HuggingFace:
+      'backgroundColor:rgba(234, 179, 8, 0.2);color:#fbbf24;borderColor:rgba(234, 179, 8, 0.3)',
+    Replicate:
+      'backgroundColor:rgba(255, 255, 255, 0.06);color:rgba(255, 255, 255, 0.7);borderColor:rgba(255, 255, 255, 0.1)',
+    Ollama:
+      'backgroundColor:rgba(255, 255, 255, 0.06);color:rgba(255, 255, 255, 0.7);borderColor:rgba(255, 255, 255, 0.1)',
+    LMStudio:
+      'backgroundColor:rgba(255, 255, 255, 0.06);color:rgba(255, 255, 255, 0.7);borderColor:rgba(255, 255, 255, 0.1)',
+    CrewAI:
+      'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    MultiOn:
+      'backgroundColor:rgba(59, 130, 246, 0.2);color:#60a5fa;borderColor:rgba(59, 130, 246, 0.3)',
+    AutoGen:
+      'backgroundColor:rgba(99, 102, 241, 0.2);color:#818cf8;borderColor:rgba(99, 102, 241, 0.3)',
+    LangGraph:
+      'backgroundColor:rgba(234, 179, 8, 0.2);color:#fbbf24;borderColor:rgba(234, 179, 8, 0.3)',
+    n8n: 'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    OpenClaw:
+      'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    deepset:
+      'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    FlowiseAI:
+      'backgroundColor:rgba(99, 102, 241, 0.2);color:#818cf8;borderColor:rgba(99, 102, 241, 0.3)',
+    Jan: 'backgroundColor:rgba(100, 116, 139, 0.2);color:#94a3b8;borderColor:rgba(100, 116, 139, 0.3)',
+    LocalAI:
+      'backgroundColor:rgba(249, 115, 22, 0.2);color:#fb923c;borderColor:rgba(249, 115, 22, 0.3)',
+    vLLM: 'backgroundColor:rgba(234, 179, 8, 0.2);color:#fbbf24;borderColor:rgba(234, 179, 8, 0.3)',
+  };
+
+  const style =
+    colors[company] ||
+    'backgroundColor:rgba(255, 255, 255, 0.06);color:rgba(255, 255, 255, 0.5);borderColor:rgba(255, 255, 255, 0.08)';
+
+  const result: Record<string, string> = {};
+  const parts = style.split(';').filter(Boolean);
+  for (const part of parts) {
+    const [key, value] = part.split(':').map((s) => s.trim());
+    if (key && value) {
+      // Convert CSS property names to camelCase
+      const camelKey = key.replace(/-([a-z])/g, (_, letter) =>
+        letter.toUpperCase(),
+      );
+      result[camelKey] = value;
+    }
+  }
+  return result as React.CSSProperties;
 }
 
 export default function ProductsPage() {
@@ -986,36 +1233,90 @@ export default function ProductsPage() {
   );
 
   return (
-    <div className='min-h-screen bg-zinc-50 dark:bg-[#0f2744]'>
+    <div className='min-h-screen'>
       <main className='mx-auto px-4 sm:px-6 lg:px-10 py-8'>
         <div className='mb-12'>
-          <h1 className='text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-400 dark:to-purple-400 mb-4 tracking-tight'>
-            📦 AI Products Landscape
+          <h1
+            style={{
+              fontSize: '3rem',
+              lineHeight: '0.87',
+              fontWeight: 400,
+              color: '#ffffff',
+              marginBottom: '8px',
+            }}
+          >
+            AI Products Landscape
           </h1>
-          <p className='text-lg text-zinc-600 dark:text-zinc-300 max-w-3xl'>
+          <p
+            style={{
+              fontSize: '18px',
+              color: 'rgba(255, 255, 255, 0.6)',
+              maxWidth: '48rem',
+              lineHeight: '1.5',
+            }}
+          >
             Comprehensive overview of AI products from frontier companies
             organized by category.
           </p>
         </div>
 
-        <div className='bg-white dark:bg-[#153457] rounded-2xl border border-zinc-200 dark:border-zinc-800/50 shadow-xl shadow-blue-900/5 overflow-hidden'>
-          <div className='mb-4 text-right text-sm text-zinc-500 dark:text-zinc-400 px-6'>
+        <div
+          style={{
+            backgroundColor: '#333138',
+            borderRadius: '4px',
+            border: '1px solid rgba(255, 255, 255, 0.1)',
+            overflow: 'hidden',
+            boxShadow: '4px 4px 0px 0px rgba(0, 0, 0, 0.15)',
+          }}
+        >
+          <div
+            className='mb-4 text-right'
+            style={{
+              fontSize: '13px',
+              color: 'rgba(255, 255, 255, 0.4)',
+              padding: '16px 24px 0',
+            }}
+          >
             Last updated: April 28, 2026
           </div>
           <div className='overflow-x-auto custom-scrollbar'>
             <table className='w-full text-left border-collapse'>
               <thead>
-                <tr className='bg-zinc-50 dark:bg-zinc-800/50 text-sm border-b border-zinc-200 dark:border-zinc-800/50'>
-                  <th className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200'>
+                <tr
+                  style={{
+                    backgroundColor: 'rgba(255, 255, 255, 0.02)',
+                    borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
+                  }}
+                >
+                  <th
+                    className='py-4 px-6 font-medium'
+                    style={{
+                      color: 'rgba(255, 255, 255, 0.8)',
+                      fontSize: '13px',
+                    }}
+                  >
                     Category
                   </th>
                   {activeCompanies.map((company) => (
                     <th
                       key={company}
-                      className='py-4 px-6 font-semibold text-zinc-900 dark:text-zinc-200 text-center'
+                      className='py-4 px-6 font-medium text-center'
+                      style={{
+                        color: 'rgba(255, 255, 255, 0.8)',
+                        fontSize: '13px',
+                      }}
                     >
                       <span
-                        className={`px-2.5 py-1 rounded-full text-xs font-medium ${getCompanyColor(company)}`}
+                        style={{
+                          display: 'inline-block',
+                          padding: '4px 10px',
+                          borderRadius: '2px',
+                          fontSize: '11px',
+                          fontWeight: 500,
+                          ...getCompanyBadgeStyle(company),
+                          borderWidth: '1px',
+                          borderStyle: 'solid',
+                        }}
                       >
                         {company}
                       </span>
@@ -1023,13 +1324,22 @@ export default function ProductsPage() {
                   ))}
                 </tr>
               </thead>
-              <tbody className='divide-y divide-zinc-200 dark:divide-zinc-800/50'>
+              <tbody
+                className='divide-y'
+                style={{ borderColor: 'rgba(255, 255, 255, 0.06)' }}
+              >
                 {productData.map((row) => (
                   <tr
                     key={row.category}
-                    className='hover:bg-zinc-50 dark:hover:bg-zinc-800/30 transition-colors group'
+                    className='hover:bg-white/5 transition-colors group'
+                    style={{
+                      borderBottom: '1px solid rgba(255, 255, 255, 0.06)',
+                    }}
                   >
-                    <td className='py-2 px-6 font-medium text-zinc-900 dark:text-zinc-100 text-xs'>
+                    <td
+                      className='py-2 px-6 font-medium'
+                      style={{ color: '#ffffff', fontSize: '12px' }}
+                    >
                       {row.category}
                     </td>
                     {activeCompanies.map((company) => {
@@ -1038,7 +1348,11 @@ export default function ProductsPage() {
                         return (
                           <td
                             key={company}
-                            className='py-2 px-6 text-center text-zinc-300 dark:text-zinc-600 text-xs'
+                            className='py-2 px-6 text-center'
+                            style={{
+                              color: 'rgba(255, 255, 255, 0.2)',
+                              fontSize: '12px',
+                            }}
                           >
                             —
                           </td>
@@ -1051,17 +1365,42 @@ export default function ProductsPage() {
                               href={product.url}
                               target='_blank'
                               rel='noopener noreferrer'
-                              className='text-xs text-blue-600 dark:text-blue-400 hover:underline font-semibold'
+                              style={{
+                                fontSize: '12px',
+                                color: '#00ffff',
+                                fontWeight: 500,
+                                textDecoration: 'none',
+                              }}
+                              onMouseEnter={(e) => {
+                                e.currentTarget.style.textDecoration =
+                                  'underline';
+                              }}
+                              onMouseLeave={(e) => {
+                                e.currentTarget.style.textDecoration = 'none';
+                              }}
                             >
                               {product.name}
                             </a>
                           ) : (
-                            <span className='text-xs text-zinc-900 dark:text-zinc-100 font-semibold'>
+                            <span
+                              style={{
+                                fontSize: '12px',
+                                color: '#ffffff',
+                                fontWeight: 500,
+                              }}
+                            >
                               {product.name}
                             </span>
                           )}
                           {product.description && (
-                            <p className='text-[10px] text-zinc-500 dark:text-zinc-400 mt-0.5'>
+                            <p
+                              style={{
+                                fontSize: '10px',
+                                color: 'rgba(255, 255, 255, 0.4)',
+                                marginTop: '2px',
+                                lineHeight: '1.4',
+                              }}
+                            >
                               {product.description}
                             </p>
                           )}
@@ -1075,14 +1414,34 @@ export default function ProductsPage() {
           </div>
         </div>
 
-        <div className='mt-12 bg-white dark:bg-[#153457] rounded-2xl border border-zinc-200 dark:border-zinc-800/50 p-8 shadow-xl shadow-blue-900/5'>
-          <h2 className='text-xl font-bold text-zinc-900 dark:text-zinc-100 mb-6 flex items-center gap-2'>
-            <span className='text-blue-500'>📊</span> Product Landscape Notes
+        <div
+          style={{
+            backgroundColor: '#333138',
+            borderRadius: '4px',
+            border: '1px solid rgba(255, 255, 255, 0.1)',
+            padding: '32px',
+            marginTop: '48px',
+            boxShadow: '4px 4px 0px 0px rgba(0, 0, 0, 0.15)',
+          }}
+        >
+          <h2
+            style={{
+              fontSize: '1.25rem',
+              fontWeight: 500,
+              color: '#ffffff',
+              marginBottom: '24px',
+              lineHeight: '1.2',
+            }}
+          >
+            Product Landscape Notes
           </h2>
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-8 text-sm leading-relaxed'>
+          <div
+            className='grid grid-cols-1 md:grid-cols-2 gap-8'
+            style={{ fontSize: '14px', lineHeight: '1.7' }}
+          >
             <div>
-              <p className='text-zinc-600 dark:text-zinc-400'>
-                <strong className='text-zinc-700 dark:text-zinc-300'>
+              <p style={{ color: 'rgba(255, 255, 255, 0.6)' }}>
+                <strong style={{ color: 'rgba(255, 255, 255, 0.9)' }}>
                   Product Categories:
                 </strong>{' '}
                 Products are organized by their primary function, highlighting
@@ -1090,8 +1449,8 @@ export default function ProductsPage() {
               </p>
             </div>
             <div>
-              <p className='text-zinc-600 dark:text-zinc-400'>
-                <strong className='text-zinc-700 dark:text-zinc-300'>
+              <p style={{ color: 'rgba(255, 255, 255, 0.6)' }}>
+                <strong style={{ color: 'rgba(255, 255, 255, 0.9)' }}>
                   Company Colors:
                 </strong>{' '}
                 Each company is color-coded for quick identification of their
@@ -1099,8 +1458,8 @@ export default function ProductsPage() {
               </p>
             </div>
             <div>
-              <p className='text-zinc-600 dark:text-zinc-400'>
-                <strong className='text-zinc-700 dark:text-zinc-300'>
+              <p style={{ color: 'rgba(255, 255, 255, 0.6)' }}>
+                <strong style={{ color: 'rgba(255, 255, 255, 0.9)' }}>
                   Official Links:
                 </strong>{' '}
                 Click on product names to navigate directly to their official
@@ -1108,17 +1467,20 @@ export default function ProductsPage() {
               </p>
             </div>
             <div>
-              <p className='text-zinc-600 dark:text-zinc-400'>
-                <strong className='text-zinc-700 dark:text-zinc-300'>
+              <p style={{ color: 'rgba(255, 255, 255, 0.6)' }}>
+                <strong style={{ color: 'rgba(255, 255, 255, 0.9)' }}>
                   Last Updated:
-                  </strong>{' '}
-                  April 28, 2026. The AI space is highly dynamic!
+                </strong>{' '}
+                April 28, 2026. The AI space is highly dynamic!
               </p>
             </div>
           </div>
         </div>
 
-        <div className='mt-8 text-center text-sm font-medium text-zinc-400 dark:text-zinc-500'>
+        <div
+          className='mt-8 text-center'
+          style={{ fontSize: '13px', color: 'rgba(255, 255, 255, 0.4)' }}
+        >
           <p>
             Data compiled from official company announcements and product
             documentation.

@@ -39,11 +39,11 @@ const top15Companies = [
   'Pony.ai',
 ];
 
-
 const newsCards: NewsCard[] = [
   {
     id: '1',
-    title: 'OpenAI launches GPT-5.5 with advanced agentic coding and research capabilities',
+    title:
+      'OpenAI launches GPT-5.5 with advanced agentic coding and research capabilities',
     summary:
       'OpenAI released GPT-5.5, its newest frontier model with improved coding, computer use, and deeper research capabilities now available in ChatGPT and Codex.',
     source: 'OpenAI',
@@ -55,7 +55,8 @@ const newsCards: NewsCard[] = [
   },
   {
     id: '2',
-    title: 'Anthropic releases Claude Opus 4.7 with enhanced coding and agentic workflows',
+    title:
+      'Anthropic releases Claude Opus 4.7 with enhanced coding and agentic workflows',
     summary:
       'Anthropic launched Claude Opus 4.7 featuring improved chain-of-thought reasoning, better coding performance, 1M token context window, and extended multimodal image processing.',
     source: 'Anthropic',
@@ -71,7 +72,8 @@ const newsCards: NewsCard[] = [
     summary:
       'Google launched Gemma 4, its newest open model family with agentic workflows, multimodal support, and Apache 2.0 licensing across E2B, E4B, 26B MoE, and 31B sizes.',
     source: 'Google',
-    sourceUrl: 'https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/',
+    sourceUrl:
+      'https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/',
     imageUrl:
       'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemma-4_blog_keyword_header-dark.width-200.format-webp.webp',
     category: 'model',
@@ -79,7 +81,8 @@ const newsCards: NewsCard[] = [
   },
   {
     id: '4',
-    title: 'Anthropic launches Claude Design for AI-first visual product development',
+    title:
+      'Anthropic launches Claude Design for AI-first visual product development',
     summary:
       'Anthropic unveiled Claude Design, a new platform helping teams build AI-native products with Claude-powered design workflows, prototyping tools, and visual generation.',
     source: 'Anthropic',
@@ -91,7 +94,8 @@ const newsCards: NewsCard[] = [
   },
   {
     id: '5',
-    title: 'xAI releases Grok 4.3 Beta with multi-agent architecture improvements',
+    title:
+      'xAI releases Grok 4.3 Beta with multi-agent architecture improvements',
     summary:
       'xAI launched Grok 4.3 Beta featuring enhanced multi-agent coordination, 2M context window, improved PDF/spreadsheet generation, and native multimodal video understanding.',
     source: 'xAI',
@@ -103,7 +107,8 @@ const newsCards: NewsCard[] = [
   },
   {
     id: '6',
-    title: 'Google DeepMind unveils Gemini Robotics ER 1.6 for physical AI applications',
+    title:
+      'Google DeepMind unveils Gemini Robotics ER 1.6 for physical AI applications',
     summary:
       'Google DeepMind announced Gemini Robotics ER 1.6 with significantly improved physical reasoning for robotic manipulation, instrument reading, and real-world task execution.',
     source: 'Google',
@@ -119,7 +124,8 @@ const newsCards: NewsCard[] = [
     summary:
       'Meta unveiled Llama 5, a 600B+ parameter open-weights multimodal model with 1M token context window and claimed self-refinement capabilities, now available on Hugging Face.',
     source: 'Meta',
-    sourceUrl: 'https://www.financialcontent.com/article/marketminute-2026-4-8-meta-unleashes-llama-5-zuckerbergs-open-source-gambit-challenges-proprietary-ai-dominance',
+    sourceUrl:
+      'https://www.financialcontent.com/article/marketminute-2026-4-8-meta-unleashes-llama-5-zuckerbergs-open-source-gambit-challenges-proprietary-ai-dominance',
     imageUrl:
       'https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp',
     category: 'model',
@@ -127,11 +133,13 @@ const newsCards: NewsCard[] = [
   },
   {
     id: '8',
-    title: 'NVIDIA releases Ising open quantum AI models for calibration and error correction',
+    title:
+      'NVIDIA releases Ising open quantum AI models for calibration and error correction',
     summary:
       'NVIDIA announced Ising, the world first open-source quantum AI model family for automating quantum processor calibration and delivering 2.5x faster error correction.',
     source: 'NVIDIA',
-    sourceUrl: 'https://developer.nvidia.com/blog/nvidia-ising-introduces-ai-powered-workflows-to-build-fault-tolerant-quantum-systems/',
+    sourceUrl:
+      'https://developer.nvidia.com/blog/nvidia-ising-introduces-ai-powered-workflows-to-build-fault-tolerant-quantum-systems/',
     imageUrl:
       'https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop',
     category: 'model',
@@ -139,11 +147,13 @@ const newsCards: NewsCard[] = [
   },
   {
     id: '9',
-    title: 'Google launches Gemini Enterprise Agent Platform for business AI agents',
+    title:
+      'Google launches Gemini Enterprise Agent Platform for business AI agents',
     summary:
       'Google launched Gemini Enterprise Agent Platform enabling companies to deploy production AI agents with built-in security, compliance, analytics, and third-party integrations.',
     source: 'Google',
-    sourceUrl: 'https://www.testingcatalog.com/google-launches-new-agent-platform-for-gemini-enterprise/',
+    sourceUrl:
+      'https://www.testingcatalog.com/google-launches-new-agent-platform-for-gemini-enterprise/',
     imageUrl:
       'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemma-4_blog_keyword_header-dark.width-200.format-webp.webp',
     category: 'product',
@@ -151,11 +161,13 @@ const newsCards: NewsCard[] = [
   },
   {
     id: '10',
-    title: 'Google launches Deep Research and Deep Research Max powered by Gemini 3.1 Pro',
+    title:
+      'Google launches Deep Research and Deep Research Max powered by Gemini 3.1 Pro',
     summary:
       'Google announced Deep Research agents with MCP support, native visualizations, and enterprise-grade synthesis for long-horizon research workflows across web and custom sources.',
     source: 'Google',
-    sourceUrl: 'https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/',
+    sourceUrl:
+      'https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/',
     imageUrl:
       'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemma-4_blog_keyword_header-dark.width-200.format-webp.webp',
     category: 'capability',
@@ -163,11 +175,13 @@ const newsCards: NewsCard[] = [
   },
   {
     id: '11',
-    title: 'DeepSeek releases V4-Pro and V4-Flash with 1M context and hybrid attention',
+    title:
+      'DeepSeek releases V4-Pro and V4-Flash with 1M context and hybrid attention',
     summary:
       'DeepSeek unveiled V4 preview featuring 1.6T parameters, 1M token context window, hybrid attention architecture, and MIT licensing as it challenges frontier models at aggressive prices.',
     source: 'DeepSeek',
-    sourceUrl: 'https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/',
+    sourceUrl:
+      'https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/',
     imageUrl:
       'https://preview.redd.it/deepseek-v4-all-leaks-and-infos-for-the-release-day-not-v0-lllfdd3uvimg1.png?width=640&crop=smart&auto=webp&s=2492384251ab16ffeac1c5d0317dd71610c3c077',
     category: 'model',
@@ -175,11 +189,13 @@ const newsCards: NewsCard[] = [
   },
   {
     id: '12',
-    title: 'xAI launches Grok Voice Think Fast 1.0 voice agent topping Tau Voice Bench',
+    title:
+      'xAI launches Grok Voice Think Fast 1.0 voice agent topping Tau Voice Bench',
     summary:
       'xAI released Grok Voice Think Fast 1.0, a production voice model ranking first on Tau Voice Bench with 25+ language support, low latency, and Starlink deployment already active.',
     source: 'xAI',
-    sourceUrl: 'https://www.marktechpost.com/2026/04/27/xai-launches-grok-voice-think-fast-1-0-voice-agent-with-support-for-25-languages-and-starlink-deployment/',
+    sourceUrl:
+      'https://www.marktechpost.com/2026/04/27/xai-launches-grok-voice-think-fast-1-0-voice-agent-with-support-for-25-languages-and-starlink-deployment/',
     imageUrl:
       'https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg',
     category: 'tool',
@@ -187,11 +203,13 @@ const newsCards: NewsCard[] = [
   },
   {
     id: '13',
-    title: 'Alibaba releases Qwen 3.6-Max-Preview with top coding benchmark performance',
+    title:
+      'Alibaba releases Qwen 3.6-Max-Preview with top coding benchmark performance',
     summary:
       'Alibaba launched Qwen 3.6-Max-Preview ranking first on six coding benchmarks including SWE-bench Pro and Terminal-Bench 2.0, with 256K context and enhanced agentic capabilities.',
     source: 'Alibaba',
-    sourceUrl: 'https://tech.yahoo.com/ai/gemini/articles/alibaba-drops-qwen-3-6-212453373.html',
+    sourceUrl:
+      'https://tech.yahoo.com/ai/gemini/articles/alibaba-drops-qwen-3-6-212453373.html',
     imageUrl:
       'https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg',
     category: 'model',
@@ -199,11 +217,13 @@ const newsCards: NewsCard[] = [
   },
   {
     id: '14',
-    title: 'Alibaba open-sources Qwen 3.6-35B-A3B MoE model with 3B active parameters',
+    title:
+      'Alibaba open-sources Qwen 3.6-35B-A3B MoE model with 3B active parameters',
     summary:
       'Alibaba released Qwen 3.6-35B-A3B, a sparse MoE model with only 3B active parameters outperforming Gemma 4-31B on coding benchmarks and licensed under Apache 2.0.',
     source: 'Alibaba',
-    sourceUrl: 'https://www.marktechpost.com/2026/04/22/alibaba-qwen-team-releases-qwen3-6-27b-a-dense-open-weight-model-outperforming-397b-moe-on-agentic-coding-benchmarks/',
+    sourceUrl:
+      'https://www.marktechpost.com/2026/04/22/alibaba-qwen-team-releases-qwen3-6-27b-a-dense-open-weight-model-outperforming-397b-moe-on-agentic-coding-benchmarks/',
     imageUrl:
       'https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg',
     category: 'model',
@@ -215,7 +235,8 @@ const newsCards: NewsCard[] = [
     summary:
       'ByteDance announced Doubao AI integration into car cabins through a partnership with Seres, enabling voice assistants for driving, route planning, and entertainment interaction.',
     source: 'ByteDance',
-    sourceUrl: 'https://cnevpost.com/2026/04/16/bytedance-bringing-doubao-ai-to-car-cabins/',
+    sourceUrl:
+      'https://cnevpost.com/2026/04/16/bytedance-bringing-doubao-ai-to-car-cabins/',
     imageUrl:
       'https://cdn.technobezz.com/c/Technobezz_2026_02_14_T092431_822_304d822711.png',
     category: 'product',
@@ -223,7 +244,8 @@ const newsCards: NewsCard[] = [
   },
   {
     id: '16',
-    title: 'Mistral releases Mistral Small 4 unifying reasoning, vision, and coding',
+    title:
+      'Mistral releases Mistral Small 4 unifying reasoning, vision, and coding',
     summary:
       'Mistral AI launched Mistral Small 4, a 119B MoE model unifying Magistral reasoning, Pixtral vision, and Devstral coding with 256K context under Apache 2.0 license.',
     source: 'Mistral',
@@ -235,11 +257,13 @@ const newsCards: NewsCard[] = [
   },
   {
     id: '17',
-    title: 'MiniMax M2.7 goes open-weight with self-evolving agent capabilities',
+    title:
+      'MiniMax M2.7 goes open-weight with self-evolving agent capabilities',
     summary:
       'MiniMax released M2.7 open weights, the first model to participate in its own development with 100+ autonomous optimization rounds achieving 56.22% on SWE-Pro.',
     source: 'MiniMax',
-    sourceUrl: 'https://www.marktechpost.com/2026/04/12/minimax-just-open-sourced-minimax-m2-7-a-self-evolving-agent-model-that-scores-56-22-on-swe-pro-and-57-0-on-terminal-bench-2/',
+    sourceUrl:
+      'https://www.marktechpost.com/2026/04/12/minimax-just-open-sourced-minimax-m2-7-a-self-evolving-agent-model-that-scores-56-22-on-swe-pro-and-57-0-on-terminal-bench-2/',
     imageUrl:
       'https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png',
     category: 'model',
@@ -247,7 +271,8 @@ const newsCards: NewsCard[] = [
   },
   {
     id: '18',
-    title: 'Moonshot AI releases Kimi K2.6 with 300-agent swarm and 12-hour autonomous coding',
+    title:
+      'Moonshot AI releases Kimi K2.6 with 300-agent swarm and 12-hour autonomous coding',
     summary:
       'Moonshot AI launched Kimi K2.6 GA featuring 1T MoE architecture, 300-agent swarm coordination, 12-hour autonomous runs, and leading SWE-Bench Pro performance.',
     source: 'Moonshot',
@@ -263,7 +288,8 @@ const newsCards: NewsCard[] = [
     summary:
       'Google released Gemini Mac app bringing AI assistance directly to macOS with native integrations, file system access, and Option+Space keyboard shortcut activation.',
     source: 'Google',
-    sourceUrl: 'https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/',
+    sourceUrl:
+      'https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/',
     imageUrl:
       'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemma-4_blog_keyword_header-dark.width-200.format-webp.webp',
     category: 'product',
@@ -295,7 +321,8 @@ const newsCards: NewsCard[] = [
   },
   {
     id: '22',
-    title: 'ByteDance Seed 2.0 now supports full-duplex speech with 12% fluency improvement',
+    title:
+      'ByteDance Seed 2.0 now supports full-duplex speech with 12% fluency improvement',
     summary:
       'ByteDance updated Seed 2.0 with Full-Duplex Speech LLM enabling attentive listening, robust interference suppression, and more natural conversational interaction.',
     source: 'ByteDance',
@@ -319,11 +346,13 @@ const newsCards: NewsCard[] = [
   },
   {
     id: '24',
-    title: 'Alibaba launches Qwen 3.6-Plus with 1M context for agentic workflows',
+    title:
+      'Alibaba launches Qwen 3.6-Plus with 1M context for agentic workflows',
     summary:
       'Alibaba released Qwen 3.6-Plus featuring 1M token context, enhanced multimodal reasoning, and agentic coding optimizations with compatibility for Claude Code and OpenClaw.',
     source: 'Alibaba',
-    sourceUrl: 'https://www.alibabacloud.com/press-room/alibaba-unveils-qwen3-6-plus-to-accelerate-agentic',
+    sourceUrl:
+      'https://www.alibabacloud.com/press-room/alibaba-unveils-qwen3-6-plus-to-accelerate-agentic',
     imageUrl:
       'https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg',
     category: 'model',
@@ -331,16 +360,17 @@ const newsCards: NewsCard[] = [
   },
 ];
 
-
 function getCategoryColor(category: NewsCard['category']): string {
   const colors = {
-    model: 'bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300',
+    model:
+      'background: rgba(0, 255, 255, 0.12); color: #00ffff; border: 1px solid rgba(0, 150, 255, 0.5);',
     product:
-      'bg-purple-100 text-purple-700 dark:bg-purple-900 dark:text-purple-300',
-    tool: 'bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300',
+      'background: rgba(0, 119, 255, 0.12); color: #0089ff; border: 1px solid rgba(0, 137, 255, 0.5);',
+    tool: 'background: rgba(0, 150, 255, 0.12); color: #0096ff; border: 1px solid rgba(0, 137, 255, 0.5);',
     capability:
-      'bg-orange-100 text-orange-700 dark:bg-orange-900 dark:text-orange-300',
-    research: 'bg-pink-100 text-pink-700 dark:bg-pink-900 dark:text-pink-300',
+      'background: rgba(255, 255, 255, 0.06); color: rgba(255, 255, 255, 0.5); border: 1px solid rgba(255, 255, 255, 0.08);',
+    research:
+      'background: rgba(255, 255, 255, 0.04); color: rgba(255, 255, 255, 0.5); border: 1px solid rgba(255, 255, 255, 0.04);',
   };
   return colors[category];
 }
@@ -358,28 +388,26 @@ function getCategoryLabel(category: NewsCard['category']): string {
 
 function getCompanyColor(company: string): string {
   const colors: Record<string, string> = {
-    NVIDIA: 'bg-green-800 text-green-200 dark:bg-green-900 dark:text-green-300',
-    Microsoft:
-      'bg-indigo-100 text-indigo-700 dark:bg-indigo-900 dark:text-indigo-300',
-    Google: 'bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300',
-    Amazon: 'bg-orange-400 text-white dark:bg-orange-500 dark:text-orange-200',
-    Meta: 'bg-purple-100 text-purple-700 dark:bg-purple-900 dark:text-purple-300',
-    Oracle: 'bg-red-600 text-white dark:bg-red-700 dark:text-red-200',
-    ByteDance: 'bg-red-100 text-red-700 dark:bg-red-900 dark:text-red-300',
-    Adobe: 'bg-red-100 text-white dark:bg-red-900 dark:text-red-300',
-    Alibaba: 'bg-red-400 text-white dark:bg-red-500 dark:text-red-200',
-    OpenAI: 'bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300',
-    Anthropic:
-      'bg-orange-100 text-orange-700 dark:bg-orange-900 dark:text-orange-300',
-    xAI: 'bg-purple-800 text-white dark:bg-purple-700 text-white',
-    DeepSeek: 'bg-red-100 text-white dark:bg-red-900 dark:text-red-300',
-    Mistral: 'bg-cyan-100 text-white dark:bg-cyan-900 dark:text-cyan-300',
-    Minimax: 'bg-indigo-500 text-white dark:bg-indigo-600 dark:text-indigo-200',
-    Moonshot: 'bg-purple-600 text-white dark:bg-purple-700 dark:text-purple-200',
+    NVIDIA: 'background: rgba(118, 185, 0, 0.2); color: #76b900;',
+    Microsoft: 'background: rgba(99, 102, 241, 0.2); color: #818cf8;',
+    Google: 'background: rgba(59, 130, 246, 0.2); color: #60a5fa;',
+    Amazon: 'background: rgba(249, 115, 22, 0.2); color: #fb923c;',
+    Meta: 'background: rgba(168, 85, 247, 0.2); color: #c084fc;',
+    Oracle: 'background: rgba(239, 68, 68, 0.2); color: #ef4444;',
+    ByteDance: 'background: rgba(239, 68, 68, 0.2); color: #f87171;',
+    Adobe: 'background: rgba(239, 68, 68, 0.2); color: #f87171;',
+    Alibaba: 'background: rgba(234, 179, 8, 0.2); color: #fbbf24;',
+    OpenAI: 'background: rgba(34, 197, 94, 0.2); color: #4ade80;',
+    Anthropic: 'background: rgba(249, 115, 22, 0.2); color: #fb923c;',
+    xAI: 'background: rgba(255, 255, 255, 0.1); color: rgba(255, 255, 255, 0.7);',
+    DeepSeek: 'background: rgba(239, 68, 68, 0.2); color: #f87171;',
+    Mistral: 'background: rgba(6, 182, 212, 0.2); color: #22d3ee;',
+    Minimax: 'background: rgba(99, 102, 241, 0.2); color: #818cf8;',
+    Moonshot: 'background: rgba(168, 85, 247, 0.2); color: #c084fc;',
   };
   return (
     colors[company] ||
-    'bg-zinc-100 text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300'
+    'background: rgba(255, 255, 255, 0.06); color: rgba(255, 255, 255, 0.5);'
   );
 }
 
@@ -393,13 +421,21 @@ export default function AINewsPage() {
     .slice(0, 24);
 
   return (
-    <div className='min-h-screen bg-zinc-50 dark:bg-[#0f2744]'>
+    <div className='min-h-screen'>
       <main className='mx-auto px-4 sm:px-6 lg:px-10 py-8'>
         <div className='mb-8'>
-          <h1 className='text-3xl font-bold text-zinc-900 dark:text-zinc-100 mb-2'>
-            📰 AI News
+          <h1
+            style={{
+              fontSize: '3rem',
+              lineHeight: '0.87',
+              fontWeight: 400,
+              color: '#ffffff',
+              marginBottom: '8px',
+            }}
+          >
+            AI News
           </h1>
-          <p className='text-zinc-500 dark:text-zinc-400'>
+          <p style={{ color: 'rgba(255, 255, 255, 0.6)', fontSize: '1rem' }}>
             Latest AI news from the top 15 foundation model companies • Ordered
             by latest
           </p>
@@ -413,22 +449,69 @@ export default function AINewsPage() {
               target='_blank'
               rel='noopener noreferrer'
               title={card.title}
-              className='group bg-white dark:bg-zinc-900 rounded-xl border border-zinc-200 dark:border-zinc-800 overflow-hidden hover:shadow-lg hover:border-blue-300 dark:hover:border-blue-700 transition-all duration-200'
+              className='group'
+              style={{
+                backgroundColor: '#333138',
+                border: '1px solid rgba(255, 255, 255, 0.1)',
+                borderRadius: '4px',
+                overflow: 'hidden',
+                transition: 'all 0.2s ease',
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.borderColor = 'rgba(0, 255, 255, 0.3)';
+                e.currentTarget.style.boxShadow =
+                  '4px 4px 0px 0px rgba(0, 0, 0, 0.15)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.1)';
+                e.currentTarget.style.boxShadow = 'none';
+              }}
             >
               <div className='relative h-40 overflow-hidden'>
                 <img
                   src={card.imageUrl}
                   alt={card.title}
                   className='w-full h-full object-cover group-hover:scale-105 transition-transform duration-300'
+                  style={{ backgroundColor: '#1a1a1a' }}
                 />
                 <div className='absolute top-3 left-3 flex gap-2'>
                   <span
-                    className={`px-2 py-1 rounded-full text-xs font-medium ${getCategoryColor(card.category)}`}
+                    style={{
+                      padding: '2px 8px',
+                      borderRadius: '2px',
+                      fontSize: '11px',
+                      fontWeight: 500,
+                      textTransform: 'uppercase',
+                      letterSpacing: '0.3px',
+                      ...Object.fromEntries(
+                        getCategoryColor(card.category)
+                          .split(';')
+                          .filter((s) => s.trim())
+                          .map((s) => {
+                            const [k, v] = s.split(':').map((x) => x.trim());
+                            return [k, v];
+                          }),
+                      ),
+                    }}
                   >
                     {getCategoryLabel(card.category)}
                   </span>
                   <span
-                    className={`px-2 py-1 rounded-full text-xs font-medium ${getCompanyColor(card.source)}`}
+                    style={{
+                      padding: '2px 8px',
+                      borderRadius: '2px',
+                      fontSize: '11px',
+                      fontWeight: 500,
+                      ...Object.fromEntries(
+                        getCompanyColor(card.source)
+                          .split(';')
+                          .filter((s) => s.trim())
+                          .map((s) => {
+                            const [k, v] = s.split(':').map((x) => x.trim());
+                            return [k, v];
+                          }),
+                      ),
+                    }}
                   >
                     {card.source}
                   </span>
@@ -437,7 +520,12 @@ export default function AINewsPage() {
 
               <div className='p-4'>
                 <div className='flex items-center gap-2 mb-2'>
-                  <span className='text-xs text-zinc-400 dark:text-zinc-500'>
+                  <span
+                    style={{
+                      fontSize: '12px',
+                      color: 'rgba(255, 255, 255, 0.4)',
+                    }}
+                  >
                     {new Date(card.publishedAt).toLocaleDateString('en-US', {
                       month: 'short',
                       day: 'numeric',
@@ -446,11 +534,26 @@ export default function AINewsPage() {
                   </span>
                 </div>
 
-                <h3 className='font-semibold text-zinc-900 dark:text-zinc-100 mb-2 line-clamp-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors'>
+                <h3
+                  className='mb-2 line-clamp-2 group-hover:text-cyan-400 transition-colors'
+                  style={{
+                    fontSize: '1rem',
+                    fontWeight: 500,
+                    lineHeight: '1.2',
+                    color: '#ffffff',
+                  }}
+                >
                   {card.title}
                 </h3>
 
-                <p className='text-sm text-zinc-500 dark:text-zinc-400 line-clamp-2'>
+                <p
+                  className='text-sm line-clamp-2'
+                  style={{
+                    color: 'rgba(255, 255, 255, 0.6)',
+                    fontSize: '14px',
+                    lineHeight: '1.5',
+                  }}
+                >
                   {card.summary}
                 </p>
               </div>
@@ -459,7 +562,7 @@ export default function AINewsPage() {
         </div>
 
         <div className='mt-8 text-center'>
-          <p className='text-sm text-zinc-500 dark:text-zinc-400'>
+          <p style={{ fontSize: '14px', color: 'rgba(255, 255, 255, 0.4)' }}>
             Showing {filteredCards.length} news items from top 15 foundation
             model companies • Click cards to read full articles
           </p>
