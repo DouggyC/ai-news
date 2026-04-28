@@ -56,21 +56,23 @@ html {
 }
 
 body {
-  background-color: #2a2a30;
-  background-image: 
-    radial-gradient(at 10% 20%, hsla(242, 91%, 61%, 0.4) 0px, transparent 50%),
-    radial-gradient(at 95% 5%, hsla(259, 87%, 66%, 0.4) 0px, transparent 50%),
-    radial-gradient(at 100% 100%, hsla(212, 92%, 55%, 0.4) 0px, transparent 50%),
-    radial-gradient(at 0% 100%, hsla(247, 83%, 67%, 0.4) 0px, transparent 50%),
-    radial-gradient(at 50% 50%, hsla(255, 94%, 72%, 0.3) 0px, transparent 50%);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  color: var(--pure-white);
-  font-family: var(--font-primary);
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: #1e1e24;
+    /* A slightly deeper black for better contrast */
+    background-image:
+        radial-gradient(at 10% 20%, hsla(242, 91%, 61%, 0.8) 0px, hsla(242, 91%, 61%, 0) 50%),
+        radial-gradient(at 95% 5%, hsla(259, 87%, 66%, 0.8) 0px, hsla(259, 87%, 66%, 0) 50%),
+        radial-gradient(at 100% 100%, hsla(212, 92%, 55%, 0.8) 0px, hsla(212, 92%, 55%, 0) 50%),
+        radial-gradient(at 0% 100%, hsla(247, 83%, 67%, 0.8) 0px, hsla(247, 83%, 67%, 0) 50%),
+        radial-gradient(at 50% 50%, hsla(255, 94%, 72%, 0.6) 0px, hsla(255, 94%, 72%, 0) 50%);
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--pure-white);
+    font-family: var(--font-primary);
+    line-height: 1.5;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
 }
 
 /* Headings with ultra-tight line-heights */
