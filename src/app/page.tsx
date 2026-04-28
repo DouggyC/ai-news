@@ -43,21 +43,21 @@ const top15Companies = [
 const newsCards: NewsCard[] = [
   {
     id: '1',
-    title: 'OpenAI launches GPT-5.4-Cyber for advanced cybersecurity reasoning',
+    title: 'OpenAI launches GPT-5.5 with advanced agentic coding and research capabilities',
     summary:
-      'OpenAI released GPT-5.4-Cyber, a specialized model for cybersecurity tasks with advanced penetration testing and vulnerability assessment capabilities.',
+      'OpenAI released GPT-5.5, its newest frontier model with improved coding, computer use, and deeper research capabilities now available in ChatGPT and Codex.',
     source: 'OpenAI',
-    sourceUrl: 'https://techcrunch.com/2026/04/14/openai-launches-gpt-5-4-cyber/',
+    sourceUrl: 'https://openai.com/index/introducing-gpt-5-5/',
     imageUrl:
       'https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600',
     category: 'model',
-    publishedAt: '2026-04-14',
+    publishedAt: '2026-04-23',
   },
   {
     id: '2',
-    title: 'Anthropic releases Claude Opus 4.7 with enhanced reasoning capabilities',
+    title: 'Anthropic releases Claude Opus 4.7 with enhanced coding and agentic workflows',
     summary:
-      'Anthropic launched Claude Opus 4.7 GA featuring improved chain-of-thought reasoning, better coding performance, and extended context handling.',
+      'Anthropic launched Claude Opus 4.7 featuring improved chain-of-thought reasoning, better coding performance, 1M token context window, and extended multimodal image processing.',
     source: 'Anthropic',
     sourceUrl: 'https://www.anthropic.com/news/claude-opus-4-7',
     imageUrl:
@@ -67,23 +67,23 @@ const newsCards: NewsCard[] = [
   },
   {
     id: '3',
-    title: 'Google introduces Gemini Enterprise Agent Platform for businesses',
+    title: 'Google introduces Gemma 4 as its most capable open model family',
     summary:
-      'Google launched Gemini Enterprise Agent Platform enabling companies to deploy production AI agents with built-in security, compliance, and analytics.',
+      'Google launched Gemma 4, its newest open model family with agentic workflows, multimodal support, and Apache 2.0 licensing across E2B, E4B, 26B MoE, and 31B sizes.',
     source: 'Google',
-    sourceUrl: 'https://blog.google/innovation-and-ai/technology/enterprise/gemini-enterprise-agent-platform/',
+    sourceUrl: 'https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/',
     imageUrl:
       'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemma-4_blog_keyword_header-dark.width-200.format-webp.webp',
-    category: 'product',
-    publishedAt: '2026-04-08',
+    category: 'model',
+    publishedAt: '2026-04-02',
   },
   {
     id: '4',
-    title: 'Anthropic launches Claude Design for AI-first product development',
+    title: 'Anthropic launches Claude Design for AI-first visual product development',
     summary:
-      'Anthropic unveiled Claude Design, a new platform helping teams build AI-native products with Claude-powered design workflows and prototyping tools.',
+      'Anthropic unveiled Claude Design, a new platform helping teams build AI-native products with Claude-powered design workflows, prototyping tools, and visual generation.',
     source: 'Anthropic',
-    sourceUrl: 'https://www.anthropic.com/claude-design',
+    sourceUrl: 'https://www.anthropic.com/news/claude-design-anthropic-labs',
     imageUrl:
       'https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png',
     category: 'product',
@@ -93,9 +93,9 @@ const newsCards: NewsCard[] = [
     id: '5',
     title: 'xAI releases Grok 4.3 Beta with multi-agent architecture improvements',
     summary:
-      'xAI launched Grok 4.3 Beta featuring enhanced multi-agent coordination, better instruction following, and improved reasoning across complex tasks.',
+      'xAI launched Grok 4.3 Beta featuring enhanced multi-agent coordination, 2M context window, improved PDF/spreadsheet generation, and native multimodal video understanding.',
     source: 'xAI',
-    sourceUrl: 'https://x.ai/blog/grok-4-3',
+    sourceUrl: 'https://techsifted.com/posts/grok-4-3-review-april-2026/',
     imageUrl:
       'https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg',
     category: 'model',
@@ -103,168 +103,93 @@ const newsCards: NewsCard[] = [
   },
   {
     id: '6',
-    title: 'Google releases Gemma 4 open models with agentic workflow support',
+    title: 'Google DeepMind unveils Gemini Robotics ER 1.6 for physical AI applications',
     summary:
-      'Google introduced Gemma 4 as its newest open model family, adding agentic workflows, multimodal support, and Apache 2.0 licensing for local and cloud deployment.',
+      'Google DeepMind announced Gemini Robotics ER 1.6 with significantly improved physical reasoning for robotic manipulation, instrument reading, and real-world task execution.',
     source: 'Google',
-    sourceUrl: 'https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/',
+    sourceUrl: 'https://deepmind.google/blog/gemini-robotics-er-1-6/',
     imageUrl:
       'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemma-4_blog_keyword_header-dark.width-200.format-webp.webp',
     category: 'model',
-    publishedAt: '2026-04-02',
+    publishedAt: '2026-04-14',
   },
   {
     id: '7',
-    title: 'Anthropic redesigns Claude Code with new Routines feature',
+    title: 'Meta releases Llama 5 with 600B+ parameters as open-weight model',
     summary:
-      'Anthropic rolled out a major Claude Code redesign featuring Routines for automating complex development workflows and improved terminal integration.',
-    source: 'Anthropic',
-    sourceUrl: 'https://www.anthropic.com/claude-code-redesign',
-    imageUrl:
-      'https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png',
-    category: 'tool',
-    publishedAt: '2026-04-18',
-  },
-  {
-    id: '8',
-    title: 'Meta launches Muse Spark AI with Contemplating mode for deep reasoning',
-    summary:
-      'Meta released Muse Spark featuring a unique Contemplating mode for extended reasoning chains, positioning it as a competitor to OpenAI and Google models.',
+      'Meta unveiled Llama 5, a 600B+ parameter open-weights multimodal model with 1M token context window and claimed self-refinement capabilities, now available on Hugging Face.',
     source: 'Meta',
-    sourceUrl: 'https://ai.meta.com/blog/muse-spark',
+    sourceUrl: 'https://www.financialcontent.com/article/marketminute-2026-4-8-meta-unleashes-llama-5-zuckerbergs-open-source-gambit-challenges-proprietary-ai-dominance',
     imageUrl:
       'https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp',
     category: 'model',
-    publishedAt: '2026-04-10',
+    publishedAt: '2026-04-08',
   },
   {
-    id: '9',
-    title: 'Google unveils Gemini Robotics ER 1.6 for physical AI applications',
+    id: '8',
+    title: 'NVIDIA releases Ising open quantum AI models for calibration and error correction',
     summary:
-      'Google DeepMind announced Gemini Robotics ER 1.6 with significantly improved physical reasoning for robotic manipulation and real-world task execution.',
-    source: 'Google',
-    sourceUrl: 'https://deepmind.google/technologies/gemini-robotics/',
-    imageUrl:
-      'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemma-4_blog_keyword_header-dark.width-200.format-webp.webp',
-    category: 'model',
-    publishedAt: '2026-04-15',
-  },
-  {
-    id: '10',
-    title: 'NVIDIA releases Cosmos and GR00T open models for physical AI',
-    summary:
-      'NVIDIA announced new physical AI models including Cosmos and GR00T open models, along with Isaac Lab updates for robotics development and simulation.',
+      'NVIDIA announced Ising, the world first open-source quantum AI model family for automating quantum processor calibration and delivering 2.5x faster error correction.',
     source: 'NVIDIA',
-    sourceUrl: 'https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop',
+    sourceUrl: 'https://developer.nvidia.com/blog/nvidia-ising-introduces-ai-powered-workflows-to-build-fault-tolerant-quantum-systems/',
     imageUrl:
       'https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop',
     category: 'model',
-    publishedAt: '2026-04-08',
+    publishedAt: '2026-04-14',
+  },
+  {
+    id: '9',
+    title: 'Google launches Gemini Enterprise Agent Platform for business AI agents',
+    summary:
+      'Google launched Gemini Enterprise Agent Platform enabling companies to deploy production AI agents with built-in security, compliance, analytics, and third-party integrations.',
+    source: 'Google',
+    sourceUrl: 'https://www.testingcatalog.com/google-launches-new-agent-platform-for-gemini-enterprise/',
+    imageUrl:
+      'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemma-4_blog_keyword_header-dark.width-200.format-webp.webp',
+    category: 'product',
+    publishedAt: '2026-04-22',
+  },
+  {
+    id: '10',
+    title: 'Google launches Deep Research and Deep Research Max powered by Gemini 3.1 Pro',
+    summary:
+      'Google announced Deep Research agents with MCP support, native visualizations, and enterprise-grade synthesis for long-horizon research workflows across web and custom sources.',
+    source: 'Google',
+    sourceUrl: 'https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/',
+    imageUrl:
+      'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemma-4_blog_keyword_header-dark.width-200.format-webp.webp',
+    category: 'capability',
+    publishedAt: '2026-04-21',
   },
   {
     id: '11',
-    title: 'Google launches Notebooks inside Gemini with NotebookLM sync',
+    title: 'DeepSeek releases V4-Pro and V4-Flash with 1M context and hybrid attention',
     summary:
-      'Google added notebooks to Gemini so users can organize files, instructions, and chats in one place and keep them synced across NotebookLM workflows.',
-    source: 'Google',
-    sourceUrl:
-      'https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/',
-    imageUrl:
-      'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Notebooks_header_2026_2096x1182.width-200.format-webp.webp',
-    category: 'product',
-    publishedAt: '2026-04-08',
-  },
-  {
-    id: '12',
-    title: 'xAI launches XChat app with Grok 4.3 Beta integration',
-    summary:
-      'xAI released XChat app bringing Grok 4.3 Beta capabilities to mobile users with real-time web search, image generation, and code assistance.',
-    source: 'xAI',
-    sourceUrl: 'https://x.ai/xchat',
-    imageUrl:
-      'https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg',
-    category: 'product',
-    publishedAt: '2026-04-18',
-  },
-  {
-    id: '13',
-    title: 'Anthropic achieves $800B valuation in latest funding round',
-    summary:
-      'Anthropic secured new funding at an $800B valuation, making it one of the most valuable AI companies globally as demand for Claude models surges.',
-    source: 'Anthropic',
-    sourceUrl: 'https://www.anthropic.com/funding',
-    imageUrl:
-      'https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png',
-    category: 'product',
-    publishedAt: '2026-04-20',
-  },
-  {
-    id: '14',
-    title: 'Google adds Flex and Priority tiers to the Gemini API',
-    summary:
-      'Google launched new Gemini API service tiers so teams can trade latency for lower cost with Flex or buy higher reliability with Priority for critical workloads.',
-    source: 'Google',
-    sourceUrl:
-      'https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/',
-    imageUrl:
-      'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/cost_reliability_Gemini_API-socia.width-300.format-webp.webp',
-    category: 'tool',
-    publishedAt: '2026-04-02',
-  },
-  {
-    id: '15',
-    title: 'OpenAI evolves Agents SDK with enhanced tool use and memory',
-    summary:
-      'OpenAI released major updates to the Agents SDK featuring improved tool use, persistent memory across sessions, and better multi-agent collaboration.',
-    source: 'OpenAI',
-    sourceUrl: 'https://developers.openai.com/agents-sdk-update',
-    imageUrl:
-      'https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600',
-    category: 'tool',
-    publishedAt: '2026-04-15',
-  },
-  {
-    id: '16',
-    title: 'DeepSeek V4 confirmed for April 2026 with multimodal and 1M context',
-    summary:
-      'DeepSeek V4 is confirmed for April 2026 launch featuring a multimodal architecture with 1 million token context window and Engram memory system.',
+      'DeepSeek unveiled V4 preview featuring 1.6T parameters, 1M token context window, hybrid attention architecture, and MIT licensing as it challenges frontier models at aggressive prices.',
     source: 'DeepSeek',
-    sourceUrl: 'https://renovateqr.com/blog/chinese-ai-models-april-2026',
+    sourceUrl: 'https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/',
     imageUrl:
       'https://preview.redd.it/deepseek-v4-all-leaks-and-infos-for-the-release-day-not-v0-lllfdd3uvimg1.png?width=640&crop=smart&auto=webp&s=2492384251ab16ffeac1c5d0317dd71610c3c077',
     category: 'model',
-    publishedAt: '2026-04-01',
+    publishedAt: '2026-04-24',
   },
   {
-    id: '17',
-    title: 'Anthropic blocks OpenClaw access citing Claude misuse concerns',
+    id: '12',
+    title: 'xAI launches Grok Voice Think Fast 1.0 voice agent topping Tau Voice Bench',
     summary:
-      'Anthropic restricted OpenClaw access to Claude APIs after discovering the autonomous agent framework was being used for automated vulnerability research.',
-    source: 'Anthropic',
-    sourceUrl: 'https://www.anthropic.com/openclaw-statement',
+      'xAI released Grok Voice Think Fast 1.0, a production voice model ranking first on Tau Voice Bench with 25+ language support, low latency, and Starlink deployment already active.',
+    source: 'xAI',
+    sourceUrl: 'https://www.marktechpost.com/2026/04/27/xai-launches-grok-voice-think-fast-1-0-voice-agent-with-support-for-25-languages-and-starlink-deployment/',
     imageUrl:
-      'https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png',
-    category: 'capability',
-    publishedAt: '2026-04-19',
+      'https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg',
+    category: 'tool',
+    publishedAt: '2026-04-27',
   },
   {
-    id: '18',
-    title: 'Google expands NotebookLM limits for education users',
+    id: '13',
+    title: 'Alibaba releases Qwen 3.6-Max-Preview with top coding benchmark performance',
     summary:
-      'Google raised NotebookLM usage limits for Education Plus and Teaching and Learning customers, letting schools create more notebooks, sources, quizzes, and audio.',
-    source: 'Google',
-    sourceUrl:
-      'https://blog.google/products-and-platforms/products/education/ai-tools-programs-educators/',
-    imageUrl:
-      'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/006-ASUGSV-Blog-Header-Apr-10_006.width-200.format-webp.webp',
-    category: 'product',
-    publishedAt: '2026-04-13',
-  },
-  {
-    id: '19',
-    title: 'Alibaba releases Qwen 3.6 Max with #1 coding benchmark performance',
-    summary:
-      'Alibaba launched Qwen 3.6 Max ranking first on six coding benchmarks including SWE-bench Pro and Terminal-Bench 2.0, with 256K context and improved agentic capabilities.',
+      'Alibaba launched Qwen 3.6-Max-Preview ranking first on six coding benchmarks including SWE-bench Pro and Terminal-Bench 2.0, with 256K context and enhanced agentic capabilities.',
     source: 'Alibaba',
     sourceUrl: 'https://tech.yahoo.com/ai/gemini/articles/alibaba-drops-qwen-3-6-212453373.html',
     imageUrl:
@@ -273,78 +198,139 @@ const newsCards: NewsCard[] = [
     publishedAt: '2026-04-20',
   },
   {
-    id: '25',
-    title: 'Moonshot AI releases Kimi 2.6 open-weight model for long-horizon coding',
+    id: '14',
+    title: 'Alibaba open-sources Qwen 3.6-35B-A3B MoE model with 3B active parameters',
     summary:
-      'Moonshot AI launched Kimi 2.6, a 1T parameter open-weight model scoring 58.6% on SWE-Bench Pro and leading on HLE-Full with tools among frontier models.',
-    source: 'Moonshot',
-    sourceUrl: 'https://www.marktechpost.com/2026/04/20/moonshot-ai-releases-kimi-k2-6-with-long-horizon-coding-agent-swarm-scaling-to-300-sub-agents-and-4000-coordinated-steps/',
+      'Alibaba released Qwen 3.6-35B-A3B, a sparse MoE model with only 3B active parameters outperforming Gemma 4-31B on coding benchmarks and licensed under Apache 2.0.',
+    source: 'Alibaba',
+    sourceUrl: 'https://www.marktechpost.com/2026/04/22/alibaba-qwen-team-releases-qwen3-6-27b-a-dense-open-weight-model-outperforming-397b-moe-on-agentic-coding-benchmarks/',
     imageUrl:
-      'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemma-4_blog_keyword_header-dark.width-200.format-webp.webp',
+      'https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg',
     category: 'model',
-    publishedAt: '2026-04-20',
+    publishedAt: '2026-04-16',
   },
   {
-    id: '20',
-    title: 'Google launches Gemini Mac app for desktop AI assistance',
+    id: '15',
+    title: 'ByteDance brings Doubao AI to car cabins in automotive expansion',
     summary:
-      'Google released Gemini Mac app bringing AI assistance directly to macOS with native integrations, file system access, and system-level capabilities.',
-    source: 'Google',
-    sourceUrl: 'https://blog.google/innovation-and-ai/products/gemini-app/gemini-mac/',
+      'ByteDance announced Doubao AI integration into car cabins through a partnership with Seres, enabling voice assistants for driving, route planning, and entertainment interaction.',
+    source: 'ByteDance',
+    sourceUrl: 'https://cnevpost.com/2026/04/16/bytedance-bringing-doubao-ai-to-car-cabins/',
     imageUrl:
-      'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemma-4_blog_keyword_header-dark.width-200.format-webp.webp',
+      'https://cdn.technobezz.com/c/Technobezz_2026_02_14_T092431_822_304d822711.png',
     category: 'product',
-    publishedAt: '2026-04-12',
+    publishedAt: '2026-04-16',
   },
   {
-    id: '21',
-    title: 'Mistral releases Devstral for open coding agent workflows',
+    id: '16',
+    title: 'Mistral releases Mistral Small 4 unifying reasoning, vision, and coding',
     summary:
-      'Mistral launched Devstral, an open coding model optimized for autonomous agent workflows with improved bug fixing and code review capabilities.',
+      'Mistral AI launched Mistral Small 4, a 119B MoE model unifying Magistral reasoning, Pixtral vision, and Devstral coding with 256K context under Apache 2.0 license.',
     source: 'Mistral',
-    sourceUrl: 'https://mistral.ai/news/devstral',
+    sourceUrl: 'https://mistral.ai/news/mistral-small-4',
     imageUrl:
       'https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75',
     category: 'model',
     publishedAt: '2026-04-03',
   },
   {
-    id: '22',
-    title: 'Google announces Deep Research powered by Gemini 3.1 Pro',
+    id: '17',
+    title: 'MiniMax M2.7 goes open-weight with self-evolving agent capabilities',
     summary:
-      'Google announced Deep Research feature in Gemini using advanced reasoning to autonomously explore complex topics and generate comprehensive reports.',
-    source: 'Google',
-    sourceUrl: 'https://blog.google/innovation-and-ai/products/gemini-app/deep-research/',
-    imageUrl:
-      'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemma-4_blog_keyword_header-dark.width-200.format-webp.webp',
-    category: 'capability',
-    publishedAt: '2026-04-22',
-  },
-  {
-    id: '23',
-    title: 'MiniMax M2.7 launches with 3x faster inference speeds',
-    summary:
-      'MiniMax released M2.7 achieving 3x faster inference speeds while maintaining competitive benchmark performance across coding and reasoning tasks.',
+      'MiniMax released M2.7 open weights, the first model to participate in its own development with 100+ autonomous optimization rounds achieving 56.22% on SWE-Pro.',
     source: 'MiniMax',
-    sourceUrl: 'https://pricepertoken.com/news/model-releases',
+    sourceUrl: 'https://www.marktechpost.com/2026/04/12/minimax-just-open-sourced-minimax-m2-7-a-self-evolving-agent-model-that-scores-56-22-on-swe-pro-and-57-0-on-terminal-bench-2/',
     imageUrl:
       'https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png',
     category: 'model',
-    publishedAt: '2026-04-01',
+    publishedAt: '2026-04-12',
+  },
+  {
+    id: '18',
+    title: 'Moonshot AI releases Kimi K2.6 with 300-agent swarm and 12-hour autonomous coding',
+    summary:
+      'Moonshot AI launched Kimi K2.6 GA featuring 1T MoE architecture, 300-agent swarm coordination, 12-hour autonomous runs, and leading SWE-Bench Pro performance.',
+    source: 'Moonshot',
+    sourceUrl: 'https://kimi-k2.org/blog/24-kimi-k2-6-release',
+    imageUrl:
+      'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemma-4_blog_keyword_header-dark.width-200.format-webp.webp',
+    category: 'model',
+    publishedAt: '2026-04-20',
+  },
+  {
+    id: '19',
+    title: 'Google launches Gemini Mac app for native desktop AI assistance',
+    summary:
+      'Google released Gemini Mac app bringing AI assistance directly to macOS with native integrations, file system access, and Option+Space keyboard shortcut activation.',
+    source: 'Google',
+    sourceUrl: 'https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/',
+    imageUrl:
+      'https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemma-4_blog_keyword_header-dark.width-200.format-webp.webp',
+    category: 'product',
+    publishedAt: '2026-04-15',
+  },
+  {
+    id: '20',
+    title: 'OpenAI launches Privacy Filter open-weight model for PII detection',
+    summary:
+      'OpenAI released Privacy Filter, an open-weight Apache 2.0 model for detecting and redacting personally identifiable information achieving state-of-the-art on PII-Masking-300k.',
+    source: 'OpenAI',
+    sourceUrl: 'https://openai.com/index/introducing-openai-privacy-filter/',
+    imageUrl:
+      'https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600',
+    category: 'tool',
+    publishedAt: '2026-04-22',
+  },
+  {
+    id: '21',
+    title: 'OpenAI releases GPT-Rosalind for life sciences research',
+    summary:
+      'OpenAI introduced GPT-Rosalind, a frontier reasoning model optimized for biology, drug discovery, and genomics with access to 50+ scientific tools and data sources.',
+    source: 'OpenAI',
+    sourceUrl: 'https://openai.com/index/introducing-gpt-rosalind/',
+    imageUrl:
+      'https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600',
+    category: 'model',
+    publishedAt: '2026-04-16',
+  },
+  {
+    id: '22',
+    title: 'ByteDance Seed 2.0 now supports full-duplex speech with 12% fluency improvement',
+    summary:
+      'ByteDance updated Seed 2.0 with Full-Duplex Speech LLM enabling attentive listening, robust interference suppression, and more natural conversational interaction.',
+    source: 'ByteDance',
+    sourceUrl: 'https://seed.bytedance.com/en/',
+    imageUrl:
+      'https://cdn.technobezz.com/c/Technobezz_2026_02_14_T092431_822_304d822711.png',
+    category: 'model',
+    publishedAt: '2026-04-09',
+  },
+  {
+    id: '23',
+    title: 'Anthropic launches Claude Managed Agents with secure sandboxing',
+    summary:
+      'Anthropic released Claude Managed Agents in public beta, a fully managed agent harness for autonomous operation with secure sandboxing, built-in tools, and SSE streaming.',
+    source: 'Anthropic',
+    sourceUrl: 'https://www.anthropic.com/news',
+    imageUrl:
+      'https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png',
+    category: 'tool',
+    publishedAt: '2026-04-08',
   },
   {
     id: '24',
-    title: 'ByteDance launches Dreamina Seedance 2.0 for video generation',
+    title: 'Alibaba launches Qwen 3.6-Plus with 1M context for agentic workflows',
     summary:
-      'ByteDance released Dreamina Seedance 2.0, a new AI video generation model integrated into CapCut for enhanced creative workflows.',
-    source: 'ByteDance',
-    sourceUrl: 'https://pricepertoken.com/news/model-releases',
+      'Alibaba released Qwen 3.6-Plus featuring 1M token context, enhanced multimodal reasoning, and agentic coding optimizations with compatibility for Claude Code and OpenClaw.',
+    source: 'Alibaba',
+    sourceUrl: 'https://www.alibabacloud.com/press-room/alibaba-unveils-qwen3-6-plus-to-accelerate-agentic',
     imageUrl:
-      'https://cdn.technobezz.com/c/Technobezz_2026_02_14_T092431_822_304d822711.png',
-    category: 'tool',
-    publishedAt: '2026-04-01',
+      'https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg',
+    category: 'model',
+    publishedAt: '2026-04-02',
   },
 ];
+
 
 function getCategoryColor(category: NewsCard['category']): string {
   const colors = {

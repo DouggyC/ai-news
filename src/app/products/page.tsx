@@ -26,22 +26,22 @@ const productData: ProductRow[] = [
         description: 'Amazon’s top Bedrock model for multimodal enterprise workloads',
       },
       OpenAI: {
-        name: 'GPT-5.4',
-        url: 'https://developers.openai.com/api/docs/models',
+        name: 'GPT-5.5',
+        url: 'https://openai.com/index/introducing-gpt-5-5/',
         description: 'Frontier reasoning and coding model powering ChatGPT, Codex, and the API',
       },
       Anthropic: {
-        name: 'Claude Opus 4.6',
-        url: 'https://www.anthropic.com/claude/opus',
+        name: 'Claude Opus 4.7',
+        url: 'https://www.anthropic.com/news/claude-opus-4-7',
         description: 'Anthropic’s flagship hybrid reasoning model for coding and agent workflows',
       },
       xAI: {
-        name: 'Grok 4.1',
+        name: 'Grok 4.20 Beta',
         url: 'https://docs.x.ai/overview',
         description: 'xAI frontier model family for Grok, API, and developer tooling',
       },
       ByteDance: {
-        name: 'Doubao 1.5 Pro',
+        name: 'Doubao 2.0',
         url: 'https://www.doubao.com',
         description: 'ByteDance multimodal model family behind Doubao experiences',
       },
@@ -97,7 +97,7 @@ const productData: ProductRow[] = [
       OpenAI: {
         name: 'ChatGPT',
         url: 'https://developers.openai.com/chatgpt',
-        description: 'Powered by GPT-5.4, with Deep Research, voice, image, and agent tools',
+        description: 'Powered by GPT-5.5, with Deep Research, voice, image, and agent tools',
       },
       Anthropic: {
         name: 'Claude',
@@ -172,7 +172,7 @@ const productData: ProductRow[] = [
       OpenAI: {
         name: 'Codex',
         url: 'https://developers.openai.com/codex/ide',
-        description: 'IDE extension and cloud coding agent powered by GPT-5.4 and GPT-5.3-Codex',
+        description: 'IDE extension and cloud coding agent powered by GPT-5.5 and Codex',
       },
       Anthropic: {
         name: 'Claude Code',
@@ -182,7 +182,7 @@ const productData: ProductRow[] = [
       Microsoft: {
         name: 'GitHub Copilot',
         url: 'https://github.com/features/copilot',
-        description: 'Editor-native agent mode with GPT-5.4, Claude, and Gemini model options',
+        description: 'Editor-native agent mode with GPT-5.5, Claude, and Gemini model options',
       },
       Amazon: {
         name: 'Amazon Q Developer',
@@ -217,7 +217,7 @@ const productData: ProductRow[] = [
       OpenAI: {
         name: 'Codex CLI',
         url: 'https://developers.openai.com/codex/cli',
-        description: 'Terminal coding agent powered by GPT-5.4 and GPT-5.3-Codex',
+        description: 'Terminal coding agent powered by GPT-5.5 and Codex',
       },
       Anthropic: {
         name: 'Claude Code',
@@ -272,7 +272,7 @@ const productData: ProductRow[] = [
       OpenAI: {
         name: 'OpenAI Platform',
         url: 'https://developers.openai.com/api/docs',
-        description: 'Responses API with GPT-5.4, GPT Image 1.5, Realtime 1.5, and agent tooling',
+        description: 'Responses API with GPT-5.5, GPT Image 1.5, Realtime 1.5, and agent tooling',
       },
       Anthropic: {
         name: 'Claude API',
@@ -382,7 +382,7 @@ const productData: ProductRow[] = [
       OpenAI: {
         name: 'Playground',
         url: 'https://developers.openai.com/',
-        description: 'Prompt, eval, and tool testing workspace for GPT-5.4 and platform APIs',
+        description: 'Prompt, eval, and tool testing workspace for GPT-5.5 and platform APIs',
       },
       JetBrains: {
         name: 'AI Assistant',
@@ -417,7 +417,7 @@ const productData: ProductRow[] = [
       OpenAI: {
         name: 'Agent Platform',
         url: 'https://developers.openai.com/api/docs/guides/agents',
-        description: 'Agent Builder, Agents SDK, ChatKit, and eval tooling on GPT-5.4',
+        description: 'Agent Builder, Agents SDK, ChatKit, and eval tooling on GPT-5.5',
       },
       Anthropic: {
         name: 'Computer Use',
@@ -641,7 +641,7 @@ const productData: ProductRow[] = [
       OpenAI: {
         name: 'Deep Research',
         url: 'https://developers.openai.com/api/docs/guides/deep-research',
-        description: 'ChatGPT research mode powered by GPT-5.4 with web and file investigation tools',
+        description: 'ChatGPT research mode powered by GPT-5.5 with web and file investigation tools',
       },
       xAI: {
         name: 'DeepSearch',
@@ -671,7 +671,7 @@ const productData: ProductRow[] = [
       OpenAI: {
         name: 'ChatGPT Enterprise',
         url: 'https://developers.openai.com/chatgpt',
-        description: 'Enterprise ChatGPT with GPT-5.4, admin controls, connectors, and security',
+        description: 'Enterprise ChatGPT with GPT-5.5, admin controls, connectors, and security',
       },
       Anthropic: {
         name: 'Claude Enterprise',
@@ -1000,7 +1000,7 @@ export default function ProductsPage() {
 
         <div className='bg-white dark:bg-[#153457] rounded-2xl border border-zinc-200 dark:border-zinc-800/50 shadow-xl shadow-blue-900/5 overflow-hidden'>
           <div className='mb-4 text-right text-sm text-zinc-500 dark:text-zinc-400 px-6'>
-            Last updated: April 23, 2026
+            Last updated: April 28, 2026
           </div>
           <div className='overflow-x-auto custom-scrollbar'>
             <table className='w-full text-left border-collapse'>
@@ -1112,7 +1112,7 @@ export default function ProductsPage() {
                 <strong className='text-zinc-700 dark:text-zinc-300'>
                   Last Updated:
                   </strong>{' '}
-                  April 23, 2026. The AI space is highly dynamic!
+                  April 28, 2026. The AI space is highly dynamic!
               </p>
             </div>
           </div>
