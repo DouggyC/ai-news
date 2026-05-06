@@ -221,10 +221,10 @@ const productData: ProductRow[] = [
           'AWS coding assistant across IDEs, PR review, and modernization tasks',
       },
       JetBrains: {
-        name: 'Junie',
-        url: 'https://www.jetbrains.com/junie/',
+        name: 'JetBrains Junie',
+        url: 'https://junie.jetbrains.com',
         description:
-          'JetBrains coding agent with IDE-native context, reviews, and async task flows',
+          'LLM-agnostic coding agent with BYOK support, MCP integration, works in terminal + IDE + CI/CD',
       },
       Cursor: {
         name: 'Cursor',
