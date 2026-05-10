@@ -97,3 +97,6 @@ Update the benchmarks page in `/src/app/benchmarks/page.tsx` with the latest ben
 - [ ] Build succeeds: `npm run build`
 - [ ] Maintains existing formatting and code structure
 - [ ] Visualization data properly reflects the benchmark scores
+
+## Last Updated Date
+Update ALL "Last updated:" dates in the file to today's date (Month DD, YYYY format).

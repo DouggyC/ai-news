@@ -91,7 +91,7 @@ const productData: ProductRow[] = [
           'Small open-weight model line optimized for efficient reasoning workloads',
       },
       Google: {
-        name: 'Gemma 3',
+        name: 'Gemma 4',
         url: 'https://ai.google.dev/gemma',
         description:
           "Google's open model family for lightweight multimodal deployment",
@@ -617,7 +617,7 @@ const productData: ProductRow[] = [
         name: 'Sora',
         url: 'https://developers.openai.com/api/docs/guides/video-generation',
         description:
-          'OpenAI video generation stack, including Sora-style workflows and API tooling',
+          'OpenAI video generation stack discontinued April 2026; API available until Sept 2026',
       },
       Runway: {
         name: 'Runway',
@@ -642,6 +642,12 @@ const productData: ProductRow[] = [
         url: 'https://pika.art',
         description:
           'Consumer-friendly video generation and edit effects for short-form content',
+      },
+      ByteDance: {
+        name: 'Seedance 2.0',
+        url: 'https://seed.bytedance.com/en/seedance2_0',
+        description:
+          'ByteDance multimodal video generation with audio-video joint architecture. Up to 20-second clips via CapCut and Dreamina.',
       },
       Luma: {
         name: 'Dream Machine',

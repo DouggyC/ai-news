@@ -3,15 +3,42 @@
 ## Task Description
 Update the homepage news cards in `/src/app/page.tsx` with the latest AI news from frontier/FAANG companies (OpenAI, Anthropic, Google, Meta, xAI, NVIDIA, Apple) focusing on model releases and AI product updates from the current month.
 
+## ⚠️ MANDATORY PRE-UPDATE RESEARCH
+Before updating ANY content, run research to discover the current landscape:
+
+### Research Queries (execute all):
+```
+OpenAI AI models [current month] 2026 site:openai.com OR site:techcrunch.com
+Anthropic AI models [current month] 2026 site:anthropic.com OR site:techcrunch.com  
+Google AI models [current month] 2026 site:deepmind.google OR site:techcrunch.com
+Meta AI models [current month] 2026 site:ai.meta.com OR site:techcrunch.com
+xAI Grok models [current month] 2026 site:x.ai OR site:techcrunch.com
+NVIDIA AI models [current month] 2026 site:nvidia.com OR site:techcrunch.com
+Apple AI [current month] 2026 site:apple.com OR site:techcrunch.com
+DeepSeek AI models [current month] 2026 site:deepseek.com OR site:techcrunch.com
+Alibaba Qwen [current month] 2026 site:qwenlm.ai OR site:techcrunch.com
+MiniMax AI models [current month] 2026 site:minimaxi.com OR site:techcrunch.com
+```
+
+### What to Discover:
+1. **New model names** released since last update
+2. **Discontinued/replaced models** - any models with newer versions
+3. **Major version jumps** - e.g., V3 → V4
+4. **Proprietary ↔ Open Source changes** - new open models, newly closed models
+
+**Do NOT assume any model name or status from the previous version is still current.**
+**Update content to match reality as discovered through research.**
+
 ## Requirements
 1. **Research**: Find the latest AI news (preferably from the last 7-14 days) from:
    - OpenAI (GPT models, Codex, Sora, etc.)
    - Anthropic (Claude models, Claude Code, etc.)
    - Google (Gemini models, Workspace AI, etc.)
-   - Meta (Llama models, AI products, etc.)
+   - Meta (Llama models, Muse Spark, AI products, etc.)
    - xAI (Grok models)
    - NVIDIA (AI chips, models, software)
    - Apple (AI hardware/features if significantly AI-focused)
+   - DeepSeek, Alibaba, ByteDance, Mistral, MiniMax
 
 2. **Content Focus**: Only include:
    - New model releases/updates
@@ -29,61 +56,29 @@ Update the homepage news cards in `/src/app/page.tsx` with the latest AI news fr
 
 4. **Image Handling**:
    - Use company-specific images from `data/data/images.json` instead of generic Unsplash images
-   - Match the correct image to the correct company based on the article:
-     - NVIDIA → Nemotron 3 Super image
-     - Anthropic → Claude Opus 4.6 image
-     - xAI → Grok 4.20 Beta image
-     - Meta → Llama 4 Scout/Maverick image
-     - OpenAI → GPT-5.4 image
-     - ByteDance → Doubao 2.0 image
-     - Alibaba → Qwen3.5 image
-     - DeepSeek → DeepSeek V4 image
-     - Mistral → Ministral 3 image
-     - MiniMax → M2.5 image
-   - For companies not in images.json (Google, Microsoft, Oracle, Adobe, Amazon), use appropriate fallback images or generic tech images
    - Verify image URLs are accessible (return HTTP 200)
 
-## Alternative Sources Strategy:
-- If official company URL returns HTTP 403 to curl → find the same announcement on alternative tech news sources (TechCrunch, The Verge, VentureBeat, Gizmodo, etc.)
-- For xAI or other companies with no qualifying April announcements → search tech news sites for coverage or omit if truly no coverage exists
-- Never leave broken URLs - always find working alternatives
+5. **Alternative Sources Strategy**:
+   - Never leave broken URLs - always find working alternatives
    - All sourceUrl links must be accessible (return HTTP 200)
-   - Prefer direct links to official announcements/blog posts
-   - Test links with curl before including
 
 6. **Technical Requirements**:
    - **DO NOT modify any UI or CSS** - only update content information (news cards data)
-   - Maintain existing code structure and styling
-   - Do not modify any other parts of the file
    - Ensure TypeScript compiles without errors
    - Ensure the build succeeds (npm run build)
 
 ## Process
-1. Research latest AI news from target companies
-2. Select 24 most relevant/recent model/product announcements
-3. For each card:
+1. Execute pre-update research queries above
+2. Research latest AI news from target companies
+3. Select 24 most relevant/recent model/product announcements
+4. For each card:
    - Craft appropriate title and summary
    - Verify source URL accessibility
    - Find/verify working image URL
    - Assign correct category
    - Set current month date
-4. Replace the newsCards array in `/src/app/page.tsx`
-5. Run build verification: `npm run build`
-6. Fix any issues that arise
-
-## Example Card Format
-```typescript
-{
-  id: '1',
-  title: 'Descriptive Title of the Announcement',
-  summary: 'Concise 1-2 sentence summary of what was announced and its significance.',
-  source: 'Company Name',
-  sourceUrl: 'https://official-announcement-link.com',
-  imageUrl: 'https://images.unsplash.com/photo-WORKING-ID?w=400&h=250&fit=crop',
-  category: 'model', // or 'product' or 'tool'
-  publishedAt: '2026-03-15' // use current month
-}
-```
+5. Replace the newsCards array in `/src/app/page.tsx`
+6. Run build verification: `npm run build`
 
 ## Quality Checks Before Completion
 - [ ] Exactly 24 cards in the newsCards array
@@ -93,4 +88,6 @@ Update the homepage news cards in `/src/app/page.tsx` with the latest AI news fr
 - [ ] All source URLs return HTTP 200 when tested
 - [ ] TypeScript compiles without errors
 - [ ] Build succeeds: `npm run build`
-- [ ] Maintains existing formatting and code structure
+
+## Last Updated Date
+Update the "Last updated:" date at the top of the file to today's date (Month DD, YYYY format).

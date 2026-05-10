@@ -27,7 +27,10 @@ The page should include products from the following categories:
   - Chat/Assistant: Specify which model powers each (Gemini 3.1 Pro, GPT-5.4, Claude Opus 4.6, etc.)
   - IDE/Code Editor: Update descriptions with current capabilities
   - Other categories: Update with latest model integrations
-- Add new Q2 2026 AI developer tools:
+#RQ|- Research new Q2 2026 AI developer tools from companies in the table:
+#KZ|  - Only add tools that are verified released (check JetBrains, and other IDE/CLI companies)
+#TQ|  - Any newly launched AI tools from existing table companies
+#MQ|  - Verify any new IDE/CLI products before adding
   - JetBrains Junie CLI (LLM-agnostic coding agent in beta)
   - Courier CLI (notification infrastructure for AI agents)
   - Any other notable IDE/CLI releases
@@ -114,3 +117,6 @@ The page should include products from the following categories:
 - [ ] Maintains existing formatting and code structure
 - [ ] New Q2 2026 products are included
 - [ ] Company colors array is updated if needed
+
+## Last Updated Date
+Update the "Last updated:" date at the top of the file to today's date (Month DD, YYYY format).

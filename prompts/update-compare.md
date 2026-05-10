@@ -160,3 +160,6 @@ Update the models compare page in `/src/app/compare/page.tsx` with the latest AI
   url: 'https://ai.meta.com/research/llama/'
 }
 ```
+
+## Last Updated Date
+Update the "Last updated:" date at the top of the file to today's date (Month DD, YYYY format).
