@@ -47,9 +47,9 @@ MiniMax AI models [current month] 2026 site:minimaxi.com OR site:techcrunch.com
    - Skip partnerships, acquisitions, or non-product news unless they're major AI launches
 
 3. **Update Specifications**:
-   - Replace the `newsCards` array in `/src/app/page.tsx` with exactly 24 cards
-   - Maintain the exact same TypeScript interface and format
-   - Each card must have: id, title, summary, source, sourceUrl, imageUrl, category, publishedAt
+   - Edit `/src/data/newsCards.json` with the new cards array (24 items)
+   - Maintain the exact same JSON structure (id, title, summary, source, sourceUrl, imageUrl, category, publishedAt)
+   - The page.tsx imports from `../data/newsCards.json` automatically
    - Categories should be: 'model' for AI models, 'product' for AI products/features, 'tool' for AI tools
    - Use current month dates for all publishedAt fields (YYYY-MM-DD format)
    - Summaries should be 1-2 sentences describing the key announcement
@@ -77,7 +77,7 @@ MiniMax AI models [current month] 2026 site:minimaxi.com OR site:techcrunch.com
    - Find/verify working image URL
    - Assign correct category
    - Set current month date
-5. Replace the newsCards array in `/src/app/page.tsx`
+5. Replace the newsCards array in `/src/data/newsCards.json`
 6. Run build verification: `npm run build`
 
 ## Quality Checks Before Completion

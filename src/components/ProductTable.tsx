@@ -1,0 +1,338 @@
+'use client';
+
+import { ProductRow } from '@/types/index';
+
+interface ProductTableProps {
+  productData: ProductRow[];
+}
+
+const companyOrder = [
+  'NVIDIA',
+  'Microsoft',
+  'Google',
+  'Amazon',
+  'Meta',
+  'Oracle',
+  'ByteDance',
+  'Adobe',
+  'Tencent',
+  'Alibaba',
+  'OpenAI',
+  'Anthropic',
+  'xAI',
+  'DeepSeek',
+  'Mistral',
+  'Minimax',
+  'JetBrains',
+  'Perplexity',
+  'Cursor',
+  'Midjourney',
+  'Runway',
+  'Pika',
+  'HeyGen',
+  'Luma',
+  'StabilityAI',
+  'BlackForest',
+  'LangChain',
+  'AssemblyAI',
+  'Suno',
+  'Udio',
+  'ElevenLabs',
+  'PlayHT',
+  'WellSaid',
+  'Murf',
+  'Coqui',
+  'Temporal',
+  'Make',
+  'Courier',
+  'Zapier',
+  'HuggingFace',
+  'Replicate',
+  'Ollama',
+  'LMStudio',
+  'CrewAI',
+  'MultiOn',
+  'AutoGen',
+  'LangGraph',
+  'n8n',
+  'OpenClaw',
+  'deepset',
+  'FlowiseAI',
+  'Jan',
+  'LocalAI',
+  'vLLM',
+];
+
+function getCompanyBadgeStyle(company: string): React.CSSProperties {
+  const colors: Record<string, string> = {
+    NVIDIA:
+      'backgroundColor:rgba(118, 185, 0, 0.2);color:#76b900;borderColor:rgba(118, 185, 0, 0.3)',
+    Microsoft:
+      'backgroundColor:rgba(99, 102, 241, 0.2);color:#818cf8;borderColor:rgba(99, 102, 241, 0.3)',
+    Google:
+      'backgroundColor:rgba(59, 130, 246, 0.2);color:#60a5fa;borderColor:rgba(59, 130, 246, 0.3)',
+    Amazon:
+      'backgroundColor:rgba(249, 115, 22, 0.2);color:#fb923c;borderColor:rgba(249, 115, 22, 0.3)',
+    Meta: 'backgroundColor:rgba(168, 85, 247, 0.2);color:#c084fc;borderColor:rgba(168, 85, 247, 0.3)',
+    Oracle:
+      'backgroundColor:rgba(239, 68, 68, 0.2);color:#ef4444;borderColor:rgba(239, 68, 68, 0.3)',
+    ByteDance:
+      'backgroundColor:rgba(239, 68, 68, 0.2);color:#f87171;borderColor:rgba(239, 68, 68, 0.3)',
+    Adobe:
+      'backgroundColor:rgba(239, 68, 68, 0.2);color:#f87171;borderColor:rgba(239, 68, 68, 0.3)',
+    Tencent:
+      'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    Alibaba:
+      'backgroundColor:rgba(234, 179, 8, 0.2);color:#fbbf24;borderColor:rgba(234, 179, 8, 0.3)',
+    OpenAI:
+      'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    Anthropic:
+      'backgroundColor:rgba(249, 115, 22, 0.2);color:#fb923c;borderColor:rgba(249, 115, 22, 0.3)',
+    xAI: 'backgroundColor:rgba(255, 255, 255, 0.1);color:rgba(255, 255, 255, 0.7);borderColor:rgba(255, 255, 255, 0.15)',
+    DeepSeek:
+      'backgroundColor:rgba(239, 68, 68, 0.2);color:#f87171;borderColor:rgba(239, 68, 68, 0.3)',
+    Mistral:
+      'backgroundColor:rgba(6, 182, 212, 0.2);color:#22d3ee;borderColor:rgba(6, 182, 212, 0.3)',
+    Minimax:
+      'backgroundColor:rgba(99, 102, 241, 0.2);color:#818cf8;borderColor:rgba(99, 102, 241, 0.3)',
+    JetBrains:
+      'backgroundColor:rgba(99, 102, 241, 0.2);color:#818cf8;borderColor:rgba(99, 102, 241, 0.3)',
+    Perplexity:
+      'backgroundColor:rgba(234, 179, 8, 0.2);color:#fbbf24;borderColor:rgba(234, 179, 8, 0.3)',
+    Cursor:
+      'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    Midjourney:
+      'backgroundColor:rgba(255, 255, 255, 0.06);color:rgba(255, 255, 255, 0.7);borderColor:rgba(255, 255, 255, 0.1)',
+    Runway:
+      'backgroundColor:rgba(255, 255, 255, 0.06);color:rgba(255, 255, 255, 0.7);borderColor:rgba(255, 255, 255, 0.1)',
+    Pika: 'backgroundColor:rgba(236, 72, 153, 0.2);color:#f472b6;borderColor:rgba(236, 72, 153, 0.3)',
+    HeyGen:
+      'backgroundColor:rgba(139, 92, 246, 0.2);color:#a78bfa;borderColor:rgba(139, 92, 246, 0.3)',
+    Luma: 'backgroundColor:rgba(56, 189, 248, 0.2);color:#38bdf8;borderColor:rgba(56, 189, 248, 0.3)',
+    StabilityAI:
+      'backgroundColor:rgba(249, 115, 22, 0.2);color:#fb923c;borderColor:rgba(249, 115, 22, 0.3)',
+    BlackForest:
+      'backgroundColor:rgba(59, 130, 246, 0.2);color:#60a5fa;borderColor:rgba(59, 130, 246, 0.3)',
+    LangChain:
+      'backgroundColor:rgba(234, 179, 8, 0.2);color:#fbbf24;borderColor:rgba(234, 179, 8, 0.3)',
+    AssemblyAI:
+      'backgroundColor:rgba(99, 102, 241, 0.2);color:#818cf8;borderColor:rgba(99, 102, 241, 0.3)',
+    Suno: 'backgroundColor:rgba(236, 72, 153, 0.2);color:#f472b6;borderColor:rgba(236, 72, 153, 0.3)',
+    Udio: 'backgroundColor:rgba(244, 63, 94, 0.2);color:#fb7185;borderColor:rgba(244, 63, 94, 0.3)',
+    ElevenLabs:
+      'backgroundColor:rgba(168, 85, 247, 0.2);color:#c084fc;borderColor:rgba(168, 85, 247, 0.3)',
+    PlayHT:
+      'backgroundColor:rgba(59, 130, 246, 0.2);color:#60a5fa;borderColor:rgba(59, 130, 246, 0.3)',
+    WellSaid:
+      'backgroundColor:rgba(139, 92, 246, 0.2);color:#a78bfa;borderColor:rgba(139, 92, 246, 0.3)',
+    Murf: 'backgroundColor:rgba(236, 72, 153, 0.2);color:#f472b6;borderColor:rgba(236, 72, 153, 0.3)',
+    Coqui:
+      'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    Temporal:
+      'backgroundColor:rgba(139, 92, 246, 0.2);color:#a78bfa;borderColor:rgba(139, 92, 246, 0.3)',
+    Make: 'backgroundColor:rgba(249, 115, 22, 0.2);color:#fb923c;borderColor:rgba(249, 115, 22, 0.3)',
+    Courier:
+      'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    Zapier:
+      'backgroundColor:rgba(239, 68, 68, 0.2);color:#ef4444;borderColor:rgba(239, 68, 68, 0.3)',
+    HuggingFace:
+      'backgroundColor:rgba(234, 179, 8, 0.2);color:#fbbf24;borderColor:rgba(234, 179, 8, 0.3)',
+    Replicate:
+      'backgroundColor:rgba(255, 255, 255, 0.06);color:rgba(255, 255, 255, 0.7);borderColor:rgba(255, 255, 255, 0.1)',
+    Ollama:
+      'backgroundColor:rgba(255, 255, 255, 0.06);color:rgba(255, 255, 255, 0.7);borderColor:rgba(255, 255, 255, 0.1)',
+    LMStudio:
+      'backgroundColor:rgba(255, 255, 255, 0.06);color:rgba(255, 255, 255, 0.7);borderColor:rgba(255, 255, 255, 0.1)',
+    CrewAI:
+      'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    MultiOn:
+      'backgroundColor:rgba(59, 130, 246, 0.2);color:#60a5fa;borderColor:rgba(59, 130, 246, 0.3)',
+    AutoGen:
+      'backgroundColor:rgba(99, 102, 241, 0.2);color:#818cf8;borderColor:rgba(99, 102, 241, 0.3)',
+    LangGraph:
+      'backgroundColor:rgba(234, 179, 8, 0.2);color:#fbbf24;borderColor:rgba(234, 179, 8, 0.3)',
+    n8n: 'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    OpenClaw:
+      'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    deepset:
+      'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    FlowiseAI:
+      'backgroundColor:rgba(99, 102, 241, 0.2);color:#818cf8;borderColor:rgba(99, 102, 241, 0.3)',
+    Jan: 'backgroundColor:rgba(100, 116, 139, 0.2);color:#94a3b8;borderColor:rgba(100, 116, 139, 0.3)',
+    LocalAI:
+      'backgroundColor:rgba(249, 115, 22, 0.2);color:#fb923c;borderColor:rgba(249, 115, 22, 0.3)',
+    vLLM: 'backgroundColor:rgba(234, 179, 8, 0.2);color:#fbbf24;borderColor:rgba(234, 179, 8, 0.3)',
+  };
+
+  const style =
+    colors[company] ||
+    'backgroundColor:rgba(255, 255, 255, 0.06);color:rgba(255, 255, 255, 0.5);borderColor:rgba(255, 255, 255, 0.08)';
+
+  const result: Record<string, string> = {};
+  const parts = style.split(';').filter(Boolean);
+  for (const part of parts) {
+    const [key, value] = part.split(':').map((s) => s.trim());
+    if (key && value) {
+      const camelKey = key.replace(/-([a-z])/g, (_, letter) =>
+        letter.toUpperCase(),
+      );
+      result[camelKey] = value;
+    }
+  }
+  return result as React.CSSProperties;
+}
+
+export function ProductTable({ productData }: ProductTableProps) {
+  const activeCompanies = companyOrder.filter((company) =>
+    productData.some(
+      (row) =>
+        row.products[company] !== null && row.products[company] !== undefined,
+    ),
+  );
+
+  return (
+    <div
+      style={{
+        backgroundColor: '#333138',
+        borderRadius: '4px',
+        border: '1px solid rgba(255, 255, 255, 0.1)',
+        overflow: 'hidden',
+        boxShadow: '4px 4px 0px 0px rgba(0, 0, 0, 0.15)',
+      }}
+    >
+      <div className='overflow-x-auto custom-scrollbar'>
+        <table className='w-full text-left border-collapse'>
+          <thead>
+            <tr
+              style={{
+                backgroundColor: 'rgba(255, 255, 255, 0.02)',
+                borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
+              }}
+            >
+              <th
+                className='py-4 px-6 font-medium'
+                style={{
+                  color: 'rgba(255, 255, 255, 0.8)',
+                  fontSize: '13px',
+                }}
+              >
+                Category
+              </th>
+              {activeCompanies.map((company) => (
+                <th
+                  key={company}
+                  className='py-4 px-6 font-medium text-center'
+                  style={{
+                    color: 'rgba(255, 255, 255, 0.8)',
+                    fontSize: '13px',
+                  }}
+                >
+                  <span
+                    style={{
+                      display: 'inline-block',
+                      padding: '4px 10px',
+                      borderRadius: '2px',
+                      fontSize: '11px',
+                      fontWeight: 500,
+                      ...getCompanyBadgeStyle(company),
+                      borderWidth: '1px',
+                      borderStyle: 'solid',
+                    }}
+                  >
+                    {company}
+                  </span>
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody
+            className='divide-y'
+            style={{ borderColor: 'rgba(255, 255, 255, 0.06)' }}
+          >
+            {productData.map((row) => (
+              <tr
+                key={row.category}
+                className='hover:bg-white/5 transition-colors group'
+                style={{
+                  borderBottom: '1px solid rgba(255, 255, 255, 0.06)',
+                }}
+              >
+                <td
+                  className='py-2 px-6 font-medium'
+                  style={{ color: '#ffffff', fontSize: '12px' }}
+                >
+                  {row.category}
+                </td>
+                {activeCompanies.map((company) => {
+                  const product = row.products[company];
+                  if (!product) {
+                    return (
+                      <td
+                        key={company}
+                        className='py-2 px-6 text-center'
+                        style={{
+                          color: 'rgba(255, 255, 255, 0.2)',
+                          fontSize: '12px',
+                        }}
+                      >
+                        —
+                      </td>
+                    );
+                  }
+                  return (
+                    <td key={company} className='py-2 px-6 text-center'>
+                      {product.url ? (
+                        <a
+                          href={product.url}
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          style={{
+                            fontSize: '12px',
+                            color: '#00ffff',
+                            fontWeight: 500,
+                            textDecoration: 'none',
+                          }}
+                          onMouseEnter={(e) => {
+                            e.currentTarget.style.textDecoration =
+                              'underline';
+                          }}
+                          onMouseLeave={(e) => {
+                            e.currentTarget.style.textDecoration = 'none';
+                          }}
+                        >
+                          {product.name}
+                        </a>
+                      ) : (
+                        <span
+                          style={{
+                            fontSize: '12px',
+                            color: '#ffffff',
+                            fontWeight: 500,
+                          }}
+                        >
+                          {product.name}
+                        </span>
+                      )}
+                      {product.description && (
+                        <p
+                          style={{
+                            fontSize: '10px',
+                            color: 'rgba(255, 255, 255, 0.4)',
+                            marginTop: '2px',
+                            lineHeight: '1.4',
+                          }}
+                        >
+                          {product.description}
+                        </p>
+                      )}
+                    </td>
+                  );
+                })}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
