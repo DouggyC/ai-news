@@ -33,7 +33,7 @@ const providerColors: Record<string, string> = {
   Moonshot: '#c084fc',
 };
 
-const chartData: Array<Record<string, string | number>> = [
+const chartData: Array<Record<string, string | number | null>> = [
   { benchmark: 'MMLU' },
   { benchmark: 'MMLU+' },
   { benchmark: 'HumanEval' },
@@ -42,11 +42,11 @@ const chartData: Array<Record<string, string | number>> = [
 ];
 
 benchmarkModels.forEach((model) => {
-  chartData[0][model.name] = model.mmlu;
-  chartData[1][model.name] = model.mmluPlus;
-  chartData[2][model.name] = model.humaneval;
-  chartData[3][model.name] = model.livebench;
-  chartData[4][model.name] = model.gpqa;
+  chartData[0][model.name] = model.mmlu ?? null;
+  chartData[1][model.name] = model.mmluPlus ?? null;
+  chartData[2][model.name] = model.humaneval ?? null;
+  chartData[3][model.name] = model.livebench ?? null;
+  chartData[4][model.name] = model.gpqa ?? null;
 });
 
 interface CustomLegendProps {
@@ -314,7 +314,7 @@ export default function BenchmarksPage() {
             paddingRight: '24px',
           }}
         >
-          Last updated: May 11, 2026
+          Last updated: May 12, 2026
         </div>
 
         {/* Comparison Table Section */}
@@ -516,7 +516,7 @@ export default function BenchmarksPage() {
                           fontSize: '14px',
                         }}
                       >
-                        {model.mmlu.toFixed(1)}%
+                        {model.mmlu !== null ? `${model.mmlu.toFixed(1)}%` : 'N/A'}
                       </td>
                       <td
                         className='py-4 px-6 text-right font-medium'
@@ -525,7 +525,7 @@ export default function BenchmarksPage() {
                           fontSize: '14px',
                         }}
                       >
-                        {model.mmluPlus.toFixed(1)}%
+                        {model.mmluPlus !== null ? `${model.mmluPlus.toFixed(1)}%` : 'N/A'}
                       </td>
                       <td
                         className='py-4 px-6 text-right font-medium'
@@ -534,7 +534,7 @@ export default function BenchmarksPage() {
                           fontSize: '14px',
                         }}
                       >
-                        {model.humaneval.toFixed(1)}%
+                        {model.humaneval !== null ? `${model.humaneval.toFixed(1)}%` : 'N/A'}
                       </td>
                       <td
                         className='py-4 px-6 text-right font-medium'
@@ -543,7 +543,7 @@ export default function BenchmarksPage() {
                           fontSize: '14px',
                         }}
                       >
-                        {model.livebench.toFixed(1)}%
+                        {model.livebench !== null ? `${model.livebench.toFixed(1)}%` : 'N/A'}
                       </td>
                       <td
                         className='py-4 px-6 text-right font-medium'
@@ -552,7 +552,7 @@ export default function BenchmarksPage() {
                           fontSize: '14px',
                         }}
                       >
-                        {model.gpqa.toFixed(1)}%
+                        {model.gpqa !== null ? `${model.gpqa.toFixed(1)}%` : 'N/A'}
                       </td>
                     </tr>
                   ))}

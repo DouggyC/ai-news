@@ -211,7 +211,7 @@ export default function BenchmarkTable({
                     fontSize: '14px',
                   }}
                 >
-                  {model.mmlu.toFixed(1)}%
+                  {model.mmlu !== null ? `${model.mmlu.toFixed(1)}%` : 'N/A'}
                 </td>
                 <td
                   className='py-4 px-6 text-right font-medium'
@@ -220,7 +220,7 @@ export default function BenchmarkTable({
                     fontSize: '14px',
                   }}
                 >
-                  {model.mmluPlus.toFixed(1)}%
+                  {model.mmluPlus !== null ? `${model.mmluPlus.toFixed(1)}%` : 'N/A'}
                 </td>
                 <td
                   className='py-4 px-6 text-right font-medium'
@@ -229,7 +229,7 @@ export default function BenchmarkTable({
                     fontSize: '14px',
                   }}
                 >
-                  {model.humaneval.toFixed(1)}%
+                  {model.humaneval !== null ? `${model.humaneval.toFixed(1)}%` : 'N/A'}
                 </td>
                 <td
                   className='py-4 px-6 text-right font-medium'
@@ -238,7 +238,7 @@ export default function BenchmarkTable({
                     fontSize: '14px',
                   }}
                 >
-                  {model.livebench.toFixed(1)}%
+                  {model.livebench !== null ? `${model.livebench.toFixed(1)}%` : 'N/A'}
                 </td>
                 <td
                   className='py-4 px-6 text-right font-medium'
@@ -247,7 +247,7 @@ export default function BenchmarkTable({
                     fontSize: '14px',
                   }}
                 >
-                  {model.gpqa.toFixed(1)}%
+                  {model.gpqa !== null ? `${model.gpqa.toFixed(1)}%` : 'N/A'}
                 </td>
               </tr>
             ))}

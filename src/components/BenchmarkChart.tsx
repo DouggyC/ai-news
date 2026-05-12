@@ -101,13 +101,12 @@ export default function BenchmarkChart({
   ];
 
   benchmarkModels.forEach((model) => {
-    chartData[0][model.name] = model.mmlu;
-    chartData[1][model.name] = model.mmluPlus;
-    chartData[2][model.name] = model.humaneval;
-    chartData[3][model.name] = model.livebench;
-    chartData[4][model.name] = model.gpqa;
+    chartData[0][model.name] = model.mmlu ?? 'N/A';
+    chartData[1][model.name] = model.mmluPlus ?? 'N/A';
+    chartData[2][model.name] = model.humaneval ?? 'N/A';
+    chartData[3][model.name] = model.livebench ?? 'N/A';
+    chartData[4][model.name] = model.gpqa ?? 'N/A';
   });
-
   return (
     <div
       style={{

@@ -17,11 +17,11 @@ export const BenchmarkModelSchema: z.ZodType<BenchmarkModel> = z.object({
   name: z.string(),
   provider: z.string(),
   openSource: z.boolean(),
-  mmlu: z.number(),
-  humaneval: z.number(),
-  livebench: z.number(),
-  mmluPlus: z.number(),
-  gpqa: z.number(),
+  mmlu: z.number().nullable(),
+  humaneval: z.number().nullable(),
+  livebench: z.number().nullable(),
+  mmluPlus: z.number().nullable(),
+  gpqa: z.number().nullable(),
 });
 
 export const ProductSchema: z.ZodType<Product> = z.object({

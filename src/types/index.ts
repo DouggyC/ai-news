@@ -16,11 +16,11 @@ export interface BenchmarkModel {
   name: string;
   provider: string;
   openSource: boolean;
-  mmlu: number;
-  humaneval: number;
-  livebench: number;
-  mmluPlus: number;
-  gpqa: number;
+  mmlu: number | null;
+  humaneval: number | null;
+  livebench: number | null;
+  mmluPlus: number | null;
+  gpqa: number | null;
 }
 
 export interface Product {
