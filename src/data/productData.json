@@ -53,7 +53,8 @@
       "Amazon": { "name": "Amazon Q Developer", "url": "https://aws.amazon.com/q/developer/", "description": "AWS coding assistant across IDEs, PR review, and modernization tasks. Built on Nova models. CLI and chat interfaces." },
       "JetBrains": { "name": "JetBrains Junie", "url": "https://junie.jetbrains.com", "description": "LLM-agnostic coding agent with BYOK support, MCP integration, works in terminal + IDE + CI/CD. Q2 2026 beta. IDE-first workflow. ACP Agent Registry for third-party agents." },
       "Cursor": { "name": "Cursor", "url": "https://www.cursor.com", "description": "AI-native editor (v3, April 2, 2026) with Agents Window, cloud-to-local handoff, Design Mode, Composer 2 ($0.50/$2.50 per 1M tokens). Pro $20/mo, Pro+ $60/mo, Ultra $200/mo. Teams integration (May 11, 2026)." },
-      "Windsurf": { "name": "Windsurf Editor", "url": "https://windsurf.com", "description": "Cascade-powered IDE owned by Cognition AI (Devin team). SWE-1.5 at 950 tok/s on Cerebras. Wave 13 brings free SWE-1.5, parallel agents. Pro $20/mo." }
+      "Windsurf": { "name": "Windsurf Editor", "url": "https://windsurf.com", "description": "Cascade-powered IDE owned by Cognition AI (Devin team). SWE-1.5 at 950 tok/s on Cerebras. Wave 13 brings free SWE-1.5, parallel agents. Pro $20/mo." },
+      "Amazon": { "name": "Kiro", "url": "https://kiro.dev", "description": "AI IDE with spec-driven development. Structured AI coding that turns specifications into implementations. Autonomous agent mode for background task completion." }
     }
   },
   {
@@ -80,7 +81,8 @@
       "OpenAI": { "name": "OpenAI Platform", "url": "https://developers.openai.com/api/docs", "description": "Responses API with GPT-5.5, GPT Image 1.5, Realtime 1.5 (gpt-realtime-2, gpt-realtime-translate, gpt-realtime-whisper May 7). Agent tooling. Batch and Flex pricing at half standard rate." },
       "Anthropic": { "name": "Claude API", "url": "https://docs.anthropic.com", "description": "Claude 4.7 models, tools, computer use, long-context developer platform. Claude Platform on AWS now GA (May 11). Managed Agents, Advisor strategy, Memory. Financial services agent templates." },
       "Microsoft": { "name": "Azure AI Foundry", "url": "https://ai.azure.com", "description": "Unified model, agent, eval, and deployment platform on Azure. Multi-model hub, inference profiles, global cross-region deployment." },
-      "Amazon": { "name": "Amazon Bedrock", "url": "https://aws.amazon.com/bedrock/", "description": "Managed foundation model platform with Claude Mythos Preview (gated), AgentCore, and guardrails. Data processed within AWS boundary. OpenAI models and Codex now available (April 28, 2026)." },
+      "Amazon": { "name": "Bedrock AgentCore", "url": "https://aws.amazon.com/bedrock/agentcore/", "description": "Agentic platform to build, deploy, and operate highly capable agents securely at scale. Separate from Bedrock Agents - supports complex multi-step workflows with enterprise governance." },
+      "Amazon": { "name": "Amazon Quick Suite", "url": "https://aws.amazon.com/quick/", "description": "AI agent teammates for research, business insights, and automation. Answer questions and turn answers into actions across enterprise workflows." },
       "Meta": { "name": "Llama API", "url": "https://www.llama.com/", "description": "Official API access path for Meta's Llama model ecosystem. Muse Spark API in private preview." },
       "xAI": { "name": "xAI API", "url": "https://docs.x.ai", "description": "Developer access to Grok 4.3, multimodal reasoning, Custom Voices TTS ($4.20/1M chars), Voice Agent API ($3/hr). grok-imagine-image-quality for image generation." },
       "DeepSeek": { "name": "DeepSeek API", "url": "https://api-docs.deepseek.com/", "description": "Low-cost API access to DeepSeek V4 (Pro: $1.74/$3.48, Flash: $0.14/$0.28 per 1M tokens). 1M context, reasoning modes, multimodal image recognition. OpenAI and Anthropic compatible formats." },
@@ -114,7 +116,8 @@
       "Cursor": { "name": "Background Agent", "url": "https://www.cursor.com", "description": "Async dev workflows for longer tasks inside the Cursor coding environment. Agents Window for parallel execution. Development environments for cloud agents (May 13, 2026)." },
       "HuggingFace": { "name": "Gradio", "url": "https://www.gradio.app", "description": "UI toolkit for demos, eval apps, and internal AI developer tools. Diffusers 0.38.0 with new pipelines." },
       "LangChain": { "name": "LangSmith", "url": "https://www.langchain.com/langsmith", "description": "Tracing, evaluation, prompt management, and observability for agent stacks. LangGraph Platform for enterprise." },
-      "Kilo": { "name": "Kilo Code", "url": "https://www.kilo.ai", "description": "Cloud coding agent with Mistral Medium 3.5, VS Code extension, CLI. Remote async sessions that open PRs on GitHub." }
+      "Kilo": { "name": "Kilo Code", "url": "https://www.kilo.ai", "description": "Cloud coding agent with Mistral Medium 3.5, VS Code extension, CLI. Remote async sessions that open PRs on GitHub." },
+      "Meta": { "name": "AI Studio", "url": "https://ai.meta.com/ai-studio/", "description": "Platform to create custom AI characters for entertainment, productivity, and support. Build conversational AIs with personality, knowledge, tone, and image generation. Share via Messenger, Instagram, WhatsApp." }
     }
   },
   {
@@ -134,7 +137,12 @@
       "Temporal": { "name": "Temporal", "url": "https://temporal.io", "description": "Durable execution layer frequently used beneath production AI automations. Powers Mistral Workflows." },
       "Mistral": { "name": "Mistral Workflows", "url": "https://mistral.ai/news/workflows", "description": "Enterprise orchestration engine (public preview April 28, 2026) built on Temporal. Python SDK v3.0, HITL, audit logging. Used by ASML, ABANCA, CMA-CGM." },
       "Adobe": { "name": "Firefly AI Assistant", "url": "https://www.adobe.com/products/firefly/features/ai-assistant.html", "description": "Cross-app creative agent (beta) that orchestrates Photoshop, Illustrator, Premiere for multi-step workflows. Describe desired outcome and AI selects tools, executes edits, and delivers production-ready assets." },
-      "Adobe": { "name": "Firefly Creative Production", "url": "https://business.adobe.com/products/firefly-business/firefly-creative-production.html", "description": "Enterprise workflow automation for creative production. Drag-and-drop canvas for AI-powered generation, editing, and layout. Governed brand compliance, bulk content variants, campaign automation." }
+      "Adobe": { "name": "Firefly Creative Production", "url": "https://business.adobe.com/products/firefly-business/firefly-creative-production.html", "description": "Enterprise workflow automation for creative production. Drag-and-drop canvas for AI-powered generation, editing, and layout. Governed brand compliance, bulk content variants, campaign automation." },
+      "Amazon": { "name": "AWS Security Agent", "url": "https://aws.amazon.com/security-agent/", "description": "Frontier security agent that embeds deep security expertise from design to deployment. Build applications that are secure from the start." },
+      "Amazon": { "name": "AWS DevOps Agent", "url": "https://aws.amazon.com/devops-agent/", "description": "Frontier agent that resolves and proactively prevents incidents. Continuously improves reliability and performance of DevOps workflows." },
+      "Amazon": { "name": "Kiro Autonomous Agent", "url": "https://kiro.dev/autonomous-agent/", "description": "Frontier agent for software development that extends workflow by taking on tasks asynchronously in the background. Spec-driven development." },
+      "Tencent": { "name": "QClaw", "url": "https://qclaw.tencent.com/", "description": "Consumer AI agent for WeChat/QQ. One-click local installation, long-term memory, skill library with 40M free tokens/day. Desktop file upload and transfer via WeChat mini-program." },
+      "Tencent": { "name": "WorkBuddy", "url": "https://workbench.tencent.com/workbuddy/", "description": "Enterprise AI agent platform on Tencent Cloud. 20+ built-in skill packs, MCP support, parallel multi-window workflows. WeChat integration for enterprise teams." }
     }
   },
   {
