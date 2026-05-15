@@ -7,7 +7,8 @@
       "OpenAI": { "name": "GPT-5.5", "url": "https://openai.com/index/introducing-gpt-5-5/", "description": "Frontier reasoning model (April 23, 2026). GPT-5.5 Instant is now the default ChatGPT model (May 5, 2026). Powers Codex, Deep Research, voice, image, and agent tools. GPT-5.5-Cyber available for trusted cyber defenders." },
       "Anthropic": { "name": "Claude Opus 4.7", "url": "https://www.anthropic.com/news/claude-opus-4-7", "description": "Anthropic's flagship hybrid reasoning model (April 16, 2026) for coding and agent workflows. Sonnet 4.6 also available. Available via API, Amazon Bedrock, and Claude Platform on AWS (May 11, 2026)." },
       "xAI": { "name": "Grok 4.3", "url": "https://docs.x.ai/overview", "description": "xAI frontier model family (released April 17, 2026, API May 6) with 1M context, video input, document output. Five models retired May 15, 2026. API: $1.25/$2.50 per 1M tokens. Custom Voices TTS ($4.20/1M chars)." },
-      "ByteDance": { "name": "Doubao 2.0", "url": "https://www.doubao.com", "description": "ByteDance multimodal model family behind Doubao experiences. Seed 2.0 powers Doubao App and TRAE. 345M MAU as of March 2026." }
+      "ByteDance": { "name": "Doubao 2.0", "url": "https://www.doubao.com", "description": "ByteDance multimodal model family behind Doubao experiences. Seed 2.0 powers Doubao App and TRAE. 345M MAU as of March 2026." },
+      "Oracle": { "name": "OCI Generative AI", "url": "https://www.oracle.com/artificial-intelligence/generative-ai/", "description": "Oracle's fully managed generative AI service for enterprise applications with REST APIs and SDKs. Summarization, writing assistance, and chat built into Oracle Cloud." }
     }
   },
   {
@@ -18,7 +19,8 @@
       "Mistral": { "name": "Medium 3.5", "url": "https://mistral.ai/news/mistral-medium-3-5", "description": "Mistral's unified 128B dense model (April 29, 2026) replaces Medium 3.1, Magistral, and Devstral 2. 256K context, 77.6% SWE-Bench Verified, open weights under Modified MIT." },
       "Alibaba": { "name": "Qwen3.6-Plus", "url": "https://www.alibabacloud.com/blog/qwen3-6-plus-towards-real-world-agents_603005", "description": "Alibaba's latest flagship model (April 2026) with 1M context, agentic coding focus, multimodal reasoning. Powers Wukong enterprise platform and Qwen App with full Taobao integration." },
       "Microsoft": { "name": "Phi-4", "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure", "description": "Small open-weight model line optimized for efficient reasoning workloads. Available via Azure Foundry with fine-tuning and deployment support." },
-      "Google": { "name": "Gemma 4", "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/", "description": "Google's open model family (April 2, 2026) for lightweight multimodal deployment. Gemma 4 Assistant enables speculative decoding for Gemma 4 models. Apache 2.0 license." }
+      "Google": { "name": "Gemma 4", "url": "https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/", "description": "Google's open model family (April 2, 2026) for lightweight multimodal deployment. Gemma 4 Assistant enables speculative decoding for Gemma 4 models. Apache 2.0 license." },
+      "MiniMax": { "name": "MiniMax M2.7", "url": "https://www.minimax.io/models/text/m27", "description": "MiniMax's latest flagship model (May 15, 2026) with 236B parameters, 200K context, multimodal reasoning, function calling, and open-source weights under Modified-MIT. Powers Hailuo video, Speech 2.5 TTS, and agent workflows." }
     }
   },
   {
@@ -37,7 +39,8 @@
       "Tencent": { "name": "Yuanbao", "url": "https://yuanbao.tencent.com/", "description": "Powered by Hunyuan 3.0 Preview (Hy3, April 23, 2026) - 295B total params, 21B active, 256K context. Fast-and-slow thinking fused MoE. Also deploys DeepSeek." },
       "Alibaba": { "name": "Qwen Chat", "url": "https://chat.qwen.ai/", "description": "Powered by Qwen3.6-Plus with multilingual chat, agentic coding, and advanced reasoning. Full Taobao integration (4B+ products) for agentic shopping. Shopping assistant with AI try-on." },
       "HuggingFace": { "name": "HuggingChat", "url": "https://huggingface.co/chat", "description": "Multi-model open chat surface for Llama, Qwen, Mistral, and more. Inference API 3.0 with edge deployment, 10x latency improvements, offline inference." },
-      "Perplexity": { "name": "Perplexity", "url": "https://docs.perplexity.ai/docs/getting-started/overview", "description": "Answer engine with GPT-5.5 orchestration. Personal Computer for Mac (May 11). Computer Agent with Workflows, Teams integration, Snowflake/Databricks connectors." }
+      "Perplexity": { "name": "Perplexity", "url": "https://docs.perplexity.ai/docs/getting-started/overview", "description": "Answer engine with GPT-5.5 orchestration. Personal Computer for Mac (May 11). Computer Agent with Workflows, Teams integration, Snowflake/Databricks connectors." },
+      "MiniMax": { "name": "MiniMax Agent", "url": "https://agent.minimax.io", "description": "MiniMax's AI assistant (May 2026) with Agent Team building, habit learning, and all-in-one chat with skills, memories, and schedules. Desktop app available." }
     }
   },
   {
@@ -83,8 +86,10 @@
       "DeepSeek": { "name": "DeepSeek API", "url": "https://api-docs.deepseek.com/", "description": "Low-cost API access to DeepSeek V4 (Pro: $1.74/$3.48, Flash: $0.14/$0.28 per 1M tokens). 1M context, reasoning modes, multimodal image recognition. OpenAI and Anthropic compatible formats." },
       "Mistral": { "name": "La Plateforme", "url": "https://docs.mistral.ai", "description": "Mistral developer platform for chat, OCR, embeddings, agents, and code. Medium 3.5: $1.50/$7.50 per 1M tokens." },
       "NVIDIA": { "name": "NVIDIA Build", "url": "https://build.nvidia.com", "description": "NIM-backed API catalog and deployment platform for enterprise AI services. NIM 2.0 with custom model support. Nemotron, Cosmos, Isaac models available." },
+      "Cloudflare": { "name": "Workers AI", "url": "https://workers.cloudflare.com/product/workers-ai/", "description": "Serverless GPU inference on Cloudflare's global network. 100+ open-source models (Llama, Mistral, Gemma, Stable Diffusion, Whisper). 200+ cities, pay-per-use pricing, LoRA fine-tuning support." },
       "Alibaba": { "name": "Model Studio", "url": "https://www.alibabacloud.com/en/product/model-studio", "description": "Alibaba Cloud developer platform for Qwen models and agent apps. Qwen3.6-Plus available via API." },
-      "HuggingFace": { "name": "Inference API", "url": "https://huggingface.co/inference-api", "description": "Hosted API layer for open models, endpoints, and serverless inference. Inference API 3.0 with edge deployment (10x latency), Inference Pro with auto-scaling." }
+      "HuggingFace": { "name": "Inference API", "url": "https://huggingface.co/inference-api", "description": "Hosted API layer for open models, endpoints, and serverless inference. Inference API 3.0 with edge deployment (10x latency), Inference Pro with auto-scaling." },
+      "MiniMax": { "name": "MiniMax Platform", "url": "https://platform.minimax.io", "description": "MiniMax API platform for text (M2.7, M2.5), speech (Speech 2.8), video (Hailuo), and music (Music 2.6) models. Token plans and pricing available." }
     }
   },
   {
@@ -127,7 +132,9 @@
       "Make": { "name": "Make", "url": "https://developers.make.com/custom-apps-documentation", "description": "Visual automation platform for tool calling, triggers, and AI workflows." },
       "LangGraph": { "name": "LangGraph", "url": "https://langchain-ai.github.io/langgraph/", "description": "Stateful orchestration runtime for durable agent workflows and handoffs. LangGraph Platform for enterprise." },
       "Temporal": { "name": "Temporal", "url": "https://temporal.io", "description": "Durable execution layer frequently used beneath production AI automations. Powers Mistral Workflows." },
-      "Mistral": { "name": "Mistral Workflows", "url": "https://mistral.ai/news/workflows", "description": "Enterprise orchestration engine (public preview April 28, 2026) built on Temporal. Python SDK v3.0, HITL, audit logging. Used by ASML, ABANCA, CMA-CGM." }
+      "Mistral": { "name": "Mistral Workflows", "url": "https://mistral.ai/news/workflows", "description": "Enterprise orchestration engine (public preview April 28, 2026) built on Temporal. Python SDK v3.0, HITL, audit logging. Used by ASML, ABANCA, CMA-CGM." },
+      "Adobe": { "name": "Firefly AI Assistant", "url": "https://www.adobe.com/products/firefly/features/ai-assistant.html", "description": "Cross-app creative agent (beta) that orchestrates Photoshop, Illustrator, Premiere for multi-step workflows. Describe desired outcome and AI selects tools, executes edits, and delivers production-ready assets." },
+      "Adobe": { "name": "Firefly Creative Production", "url": "https://business.adobe.com/products/firefly-business/firefly-creative-production.html", "description": "Enterprise workflow automation for creative production. Drag-and-drop canvas for AI-powered generation, editing, and layout. Governed brand compliance, bulk content variants, campaign automation." }
     }
   },
   {
@@ -150,7 +157,7 @@
       "Google": { "name": "Veo 3", "url": "https://deepmind.google/models/veo/", "description": "Google's flagship video generation model for cinematic and prompt-driven clips. Gemini Omni (video) in testing." },
       "OpenAI": { "name": "Sora", "url": "https://developers.openai.com/api/docs/guides/video-generation", "description": "OpenAI video generation stack with API access available." },
       "Runway": { "name": "Runway", "url": "https://runwayml.com", "description": "Gen-4 video generation and editing suite for creators and teams." },
-      "Minimax": { "name": "Hailuo", "url": "https://www.minimax.io", "description": "MiniMax video generation platform for short-form cinematic clips." },
+      "MiniMax": { "name": "Hailuo Video", "url": "https://hailuoai.video", "description": "MiniMax's video generation platform (Hailuo 2.3, Hailuo 02) for short-form cinematic clips. Ranked 2nd globally on Artificial Analysis Video Arena with native 1080p generation." },
       "HeyGen": { "name": "HeyGen", "url": "https://www.heygen.com", "description": "Avatar-first video generation with enterprise localization and dubbing flows." },
       "Pika": { "name": "Pika", "url": "https://pika.art", "description": "Consumer-friendly video generation and edit effects for short-form content." },
       "ByteDance": { "name": "Seedance 2.0", "url": "https://seed.bytedance.com/en/seedance2_0", "description": "ByteDance multimodal video generation with audio-video joint architecture. Up to 20-second clips via CapCut and Dreamina." },
@@ -169,7 +176,8 @@
       "Murf": { "name": "Murf AI", "url": "https://murf.ai", "description": "Studio-style voice generation for narration, explainers, and enterprise media." },
       "WellSaid": { "name": "WellSaid Labs", "url": "https://wellsaidlabs.com", "description": "Enterprise voice generation for training, marketing, and product narration." },
       "xAI": { "name": "Grok Voice API", "url": "https://docs.x.ai", "description": "xAI TTS and voice cloning API with Custom Voices (May 2026). grok-voice-think-fast-1.0 for voice agents. $4.20 per 1M characters, Voice Agent $3/hr." },
-      "Mistral": { "name": "Voxtral TTS", "url": "https://docs.mistral.ai/products", "description": "Mistral's state-of-the-art TTS with zero-shot voice cloning, multilingual support (9 languages), real-time streaming." }
+      "Mistral": { "name": "Voxtral TTS", "url": "https://docs.mistral.ai/products", "description": "Mistral's state-of-the-art TTS with zero-shot voice cloning, multilingual support (9 languages), real-time streaming." },
+      "MiniMax": { "name": "MiniMax Audio", "url": "https://www.minimax.io/audio", "description": "MiniMax's TTS platform (Speech 2.8, 2.6, 2.5) with realistic voice cloning across 40+ languages, enhanced multilingual performance, and natural rhythm." }
     }
   },
   {
@@ -181,7 +189,8 @@
       "StabilityAI": { "name": "Stable Audio", "url": "https://stability.ai/stable-audio", "description": "Music and sound generation model family from Stability AI." },
       "Suno": { "name": "Suno", "url": "https://suno.com", "description": "Consumer music generation platform for lyrics-to-song creation." },
       "Udio": { "name": "Udio", "url": "https://udio.com", "description": "AI music generation focused on high-quality songs and remix workflows." },
-      "ByteDance": { "name": "Seedance Audio", "url": "https://seed.bytedance.com", "description": "ByteDance audio generation capabilities part of Seedance 2.0 multimodal architecture." }
+      "ByteDance": { "name": "Seedance Audio", "url": "https://seed.bytedance.com", "description": "ByteDance audio generation capabilities part of Seedance 2.0 multimodal architecture." },
+      "MiniMax": { "name": "MiniMax Music", "url": "https://www.minimax.io/news/music-26", "description": "MiniMax's music generation platform (Music 2.6, 2.5+, 2.5) with Cover feature for remixing songs with deeper bass and richer instrumentation. Genre support: Pop, Hyperpop, Dance, Electronic, Trap, EDM." }
     }
   },
   {
@@ -205,7 +214,9 @@
       "Amazon": { "name": "Amazon Q Business", "url": "https://aws.amazon.com/q/business/", "description": "Enterprise assistant for internal knowledge, apps, and business automation." },
       "NVIDIA": { "name": "NVIDIA AI Enterprise", "url": "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/", "description": "Enterprise software stack for building and running AI in production. NIM microservices, TFO, inference. Fleet Intelligence for GPU fleet monitoring (May 2026)." },
       "Oracle": { "name": "OCI AI", "url": "https://www.oracle.com/artificial-intelligence/", "description": "Oracle enterprise AI services across apps, infrastructure, and databases." },
-      "HuggingFace": { "name": "Enterprise Hub", "url": "https://huggingface.co/enterprise", "description": "Private model hub, governance, and deployment controls for enterprise teams." }
+      "HuggingFace": { "name": "Enterprise Hub", "url": "https://huggingface.co/enterprise", "description": "Private model hub, governance, and deployment controls for enterprise teams." },
+      "Adobe": { "name": "Firefly Foundry", "url": "https://business.adobe.com/products/firefly-business/firefly-foundry.html", "description": "Deep-tuned proprietary AI models trained on brand assets. NVIDIA partnership for enterprise-grade custom models across image, video, audio, vector, 3D. IP-protected, commercially safe." },
+      "Adobe": { "name": "CX Enterprise Coworker", "url": "https://business.adobe.com/ai/agentic-ai.html", "description": "Agentic AI for customer experience. Plans, orchestrates, and improves CX processes grounded in enterprise data, workflows, and brand controls. Full auditability and compliance." }
     }
   },
   {

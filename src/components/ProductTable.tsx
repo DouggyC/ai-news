@@ -22,7 +22,7 @@ const companyOrder = [
   'xAI',
   'DeepSeek',
   'Mistral',
-  'Minimax',
+  'MiniMax',
   'JetBrains',
   'Perplexity',
   'Cursor',
