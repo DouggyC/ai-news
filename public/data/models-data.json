@@ -780,5 +780,29 @@
     "functionCalling": true,
     "json": true,
     "search": false
+  },
+  {
+    "id": "samsung-gauss-2",
+    "name": "Samsung Gauss 2",
+    "provider": "Samsung",
+    "openSource": false,
+    "license": "Proprietary",
+    "releaseDate": "2026-05-12",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 128000,
+    "inputPrice": 0.0,
+    "outputPrice": 0.0,
+    "free": true,
+    "mmlu": 78.0,
+    "mmluPlus": 74.0,
+    "humaneval": 70.0,
+    "liveBench": 60.0,
+    "multimodal": true,
+    "vision": true,
+    "functionCalling": true,
+    "json": true,
+    "search": false
   }
+]
 ]
