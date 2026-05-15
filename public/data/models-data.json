@@ -322,29 +322,6 @@
     "search": true
   },
   {
-    "id": "minimax-m2.7",
-    "name": "MiniMax M2.7",
-    "provider": "MiniMax",
-    "openSource": true,
-    "license": "Modified-MIT",
-    "releaseDate": "2026-05-15",
-    "parameters": 236000000000,
-    "modelSizeGB": 0,
-    "contextLength": 200000,
-    "inputPrice": 0.18,
-    "outputPrice": 1.45,
-    "free": false,
-    "mmlu": 86.5,
-    "mmluPlus": 82.1,
-    "humaneval": 78.0,
-    "liveBench": 80.5,
-    "multimodal": true,
-    "vision": false,
-    "functionCalling": true,
-    "json": true,
-    "search": true
-  },
-  {
     "id": "minimax-m2.5",
     "name": "MiniMax M2.5",
     "provider": "MiniMax",
@@ -365,6 +342,7 @@
     "vision": false,
     "functionCalling": true,
     "json": true,
+    "search": true
   },
   {
     "id": "gpt-5.5-instant",
@@ -802,7 +780,5 @@
     "functionCalling": true,
     "json": true,
     "search": false
-  }
-QX]
   }
 ]
