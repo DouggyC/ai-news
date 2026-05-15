@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import newsCardsData from '@/data/newsCards.json';
 import { NewsCard } from '@/types/index';
 import { validateData, NewsCardSchema } from '@/schemas/index';
@@ -86,8 +87,12 @@ function getCompanyColor(company: string): string {
 }
 
 export default function AINewsPage() {
+  const [selectedCompany, setSelectedCompany] = useState<string | null>(null);
+  const companies = ['OpenAI', 'Anthropic', 'Google', 'Meta', 'xAI', 'NVIDIA', 'DeepSeek', 'Minimax', 'Mistral', 'ByteDance', 'Alibaba', 'Apple'];
+
   const filteredCards = newsCards
     .filter((card) => top15Companies.includes(card.source))
+    .filter((card) => !selectedCompany || card.source === selectedCompany)
     .sort(
       (a, b) =>
         new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
@@ -113,6 +118,34 @@ export default function AINewsPage() {
             Latest AI news from the top 15 foundation model companies • Ordered
             by latest
           </p>
+        </div>
+
+        <div className='flex flex-wrap gap-2 mb-8'>
+          <button
+            onClick={() => setSelectedCompany(null)}
+            className='px-3 py-1.5 rounded text-sm font-medium transition-all'
+            style={{
+              background: selectedCompany === null ? 'rgba(0, 255, 255, 0.15)' : 'rgba(255, 255, 255, 0.06)',
+              color: selectedCompany === null ? '#00ffff' : 'rgba(255, 255, 255, 0.5)',
+              border: selectedCompany === null ? '1px solid rgba(0, 255, 255, 0.4)' : '1px solid rgba(255, 255, 255, 0.1)',
+            }}
+          >
+            All
+          </button>
+          {companies.map((company) => (
+            <button
+              key={company}
+              onClick={() => setSelectedCompany(selectedCompany === company ? null : company)}
+              className='px-3 py-1.5 rounded text-sm font-medium transition-all'
+              style={{
+                background: selectedCompany === company ? 'rgba(0, 255, 255, 0.15)' : 'rgba(255, 255, 255, 0.06)',
+                color: selectedCompany === company ? '#00ffff' : 'rgba(255, 255, 255, 0.5)',
+                border: selectedCompany === company ? '1px solid rgba(0, 255, 255, 0.4)' : '1px solid rgba(255, 255, 255, 0.1)',
+              }}
+            >
+              {company}
+            </button>
+          ))}
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'>

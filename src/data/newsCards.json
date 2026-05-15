@@ -141,36 +141,46 @@
   },
   {
     "id": "15",
+    "title": "MiniMax M2.7 launches as latest flagship with 236B parameters and improved benchmarks",
+    "summary": "MiniMax M2.7 launches (May 15, 2026) with 236B parameters, 200K context, improved multimodal reasoning, and open-source weights under Modified-MIT. Achieves 86.5% MMLU, 80.5% LiveBench with enhanced agentic capabilities.",
+"source": "MiniMax",
+    "sourceUrl": "https://minimaxi.com",
+    "imageUrl": "https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png",
+    "category": "model",
+    "publishedAt": "2026-05-15"
+  },
+  {
+    "id": "16",
     "title": "MiniMax M2.1 achieves state-of-the-art coding performance among open-source models",
     "summary": "MiniMax M2.1 achieves #1 ranking on Hot Arena leaderboard among open-source models with 230B total parameters and ~10B activated. Excels in agent scenarios with production-ready engineering capabilities.",
-    "source": "Minimax",
+    "source": "MiniMax",
     "sourceUrl": "https://minimaxi.com/en/news/post-training-experience-and-insights-for-agent-models",
     "imageUrl": "https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png",
     "category": "model",
     "publishedAt": "2026-05-06"
   },
   {
-    "id": "16",
+    "id": "17",
     "title": "MiniMax Speech 2.5 launches with enhanced multilingual expressiveness and voice cloning",
     "summary": "MiniMax Speech 2.5 launches with significantly enhanced multilingual performance, realistic voice cloning across 40+ languages, and improved natural rhythm eliminating robotic feel common in other TTS systems.",
-    "source": "Minimax",
+    "source": "MiniMax",
     "sourceUrl": "https://minimaxi.com/en/news/minimax-speech-25",
     "imageUrl": "https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png",
     "category": "model",
     "publishedAt": "2026-05-02"
   },
   {
-    "id": "17",
+    "id": "18",
     "title": "MiniMax Hailuo 02 video generation launches with record-breaking cost efficiency",
     "summary": "MiniMax Hailuo 02 launches with Noise-aware Compute Redistribution architecture achieving 2.5x training efficiency. Ranks second globally on Artificial Analysis Video Arena with native 1080p generation.",
-    "source": "Minimax",
+    "source": "MiniMax",
     "sourceUrl": "https://minimaxi.com/en/news/minimax-hailuo-02",
     "imageUrl": "https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png",
     "category": "product",
     "publishedAt": "2026-05-04"
   },
   {
-    "id": "18",
+    "id": "19",
     "title": "Apple iOS 27 will let users choose between Gemini, Claude, and more for AI features",
     "summary": "iOS 27 will allow users to choose from multiple third-party AI models including Claude, Gemini, and Grok to power Apple Intelligence features, marking a significant opening of Apple's AI ecosystem.",
     "source": "Apple",
@@ -180,7 +190,7 @@
     "publishedAt": "2026-05-05"
   },
   {
-    "id": "19",
+    "id": "20",
     "title": "Mistral releases Medium 3.5, a 128B dense open-weight model replacing three prior products",
     "summary": "Mistral releases Medium 3.5, a 128B dense open-weight model scoring 77.6% on SWE-Bench Verified. Replaces three prior products and offers improved code generation and reasoning capabilities.",
     "source": "Mistral",
@@ -190,7 +200,7 @@
     "publishedAt": "2026-05-01"
   },
   {
-    "id": "20",
+    "id": "21",
     "title": "Mistral launches Vibe remote coding agents that open pull requests when done",
     "summary": "Mistral launches Vibe remote coding agents running in cloud sandboxes that can autonomously open pull requests when tasks complete. Powered by Mistral Medium 3.5 for enterprise coding workflows.",
     "source": "Mistral",
@@ -200,7 +210,7 @@
     "publishedAt": "2026-05-07"
   },
   {
-    "id": "21",
+    "id": "22",
     "title": "ByteDance releases Doubao-Seed-2.0-lite, first full-modal understanding model",
     "summary": "ByteDance releases Doubao-Seed-2.0-lite, the first full-modal understanding model achieving native unified understanding of video, images, audio, and text in a single architecture.",
     "source": "ByteDance",
@@ -210,7 +220,7 @@
     "publishedAt": "2026-05-07"
   },
   {
-    "id": "22",
+    "id": "23",
     "title": "Alibaba releases Qwen3.6-27B dense model scoring 77.2 on SWE-bench Verified",
     "summary": "Alibaba releases Qwen3.6-27B, a dense open-weight model scoring 77.2 on SWE-bench Verified. First dense model in Qwen3.6 family with Apache 2.0 license for commercial use.",
     "source": "Alibaba",
@@ -218,16 +228,6 @@
     "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
     "category": "model",
     "publishedAt": "2026-05-04"
-  },
-  {
-    "id": "23",
-    "title": "Google Workspace Intelligence enables Gemini to understand file relationships",
-    "summary": "Google unveils Workspace Intelligence at Cloud Next 2026, enabling Gemini to understand relationships between files, projects, and collaborators across Google Workspace applications.",
-    "source": "Google",
-    "sourceUrl": "https://workspaceupdates.googleblog.com/2026/04/new-gemini-capabilities-in-google-docs",
-    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemma-4_blog_keyword_header-dark.width-200.format-webp.webp",
-    "category": "product",
-    "publishedAt": "2026-05-06"
   },
   {
     "id": "24",
