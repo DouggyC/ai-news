@@ -1,5 +1,10 @@
 import { z } from 'zod';
-import type { NewsCard, BenchmarkModel, Product, ProductRow } from '@/types/index';
+import type {
+  NewsCard,
+  BenchmarkModel,
+  Product,
+  ProductRow,
+} from '@/types/index';
 
 export const NewsCardSchema: z.ZodType<NewsCard> = z.object({
   id: z.string(),
@@ -35,10 +40,16 @@ export const ProductRowSchema: z.ZodType<ProductRow> = z.object({
   products: z.record(z.string(), ProductSchema.nullable()),
 });
 
-export function validateData<T>(schema: z.ZodType<T>, data: unknown, filename: string): T {
+export function validateData<T>(
+  schema: z.ZodType<T>,
+  data: unknown,
+  filename: string,
+): T {
   const result = schema.safeParse(data);
   if (!result.success) {
-    throw new Error(`Validation failed for ${filename}: ${result.error.message}`);
+    throw new Error(
+      `Validation failed for ${filename}: ${result.error.message}`,
+    );
   }
   return result.data;
 }

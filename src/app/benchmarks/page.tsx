@@ -16,8 +16,11 @@ import benchmarkModelsData from '@/data/benchmarkModels.json';
 import { BenchmarkModel } from '@/types/index';
 import { validateData, BenchmarkModelSchema } from '@/schemas/index';
 
-const benchmarkModels = validateData(BenchmarkModelSchema.array(), benchmarkModelsData, 'benchmarkModels.json');
-
+const benchmarkModels = validateData(
+  BenchmarkModelSchema.array(),
+  benchmarkModelsData,
+  'benchmarkModels.json',
+);
 
 const providerColors: Record<string, string> = {
   OpenAI: '#4ade80',
@@ -516,7 +519,9 @@ export default function BenchmarksPage() {
                           fontSize: '14px',
                         }}
                       >
-                        {model.mmlu !== null ? `${model.mmlu.toFixed(1)}%` : 'N/A'}
+                        {model.mmlu !== null
+                          ? `${model.mmlu.toFixed(1)}%`
+                          : 'N/A'}
                       </td>
                       <td
                         className='py-4 px-6 text-right font-medium'
@@ -525,7 +530,9 @@ export default function BenchmarksPage() {
                           fontSize: '14px',
                         }}
                       >
-                        {model.mmluPlus !== null ? `${model.mmluPlus.toFixed(1)}%` : 'N/A'}
+                        {model.mmluPlus !== null
+                          ? `${model.mmluPlus.toFixed(1)}%`
+                          : 'N/A'}
                       </td>
                       <td
                         className='py-4 px-6 text-right font-medium'
@@ -534,7 +541,9 @@ export default function BenchmarksPage() {
                           fontSize: '14px',
                         }}
                       >
-                        {model.humaneval !== null ? `${model.humaneval.toFixed(1)}%` : 'N/A'}
+                        {model.humaneval !== null
+                          ? `${model.humaneval.toFixed(1)}%`
+                          : 'N/A'}
                       </td>
                       <td
                         className='py-4 px-6 text-right font-medium'
@@ -543,7 +552,9 @@ export default function BenchmarksPage() {
                           fontSize: '14px',
                         }}
                       >
-                        {model.livebench !== null ? `${model.livebench.toFixed(1)}%` : 'N/A'}
+                        {model.livebench !== null
+                          ? `${model.livebench.toFixed(1)}%`
+                          : 'N/A'}
                       </td>
                       <td
                         className='py-4 px-6 text-right font-medium'
@@ -552,7 +563,9 @@ export default function BenchmarksPage() {
                           fontSize: '14px',
                         }}
                       >
-                        {model.gpqa !== null ? `${model.gpqa.toFixed(1)}%` : 'N/A'}
+                        {model.gpqa !== null
+                          ? `${model.gpqa.toFixed(1)}%`
+                          : 'N/A'}
                       </td>
                     </tr>
                   ))}

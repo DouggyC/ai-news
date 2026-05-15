@@ -14,15 +14,21 @@ export function Navigation() {
   const pathname = usePathname();
 
   return (
-    <nav className='sticky top-0 z-50 border-b' style={{ 
-      backgroundColor: 'rgba(15, 15, 15, 0.95)', 
-      borderColor: 'rgba(255, 255, 255, 0.06)' 
-    }}>
+    <nav
+      className='sticky top-0 z-50 border-b'
+      style={{
+        backgroundColor: 'rgba(15, 15, 15, 0.95)',
+        borderColor: 'rgba(255, 255, 255, 0.06)',
+      }}
+    >
       <div className='mx-auto px-4 sm:px-6 lg:px-10'>
         <div className='flex justify-between h-14'>
           <div className='flex items-center gap-3'>
             <Link href='/' className='flex items-center gap-2'>
-              <span className='font-medium text-lg' style={{ color: '#ffffff' }}>
+              <span
+                className='font-medium text-lg'
+                style={{ color: '#ffffff' }}
+              >
                 AI News
               </span>
             </Link>
@@ -41,9 +47,13 @@ export function Navigation() {
                       : 'hover:bg-white/5 text-white/60 hover:text-white'
                   }`}
                   style={{
-                    backgroundColor: isActive ? 'rgba(0, 255, 255, 0.1)' : 'transparent',
+                    backgroundColor: isActive
+                      ? 'rgba(0, 255, 255, 0.1)'
+                      : 'transparent',
                     color: isActive ? '#00ffff' : 'rgba(255, 255, 255, 0.6)',
-                    border: isActive ? '1px solid rgba(0, 255, 255, 0.3)' : '1px solid transparent',
+                    border: isActive
+                      ? '1px solid rgba(0, 255, 255, 0.3)'
+                      : '1px solid transparent',
                   }}
                 >
                   {item.label}

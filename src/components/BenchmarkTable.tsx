@@ -94,7 +94,8 @@ export default function BenchmarkTable({
                 onClick={() => handleSort('mmlu')}
               >
                 <div className='flex items-center justify-end gap-2'>
-                  MMLU {sortField === 'mmlu' && (sortOrder === 'asc' ? '↑' : '↓')}
+                  MMLU{' '}
+                  {sortField === 'mmlu' && (sortOrder === 'asc' ? '↑' : '↓')}
                 </div>
               </th>
               <th
@@ -148,7 +149,8 @@ export default function BenchmarkTable({
                 onClick={() => handleSort('gpqa')}
               >
                 <div className='flex items-center justify-end gap-2'>
-                  GPQA {sortField === 'gpqa' && (sortOrder === 'asc' ? '↑' : '↓')}
+                  GPQA{' '}
+                  {sortField === 'gpqa' && (sortOrder === 'asc' ? '↑' : '↓')}
                 </div>
               </th>
             </tr>
@@ -220,7 +222,9 @@ export default function BenchmarkTable({
                     fontSize: '14px',
                   }}
                 >
-                  {model.mmluPlus !== null ? `${model.mmluPlus.toFixed(1)}%` : 'N/A'}
+                  {model.mmluPlus !== null
+                    ? `${model.mmluPlus.toFixed(1)}%`
+                    : 'N/A'}
                 </td>
                 <td
                   className='py-4 px-6 text-right font-medium'
@@ -229,7 +233,9 @@ export default function BenchmarkTable({
                     fontSize: '14px',
                   }}
                 >
-                  {model.humaneval !== null ? `${model.humaneval.toFixed(1)}%` : 'N/A'}
+                  {model.humaneval !== null
+                    ? `${model.humaneval.toFixed(1)}%`
+                    : 'N/A'}
                 </td>
                 <td
                   className='py-4 px-6 text-right font-medium'
@@ -238,7 +244,9 @@ export default function BenchmarkTable({
                     fontSize: '14px',
                   }}
                 >
-                  {model.livebench !== null ? `${model.livebench.toFixed(1)}%` : 'N/A'}
+                  {model.livebench !== null
+                    ? `${model.livebench.toFixed(1)}%`
+                    : 'N/A'}
                 </td>
                 <td
                   className='py-4 px-6 text-right font-medium'

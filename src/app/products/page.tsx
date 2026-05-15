@@ -5,8 +5,11 @@ import { ProductRow } from '@/types/index';
 import { ProductTable } from '@/components/ProductTable';
 import { validateData, ProductRowSchema } from '@/schemas/index';
 
-const productData = validateData(ProductRowSchema.array(), productDataData, 'productData.json');
-
+const productData = validateData(
+  ProductRowSchema.array(),
+  productDataData,
+  'productData.json',
+);
 
 export default function ProductsPage() {
   return (
@@ -77,9 +80,9 @@ export default function ProductsPage() {
               </h3>
               <p style={{ fontSize: '13px' }}>
                 Products are organized into proprietary (closed) and open-weight
-                foundation model categories. Proprietary models are available via
-                API with usage-based pricing, while open models can be downloaded
-                and self-hosted.
+                foundation model categories. Proprietary models are available
+                via API with usage-based pricing, while open models can be
+                downloaded and self-hosted.
               </p>
             </div>
             <div>
@@ -112,8 +115,8 @@ export default function ProductsPage() {
               </h3>
               <p style={{ fontSize: '13px' }}>
                 Products marked as Enterprise typically offer additional
-                features like SSO, compliance certifications, private
-                deployment options, and dedicated support.
+                features like SSO, compliance certifications, private deployment
+                options, and dedicated support.
               </p>
             </div>
             <div>
@@ -128,9 +131,9 @@ export default function ProductsPage() {
                 Sovereign Stack
               </h3>
               <p style={{ fontSize: '13px' }}>
-                Products in Sovereign categories (Engine, Agent,
-                Orchestrator) are designed for private deployment and
-                self-hosting, keeping data within organizational boundaries.
+                Products in Sovereign categories (Engine, Agent, Orchestrator)
+                are designed for private deployment and self-hosting, keeping
+                data within organizational boundaries.
               </p>
             </div>
           </div>
@@ -141,8 +144,8 @@ export default function ProductsPage() {
           style={{ fontSize: '13px', color: 'rgba(255, 255, 255, 0.4)' }}
         >
           <p>
-            Product data sourced from company documentation • Last Updated: May 12, 2026
-            2026
+            Product data sourced from company documentation • Last Updated: May
+            12, 2026 2026
           </p>
         </div>
       </main>

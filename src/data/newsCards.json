@@ -1,322 +1,322 @@
 [
-  {
-    "id": "1",
-    "title": "GPT-5.5 Instant launches with smarter, clearer responses and better personalization",
-    "summary": "GPT-5.5 Instant launches with improved factuality, producing 52.5% fewer hallucinated claims than GPT-5.3 Instant. Features memory sources giving users visibility and control over personalization context.",
-    "source": "OpenAI",
-    "sourceUrl": "https://openai.com/index/gpt-5-5-instant/",
-    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
-    "category": "model",
-    "publishedAt": "2026-05-05"
-  },
-  {
-    "id": "2",
-    "title": "OpenAI launches three realtime voice models: GPT-Realtime-2, Translate, and Whisper",
-    "summary": "OpenAI introduces GPT-Realtime-2 with GPT-5-class reasoning for voice interactions, GPT-Realtime-Translate supporting 70+ languages, and GPT-Realtime-Whisper for low-latency streaming transcription.",
-    "source": "OpenAI",
-    "sourceUrl": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
-    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
-    "category": "model",
-    "publishedAt": "2026-05-07"
-  },
-  {
-    "id": "3",
-    "title": "OpenAI launches dedicated Codex Chrome extension for browser AI workflows",
-    "summary": "OpenAI launches a dedicated Chrome extension for Codex, enabling AI-powered browser workflows and web automation directly from the browser.",
-    "source": "OpenAI",
-    "sourceUrl": "https://openai.com/index/work-with-codex-from-anywhere/",
-    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
-    "category": "product",
-    "publishedAt": "2026-05-14"
-  },
-  {
-    "id": "4",
-    "title": "Claude Opus 4.7 launches as Anthropic's most capable generally available model",
-    "summary": "Claude Opus 4.7 launches with 13% resolution improvement over Opus 4.6 on coding benchmarks, enhanced vision supporting 2,576 pixel images, and new xhigh effort level for complex agentic tasks.",
-    "source": "Anthropic",
-    "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-7",
-    "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
-    "category": "model",
-    "publishedAt": "2026-05-02"
-  },
-  {
-    "id": "5",
-    "title": "Anthropic launches financial services agents with ten ready-to-run templates",
-    "summary": "Anthropic releases ten agent templates for financial services including pitch builder, KYC screener, and month-end closer. Claude now works across Excel, PowerPoint, Word, and Outlook via Microsoft 365 add-ins.",
-    "source": "Anthropic",
-    "sourceUrl": "https://www.anthropic.com/news/finance-agents",
-    "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
-    "category": "product",
-    "publishedAt": "2026-05-05"
-  },
-  {
-    "id": "6",
-    "title": "Gemini 3.1 Flash-Lite now generally available, Google's fastest and most cost-efficient model",
-    "summary": "Gemini 3.1 Flash-Lite, Google's fastest and most cost-efficient Gemini 3 series model, is now generally available on Vertex AI and Gemini Enterprise Agent Platform at $0.25/1M input tokens.",
-    "source": "Google",
-    "sourceUrl": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-1-flash-lite-ga",
-    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemma-4_blog_keyword_header-dark.width-200.format-webp.webp",
-    "category": "model",
-    "publishedAt": "2026-05-07"
-  },
-  {
-    "id": "7",
-    "title": "Google launches Gemini Robotics-ER 1.6 with enhanced spatial reasoning for robots",
-    "summary": "Gemini Robotics-ER 1.6 launches with improved spatial reasoning and multi-view understanding, enabling robots to read gauges, detect success in tasks, and operate with unprecedented precision in physical environments.",
-    "source": "Google",
-    "sourceUrl": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
-    "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemma-4_blog_keyword_header-dark.width-200.format-webp.webp",
-    "category": "model",
-    "publishedAt": "2026-05-03"
-  },
-  {
-    "id": "8",
-    "title": "Grok 4.20 and Grok 4.20 Multi-agent launch in Enterprise API with 2M token context",
-    "summary": "Grok 4.20 and Grok 4.20 Multi-agent launch in Enterprise API featuring 4-agent collaborative architecture and 2 million token context window for complex agentic workflows.",
-    "source": "xAI",
-    "sourceUrl": "https://docs.x.ai/developers/models/grok-4.20",
-    "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
-    "category": "model",
-    "publishedAt": "2026-05-05"
-  },
-  {
-    "id": "9",
-    "title": "xAI deprecated models guide: Grok 3 and grok-4 series retire May 15",
-    "summary": "xAI provides migration guide for May 15 retirement of grok-3, grok-4-fast, grok-4-1-fast, and grok-code-fast-1. All retired models redirect to grok-4.3 with updated pricing.",
-    "source": "xAI",
-    "sourceUrl": "https://docs.x.ai/developers/migration/may-15-deprecation",
-    "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
-    "category": "tool",
-    "publishedAt": "2026-05-12"
-  },
-  {
-    "id": "10",
-    "title": "NVIDIA Nemotron 3 Nano Omni unifies vision, audio and language for 9x more efficient AI agents",
-    "summary": "NVIDIA Nemotron 3 Nano Omni launches as an open omnimodal reasoning model bringing unified text, image, audio, and video understanding to AI agents with up to 9x higher throughput than comparable models.",
-    "source": "NVIDIA",
-    "sourceUrl": "https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/",
-    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
-    "category": "model",
-    "publishedAt": "2026-05-01"
-  },
-  {
-    "id": "11",
-    "title": "NVIDIA releases Star Elastic: one checkpoint contains 30B, 23B, and 12B reasoning models",
-    "summary": "NVIDIA releases Star Elastic enabling zero-shot slicing of a single 30B reasoning model into 23B and 12B variants. Uses Router-Weighted Expert Activation Pruning for efficient nested submodel extraction.",
-    "source": "NVIDIA",
-    "sourceUrl": "https://www.marktechpost.com/2026/05/09/nvidia-ai-releases-star-elastic-one-checkpoint-that-contains-30b-23b-and-12b-reasoning-models-with-zero-shot-slicing/",
-    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
-    "category": "model",
-    "publishedAt": "2026-05-09"
-  },
-  {
-    "id": "12",
-    "title": "Meta releases Llama 4 with native multimodal vision and 10M token context",
-    "summary": "Meta releases Llama 4 Scout and Maverick as first open-weight natively multimodal models with early fusion architecture. Llama 4 Scout supports industry-leading 10 million token context window.",
-    "source": "Meta",
-    "sourceUrl": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
-    "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
-    "category": "model",
-    "publishedAt": "2026-05-05"
-  },
-  {
-    "id": "13",
-    "title": "DeepSeek-V4-Pro launches as open-source with 1M token context and SOTA agentic coding",
-    "summary": "DeepSeek-V4-Pro (1.6T total / 49B active params) launches as open-source with 1M token context. Achieves open-source SOTA in Agentic Coding benchmarks, outperforming all other open models.",
-    "source": "DeepSeek",
-    "sourceUrl": "https://api-docs.deepseek.com/news/news260424",
-    "imageUrl": "https://preview.redd.it/deepseek-v4-all-leaks-and-infos-for-the-release-day-not-v0-lllfdd3uvimg1.png?width=640&crop=smart&auto=webp&s=2492384251ab16ffeac1c5d0317dd71610c3c077",
-    "category": "model",
-    "publishedAt": "2026-05-02"
-  },
-  {
-    "id": "14",
-    "title": "DeepSeek-V4-Flash launches at $0.14 per million input tokens",
-    "summary": "DeepSeek-V4-Flash (284B total / 13B active) launches at $0.14 per million input tokens, making it one of the cheapest frontier-class models with reasoning capabilities rivaling V4-Pro.",
-    "source": "DeepSeek",
-    "sourceUrl": "https://api-docs.deepseek.com/news/news260424",
-    "imageUrl": "https://preview.redd.it/deepseek-v4-all-leaks-and-infos-for-the-release-day-not-v0-lllfdd3uvimg1.png?width=640&crop=smart&auto=webp&s=2492384251ab16ffeac1c5d0317dd71610c3c077",
-    "category": "model",
-    "publishedAt": "2026-05-03"
-  },
-  {
-    "id": "15",
-    "title": "MiniMax M2.7 launches as latest flagship with 236B parameters and improved benchmarks",
-    "summary": "MiniMax M2.7 launches (May 15, 2026) with 236B parameters, 200K context, improved multimodal reasoning, and open-source weights under Modified-MIT. Achieves 86.5% MMLU, 80.5% LiveBench with enhanced agentic capabilities.",
-    "source": "MiniMax",
-    "sourceUrl": "https://minimaxi.com",
-    "imageUrl": "https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png",
-    "category": "model",
-    "publishedAt": "2026-05-15"
-  },
-  {
-    "id": "16",
-    "title": "MiniMax M2.1 achieves state-of-the-art coding performance among open-source models",
-    "summary": "MiniMax M2.1 achieves #1 ranking on Hot Arena leaderboard among open-source models with 230B total parameters and ~10B activated. Excels in agent scenarios with production-ready engineering capabilities.",
-    "source": "MiniMax",
-    "sourceUrl": "https://minimaxi.com/en/news/post-training-experience-and-insights-for-agent-models",
-    "imageUrl": "https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png",
-    "category": "model",
-    "publishedAt": "2026-05-06"
-  },
-  {
-    "id": "17",
-    "title": "MiniMax Speech 2.5 launches with enhanced multilingual expressiveness and voice cloning",
-    "summary": "MiniMax Speech 2.5 launches with significantly enhanced multilingual performance, realistic voice cloning across 40+ languages, and improved natural rhythm eliminating robotic feel common in other TTS systems.",
-    "source": "MiniMax",
-    "sourceUrl": "https://minimaxi.com/en/news/minimax-speech-25",
-    "imageUrl": "https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png",
-    "category": "model",
-    "publishedAt": "2026-05-02"
-  },
-  {
-    "id": "18",
-    "title": "MiniMax Hailuo 02 video generation launches with record-breaking cost efficiency",
-    "summary": "MiniMax Hailuo 02 launches with Noise-aware Compute Redistribution architecture achieving 2.5x training efficiency. Ranks second globally on Artificial Analysis Video Arena with native 1080p generation.",
-    "source": "MiniMax",
-    "sourceUrl": "https://minimaxi.com/en/news/minimax-hailuo-02",
-    "imageUrl": "https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png",
-    "category": "product",
-    "publishedAt": "2026-05-04"
-  },
-  {
-    "id": "19",
-    "title": "Apple iOS 27 will let users choose between Gemini, Claude, and more for AI features",
-    "summary": "iOS 27 will allow users to choose from multiple third-party AI models including Claude, Gemini, and Grok to power Apple Intelligence features, marking a significant opening of Apple's AI ecosystem.",
-    "source": "Apple",
-    "sourceUrl": "https://9to5mac.com/2026/05/05/ios-27-will-let-you-choose-between-gemini-claude-and-more-for-ai-features-report/",
-    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
-    "category": "product",
-    "publishedAt": "2026-05-05"
-  },
-  {
-    "id": "20",
-    "title": "Mistral releases Medium 3.5, a 128B dense open-weight model replacing three prior products",
-    "summary": "Mistral releases Medium 3.5, a 128B dense open-weight model scoring 77.6% on SWE-Bench Verified. Replaces three prior products and offers improved code generation and reasoning capabilities.",
-    "source": "Mistral",
-    "sourceUrl": "https://mistral.ai/news/mistral-medium-3-5",
-    "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
-    "category": "model",
-    "publishedAt": "2026-05-01"
-  },
-  {
-    "id": "21",
-    "title": "Mistral launches Vibe remote coding agents that open pull requests when done",
-    "summary": "Mistral launches Vibe remote coding agents running in cloud sandboxes that can autonomously open pull requests when tasks complete. Powered by Mistral Medium 3.5 for enterprise coding workflows.",
-    "source": "Mistral",
-    "sourceUrl": "https://mistral.ai/news/vibe-coding-agents",
-    "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
-    "category": "product",
-    "publishedAt": "2026-05-07"
-  },
-  {
-    "id": "22",
-    "title": "ByteDance releases Doubao-Seed-2.0-lite, first full-modal understanding model",
-    "summary": "ByteDance releases Doubao-Seed-2.0-lite, the first full-modal understanding model achieving native unified understanding of video, images, audio, and text in a single architecture.",
-    "source": "ByteDance",
-    "sourceUrl": "https://www.volcengine.com/product/doubao",
-    "imageUrl": "https://cdn.technobezz.com/c/Technobezz_2026_02_14_T092431_822_304d822711.png",
-    "category": "model",
-    "publishedAt": "2026-05-07"
-  },
-  {
-    "id": "23",
-    "title": "Alibaba releases Qwen3.6-27B dense model scoring 77.2 on SWE-bench Verified",
-    "summary": "Alibaba releases Qwen3.6-27B, a dense open-weight model scoring 77.2 on SWE-bench Verified. First dense model in Qwen3.6 family with Apache 2.0 license for commercial use.",
-    "source": "Alibaba",
-    "sourceUrl": "https://qwenlm.ai/blog/qwen3.6",
-    "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
-    "category": "model",
-    "publishedAt": "2026-05-04"
-  },
-  {
-    "id": "24",
-    "title": "Anthropic Claude Code introduces UltraReview slash command for comprehensive code review",
-    "summary": "Anthropic Claude Code introduces /ultrareview command that reads through code changes and flags bugs and design issues. Pro and Max users get three free ultrareviews to start.",
-    "source": "Anthropic",
-    "sourceUrl": "https://www.anthropic.com/news/claude-code-quality-update",
-    "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
-    "category": "tool",
-    "publishedAt": "2026-05-08"
-  },
-  {
-    "id": "25",
-    "title": "Samsung Gauss 2 enters limited release for Galaxy S26 AI features",
-    "summary": "Samsung Gauss 2 enters limited release powering Galaxy S26 AI features with on-device inference. The model offers improved Korean language processing and reduced latency for local AI tasks.",
-    "source": "Samsung",
-    "sourceUrl": "https://www.samsung.com/semiconductor/mini-site/gauss/",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg",
-    "category": "model",
-    "publishedAt": "2026-05-12"
-  },
-  {
-    "id": "26",
-    "title": "Kimi launches K2.6 with 1M context and enhanced long-context reasoning",
-    "summary": "Kimi launches K2.6 with native 1 million token context and improved reasoning capabilities. Excels in document summarization and multi-turn conversations with extended context retention.",
-    "source": "Kimi",
-    "sourceUrl": "https://kimi.moonshot.cn/docs/k2",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Moonshot_AI_logo.svg",
-    "category": "model",
-    "publishedAt": "2026-05-10"
-  },
-  {
-    "id": "27",
-    "title": "01.AI launches K2 Think V2 with improved reasoning and function calling",
-    "summary": "01.AI launches K2 Think V2 with enhanced chain-of-thought reasoning and improved function calling capabilities. Supports 256K context window for enterprise applications.",
-    "source": "01.AI",
-    "sourceUrl": "https://www.01.ai/#/en-us/docs/k2",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/01.ai_logo.png",
-    "category": "model",
-    "publishedAt": "2026-05-08"
-  },
-  {
-    "id": "28",
-    "title": "Microsoft Copilot gains GPT-5.5 Turbo integration with enhanced reasoning",
-    "summary": "Microsoft integrates GPT-5.5 Turbo into Copilot for Microsoft 365 enterprise users. Offers improved document drafting, meeting summarization, and cross-application context awareness.",
-    "source": "Microsoft",
-    "sourceUrl": "https://blogs.microsoft.com/blog/2026/05/copilot-gpt-5-integration/",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg",
-    "category": "product",
-    "publishedAt": "2026-05-11"
-  },
-  {
-    "id": "29",
-    "title": "Amazon Nova 2.0 Pro Preview launches with enhanced multimodal capabilities",
-    "summary": "Amazon Nova 2.0 Pro Preview launches on AWS with improved multimodal understanding and longer context. Powers Amazon Q Business with enhanced enterprise AI capabilities.",
-    "source": "Amazon",
-    "sourceUrl": "https://aws.amazon.com/bedrock/nova/",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_Tech_logo.svg",
-    "category": "model",
-    "publishedAt": "2026-05-06"
-  },
-  {
-    "id": "30",
-    "title": "Oracle OCI Generative AI adds Claude models with enterprise SLA",
-    "summary": "Oracle OCI Generative AI adds Anthropic Claude models to its enterprise AI portfolio with dedicated infrastructure and SLA guarantees. Targets regulated industries requiring data sovereignty.",
-    "source": "Oracle",
-    "sourceUrl": "https://www.oracle.com/cloud/artificial-intelligence/generative-ai/",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg",
-    "category": "product",
-    "publishedAt": "2026-05-04"
-  },
-  {
-    "id": "31",
-    "title": "Zhipu AI releases GLM-5.1 with improved reasoning and 256K context",
-    "summary": "Zhipu AI releases GLM-5.1, an open-weight model with 130B parameters and 256K context window. Achieves competitive performance on math and reasoning benchmarks.",
-    "source": "Zhipu AI",
-    "sourceUrl": "https://www.zhipuai.cn/en/",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Zhipu_AI_logo.svg",
-    "category": "model",
-    "publishedAt": "2026-05-10"
-  },
-  {
-    "id": "32",
-    "title": "Samsung Gauss 2 enters limited release for Galaxy S26 AI features",
-    "summary": "Samsung Gauss 2 enters limited release powering Galaxy S26 AI features with on-device inference. The model offers improved Korean language processing and reduced latency for local AI tasks.",
-    "source": "Samsung",
-    "sourceUrl": "https://www.samsung.com/semiconductor/mini-site/gauss/",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg",
-    "category": "model",
-    "publishedAt": "2026-05-12"
-  }
+    {
+        "id": "1",
+        "title": "GPT-5.5 Instant launches with smarter, clearer responses and better personalization",
+        "summary": "GPT-5.5 Instant launches with improved factuality, producing 52.5% fewer hallucinated claims than GPT-5.3 Instant. Features memory sources giving users visibility and control over personalization context.",
+        "source": "OpenAI",
+        "sourceUrl": "https://openai.com/index/gpt-5-5-instant/",
+        "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
+        "category": "model",
+        "publishedAt": "2026-05-05"
+    },
+    {
+        "id": "2",
+        "title": "OpenAI launches three realtime voice models: GPT-Realtime-2, Translate, and Whisper",
+        "summary": "OpenAI introduces GPT-Realtime-2 with GPT-5-class reasoning for voice interactions, GPT-Realtime-Translate supporting 70+ languages, and GPT-Realtime-Whisper for low-latency streaming transcription.",
+        "source": "OpenAI",
+        "sourceUrl": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
+        "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
+        "category": "model",
+        "publishedAt": "2026-05-07"
+    },
+    {
+        "id": "3",
+        "title": "OpenAI launches dedicated Codex Chrome extension for browser AI workflows",
+        "summary": "OpenAI launches a dedicated Chrome extension for Codex, enabling AI-powered browser workflows and web automation directly from the browser.",
+        "source": "OpenAI",
+        "sourceUrl": "https://openai.com/index/work-with-codex-from-anywhere/",
+        "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
+        "category": "product",
+        "publishedAt": "2026-05-14"
+    },
+    {
+        "id": "4",
+        "title": "Claude Opus 4.7 launches as Anthropic's most capable generally available model",
+        "summary": "Claude Opus 4.7 launches with 13% resolution improvement over Opus 4.6 on coding benchmarks, enhanced vision supporting 2,576 pixel images, and new xhigh effort level for complex agentic tasks.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-7",
+        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
+        "category": "model",
+        "publishedAt": "2026-05-02"
+    },
+    {
+        "id": "5",
+        "title": "Anthropic launches financial services agents with ten ready-to-run templates",
+        "summary": "Anthropic releases ten agent templates for financial services including pitch builder, KYC screener, and month-end closer. Claude now works across Excel, PowerPoint, Word, and Outlook via Microsoft 365 add-ins.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.anthropic.com/news/finance-agents",
+        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
+        "category": "product",
+        "publishedAt": "2026-05-05"
+    },
+    {
+        "id": "6",
+        "title": "Gemini 3.1 Flash-Lite now generally available, Google's fastest and most cost-efficient model",
+        "summary": "Gemini 3.1 Flash-Lite, Google's fastest and most cost-efficient Gemini 3 series model, is now generally available on Vertex AI and Gemini Enterprise Agent Platform at $0.25/1M input tokens.",
+        "source": "Google",
+        "sourceUrl": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-1-flash-lite-ga",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemma-4_blog_keyword_header-dark.width-200.format-webp.webp",
+        "category": "model",
+        "publishedAt": "2026-05-07"
+    },
+    {
+        "id": "7",
+        "title": "Google launches Gemini Robotics-ER 1.6 with enhanced spatial reasoning for robots",
+        "summary": "Gemini Robotics-ER 1.6 launches with improved spatial reasoning and multi-view understanding, enabling robots to read gauges, detect success in tasks, and operate with unprecedented precision in physical environments.",
+        "source": "Google",
+        "sourceUrl": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+        "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemma-4_blog_keyword_header-dark.width-200.format-webp.webp",
+        "category": "model",
+        "publishedAt": "2026-05-03"
+    },
+    {
+        "id": "8",
+        "title": "Grok 4.20 and Grok 4.20 Multi-agent launch in Enterprise API with 2M token context",
+        "summary": "Grok 4.20 and Grok 4.20 Multi-agent launch in Enterprise API featuring 4-agent collaborative architecture and 2 million token context window for complex agentic workflows.",
+        "source": "xAI",
+        "sourceUrl": "https://docs.x.ai/developers/models/grok-4.20",
+        "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
+        "category": "model",
+        "publishedAt": "2026-05-05"
+    },
+    {
+        "id": "9",
+        "title": "xAI deprecated models guide: Grok 3 and grok-4 series retire May 15",
+        "summary": "xAI provides migration guide for May 15 retirement of grok-3, grok-4-fast, grok-4-1-fast, and grok-code-fast-1. All retired models redirect to grok-4.3 with updated pricing.",
+        "source": "xAI",
+        "sourceUrl": "https://docs.x.ai/developers/migration/may-15-deprecation",
+        "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
+        "category": "tool",
+        "publishedAt": "2026-05-12"
+    },
+    {
+        "id": "10",
+        "title": "NVIDIA Nemotron 3 Nano Omni unifies vision, audio and language for 9x more efficient AI agents",
+        "summary": "NVIDIA Nemotron 3 Nano Omni launches as an open omnimodal reasoning model bringing unified text, image, audio, and video understanding to AI agents with up to 9x higher throughput than comparable models.",
+        "source": "NVIDIA",
+        "sourceUrl": "https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
+        "category": "model",
+        "publishedAt": "2026-05-01"
+    },
+    {
+        "id": "11",
+        "title": "NVIDIA releases Star Elastic: one checkpoint contains 30B, 23B, and 12B reasoning models",
+        "summary": "NVIDIA releases Star Elastic enabling zero-shot slicing of a single 30B reasoning model into 23B and 12B variants. Uses Router-Weighted Expert Activation Pruning for efficient nested submodel extraction.",
+        "source": "NVIDIA",
+        "sourceUrl": "https://www.marktechpost.com/2026/05/09/nvidia-ai-releases-star-elastic-one-checkpoint-that-contains-30b-23b-and-12b-reasoning-models-with-zero-shot-slicing/",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
+        "category": "model",
+        "publishedAt": "2026-05-09"
+    },
+    {
+        "id": "12",
+        "title": "Meta releases Llama 4 with native multimodal vision and 10M token context",
+        "summary": "Meta releases Llama 4 Scout and Maverick as first open-weight natively multimodal models with early fusion architecture. Llama 4 Scout supports industry-leading 10 million token context window.",
+        "source": "Meta",
+        "sourceUrl": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+        "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
+        "category": "model",
+        "publishedAt": "2026-05-05"
+    },
+    {
+        "id": "13",
+        "title": "DeepSeek-V4-Pro launches as open-source with 1M token context and SOTA agentic coding",
+        "summary": "DeepSeek-V4-Pro (1.6T total / 49B active params) launches as open-source with 1M token context. Achieves open-source SOTA in Agentic Coding benchmarks, outperforming all other open models.",
+        "source": "DeepSeek",
+        "sourceUrl": "https://api-docs.deepseek.com/news/news260424",
+        "imageUrl": "https://preview.redd.it/deepseek-v4-all-leaks-and-infos-for-the-release-day-not-v0-lllfdd3uvimg1.png?width=640&crop=smart&auto=webp&s=2492384251ab16ffeac1c5d0317dd71610c3c077",
+        "category": "model",
+        "publishedAt": "2026-05-02"
+    },
+    {
+        "id": "14",
+        "title": "DeepSeek-V4-Flash launches at $0.14 per million input tokens",
+        "summary": "DeepSeek-V4-Flash (284B total / 13B active) launches at $0.14 per million input tokens, making it one of the cheapest frontier-class models with reasoning capabilities rivaling V4-Pro.",
+        "source": "DeepSeek",
+        "sourceUrl": "https://api-docs.deepseek.com/news/news260424",
+        "imageUrl": "https://preview.redd.it/deepseek-v4-all-leaks-and-infos-for-the-release-day-not-v0-lllfdd3uvimg1.png?width=640&crop=smart&auto=webp&s=2492384251ab16ffeac1c5d0317dd71610c3c077",
+        "category": "model",
+        "publishedAt": "2026-05-03"
+    },
+    {
+        "id": "15",
+        "title": "MiniMax M2.7 launches as latest flagship with 236B parameters and improved benchmarks",
+        "summary": "MiniMax M2.7 launches (May 15, 2026) with 236B parameters, 200K context, improved multimodal reasoning, and open-source weights under Modified-MIT. Achieves 86.5% MMLU, 80.5% LiveBench with enhanced agentic capabilities.",
+        "source": "MiniMax",
+        "sourceUrl": "https://minimaxi.com",
+        "imageUrl": "https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png",
+        "category": "model",
+        "publishedAt": "2026-05-15"
+    },
+    {
+        "id": "16",
+        "title": "MiniMax M2.1 achieves state-of-the-art coding performance among open-source models",
+        "summary": "MiniMax M2.1 achieves #1 ranking on Hot Arena leaderboard among open-source models with 230B total parameters and ~10B activated. Excels in agent scenarios with production-ready engineering capabilities.",
+        "source": "MiniMax",
+        "sourceUrl": "https://minimaxi.com/en/news/post-training-experience-and-insights-for-agent-models",
+        "imageUrl": "https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png",
+        "category": "model",
+        "publishedAt": "2026-05-06"
+    },
+    {
+        "id": "17",
+        "title": "MiniMax Speech 2.5 launches with enhanced multilingual expressiveness and voice cloning",
+        "summary": "MiniMax Speech 2.5 launches with significantly enhanced multilingual performance, realistic voice cloning across 40+ languages, and improved natural rhythm eliminating robotic feel common in other TTS systems.",
+        "source": "MiniMax",
+        "sourceUrl": "https://minimaxi.com/en/news/minimax-speech-25",
+        "imageUrl": "https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png",
+        "category": "model",
+        "publishedAt": "2026-05-02"
+    },
+    {
+        "id": "18",
+        "title": "MiniMax Hailuo 02 video generation launches with record-breaking cost efficiency",
+        "summary": "MiniMax Hailuo 02 launches with Noise-aware Compute Redistribution architecture achieving 2.5x training efficiency. Ranks second globally on Artificial Analysis Video Arena with native 1080p generation.",
+        "source": "MiniMax",
+        "sourceUrl": "https://minimaxi.com/en/news/minimax-hailuo-02",
+        "imageUrl": "https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png",
+        "category": "product",
+        "publishedAt": "2026-05-04"
+    },
+    {
+        "id": "19",
+        "title": "Apple iOS 27 will let users choose between Gemini, Claude, and more for AI features",
+        "summary": "iOS 27 will allow users to choose from multiple third-party AI models including Claude, Gemini, and Grok to power Apple Intelligence features, marking a significant opening of Apple's AI ecosystem.",
+        "source": "Apple",
+        "sourceUrl": "https://9to5mac.com/2026/05/05/ios-27-will-let-you-choose-between-gemini-claude-and-more-for-ai-features-report/",
+        "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
+        "category": "product",
+        "publishedAt": "2026-05-05"
+    },
+    {
+        "id": "20",
+        "title": "Mistral releases Medium 3.5, a 128B dense open-weight model replacing three prior products",
+        "summary": "Mistral releases Medium 3.5, a 128B dense open-weight model scoring 77.6% on SWE-Bench Verified. Replaces three prior products and offers improved code generation and reasoning capabilities.",
+        "source": "Mistral",
+        "sourceUrl": "https://mistral.ai/news/mistral-medium-3-5",
+        "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
+        "category": "model",
+        "publishedAt": "2026-05-01"
+    },
+    {
+        "id": "21",
+        "title": "Mistral launches Vibe remote coding agents that open pull requests when done",
+        "summary": "Mistral launches Vibe remote coding agents running in cloud sandboxes that can autonomously open pull requests when tasks complete. Powered by Mistral Medium 3.5 for enterprise coding workflows.",
+        "source": "Mistral",
+        "sourceUrl": "https://mistral.ai/news/vibe-coding-agents",
+        "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
+        "category": "product",
+        "publishedAt": "2026-05-07"
+    },
+    {
+        "id": "22",
+        "title": "ByteDance releases Doubao-Seed-2.0-lite, first full-modal understanding model",
+        "summary": "ByteDance releases Doubao-Seed-2.0-lite, the first full-modal understanding model achieving native unified understanding of video, images, audio, and text in a single architecture.",
+        "source": "ByteDance",
+        "sourceUrl": "https://www.volcengine.com/product/doubao",
+        "imageUrl": "https://cdn.technobezz.com/c/Technobezz_2026_02_14_T092431_822_304d822711.png",
+        "category": "model",
+        "publishedAt": "2026-05-07"
+    },
+    {
+        "id": "23",
+        "title": "Alibaba releases Qwen3.6-27B dense model scoring 77.2 on SWE-bench Verified",
+        "summary": "Alibaba releases Qwen3.6-27B, a dense open-weight model scoring 77.2 on SWE-bench Verified. First dense model in Qwen3.6 family with Apache 2.0 license for commercial use.",
+        "source": "Alibaba",
+        "sourceUrl": "https://qwenlm.ai/blog/qwen3.6",
+        "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
+        "category": "model",
+        "publishedAt": "2026-05-04"
+    },
+    {
+        "id": "24",
+        "title": "Anthropic Claude Code introduces UltraReview slash command for comprehensive code review",
+        "summary": "Anthropic Claude Code introduces /ultrareview command that reads through code changes and flags bugs and design issues. Pro and Max users get three free ultrareviews to start.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.anthropic.com/news/claude-code-quality-update",
+        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
+        "category": "tool",
+        "publishedAt": "2026-05-08"
+    },
+    {
+        "id": "25",
+        "title": "Samsung Gauss 2 enters limited release for Galaxy S26 AI features",
+        "summary": "Samsung Gauss 2 enters limited release powering Galaxy S26 AI features with on-device inference. The model offers improved Korean language processing and reduced latency for local AI tasks.",
+        "source": "Samsung",
+        "sourceUrl": "https://www.samsung.com/semiconductor/mini-site/gauss/",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg",
+        "category": "model",
+        "publishedAt": "2026-05-12"
+    },
+    {
+        "id": "26",
+        "title": "Kimi launches K2.6 with 1M context and enhanced long-context reasoning",
+        "summary": "Kimi launches K2.6 with native 1 million token context and improved reasoning capabilities. Excels in document summarization and multi-turn conversations with extended context retention.",
+        "source": "Kimi",
+        "sourceUrl": "https://kimi.moonshot.cn/docs/k2",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Moonshot_AI_logo.svg",
+        "category": "model",
+        "publishedAt": "2026-05-10"
+    },
+    {
+        "id": "27",
+        "title": "01.AI launches K2 Think V2 with improved reasoning and function calling",
+        "summary": "01.AI launches K2 Think V2 with enhanced chain-of-thought reasoning and improved function calling capabilities. Supports 256K context window for enterprise applications.",
+        "source": "01.AI",
+        "sourceUrl": "https://www.01.ai/#/en-us/docs/k2",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/01.ai_logo.png",
+        "category": "model",
+        "publishedAt": "2026-05-08"
+    },
+    {
+        "id": "28",
+        "title": "Microsoft Copilot gains GPT-5.5 Turbo integration with enhanced reasoning",
+        "summary": "Microsoft integrates GPT-5.5 Turbo into Copilot for Microsoft 365 enterprise users. Offers improved document drafting, meeting summarization, and cross-application context awareness.",
+        "source": "Microsoft",
+        "sourceUrl": "https://blogs.microsoft.com/blog/2026/05/copilot-gpt-5-integration/",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg",
+        "category": "product",
+        "publishedAt": "2026-05-11"
+    },
+    {
+        "id": "29",
+        "title": "Amazon Nova 2.0 Pro Preview launches with enhanced multimodal capabilities",
+        "summary": "Amazon Nova 2.0 Pro Preview launches on AWS with improved multimodal understanding and longer context. Powers Amazon Q Business with enhanced enterprise AI capabilities.",
+        "source": "Amazon",
+        "sourceUrl": "https://aws.amazon.com/bedrock/nova/",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_Tech_logo.svg",
+        "category": "model",
+        "publishedAt": "2026-05-06"
+    },
+    {
+        "id": "30",
+        "title": "Oracle OCI Generative AI adds Claude models with enterprise SLA",
+        "summary": "Oracle OCI Generative AI adds Anthropic Claude models to its enterprise AI portfolio with dedicated infrastructure and SLA guarantees. Targets regulated industries requiring data sovereignty.",
+        "source": "Oracle",
+        "sourceUrl": "https://www.oracle.com/cloud/artificial-intelligence/generative-ai/",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg",
+        "category": "product",
+        "publishedAt": "2026-05-04"
+    },
+    {
+        "id": "31",
+        "title": "Zhipu AI releases GLM-5.1 with improved reasoning and 256K context",
+        "summary": "Zhipu AI releases GLM-5.1, an open-weight model with 130B parameters and 256K context window. Achieves competitive performance on math and reasoning benchmarks.",
+        "source": "Zhipu AI",
+        "sourceUrl": "https://www.zhipuai.cn/en/",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Zhipu_AI_logo.svg",
+        "category": "model",
+        "publishedAt": "2026-05-10"
+    },
+    {
+        "id": "32",
+        "title": "Samsung Gauss 2 enters limited release for Galaxy S26 AI features",
+        "summary": "Samsung Gauss 2 enters limited release powering Galaxy S26 AI features with on-device inference. The model offers improved Korean language processing and reduced latency for local AI tasks.",
+        "source": "Samsung",
+        "sourceUrl": "https://www.samsung.com/semiconductor/mini-site/gauss/",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg",
+        "category": "model",
+        "publishedAt": "2026-05-12"
+    }
 ]

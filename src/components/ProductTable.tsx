@@ -293,8 +293,7 @@ export function ProductTable({ productData }: ProductTableProps) {
                             textDecoration: 'none',
                           }}
                           onMouseEnter={(e) => {
-                            e.currentTarget.style.textDecoration =
-                              'underline';
+                            e.currentTarget.style.textDecoration = 'underline';
                           }}
                           onMouseLeave={(e) => {
                             e.currentTarget.style.textDecoration = 'none';

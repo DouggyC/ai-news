@@ -7,7 +7,12 @@ interface StatsCardsProps {
   avgBenchmarks: number;
 }
 
-export function StatsCards({ totalDownloads, totalLikes, modelCount, avgBenchmarks }: StatsCardsProps) {
+export function StatsCards({
+  totalDownloads,
+  totalLikes,
+  modelCount,
+  avgBenchmarks,
+}: StatsCardsProps) {
   const stats = [
     {
       label: 'Total Models',
@@ -40,17 +45,21 @@ export function StatsCards({ totalDownloads, totalLikes, modelCount, avgBenchmar
   ];
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+    <div className='grid grid-cols-2 md:grid-cols-4 gap-4 mb-8'>
       {stats.map((stat) => (
         <div
           key={stat.label}
           className={`${stat.color} rounded-xl p-4 border border-zinc-200 dark:border-zinc-800`}
         >
-          <div className="flex items-center gap-3">
-            <span className="text-2xl">{stat.icon}</span>
+          <div className='flex items-center gap-3'>
+            <span className='text-2xl'>{stat.icon}</span>
             <div>
-              <p className="text-sm text-zinc-600 dark:text-zinc-400">{stat.label}</p>
-              <p className={`text-2xl font-bold ${stat.textColor}`}>{stat.value}</p>
+              <p className='text-sm text-zinc-600 dark:text-zinc-400'>
+                {stat.label}
+              </p>
+              <p className={`text-2xl font-bold ${stat.textColor}`}>
+                {stat.value}
+              </p>
             </div>
           </div>
         </div>
