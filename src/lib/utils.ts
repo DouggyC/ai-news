@@ -1,4 +1,12 @@
-export function formatNumber(num: number): string {
+export function formatNumber(num: number | undefined | null): string {
+  // Fallback gracefully if the field doesn't exist on the object
+  if (num === undefined || num === null) {
+    return 'n/a';
+  }
+
+  if (num >= 1_000_000_000_000) {
+    return (num / 1_000_000_000_000).toFixed(1) + 'T';
+  }
   if (num >= 1_000_000_000) {
     return (num / 1_000_000_000).toFixed(1) + 'B';
   }
@@ -8,6 +16,7 @@ export function formatNumber(num: number): string {
   if (num >= 1_000) {
     return (num / 1_000).toFixed(1) + 'K';
   }
+
   return num.toString();
 }
 

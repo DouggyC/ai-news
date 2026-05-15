@@ -1,125 +1,122 @@
 # Update Benchmarks Page
 
-## Task Description
-Update the benchmarks page in `/src/app/benchmarks/page.tsx` with the latest benchmark information for the 15 top frontier AI models. Ensure all data reflects current and accurate benchmark scores from independent evaluation sources.
+## Objective
+Research latest benchmark scores for all frontier AI models, then update the data file. The page visualization updates automatically from data.
 
-## ⚠️ MANDATORY PRE-UPDATE RESEARCH
-Before updating ANY content, run research to discover the current model landscape:
+## 3-Step Process
 
-### Research Queries (execute all):
+### Step 1: Research (DO THIS FIRST)
+Research current benchmark scores from independent sources. **Do NOT assume existing scores are still current.**
+
+Research queries to execute:
 ```
-OpenAI GPT-5 benchmark scores 2026 site:openai.com OR site:artificialanalysis.ai
-Anthropic Claude benchmark scores 2026 site:anthropic.com OR site:lmarena.ai
-Google Gemini benchmark scores 2026 site:deepmind.google OR site:artificialanalysis.ai
-Meta Llama benchmark scores 2026 site:ai.meta.com OR site:lmarena.ai
-xAI Grok benchmark scores 2026 site:x.ai OR site:lmarena.ai
-NVIDIA Nemotron benchmark scores 2026 site:nvidia.com OR site:artificialanalysis.ai
-DeepSeek V4 benchmark scores 2026 site:deepseek.com OR site:artificialanalysis.ai
-Alibaba Qwen benchmark scores 2026 site:qwenlm.ai OR site:lmarena.ai
-MiniMax M2 benchmark scores 2026 site:minimaxi.com OR site:artificialanalysis.ai
+OpenAI GPT-5 benchmark scores MMLU HumanEval 2026 site:openai.com OR site:artificialanalysis.ai OR site:lmarena.ai
+Anthropic Claude benchmark scores MMLU HumanEval 2026 site:anthropic.com OR site:artificialanalysis.ai OR site:lmarena.ai
+Google Gemini benchmark scores MMLU HumanEval 2026 site:deepmind.google OR site:artificialanalysis.ai OR site:lmarena.ai
+Meta Llama benchmark scores MMLU HumanEval 2026 site:ai.meta.com OR site:artificialanalysis.ai OR site:lmarena.ai
+xAI Grok benchmark scores MMLU HumanEval 2026 site:x.ai OR site:artificialanalysis.ai OR site:lmarena.ai
+NVIDIA Nemotron benchmark scores 2026 site:nvidia.com OR site:artificialanalysis.ai OR site:lmarena.ai
+DeepSeek V4 benchmark scores 2026 site:deepseek.com OR site:artificialanalysis.ai OR site:lmarena.ai
+Alibaba Qwen benchmark scores MMLU HumanEval 2026 site:qwenlm.ai OR site:artificialanalysis.ai OR site:lmarena.ai
+MiniMax benchmark scores MMLU HumanEval 2026 site:minimaxi.com OR site:artificialanalysis.ai OR site:lmarena.ai
 ```
 
-### What to Discover:
-1. **New benchmark scores** released since last update
-2. **Model updates** - any models with new versions
-3. **Score improvements** - better performance on benchmarks
+Discover:
+- New benchmark scores released since last update
+- New models with benchmark data
+- Score improvements on existing models
+- Independent evaluation sources vs. self-reported scores
+- Any models removed/added to the frontier
 
-**Do NOT assume any benchmark scores from the previous version are still current.**
+### Step 2: Update Data File
+After research, update `src/data/benchmarkModels.json` to reflect reality.
 
-## Pages to Update:
-1. **Benchmarks Page** (`src/app/benchmarks/page.tsx`) - Model benchmark visualizations ONLY
+**File**: `src/data/benchmarkModels.json`
+**Imported by**: `src/app/benchmarks/page.tsx`
+**Validated by**: `BenchmarkModelSchema` from `src/schemas/index.ts`
 
-## Update Requirements:
+## TypeScript Interface (types/index.ts)
+```typescript
+export interface BenchmarkModel {
+  id: string;
+  name: string;
+  provider: string;
+  openSource: boolean;
+  mmlu: number | null;
+  humaneval: number | null;
+  livebench: number | null;
+  mmluPlus: number | null;
+  gpqa: number | null;
+}
+```
 
-### Benchmark Information:
-- Collect and verify benchmark scores for the following 15 frontier models:
-  1. GPT-5.5 (OpenAI)
-  2. Claude Opus 4.7 (Anthropic)
-  3. Claude Sonnet 4.6 (Anthropic)
-  4. Gemini 3.1 Pro (Google)
-  5. Gemini 2.5 Pro (Google)
-  6. Llama 4 Behemoth (Meta)
-  7. Llama 4 Scout (Meta)
-  8. Grok 4.20 Beta (xAI)
-  9. Nemotron 3 Super (NVIDIA)
-  10. DeepSeek V4 (DeepSeek)
-  11. Qwen3.5 (Alibaba)
-  12. Doubao 2.0 (ByteDance)
-  13. MiniMax M2.7 (MiniMax)
-  14. Kimi 2.6 (Moonshot)
-  15. Qwen 3.6 Max (Alibaba)
+## Validation Schema (schemas/index.ts)
+```typescript
+export const BenchmarkModelSchema: z.ZodType<BenchmarkModel> = z.object({
+  id: z.string(),
+  name: z.string(),
+  provider: z.string(),
+  openSource: z.boolean(),
+  mmlu: z.number().nullable(),
+  humaneval: z.number().nullable(),
+  livebench: z.number().nullable(),
+  mmluPlus: z.number().nullable(),
+  gpqa: z.number().nullable(),
+});
+```
 
-### Benchmark Types to Include:
-- MMLU (Massive Multitask Language Understanding)
-- MMLU+ (Enhanced MMLU)
-- HumanEval (Code Generation)
-- LiveBench (Contamination-free evaluation)
-- GPQA (Graduate-Level Science Questions)
+## Data Format Rules
+- **Root**: Array of `BenchmarkModel` objects
+- All 5 benchmark scores per model: `mmlu`, `mmluPlus`, `humaneval`, `livebench`, `gpqa`
+- Use `null` for unavailable scores (NOT `undefined` or omitted)
+- All scores are `number | null`
+- New models from research → ADD them
+- Models no longer in frontier → REMOVE them
 
-### General Tasks:
-1. Check RESEARCH-SOURCES.md for citation guidelines
-2. Verify benchmark scores against latest independent sources
-3. Ensure all 15 models are represented with current data
-4. Add disclaimer about data being current as of update date if appropriate
+## Benchmark Types
+| Key | Full Name | What it Measures |
+|-----|-----------|-----------------|
+| `mmlu` | MMLU | Massive Multitask Language Understanding |
+| `mmluPlus` | MMLU+ | Enhanced MMLU |
+| `humaneval` | HumanEval | Code generation |
+| `livebench` | LiveBench | Contamination-free evaluation |
+| `gpqa` | GPQA | Graduate-Level Science Questions |
 
-## Sources to Consult:
-- Independent benchmarking sites (Artificial Analysis, LMCouncil, LiveBench)
-- Official model announcement blogs (OpenAI, Anthropic, Google, Meta, etc.)
-- Research papers with benchmark results
-- Recent AI news aggregators (March-June 2026)
+## What to Update Per Model
+| Field | What to Verify |
+|-------|---------------|
+| `mmlu` | Latest MMLU score |
+| `mmluPlus` | Latest MMLU+ score |
+| `humaneval` | Latest HumanEval score |
+| `livebench` | Latest LiveBench score |
+| `gpqa` | Latest GPQA score |
+| `openSource` | Current status |
 
-## Verification Steps:
-1. After updates, run `lsp_diagnostics` on changed files to check for TypeScript errors
-2. Verify number formatting uses the `formatNumber` utility correctly
-3. Ensure all benchmark scores are numbers (not strings)
-4. Confirm visualization data matches the benchmarkModels array
+### Step 3: Provider Colors (if new provider)
+Update `providerColors` in `src/app/benchmarks/page.tsx` if new providers added:
+```typescript
+const providerColors: Record<string, string> = {
+  OpenAI: '#4ade80',
+  Anthropic: '#fb923c',
+  Google: '#60a5fa',
+  xAI: 'rgba(255, 255, 255, 0.7)',
+  Meta: '#c084fc',
+  DeepSeek: '#f87171',
+  Alibaba: '#fbbf24',
+  Mistral: '#22d3ee',
+  NVIDIA: '#76b900',
+  MiniMax: '#818cf8',
+  Moonshot: '#c084fc',
+};
+```
 
-## Research Requirements:
-1. **Research**: Find the latest benchmark scores for all 15 models from:
-   - Independent benchmarking sites
-   - Official model releases with benchmark claims
-   - Research papers and technical reports
+## Verification
+1. `npm run build` — must succeed
+2. All scores validated via `BenchmarkModelSchema`
+3. New models appear in data file
+4. Scores match independent sources where available
 
-2. **Content Focus**:
-   - Verifiable benchmark scores from trusted sources
-   - Prioritize independent evaluations over self-reported scores
-   - Note the source and date of each benchmark score
-
-3. **Update Specifications**:
-   - Update the model data in `/src/data/benchmarkModels.json` with current information
-   - Maintain the exact same JSON structure (id, name, provider, openSource, mmlu, humaneval, livebench, mmluPlus, gpqa)
-   - The page.tsx imports from `../data/benchmarkModels.json` automatically
-   - Use null for any unavailable benchmark scores
-
-4. **Data Verification**:
-   - All source links must be accessible (return HTTP 200)
-   - Prefer links to official benchmark reports or independent evaluation sites
-
-5. **Technical Requirements**:
-   - **DO NOT modify any UI or CSS** - only update content information (benchmark data)
-   - Maintain existing code structure and styling
-   - Do not modify any other parts of the file unnecessarily
-   - Ensure TypeScript compiles without errors
-   - Ensure the build succeeds (npm run build)
-
-## Process:
-1. Research latest benchmark scores for all 15 frontier models
-2. Verify scores from independent sources where possible
-3. For each model:
-   - Gather benchmark scores (MMLU, MMLU+, HumanEval, LiveBench, GPQA)
-   - Verify source URLs for benchmark data
-4. Update the benchmark data in `/src/data/benchmarkModels.json`
-5. Run build verification: `npm run build`
-6. Fix any issues that arise
-
-## Quality Checks Before Completion:
-- [ ] All 15 frontier models have benchmark data
-- [ ] Benchmark scores are from verifiable sources
-- [ ] All source URLs return HTTP 200 when tested
-- [ ] TypeScript compiles without errors
-- [ ] Build succeeds: `npm run build`
-- [ ] Maintains existing formatting and code structure
-- [ ] Visualization data properly reflects the benchmark scores
-
-## Last Updated Date
-Update ALL "Last updated:" dates in the file to today's date (Month DD, YYYY format).
+## Constraints
+- **DO NOT modify UI or CSS** in `page.tsx`
+- Only update `benchmarkModels.json`
+- Chart auto-builds from data — no chart code changes needed

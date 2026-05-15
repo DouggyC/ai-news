@@ -1,93 +1,139 @@
 # Update AI News Homepage Cards
 
-## Task Description
-Update the homepage news cards in `/src/app/page.tsx` with the latest AI news from frontier/FAANG companies (OpenAI, Anthropic, Google, Meta, xAI, NVIDIA, Apple) focusing on model releases and AI product updates from the current month.
+## Objective
+Research latest AI news (model releases, product launches, major announcements) from the last 7-14 days, then update the news cards data file. The page displays cards automatically from data.
 
-## ⚠️ MANDATORY PRE-UPDATE RESEARCH
-Before updating ANY content, run research to discover the current landscape:
+## 3-Step Process
 
-### Research Queries (execute all):
+### Step 1: Research (DO THIS FIRST)
+Research recent AI news. **Do NOT assume existing news is still relevant or complete.**
+
+Research queries to execute:
 ```
-OpenAI AI models [current month] 2026 site:openai.com OR site:techcrunch.com
-Anthropic AI models [current month] 2026 site:anthropic.com OR site:techcrunch.com  
-Google AI models [current month] 2026 site:deepmind.google OR site:techcrunch.com
-Meta AI models [current month] 2026 site:ai.meta.com OR site:techcrunch.com
-xAI Grok models [current month] 2026 site:x.ai OR site:techcrunch.com
-NVIDIA AI models [current month] 2026 site:nvidia.com OR site:techcrunch.com
-Apple AI [current month] 2026 site:apple.com OR site:techcrunch.com
-DeepSeek AI models [current month] 2026 site:deepseek.com OR site:techcrunch.com
-Alibaba Qwen [current month] 2026 site:qwenlm.ai OR site:techcrunch.com
-MiniMax AI models [current month] 2026 site:minimaxi.com OR site:techcrunch.com
+OpenAI AI news May 2026 site:openai.com OR site:techcrunch.com OR site:theverge.com
+Anthropic AI news May 2026 site:anthropic.com OR site:techcrunch.com OR site:theverge.com
+Google AI news May 2026 site:deepmind.google OR site:techcrunch.com OR site:theverge.com
+Meta AI news May 2026 site:ai.meta.com OR site:techcrunch.com OR site:theverge.com
+xAI Grok news May 2026 site:x.ai OR site:techcrunch.com OR site:theverge.com
+NVIDIA AI news May 2026 site:nvidia.com OR site:techcrunch.com OR site:theverge.com
+DeepSeek AI news May 2026 site:deepseek.com OR site:techcrunch.com OR site:theverge.com
+Alibaba Qwen AI news May 2026 site:qwenlm.ai OR site:techcrunch.com OR site:theverge.com
+MiniMax AI news May 2026 site:minimaxi.com OR site:techcrunch.com OR site:theverge.com
+Mistral AI news May 2026 site:mistral.ai OR site:techcrunch.com OR site:theverge.com
 ```
 
-### What to Discover:
-1. **New model names** released since last update
-2. **Discontinued/replaced models** - any models with newer versions
-3. **Major version jumps** - e.g., V3 → V4
-4. **Proprietary ↔ Open Source changes** - new open models, newly closed models
+Discover:
+- New model releases from the last 7-14 days
+- Major product launches
+- Significant capability announcements
+- New companies entering the space
+- Discontinued models/products
 
-**Do NOT assume any model name or status from the previous version is still current.**
-**Update content to match reality as discovered through research.**
+**Do NOT assume any previous news is still recent. Start fresh from research.**
 
-## Requirements
-1. **Research**: Find the latest AI news (preferably from the last 7-14 days) from:
-   - OpenAI (GPT models, Codex, Sora, etc.)
-   - Anthropic (Claude models, Claude Code, etc.)
-   - Google (Gemini models, Workspace AI, etc.)
-   - Meta (Llama models, Muse Spark, AI products, etc.)
-   - xAI (Grok models)
-   - NVIDIA (AI chips, models, software)
-   - Apple (AI hardware/features if significantly AI-focused)
-   - DeepSeek, Alibaba, ByteDance, Mistral, MiniMax
+### Step 2: Update Data File
+After research, update `src/data/newsCards.json` to reflect current news.
 
-2. **Content Focus**: Only include:
-   - New model releases/updates
-   - Significant AI product launches
-   - Major AI feature announcements
-   - Skip partnerships, acquisitions, or non-product news unless they're major AI launches
+**File**: `src/data/newsCards.json`
+**Imported by**: `src/app/page.tsx`
+**Validated by**: `NewsCardSchema` from `src/schemas/index.ts` via `validateData()`
 
-3. **Update Specifications**:
-   - Edit `/src/data/newsCards.json` with the new cards array (24 items)
-   - Maintain the exact same JSON structure (id, title, summary, source, sourceUrl, imageUrl, category, publishedAt)
-   - The page.tsx imports from `../data/newsCards.json` automatically
-   - Categories should be: 'model' for AI models, 'product' for AI products/features, 'tool' for AI tools
-   - Use current month dates for all publishedAt fields (YYYY-MM-DD format)
-   - Summaries should be 1-2 sentences describing the key announcement
+## TypeScript Interface (types/index.ts)
+```typescript
+export interface NewsCard {
+  id: string;
+  title: string;
+  summary: string;
+  source: string;
+  sourceUrl: string;
+  imageUrl: string;
+  category: 'model' | 'product' | 'tool' | 'capability' | 'research';
+  publishedAt: string;
+}
+```
 
-4. **Image Handling**:
-   - Use company-specific images from `data/data/images.json` instead of generic Unsplash images
-   - Verify image URLs are accessible (return HTTP 200)
+## Validation Schema (schemas/index.ts)
+```typescript
+export const NewsCardSchema: z.ZodType<NewsCard> = z.object({
+  id: z.string(),
+  title: z.string(),
+  summary: z.string(),
+  source: z.string(),
+  sourceUrl: z.string(),
+  imageUrl: z.string(),
+  category: z.enum(['model', 'product', 'tool', 'capability', 'research']),
+  publishedAt: z.string(),
+});
+```
 
-5. **Alternative Sources Strategy**:
-   - Never leave broken URLs - always find working alternatives
-   - All sourceUrl links must be accessible (return HTTP 200)
+## Data Format
+```json
+[
+  {
+    "id": "openai-gpt-5-5-pro-2026-05-15",
+    "title": "GPT-5.5 Pro Released with 1M Token Context",
+    "summary": "OpenAI announces GPT-5.5 Pro featuring improved reasoning and 1M token context window.",
+    "source": "OpenAI",
+    "sourceUrl": "https://openai.com/blog/gpt-5-5-pro",
+    "imageUrl": "https://example.com/openai-logo.png",
+    "category": "model",
+    "publishedAt": "2026-05-15"
+  }
+]
+```
 
-6. **Technical Requirements**:
-   - **DO NOT modify any UI or CSS** - only update content information (news cards data)
-   - Ensure TypeScript compiles without errors
-   - Ensure the build succeeds (npm run build)
+## Card Fields
+| Field | Rule |
+|-------|------|
+| `id` | Unique string, e.g. `'openai-gpt-5-5-pro-2026-05-15'` |
+| `title` | Concise announcement title |
+| `summary` | 1-2 sentences, key details |
+| `source` | Company name (e.g. `'OpenAI'`) |
+| `sourceUrl` | Direct link to announcement (HTTP 200 required) |
+| `imageUrl` | Link to image (HTTP 200 required) |
+| `category` | `model`, `product`, `tool`, `capability`, or `research` |
+| `publishedAt` | `YYYY-MM-DD` format |
 
-## Process
-1. Execute pre-update research queries above
-2. Research latest AI news from target companies
-3. Select 24 most relevant/recent model/product announcements
-4. For each card:
-   - Craft appropriate title and summary
-   - Verify source URL accessibility
-   - Find/verify working image URL
-   - Assign correct category
-   - Set current month date
-5. Replace the newsCards array in `/src/data/newsCards.json`
-6. Run build verification: `npm run build`
+## Categories
+| Value | When to Use |
+|-------|-------------|
+| `model` | AI model releases/updates |
+| `product` | Product launches, AI-powered features |
+| `tool` | Developer tools, APIs, IDEs |
+| `capability` | Major capability announcements (not a product) |
+| `research` | Research papers, benchmarks, milestones |
 
-## Quality Checks Before Completion
-- [ ] Exactly 24 cards in the newsCards array
-- [ ] All companies represented are frontier/FAANG AI leaders
-- [ ] All content is from current month (no outdated news)
-- [ ] All image URLs return HTTP 200 when tested
-- [ ] All source URLs return HTTP 200 when tested
-- [ ] TypeScript compiles without errors
-- [ ] Build succeeds: `npm run build`
+## Target Companies (Top 15+ frontier AI)
+NVIDIA, Microsoft, Google, Amazon, Meta, Oracle, ByteDance, Adobe, Alibaba, OpenAI, Anthropic, xAI, DeepSeek, Mistral, MiniMax, Moonshot, Apple, StabilityAI, Runway, Perplexity, Hugging Face, Zhipu AI
 
-## Last Updated Date
-Update the "Last updated:" date at the top of the file to today's date (Month DD, YYYY format).
+## Card Limits
+- **Maximum**: 24 cards
+- **Age**: Last 7-14 days preferred
+- **Focus**: Model releases, product launches, major announcements
+
+## Image Sources
+- **Primary**: Company logos from `data/data/images.json`
+- All images must return HTTP 200
+- Never include broken image URLs
+
+## What to Update
+- Remove old/expired news (older than ~14 days)
+- Add new news discovered in research
+- Ensure all URLs work (HTTP 200)
+- Correct category assignment
+- Current `publishedAt` dates
+
+### Step 3: Header Date
+Update "Last updated:" in `src/app/page.tsx` to today.
+
+## Verification
+1. `npm run build` — must succeed
+2. All 24 or fewer cards pass `NewsCardSchema` validation
+3. All `sourceUrl` links return HTTP 200
+4. All `imageUrl` links return HTTP 200
+5. News is from last 7-14 days
+
+## Constraints
+- **DO NOT modify UI or CSS** in `page.tsx`
+- Only update `newsCards.json` and header date
+- Cards validated via `validateData(NewsCardSchema.array(), newsCardsData)`

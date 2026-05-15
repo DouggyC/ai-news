@@ -1,14 +1,15 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useState, useMemo, useCallback } from 'react';
 import { formatNumber } from '@/lib/utils';
+import compareModelsData from '@/data/compare-page-data.json';
 
-interface FrontierModel {
+export interface FrontierModel {
   id: string;
   name: string;
   provider: string;
   openSource: boolean;
-  license: string;
+  license?: string;
   releaseDate: string;
   parameters: number;
   modelSizeGB: number;
@@ -17,7 +18,7 @@ interface FrontierModel {
   outputPrice: number;
   free: boolean;
   mmlu: number;
-  mmluPlus: number;
+  mmluPlus?: number;
   humaneval: number;
   liveBench: number;
   multimodal: boolean;
@@ -27,166 +28,74 @@ interface FrontierModel {
   search: boolean;
 }
 
+const providerColors: Record<string, string> = {
+  OpenAI: '#4ade80',
+  Anthropic: '#fb923c',
+  Google: '#60a5fa',
+  xAI: 'rgba(255, 255, 255, 0.7)',
+  Meta: '#c084fc',
+  DeepSeek: '#f87171',
+  Alibaba: '#fbbf24',
+  Mistral: '#22d3ee',
+  NVIDIA: '#76b900',
+  MiniMax: '#818cf8',
+  Moonshot: '#c084fc',
+};
+
 export default function ComparePage() {
-  const [frontierModels, setFrontierModels] = useState<FrontierModel[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
+  const [frontierModels] = useState<FrontierModel[]>(() => {
+    const data = compareModelsData as unknown;
+    if (Array.isArray(data)) return data as FrontierModel[];
+    if (data && typeof data === 'object' && 'productData' in data) {
+      return (data as { productData: FrontierModel[] }).productData;
+    }
+    return [];
+  });
   const [sortField, setSortField] = useState<keyof FrontierModel>('name');
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc');
 
-  useEffect(() => {
-    fetch('/data/models-data.json')
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        return response.json();
-      })
-      .then((data: FrontierModel[]) => {
-        setFrontierModels(data);
-        setLoading(false);
-      })
-      .catch((error) => {
-        console.error('Error loading model data:', error);
-        setError('Failed to load model data');
-        setLoading(false);
-        setFrontierModels([
-          {
-            id: 'gpt-5.4-thinking',
-            name: 'GPT-5.4 Thinking',
-            provider: 'OpenAI',
-            openSource: false,
-            license: 'Proprietary',
-            releaseDate: '2026-03-05',
-            parameters: 2_000_000_000_000,
-            modelSizeGB: 1500,
-            contextLength: 1000000,
-            inputPrice: 2.5,
-            outputPrice: 15.0,
-            free: false,
-            mmlu: 87.2,
-            mmluPlus: 88.5,
-            humaneval: 73.8,
-            liveBench: 63.5,
-            multimodal: true,
-            vision: true,
-            functionCalling: true,
-            json: true,
-            search: true,
-          },
-        ]);
-        setLoading(false);
-      });
-  }, []);
+  const handleSort = useCallback((field: keyof FrontierModel) => {
+    setSortField(prev => prev === field ? sortField : field);
+    setSortOrder(prev => (sortField === field ? (prev === 'asc' ? 'desc' : 'asc') : 'desc'));
+  }, [sortField]);
 
-  const handleSort = (field: keyof FrontierModel) => {
-    if (sortField === field) {
-      setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc');
-    } else {
-      setSortField(field);
-      setSortOrder('desc');
-    }
-  };
+  const sortedModels = useMemo(() =>
+    [...frontierModels].sort((a, b) => {
+      const valA = a[sortField];
+      const valB = b[sortField];
 
-  const sortedModels = [...frontierModels].sort((a, b) => {
-    const valA = a[sortField];
-    const valB = b[sortField];
-    if (typeof valA === 'number' && typeof valB === 'number') {
-      return sortOrder === 'asc' ? valA - valB : valB - valA;
-    }
-    if (typeof valA === 'string' && typeof valB === 'string') {
-      return sortOrder === 'asc'
-        ? valA.localeCompare(valB)
-        : valB.localeCompare(valA);
-    }
-    if (typeof valA === 'boolean' && typeof valB === 'boolean') {
-      return sortOrder === 'asc'
-        ? valA === valB
-          ? 0
-          : valA
-            ? -1
-            : 1
-        : valA === valB
-          ? 0
-          : valA
-            ? 1
-            : -1;
-    }
-    return 0;
-  });
+      if (valA === undefined || valB === undefined) return 0;
 
-  const providerColors: Record<string, string> = {
-    OpenAI: '#4ade80',
-    Anthropic: '#fb923c',
-    Google: '#60a5fa',
-    xAI: 'rgba(255, 255, 255, 0.7)',
-    Meta: '#c084fc',
-    DeepSeek: '#f87171',
-    Alibaba: '#fbbf24',
-    Mistral: '#22d3ee',
-    NVIDIA: '#76b900',
-    MiniMax: '#818cf8',
-    Moonshot: '#c084fc',
-  };
+      if (typeof valA === 'number' && typeof valB === 'number') {
+        return sortOrder === 'asc' ? valA - valB : valB - valA;
+      }
+      if (typeof valA === 'string' && typeof valB === 'string') {
+        return sortOrder === 'asc'
+          ? valA.localeCompare(valB)
+          : valB.localeCompare(valA);
+      }
+      if (typeof valA === 'boolean' && typeof valB === 'boolean') {
+        if (valA === valB) return 0;
+        const order = sortOrder === 'asc' ? -1 : 1;
+        return valA ? order : -order;
+      }
+      return 0;
+    }),
+  [frontierModels, sortField, sortOrder]);
 
   function getFeatureIcon(enabled: boolean): string {
     return enabled ? '✓' : '—';
   }
 
-  function getPriceDisplay(price: number, free: boolean): string {
+  function getPriceDisplay(
+    price: number | undefined | null,
+    free: boolean,
+  ): string {
     if (free) return 'Free';
+    if (price === undefined || price === null || typeof price !== 'number') {
+      return 'n/a';
+    }
     return `$${price.toFixed(2)}`;
-  }
-
-  if (loading) {
-    return (
-      <div className='min-h-screen flex items-center justify-center'>
-        <div className='text-center'>
-          <div
-            style={{
-              width: '32px',
-              height: '32px',
-              borderRadius: '50%',
-              border: '2px solid rgba(255, 255, 255, 0.1)',
-              borderTopColor: '#00ffff',
-              animation: 'spin 1s linear infinite',
-            }}
-          />
-          <p
-            style={{
-              marginTop: '16px',
-              color: 'rgba(255, 255, 255, 0.5)',
-              fontSize: '14px',
-            }}
-          >
-            Loading model data...
-          </p>
-        </div>
-      </div>
-    );
-  }
-
-  if (error && frontierModels.length === 0) {
-    return (
-      <div className='min-h-screen flex items-center justify-center'>
-        <div className='text-center'>
-          <p style={{ color: '#ef4444' }}>{error}</p>
-          <button
-            onClick={() => window.location.reload()}
-            style={{
-              marginTop: '16px',
-              padding: '8px 16px',
-              backgroundColor: '#00ffff',
-              color: '#000',
-              borderRadius: '4px',
-              fontWeight: 500,
-            }}
-          >
-            Retry
-          </button>
-        </div>
-      </div>
-    );
   }
 
   return (
@@ -416,9 +325,9 @@ export default function ComparePage() {
                 className='divide-y'
                 style={{ borderColor: 'rgba(255, 255, 255, 0.06)' }}
               >
-                {sortedModels.map((model) => (
+                {sortedModels.map((model, index) => (
                   <tr
-                    key={model.id}
+                    key={`${model.id || 'model'}-${index}`}
                     className='hover:bg-white/5 transition-colors group'
                     style={{
                       borderBottom: '1px solid rgba(255, 255, 255, 0.06)',
@@ -464,7 +373,9 @@ export default function ComparePage() {
                           border: `1px solid ${model.openSource ? 'rgba(34, 197, 94, 0.2)' : 'rgba(99, 102, 241, 0.2)'}`,
                         }}
                       >
-                        {model.openSource ? model.license : 'Proprietary'}
+                        {model.openSource
+                          ? model.license || 'Open'
+                          : 'Proprietary'}
                       </span>
                     </td>
                     <td
@@ -542,7 +453,9 @@ export default function ComparePage() {
                         fontSize: '14px',
                       }}
                     >
-                      {model.liveBench.toFixed(1)}%
+                      {model.liveBench !== undefined && model.liveBench !== null
+                        ? `${model.liveBench.toFixed(1)}%`
+                        : 'n/a'}
                     </td>
                     <td
                       className='py-4 px-6 text-center'

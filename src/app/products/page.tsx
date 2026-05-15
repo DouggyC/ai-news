@@ -1,6 +1,6 @@
 'use client';
 
-import productDataData from '@/data/productData.json';
+import productDataData from '@/data/products-page-data.json';
 import { ProductRow } from '@/types/index';
 import { ProductTable } from '@/components/ProductTable';
 import { validateData, ProductRowSchema } from '@/schemas/index';
