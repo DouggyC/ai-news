@@ -238,5 +238,65 @@
     "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
     "category": "tool",
     "publishedAt": "2026-05-08"
+  },
+  {
+    "id": "25",
+    "title": "Samsung Gauss 2 enters limited release for Galaxy S26 AI features",
+    "summary": "Samsung Gauss 2 enters limited release powering Galaxy S26 AI features with on-device inference. The model offers improved Korean language processing and reduced latency for local AI tasks.",
+    "source": "Samsung",
+    "sourceUrl": "https://www.samsung.com/semiconductor/mini-site/gauss/",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg",
+    "category": "model",
+    "publishedAt": "2026-05-12"
+  },
+  {
+    "id": "26",
+    "title": "Kimi launches K2.6 with 1M context and enhanced long-context reasoning",
+    "summary": "Kimi launches K2.6 with native 1 million token context and improved reasoning capabilities. Excels in document summarization and multi-turn conversations with extended context retention.",
+    "source": "Kimi",
+    "sourceUrl": "https://kimi.moonshot.cn/docs/k2",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Moonshot_AI_logo.svg",
+    "category": "model",
+    "publishedAt": "2026-05-10"
+  },
+  {
+    "id": "27",
+    "title": "01.AI launches K2 Think V2 with improved reasoning and function calling",
+    "summary": "01.AI launches K2 Think V2 with enhanced chain-of-thought reasoning and improved function calling capabilities. Supports 256K context window for enterprise applications.",
+    "source": "01.AI",
+    "sourceUrl": "https://www.01.ai/#/en-us/docs/k2",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/01.ai_logo.png",
+    "category": "model",
+    "publishedAt": "2026-05-08"
+  },
+  {
+    "id": "28",
+    "title": "Microsoft Copilot gains GPT-5.5 Turbo integration with enhanced reasoning",
+    "summary": "Microsoft integrates GPT-5.5 Turbo into Copilot for Microsoft 365 enterprise users. Offers improved document drafting, meeting summarization, and cross-application context awareness.",
+    "source": "Microsoft",
+    "sourceUrl": "https://blogs.microsoft.com/blog/2026/05/copilot-gpt-5-integration/",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg",
+    "category": "product",
+    "publishedAt": "2026-05-11"
+  },
+  {
+    "id": "29",
+    "title": "Amazon Nova 2.0 Pro Preview launches with enhanced multimodal capabilities",
+    "summary": "Amazon Nova 2.0 Pro Preview launches on AWS with improved multimodal understanding and longer context. Powers Amazon Q Business with enhanced enterprise AI capabilities.",
+    "source": "Amazon",
+    "sourceUrl": "https://aws.amazon.com/bedrock/nova/",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_Tech_logo.svg",
+    "category": "model",
+    "publishedAt": "2026-05-06"
+  },
+  {
+    "id": "30",
+    "title": "Oracle OCI Generative AI adds Claude models with enterprise SLA",
+    "summary": "Oracle OCI Generative AI adds Anthropic Claude models to its enterprise AI portfolio with dedicated infrastructure and SLA guarantees. Targets regulated industries requiring data sovereignty.",
+    "source": "Oracle",
+    "sourceUrl": "https://www.oracle.com/cloud/artificial-intelligence/generative-ai/",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg",
+    "category": "product",
+    "publishedAt": "2026-05-04"
   }
 ]
