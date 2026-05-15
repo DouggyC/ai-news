@@ -224,7 +224,8 @@
       "Oracle": { "name": "OCI AI", "url": "https://www.oracle.com/artificial-intelligence/", "description": "Oracle enterprise AI services across apps, infrastructure, and databases." },
       "HuggingFace": { "name": "Enterprise Hub", "url": "https://huggingface.co/enterprise", "description": "Private model hub, governance, and deployment controls for enterprise teams." },
       "Adobe": { "name": "Firefly Foundry", "url": "https://business.adobe.com/products/firefly-business/firefly-foundry.html", "description": "Deep-tuned proprietary AI models trained on brand assets. NVIDIA partnership for enterprise-grade custom models across image, video, audio, vector, 3D. IP-protected, commercially safe." },
-      "Adobe": { "name": "CX Enterprise Coworker", "url": "https://business.adobe.com/ai/agentic-ai.html", "description": "Agentic AI for customer experience. Plans, orchestrates, and improves CX processes grounded in enterprise data, workflows, and brand controls. Full auditability and compliance." }
+      "Adobe": { "name": "CX Enterprise Coworker", "url": "https://business.adobe.com/ai/agentic-ai.html", "description": "Agentic AI for customer experience. Plans, orchestrates, and improves CX processes grounded in enterprise data, workflows, and brand controls. Full auditability and compliance." },
+      "Meta": { "name": "Manus AI", "url": "https://ads.twitter.com/tools/meta-ai/", "description": "Autonomous AI agent in Meta Ads Manager (acquired for ~$2B, Feb 2026). Automates report building, audience research, campaign analysis, and anomaly detection for advertisers." }
     }
   },
   {
