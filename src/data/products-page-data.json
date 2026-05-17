@@ -25,7 +25,7 @@
             "xAI": {
                 "name": "Grok 4.3",
                 "url": "https://docs.x.ai/overview",
-                "description": "xAI frontier model family (released April 17, 2026, API May 6) with 1M context, video input, document output. Five models retired May 15, 2026. API: $1.25/$2.50 per 1M tokens. Custom Voices TTS ($4.20/1M chars)."
+                "description": "xAI frontier model family (released April 17, 2026, API May 6) with 1M context, video input, document output. Custom Voices TTS ($4.20/1M chars), Voice Agent API ($3/hr). grok-imagine-image-quality for image generation."
             },
             "ByteDance": {
                 "name": "Doubao 2.0",
@@ -76,6 +76,11 @@
                 "name": "MiniMax M2.7",
                 "url": "https://www.minimax.io/models/text/m27",
                 "description": "MiniMax's latest flagship model (May 15, 2026) with 236B parameters, 200K context, multimodal reasoning, function calling, and open-source weights under Modified-MIT. Powers Hailuo video, Speech 2.5 TTS, and agent workflows."
+            },
+            "Nous Research": {
+                "name": "Hermes 3",
+                "url": "https://github.com/NousResearch/hermes-agent",
+                "description": "Nous Research's open-weight instruction-tuned model series (140K+ GitHub stars). Optimized for local agentic workflows on NVIDIA RTX PCs and DGX Spark. Qwen 3.6 integration for memory-efficient inference."
             }
         }
     },
@@ -90,7 +95,7 @@
             "OpenAI": {
                 "name": "ChatGPT",
                 "url": "https://developers.openai.com/chatgpt",
-                "description": "Powered by GPT-5.5 with GPT-5.5 Instant as new default (May 5, 2026). Memory sources, personalization from past chats and Gmail. Voice intelligence updates May 7, 2026 with Realtime 2, Translate, Whisper models."
+                "description": "Powered by GPT-5.5 with GPT-5.5 Instant as new default (May 5, 2026). Memory sources, personalization from past chats and Gmail. Personal Finance experience (May 15, 2026) for Pro users with Plaid account connection. Voice intelligence updates May 7, 2026 with Realtime 2, Translate, Whisper models."
             },
             "Anthropic": {
                 "name": "Claude",
@@ -100,7 +105,7 @@
             "Microsoft": {
                 "name": "Copilot",
                 "url": "https://copilot.microsoft.com",
-                "description": "OpenAI-powered assistant across web, work, and Microsoft 365 surfaces. Now with Agent Platform, Agents SDK, and Copilot Studio for enterprise orchestration."
+                "description": "Powered by GPT-5.5 Instant (May 7, 2026) across web, work, and Microsoft 365 surfaces. Agent Platform, Agents SDK, and Copilot Studio for enterprise orchestration. Labeled as GPT-5.5 Chat in Office apps."
             },
             "Meta": {
                 "name": "Meta AI",
@@ -170,7 +175,7 @@
             "OpenAI": {
                 "name": "Codex",
                 "url": "https://developers.openai.com/codex/ide",
-                "description": "IDE extension and cloud coding agent powered by GPT-5.5. Available in VS Code and GitHub. Safe coding commitment May 8, 2026. Now on AWS Bedrock (April 28, 2026)."
+                "description": "IDE extension and cloud coding agent powered by GPT-5.5. Available in VS Code and GitHub. Chrome extension (May 7, 2026) for browser tasks with signed-in state. Safe coding commitment May 8, 2026. Now on AWS Bedrock (April 28, 2026)."
             },
             "Anthropic": {
                 "name": "Claude Code",
@@ -197,7 +202,7 @@
                 "url": "https://www.cursor.com",
                 "description": "AI-native editor (v3, April 2, 2026) with Agents Window, cloud-to-local handoff, Design Mode, Composer 2 ($0.50/$2.50 per 1M tokens). Pro $20/mo, Pro+ $60/mo, Ultra $200/mo. Teams integration (May 11, 2026)."
             },
-            "Windsurf": {
+            "Cognition": {
                 "name": "Windsurf Editor",
                 "url": "https://windsurf.com",
                 "description": "Cascade-powered IDE owned by Cognition AI (Devin team). SWE-1.5 at 950 tok/s on Cerebras. Wave 13 brings free SWE-1.5, parallel agents. Pro $20/mo."
@@ -206,6 +211,11 @@
                 "name": "Kiro",
                 "url": "https://kiro.dev",
                 "description": "AI IDE with spec-driven development. Structured AI coding that turns specifications into implementations. Autonomous agent mode for background task completion."
+            },
+            "xAI": {
+                "name": "Grok Build",
+                "url": "https://x.ai/news/grok-build-cli",
+                "description": "xAI coding agent and CLI (May 14, 2026) in early beta for SuperGrok Heavy subscribers. Plan mode for approve-before-execute workflows. Works with AGENTS.md, plugins, hooks, skills, MCP servers. Parallel subagents for large tasks. Headless mode (-p) for scripting."
             }
         }
     },
@@ -226,6 +236,11 @@
                 "name": "Claude Code",
                 "url": "https://www.anthropic.com/claude-code",
                 "description": "CLI coding agent powered by Claude Opus 4.7 and Sonnet 4.6. Desktop app with full feature parity."
+            },
+            "xAI": {
+                "name": "Grok Build CLI",
+                "url": "https://x.ai/news/grok-build-cli",
+                "description": "xAI terminal coding agent (May 14, 2026) for SuperGrok Heavy subscribers. Plan mode, parallel subagents, deep worktree integrations. ACP support for custom bots and orchestration. Headless mode for CI/CD."
             },
             "JetBrains": {
                 "name": "Junie CLI",
@@ -250,7 +265,7 @@
             "Mistral": {
                 "name": "Mistral Vibe",
                 "url": "https://docs.mistral.ai/products",
-                "description": "Open-source terminal-native coding agent powered by Mistral Medium 3.5. Remote cloud sandboxes, parallel async sessions, GitHub PR integration."
+                "description": "Open-source terminal-native coding agent powered by Mistral Medium 3.5. Remote cloud sandboxes via Vibe Code Workflow (May 5, 2026), parallel async sessions, GitHub PR integration."
             },
             "Zapier": {
                 "name": "Zapier Platform CLI",
@@ -295,7 +310,7 @@
             "Microsoft": {
                 "name": "Azure AI Foundry",
                 "url": "https://ai.azure.com",
-                "description": "Unified model, agent, eval, and deployment platform on Azure. Multi-model hub, inference profiles, global cross-region deployment."
+                "description": "Unified model, agent, eval, and deployment platform on Azure. Multi-model hub, inference profiles, global cross-region deployment. GPT-5.5 Instant and GPT-5.5 Thinking available."
             },
             "Amazon": {
                 "name": "Bedrock AgentCore",
@@ -465,7 +480,7 @@
             "Microsoft": {
                 "name": "Copilot Studio",
                 "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/",
-                "description": "Enterprise copilot orchestration for workflows, connectors, and approvals."
+                "description": "Enterprise copilot orchestration for workflows, connectors, and approvals. GPT-5.5 Chat and GPT-5.5 Reasoning model options."
             },
             "Amazon": {
                 "name": "Bedrock Agents",
@@ -546,6 +561,11 @@
                 "name": "WorkBuddy",
                 "url": "https://workbench.tencent.com/workbuddy/",
                 "description": "Enterprise AI agent platform on Tencent Cloud. 20+ built-in skill packs, MCP support, parallel multi-window workflows. WeChat integration for enterprise teams."
+            },
+            "NVIDIA": {
+                "name": "AI Blueprints",
+                "url": "https://build.nvidia.com",
+                "description": "Reference agent systems and services packaged for enterprise AI teams. Hermes agent optimization for RTX PCs and DGX Spark."
             }
         }
     },
@@ -620,7 +640,7 @@
             "MiniMax": {
                 "name": "Hailuo Video",
                 "url": "https://hailuoai.video",
-                "description": "MiniMax's video generation platform (Hailuo 2.3, Hailuo 02) for short-form cinematic clips. Ranked 2nd globally on Artificial Analysis Video Arena with native 1080p generation."
+                "description": "MiniMax's video generation platform (Hailuo 02, May 15, 2026) for short-form cinematic clips. Ranked 2nd globally on Artificial Analysis Video Arena with native 1080p generation."
             },
             "HeyGen": {
                 "name": "HeyGen",
@@ -805,7 +825,7 @@
             "Microsoft": {
                 "name": "Microsoft 365 Copilot",
                 "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/",
-                "description": "Enterprise productivity layer spanning Word, Excel, Teams, and business data. Copilot Studio for orchestration."
+                "description": "Enterprise productivity layer spanning Word, Excel, Teams, and business data. Powered by GPT-5.5 Instant (May 7, 2026) labeled as GPT-5.5 Chat. Copilot Studio for orchestration."
             },
             "Amazon": {
                 "name": "Amazon Q Business",
@@ -850,7 +870,7 @@
             "Ollama": {
                 "name": "Ollama",
                 "url": "https://ollama.com",
-                "description": "Local LLM runtime for private developer and team workflows. Run any model locally."
+                "description": "Local LLM runtime for private developer and team workflows. Run any model locally. Hermes agent and Qwen 3.6 optimized for RTX PCs."
             },
             "LMStudio": {
                 "name": "LM Studio",
@@ -891,6 +911,11 @@
                 "name": "Hunyuan Agent",
                 "url": "https://hunyuan.tencent.com",
                 "description": "Tencent's agent stack for private enterprise and ecosystem scenarios. Powers Yuanbao."
+            },
+            "Nous Research": {
+                "name": "Hermes Agent",
+                "url": "https://hermes-agent.org/",
+                "description": "Open-source autonomous AI agent (140K+ GitHub stars) with persistent memory and self-improvement. Runs locally on NVIDIA RTX PCs, RTX PRO Workstations, and DGX Spark. Works with Qwen 3.6, Llama, Mistral via Ollama or LM Studio."
             }
         }
     },
