@@ -20,24 +20,24 @@
         "publishedAt": "2026-05-15"
     },
     {
-        "id": "minimax-m2-7-launch-2026-05-15",
-        "title": "MiniMax M2.7 launches as latest flagship with improved agentic capabilities",
-        "summary": "MiniMax M2.7 launches with 236B parameters, 200K context, improved multimodal reasoning, and open-source weights under Modified-MIT. Achieves 86.5% MMLU, 80.5% LiveBench.",
-        "source": "MiniMax",
-        "sourceUrl": "https://minimaxi.com/en/news",
-        "imageUrl": "https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png",
-        "category": "model",
-        "publishedAt": "2026-05-15"
-    },
-    {
-        "id": "minimax-hailuo-02-2026-05-15",
+        "id": "minimax-hailuo-02-2026-05-17",
         "title": "MiniMax Hailuo 02 launches with record-breaking cost efficiency for video generation",
         "summary": "MiniMax Hailuo 02 launches with Noise-aware Compute Redistribution architecture achieving 2.5x training efficiency. Ranks second globally on Artificial Analysis Video Arena with native 1080p generation.",
         "source": "MiniMax",
         "sourceUrl": "https://minimaxi.com/en/news/minimax-hailuo-02",
         "imageUrl": "https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png",
         "category": "product",
-        "publishedAt": "2026-05-15"
+        "publishedAt": "2026-05-17"
+    },
+    {
+        "id": "minimax-m2-1-post-training-2026-05-11",
+        "title": "MiniMax M2.1 post-training insights released with Agent model best practices",
+        "summary": "MiniMax M2.1 post-training experience and insights document reveals agent model development learnings. M2.1 ranks #1 among open-source models on Hot Arena leaderboard.",
+        "source": "MiniMax",
+        "sourceUrl": "https://minimaxi.com/en/news/post-training-experience-and-insights-for-agent-models",
+        "imageUrl": "https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png",
+        "category": "research",
+        "publishedAt": "2026-05-11"
     },
     {
         "id": "anthropic-claude-for-small-business-2026-05-13",
@@ -58,6 +58,16 @@
         "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
         "category": "tool",
         "publishedAt": "2026-05-13"
+    },
+    {
+        "id": "nvidia-sap-trust-agents-2026-05-12",
+        "title": "NVIDIA and SAP Bring Trust to Specialized Agents with OpenShell integration",
+        "summary": "NVIDIA and SAP announce expanded collaboration at SAP Sapphire to help enterprises run specialized agents with security and governance controls through OpenShell open-source runtime.",
+        "source": "NVIDIA",
+        "sourceUrl": "https://blogs.nvidia.com/blog/sap-specialized-agents/",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
+        "category": "product",
+        "publishedAt": "2026-05-12"
     },
     {
         "id": "xai-grok-build-early-beta-2026-05-14",
@@ -90,32 +100,72 @@
         "publishedAt": "2026-05-14"
     },
     {
-        "id": "anthropic-enterprise-ai-services-blackstone-2026-05-04",
-        "title": "Anthropic forms $200M enterprise AI services partnership with Blackstone, Hellman & Friedman, Goldman Sachs",
-        "summary": "Anthropic, Blackstone, Hellman & Friedman, and Goldman Sachs announce new AI services company to bring Claude to mid-sized companies across sectors. Backed by General Atlantic, Leonard Green, Apollo, GIC, and Sequoia.",
+        "id": "anthropic-pwc-deploys-claude-2026-05-15",
+        "title": "Anthropic and PwC expand alliance to deploy Claude for technology build and enterprise reinvention",
+        "summary": "Anthropic and PwC expand strategic alliance to use Claude to build technology, execute deals, and reinvent enterprise functions globally. Claude already running in production across sports operations, insurance underwriting, and mainframe modernization.",
         "source": "Anthropic",
-        "sourceUrl": "https://www.anthropic.com/news/enterprise-ai-services-company",
+        "sourceUrl": "https://www.anthropic.com/news/pwc-expanded-partnership",
         "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
         "category": "product",
-        "publishedAt": "2026-05-04"
+        "publishedAt": "2026-05-15"
     },
     {
-        "id": "mistral-vibe-remote-agents-medium-3-5-2026-05-05",
-        "title": "Mistral launches Vibe remote coding agents that open pull requests when done",
-        "summary": "Mistral launches Vibe remote coding agents running in cloud sandboxes that can autonomously open pull requests when tasks complete. Powered by Mistral Medium 3.5 for enterprise coding workflows.",
-        "source": "Mistral",
-        "sourceUrl": "https://mistral.ai/news/vibe-coding-agents",
-        "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
+        "id": "google-ai-pointer-2026-05-12",
+        "title": "Google DeepMind reimagines the mouse pointer with AI interaction research",
+        "summary": "Google DeepMind publishes research on shaping the future of AI interaction by reimagining the mouse pointer, exploring new paradigms for human-AI interface design.",
+        "source": "Google",
+        "sourceUrl": "https://deepmind.google/blog/ai-pointer/",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+        "category": "research",
+        "publishedAt": "2026-05-12"
+    },
+    {
+        "id": "google-alphaevolve-2026-05-07",
+        "title": "Google DeepMind AlphaEvolve coding agent scales impact across scientific fields",
+        "summary": "AlphaEvolve, Google's Gemini-powered coding agent, demonstrates success in accelerating mathematical and scientific discovery, enhancing data center efficiency, chip design, and AI training processes.",
+        "source": "Google",
+        "sourceUrl": "https://deepmind.google/blog/alphaevolve-impact/",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+        "category": "tool",
+        "publishedAt": "2026-05-07"
+    },
+    {
+        "id": "xai-connectors-web-ios-android-2026-05-06",
+        "title": "xAI launches Grok Connectors for deep integrations across web, iOS, and Android",
+        "summary": "xAI launches Grok Connectors bringing deep integrations that bring the apps users use every day directly into Grok, expanding the assistant's capabilities across platforms.",
+        "source": "xAI",
+        "sourceUrl": "https://x.ai/news",
+        "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
         "category": "product",
-        "publishedAt": "2026-05-05"
+        "publishedAt": "2026-05-06"
     },
     {
-        "id": "openai-gpt-5-5-instant-2026-05-05",
-        "title": "GPT-5.5 Instant launches with smarter, clearer responses and better personalization",
-        "summary": "GPT-5.5 Instant launches with improved factuality, producing 52.5% fewer hallucinated claims than GPT-5.3 Instant. Features memory sources giving users visibility and control over personalization context.",
-        "source": "OpenAI",
-        "sourceUrl": "https://openai.com/index/gpt-5-5-instant/",
-        "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
+        "id": "xai-spacexai-anthropic-compute-partnership-2026-05-06",
+        "title": "SpaceXAI signs agreement with Anthropic to provide access to Colossus 1 supercomputer",
+        "summary": "SpaceXAI signs agreement with Anthropic to provide access to Colossus 1, one of the world's largest AI supercomputers with over 220,000 NVIDIA GPUs. Partnership includes plans to develop multiple gigawatts of orbital AI capacity.",
+        "source": "xAI",
+        "sourceUrl": "https://x.ai/news/anthropic-compute-partnership",
+        "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
+        "category": "capability",
+        "publishedAt": "2026-05-06"
+    },
+    {
+        "id": "xai-grok-imagine-quality-mode-2026-05-06",
+        "title": "xAI launches Grok Imagine Quality Mode API for higher realism and better text rendering",
+        "summary": "Grok Imagine Quality Mode API launches with higher realism, stronger text rendering, and better creative control for enterprise developers and teams.",
+        "source": "xAI",
+        "sourceUrl": "https://x.ai/news/grok-imagine-quality-mode",
+        "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
+        "category": "tool",
+        "publishedAt": "2026-05-06"
+    },
+    {
+        "id": "mistral-medium-3-5-remote-agents-2026-05-05",
+        "title": "Mistral Medium 3.5 launches with remote coding agents in Vibe",
+        "summary": "Mistral Medium 3.5 launches as a frontier-class multimodal model optimized for agentic and coding use cases. Remote coding agents run in cloud sandboxes and can autonomously open pull requests when tasks complete.",
+        "source": "Mistral",
+        "sourceUrl": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
+        "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
         "category": "model",
         "publishedAt": "2026-05-05"
     },
@@ -150,13 +200,43 @@
         "publishedAt": "2026-05-08"
     },
     {
-        "id": "microsoft-copilot-gpt-5-5-turbo-2026-05-11",
-        "title": "Microsoft Copilot gains GPT-5.5 Turbo integration with enhanced reasoning",
-        "summary": "Microsoft integrates GPT-5.5 Turbo into Copilot for Microsoft 365 enterprise users. Offers improved document drafting, meeting summarization, and cross-application context awareness.",
-        "source": "Microsoft",
-        "sourceUrl": "https://blogs.microsoft.com/blog/2026/05/copilot-gpt-5-integration/",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg",
+        "id": "nvidia-corning-partnership-2026-05-06",
+        "title": "NVIDIA and Corning announce long-term partnership to strengthen US manufacturing for AI infrastructure",
+        "summary": "NVIDIA and Corning announce multiyear partnership to expand US-based manufacturing of advanced optical connectivity solutions. Corning will increase optical connectivity manufacturing capacity 10x and create 3,000+ jobs.",
+        "source": "NVIDIA",
+        "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-and-corning-announce-long-term-partnership-to-strengthen-us-manufacturing-for-ai-infrastructure",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
+        "category": "capability",
+        "publishedAt": "2026-05-06"
+    },
+    {
+        "id": "nvidia-suzanne-nora-johnson-board-2026-05-08",
+        "title": "NVIDIA names Suzanne Nora Johnson to Board of Directors",
+        "summary": "NVIDIA announces appointment of Suzanne Nora Johnson to its Board of Directors, bringing extensive financial and technology industry expertise to the company.",
+        "source": "NVIDIA",
+        "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-names-suzanne-nora-johnson-to-board-of-directors",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
+        "category": "capability",
+        "publishedAt": "2026-05-08"
+    },
+    {
+        "id": "nvidia-iren-5-gw-partnership-2026-05-07",
+        "title": "NVIDIA and IREN announce strategic partnership to accelerate deployment of up to 5 gigawatts of AI infrastructure",
+        "summary": "NVIDIA and IREN announce strategic partnership to accelerate deployment of up to 5 gigawatts of AI infrastructure, marking another major investment in AI data center capacity.",
+        "source": "NVIDIA",
+        "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-and-iren-announce-strategic-partnership-to-accelerate-deployment-of-up-to-5-gigawatts-of-ai-infrastructure",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
+        "category": "capability",
+        "publishedAt": "2026-05-07"
+    },
+    {
+        "id": "anthropic-agents-finance-2026-05-05",
+        "title": "Anthropic launches agents for financial services with ten ready-to-run templates",
+        "summary": "Anthropic releases ten ready-to-run agent templates for financial services: building pitchbooks, screening KYC files, and closing the books at month-end. Claude Opus 4.7 leads industry on Vals AI Finance Agent benchmark at 64.37%.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.anthropic.com/news/finance-agents",
+        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
         "category": "product",
-        "publishedAt": "2026-05-11"
+        "publishedAt": "2026-05-05"
     }
 ]

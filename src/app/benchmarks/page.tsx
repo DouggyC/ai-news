@@ -34,6 +34,7 @@ const providerColors: Record<string, string> = {
   NVIDIA: '#76b900',
   MiniMax: '#818cf8',
   Moonshot: '#c084fc',
+  ByteDance: '#f97316',
 };
 
 const chartData: Array<Record<string, string | number | null>> = [
