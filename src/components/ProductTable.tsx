@@ -1,5 +1,6 @@
 'use client';
 
+import { useRef, useState, useEffect } from 'react';
 import { ProductRow } from '@/types/index';
 
 interface ProductTableProps {
@@ -183,12 +184,44 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
 }
 
 export function ProductTable({ productData }: ProductTableProps) {
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [showLeftArrow, setShowLeftArrow] = useState(false);
+  const [showRightArrow, setShowRightArrow] = useState(false);
+
   const activeCompanies = companyOrder.filter((company) =>
     productData.some(
       (row) =>
         row.products[company] !== null && row.products[company] !== undefined,
     ),
   );
+
+  useEffect(() => {
+    const scrollEl = scrollRef.current;
+    if (!scrollEl) return;
+
+    const checkOverflow = () => {
+      setShowLeftArrow(scrollEl.scrollLeft > 0);
+      setShowRightArrow(
+        scrollEl.scrollLeft < scrollEl.scrollWidth - scrollEl.clientWidth - 1
+      );
+    };
+
+    checkOverflow();
+    scrollEl.addEventListener('scroll', checkOverflow, { passive: true });
+    window.addEventListener('resize', checkOverflow);
+    return () => {
+      scrollEl.removeEventListener('scroll', checkOverflow);
+      window.removeEventListener('resize', checkOverflow);
+    };
+  }, []);
+
+  const scrollBy = (direction: 'left' | 'right') => {
+    if (!scrollRef.current) return;
+    scrollRef.current.scrollBy({
+      left: direction === 'left' ? -300 : 300,
+      behavior: 'smooth',
+    });
+  };
 
   return (
     <div
@@ -198,9 +231,34 @@ export function ProductTable({ productData }: ProductTableProps) {
         border: '1px solid rgba(255, 255, 255, 0.1)',
         overflow: 'hidden',
         boxShadow: '4px 4px 0px 0px rgba(0, 0, 0, 0.15)',
+        position: 'relative',
       }}
     >
-      <div className='overflow-x-auto custom-scrollbar'>
+      {showLeftArrow && (
+        <button
+          onClick={() => scrollBy('left')}
+          className='btn-ghost absolute left-2 top-1/2 -translate-y-1/2 z-20 w-8 h-8 p-0 flex items-center justify-center'
+          style={{ backgroundColor: 'rgba(51, 49, 56, 0.9)', backdropFilter: 'blur(4px)' }}
+          aria-label='Scroll left'
+        >
+          <svg width='16' height='16' viewBox='0 0 16 16' fill='none'>
+            <path d='M10 12L6 8L10 4' stroke='currentColor' strokeWidth='1.5' strokeLinecap='round' strokeLinejoin='round'/>
+          </svg>
+        </button>
+      )}
+      {showRightArrow && (
+        <button
+          onClick={() => scrollBy('right')}
+          className='btn-ghost absolute right-2 top-1/2 -translate-y-1/2 z-20 w-8 h-8 p-0 flex items-center justify-center'
+          style={{ backgroundColor: 'rgba(51, 49, 56, 0.9)', backdropFilter: 'blur(4px)' }}
+          aria-label='Scroll right'
+        >
+          <svg width='16' height='16' viewBox='0 0 16 16' fill='none'>
+            <path d='M6 12L10 8L6 4' stroke='currentColor' strokeWidth='1.5' strokeLinecap='round' strokeLinejoin='round'/>
+          </svg>
+        </button>
+      )}
+      <div ref={scrollRef} className='overflow-x-auto custom-scrollbar'>
         <table className='w-full text-left border-collapse'>
           <thead>
             <tr

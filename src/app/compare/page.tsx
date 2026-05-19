@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'react';
 import { formatNumber } from '@/lib/utils';
 import compareModelsData from '@/data/compare-page-data.json';
 
@@ -42,20 +42,38 @@ const providerColors: Record<string, string> = {
   Moonshot: '#c084fc',
 };
 
+function getInitialModels(): FrontierModel[] {
+  const data = compareModelsData as unknown;
+  if (Array.isArray(data)) return data as FrontierModel[];
+  if (data && typeof data === 'object' && 'productData' in data) {
+    return (data as { productData: FrontierModel[] }).productData;
+  }
+  return [];
+}
+
 export default function ComparePage() {
-  const [frontierModels] = useState<FrontierModel[]>(() => {
-    const data = compareModelsData as unknown;
-    if (Array.isArray(data)) return data as FrontierModel[];
-    if (data && typeof data === 'object' && 'productData' in data) {
-      return (data as { productData: FrontierModel[] }).productData;
-    }
-    return [];
-  });
+  const [frontierModels, setFrontierModels] = useState<FrontierModel[]>(getInitialModels);
   const [sortField, setSortField] = useState<keyof FrontierModel>('name');
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('asc');
 
+  useEffect(() => {
+    const fetchModels = async () => {
+      try {
+        const res = await fetch('/api/models');
+        if (!res.ok) throw new Error('API request failed');
+        const data = await res.json();
+        if (data?.compare && Array.isArray(data.compare) && data.compare.length > 0) {
+          setFrontierModels(data.compare);
+        }
+      } catch {
+        // Fallback to local JSON - already loaded by useState initialization
+      }
+    };
+    fetchModels();
+  }, []);
+
   const handleSort = useCallback((field: keyof FrontierModel) => {
-    setSortField(prev => prev === field ? sortField : field);
+    setSortField(prev => prev === field ? field : field);
     setSortOrder(prev => (sortField === field ? (prev === 'asc' ? 'desc' : 'asc') : 'desc'));
   }, [sortField]);
 

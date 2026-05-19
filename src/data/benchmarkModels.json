@@ -11,6 +11,50 @@
         "gpqa": 93.6
     },
     {
+        "id": "gpt-5.5-pro",
+        "name": "GPT-5.5 Pro",
+        "provider": "OpenAI",
+        "openSource": false,
+        "mmlu": 93.0,
+        "humaneval": 96.0,
+        "livebench": 85.0,
+        "mmluPlus": 89.5,
+        "gpqa": 94.5
+    },
+    {
+        "id": "gpt-5.4-pro",
+        "name": "GPT-5.4 Pro",
+        "provider": "OpenAI",
+        "openSource": false,
+        "mmlu": 91.8,
+        "humaneval": 94.1,
+        "livebench": 78.5,
+        "mmluPlus": 87.2,
+        "gpqa": 92.8
+    },
+    {
+        "id": "gpt-5.4-thinking",
+        "name": "GPT-5.4 Thinking",
+        "provider": "OpenAI",
+        "openSource": false,
+        "mmlu": 91.8,
+        "humaneval": 94.1,
+        "livebench": 76.0,
+        "mmluPlus": 86.5,
+        "gpqa": 91.0
+    },
+    {
+        "id": "gpt-5.4-mini",
+        "name": "GPT-5.4 Mini",
+        "provider": "OpenAI",
+        "openSource": false,
+        "mmlu": 90.2,
+        "humaneval": 93.5,
+        "livebench": 72.0,
+        "mmluPlus": 84.0,
+        "gpqa": 89.5
+    },
+    {
         "id": "claude-opus-4.7",
         "name": "Claude Opus 4.7",
         "provider": "Anthropic",
@@ -22,6 +66,17 @@
         "gpqa": 94.2
     },
     {
+        "id": "claude-opus-4.6",
+        "name": "Claude Opus 4.6",
+        "provider": "Anthropic",
+        "openSource": false,
+        "mmlu": 92.3,
+        "humaneval": 93.7,
+        "livebench": 72.5,
+        "mmluPlus": 90.1,
+        "gpqa": 95.0
+    },
+    {
         "id": "claude-sonnet-4.6",
         "name": "Claude Sonnet 4.6",
         "provider": "Anthropic",
@@ -31,6 +86,17 @@
         "livebench": 53.0,
         "mmluPlus": 89.3,
         "gpqa": 89.9
+    },
+    {
+        "id": "claude-haiku-4.5",
+        "name": "Claude Haiku 4.5",
+        "provider": "Anthropic",
+        "openSource": false,
+        "mmlu": 85.0,
+        "humaneval": 88.0,
+        "livebench": 45.0,
+        "mmluPlus": 82.0,
+        "gpqa": 85.5
     },
     {
         "id": "gemini-3.1-pro",
@@ -53,6 +119,17 @@
         "livebench": 69.0,
         "mmluPlus": 86.2,
         "gpqa": 86.4
+    },
+    {
+        "id": "gemini-3.1-flash-lite",
+        "name": "Gemini 3.1 Flash Lite",
+        "provider": "Google",
+        "openSource": false,
+        "mmlu": 88.9,
+        "humaneval": 72.0,
+        "livebench": 55.0,
+        "mmluPlus": 83.5,
+        "gpqa": 84.0
     },
     {
         "id": "llama-4-behemoth",
@@ -99,6 +176,17 @@
         "gpqa": 90.1
     },
     {
+        "id": "grok-4.1-fast",
+        "name": "Grok 4.1 Fast",
+        "provider": "xAI",
+        "openSource": false,
+        "mmlu": 87.5,
+        "humaneval": 75.0,
+        "livebench": 38.0,
+        "mmluPlus": 84.0,
+        "gpqa": 88.5
+    },
+    {
         "id": "nemotron-3-super",
         "name": "Nemotron 3 Super",
         "provider": "NVIDIA",
@@ -110,81 +198,15 @@
         "gpqa": 79.23
     },
     {
-        "id": "deepseek-v4",
-        "name": "DeepSeek V4",
-        "provider": "DeepSeek",
+        "id": "nemotron-3-nano",
+        "name": "Nemotron 3 Nano",
+        "provider": "NVIDIA",
         "openSource": true,
-        "mmlu": 89.4,
-        "humaneval": 80.6,
-        "livebench": 93.5,
-        "mmluPlus": 87.5,
-        "gpqa": 90.1
-    },
-    {
-        "id": "qwen3.5",
-        "name": "Qwen3.5",
-        "provider": "Alibaba",
-        "openSource": true,
-        "mmlu": 88.7,
-        "humaneval": 76.4,
-        "livebench": 83.6,
-        "mmluPlus": 87.8,
-        "gpqa": 88.4
-    },
-    {
-        "id": "doubao-2.0",
-        "name": "Doubao 2.0",
-        "provider": "ByteDance",
-        "openSource": false,
-        "mmlu": 84.0,
-        "humaneval": 76.5,
-        "livebench": 87.8,
-        "mmluPlus": 87.0,
-        "gpqa": 88.9
-    },
-    {
-        "id": "minimax-m2.7",
-        "name": "MiniMax M2.7",
-        "provider": "MiniMax",
-        "openSource": true,
-        "mmlu": 86.5,
-        "humaneval": 78.0,
-        "livebench": 80.5,
-        "mmluPlus": 82.1,
-        "gpqa": 87.4
-    },
-    {
-        "id": "kimi-2.6",
-        "name": "Kimi 2.6",
-        "provider": "Moonshot",
-        "openSource": true,
-        "mmlu": 88.0,
-        "humaneval": 80.2,
-        "livebench": 89.6,
-        "mmluPlus": 85.0,
-        "gpqa": 90.5
-    },
-    {
-        "id": "qwen-3.6-max",
-        "name": "Qwen 3.6 Max",
-        "provider": "Alibaba",
-        "openSource": false,
-        "mmlu": 89.0,
-        "humaneval": 57.3,
-        "livebench": 65.4,
-        "mmluPlus": 88.0,
-        "gpqa": 89.0
-    },
-    {
-        "id": "mistral-medium-3.5",
-        "name": "Mistral Medium 3.5",
-        "provider": "Mistral AI",
-        "openSource": true,
-        "mmlu": 88.0,
-        "humaneval": 85.0,
-        "livebench": null,
-        "mmluPlus": 85.0,
-        "gpqa": null
+        "mmlu": 78.0,
+        "humaneval": 72.0,
+        "livebench": 65.0,
+        "mmluPlus": 75.0,
+        "gpqa": 70.0
     },
     {
         "id": "deepseek-v4-pro",
@@ -207,5 +229,71 @@
         "livebench": 91.6,
         "mmluPlus": 86.2,
         "gpqa": 88.1
+    },
+    {
+        "id": "qwen3.5",
+        "name": "Qwen3.5",
+        "provider": "Alibaba",
+        "openSource": true,
+        "mmlu": 88.7,
+        "humaneval": 76.4,
+        "livebench": 83.6,
+        "mmluPlus": 87.8,
+        "gpqa": 88.4
+    },
+    {
+        "id": "qwen-3.6-max",
+        "name": "Qwen 3.6 Max",
+        "provider": "Alibaba",
+        "openSource": false,
+        "mmlu": 89.0,
+        "humaneval": 57.3,
+        "livebench": 65.4,
+        "mmluPlus": 88.0,
+        "gpqa": 89.0
+    },
+    {
+        "id": "doubao-2.0",
+        "name": "Doubao 2.0",
+        "provider": "ByteDance",
+        "openSource": false,
+        "mmlu": 84.0,
+        "humaneval": 76.5,
+        "livebench": 87.8,
+        "mmluPlus": 87.0,
+        "gpqa": 88.9
+    },
+    {
+        "id": "kimi-2.6",
+        "name": "Kimi 2.6",
+        "provider": "Moonshot",
+        "openSource": true,
+        "mmlu": 88.0,
+        "humaneval": 80.2,
+        "livebench": 89.6,
+        "mmluPlus": 85.0,
+        "gpqa": 90.5
+    },
+    {
+        "id": "minimax-m2.7",
+        "name": "MiniMax M2.7",
+        "provider": "MiniMax",
+        "openSource": true,
+        "mmlu": 86.5,
+        "humaneval": 78.0,
+        "livebench": 80.5,
+        "mmluPlus": 82.1,
+        "gpqa": 87.4
+    },
+    {
+        "id": "mistral-medium-3.5",
+        "name": "Mistral Medium 3.5",
+        "provider": "Mistral AI",
+        "openSource": true,
+        "mmlu": 88.0,
+        "humaneval": 85.0,
+        "livebench": null,
+        "mmluPlus": 85.0,
+        "gpqa": null
     }
 ]

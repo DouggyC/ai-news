@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import {
   LineChart,
   Line,
@@ -11,7 +11,6 @@ import {
   Legend,
   ResponsiveContainer,
 } from 'recharts';
-
 import benchmarkModelsData from '@/data/benchmarkModels.json';
 import { BenchmarkModel } from '@/types/index';
 import { validateData, BenchmarkModelSchema } from '@/schemas/index';
@@ -37,31 +36,16 @@ const providerColors: Record<string, string> = {
   ByteDance: '#f97316',
 };
 
-const chartData: Array<Record<string, string | number | null>> = [
-  { benchmark: 'MMLU' },
-  { benchmark: 'MMLU+' },
-  { benchmark: 'HumanEval' },
-  { benchmark: 'LiveBench' },
-  { benchmark: 'GPQA' },
-];
-
-benchmarkModels.forEach((model) => {
-  chartData[0][model.name] = model.mmlu ?? null;
-  chartData[1][model.name] = model.mmluPlus ?? null;
-  chartData[2][model.name] = model.humaneval ?? null;
-  chartData[3][model.name] = model.livebench ?? null;
-  chartData[4][model.name] = model.gpqa ?? null;
-});
-
 interface CustomLegendProps {
   activeModels: string[];
   toggleModel: (modelId: string) => void;
+  models: BenchmarkModel[];
 }
 
-function CustomLegend({ activeModels, toggleModel }: CustomLegendProps) {
+function CustomLegend({ activeModels, toggleModel, models }: CustomLegendProps) {
   return (
     <div className='flex flex-wrap justify-center gap-3 mt-8'>
-      {benchmarkModels.map((model) => {
+      {models.map((model) => {
         const isActive = activeModels.includes(model.id);
 
         return (
@@ -102,9 +86,27 @@ function CustomLegend({ activeModels, toggleModel }: CustomLegendProps) {
 }
 
 export default function BenchmarksPage() {
+  const [modelsData, setModelsData] = useState<BenchmarkModel[]>(benchmarkModels);
   const [activeModels, setActiveModels] = useState<string[]>(
     benchmarkModels.map((m) => m.id),
   );
+
+  useEffect(() => {
+    const fetchModels = async () => {
+      try {
+        const res = await fetch('/api/models');
+        if (!res.ok) throw new Error('API request failed');
+        const data = await res.json();
+        if (data?.benchmarks && Array.isArray(data.benchmarks) && data.benchmarks.length > 0) {
+          setModelsData(data.benchmarks);
+          setActiveModels(data.benchmarks.map((m: BenchmarkModel) => m.id));
+        }
+      } catch {
+        // Fallback to local JSON - already loaded by useState initialization
+      }
+    };
+    fetchModels();
+  }, []);
 
   const toggleModel = (modelId: string) => {
     setActiveModels((prev) =>
@@ -115,7 +117,7 @@ export default function BenchmarksPage() {
   };
 
   const getFilteredModels = () =>
-    benchmarkModels.filter((m) => activeModels.includes(m.id));
+    modelsData.filter((m) => activeModels.includes(m.id));
 
   const [sortField, setSortField] = useState<keyof BenchmarkModel>('mmlu');
   const [sortOrder, setSortOrder] = useState<'asc' | 'desc'>('desc');
@@ -129,7 +131,7 @@ export default function BenchmarksPage() {
     }
   };
 
-  const sortedModels = [...benchmarkModels].sort((a, b) => {
+  const sortedModels = [...modelsData].sort((a, b) => {
     const valA = a[sortField];
     const valB = b[sortField];
     if (typeof valA === 'number' && typeof valB === 'number') {
@@ -141,6 +143,22 @@ export default function BenchmarksPage() {
         : valB.localeCompare(valA);
     }
     return 0;
+  });
+
+  const chartData: Array<Record<string, string | number | null>> = [
+    { benchmark: 'MMLU' },
+    { benchmark: 'MMLU+' },
+    { benchmark: 'HumanEval' },
+    { benchmark: 'LiveBench' },
+    { benchmark: 'GPQA' },
+  ];
+
+  modelsData.forEach((model) => {
+    chartData[0][model.name] = model.mmlu ?? null;
+    chartData[1][model.name] = model.mmluPlus ?? null;
+    chartData[2][model.name] = model.humaneval ?? null;
+    chartData[3][model.name] = model.livebench ?? null;
+    chartData[4][model.name] = model.gpqa ?? null;
   });
 
   return (
@@ -224,6 +242,8 @@ export default function BenchmarksPage() {
                     <stop offset='0%' stopColor='#00ffff' stopOpacity={0.1} />
                     <stop
                       offset='100%'
+                      x2='0'
+                      y2='1'
                       stopColor='#0007cd'
                       stopOpacity={0.05}
                     />
@@ -279,6 +299,7 @@ export default function BenchmarksPage() {
                     <CustomLegend
                       activeModels={activeModels}
                       toggleModel={toggleModel}
+                      models={modelsData}
                     />
                   }
                 />

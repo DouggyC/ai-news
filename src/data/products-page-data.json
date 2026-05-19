@@ -25,7 +25,7 @@
       "xAI": {
         "name": "Grok 4.3",
         "url": "https://docs.x.ai/overview",
-        "description": "xAI frontier model family (released April 17, 2026, API May 6) with 1M context, video input, document output. Custom Voices TTS ($4.20/1M chars), Voice Agent API ($3/hr). grok-imagine-image-quality for image generation."
+        "description": "xAI frontier model family (released April 17, 2026, API May 6) with 1M context, video input, document output. Custom Voices TTS ($4.20/1M chars), Voice Agent API ($3/hr). grok-imagine-image-quality for image generation. grok-4.3 is the redirect target for all retired models."
       },
       "ByteDance": {
         "name": "Doubao 2.0",
@@ -50,7 +50,7 @@
       "DeepSeek": {
         "name": "DeepSeek V4",
         "url": "https://api-docs.deepseek.com/news/news260424",
-        "description": "Open-model MoE family (V4-Pro: 1.6T total / 49B active, V4-Flash: 284B / 13B active, April 24, 2026) with 1M context, Apache 2.0 licensed. 73% reduction in per-token inference FLOPs vs V3. Pro: $1.74/$3.48, Flash: $0.14/$0.28 per 1M tokens."
+        "description": "Open-model MoE family (V4-Pro: 1.6T total / 49B active, V4-Flash: 284B / 13B active, April 24, 2026) with 1M context, Apache 2.0 licensed. 73% reduction in per-token inference FLOPs vs V3. Pro: $1.74/$3.48, Flash: $0.14/$0.28 per 1M tokens. Legacy deepseek-chat/deepseek-reasoner retire Jul 24, 2026."
       },
       "Mistral": {
         "name": "Medium 3.5",
@@ -90,17 +90,17 @@
       "Google": {
         "name": "Gemini",
         "url": "https://gemini.google.com",
-        "description": "Powered by Gemini 3.1 Pro and Flash across chat and workspace. Now with Notebooks for project organization, sync with NotebookLM. Deep Think and Deep Research Max modes available."
+        "description": "Powered by Gemini 3.1 Pro and Flash across chat and workspace. Now with Notebooks for project organization, sync with NotebookLM. Deep Think and Deep Research Max modes available. Project Mariner capabilities folded into Gemini Agent."
       },
       "OpenAI": {
         "name": "ChatGPT",
         "url": "https://developers.openai.com/chatgpt",
-        "description": "Powered by GPT-5.5 with GPT-5.5 Instant as new default (May 5, 2026). Memory sources, personalization from past chats and Gmail. Personal Finance experience (May 15, 2026) for Pro users with Plaid account connection. Voice intelligence updates May 7, 2026 with Realtime 2, Translate, Whisper models."
+        "description": "Powered by GPT-5.5 with GPT-5.5 Instant as new default (May 5, 2026). Memory sources, personalization from past chats and Gmail. Personal Finance experience (May 15, 2026) for Pro users with Plaid account connection. ChatGPT for Excel and Google Sheets GA (May 5, 2026). Voice intelligence updates May 7, 2026 with Realtime 2, Translate, Whisper models."
       },
       "Anthropic": {
         "name": "Claude",
         "url": "https://claude.com/product/overview",
-        "description": "Default on Sonnet 4.6 with Opus 4.7 for max capability. Claude Design (April 2026) for visual work. Claude for Small Business (May 13, 2026) with Quickbooks, PayPal, HubSpot connectors. Microsoft 365 add-ins for Excel, PowerPoint, Word (GA), Outlook (beta)."
+        "description": "Default on Sonnet 4.6 with Opus 4.7 for max capability. Claude Design (April 2026) for visual work. Claude for Small Business (May 13, 2026) with Quickbooks, PayPal, HubSpot, Canva, Docusign connectors. Microsoft 365 add-ins for Excel, PowerPoint, Word (GA), Outlook (beta)."
       },
       "Microsoft": {
         "name": "Copilot",
@@ -115,12 +115,12 @@
       "Amazon": {
         "name": "Amazon Q",
         "url": "https://aws.amazon.com/q/",
-        "description": "Enterprise-first assistant grounded in AWS services and company data. Two tiers: Q Business for knowledge work, Q Developer for coding."
+        "description": "Enterprise-first assistant grounded in AWS services and company data. Two tiers: Q Business for knowledge work, Q Developer for coding. Alexa for Shopping (May 13, 2026) replaces Rufus, integrates shopping capabilities into main Alexa experience."
       },
       "xAI": {
         "name": "Grok",
         "url": "https://grok.com",
-        "description": "Powered by Grok 4.3 with Connectors for web, iOS, Android. MCP server support. Custom Voices (May 2026), $4.20 per 1M characters for TTS. Grok Build early beta for SuperGrok Heavy subscribers (May 14, 2026)."
+        "description": "Powered by Grok 4.3 with Connectors for web, iOS, Android. MCP server support. Custom Voices (May 2026), $4.20 per 1M characters for TTS. Grok Build early beta for SuperGrok Heavy subscribers (May 14, 2026). Grok Business and Enterprise tiers available."
       },
       "DeepSeek": {
         "name": "DeepSeek Chat",
@@ -200,7 +200,7 @@
       "Cursor": {
         "name": "Cursor",
         "url": "https://www.cursor.com",
-        "description": "AI-native editor (v3, April 2, 2026) with Agents Window, cloud-to-local handoff, Design Mode, Composer 2 ($0.50/$2.50 per 1M tokens). Pro $20/mo, Pro+ $60/mo, Ultra $200/mo. Teams integration (May 11, 2026)."
+        "description": "AI-native editor (v3, April 2, 2026) with Agents Window, cloud-to-local handoff, Design Mode, Composer 2.5 ($0.50/$2.50 per 1M tokens standard, $3/$15 fast). Pro $20/mo, Pro+ $60/mo, Ultra $200/mo. Teams integration (May 11, 2026). Available in Microsoft Teams (May 11, 2026)."
       },
       "Cognition": {
         "name": "Windsurf Editor",
@@ -517,7 +517,6 @@
         "url": "https://business.adobe.com/products/firefly-business/firefly-creative-production.html",
         "description": "Enterprise workflow automation for creative production. Drag-and-drop canvas for AI-powered generation, editing, and layout. Governed brand compliance, bulk content variants, campaign automation."
       },
-      "Tencent": null,
       "NVIDIA": {
         "name": "AI Blueprints",
         "url": "https://build.nvidia.com",
@@ -556,7 +555,7 @@
       "Midjourney": {
         "name": "Midjourney",
         "url": "https://www.midjourney.com",
-        "description": "High-end creative image model platform used for concept and visual design."
+        "description": "V8.1 available (April 30, 2026) on Discord and web with improved sharpness and HD mode. Moodboards and sref now stable. V8.2 coming soon."
       },
       "StabilityAI": {
         "name": "Stable Diffusion 3.5",
@@ -571,7 +570,7 @@
       "xAI": {
         "name": "Grok Imagine API",
         "url": "https://docs.x.ai",
-        "description": "xAI image generation with Quality Mode (May 6). grok-imagine-image-quality for higher realism, text rendering."
+        "description": "xAI image generation with Quality Mode (May 6). grok-imagine-image-quality for higher realism, text rendering. grok-imagine-image-pro retired May 15, 2026."
       }
     }
   },
@@ -583,15 +582,10 @@
         "url": "https://deepmind.google/models/veo/",
         "description": "Google's flagship video generation model for cinematic and prompt-driven clips. Gemini Omni (video) in testing."
       },
-      "OpenAI": {
-        "name": "Sora",
-        "url": "https://developers.openai.com/api/docs/guides/video-generation",
-        "description": "OpenAI video generation stack with API access available."
-      },
       "Runway": {
         "name": "Runway",
         "url": "https://runwayml.com",
-        "description": "Gen-4 video generation and editing suite for creators and teams."
+        "description": "Gen-4 video generation and editing suite for creators and teams. Characters API for real-time conversational video agents (May 4, 2026). GWM-1 world model family."
       },
       "MiniMax": {
         "name": "Hailuo Video",
