@@ -45,6 +45,7 @@ data/data
 
 .gitnexus
 AGENTS.md
+CLAUDE.md
 .opencode.json
 scripts
 graphify-out

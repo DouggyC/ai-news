@@ -377,6 +377,11 @@
         "url": "https://build.nvidia.com",
         "description": "Containerized inference microservices for enterprise deployment (NIM 2.0). Custom model support, hosted on build.nvidia.com. Vera Rubin NVL72 systems in production."
       },
+      "NVIDIA-Vera": {
+        "name": "Vera CPU",
+        "url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
+        "description": "NVIDIA's first CPU built for agentic AI delivered to top AI labs. 2x efficiency, 50% faster performance."
+      },
       "HuggingFace": {
         "name": "Inference Endpoints",
         "url": "https://huggingface.co/inference-endpoints",
@@ -512,6 +517,11 @@
         "url": "https://mistral.ai/news/workflows",
         "description": "Enterprise orchestration engine (public preview April 28, 2026) built on Temporal. Python SDK v3.0, HITL, audit logging. Used by ASML, ABANCA, CMA-CGM."
       },
+      "MiniMax": {
+        "name": "Mavis",
+        "url": "https://agent.minimax.io",
+        "description": "MiniMax's AI assistant with adversarial multi-agent teams (Leader, Worker, Verifier) for continuous task improvement."
+      },
       "Adobe": {
         "name": "Firefly Creative Production",
         "url": "https://business.adobe.com/products/firefly-business/firefly-creative-production.html",
@@ -616,6 +626,11 @@
         "name": "Meta Video Generation",
         "url": "https://ai.meta.com",
         "description": "Meta's video generation capabilities integrated across Meta apps."
+      },
+      "NVIDIA": {
+        "name": "SANA-WM",
+        "url": "https://www.marktechpost.com/2026/05/16/nvidia-introduces-sana-wm",
+        "description": "2.6B-parameter open-source world model generating minute-scale 720p video on a single GPU."
       }
     }
   },
@@ -631,6 +646,21 @@
         "name": "Realtime Voice",
         "url": "https://developers.openai.com/api/docs/guides/text-to-speech",
         "description": "Speech generation powered by gpt-realtime-2, gpt-realtime-translate (70+ languages), gpt-realtime-whisper streaming STT (May 7, 2026)."
+      },
+      "OpenAI-Realtime-2": {
+        "name": "GPT-Realtime-2",
+        "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
+        "description": "GPT-Realtime-2 for voice reasoning (May 7, 2026)."
+      },
+      "OpenAI-Realtime-Translate": {
+        "name": "GPT-Realtime-Translate",
+        "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
+        "description": "GPT-Realtime-Translate for 70+ language translation (May 7, 2026)."
+      },
+      "OpenAI-Realtime-Whisper": {
+        "name": "GPT-Realtime-Whisper",
+        "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
+        "description": "GPT-Realtime-Whisper for streaming transcription (May 7, 2026)."
       },
       "Amazon": {
         "name": "Amazon Polly",
