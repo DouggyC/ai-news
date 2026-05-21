@@ -132,3 +132,67 @@ Update `providerColors` in `src/app/products/page.tsx` if new companies added.
 - **DO NOT modify UI or CSS** in `page.tsx` or components
 - Only update `products-page-data.json`
 - Products organized by category — maintain structure
+
+---
+
+## Preventing Data/Table Mismatch (CRITICAL)
+
+This project has TWO places where company names are defined:
+1. **`src/data/products-page-data.json`** — product keys per category (e.g., `"Vellum": {...}`)
+2. **`src/components/ProductTable.tsx`** — `companyOrder` array (lines 10-70) controls column display
+
+**PROBLEM**: If you add `"Vellum"` to JSON but forget to add `"Vellum"` to `companyOrder`, it WON'T appear in the table.
+
+**SOLUTION**: Follow this rule EXACTLY:
+
+### Rule: Dual Update Required
+When adding a NEW company to ANY category in the JSON:
+1. Add the product entry to `products-page-data.json`
+2. IMMEDIATELY add the company name to `companyOrder` in `ProductTable.tsx` (keep alphabetical order)
+3. IMMEDIATELY add a color entry to `getCompanyBadgeStyle()` in `ProductTable.tsx`
+
+### Rule: Key Consistency
+Company keys in JSON MUST match exactly how they appear in `companyOrder`. Use canonical names:
+- `"Vellum"` not `"vellum"` or `"Vellum AI"`
+- `"LangGraph-Cloud"` for hosted LangSmith (distinguish from `"LangGraph"` base)
+- `"Amazon"` for Amazon general brand (Q, Bedrock, etc.)
+- `"NVIDIA-Vera"` for Vera CPU (distinguish from `"NVIDIA"`)
+
+### Rule: Removing Companies
+When removing a company from ALL categories in JSON:
+1. Remove product entries from `products-page-data.json`
+2. REMOVE the company name from `companyOrder` in `ProductTable.tsx`
+3. REMOVE the color entry from `getCompanyBadgeStyle()` in `ProductTable.tsx`
+
+### Verification Step
+Run this check AFTER every update — if a company appears in JSON but NOT as a table column header, it's misaligned.
+
+### Current `companyOrder` Reference
+Current companyOrder list (from ProductTable.tsx lines 10-70):
+```
+'NVIDIA', 'Microsoft', 'Google', 'Amazon', 'Meta', 'Oracle', 'ByteDance', 'Adobe',
+'Tencent', 'Alibaba', 'OpenAI', 'Anthropic', 'xAI', 'DeepSeek', 'Mistral', 'MiniMax',
+'JetBrains', 'Perplexity', 'Cursor', 'Midjourney', 'Runway', 'Pika', 'HeyGen', 'Luma',
+'StabilityAI', 'BlackForest', 'LangChain', 'LangGraph', 'LangGraph-Cloud', 'Langflow',
+'AssemblyAI', 'Suno', 'Udio', 'ElevenLabs', 'PlayHT', 'WellSaid', 'Murf', 'Coqui',
+'Temporal', 'Make', 'Courier', 'Zapier', 'HuggingFace', 'Replicate', 'Ollama', 'LMStudio',
+'CrewAI', 'MultiOn', 'AutoGen', 'Nous Research', 'Kilo', 'n8n', 'OpenClaw', 'deepset',
+'FlowiseAI', 'Jan', 'LocalAI', 'vLLM', 'Vellum'
+```
+
+Companies in JSON but NOT in companyOrder (MUST ADD):
+- (none currently — all are synced)
+
+---
+
+## Company Order (Market Value)
+Columns are ordered by market value, largest to smallest: NVIDIA, Microsoft, Google, Amazon, Meta...
+
+If a company has multiple distinct products (e.g., Amazon Q AND Bedrock AgentCore), add them ALL under the single parent company key (Amazon), not separate keys.
+
+Only create a separate key if the brand is genuinely different (e.g., Cursor from Microsoft).
+
+## Constraints
+- **DO NOT modify UI or CSS** in `page.tsx`
+- Update BOTH `products-page-data.json` AND `companyOrder`/`getCompanyBadgeStyle` in ProductTable.tsx
+- Products organized by category — maintain structure

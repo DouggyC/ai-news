@@ -40,9 +40,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-text.txt
-data/data
 
+data/data
+.opencode
 .gitnexus
 AGENTS.md
 CLAUDE.md

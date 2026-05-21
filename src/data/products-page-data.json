@@ -473,64 +473,9 @@
         "description": "Enterprise copilot orchestration for workflows, connectors, and approvals. GPT-5.5 Chat and GPT-5.5 Reasoning model options."
       },
       "Amazon": {
-        "name": "Kiro Autonomous Agent",
-        "url": "https://kiro.dev/autonomous-agent/",
-        "description": "Frontier agent for software development that extends workflow by taking on tasks asynchronously in the background. Spec-driven development."
-      },
-      "AutoGen": {
-        "name": "AutoGen",
-        "url": "https://microsoft.github.io/autogen/",
-        "description": "Open orchestration framework for multi-agent collaboration and tool use."
-      },
-      "CrewAI": {
-        "name": "CrewAI",
-        "url": "https://www.crewai.com",
-        "description": "Multi-agent orchestration with role-based crews and production controls. Enterprise tier available."
-      },
-      "n8n": {
-        "name": "n8n",
-        "url": "https://n8n.io",
-        "description": "Workflow automation platform increasingly used for AI agent backplanes. Self-hosted option."
-      },
-      "Zapier": {
-        "name": "Zapier Agents",
-        "url": "https://zapier.com/agents",
-        "description": "Hosted agent automation wired into Zapier actions, MCP, and app connectors."
-      },
-      "Make": {
-        "name": "Make",
-        "url": "https://developers.make.com/custom-apps-documentation",
-        "description": "Visual automation platform for tool calling, triggers, and AI workflows."
-      },
-      "LangGraph": {
-        "name": "LangGraph",
-        "url": "https://langchain-ai.github.io/langgraph/",
-        "description": "Stateful orchestration runtime for durable agent workflows and handoffs. LangGraph Platform for enterprise."
-      },
-      "Temporal": {
-        "name": "Temporal",
-        "url": "https://temporal.io",
-        "description": "Durable execution layer frequently used beneath production AI automations. Powers Mistral Workflows."
-      },
-      "Mistral": {
-        "name": "Mistral Workflows",
-        "url": "https://mistral.ai/news/workflows",
-        "description": "Enterprise orchestration engine (public preview April 28, 2026) built on Temporal. Python SDK v3.0, HITL, audit logging. Used by ASML, ABANCA, CMA-CGM."
-      },
-      "MiniMax": {
-        "name": "Mavis",
-        "url": "https://agent.minimax.io",
-        "description": "MiniMax's AI assistant with adversarial multi-agent teams (Leader, Worker, Verifier) for continuous task improvement."
-      },
-      "Adobe": {
-        "name": "Firefly Creative Production",
-        "url": "https://business.adobe.com/products/firefly-business/firefly-creative-production.html",
-        "description": "Enterprise workflow automation for creative production. Drag-and-drop canvas for AI-powered generation, editing, and layout. Governed brand compliance, bulk content variants, campaign automation."
-      },
-      "NVIDIA": {
-        "name": "AI Blueprints",
-        "url": "https://build.nvidia.com",
-        "description": "Reference agent systems and services packaged for enterprise AI teams. Hermes agent optimization for RTX PCs and DGX Spark."
+        "name": "Bedrock AgentCore",
+        "url": "https://aws.amazon.com/bedrock/agentcore/",
+        "description": "Agent development platform with managed harness, AgentCore CLI, and pre-built skills. Runtime, Memory, Gateway, Browser, Code Interpreter, Identity, Policy, Observability, Evaluations. Supports LangGraph, LlamaIndex, CrewAI, Strands. S3/EFS filesystem mounting (May 2026)."
       }
     }
   },
@@ -916,6 +861,11 @@
         "name": "Mistral Workflows",
         "url": "https://mistral.ai/news/workflows",
         "description": "Enterprise orchestration engine also available for self-hosted deployment. Built on Temporal."
+      },
+      "Langflow": {
+        "name": "Langflow",
+        "url": "https://langflow.org",
+        "description": "Visual low-code AI builder for agentic and RAG applications. 138K GitHub stars, drag-and-drop components, Python customization. Desktop app, cloud hosting, self-hosted options. Supports all major LLMs and vector databases."
       }
     }
   },
@@ -976,6 +926,11 @@
         "name": "Flowise",
         "url": "https://flowiseai.com",
         "description": "Visual orchestration layer for enterprise AI apps and internal copilots."
+      },
+      "LangGraph-Cloud": {
+        "name": "LangGraph Cloud",
+        "url": "https://smith.langchain.com",
+        "description": "Hosted LangGraph/LangSmith deployment for enterprise agent workflows. Cloud SaaS, BYOC (AWS), or Self-Hosted Enterprise. $0.001/invocation. Built on LangSmith with LangGraph Server, Agent API, and distributed runtime."
       }
     }
   }

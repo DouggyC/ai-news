@@ -6,7 +6,7 @@
         "openSource": false,
         "mmlu": 92.4,
         "humaneval": 94.2,
-        "livebench": 82.7,
+        "livebench": 80.71,
         "mmluPlus": 88.1,
         "gpqa": 93.6
     },
@@ -61,7 +61,7 @@
         "openSource": false,
         "mmlu": 91.5,
         "humaneval": 87.6,
-        "livebench": 69.4,
+        "livebench": 76.91,
         "mmluPlus": 89.1,
         "gpqa": 94.2
     },
@@ -72,7 +72,7 @@
         "openSource": false,
         "mmlu": 92.3,
         "humaneval": 93.7,
-        "livebench": 72.5,
+        "livebench": 76.33,
         "mmluPlus": 90.1,
         "gpqa": 95.0
     },
@@ -83,7 +83,7 @@
         "openSource": false,
         "mmlu": 89.3,
         "humaneval": 79.6,
-        "livebench": 53.0,
+        "livebench": 75.47,
         "mmluPlus": 89.3,
         "gpqa": 89.9
     },
@@ -105,9 +105,20 @@
         "openSource": false,
         "mmlu": 92.6,
         "humaneval": 80.6,
-        "livebench": 68.5,
+        "livebench": 79.93,
         "mmluPlus": 91.0,
         "gpqa": 94.3
+    },
+    {
+        "id": "gemini-3.5-flash",
+        "name": "Gemini 3.5 Flash",
+        "provider": "Google",
+        "openSource": false,
+        "mmlu": 90.0,
+        "humaneval": 75.0,
+        "livebench": 75.02,
+        "mmluPlus": 85.0,
+        "gpqa": 85.0
     },
     {
         "id": "gemini-2.5-pro",
@@ -116,7 +127,7 @@
         "openSource": false,
         "mmlu": 89.8,
         "humaneval": 59.6,
-        "livebench": 69.0,
+        "livebench": 73.39,
         "mmluPlus": 86.2,
         "gpqa": 86.4
     },
@@ -148,10 +159,10 @@
         "provider": "Meta",
         "openSource": true,
         "mmlu": 91.8,
-        "humaneval": 88.0,
-        "livebench": 43.4,
+        "humaneval": 91.5,
+        "livebench": 67.0,
         "mmluPlus": 80.5,
-        "gpqa": 69.8
+        "gpqa": 65.8
     },
     {
         "id": "llama-4-scout",
@@ -171,7 +182,7 @@
         "openSource": false,
         "mmlu": 89.0,
         "humaneval": null,
-        "livebench": 41.0,
+        "livebench": 66.74,
         "mmluPlus": 86.0,
         "gpqa": 90.1
     },
@@ -215,7 +226,7 @@
         "openSource": true,
         "mmlu": 90.1,
         "humaneval": 76.8,
-        "livebench": 93.5,
+        "livebench": 73.58,
         "mmluPlus": 87.5,
         "gpqa": 90.1
     },
@@ -226,12 +237,12 @@
         "openSource": true,
         "mmlu": 88.7,
         "humaneval": 69.5,
-        "livebench": 91.6,
+        "livebench": 67.25,
         "mmluPlus": 86.2,
         "gpqa": 88.1
     },
     {
-        "id": "qwen3.5",
+        "id": "qwen-3.5",
         "name": "Qwen3.5",
         "provider": "Alibaba",
         "openSource": true,
@@ -248,7 +259,7 @@
         "openSource": false,
         "mmlu": 89.0,
         "humaneval": 57.3,
-        "livebench": 65.4,
+        "livebench": 70.85,
         "mmluPlus": 88.0,
         "gpqa": 89.0
     },
@@ -270,7 +281,7 @@
         "openSource": true,
         "mmlu": 88.0,
         "humaneval": 80.2,
-        "livebench": 89.6,
+        "livebench": 72.17,
         "mmluPlus": 85.0,
         "gpqa": 90.5
     },
@@ -281,7 +292,7 @@
         "openSource": true,
         "mmlu": 86.5,
         "humaneval": 78.0,
-        "livebench": 80.5,
+        "livebench": 63.49,
         "mmluPlus": 82.1,
         "gpqa": 87.4
     },
@@ -292,8 +303,8 @@
         "openSource": true,
         "mmlu": 88.0,
         "humaneval": 85.0,
-        "livebench": null,
+        "livebench": 69.0,
         "mmluPlus": 85.0,
-        "gpqa": null
+        "gpqa": 71.0
     }
 ]

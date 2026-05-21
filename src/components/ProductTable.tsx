@@ -35,6 +35,9 @@ const companyOrder = [
   'StabilityAI',
   'BlackForest',
   'LangChain',
+  'LangGraph',
+  'LangGraph-Cloud',
+  'Langflow',
   'AssemblyAI',
   'Suno',
   'Udio',
@@ -54,7 +57,8 @@ const companyOrder = [
   'CrewAI',
   'MultiOn',
   'AutoGen',
-  'LangGraph',
+  'Nous Research',
+  'Kilo',
   'n8n',
   'OpenClaw',
   'deepset',
@@ -62,6 +66,7 @@ const companyOrder = [
   'Jan',
   'LocalAI',
   'vLLM',
+  'Vellum',
 ];
 
 function getCompanyBadgeStyle(company: string): React.CSSProperties {
@@ -159,10 +164,12 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
       'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
     FlowiseAI:
       'backgroundColor:rgba(99, 102, 241, 0.2);color:#818cf8;borderColor:rgba(99, 102, 241, 0.3)',
-    Jan: 'backgroundColor:rgba(100, 116, 139, 0.2);color:#94a3b8;borderColor:rgba(100, 116, 139, 0.3)',
-    LocalAI:
-      'backgroundColor:rgba(249, 115, 22, 0.2);color:#fb923c;borderColor:rgba(249, 115, 22, 0.3)',
     vLLM: 'backgroundColor:rgba(234, 179, 8, 0.2);color:#fbbf24;borderColor:rgba(234, 179, 8, 0.3)',
+    Vellum: 'backgroundColor:rgba(168, 85, 247, 0.2);color:#c084fc;borderColor:rgba(168, 85, 247, 0.3)',
+    'LangGraph-Cloud': 'backgroundColor:rgba(234, 179, 8, 0.2);color:#fbbf24;borderColor:rgba(234, 179, 8, 0.3)',
+    Langflow: 'backgroundColor:rgba(168, 85, 247, 0.2);color:#c084fc;borderColor:rgba(168, 85, 247, 0.3)',
+    'Nous Research': 'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    Kilo: 'backgroundColor:rgba(6, 182, 212, 0.2);color:#22d3ee;borderColor:rgba(6, 182, 212, 0.3)',
   };
 
   const style =
