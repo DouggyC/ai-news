@@ -306,5 +306,27 @@
         "livebench": 69.0,
         "mmluPlus": 85.0,
         "gpqa": 71.0
+    },
+    {
+        "id": "qwen-3.7-max",
+        "name": "Qwen 3.7 Max",
+        "provider": "Alibaba",
+        "openSource": false,
+        "mmlu": 89.0,
+        "humaneval": 90.0,
+        "livebench": 77.1,
+        "mmluPlus": 88.0,
+        "gpqa": 86.0
+    },
+    {
+        "id": "grok-4.20",
+        "name": "Grok 4.20",
+        "provider": "xAI",
+        "openSource": false,
+        "mmlu": 87.0,
+        "humaneval": 84.0,
+        "livebench": 65.0,
+        "mmluPlus": 84.0,
+        "gpqa": 88.0
     }
 ]

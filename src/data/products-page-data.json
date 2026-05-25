@@ -3,9 +3,9 @@
     "category": "Foundation Models (Proprietary)",
     "products": {
       "Google": {
-        "name": "Gemini 3.1 Pro",
+        "name": "Gemini 3.5 Flash",
         "url": "https://deepmind.google/technologies/gemini/",
-        "description": "Flagship multimodal model with 1M context, advanced reasoning, powers Gemini app, Vertex AI, and workspace products. Gemini 3.1 Flash-Lite also available for high-volume tasks at $0.25/1M input."
+        "description": "Flagship multimodal model (May 19, 2026) now default across Google products. Gemini 3.5 Flash-Lite also available for high-volume tasks at $0.25/1M input. Powers Gemini app, Vertex AI, and workspace products. 1M context, advanced reasoning."
       },
       "Amazon": {
         "name": "Nova 2",
@@ -15,7 +15,7 @@
       "OpenAI": {
         "name": "GPT-5.5",
         "url": "https://openai.com/index/introducing-gpt-5-5/",
-        "description": "Frontier reasoning model (April 23, 2026). GPT-5.5 Instant is now the default ChatGPT model (May 5, 2026). Powers Codex, Deep Research, voice, image, and agent tools. GPT-5.5-Cyber available for trusted cyber defenders."
+        "description": "Frontier reasoning model (April 23, 2026). GPT-5.5 Instant is now the default ChatGPT model (May 5, 2026). Powers Codex, Deep Research, voice, image, and agent tools. GPT-5.5-Cyber available for trusted cyber defenders (May 12, 2026)."
       },
       "Anthropic": {
         "name": "Claude Opus 4.7",
@@ -50,7 +50,7 @@
       "DeepSeek": {
         "name": "DeepSeek V4",
         "url": "https://api-docs.deepseek.com/news/news260424",
-        "description": "Open-model MoE family (V4-Pro: 1.6T total / 49B active, V4-Flash: 284B / 13B active, April 24, 2026) with 1M context, Apache 2.0 licensed. 73% reduction in per-token inference FLOPs vs V3. Pro: $1.74/$3.48, Flash: $0.14/$0.28 per 1M tokens. Legacy deepseek-chat/deepseek-reasoner retire Jul 24, 2026."
+        "description": "Open-model MoE family (V4-Pro: 1.6T total / 49B active, V4-Flash: 284B / 13B active, April 24, 2026) with 1M context, Apache 2.0 licensed. 73% reduction in per-token inference FLOPs vs V3. Pro: $1.74/$3.48, Flash: $0.14/$0.28 per 1M tokens. Permanent 75% discount on Flash pricing. Legacy deepseek-chat/deepseek-reasoner retire Jul 24, 2026."
       },
       "Mistral": {
         "name": "Medium 3.5",
@@ -88,9 +88,9 @@
     "category": "Chat / Assistant",
     "products": {
       "Google": {
-        "name": "Gemini",
+        "name": "Gemini Spark",
         "url": "https://gemini.google.com",
-        "description": "Powered by Gemini 3.1 Pro and Flash across chat and workspace. Now with Notebooks for project organization, sync with NotebookLM. Deep Think and Deep Research Max modes available. Project Mariner capabilities folded into Gemini Agent."
+        "description": "24/7 personal AI agent powered by Gemini 3.5 Flash (May 19, 2026). Now with Notebooks for project organization, sync with NotebookLM. Deep Think and Deep Research Max modes available. Project Mariner capabilities folded into Gemini Agent."
       },
       "OpenAI": {
         "name": "ChatGPT",
@@ -198,9 +198,9 @@
         "description": "LLM-agnostic coding agent with BYOK support, MCP integration, works in terminal + IDE + CI/CD. Q2 2026 beta. IDE-first workflow. ACP Agent Registry for third-party agents."
       },
       "Cursor": {
-        "name": "Cursor",
+        "name": "Cursor 3.x",
         "url": "https://www.cursor.com",
-        "description": "AI-native editor (v3, April 2, 2026) with Agents Window, cloud-to-local handoff, Design Mode, Composer 2.5 ($0.50/$2.50 per 1M tokens standard, $3/$15 fast). Pro $20/mo, Pro+ $60/mo, Ultra $200/mo. Teams integration (May 11, 2026). Available in Microsoft Teams (May 11, 2026)."
+        "description": "AI-native editor (v3.x, May 18, 2026) with Composer 2.5 as new default ($0.50/$2.50 per 1M tokens standard, $3/$15 fast). Agents Window, cloud-to-local handoff, Design Mode. Pro $20/mo, Pro+ $60/mo, Ultra $200/mo. Teams integration (May 11, 2026). Available in Microsoft Teams (May 11, 2026)."
       },
       "Cognition": {
         "name": "Windsurf Editor",
@@ -490,7 +490,7 @@
       "OpenAI": {
         "name": "GPT Image",
         "url": "https://developers.openai.com/api/docs/guides/image-generation",
-        "description": "Powered by GPT Image 1.5 for high-fidelity generation and editing. New default in Perplexity Computer."
+        "description": "Powered by GPT Image 1.5 for high-fidelity generation and editing. New default in Perplexity Computer. Note: DALL·E 2 and DALL·E 3 deprecated May 12, 2026 - use gpt-image-1 or gpt-image-2."
       },
       "Amazon": {
         "name": "Titan Image",
@@ -540,7 +540,12 @@
       "Runway": {
         "name": "Runway",
         "url": "https://runwayml.com",
-        "description": "Gen-4 video generation and editing suite for creators and teams. Characters API for real-time conversational video agents (May 4, 2026). GWM-1 world model family."
+        "description": "Gen-4 video generation and editing suite for creators and teams. Aleph 2.0 and Edit Studio (May 21, 2026). Characters API for real-time conversational video agents (May 4, 2026). GWM-1 world model family."
+      },
+      "Runway Characters": {
+        "name": "Runway Characters",
+        "url": "https://runwayml.com",
+        "description": "Character animation API for real-time conversational video agents. Part of Runway's Characters API platform (May 4, 2026)."
       },
       "MiniMax": {
         "name": "Hailuo Video",

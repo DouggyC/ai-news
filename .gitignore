@@ -49,3 +49,10 @@ CLAUDE.md
 .opencode.json
 scripts
 graphify-out
+skills-lock.json
+.agents
+.claude/
+preview
+PreviewCyberpunk2077.tsx
+PreviewHomepage.tsx
+PreviewNeonGlow.tsx

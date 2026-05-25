@@ -100,56 +100,6 @@
         "publishedAt": "2026-05-17"
     },
     {
-        "id": "openai-gpt-5-5-instant-2026-05-05",
-        "title": "OpenAI launches GPT-5.5 Instant with memory sources and reduced hallucinations",
-        "summary": "GPT-5.5 Instant launches as new default ChatGPT model featuring 52.5% fewer hallucinated claims, 37.3% reduction in inaccurate responses, and new memory sources visibility.",
-        "source": "OpenAI",
-        "sourceUrl": "https://openai.com/index/gpt-5-5-instant/",
-        "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
-        "category": "model",
-        "publishedAt": "2026-05-05"
-    },
-    {
-        "id": "openai-voice-models-api-2026-05-07",
-        "title": "OpenAI launches GPT-Realtime-2, Translate, and Whisper voice models",
-        "summary": "OpenAI introduces GPT-Realtime-2 with GPT-5-class reasoning for voice, GPT-Realtime-Translate for 70+ language translation, and GPT-Realtime-Whisper for low-latency streaming transcription.",
-        "source": "OpenAI",
-        "sourceUrl": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
-        "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
-        "category": "model",
-        "publishedAt": "2026-05-07"
-    },
-    {
-        "id": "xai-grok-4-3-api-2026-05-06",
-        "title": "xAI Grok 4.3 API launches with 83% price cut on output tokens",
-        "summary": "xAI opens Grok 4.3 API to all developers with pricing at $1.25/1M input and $2.50/1M output tokens — a 58% input and 83% output price reduction from Grok 4.2.",
-        "source": "xAI",
-        "sourceUrl": "https://awesomeagents.ai/news/xai-grok-4-3-api-launch/",
-        "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
-        "category": "model",
-        "publishedAt": "2026-05-06"
-    },
-    {
-        "id": "mistral-medium-3-5-remote-agents-2026-05-05",
-        "title": "Mistral Medium 3.5 launches with remote coding agents in Vibe",
-        "summary": "Mistral Medium 3.5 launches as 128B dense open-weight model (77.6% SWE-Bench Verified) that pairs with Vibe remote cloud coding agents that autonomously open GitHub pull requests.",
-        "source": "Mistral",
-        "sourceUrl": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5",
-        "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
-        "category": "model",
-        "publishedAt": "2026-05-05"
-    },
-    {
-        "id": "alibaba-qwen-image-2-0-2026-05-14",
-        "title": "Alibaba releases Qwen-Image-2.0 with doubled compression and 4-step generation",
-        "summary": "Qwen-Image-2.0 doubles compression ratio and reduces generation steps from 40 to 4 using a novel vector quantized variational autoencoder architecture.",
-        "source": "Alibaba",
-        "sourceUrl": "https://the-decoder.com/alibabas-qwen-image-2-0-doubles-compression-and-cuts-generation-steps-from-40-to-4/",
-        "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
-        "category": "model",
-        "publishedAt": "2026-05-14"
-    },
-    {
         "id": "nvidia-sana-wm-open-source-video-2026-05-16",
         "title": "NVIDIA releases SANA-WM open-source world model for video generation",
         "summary": "NVIDIA open-sources SANA-WM, a 2.6B-parameter world model that generates minute-scale 720p video on a single RTX 5090 GPU.",
@@ -168,5 +118,85 @@
         "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
         "category": "tool",
         "publishedAt": "2026-05-11"
+    },
+    {
+        "id": "openai-geometry-breakthrough-2026-05-20",
+        "title": "OpenAI model proves 1946 geometry conjecture false",
+        "summary": "OpenAI's latest model successfully disproved a 70-year-old geometry conjecture, marking a significant milestone in AI-driven mathematical research.",
+        "source": "OpenAI",
+        "sourceUrl": "https://openai.com/index/geometry-conjecture-proof/",
+        "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
+        "category": "research",
+        "publishedAt": "2026-05-20"
+    },
+    {
+        "id": "grok-build-cli-early-beta-2026-05-24",
+        "title": "xAI Grok Build coding agent early beta now available",
+        "summary": "xAI releases Grok Build, a command-line coding agent in early beta for SuperGrok subscribers, positioned as a competitor to Anthropic's Claude Code.",
+        "source": "xAI",
+        "sourceUrl": "https://x.ai/blog/grok-build",
+        "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
+        "category": "tool",
+        "publishedAt": "2026-05-24"
+    },
+    {
+        "id": "deepseek-v4-permanent-discount-2026-05-23",
+        "title": "DeepSeek makes 75% discount on V4-Pro permanent",
+        "summary": "DeepSeek announces permanent 75% discount on V4-Pro model, making advanced AI significantly more accessible for developers and enterprises.",
+        "source": "DeepSeek",
+        "sourceUrl": "https://deepseek.com/blog/v4-pro-pricing-update",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/DeepSeek_logo.svg",
+        "category": "product",
+        "publishedAt": "2026-05-23"
+    },
+    {
+        "id": "mistral-large-3-beats-gpt-5-2026-05-16",
+        "title": "Mistral Large 3 outperforms GPT-5 on French language benchmarks",
+        "summary": "Mistral Large 3 achieves state-of-the-art results on French language benchmarks, outperforming GPT-5 on FLAMME, FrenchMMLU, and other法语 evaluation sets.",
+        "source": "Mistral",
+        "sourceUrl": "https://mistral.ai/news/mistral-large-3-french-benchmarks",
+        "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
+        "category": "model",
+        "publishedAt": "2026-05-16"
+    },
+    {
+        "id": "anthropic-mcp-tunnels-2026-05-23",
+        "title": "Anthropic launches MCP Tunnels for enterprise secure connections",
+        "summary": "Anthropic releases MCP Tunnels, enabling enterprises to securely connect Claude to internal infrastructure without data leaving their network.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.anthropic.com/news/mcp-tunnels",
+        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
+        "category": "capability",
+        "publishedAt": "2026-05-23"
+    },
+    {
+        "id": "meta-layoffs-8000-ai-2026-05-20",
+        "title": "Meta announces 8000 layoffs, 7000 roles shifted to AI teams",
+        "summary": "Meta CEO Mark Zuckerberg announces restructuring with 8000 job cuts while redirecting 7000 positions to AI-focused roles as part of the 'Year of the Agent' initiative.",
+        "source": "Meta",
+        "sourceUrl": "https://about.fb.com/news/2026/05/meta-ai-restructuring/",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg",
+        "category": "product",
+        "publishedAt": "2026-05-20"
+    },
+    {
+        "id": "nvidia-record-q1-revenue-2026-05-21",
+        "title": "NVIDIA reports record Q1 FY2027 revenue of $81.6B",
+        "summary": "NVIDIA shatters expectations with $81.6B revenue in Q1 FY2027, up 120% year-over-year, driven by massive demand for Blackwell GPUs and data center expansion.",
+        "source": "NVIDIA",
+        "sourceUrl": "https://nvidianews.nvidia.com/news/q1-fiscal-2027-results",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
+        "category": "product",
+        "publishedAt": "2026-05-21"
+    },
+    {
+        "id": "alibaba-qwen3-7-max-2026-05-20",
+        "title": "Alibaba releases Qwen3.7-Max with 35-hour autonomous execution",
+        "summary": "Alibaba's Qwen3.7-Max debuts with breakthrough 35-hour autonomous execution capability, enabling AI agents to operate independently for extended periods without human intervention.",
+        "source": "Alibaba",
+        "sourceUrl": "https://www.alibabacloud.com/blog/alibaba-releases-qwen3-7-max_603106",
+        "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
+        "category": "model",
+        "publishedAt": "2026-05-20"
     }
 ]
