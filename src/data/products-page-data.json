@@ -5,7 +5,7 @@
       "Google": {
         "name": "Gemini 3.5 Flash",
         "url": "https://deepmind.google/technologies/gemini/",
-        "description": "Flagship multimodal model (May 19, 2026) now default across Google products. Gemini 3.5 Flash-Lite also available for high-volume tasks at $0.25/1M input. Powers Gemini app, Vertex AI, and workspace products. 1M context, advanced reasoning."
+        "description": "Flagship multimodal model (May 19, 2026) now default across Google products. Gemini 3.5 Flash-Lite also available for high-volume tasks at $0.25/1M input. Powers Gemini app, Vertex AI, and workspace products. 1M context, advanced reasoning. 3.5 Pro coming soon."
       },
       "Amazon": {
         "name": "Nova 2",
@@ -90,7 +90,7 @@
       "Google": {
         "name": "Gemini Spark",
         "url": "https://gemini.google.com",
-        "description": "24/7 personal AI agent powered by Gemini 3.5 Flash (May 19, 2026). Now with Notebooks for project organization, sync with NotebookLM. Deep Think and Deep Research Max modes available. Project Mariner capabilities folded into Gemini Agent."
+        "description": "24/7 personal AI agent powered by Gemini 3.5 Flash (May 19, 2026). Now with Notebooks for project organization, sync with NotebookLM. Deep Think and Deep Research Max modes available. Project Mariner capabilities folded into Gemini Agent. Rolling out to trusted testers, Google AI Ultra subscribers next."
       },
       "OpenAI": {
         "name": "ChatGPT",
@@ -195,12 +195,12 @@
       "JetBrains": {
         "name": "JetBrains Junie",
         "url": "https://junie.jetbrains.com",
-        "description": "LLM-agnostic coding agent with BYOK support, MCP integration, works in terminal + IDE + CI/CD. Q2 2026 beta. IDE-first workflow. ACP Agent Registry for third-party agents."
+        "description": "JetBrains AI coding agent (Q2 2026 beta) with BYOK support, MCP integration, works in terminal + IDE + CI/CD. IDE-first workflow with ACP Agent Registry. Junie available in IntelliJ IDEA, Android Studio, and now ReSharper 2026.2 EAP. Connected to JetBrains AI Assistant."
       },
       "Cursor": {
         "name": "Cursor 3.x",
         "url": "https://www.cursor.com",
-        "description": "AI-native editor (v3.x, May 18, 2026) with Composer 2.5 as new default ($0.50/$2.50 per 1M tokens standard, $3/$15 fast). Agents Window, cloud-to-local handoff, Design Mode. Pro $20/mo, Pro+ $60/mo, Ultra $200/mo. Teams integration (May 11, 2026). Available in Microsoft Teams (May 11, 2026)."
+        "description": "AI-native editor (v3.5, May 20, 2026) with Composer 2.5 as new default. Cursor Automations now available in Agents Window, multi-repo support. Development environments for cloud agents (May 13). Model controls, spend management for Enterprise admins. Pro $20/mo, Pro+ $60/mo, Ultra $200/mo. Teams integration. Gartner Leader in Enterprise AI Coding Agents."
       },
       "Cognition": {
         "name": "Windsurf Editor",
@@ -510,7 +510,7 @@
       "Midjourney": {
         "name": "Midjourney",
         "url": "https://www.midjourney.com",
-        "description": "V8.1 available (April 30, 2026) on Discord and web with improved sharpness and HD mode. Moodboards and sref now stable. V8.2 coming soon."
+        "description": "V8.1 available (April 30, 2026) on Discord and web with improved sharpness and HD mode. Moodboards and sref now stable. HD mode now 3x faster and 3x cheaper, made default. Standard resolution 50% faster. Image prompts and weight reinstated. V8.2 coming soon with upscalers and edit/inpaint/outpaint models."
       },
       "StabilityAI": {
         "name": "Stable Diffusion 3.5",

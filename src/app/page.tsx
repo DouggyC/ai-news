@@ -131,7 +131,7 @@ export default function AINewsPage() {
             AI News
           </h1>
           <p style={{ color: 'rgba(255, 255, 255, 0.6)', fontSize: '1rem' }}>
-            Latest AI news from the top 15 foundation model companies • Ordered by latest • Last updated: May 20, 2026
+            Latest AI news from the top 15 foundation model companies • Ordered by latest • Last updated: May 26, 2026
           </p>
         </div>
 

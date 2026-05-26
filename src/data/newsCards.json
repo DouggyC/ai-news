@@ -198,5 +198,25 @@
         "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
         "category": "model",
         "publishedAt": "2026-05-20"
+    },
+    {
+        "id": "anthropic-acquires-stainless-2026-05-18",
+        "title": "Anthropic acquires Stainless to expand agent connectivity",
+        "summary": "Anthropic acquires Stainless, a leader in SDKs and MCP server tooling, to extend Claude's ability to connect to data and tools.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
+        "category": "product",
+        "publishedAt": "2026-05-18"
+    },
+    {
+        "id": "anthropic-gates-foundation-partnership-2026-05-14",
+        "title": "Anthropic forms $200M partnership with Gates Foundation",
+        "summary": "Anthropic partners with Gates Foundation to commit $200M in grant funding and Claude credits for global health, education, and economic mobility programs.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.anthropic.com/news/gates-foundation-partnership",
+        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
+        "category": "product",
+        "publishedAt": "2026-05-14"
     }
 ]
