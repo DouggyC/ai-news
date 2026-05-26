@@ -20,26 +20,6 @@
         "publishedAt": "2026-05-18"
     },
     {
-        "id": "xai-grok-build-early-beta-2026-05-15",
-        "title": "xAI launches Grok Build early beta for terminal-based coding agents",
-        "summary": "xAI releases Grok Build, its first AI coding agent positioned against Anthropic's Claude Code. Available in early beta to SuperGrok Heavy subscribers.",
-        "source": "xAI",
-        "sourceUrl": "https://www.engadget.com/2173482/xai-coding-agent-grok-build/",
-        "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
-        "category": "tool",
-        "publishedAt": "2026-05-15"
-    },
-    {
-        "id": "minimax-mavis-agent-mode-2026-05-14",
-        "title": "MiniMax launches Mavis with adversarial multi-agent team mode",
-        "summary": "MiniMax launches Mavis featuring adversarial multi-agent teams with Leader, Worker, and Verifier roles for continuous task improvement.",
-        "source": "MiniMax",
-        "sourceUrl": "https://eu.36kr.com/en/p/3808272507215621",
-        "imageUrl": "https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png",
-        "category": "tool",
-        "publishedAt": "2026-05-14"
-    },
-    {
         "id": "anthropic-claude-for-small-business-2026-05-13",
         "title": "Anthropic launches Claude for Small Business with connectors for QuickBooks, PayPal, HubSpot",
         "summary": "Claude for Small Business launches with connectors to QuickBooks, PayPal, HubSpot, Canva, DocuSign, Google Workspace, and Microsoft 365. Includes 15 agentic workflows.",
@@ -52,12 +32,162 @@
     {
         "id": "nvidia-hermes-qwen-3-6-rtx-2026-05-13",
         "title": "NVIDIA Hermes unlocks self-improving AI agents powered by Qwen 3.6 on RTX PCs",
-        "summary": "NVIDIA Hermes launches as a self-improving AI agent running on local RTX PCs and DGX Spark, powered by Qwen 3.6 models.",
+        "summary": "NVIDIA Hermes launches as a self-improving AI agent running on local RTX PCs and DGX Spark, powered by Qwen 3.6 models from Alibaba.",
         "source": "NVIDIA",
         "sourceUrl": "https://blogs.nvidia.com/blog/rtx-ai-garage-hermes-agent-dgx-spark/",
         "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
         "category": "tool",
         "publishedAt": "2026-05-13"
+    },
+    {
+        "id": "anthropic-acquires-stainless-2026-05-18",
+        "title": "Anthropic acquires Stainless to expand agent connectivity",
+        "summary": "Anthropic acquires Stainless, a leader in SDKs and MCP server tooling, to extend Claude's ability to connect to data and tools.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
+        "category": "product",
+        "publishedAt": "2026-05-18"
+    },
+    {
+        "id": "anthropic-gates-foundation-partnership-2026-05-14",
+        "title": "Anthropic forms $200M partnership with Gates Foundation",
+        "summary": "Anthropic partners with Gates Foundation to commit $200M in grant funding and Claude credits for global health, education, and economic mobility programs.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.anthropic.com/news/gates-foundation-partnership",
+        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
+        "category": "product",
+        "publishedAt": "2026-05-14"
+    },
+    {
+        "id": "nvidia-record-q1-revenue-2026-05-21",
+        "title": "NVIDIA reports record Q1 FY2027 revenue of $81.6B",
+        "summary": "NVIDIA shatters expectations with $81.6B revenue in Q1 FY2027, up 85% year-over-year, driven by massive demand for Blackwell GPUs and data center expansion.",
+        "source": "NVIDIA",
+        "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
+        "category": "product",
+        "publishedAt": "2026-05-21"
+    },
+    {
+        "id": "anthropic-kpmg-alliance-2026-05-19",
+        "title": "KPMG integrates Claude across core business and workforce of 276,000 in strategic alliance",
+        "summary": "KPMG and Anthropic announce global alliance with Claude integrated into KPMG's Digital Gateway platform and available to all 276,000+ employees.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.anthropic.com/news/anthropic-kpmg",
+        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
+        "category": "product",
+        "publishedAt": "2026-05-19"
+    },
+    {
+        "id": "nvidia-dell-technologies-world-2026-05-18",
+        "title": "NVIDIA CEO Jensen Huang at Dell Technologies World: demand going parabolic",
+        "summary": "Jensen Huang joins Michael Dell to unveil Dell AI Factory with NVIDIA, delivering agentic AI inference at one-tenth the cost per token with Vera Rubin NVL72.",
+        "source": "NVIDIA",
+        "sourceUrl": "https://blogs.nvidia.com/blog/dell-technologies-agent-enterprise-ai/",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
+        "category": "product",
+        "publishedAt": "2026-05-18"
+    },
+    {
+        "id": "anthropic-pwc-expanded-partnership-2026-05-14",
+        "title": "PwC deploying Claude to build technology, execute deals, and reinvent enterprise functions",
+        "summary": "PwC expands partnership with Anthropic to deploy Claude across technology development, deal execution, and enterprise function transformation for clients.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.anthropic.com/news/pwc-expanded-partnership",
+        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
+        "category": "product",
+        "publishedAt": "2026-05-14"
+    },
+    {
+        "id": "anthropic-higher-limits-spacex-2026-05-06",
+        "title": "Anthropic announces higher usage limits for Claude and compute deal with SpaceX",
+        "summary": "Anthropic raises Claude usage limits and announces compute partnership with SpaceX to support next-generation AI development and deployment.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.anthropic.com/news/higher-limits-spacex",
+        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
+        "category": "capability",
+        "publishedAt": "2026-05-06"
+    },
+    {
+        "id": "nvidia-google-cloud-ai-builders-2026-05-19",
+        "title": "NVIDIA and Google Cloud empower next wave of AI builders",
+        "summary": "At Google I/O, NVIDIA and Google Cloud announce expanded collaboration to accelerate work of over 100,000 developers in their joint developer community.",
+        "source": "NVIDIA",
+        "sourceUrl": "https://blogs.nvidia.com/blog/google-cloud-developer-community-ai-builders/",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
+        "category": "product",
+        "publishedAt": "2026-05-19"
+    },
+    {
+        "id": "anthropic-widening-frontier-ai-2026-05-19",
+        "title": "Anthropic publishes approach to widening conversation on frontier AI",
+        "summary": "Anthropic shares its framework for responsible frontier AI development, including safety measures, deployment considerations, and industry collaboration.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.anthropic.com/news/widening-conversation-ai",
+        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
+        "category": "research",
+        "publishedAt": "2026-05-19"
+    },
+    {
+        "id": "nvidia-ineffable-reinforcement-learning-2026-05-13",
+        "title": "NVIDIA and Ineffable Intelligence team up for reinforcement learning infrastructure",
+        "summary": "NVIDIA partners with Ineffable Intelligence to build the future of reinforcement learning infrastructure, advancing AI systems that learn by trial and error.",
+        "source": "NVIDIA",
+        "sourceUrl": "https://blogs.nvidia.com/blog/ineffable-intelligence-reinforcement-learning-infrastructure/",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
+        "category": "research",
+        "publishedAt": "2026-05-13"
+    },
+    {
+        "id": "anthropic-glasswing-initial-update-2026-05-22",
+        "title": "Project Glasswing releases initial update on secure AI ecosystem",
+        "summary": "Project Glasswing, the industry coalition including AWS, Anthropic, Apple, Google, Microsoft, and NVIDIA, shares progress on securing world's critical software.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.anthropic.com/research/glasswing-initial-update",
+        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
+        "category": "capability",
+        "publishedAt": "2026-05-22"
+    },
+    {
+        "id": "google-agentic-gemini-era-io-2026-05-19",
+        "title": "I/O 2026: Welcome to the agentic Gemini era",
+        "summary": "Google I/O 2026 marks the shift to agentic AI with Gemini, featuring new capabilities including Gemini 3.5 Flash, Daily Brief, and Gemini Spark.",
+        "source": "Google",
+        "sourceUrl": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+        "category": "capability",
+        "publishedAt": "2026-05-19"
+    },
+    {
+        "id": "nvidia-gtc-taipei-computex-2026-05-21",
+        "title": "NVIDIA GTC Taipei at COMPUTEX: Live updates on what's next in AI",
+        "summary": "NVIDIA GTC Taipei at COMPUTEX brings together developers, researchers, and industry leaders to explore AI breakthroughs spanning AI factories, agentic AI, and scaling infrastructure.",
+        "source": "NVIDIA",
+        "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
+        "category": "capability",
+        "publishedAt": "2026-05-21"
+    },
+    {
+        "id": "google-gemini-study-guide-2026-05-11",
+        "title": "Digitize paper notes with Gemini Study Guide",
+        "summary": "Google launches Gemini Study Guide that can digitize and organize paper notes, making it easier for students to review and study materials.",
+        "source": "Google",
+        "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/digitize-notes-gemini-study-guide/",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
+        "category": "product",
+        "publishedAt": "2026-05-11"
+    },
+    {
+        "id": "anthropic-finance-agents-2026-05-05",
+        "title": "Anthropic launches agents for financial services",
+        "summary": "Anthropic releases specialized Claude agents for financial services, helping banks, investment firms, and insurance companies automate complex workflows.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.anthropic.com/news/finance-agents",
+        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
+        "category": "product",
+        "publishedAt": "2026-05-05"
     },
     {
         "id": "nvidia-sap-trust-agents-2026-05-12",
@@ -80,143 +210,23 @@
         "publishedAt": "2026-05-11"
     },
     {
-        "id": "alibaba-qwen-taobao-agentic-shopping-2026-05-11",
-        "title": "Alibaba integrates Qwen AI with Taobao for agentic shopping experience",
-        "summary": "Alibaba fully integrates Qwen AI with Taobao's 4+ billion product catalog enabling conversational shopping with AI virtual try-on, 30-day price tracking, and one-tap checkout.",
-        "source": "Alibaba",
-        "sourceUrl": "https://www.alibabacloud.com/blog/alibaba-opens-all-of-taobao-to-qwen-ai-ushering-in-a-new-agentic-shopping-experience_603104",
-        "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
+        "id": "google-beam-group-meetings-2026-05-15",
+        "title": "Google Beam brings better group meetings with 6-person video calling",
+        "summary": "Google Beam (formerly Project Starline) launches with 6-person video calling capability, featuring life-like presence and spatial audio for more natural remote meetings.",
+        "source": "Google",
+        "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-beam-group-meetings/",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
         "category": "product",
-        "publishedAt": "2026-05-11"
-    },
-    {
-        "id": "minimax-realtime-api-2026-05-17",
-        "title": "MiniMax launches Realtime API for multimodal voice interactions",
-        "summary": "MiniMax releases Realtime API with HTTP and WebSocket interfaces for end-to-end real-time multimodal processing with ultra-low latency and hyper-personalized voice library.",
-        "source": "MiniMax",
-        "sourceUrl": "https://www.minimax.io/news/realtime-api",
-        "imageUrl": "https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png",
-        "category": "tool",
-        "publishedAt": "2026-05-17"
-    },
-    {
-        "id": "nvidia-sana-wm-open-source-video-2026-05-16",
-        "title": "NVIDIA releases SANA-WM open-source world model for video generation",
-        "summary": "NVIDIA open-sources SANA-WM, a 2.6B-parameter world model that generates minute-scale 720p video on a single RTX 5090 GPU.",
-        "source": "NVIDIA",
-        "sourceUrl": "https://www.marktechpost.com/2026/05/16/nvidia-introduces-sana-wm-a-2-6b-parameter-open-source-world-model-that-generates-minute-scale-720p-video-on-a-single-gpu/",
-        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
-        "category": "research",
-        "publishedAt": "2026-05-16"
+        "publishedAt": "2026-05-15"
     },
     {
         "id": "nvidia-fleet-intelligence-ga-2026-05-11",
         "title": "NVIDIA Fleet Intelligence now generally available for GPU fleet monitoring",
-        "summary": "NVIDIA Fleet Intelligence launches GA — an agent-based managed service for real-time monitoring of GPU fleets across Blackwell, Vera Rubin, and Hopper architectures.",
+        "summary": "NVIDIA Fleet Intelligence launches GA as an agent-based managed service for real-time monitoring of GPU fleets across Blackwell, Vera Rubin, and Hopper architectures.",
         "source": "NVIDIA",
-        "sourceUrl": "https://blogs.nvidia.com/blog/introducing-nvidia-fleet-intelligence-for-real-time-gpu-fleet-visibility-and-optimization/",
+        "sourceUrl": "https://blogs.nvidia.com/blog/fleet-intelligence-ga/",
         "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
         "category": "tool",
         "publishedAt": "2026-05-11"
-    },
-    {
-        "id": "openai-geometry-breakthrough-2026-05-20",
-        "title": "OpenAI model proves 1946 geometry conjecture false",
-        "summary": "OpenAI's latest model successfully disproved a 70-year-old geometry conjecture, marking a significant milestone in AI-driven mathematical research.",
-        "source": "OpenAI",
-        "sourceUrl": "https://openai.com/index/geometry-conjecture-proof/",
-        "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
-        "category": "research",
-        "publishedAt": "2026-05-20"
-    },
-    {
-        "id": "grok-build-cli-early-beta-2026-05-24",
-        "title": "xAI Grok Build coding agent early beta now available",
-        "summary": "xAI releases Grok Build, a command-line coding agent in early beta for SuperGrok subscribers, positioned as a competitor to Anthropic's Claude Code.",
-        "source": "xAI",
-        "sourceUrl": "https://x.ai/blog/grok-build",
-        "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
-        "category": "tool",
-        "publishedAt": "2026-05-24"
-    },
-    {
-        "id": "deepseek-v4-permanent-discount-2026-05-23",
-        "title": "DeepSeek makes 75% discount on V4-Pro permanent",
-        "summary": "DeepSeek announces permanent 75% discount on V4-Pro model, making advanced AI significantly more accessible for developers and enterprises.",
-        "source": "DeepSeek",
-        "sourceUrl": "https://deepseek.com/blog/v4-pro-pricing-update",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/DeepSeek_logo.svg",
-        "category": "product",
-        "publishedAt": "2026-05-23"
-    },
-    {
-        "id": "mistral-large-3-beats-gpt-5-2026-05-16",
-        "title": "Mistral Large 3 outperforms GPT-5 on French language benchmarks",
-        "summary": "Mistral Large 3 achieves state-of-the-art results on French language benchmarks, outperforming GPT-5 on FLAMME, FrenchMMLU, and other法语 evaluation sets.",
-        "source": "Mistral",
-        "sourceUrl": "https://mistral.ai/news/mistral-large-3-french-benchmarks",
-        "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
-        "category": "model",
-        "publishedAt": "2026-05-16"
-    },
-    {
-        "id": "anthropic-mcp-tunnels-2026-05-23",
-        "title": "Anthropic launches MCP Tunnels for enterprise secure connections",
-        "summary": "Anthropic releases MCP Tunnels, enabling enterprises to securely connect Claude to internal infrastructure without data leaving their network.",
-        "source": "Anthropic",
-        "sourceUrl": "https://www.anthropic.com/news/mcp-tunnels",
-        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
-        "category": "capability",
-        "publishedAt": "2026-05-23"
-    },
-    {
-        "id": "meta-layoffs-8000-ai-2026-05-20",
-        "title": "Meta announces 8000 layoffs, 7000 roles shifted to AI teams",
-        "summary": "Meta CEO Mark Zuckerberg announces restructuring with 8000 job cuts while redirecting 7000 positions to AI-focused roles as part of the 'Year of the Agent' initiative.",
-        "source": "Meta",
-        "sourceUrl": "https://about.fb.com/news/2026/05/meta-ai-restructuring/",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg",
-        "category": "product",
-        "publishedAt": "2026-05-20"
-    },
-    {
-        "id": "nvidia-record-q1-revenue-2026-05-21",
-        "title": "NVIDIA reports record Q1 FY2027 revenue of $81.6B",
-        "summary": "NVIDIA shatters expectations with $81.6B revenue in Q1 FY2027, up 120% year-over-year, driven by massive demand for Blackwell GPUs and data center expansion.",
-        "source": "NVIDIA",
-        "sourceUrl": "https://nvidianews.nvidia.com/news/q1-fiscal-2027-results",
-        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
-        "category": "product",
-        "publishedAt": "2026-05-21"
-    },
-    {
-        "id": "alibaba-qwen3-7-max-2026-05-20",
-        "title": "Alibaba releases Qwen3.7-Max with 35-hour autonomous execution",
-        "summary": "Alibaba's Qwen3.7-Max debuts with breakthrough 35-hour autonomous execution capability, enabling AI agents to operate independently for extended periods without human intervention.",
-        "source": "Alibaba",
-        "sourceUrl": "https://www.alibabacloud.com/blog/alibaba-releases-qwen3-7-max_603106",
-        "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
-        "category": "model",
-        "publishedAt": "2026-05-20"
-    },
-    {
-        "id": "anthropic-acquires-stainless-2026-05-18",
-        "title": "Anthropic acquires Stainless to expand agent connectivity",
-        "summary": "Anthropic acquires Stainless, a leader in SDKs and MCP server tooling, to extend Claude's ability to connect to data and tools.",
-        "source": "Anthropic",
-        "sourceUrl": "https://www.anthropic.com/news/anthropic-acquires-stainless",
-        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
-        "category": "product",
-        "publishedAt": "2026-05-18"
-    },
-    {
-        "id": "anthropic-gates-foundation-partnership-2026-05-14",
-        "title": "Anthropic forms $200M partnership with Gates Foundation",
-        "summary": "Anthropic partners with Gates Foundation to commit $200M in grant funding and Claude credits for global health, education, and economic mobility programs.",
-        "source": "Anthropic",
-        "sourceUrl": "https://www.anthropic.com/news/gates-foundation-partnership",
-        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
-        "category": "product",
-        "publishedAt": "2026-05-14"
     }
 ]
