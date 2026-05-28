@@ -1,5 +1,25 @@
 [
     {
+        "id": "openai-ipo-s1-filing-2026-05-22",
+        "title": "OpenAI confidentially files IPO S-1 with SEC",
+        "summary": "OpenAI filed a confidential S-1 registration statement with the SEC on May 22, with Goldman Sachs and Morgan Stanley leading. Targeting September 2026 debut at up to $1 trillion valuation.",
+        "source": "OpenAI",
+        "sourceUrl": "https://www.reuters.com/technology/openai-files-ipo-regulatory-filing-2026-05-22/",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+        "category": "product",
+        "publishedAt": "2026-05-22"
+    },
+    {
+        "id": "anthropic-30b-900b-valuation-2026-05-27",
+        "title": "Anthropic closes $30B funding round at $900B+ valuation",
+        "summary": "Anthropic raised more than $30 billion at a pre-money valuation above $900 billion, surpassing OpenAI's $852 billion valuation. One of the largest private funding rounds in AI history.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.bloomberg.com/news/articles/2026-05-26/anthropic-raises-30-billion-at-900-billion-valuation",
+        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
+        "category": "product",
+        "publishedAt": "2026-05-27"
+    },
+    {
         "id": "google-gemini-3-5-flash-spark-omni-io-2026-05-19",
         "title": "Google unveils Gemini 3.5 Flash, Gemini Spark agent, and Gemini Omni at I/O 2026",
         "summary": "Google announced Gemini 3.5 Flash as the new default Gemini model, Gemini Spark (24/7 personal AI agent), and Gemini Omni for video generation at Google I/O 2026.",
@@ -141,7 +161,7 @@
     },
     {
         "id": "anthropic-glasswing-initial-update-2026-05-22",
-        "title": "Project Glasswing releases initial update on secure AI ecosystem",
+        "title": "Project Glasswing uncovers over 10,000 software vulnerabilities using AI",
         "summary": "Project Glasswing, the industry coalition including AWS, Anthropic, Apple, Google, Microsoft, and NVIDIA, shares progress on securing world's critical software.",
         "source": "Anthropic",
         "sourceUrl": "https://www.anthropic.com/research/glasswing-initial-update",
@@ -168,16 +188,6 @@
         "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
         "category": "capability",
         "publishedAt": "2026-05-21"
-    },
-    {
-        "id": "google-gemini-study-guide-2026-05-11",
-        "title": "Digitize paper notes with Gemini Study Guide",
-        "summary": "Google launches Gemini Study Guide that can digitize and organize paper notes, making it easier for students to review and study materials.",
-        "source": "Google",
-        "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/digitize-notes-gemini-study-guide/",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
-        "category": "product",
-        "publishedAt": "2026-05-11"
     },
     {
         "id": "anthropic-finance-agents-2026-05-05",
@@ -220,13 +230,13 @@
         "publishedAt": "2026-05-15"
     },
     {
-        "id": "nvidia-fleet-intelligence-ga-2026-05-11",
-        "title": "NVIDIA Fleet Intelligence now generally available for GPU fleet monitoring",
-        "summary": "NVIDIA Fleet Intelligence launches GA as an agent-based managed service for real-time monitoring of GPU fleets across Blackwell, Vera Rubin, and Hopper architectures.",
-        "source": "NVIDIA",
-        "sourceUrl": "https://blogs.nvidia.com/blog/fleet-intelligence-ga/",
-        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
-        "category": "tool",
-        "publishedAt": "2026-05-11"
+        "id": "xai-grok-v9-medium-training-complete-2026-05-26",
+        "title": "xAI completes training Grok V9-Medium, a 1.5T-parameter model",
+        "summary": "Elon Musk says xAI finished training Grok V9-Medium, a 1.5T-parameter model trained with substantial Cursor data, with fine-tuning underway and public release expected in 2-3 weeks.",
+        "source": "xAI",
+        "sourceUrl": "https://twitter.com/xaboratory/status/1951084297659478017",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/X.ai_logo.svg",
+        "category": "model",
+        "publishedAt": "2026-05-26"
     }
 ]

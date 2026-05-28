@@ -285,7 +285,7 @@
       "Google": {
         "name": "Gemini API",
         "url": "https://ai.google.dev/gemini-api/docs",
-        "description": "Developer platform for Gemini models, tools, embeddings, and multimodal apps. File Search now multimodal (May 5). Higher-res images, custom metadata. Gemini 3.1 Flash TTS in preview (April 15, 2026)."
+        "description": "Developer platform for Gemini models, tools, embeddings, and multimodal apps. File Search now multimodal (May 5). Higher-res images, custom metadata. Gemini 3.1 Flash TTS in preview (April 15, 2026). Managed Agents API for autonomous agentic workflows (May 2026)."
       },
       "OpenAI": {
         "name": "OpenAI Platform",
@@ -455,7 +455,7 @@
       "Google": {
         "name": "Vertex AI Agent Builder",
         "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/agent-builder/overview",
-        "description": "Google orchestration layer for search, tools, and production agents. Gemini Enterprise Agent Platform."
+        "description": "Google orchestration layer for search, tools, and production agents. Gemini Enterprise Agent Platform. Managed Agents API for autonomous Linux sandbox agents (May 2026)."
       },
       "OpenAI": {
         "name": "Agent Platform",

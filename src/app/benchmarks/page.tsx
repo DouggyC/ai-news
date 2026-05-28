@@ -339,7 +339,7 @@ export default function BenchmarksPage() {
             paddingRight: '24px',
           }}
         >
-          Last updated: May 20, 2026
+          Last updated: May 28, 2026
         </div>
 
         {/* Comparison Table Section */}

@@ -5,9 +5,9 @@
         "provider": "OpenAI",
         "openSource": false,
         "mmlu": 92.4,
-        "humaneval": 94.2,
+        "humaneval": 95.0,
         "livebench": 80.71,
-        "mmluPlus": 88.1,
+        "mmluPlus": 94.0,
         "gpqa": 93.6
     },
     {
@@ -18,7 +18,7 @@
         "mmlu": 93.0,
         "humaneval": 96.0,
         "livebench": 85.0,
-        "mmluPlus": 89.5,
+        "mmluPlus": 95.0,
         "gpqa": 94.5
     },
     {
@@ -29,7 +29,7 @@
         "mmlu": 91.8,
         "humaneval": 94.1,
         "livebench": 78.5,
-        "mmluPlus": 87.2,
+        "mmluPlus": 93.0,
         "gpqa": 92.8
     },
     {
@@ -40,7 +40,7 @@
         "mmlu": 91.8,
         "humaneval": 94.1,
         "livebench": 76.0,
-        "mmluPlus": 86.5,
+        "mmluPlus": 93.0,
         "gpqa": 91.0
     },
     {
@@ -50,8 +50,8 @@
         "openSource": false,
         "mmlu": 90.2,
         "humaneval": 93.5,
-        "livebench": 72.0,
-        "mmluPlus": 84.0,
+        "livebench": 78.0,
+        "mmluPlus": 91.5,
         "gpqa": 89.5
     },
     {
@@ -59,10 +59,10 @@
         "name": "Claude Opus 4.7",
         "provider": "Anthropic",
         "openSource": false,
-        "mmlu": 91.5,
-        "humaneval": 87.6,
-        "livebench": 76.91,
-        "mmluPlus": 89.1,
+        "mmlu": 93.0,
+        "humaneval": 94.5,
+        "livebench": 80.0,
+        "mmluPlus": 90.5,
         "gpqa": 94.2
     },
     {
@@ -72,8 +72,8 @@
         "openSource": false,
         "mmlu": 92.3,
         "humaneval": 93.7,
-        "livebench": 76.33,
-        "mmluPlus": 90.1,
+        "livebench": 78.5,
+        "mmluPlus": 89.1,
         "gpqa": 95.0
     },
     {
@@ -82,9 +82,9 @@
         "provider": "Anthropic",
         "openSource": false,
         "mmlu": 89.3,
-        "humaneval": 79.6,
-        "livebench": 75.47,
-        "mmluPlus": 89.3,
+        "humaneval": 95.0,
+        "livebench": 73.2,
+        "mmluPlus": 79.1,
         "gpqa": 89.9
     },
     {
@@ -94,8 +94,8 @@
         "openSource": false,
         "mmlu": 85.0,
         "humaneval": 88.0,
-        "livebench": 45.0,
-        "mmluPlus": 82.0,
+        "livebench": 70.0,
+        "mmluPlus": 78.0,
         "gpqa": 85.5
     },
     {
@@ -103,10 +103,10 @@
         "name": "Gemini 3.1 Pro",
         "provider": "Google",
         "openSource": false,
-        "mmlu": 92.6,
-        "humaneval": 80.6,
-        "livebench": 79.93,
-        "mmluPlus": 91.0,
+        "mmlu": 93.5,
+        "humaneval": 85.0,
+        "livebench": 80.0,
+        "mmluPlus": 92.0,
         "gpqa": 94.3
     },
     {
@@ -114,10 +114,10 @@
         "name": "Gemini 3.5 Flash",
         "provider": "Google",
         "openSource": false,
-        "mmlu": 90.0,
-        "humaneval": 75.0,
-        "livebench": 75.02,
-        "mmluPlus": 85.0,
+        "mmlu": 90.4,
+        "humaneval": 92.0,
+        "livebench": 76.0,
+        "mmluPlus": 78.3,
         "gpqa": 85.0
     },
     {
@@ -125,10 +125,10 @@
         "name": "Gemini 2.5 Pro",
         "provider": "Google",
         "openSource": false,
-        "mmlu": 89.8,
-        "humaneval": 59.6,
-        "livebench": 73.39,
-        "mmluPlus": 86.2,
+        "mmlu": 88.6,
+        "humaneval": 88.0,
+        "livebench": 75.6,
+        "mmluPlus": 86.0,
         "gpqa": 86.4
     },
     {
@@ -138,8 +138,8 @@
         "openSource": false,
         "mmlu": 88.9,
         "humaneval": 72.0,
-        "livebench": 55.0,
-        "mmluPlus": 83.5,
+        "livebench": 74.0,
+        "mmluPlus": 85.0,
         "gpqa": 84.0
     },
     {
@@ -147,10 +147,10 @@
         "name": "Llama 4 Behemoth",
         "provider": "Meta",
         "openSource": true,
-        "mmlu": 85.8,
-        "humaneval": 54.4,
-        "livebench": 49.4,
-        "mmluPlus": 82.2,
+        "mmlu": 88.0,
+        "humaneval": 88.0,
+        "livebench": 58.0,
+        "mmluPlus": 85.0,
         "gpqa": 73.7
     },
     {
@@ -161,7 +161,7 @@
         "mmlu": 91.8,
         "humaneval": 91.5,
         "livebench": 67.0,
-        "mmluPlus": 80.5,
+        "mmluPlus": 83.0,
         "gpqa": 65.8
     },
     {
@@ -169,9 +169,9 @@
         "name": "Llama 4 Scout",
         "provider": "Meta",
         "openSource": true,
-        "mmlu": 79.6,
-        "humaneval": 68.0,
-        "livebench": 32.8,
+        "mmlu": 79.5,
+        "humaneval": 70.0,
+        "livebench": 62.0,
         "mmluPlus": 74.3,
         "gpqa": 57.2
     },
@@ -180,32 +180,32 @@
         "name": "Grok 4.3",
         "provider": "xAI",
         "openSource": false,
-        "mmlu": 89.0,
-        "humaneval": null,
-        "livebench": 66.74,
-        "mmluPlus": 86.0,
+        "mmlu": 91.5,
+        "humaneval": 93.0,
+        "livebench": 75.0,
+        "mmluPlus": 85.0,
         "gpqa": 90.1
     },
     {
-        "id": "grok-4.1-fast",
-        "name": "Grok 4.1 Fast",
+        "id": "grok-4.20",
+        "name": "Grok 4.20",
         "provider": "xAI",
         "openSource": false,
-        "mmlu": 87.5,
-        "humaneval": 75.0,
-        "livebench": 38.0,
+        "mmlu": 90.0,
+        "humaneval": 94.0,
+        "livebench": 65.0,
         "mmluPlus": 84.0,
-        "gpqa": 88.5
+        "gpqa": 88.0
     },
     {
         "id": "nemotron-3-super",
         "name": "Nemotron 3 Super",
         "provider": "NVIDIA",
         "openSource": true,
-        "mmlu": 86.01,
-        "humaneval": 60.47,
-        "livebench": 81.19,
-        "mmluPlus": 83.73,
+        "mmlu": 88.0,
+        "humaneval": 79.4,
+        "livebench": 55.3,
+        "mmluPlus": 83.7,
         "gpqa": 79.23
     },
     {
@@ -215,8 +215,8 @@
         "openSource": true,
         "mmlu": 78.0,
         "humaneval": 72.0,
-        "livebench": 65.0,
-        "mmluPlus": 75.0,
+        "livebench": 50.0,
+        "mmluPlus": 74.0,
         "gpqa": 70.0
     },
     {
@@ -224,10 +224,10 @@
         "name": "DeepSeek V4 Pro",
         "provider": "DeepSeek",
         "openSource": true,
-        "mmlu": 90.1,
-        "humaneval": 76.8,
-        "livebench": 73.58,
-        "mmluPlus": 87.5,
+        "mmlu": 91.0,
+        "humaneval": 80.0,
+        "livebench": 65.0,
+        "mmluPlus": 88.0,
         "gpqa": 90.1
     },
     {
@@ -235,10 +235,10 @@
         "name": "DeepSeek V4 Flash",
         "provider": "DeepSeek",
         "openSource": true,
-        "mmlu": 88.7,
-        "humaneval": 69.5,
-        "livebench": 67.25,
-        "mmluPlus": 86.2,
+        "mmlu": 88.0,
+        "humaneval": 75.0,
+        "livebench": 60.0,
+        "mmluPlus": 84.0,
         "gpqa": 88.1
     },
     {
@@ -246,10 +246,10 @@
         "name": "Qwen3.5",
         "provider": "Alibaba",
         "openSource": true,
-        "mmlu": 88.7,
-        "humaneval": 76.4,
-        "livebench": 83.6,
-        "mmluPlus": 87.8,
+        "mmlu": 86.2,
+        "humaneval": 82.6,
+        "livebench": 56.4,
+        "mmluPlus": 86.2,
         "gpqa": 88.4
     },
     {
@@ -257,11 +257,22 @@
         "name": "Qwen 3.6 Max",
         "provider": "Alibaba",
         "openSource": false,
-        "mmlu": 89.0,
-        "humaneval": 57.3,
-        "livebench": 70.85,
+        "mmlu": 88.0,
+        "humaneval": 85.0,
+        "livebench": 62.0,
         "mmluPlus": 88.0,
         "gpqa": 89.0
+    },
+    {
+        "id": "qwen-3.7-max",
+        "name": "Qwen 3.7 Max",
+        "provider": "Alibaba",
+        "openSource": false,
+        "mmlu": 89.0,
+        "humaneval": 90.0,
+        "livebench": 77.1,
+        "mmluPlus": 88.0,
+        "gpqa": 86.0
     },
     {
         "id": "doubao-2.0",
@@ -269,8 +280,8 @@
         "provider": "ByteDance",
         "openSource": false,
         "mmlu": 84.0,
-        "humaneval": 76.5,
-        "livebench": 87.8,
+        "humaneval": 82.0,
+        "livebench": 65.0,
         "mmluPlus": 87.0,
         "gpqa": 88.9
     },
@@ -280,9 +291,9 @@
         "provider": "Moonshot",
         "openSource": true,
         "mmlu": 88.0,
-        "humaneval": 80.2,
-        "livebench": 72.17,
-        "mmluPlus": 85.0,
+        "humaneval": 82.0,
+        "livebench": 70.0,
+        "mmluPlus": 84.0,
         "gpqa": 90.5
     },
     {
@@ -290,10 +301,10 @@
         "name": "MiniMax M2.7",
         "provider": "MiniMax",
         "openSource": true,
-        "mmlu": 86.5,
-        "humaneval": 78.0,
-        "livebench": 63.49,
-        "mmluPlus": 82.1,
+        "mmlu": 87.0,
+        "humaneval": 93.0,
+        "livebench": 70.0,
+        "mmluPlus": 82.0,
         "gpqa": 87.4
     },
     {
@@ -308,25 +319,14 @@
         "gpqa": 71.0
     },
     {
-        "id": "qwen-3.7-max",
-        "name": "Qwen 3.7 Max",
-        "provider": "Alibaba",
-        "openSource": false,
-        "mmlu": 89.0,
-        "humaneval": 90.0,
-        "livebench": 77.1,
-        "mmluPlus": 88.0,
-        "gpqa": 86.0
-    },
-    {
-        "id": "grok-4.20",
-        "name": "Grok 4.20",
-        "provider": "xAI",
-        "openSource": false,
-        "mmlu": 87.0,
-        "humaneval": 84.0,
-        "livebench": 65.0,
-        "mmluPlus": 84.0,
-        "gpqa": 88.0
+        "id": "glm-5.1",
+        "name": "GLM-5.1",
+        "provider": "Zhipu AI",
+        "openSource": true,
+        "mmlu": 84.0,
+        "humaneval": 78.0,
+        "livebench": 62.0,
+        "mmluPlus": 80.0,
+        "gpqa": 73.0
     }
 ]
