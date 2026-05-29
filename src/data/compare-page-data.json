@@ -963,6 +963,31 @@
     "vision": true,
     "functionCalling": true,
     "json": true,
+
     "search": false
+  },
+
+  {
+    "id": "claude-opus-4.8",
+    "name": "Claude Opus 4.8",
+    "provider": "Anthropic",
+    "openSource": false,
+    "license": "Proprietary",
+    "releaseDate": "2026-05-28",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "inputPrice": 5.0,
+    "outputPrice": 25.0,
+    "free": false,
+    "mmlu": 93.5,
+    "mmluPlus": 91.0,
+    "humaneval": 95.0,
+    "liveBench": 81.0,
+    "multimodal": true,
+    "vision": true,
+    "functionCalling": true,
+    "json": true,
+    "search": true
   }
 ]

@@ -66,6 +66,17 @@
         "gpqa": 94.2
     },
     {
+        "id": "claude-opus-4.8",
+        "name": "Claude Opus 4.8",
+        "provider": "Anthropic",
+        "openSource": false,
+        "mmlu": 93.5,
+        "humaneval": 95.0,
+        "livebench": 81.0,
+        "mmluPlus": 91.0,
+        "gpqa": 94.5
+    },
+    {
         "id": "claude-opus-4.6",
         "name": "Claude Opus 4.6",
         "provider": "Anthropic",
