@@ -20,6 +20,16 @@
         "publishedAt": "2026-05-27"
     },
     {
+        "id": "xai-spacexai-rebranding-may-2026",
+        "title": "xAI becomes SpaceXAI following SpaceX IPO filing",
+        "summary": "xAI ceased to exist as a separate company in May, becoming a division of SpaceX. The IPO filing revealed xAI burned $6.4 billion in 2025, with Grok reaching 117 million monthly active users.",
+        "source": "xAI",
+        "sourceUrl": "https://www.reuters.com/technology/elon-musk-spacex-files-ipo-2026-05-26/",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/X.ai_logo.svg",
+        "category": "product",
+        "publishedAt": "2026-05-26"
+    },
+    {
         "id": "google-gemini-3-5-flash-spark-omni-io-2026-05-19",
         "title": "Google unveils Gemini 3.5 Flash, Gemini Spark agent, and Gemini Omni at I/O 2026",
         "summary": "Google announced Gemini 3.5 Flash as the new default Gemini model, Gemini Spark (24/7 personal AI agent), and Gemini Omni for video generation at Google I/O 2026.",
@@ -118,16 +128,6 @@
         "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
         "category": "product",
         "publishedAt": "2026-05-14"
-    },
-    {
-        "id": "anthropic-higher-limits-spacex-2026-05-06",
-        "title": "Anthropic announces higher usage limits for Claude and compute deal with SpaceX",
-        "summary": "Anthropic raises Claude usage limits and announces compute partnership with SpaceX to support next-generation AI development and deployment.",
-        "source": "Anthropic",
-        "sourceUrl": "https://www.anthropic.com/news/higher-limits-spacex",
-        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
-        "category": "capability",
-        "publishedAt": "2026-05-06"
     },
     {
         "id": "nvidia-google-cloud-ai-builders-2026-05-19",

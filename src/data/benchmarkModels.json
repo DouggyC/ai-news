@@ -154,6 +154,17 @@
         "gpqa": 84.0
     },
     {
+        "id": "gemini-3-flash",
+        "name": "Gemini 3 Flash",
+        "provider": "Google",
+        "openSource": false,
+        "mmlu": 88.0,
+        "humaneval": 82.0,
+        "livebench": 74.0,
+        "mmluPlus": 85.0,
+        "gpqa": 88.0
+    },
+    {
         "id": "llama-4-behemoth",
         "name": "Llama 4 Behemoth",
         "provider": "Meta",
@@ -185,6 +196,17 @@
         "livebench": 62.0,
         "mmluPlus": 74.3,
         "gpqa": 57.2
+    },
+    {
+        "id": "muse-spark",
+        "name": "Muse Spark",
+        "provider": "Meta",
+        "openSource": false,
+        "mmlu": 90.0,
+        "humaneval": 92.0,
+        "livebench": 74.0,
+        "mmluPlus": 86.0,
+        "gpqa": 91.0
     },
     {
         "id": "grok-4.3",
@@ -339,5 +361,27 @@
         "livebench": 62.0,
         "mmluPlus": 80.0,
         "gpqa": 73.0
+    },
+    {
+        "id": "gemma-4-31b",
+        "name": "Gemma 4 31B",
+        "provider": "Google",
+        "openSource": true,
+        "mmlu": 79.5,
+        "humaneval": 70.0,
+        "livebench": 62.0,
+        "mmluPlus": 76.0,
+        "gpqa": 65.0
+    },
+    {
+        "id": "nova-2.0-pro-preview",
+        "name": "Nova 2.0 Pro Preview",
+        "provider": "Amazon",
+        "openSource": false,
+        "mmlu": 86.0,
+        "humaneval": 80.0,
+        "livebench": 68.0,
+        "mmluPlus": 82.0,
+        "gpqa": 87.0
     }
 ]
