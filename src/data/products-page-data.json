@@ -5,7 +5,7 @@
       "Google": {
         "name": "Gemini 3.5 Flash",
         "url": "https://deepmind.google/technologies/gemini/",
-        "description": "Flagship multimodal model (May 19, 2026) now default across Google products. Gemini 3.5 Flash-Lite also available for high-volume tasks at $0.25/1M input. Powers Gemini app, Vertex AI, and workspace products. 1M context, advanced reasoning. 3.5 Pro coming soon."
+        "description": "Flagship multimodal model (May 19, 2026) now default across Gemini app, AI Mode in Search, and Gemini Enterprise. 1M context, 4x faster than other frontier models, native to Antigravity 2.0 agentic dev platform. 3.5 Pro coming soon."
       },
       "Amazon": {
         "name": "Nova 2",
@@ -15,22 +15,22 @@
       "OpenAI": {
         "name": "GPT-5.5",
         "url": "https://openai.com/index/introducing-gpt-5-5/",
-        "description": "Frontier reasoning model (April 23, 2026). GPT-5.5 Instant is now the default ChatGPT model (May 5, 2026). Powers Codex, Deep Research, voice, image, and agent tools. GPT-5.5-Cyber available for trusted cyber defenders (May 12, 2026)."
+        "description": "Frontier reasoning model (April 23, 2026), GPT-5.5 and GPT-5.5 Pro in API (April 24, 2026). GPT-5.5 Instant default in ChatGPT (May 5, 2026) with readability upgrade May 28. Powers Codex, Deep Research, voice, image, agent tools. GPT-5.5-Cyber available for trusted cyber defenders (May 12, 2026). Now on AWS Bedrock (June 1, 2026)."
       },
       "Anthropic": {
         "name": "Claude Opus 4.7",
         "url": "https://www.anthropic.com/news/claude-opus-4-7",
-        "description": "Anthropic's flagship hybrid reasoning model (April 16, 2026) for coding and agent workflows. Sonnet 4.6 also available. Available via API, Amazon Bedrock, and Claude Platform on AWS (May 11, 2026)."
+        "description": "Anthropic's flagship hybrid reasoning model (April 16, 2026) for coding and agent workflows with xhigh effort level. Sonnet 4.6 also available. Available via API, Amazon Bedrock, Google Cloud's Vertex AI, and Microsoft Foundry. Pricing: $5/M input, $25/M output."
       },
       "xAI": {
         "name": "Grok 4.3",
         "url": "https://docs.x.ai/overview",
-        "description": "xAI frontier model family (released April 17, 2026, API May 6) with 1M context, video input, document output. Custom Voices TTS ($4.20/1M chars), Voice Agent API ($3/hr). grok-imagine-image-quality for image generation. grok-4.3 is the redirect target for all retired models."
+        "description": "xAI frontier model (April 17, 2026, API May 6) with 1M context, $1.25/$2.50 per 1M tokens. grok-4.20 extends to 2M context. Custom Voices TTS ($4.20/1M chars), Voice Agent API ($3/hr). grok-imagine-image-quality for image generation. Grok 4, 4.1 Fast, 4 Fast retired May 15, 2026 - all redirect to grok-4.3."
       },
       "ByteDance": {
         "name": "Doubao 2.0",
         "url": "https://www.doubao.com",
-        "description": "ByteDance multimodal model family behind Doubao experiences. Seed 2.0 powers Doubao App and TRAE. 345M MAU as of March 2026."
+        "description": "ByteDance multimodal model family behind Doubao experiences. Seed 2.0 Pro/Lite/Mini powers Doubao App and TRAE. Seed 2.0 Lite (April 28, 2026) is first omni-modal understanding model with cross-modal audio+video reasoning. 345M MAU as of March 2026."
       },
       "Oracle": {
         "name": "OCI Generative AI",
@@ -50,17 +50,17 @@
       "DeepSeek": {
         "name": "DeepSeek V4",
         "url": "https://api-docs.deepseek.com/news/news260424",
-        "description": "Open-model MoE family (V4-Pro: 1.6T total / 49B active, V4-Flash: 284B / 13B active, April 24, 2026) with 1M context, Apache 2.0 licensed. 73% reduction in per-token inference FLOPs vs V3. Pro: $1.74/$3.48, Flash: $0.14/$0.28 per 1M tokens. Permanent 75% discount on Flash pricing. Legacy deepseek-chat/deepseek-reasoner retire Jul 24, 2026."
+        "description": "Open-model MoE family (V4-Pro: 1.6T total / 49B active, V4-Flash: 284B / 13B active, April 24, 2026) with 1M context, Apache 2.0 licensed. 27% of per-token inference FLOPs vs V3. V4-Pro: $0.435/$0.87, V4-Flash: $0.14/$0.28 per 1M tokens (cache hit from $0.0028/$0.003625). Legacy deepseek-chat/deepseek-reasoner retire Jul 24, 2026."
       },
       "Mistral": {
         "name": "Medium 3.5",
-        "url": "https://mistral.ai/news/mistral-medium-3-5",
-        "description": "Mistral's unified 128B dense model (April 29, 2026) replaces Medium 3.1, Magistral, and Devstral 2. 256K context, 77.6% SWE-Bench Verified, open weights under Modified MIT."
+        "url": "https://docs.mistral.ai/models/model-cards/mistral-medium-3-5-26-04",
+        "description": "Mistral's unified 128B dense model (April 28, 2026) replaces Medium 3.1, Magistral, and Devstral 2. 256K context, 77.6% SWE-Bench Verified, open weights under Modified MIT. Default in Le Chat and Vibe CLI (May 5, 2026)."
       },
       "Alibaba": {
         "name": "Qwen3.6-Plus",
         "url": "https://www.alibabacloud.com/blog/qwen3-6-plus-towards-real-world-agents_603005",
-        "description": "Alibaba's latest flagship model (April 2026) with 1M context, agentic coding focus, multimodal reasoning. Powers Wukong enterprise platform and Qwen App with full Taobao integration."
+        "description": "Alibaba's latest flagship model (April 2, 2026) with 1M context, agentic coding focus, multimodal reasoning. Hybrid linear attention with sparse MoE. Powers Wukong enterprise platform and Qwen App with full Taobao integration. Compatible with OpenClaw, Claude Code, Cline."
       },
       "Microsoft": {
         "name": "Phi-4",
@@ -95,17 +95,17 @@
       "OpenAI": {
         "name": "ChatGPT",
         "url": "https://developers.openai.com/chatgpt",
-        "description": "Powered by GPT-5.5 with GPT-5.5 Instant as new default (May 5, 2026). Memory sources, personalization from past chats and Gmail. Personal Finance experience (May 15, 2026) for Pro users with Plaid account connection. ChatGPT for Excel and Google Sheets GA (May 5, 2026). Voice intelligence updates May 7, 2026 with Realtime 2, Translate, Whisper models."
+        "description": "Powered by GPT-5.5 with GPT-5.5 Instant as new default (May 5, 2026, readability upgrade May 28). Memory sources, personalization from past chats and Gmail. Personal Finance experience (May 15, 2026) for Pro users with Plaid account connection. ChatGPT for Excel and Google Sheets GA (May 5, 2026). Voice intelligence updates May 7, 2026 with GPT-Realtime-2, GPT-Realtime-Translate, GPT-Realtime-Whisper."
       },
       "Anthropic": {
         "name": "Claude",
         "url": "https://claude.com/product/overview",
-        "description": "Default on Sonnet 4.6 with Opus 4.7 for max capability. Claude Design (April 2026) for visual work. Claude for Small Business (May 13, 2026) with Quickbooks, PayPal, HubSpot, Canva, Docusign connectors. Microsoft 365 add-ins for Excel, PowerPoint, Word (GA), Outlook (beta)."
+        "description": "Default on Sonnet 4.6 with Opus 4.7 for max capability. Claude Design (April 2026) for visual work. Claude for Small Business (May 13, 2026) with Quickbooks, PayPal, HubSpot, Canva, Docusign connectors. Microsoft 365 add-ins for Excel, PowerPoint, Word (GA), Outlook (beta). Opus 4.7 on GitHub Copilot (April 16, 2026)."
       },
       "Microsoft": {
         "name": "Copilot",
         "url": "https://copilot.microsoft.com",
-        "description": "Powered by GPT-5.5 Instant (May 7, 2026) across web, work, and Microsoft 365 surfaces. Agent Platform, Agents SDK, and Copilot Studio for enterprise orchestration. Labeled as GPT-5.5 Chat in Office apps."
+        "description": "Powered by GPT-5.5 Instant (May 7, 2026) across web, work, and Microsoft 365 surfaces. Agent Platform, Agents SDK, and Copilot Studio for enterprise orchestration. Labeled as GPT-5.5 Chat in Office apps. Opus 4.7 available in GitHub Copilot."
       },
       "Meta": {
         "name": "Meta AI",
@@ -140,7 +140,7 @@
       "Tencent": {
         "name": "Yuanbao",
         "url": "https://yuanbao.tencent.com/",
-        "description": "Powered by Hunyuan 3.0 Preview (Hy3, April 23, 2026) - 295B total params, 21B active, 256K context. Fast-and-slow thinking fused MoE. Also deploys DeepSeek."
+        "description": "Powered by Hunyuan 3.0 Preview (Hy3, April 23, 2026) - 295B total params, 21B active, 256K context. Fast-and-slow thinking fused MoE. 40% inference efficiency gain. API on TokenHub at $0.18/M input, $0.59/M output. Also deploys DeepSeek."
       },
       "Alibaba": {
         "name": "Qwen Chat",
@@ -170,7 +170,7 @@
       "Google": {
         "name": "Gemini Code Assist",
         "url": "https://developers.google.com/gemini-code-assist",
-        "description": "IDE coding agent powered by Gemini 2.5 with Gemini 3 rollout underway. 1M context, native to Android Studio, VS Code, JetBrains."
+        "description": "IDE coding agent powered by Gemini 3.5 Flash, native to Android Studio, VS Code, JetBrains. Antigravity 2.0 released May 19, 2026 as agent-first dev platform with parallel sub-agents."
       },
       "OpenAI": {
         "name": "Codex",
@@ -195,12 +195,12 @@
       "JetBrains": {
         "name": "JetBrains Junie",
         "url": "https://junie.jetbrains.com",
-        "description": "JetBrains AI coding agent (Q2 2026 beta) with BYOK support, MCP integration, works in terminal + IDE + CI/CD. IDE-first workflow with ACP Agent Registry. Junie available in IntelliJ IDEA, Android Studio, and now ReSharper 2026.2 EAP. Connected to JetBrains AI Assistant."
+        "description": "JetBrains AI coding agent with Junie CLI in beta (March 9, 2026). LLM-agnostic supporting OpenAI, Anthropic, Google, Grok. MCP integration, IDE+CI/CD+GitHub/GitLab. Junie CLI Now Connects to Your JetBrains IDE (April 8, 2026). ACP Agent Registry. ReSharper 2026.2 EAP support."
       },
       "Cursor": {
         "name": "Cursor 3.x",
         "url": "https://www.cursor.com",
-        "description": "AI-native editor (v3.5, May 20, 2026) with Composer 2.5 as new default. Cursor Automations now available in Agents Window, multi-repo support. Development environments for cloud agents (May 13). Model controls, spend management for Enterprise admins. Pro $20/mo, Pro+ $60/mo, Ultra $200/mo. Teams integration. Gartner Leader in Enterprise AI Coding Agents."
+        "description": "AI-native editor (v3.5, May 20, 2026; v3.6 May 29) with Composer 2.5 default (May 18, 2026). Cursor Automations in Agents Window with multi-repo and no-repo modes. Development environments for cloud agents (May 13). Pro $20/mo, Pro+ $60/mo, Ultra $200/mo. Gartner Leader in Enterprise AI Coding Agents."
       },
       "Cognition": {
         "name": "Windsurf Editor",
@@ -290,7 +290,7 @@
       "OpenAI": {
         "name": "OpenAI Platform",
         "url": "https://developers.openai.com/api/docs",
-        "description": "Responses API with GPT-5.5, GPT Image 1.5, Realtime 1.5 (gpt-realtime-2, gpt-realtime-translate, gpt-realtime-whisper May 7). Agent tooling. Batch and Flex pricing at half standard rate."
+        "description": "Responses API with GPT-5.5 and GPT-5.5 Pro, GPT Image 1.5, Realtime 2 (gpt-realtime-2, gpt-realtime-translate, gpt-realtime-whisper May 7, 2026). Agent tooling, WebSocket execution mode. Batch and Flex pricing at half standard rate. Now on AWS Bedrock (June 1, 2026)."
       },
       "Anthropic": {
         "name": "Claude API",
@@ -315,17 +315,17 @@
       "xAI": {
         "name": "xAI API",
         "url": "https://docs.x.ai",
-        "description": "Developer access to Grok 4.3, multimodal reasoning, Custom Voices TTS ($4.20/1M chars), Voice Agent API ($3/hr). grok-imagine-image-quality for image generation."
+        "description": "Developer access to Grok 4.3 ($1.25/$2.50 per 1M tokens) and grok-4.20 (2M context). Custom Voices TTS ($4.20/1M chars), Voice Agent API ($3/hr). grok-imagine-image-quality for image generation. grok-build-0.1 for terminal coding workflows."
       },
       "DeepSeek": {
         "name": "DeepSeek API",
         "url": "https://api-docs.deepseek.com/",
-        "description": "Low-cost API access to DeepSeek V4 (Pro: $1.74/$3.48, Flash: $0.14/$0.28 per 1M tokens). 1M context, reasoning modes, multimodal image recognition. OpenAI and Anthropic compatible formats."
+        "description": "Low-cost API access to DeepSeek V4 (Pro: $0.435/$0.87, Flash: $0.14/$0.28 per 1M tokens). 1M context, reasoning modes, multimodal image recognition. OpenAI and Anthropic compatible formats. Hybrid Attention combining CSA and HCA."
       },
       "Mistral": {
         "name": "La Plateforme",
         "url": "https://docs.mistral.ai",
-        "description": "Mistral developer platform for chat, OCR, embeddings, agents, and code. Medium 3.5: $1.50/$7.50 per 1M tokens."
+        "description": "Mistral developer platform for chat, OCR, embeddings, agents, and code. Medium 3.5 default with reasoning_effort parameter. Vibe CLI with remote cloud sandboxes (May 5, 2026). Voxtral TTS with zero-shot voice cloning."
       },
       "NVIDIA": {
         "name": "NVIDIA Build",
@@ -350,7 +350,7 @@
       "MiniMax": {
         "name": "MiniMax Platform",
         "url": "https://platform.minimax.io",
-        "description": "MiniMax API platform for text (M2.7, M2.5), speech (Speech 2.8), video (Hailuo), and music (Music 2.6) models. Token plans and pricing available."
+        "description": "MiniMax API platform for text (M2.7, M2.5), speech (Speech 2.8), video (Hailuo 2.3), and music (Music 2.6) models. M2.7-highspeed variant available. Token plans and pricing available."
       }
     }
   },
@@ -375,12 +375,12 @@
       "NVIDIA": {
         "name": "NIM",
         "url": "https://build.nvidia.com",
-        "description": "Containerized inference microservices for enterprise deployment (NIM 2.0). Custom model support, hosted on build.nvidia.com. Vera Rubin NVL72 systems in production."
+        "description": "Containerized inference microservices for enterprise deployment (NIM 2.0). One container, one backend philosophy. Built on vLLM, TensorRT-LLM, SGLang. Vera Rubin NVL72 systems in production. Custom model support, hosted on build.nvidia.com."
       },
       "NVIDIA-Vera": {
         "name": "Vera CPU",
         "url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
-        "description": "NVIDIA's first CPU built for agentic AI delivered to top AI labs. 2x efficiency, 50% faster performance."
+        "description": "NVIDIA's first CPU built for agentic AI, delivered to top AI labs in 2026. 2x efficiency, 50% faster performance. Pairs with Rubin GPUs."
       },
       "HuggingFace": {
         "name": "Inference Endpoints",
@@ -415,7 +415,7 @@
       "OpenAI": {
         "name": "Playground",
         "url": "https://developers.openai.com/",
-        "description": "Prompt, eval, and tool testing workspace for GPT-5.5 and platform APIs. Responses API testing."
+        "description": "Prompt, eval, and tool testing workspace for GPT-5.5 and platform APIs. Responses API testing. Realtime voice model testing (gpt-realtime-2, May 7, 2026)."
       },
       "JetBrains": {
         "name": "AI Assistant",
@@ -425,7 +425,7 @@
       "Cursor": {
         "name": "Background Agent",
         "url": "https://www.cursor.com",
-        "description": "Async dev workflows for longer tasks inside the Cursor coding environment. Agents Window for parallel execution. Development environments for cloud agents (May 13, 2026)."
+        "description": "Async dev workflows for longer tasks inside the Cursor coding environment. Agents Window for parallel execution with v3.5 (May 20, 2026). Development environments for cloud agents (May 13, 2026). Automations in Marketplace templates."
       },
       "HuggingFace": {
         "name": "Gradio",
@@ -440,7 +440,7 @@
       "Kilo": {
         "name": "Kilo Code",
         "url": "https://www.kilo.ai",
-        "description": "Cloud coding agent with Mistral Medium 3.5, VS Code extension, CLI. Remote async sessions that open PRs on GitHub."
+        "description": "Cloud coding agent with Mistral Medium 3.5, VS Code extension, CLI. Remote async sessions that open PRs on GitHub. Integrates with Tencent Hy3 preview."
       },
       "Meta": {
         "name": "AI Studio",
@@ -485,7 +485,7 @@
       "Google": {
         "name": "Imagen 4",
         "url": "https://deepmind.google/models/imagen/",
-        "description": "Google image generation stack surfaced through Gemini and Vertex AI. Veo for video."
+        "description": "Google image generation stack surfaced through Gemini and Vertex AI. Gemini Omni (video) and Veo 3 in testing."
       },
       "OpenAI": {
         "name": "GPT Image",
@@ -510,7 +510,7 @@
       "Midjourney": {
         "name": "Midjourney",
         "url": "https://www.midjourney.com",
-        "description": "V8.1 available (April 30, 2026) on Discord and web with improved sharpness and HD mode. Moodboards and sref now stable. HD mode now 3x faster and 3x cheaper, made default. Standard resolution 50% faster. Image prompts and weight reinstated. V8.2 coming soon with upscalers and edit/inpaint/outpaint models."
+        "description": "V8.1 default (April 30, 2026) on Discord and web. HD mode 3x faster and 3x cheaper, made default. Moodboards and sref stable. Standard resolution 50% faster. V8.2 delayed from May 2026 to likely June for aesthetic upgrade; V9 in development."
       },
       "StabilityAI": {
         "name": "Stable Diffusion 3.5",
@@ -540,17 +540,17 @@
       "Runway": {
         "name": "Runway",
         "url": "https://runwayml.com",
-        "description": "Gen-4 video generation and editing suite for creators and teams. Aleph 2.0 and Edit Studio (May 21, 2026). Characters API for real-time conversational video agents (May 4, 2026). GWM-1 world model family."
+        "description": "Gen-4 video generation and editing suite for creators and teams. Aleph 2.0 with Edit Studio (May 21, 2026) edits 30s 1080p clips with frame propagation across cuts. Characters API for real-time conversational video agents (May 4, 2026). GWM-1 world model family."
       },
       "Runway Characters": {
         "name": "Runway Characters",
         "url": "https://runwayml.com",
-        "description": "Character animation API for real-time conversational video agents. Part of Runway's Characters API platform (May 4, 2026)."
+        "description": "Character animation API for real-time conversational video agents. Part of Runway's Characters API platform (May 4, 2026). Powers Aleph 2.0 multi-shot handling."
       },
       "MiniMax": {
         "name": "Hailuo Video",
         "url": "https://hailuoai.video",
-        "description": "MiniMax's video generation platform (Hailuo 02, May 15, 2026) for short-form cinematic clips. Ranked 2nd globally on Artificial Analysis Video Arena with native 1080p generation."
+        "description": "MiniMax's video generation platform (Hailuo 2.3, May 31, 2026) with Media Agent. Enhanced dynamic expression, physical action, micro-expressions, motion commands. Same pricing as Hailuo 02. Hailuo 2.3 Fast at 50% lower cost. 1080p native, ranked top globally."
       },
       "HeyGen": {
         "name": "HeyGen",
@@ -595,12 +595,12 @@
       "OpenAI": {
         "name": "Realtime Voice",
         "url": "https://developers.openai.com/api/docs/guides/text-to-speech",
-        "description": "Speech generation powered by gpt-realtime-2, gpt-realtime-translate (70+ languages), gpt-realtime-whisper streaming STT (May 7, 2026)."
+        "description": "Speech generation powered by gpt-realtime-2, gpt-realtime-translate (70+ input, 13 output languages), gpt-realtime-whisper streaming STT (May 7, 2026). Realtime 2: $32/1M audio input, $64/1M output tokens."
       },
       "OpenAI-Realtime-2": {
         "name": "GPT-Realtime-2",
         "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api/",
-        "description": "GPT-Realtime-2 for voice reasoning (May 7, 2026)."
+        "description": "GPT-Realtime-2 for voice reasoning with GPT-5-class intelligence, parallel tool calls, preambles (May 7, 2026). 128K context, 5 reasoning effort levels. $32/1M audio input, $64/1M output tokens."
       },
       "OpenAI-Realtime-Translate": {
         "name": "GPT-Realtime-Translate",
@@ -650,7 +650,7 @@
       "MiniMax": {
         "name": "MiniMax Audio",
         "url": "https://www.minimax.io/audio",
-        "description": "MiniMax's TTS platform (Speech 2.8, 2.6, 2.5) with realistic voice cloning across 40+ languages, enhanced multilingual performance, and natural rhythm."
+        "description": "MiniMax's TTS platform (Speech 2.8, 2.6, 2.5) with realistic voice cloning across 40+ languages, enhanced multilingual performance, and natural rhythm. HD speech on Token Plan."
       }
     }
   },
@@ -665,7 +665,7 @@
       "OpenAI": {
         "name": "Audio API",
         "url": "https://developers.openai.com/api/docs/guides/audio",
-        "description": "Audio stack for transcription, translation, speech generation, and realtime apps. GPT-realtime-whisper for streaming STT."
+        "description": "Audio stack for transcription, translation, speech generation, and realtime apps. GPT-Realtime-2 for voice reasoning, GPT-Realtime-Whisper for streaming STT, GPT-Realtime-Translate for 70+ language translation (May 7, 2026)."
       },
       "AssemblyAI": {
         "name": "AssemblyAI",
@@ -730,7 +730,7 @@
       "Anthropic": {
         "name": "Claude Research",
         "url": "https://claude.com",
-        "description": "Claude for research with Opus 4.7, long context, computer use for autonomous research tasks. Memory across sessions."
+        "description": "Claude for research with Opus 4.7, long context, computer use for autonomous research tasks. Memory across sessions. xhigh effort level for deeper reasoning on hard problems."
       }
     }
   },
@@ -740,7 +740,7 @@
       "Google": {
         "name": "Gemini for Workspace",
         "url": "https://workspace.google.com/solutions/ai/",
-        "description": "Workspace assistant powered by Gemini models for docs, mail, meetings, and sheets."
+        "description": "Workspace assistant powered by Gemini 3.5 Flash for docs, mail, meetings, and sheets. Gemini Spark personal agent integrated across Workspace (May 19, 2026)."
       },
       "OpenAI": {
         "name": "ChatGPT Enterprise",
@@ -765,7 +765,7 @@
       "NVIDIA": {
         "name": "NVIDIA AI Enterprise",
         "url": "https://www.nvidia.com/en-us/data-center/products/ai-enterprise/",
-        "description": "Enterprise software stack for building and running AI in production. NIM microservices, TFO, inference. Fleet Intelligence for GPU fleet monitoring (May 2026)."
+        "description": "Enterprise software stack for building and running AI in production. NIM 2.0 microservices, NeMo, Triton, Run:ai orchestration. Enterprise AI Factory for on-prem Blackwell stacks. Fleet Intelligence for GPU fleet monitoring (May 2026)."
       },
       "Oracle": {
         "name": "OCI AI",
@@ -784,7 +784,7 @@
       },
       "Meta": {
         "name": "Manus AI",
-        "url": "https://ads.twitter.com/tools/meta-ai/",
+        "url": "https://manus.im/blog/manus-meta-ads-manager-connector",
         "description": "Autonomous AI agent in Meta Ads Manager (acquired for ~$2B, Feb 2026). Automates report building, audience research, campaign analysis, and anomaly detection for advertisers."
       }
     }
@@ -835,7 +835,7 @@
       "Tencent": {
         "name": "Hunyuan Agent",
         "url": "https://hunyuan.tencent.com",
-        "description": "Tencent's agent stack for private enterprise and ecosystem scenarios. Powers Yuanbao."
+        "description": "Tencent's agent stack for private enterprise and ecosystem scenarios. Powers Yuanbao, CodeBuddy, WorkBuddy. Hy3 preview (April 23, 2026) drives multi-step agent workflows with up to 495 steps."
       },
       "Nous Research": {
         "name": "Hermes Agent",

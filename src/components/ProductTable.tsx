@@ -9,6 +9,7 @@ interface ProductTableProps {
 
 const companyOrder = [
   'NVIDIA',
+  'NVIDIA-Vera',
   'Microsoft',
   'Google',
   'Amazon',
@@ -20,6 +21,9 @@ const companyOrder = [
   'Alibaba',
   'OpenAI',
   'Anthropic',
+  'OpenAI-Realtime-2',
+  'OpenAI-Realtime-Translate',
+  'OpenAI-Realtime-Whisper',
   'xAI',
   'DeepSeek',
   'Mistral',
@@ -27,9 +31,12 @@ const companyOrder = [
   'JetBrains',
   'Perplexity',
   'Cursor',
+  'Cloudflare',
+  'Cognition',
   'Midjourney',
   'Runway',
   'Pika',
+  'Runway Characters',
   'HeyGen',
   'Luma',
   'StabilityAI',
@@ -69,6 +76,7 @@ const companyOrder = [
   'Vellum',
 ];
 
+
 function getCompanyBadgeStyle(company: string): React.CSSProperties {
   const colors: Record<string, string> = {
     NVIDIA:
@@ -99,7 +107,7 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
       'backgroundColor:rgba(239, 68, 68, 0.2);color:#f87171;borderColor:rgba(239, 68, 68, 0.3)',
     Mistral:
       'backgroundColor:rgba(6, 182, 212, 0.2);color:#22d3ee;borderColor:rgba(6, 182, 212, 0.3)',
-    Minimax:
+    'MiniMax':
       'backgroundColor:rgba(99, 102, 241, 0.2);color:#818cf8;borderColor:rgba(99, 102, 241, 0.3)',
     JetBrains:
       'backgroundColor:rgba(99, 102, 241, 0.2);color:#818cf8;borderColor:rgba(99, 102, 241, 0.3)',
@@ -170,6 +178,22 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
     Langflow: 'backgroundColor:rgba(168, 85, 247, 0.2);color:#c084fc;borderColor:rgba(168, 85, 247, 0.3)',
     'Nous Research': 'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
     Kilo: 'backgroundColor:rgba(6, 182, 212, 0.2);color:#22d3ee;borderColor:rgba(6, 182, 212, 0.3)',
+    Cloudflare:
+      'backgroundColor:rgba(249, 115, 22, 0.2);color:#fb923c;borderColor:rgba(249, 115, 22, 0.3)',
+    Cognition:
+      'backgroundColor:rgba(20, 184, 166, 0.2);color:#2dd4bf;borderColor:rgba(20, 184, 166, 0.3)',
+    'NVIDIA-Vera':
+      'backgroundColor:rgba(118, 185, 0, 0.2);color:#76b900;borderColor:rgba(118, 185, 0, 0.3)',
+    'OpenAI-Realtime-2':
+      'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    'OpenAI-Realtime-Translate':
+      'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    'OpenAI-Realtime-Whisper':
+      'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    'Runway Characters': 'backgroundColor:rgba(255, 255, 255, 0.06);color:rgba(255, 255, 255, 0.7);borderColor:rgba(255, 255, 255, 0.1)',
+
+    Jan: 'backgroundColor:rgba(244, 63, 94, 0.2);color:#fb7185;borderColor:rgba(244, 63, 94, 0.3)',
+    LocalAI: 'backgroundColor:rgba(20, 184, 166, 0.2);color:#2dd4bf;borderColor:rgba(20, 184, 166, 0.3)',
   };
 
   const style =

@@ -1,4 +1,52 @@
 [
+
+    {
+        "id": "solar-pro-3",
+        "name": "Solar Pro 3",
+        "provider": "Upstage",
+        "openSource": false,
+        "mmlu": null,
+        "humaneval": null,
+        "livebench": null,
+        "mmluPlus": null,
+        "gpqa": 72.4
+    },
+
+    {
+        "id": "k2-think-v2",
+        "name": "K2 Think V2",
+        "provider": "MBZUAI",
+        "openSource": true,
+        "mmlu": null,
+        "humaneval": null,
+        "livebench": null,
+        "mmluPlus": null,
+        "gpqa": 71.3
+    },
+
+    {
+        "id": "mimo-v2.5-pro",
+        "name": "MiMo-V2.5-Pro",
+        "provider": "Xiaomi",
+        "openSource": true,
+        "mmlu": 89.4,
+        "humaneval": null,
+        "livebench": null,
+        "mmluPlus": 68.5,
+        "gpqa": 66.7
+    },
+
+    {
+        "id": "gpt-oss-120b",
+        "name": "gpt-oss-120b",
+        "provider": "OpenAI",
+        "openSource": true,
+        "mmlu": 90.0,
+        "humaneval": null,
+        "livebench": null,
+        "mmluPlus": 68.5,
+        "gpqa": 80.1
+    },
     {
         "id": "gpt-5.5",
         "name": "GPT-5.5",

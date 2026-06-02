@@ -40,6 +40,8 @@ const providerColors: Record<string, string> = {
   NVIDIA: '#76b900',
   MiniMax: '#818cf8',
   Moonshot: '#c084fc',
+  ByteDance: '#facc15',
+  StepFun: '#a78bfa',
 };
 
 function getInitialModels(): FrontierModel[] {
@@ -153,7 +155,7 @@ export default function ComparePage() {
             paddingRight: '24px',
           }}
         >
-          Last updated: May 29, 2026
+          Last updated: June 2, 2026
         </div>
         <div
           style={{

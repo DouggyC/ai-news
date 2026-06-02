@@ -1,4 +1,68 @@
 {
+
+  "solar-pro-3": {
+    "provider": "Upstage",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 131072,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": null,
+    "humaneval": null,
+    "multimodal": false,
+    "vision": false,
+    "functionCalling": true,
+    "json": true,
+    "search": false
+  },
+
+  "k2-think-v2": {
+    "provider": "MBZUAI",
+    "parameters": 70000000000,
+    "modelSizeGB": 0,
+    "contextLength": 524288,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": null,
+    "humaneval": null,
+    "multimodal": false,
+    "vision": false,
+    "functionCalling": true,
+    "json": true,
+    "search": false
+  },
+
+  "mimo-v2.5-pro": {
+    "provider": "Xiaomi",
+    "parameters": 1020000000000,
+    "modelSizeGB": 0,
+    "contextLength": 1048576,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 89.4,
+    "humaneval": 75.6,
+    "multimodal": false,
+    "vision": false,
+    "functionCalling": true,
+    "json": true,
+    "search": false
+  },
+
+  "gpt-oss-120b": {
+    "provider": "OpenAI",
+    "parameters": 120000000000,
+    "modelSizeGB": 0,
+    "contextLength": 131072,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 90.0,
+    "humaneval": null,
+    "multimodal": false,
+    "vision": false,
+    "functionCalling": true,
+    "json": true,
+    "search": false
+  },
   "gpt-5.5": {
     "provider": "OpenAI",
     "parameters": 2000000000000,
