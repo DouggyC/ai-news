@@ -8,20 +8,65 @@
 #WQ|### Step 1: Fetch from AA API (DO THIS FIRST)
 #VN|Fetch model data from the Artificial Analysis API. This provides accurate, up-to-date information on all frontier models.
 #SK|
-#TM|API Endpoint:
-#HB|```
-#MS|Fetch: GET https://api.artificialanalysis.ai/v1/models/
-#WV|```
-#KW|
-#YT|Fetch from AA API:
-#QH|- Model releases since last update
-#NP|- Discontinued/replaced models
-#HW|- Major version jumps (V3 → V4)
-#QX|- Open source ↔ proprietary status changes
-#QQ|- Accurate benchmark scores
-#NK|- Current pricing
-#MH|- Correct context lengths and parameters
-#QY|
+API Endpoint:
+```
+GET https://artificialanalysis.ai/api/v2/data/llms/models
+Header: x-api-key: <your_api_key_here>
+```
+
+**Auth setup** (cache the response — the free API rate-limits 1,000 req/day):
+```bash
+# Source the API key from .env (project root)
+cd /Users/student/Dev/ai-news
+eval "$(grep '^AA=' .env)"
+
+# Fetch and cache
+mkdir -p /tmp/aa
+curl -sS -H "x-api-key: $AA" \
+  https://artificialanalysis.ai/api/v2/data/llms/models > /tmp/aa/models.json
+
+# Quick sanity check
+jq '.data | length' /tmp/aa/models.json   # should be >100
+```
+
+Fetch from AA API:
+- Model releases since last update
+- Discontinued/replaced models
+- Major version jumps (V3 → V4)
+- Open source ↔ proprietary status changes
+- Accurate benchmark scores
+- Current pricing
+- Correct context lengths and parameters
+
+**Field mapping** (use AA for what it covers, web research for the rest — the free API does NOT include release dates, parameters, context lengths, capability flags, plain MMLU, HumanEval, or LiveBench):
+
+| Schema field | Source | AA path | Notes |
+|---|---|---|---|
+| `id` | derived | `slug` or derived from `name` | Use lowercase-hyphenated slug (e.g., `gpt-5.5`) |
+| `name` | **AA API** | `name` | Use AA's official name |
+| `provider` | **AA API** | `model_creator.name` | e.g., "OpenAI", "Anthropic", "Alibaba" |
+| `openSource` | Web research | — | AA doesn't expose license/openness |
+| `license` | Web research | — | Same |
+| `releaseDate` | Web research | — | Free API doesn't include release dates |
+| `parameters` | Web research | — | AA doesn't disclose param counts |
+| `modelSizeGB` | Web research | — | Not in free API |
+| `contextLength` | Web research | — | Not in free API |
+| `inputPrice` | **AA API** | `pricing.price_1m_input_tokens` | Direct match ($USD per 1M tokens) |
+| `outputPrice` | **AA API** | `pricing.price_1m_output_tokens` | Direct match |
+| `free` | derived | `inputPrice == 0 && outputPrice == 0` | True if AA reports both as 0 |
+| `mmlu` | Web research | — | Not in free API |
+| `mmluPlus?` | **AA API** | `evaluations.mmlu_pro × 100` | Optional field — populate if AA has it, else omit |
+| `humaneval` | Web research | — | Not in free API (AA has `livecodebench`, different benchmark) |
+| `liveBench` | Web research | — | Not in free API |
+| `multimodal`, `vision`, `functionCalling`, `json`, `search` | Web research | — | AA doesn't expose capability flags |
+
+**AA model coverage**: AA's `/api/v2/data/llms/models` covers ~150+ commercial and open-weight models. It does NOT cover all models in the existing data (some very recent releases or niche providers may be missing). For models not in AA, fall back to web research for the full set of fields.
+
+**Useful for cross-referencing** (not direct schema fields):
+- `id` (UUID) — stable identifier
+- `evaluations.artificial_analysis_intelligence_index` — proprietary composite
+- `median_output_tokens_per_second` — speed
+- `median_time_to_first_token_seconds` — latency
 #QV|### Alternative: Manual Research (only if API unavailable)
 #YX|If the AA API is unavailable, research from:
 #HB|```

@@ -8,18 +8,53 @@
 #WQ|### Step 1: Fetch from AA API (DO THIS FIRST)
 #NB|Fetch benchmark scores from the Artificial Analysis API. This provides accurate, up-to-date scores from independent sources.
 #SK|
-#TM|API Endpoint:
-#HB|```
-#RT|Fetch: GET https://api.artificialanalysis.ai/v1/models/performance
-#SQ|```
-#NV|
-#YT|Fetch from AA API:
-#KJ|- Current benchmark scores (MMLU, MMLU+, HumanEval, LiveBench, GPQA)
-#JP|- New models added to the frontier since last update
-#RH|- Score improvements on existing models
-#ZV|- Independent evaluation data vs. self-reported scores
-#TM|- Any models removed/added to the frontier
-#ZM|
+API Endpoint:
+```
+GET https://artificialanalysis.ai/api/v2/data/llms/models
+Header: x-api-key: <your_api_key_here>
+```
+
+**Auth setup** (cache the response — the free API rate-limits 1,000 req/day):
+```bash
+# Source the API key from .env (project root)
+cd /Users/student/Dev/ai-news
+eval "$(grep '^AA=' .env)"
+
+# Fetch and cache
+mkdir -p /tmp/aa
+curl -sS -H "x-api-key: $AA" \
+  https://artificialanalysis.ai/api/v2/data/llms/models > /tmp/aa/models.json
+
+# Quick sanity check
+jq '.data | length' /tmp/aa/models.json   # should be >100
+```
+
+Fetch from AA API:
+- Current benchmark scores (MMLU, MMLU+, HumanEval, LiveBench, GPQA)
+- New models added to the frontier since last update
+- Score improvements on existing models
+- Independent evaluation data vs. self-reported scores
+- Any models removed/added to the frontier
+
+**Field mapping** (use AA for what it covers, web research for the rest — the free API does NOT include plain MMLU, HumanEval, or LiveBench):
+
+| Schema field | Source | AA path | Notes |
+|---|---|---|---|
+| `mmlu` | Web research | — | AA free API has no plain MMLU; only `mmlu_pro` |
+| `mmluPlus` | **AA API** | `evaluations.mmlu_pro × 100` | AA's MMLU-Pro is the closest analog (harder MMLU variant). AA returns 0-1; multiply by 100. |
+| `humaneval` | Web research | — | AA free API has no HumanEval (it has `livecodebench`, which is a different coding benchmark) |
+| `livebench` | Web research | — | AA free API has no LiveBench |
+| `gpqa` | **AA API** | `evaluations.gpqa × 100` | Direct match. Multiply 0-1 by 100. |
+
+**Useful for cross-referencing** (not direct schema fields, but for validating web research):
+- `evaluations.artificial_analysis_intelligence_index` — proprietary composite
+- `evaluations.artificial_analysis_coding_index` — proprietary coding score
+- `evaluations.artificial_analysis_math_index` — proprietary math score
+- `evaluations.livecodebench` — similar to LiveBench but a different benchmark
+- `evaluations.hle`, `scicode`, `math_500`, `aime` — other benchmarks AA tracks
+- `pricing.price_1m_input_tokens`, `price.price_1m_output_tokens` — current pricing
+- `median_output_tokens_per_second` — speed
+- `median_time_to_first_token_seconds` — latency
 #QV|### Alternative: Manual Research (only if API unavailable)
 #YX|If the AA API is unavailable, research benchmark scores from:
 #HB|```
