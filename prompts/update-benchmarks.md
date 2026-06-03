@@ -14,19 +14,19 @@ GET https://artificialanalysis.ai/api/v2/data/llms/models
 Header: x-api-key: <your_api_key_here>
 ```
 
-**Auth setup** (cache the response — the free API rate-limits 1,000 req/day):
+**Auth setup** (always read the key from `.env` on every AA API call — do not cache the response):
 ```bash
 # Source the API key from .env (project root)
 cd /Users/student/Dev/ai-news
 eval "$(grep '^AA=' .env)"
 
-# Fetch and cache
-mkdir -p /tmp/aa
+# Use $AA in every curl to AA
 curl -sS -H "x-api-key: $AA" \
-  https://artificialanalysis.ai/api/v2/data/llms/models > /tmp/aa/models.json
+  https://artificialanalysis.ai/api/v2/data/llms/models
 
-# Quick sanity check
-jq '.data | length' /tmp/aa/models.json   # should be >100
+# Pipe through jq to inspect:
+curl -sS -H "x-api-key: $AA" \
+  https://artificialanalysis.ai/api/v2/data/llms/models | jq '.data | length'
 ```
 
 Fetch from AA API:
