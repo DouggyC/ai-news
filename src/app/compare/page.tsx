@@ -42,6 +42,7 @@ const providerColors: Record<string, string> = {
   Moonshot: '#c084fc',
   ByteDance: '#facc15',
   StepFun: '#a78bfa',
+  Microsoft: '#0078d4',
 };
 
 function getInitialModels(): FrontierModel[] {
@@ -155,7 +156,7 @@ export default function ComparePage() {
             paddingRight: '24px',
           }}
         >
-          Last updated: June 2, 2026
+          Last updated: June 3, 2026
         </div>
         <div
           style={{

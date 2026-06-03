@@ -1,5 +1,65 @@
 [
     {
+        "id": "microsoft-mai-family-7-models-2026-06-02",
+        "title": "Microsoft launches seven in-house MAI models, led by MAI-Code-1-Flash for GitHub Copilot",
+        "summary": "Microsoft AI unveils a family of seven first-party MAI models (image, voice, transcription, thinking, coding) at Build 2026, with MAI-Code-1-Flash (5B params) rolling out as a default model in VS Code GitHub Copilot and MAI-Voice-2 now supporting 10+ extra languages.",
+        "source": "Microsoft",
+        "sourceUrl": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/",
+        "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
+        "category": "model",
+        "publishedAt": "2026-06-02"
+    },
+    {
+        "id": "github-copilot-app-agents-2026-06-02",
+        "title": "GitHub launches the Copilot app, a native agentic desktop for developers",
+        "summary": "GitHub unveils the new GitHub Copilot app in technical preview, a native desktop 'My Work' view that orchestrates parallel agent sessions across repos with sandboxed cloud/local execution, the GA GitHub Copilot SDK in Node, Python, Go, .NET, Rust, and Java, and Memory++ for cross-device continuity.",
+        "source": "GitHub",
+        "sourceUrl": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+        "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
+        "category": "product",
+        "publishedAt": "2026-06-02"
+    },
+    {
+        "id": "alibaba-qwen-3-7-plus-2026-06-02",
+        "title": "Alibaba's Qwen team ships Qwen3.7-Plus, a multimodal agent model on Bailian",
+        "summary": "Alibaba releases Qwen3.7-Plus, a multimodal model that unifies vision and language into a single agent foundation, on the Bailian (Model Studio) platform. Its preview ranks #16 in LM Arena vision, with deep reasoning, self-programming, tool invocation, and Agentic RL feedback built into the platform.",
+        "source": "Alibaba",
+        "sourceUrl": "https://www.marktechpost.com/2026/06/02/alibabas-qwen-team-launches-qwen3-7-plus-adding-vision-deep-reasoning-tool-invocation-and-autonomous-iteration-on-the-bailian-platform/",
+        "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
+        "category": "model",
+        "publishedAt": "2026-06-02"
+    },
+    {
+        "id": "perplexity-computer-hybrid-2026-06-02",
+        "title": "Perplexity Computer adds real-time local-cloud task splitting, demoed at Computex",
+        "summary": "Perplexity unveils hybrid agentic inference for Perplexity Computer, deciding in real time which subtasks stay on a local model and which get routed to frontier cloud models, with chip-agnostic support. The feature is rolling out in July, alongside a new Search as Code architecture for Computer and Agent API.",
+        "source": "Perplexity",
+        "sourceUrl": "https://9to5mac.com/2026/06/02/perplexity-computer-adding-ability-to-split-tasks-between-local-and-cloud-models/",
+        "imageUrl": "https://www.perplexity.ai/favicon.svg",
+        "category": "capability",
+        "publishedAt": "2026-06-02"
+    },
+    {
+        "id": "microsoft-build-2026-2026-06-02",
+        "title": "Microsoft Build 2026 spotlights in-house coding model and Windows Agent Runtime",
+        "summary": "Microsoft Build 2026 in San Francisco leads with a first-party coding model for GitHub Copilot, the production Microsoft Agent Framework, and a Windows Agent Runtime preview.",
+        "source": "Microsoft",
+        "sourceUrl": "https://news.microsoft.com/build-2026/",
+        "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
+        "category": "product",
+        "publishedAt": "2026-06-02"
+    },
+    {
+        "id": "nvidia-vera-cpu-agents-2026-05-31",
+        "title": "NVIDIA unveils Vera, the first CPU purpose-built for AI agents",
+        "summary": "NVIDIA launches Vera, a new 88-core CPU for the Vera Rubin platform with 1.8x the task-completion speed of x86, claiming Anthropic, OpenAI, SpaceXAI, ByteDance, CoreWeave and Oracle Cloud Infrastructure as adopters. Vera powers standalone servers, Vera Rubin systems, and the Vera BlueField-4 STX AI storage processor.",
+        "source": "NVIDIA",
+        "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-unveils-vera-the-cpu-for-agents",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
+        "category": "product",
+        "publishedAt": "2026-05-31"
+    },
+    {
         "id": "nvidia-vera-rubin-production-2026-05-31",
         "title": "NVIDIA Vera Rubin ramps into full production for agentic AI factories",
         "summary": "NVIDIA's third-generation MGX platform Vera Rubin begins full production with 150+ Taiwan supply chain partners, delivering 10x agent throughput vs. Grace Blackwell.",
@@ -60,6 +120,16 @@
         "publishedAt": "2026-05-31"
     },
     {
+        "id": "mistral-voxtral-speech-2026-05-28",
+        "title": "Mistral releases Voxtral open-source speech models with 32K context at $0.001/minute",
+        "summary": "Mistral ships Voxtral Small (24B) and Mini (3B) under Apache 2.0, supporting 30-40 minutes of audio with 32K context. Voxtral Mini Transcribe undercuts OpenAI Whisper at $0.001/minute via API and on Hugging Face, with voice mode integration in Le Chat coming in the weeks ahead.",
+        "source": "Mistral",
+        "sourceUrl": "https://tpsreport.news/news/mistral-voxtral-speech-models-32k-context",
+        "imageUrl": "https://www.mistral.ai/favicon.ico",
+        "category": "model",
+        "publishedAt": "2026-05-28"
+    },
+    {
         "id": "openai-gpt-5-5-instant-upgrade-2026-05-28",
         "title": "OpenAI upgrades GPT-5.5 Instant with better readability, retires GPT-4.5 and o3",
         "summary": "OpenAI ships an updated GPT-5.5 Instant with a more natural tone and fewer bullet-heavy responses, while scheduling GPT-4.5 sunset for June 27 and o3 for August 26.",
@@ -100,16 +170,6 @@
         "publishedAt": "2026-05-28"
     },
     {
-        "id": "xai-grok-skills-2026-05-18",
-        "title": "xAI launches Grok Skills for cross-conversation persistent instructions",
-        "summary": "xAI's Grok Skills ship as persistent, shareable instruction sets that survive across every Grok conversation, bundled with native Word, PowerPoint, Excel and PDF generation.",
-        "source": "xAI",
-        "sourceUrl": "https://www.bighatgroup.com/blog/xai-weekly-2026-05-27/",
-        "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
-        "category": "capability",
-        "publishedAt": "2026-05-18"
-    },
-    {
         "id": "alibaba-qwen-cloud-global-2026-05-28",
         "title": "Alibaba Cloud launches Qwen Cloud for global markets, built for AI agents",
         "summary": "Alibaba Cloud debuts Qwen Cloud, an AI-native platform with Skills for agents, a CLI, and unified access to Qwen, open-source and third-party multimodal models.",
@@ -118,26 +178,6 @@
         "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
         "category": "product",
         "publishedAt": "2026-05-28"
-    },
-    {
-        "id": "alibaba-qwen-3-7-max-2026-05-20",
-        "title": "Alibaba unveils Qwen3.7-Max as flagship model for the agent era",
-        "summary": "Alibaba's Qwen team launches Qwen3.7-Max, a frontier reasoning model tuned for long-horizon agentic coding, office automation and 1,000+ step autonomous execution.",
-        "source": "Alibaba",
-        "sourceUrl": "https://www.alibabacloud.com/blog/qwen3-7-the-agent-frontier_603154",
-        "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
-        "category": "model",
-        "publishedAt": "2026-05-20"
-    },
-    {
-        "id": "alibaba-zhenwu-m890-chip-2026-05-20",
-        "title": "Alibaba unveils Zhenwu M890 AI chip and full-stack agentic AI upgrade",
-        "summary": "Alibaba's T-Head subsidiary launches the Zhenwu M890 chip (3x predecessor performance) and the Panjiu AL128 supernode server alongside its Qwen3.7-Max model.",
-        "source": "Alibaba",
-        "sourceUrl": "https://www.alibabacloud.com/blog/alibaba-unveils-new-ai-chip-flagship-model-and-rebuilt-cloud-stack-ai-for-agentic-era_603151",
-        "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
-        "category": "product",
-        "publishedAt": "2026-05-20"
     },
     {
         "id": "mistral-vibe-ai-now-summit-2026-05-28",
@@ -150,36 +190,6 @@
         "publishedAt": "2026-05-28"
     },
     {
-        "id": "mistral-medium-3-5-2026-05-22",
-        "title": "Mistral ships Medium 3.5 open-weight flagship with Work mode in Le Chat",
-        "summary": "Mistral releases Medium 3.5, a 128B dense open-weight model merging instruction-following, reasoning and coding, and ships Work mode in Le Chat plus remote Vibe agents.",
-        "source": "Mistral",
-        "sourceUrl": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/",
-        "imageUrl": "https://www.mistral.ai/favicon.ico",
-        "category": "model",
-        "publishedAt": "2026-05-22"
-    },
-    {
-        "id": "google-gemini-3-5-flash-2026-05-19",
-        "title": "Google releases Gemini 3.5 Flash as agentic default across Search and APIs",
-        "summary": "Google debuts Gemini 3.5 Flash as the new default model in AI Mode, Gemini app, Antigravity and Gemini Enterprise, leading on Terminal-Bench 2.1, MCP Atlas and CharXiv.",
-        "source": "Google",
-        "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
-        "category": "model",
-        "publishedAt": "2026-05-19"
-    },
-    {
-        "id": "google-gemini-omni-flash-2026-05-19",
-        "title": "Google unveils Gemini Omni Flash, a new model that creates video from any input",
-        "summary": "Google launches Gemini Omni Flash as the first model in the Omni family, generating high-quality video from text, image, audio and video inputs via the Gemini app and Flow.",
-        "source": "Google",
-        "sourceUrl": "https://blog.google/intl/en-africa/products/explore-get-answers/gemini-omni/",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg",
-        "category": "model",
-        "publishedAt": "2026-05-19"
-    },
-    {
         "id": "perplexity-computer-microsoft-365-2026-05-28",
         "title": "Perplexity Computer lands inside Microsoft Word, Excel, PowerPoint and Outlook",
         "summary": "Perplexity's multi-model Computer agent is now available as add-ins across Microsoft 365 apps, orchestrating 19+ models to draft documents, build sheets and rewrite emails.",
@@ -190,16 +200,6 @@
         "publishedAt": "2026-05-28"
     },
     {
-        "id": "stability-stable-audio-3-2026-05-20",
-        "title": "Stability AI ships Stable Audio 3.0 with up to six-minute open-weight music generation",
-        "summary": "Stability AI releases Stable Audio 3.0 (Small, Medium, Large) trained on fully licensed data, with Small/Medium as open weights capable of 6:20 compositions.",
-        "source": "StabilityAI",
-        "sourceUrl": "https://techcrunch.com/2026/05/20/stability-ai-release-a-new-audio-model-that-can-create-six-minute-songs/",
-        "imageUrl": "https://stability.ai/favicon.ico",
-        "category": "model",
-        "publishedAt": "2026-05-20"
-    },
-    {
         "id": "apple-wwdc-2026-on-device-ai-2026-05-28",
         "title": "Apple plans to make on-device AI a key WWDC 2026 focus, leaning on custom silicon",
         "summary": "Apple will highlight on-device Apple Intelligence at WWDC 2026 (June 8), using a distilled version of Google's Gemini to run locally and Nvidia confidential compute in the cloud.",
@@ -208,16 +208,6 @@
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
         "category": "product",
         "publishedAt": "2026-05-28"
-    },
-    {
-        "id": "microsoft-build-2026-2026-06-02",
-        "title": "Microsoft Build 2026 spotlights in-house coding model and Windows Agent Runtime",
-        "summary": "Microsoft Build 2026 in San Francisco leads with a first-party coding model for GitHub Copilot, the production Microsoft Agent Framework, and a Windows Agent Runtime preview.",
-        "source": "Microsoft",
-        "sourceUrl": "https://news.microsoft.com/build-2026/",
-        "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
-        "category": "product",
-        "publishedAt": "2026-06-02"
     },
     {
         "id": "amazon-bedrock-grok-spacexai-2026-05-28",
@@ -238,5 +228,15 @@
         "imageUrl": "https://preview.redd.it/deepseek-v4-all-leaks-and-infos-for-the-release-day-not-v0-lllfdd3uvimg1.png?width=640&crop=smart&auto=webp&s=2492384251ab16ffeac1c5d0317dd71610c3c077",
         "category": "product",
         "publishedAt": "2026-05-23"
+    },
+    {
+        "id": "mistral-medium-3-5-2026-05-22",
+        "title": "Mistral ships Medium 3.5 open-weight flagship with Work mode in Le Chat",
+        "summary": "Mistral releases Medium 3.5, a 128B dense open-weight model merging instruction-following, reasoning and coding, and ships Work mode in Le Chat plus remote Vibe agents.",
+        "source": "Mistral",
+        "sourceUrl": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/",
+        "imageUrl": "https://www.mistral.ai/favicon.ico",
+        "category": "model",
+        "publishedAt": "2026-05-22"
     }
 ]

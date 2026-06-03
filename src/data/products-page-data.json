@@ -18,9 +18,9 @@
         "description": "Frontier reasoning model (April 23, 2026), GPT-5.5 and GPT-5.5 Pro in API (April 24, 2026). GPT-5.5 Instant default in ChatGPT (May 5, 2026) with readability upgrade May 28. Powers Codex, Deep Research, voice, image, agent tools. GPT-5.5-Cyber available for trusted cyber defenders (May 12, 2026). Now on AWS Bedrock (June 1, 2026)."
       },
       "Anthropic": {
-        "name": "Claude Opus 4.7",
-        "url": "https://www.anthropic.com/news/claude-opus-4-7",
-        "description": "Anthropic's flagship hybrid reasoning model (April 16, 2026) for coding and agent workflows with xhigh effort level. Sonnet 4.6 also available. Available via API, Amazon Bedrock, Google Cloud's Vertex AI, and Microsoft Foundry. Pricing: $5/M input, $25/M output."
+        "name": "Claude Opus 4.8",
+        "url": "https://www.anthropic.com/news/claude-opus-4-8",
+        "description": "Anthropic's flagship hybrid reasoning model (May 28, 2026) with xhigh effort and dynamic workflows for parallel sub-agents. Sonnet 4.6 default on free/Pro. Mythos Preview cyber model in restricted preview. Pricing: $5/M input, $25/M output. Available via API, Amazon Bedrock, Google Cloud's Vertex AI, and Microsoft Foundry."
       },
       "xAI": {
         "name": "Grok 4.3",
@@ -58,9 +58,9 @@
         "description": "Mistral's unified 128B dense model (April 28, 2026) replaces Medium 3.1, Magistral, and Devstral 2. 256K context, 77.6% SWE-Bench Verified, open weights under Modified MIT. Default in Le Chat and Vibe CLI (May 5, 2026)."
       },
       "Alibaba": {
-        "name": "Qwen3.6-Plus",
-        "url": "https://www.alibabacloud.com/blog/qwen3-6-plus-towards-real-world-agents_603005",
-        "description": "Alibaba's latest flagship model (April 2, 2026) with 1M context, agentic coding focus, multimodal reasoning. Hybrid linear attention with sparse MoE. Powers Wukong enterprise platform and Qwen App with full Taobao integration. Compatible with OpenClaw, Claude Code, Cline."
+        "name": "Qwen 3.7-Max",
+        "url": "https://www.alibabacloud.com/blog/qwen3-7-the-agent-frontier_603154",
+        "description": "Alibaba's new flagship model (May 26, 2026, Singapore Qwen Conference) with 1T+ parameters, 1M context, runs 35 hours autonomously without performance degradation. Top-tier on Artificial Analysis Intelligence Index. Powers Wukong enterprise platform, Qwen App with full Taobao integration, and Qwen Cloud agentic platform. Qwen3.6-Plus also available."
       },
       "Microsoft": {
         "name": "Phi-4",
@@ -100,7 +100,7 @@
       "Anthropic": {
         "name": "Claude",
         "url": "https://claude.com/product/overview",
-        "description": "Default on Sonnet 4.6 with Opus 4.7 for max capability. Claude Design (April 2026) for visual work. Claude for Small Business (May 13, 2026) with Quickbooks, PayPal, HubSpot, Canva, Docusign connectors. Microsoft 365 add-ins for Excel, PowerPoint, Word (GA), Outlook (beta). Opus 4.7 on GitHub Copilot (April 16, 2026)."
+        "description": "Default on Sonnet 4.6 with Opus 4.8 for max capability (May 28, 2026 release with dynamic workflows, effort control). Claude for Small Business (May 13) with Quickbooks, PayPal, HubSpot, Canva, Docusign connectors. Claude Cowork GA (April 9) on macOS/Windows. Microsoft 365 add-ins for Excel, PowerPoint, Word, Outlook. Opus 4.7 on GitHub Copilot (April 16)."
       },
       "Microsoft": {
         "name": "Copilot",
@@ -110,7 +110,7 @@
       "Meta": {
         "name": "Meta AI",
         "url": "https://ai.meta.com",
-        "description": "Powered by Muse Spark. Contemplating mode orchestrates multiple agents in parallel. Free at meta.ai and across Meta apps, Instagram, Facebook, Messenger, WhatsApp."
+        "description": "Powered by Muse Spark. Meta AI app rebuilt natively on May 12, 2026: Contemplating mode (multi-agent visible parallel reasoning), Live AI camera for real-time vision streaming, Marketplace shopping agent across WhatsApp, Instagram, Facebook. Free at meta.ai and across Meta apps, Instagram, Facebook, Messenger, WhatsApp. Rolling out to Ray-Ban Meta glasses."
       },
       "Amazon": {
         "name": "Amazon Q",
@@ -120,7 +120,7 @@
       "xAI": {
         "name": "Grok",
         "url": "https://grok.com",
-        "description": "Powered by Grok 4.3 with Connectors for web, iOS, Android. MCP server support. Custom Voices (May 2026), $4.20 per 1M characters for TTS. Grok Build early beta for SuperGrok Heavy subscribers (May 14, 2026). Grok Business and Enterprise tiers available."
+        "description": "Powered by Grok 4.3 with Connectors for web, iOS, Android. MCP server support. Custom Voices (Apr 30, 2026), $4.20 per 1M characters for TTS. Grok Skills (May 22, 2026) for persistent custom expertise, file/deck/spreadsheet/PDF generation. Grok Build early beta for SuperGrok Heavy subscribers (May 14, 2026). Grok Business and Enterprise tiers."
       },
       "DeepSeek": {
         "name": "DeepSeek Chat",
@@ -128,9 +128,9 @@
         "description": "Powered by DeepSeek V4 with multimodal image recognition (April 29, 2026). Expert Mode (Pro) and Instant Mode (Flash) available. Optimized for Claude Code and OpenClaw. Legacy deepseek-chat/deepseek-reasoner retire Jul 24, 2026."
       },
       "Mistral": {
-        "name": "Le Chat",
-        "url": "https://mistral.ai/products/le-chat",
-        "description": "Powered by Mistral Medium 3.5 with Work Mode (agentic). Code Interpreter, custom agents, and Vibe CLI integration. Pro at $14.99/mo."
+        "name": "Vibe",
+        "url": "https://mistral.ai/products/vibe/",
+        "description": "Mistral's unified AI agent (rebranded from Le Chat, May 28, 2026). Work Mode for productivity with Skills, Workflows, Connectors, scheduled tasks. Code Mode with remote coding agents in cloud sandboxes. New VS Code extension. Powered by Mistral Medium 3.5. Pro $14.99/mo, Team $24.99/user/mo."
       },
       "ByteDance": {
         "name": "Doubao",
@@ -145,7 +145,7 @@
       "Alibaba": {
         "name": "Qwen Chat",
         "url": "https://chat.qwen.ai/",
-        "description": "Powered by Qwen3.6-Plus with multilingual chat, agentic coding, and advanced reasoning. Full Taobao integration (4B+ products) for agentic shopping. Shopping assistant with AI try-on."
+        "description": "Powered by Qwen 3.7-Max (May 26, 2026) with 35-hour autonomous runs, multilingual chat, agentic coding, and advanced reasoning. Full Taobao integration (4B+ products) for agentic shopping. Shopping assistant with AI try-on. Compatible with Qoder coding platform."
       },
       "HuggingFace": {
         "name": "HuggingChat",
@@ -200,7 +200,7 @@
       "Cursor": {
         "name": "Cursor 3.x",
         "url": "https://www.cursor.com",
-        "description": "AI-native editor (v3.5, May 20, 2026; v3.6 May 29) with Composer 2.5 default (May 18, 2026). Cursor Automations in Agents Window with multi-repo and no-repo modes. Development environments for cloud agents (May 13). Pro $20/mo, Pro+ $60/mo, Ultra $200/mo. Gartner Leader in Enterprise AI Coding Agents."
+        "description": "AI-native editor (v3.6, May 29, 2026 with Auto-review; v3.5 May 20) with Composer 2.5 default (May 18, 2026). Cursor Automations in Agents Window with multi-repo and no-repo modes. Development environments for cloud agents (May 13). Pro $20/mo, Pro+ $60/mo, Ultra $200/mo. Gartner Leader in Enterprise AI Coding Agents. Training a much larger next-gen model with SpaceXAI on Colossus 2."
       },
       "Cognition": {
         "name": "Windsurf Editor",
@@ -230,7 +230,7 @@
       "Anthropic": {
         "name": "Claude Code",
         "url": "https://www.anthropic.com/claude-code",
-        "description": "CLI coding agent powered by Claude Opus 4.7 and Sonnet 4.6. Desktop app with full feature parity."
+        "description": "Terminal-first coding agent with IDE workflows powered by Claude Opus 4.8. Dynamic workflows (May 28, 2026) for parallel sub-agents at scale. /ultrareview slash command, auto mode for Max users. Desktop app GA. Agent view (May 11, 2026)."
       },
       "xAI": {
         "name": "Grok Build CLI",
@@ -295,7 +295,7 @@
       "Anthropic": {
         "name": "Claude API",
         "url": "https://docs.anthropic.com",
-        "description": "Claude 4.7 models, tools, computer use, long-context developer platform. Claude Platform on AWS now GA (May 11). Managed Agents, Advisor strategy, Memory. Financial services agent templates."
+        "description": "Claude Opus 4.8, Sonnet 4.6, and Haiku 4.5 models, tools, computer use, long-context developer platform. Claude Platform on AWS now GA (May 11, 2026). Managed Agents, Advisor strategy, Memory. Self-hosted sandboxes, MCP tunnels, dreaming/outcomes/multiagent orchestration. Financial services and small business templates."
       },
       "Microsoft": {
         "name": "Azure AI Foundry",
@@ -315,12 +315,12 @@
       "xAI": {
         "name": "xAI API",
         "url": "https://docs.x.ai",
-        "description": "Developer access to Grok 4.3 ($1.25/$2.50 per 1M tokens) and grok-4.20 (2M context). Custom Voices TTS ($4.20/1M chars), Voice Agent API ($3/hr). grok-imagine-image-quality for image generation. grok-build-0.1 for terminal coding workflows."
+        "description": "Developer access to Grok 4.3 ($1.25/$2.50 per 1M tokens) and grok-4.20 (2M context). Custom Voices TTS ($4.20/1M chars), Voice Agent API ($3/hr). grok-imagine-image-quality for image generation. grok-build-0.1 for terminal coding workflows. Responses API with tool calling (May 22, 2026). Grok 5 in training on Colossus 2."
       },
       "DeepSeek": {
         "name": "DeepSeek API",
         "url": "https://api-docs.deepseek.com/",
-        "description": "Low-cost API access to DeepSeek V4 (Pro: $0.435/$0.87, Flash: $0.14/$0.28 per 1M tokens). 1M context, reasoning modes, multimodal image recognition. OpenAI and Anthropic compatible formats. Hybrid Attention combining CSA and HCA."
+        "description": "Low-cost API access to DeepSeek V4 (Pro: $0.435/$0.87, Flash: $0.14/$0.28 per 1M tokens - 75% discount made permanent May 23, 2026). 1M context, 384K max output, reasoning modes, multimodal image recognition. OpenAI and Anthropic compatible formats. Hybrid Attention combining CSA and HCA. Built on Huawei Ascend 950PR."
       },
       "Mistral": {
         "name": "La Plateforme",
@@ -340,7 +340,7 @@
       "Alibaba": {
         "name": "Model Studio",
         "url": "https://www.alibabacloud.com/en/product/model-studio",
-        "description": "Alibaba Cloud developer platform for Qwen models and agent apps. Qwen3.6-Plus available via API."
+        "description": "Alibaba Cloud developer platform for Qwen models and agent apps. Qwen 3.7-Max (May 26, 2026) and Qwen3.6-Plus available via API. Qwen Cloud launches new skills portal for MCP-compatible agentic workflows."
       },
       "HuggingFace": {
         "name": "Inference API",
@@ -425,7 +425,7 @@
       "Cursor": {
         "name": "Background Agent",
         "url": "https://www.cursor.com",
-        "description": "Async dev workflows for longer tasks inside the Cursor coding environment. Agents Window for parallel execution with v3.5 (May 20, 2026). Development environments for cloud agents (May 13, 2026). Automations in Marketplace templates."
+        "description": "Async dev workflows for longer tasks inside the Cursor coding environment. Agents Window for parallel execution with v3.5 (May 20, 2026). Cursor 3.6 Auto-review (May 29) for longer autonomous work with fewer approval prompts. Development environments for cloud agents (May 13, 2026). Automations in Marketplace templates."
       },
       "HuggingFace": {
         "name": "Gradio",
@@ -730,7 +730,7 @@
       "Anthropic": {
         "name": "Claude Research",
         "url": "https://claude.com",
-        "description": "Claude for research with Opus 4.7, long context, computer use for autonomous research tasks. Memory across sessions. xhigh effort level for deeper reasoning on hard problems."
+        "description": "Claude for research with Opus 4.8, long context, computer use for autonomous research tasks. Memory across sessions. xhigh effort level for deeper reasoning on hard problems. Cowork scheduled tasks for recurring research workflows."
       }
     }
   },
@@ -750,7 +750,7 @@
       "Anthropic": {
         "name": "Claude Enterprise",
         "url": "https://claude.com/pricing/enterprise",
-        "description": "Claude workspace with enterprise controls, knowledge, and 4.7 model access. Claude Cowork in Amazon Bedrock. Microsoft 365 integration. Financial services and small business solutions."
+        "description": "Claude workspace with enterprise controls, knowledge, and Opus 4.8 access. Claude Cowork in Amazon Bedrock. Microsoft 365 integration. Financial services and small business solutions. Connector permissions in custom roles (May 28, 2026)."
       },
       "Microsoft": {
         "name": "Microsoft 365 Copilot",
@@ -864,10 +864,10 @@
       },
       "Mistral": {
         "name": "Mistral Workflows",
-        "url": "https://mistral.ai/news/workflows",
-        "description": "Enterprise orchestration engine also available for self-hosted deployment. Built on Temporal."
+        "url": "https://docs.mistral.ai",
+        "description": "Enterprise orchestration engine folded into Vibe (May 28, 2026). Also available for self-hosted deployment on Mistral Cloud or on-prem. Built on Temporal."
       },
-      "Langflow": {
+"Langflow": {
         "name": "Langflow",
         "url": "https://langflow.org",
         "description": "Visual low-code AI builder for agentic and RAG applications. 138K GitHub stars, drag-and-drop components, Python customization. Desktop app, cloud hosting, self-hosted options. Supports all major LLMs and vector databases."

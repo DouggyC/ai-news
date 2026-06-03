@@ -431,5 +431,20 @@
         "livebench": 68.0,
         "mmluPlus": 82.0,
         "gpqa": 87.0
+    },
+
+
+
+    {
+        "id": "mai-thinking-1",
+        "name": "MAI-Thinking-1",
+        "provider": "Microsoft",
+        "openSource": false,
+        "mmlu": null,
+        "humaneval": null,
+        "livebench": null,
+        "mmluPlus": null,
+        "gpqa": 84.2
     }
+
 ]

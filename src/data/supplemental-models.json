@@ -527,5 +527,20 @@
     "functionCalling": true,
     "json": true,
     "search": false
+  },
+  "mai-thinking-1": {
+    "provider": "Microsoft",
+    "parameters": 35000000000,
+    "modelSizeGB": 0,
+    "contextLength": 256000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": null,
+    "humaneval": null,
+    "multimodal": false,
+    "vision": false,
+    "functionCalling": true,
+    "json": true,
+    "search": false
   }
 }
