@@ -43,6 +43,8 @@ const providerColors: Record<string, string> = {
   ByteDance: '#facc15',
   StepFun: '#a78bfa',
   Microsoft: '#0078d4',
+  Cohere: '#e11d48',
+  Xiaomi: '#ff6900',
 };
 
 function getInitialModels(): FrontierModel[] {
@@ -156,7 +158,7 @@ export default function ComparePage() {
             paddingRight: '24px',
           }}
         >
-          Last updated: June 3, 2026
+          Last updated: June 7, 2026
         </div>
         <div
           style={{

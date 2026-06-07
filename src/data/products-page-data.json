@@ -130,7 +130,7 @@
       "Mistral": {
         "name": "Vibe",
         "url": "https://mistral.ai/products/vibe/",
-        "description": "Mistral's unified AI agent (rebranded from Le Chat, May 28, 2026). Work Mode for productivity with Skills, Workflows, Connectors, scheduled tasks. Code Mode with remote coding agents in cloud sandboxes. New VS Code extension. Powered by Mistral Medium 3.5. Pro $14.99/mo, Team $24.99/user/mo."
+        "description": "Mistral's unified AI agent (rebranded from Le Chat, May 28, 2026) with Work Mode (long-running multi-step tasks with parallel tool calls, recurring scheduled jobs, 100+ connectors, MCP) and Code Mode (remote cloud coding sessions in isolated sandboxes, GitHub PR integration, Slack trigger). New VS Code extension and JetBrains/Zed ACP integration. Powered by Mistral Medium 3.5. Pro $14.99/mo, Team $24.99/user/mo."
       },
       "ByteDance": {
         "name": "Doubao",
@@ -180,7 +180,7 @@
       "Anthropic": {
         "name": "Claude Code",
         "url": "https://www.anthropic.com/claude-code",
-        "description": "Terminal-first coding agent with IDE workflows powered by Claude Opus 4.7. Ultrareview slash command, parallel agents, auto mode for Max users. Desktop app GA. Agent view (May 11, 2026)."
+        "description": "Terminal-first coding agent with IDE workflows powered by Claude Opus 4.8 (May 28, 2026). Dynamic workflows feature for parallel sub-agents running hundreds of tasks per session. /ultrareview slash command, auto mode for Max users. Desktop app GA. Agent view (May 11, 2026). Fast mode for Opus 4.8 at 2x standard rate for 2.5x speed."
       },
       "Microsoft": {
         "name": "GitHub Copilot",
@@ -375,12 +375,12 @@
       "NVIDIA": {
         "name": "NIM",
         "url": "https://build.nvidia.com",
-        "description": "Containerized inference microservices for enterprise deployment (NIM 2.0). One container, one backend philosophy. Built on vLLM, TensorRT-LLM, SGLang. Vera Rubin NVL72 systems in production. Custom model support, hosted on build.nvidia.com."
+        "description": "Containerized inference microservices for enterprise deployment (NIM 2.0 with custom model support). One container, one backend philosophy. Built on vLLM, TensorRT-LLM, SGLang. Vera Rubin NVL72 systems ramped into full production (May 31, 2026) with 10x agent throughput vs Grace Blackwell. Hosted on build.nvidia.com."
       },
       "NVIDIA-Vera": {
         "name": "Vera CPU",
         "url": "https://blogs.nvidia.com/blog/vera-cpu-delivery/",
-        "description": "NVIDIA's first CPU built for agentic AI, delivered to top AI labs in 2026. 2x efficiency, 50% faster performance. Pairs with Rubin GPUs."
+        "description": "NVIDIA's first CPU built for agentic AI (launched March 16, 2026), ramping into full production as part of Vera Rubin NVL72 platform (May 31, 2026). 88 custom Olympus cores, Arm-compatible, 2x efficiency, 50% faster than traditional rack-scale CPUs. 1.8 TB/s NVLink-C2C coherent bandwidth pairs with Rubin GPUs. Deployed by Alibaba Cloud, ByteDance, Meta, Oracle Cloud, and NVIDIA Cloud Partners (CoreWeave, Crusoe, Lambda, Nebius, Nscale, Together AI)."
       },
       "HuggingFace": {
         "name": "Inference Endpoints",
@@ -515,12 +515,12 @@
       "StabilityAI": {
         "name": "Stable Diffusion 3.5",
         "url": "https://stability.ai/stable-image",
-        "description": "Open image model family for self-hosted and API-driven generation. FLUX.1 available via API."
+        "description": "Stability AI's flagship open image model family (SD 3.5 Large 8.1B, Large Turbo, Medium 2.5B) plus API products Stable Image Ultra (powered by SD3.5 Large, $0.08/image) and Stable Image Core (next-gen after SDXL, $0.03/image). SD3.0 APIs deprecated. AMD Radeon and NVIDIA TensorRT optimizations (May 2026). Available via Stability AI NIM, Hugging Face, and self-hosted."
       },
       "BlackForest": {
-        "name": "FLUX.1",
+        "name": "FLUX.2",
         "url": "https://bfl.ai",
-        "description": "Black Forest Labs image models widely adopted in open and hosted stacks. FLUX.2 small decoder available."
+        "description": "Black Forest Labs' current image model family. FLUX.2 [pro] production-grade at $0.03/MP with multi-reference (up to 10 images), 4MP output, exact hex color control, structured prompting. FLUX.2 [flex] for typography and fine-grained control. FLUX.2 [klein] 4B/9B open-weight models (Apache 2.0) with sub-0.5s inference on consumer GPUs since Jan 15, 2026. FLUX.2 [dev] 32B open-weight. Replaces FLUX.1 line."
       },
       "xAI": {
         "name": "Grok Imagine API",
@@ -558,9 +558,9 @@
         "description": "Avatar-first video generation with enterprise localization and dubbing flows."
       },
       "Pika": {
-        "name": "Pika",
+        "name": "Pika 2.2",
         "url": "https://pika.art",
-        "description": "Consumer-friendly video generation and edit effects for short-form content."
+        "description": "Pika 2.2 (April 2026) with Scene Director for multi-shot storyboards (2-6 scenes, up to 24s total), native AI Sound Design (ambient/action SFX), and improved motion brushes. 6s individual clips at 1080p 30fps. API supports batch processing and webhook callbacks, $0.05/second. Standard $8/mo, Pro $28/mo."
       },
       "ByteDance": {
         "name": "Seedance 2.0",

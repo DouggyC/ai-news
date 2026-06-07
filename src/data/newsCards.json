@@ -1,28 +1,129 @@
 [
     {
-        "id": "microsoft-mai-family-7-models-2026-06-02",
-        "title": "Microsoft launches seven in-house MAI models, led by MAI-Code-1-Flash for GitHub Copilot",
-        "summary": "Microsoft AI unveils a family of seven first-party MAI models (image, voice, transcription, thinking, coding) at Build 2026, with MAI-Code-1-Flash (5B params) rolling out as a default model in VS Code GitHub Copilot and MAI-Voice-2 now supporting 10+ extra languages.",
-        "source": "Microsoft",
-        "sourceUrl": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/",
-        "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
+        "id": "moonshot-kimi-code-cli-2026-06-06",
+        "title": "Moonshot releases open-source Kimi Code CLI terminal agent",
+        "summary": "Moonshot AI ships Kimi Code CLI, an MIT-licensed TypeScript coding agent that runs in the terminal with built-in coder, explore, and plan subagents and conversational MCP server configuration.",
+        "source": "Moonshot",
+        "sourceUrl": "https://www.marktechpost.com/2026/06/06/moonshot-ai-releases-kimi-code-cli-a-terminal-ai-coding-agent-built-in-typescript-for-next-gen-agents/",
+        "imageUrl": "https://kimi.moonshot.cn/favicon.ico",
+        "category": "tool",
+        "publishedAt": "2026-06-06"
+    },
+    {
+        "id": "zhipu-glm-5-1-long-context-2026-06-06",
+        "title": "Zhipu GLM-5.1 ships with 8-hour autonomous task horizon",
+        "summary": "Zhipu AI launches GLM-5.1, an open-weight model that runs a single task autonomously for over 8 hours, becomes the first Chinese model to top Opus 4.6 on SWE-bench Pro, and raises coding API prices to parity with Anthropic.",
+        "source": "Zhipu AI",
+        "sourceUrl": "https://xix.ai/ainews/zhipu-glm51-launches-with-longcontext-performance-surpassing-opus-46.html",
+        "imageUrl": "https://zhipuai.cn/favicon.ico",
         "category": "model",
-        "publishedAt": "2026-06-02"
+        "publishedAt": "2026-06-06"
+    },
+
+    {
+        "id": "google-gemma-4-qat-mobile-2026-06-05",
+        "title": "Google ships Gemma 4 QAT checkpoints to shrink on-device memory",
+        "summary": "Google releases Gemma 4 quantization-aware training checkpoints that cut the E2B mobile model's memory footprint to under 1GB and slot into llama.cpp, Ollama, LM Studio, vLLM, and LiteRT-LM.",
+        "source": "Google",
+        "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/",
+        "imageUrl": "https://blog.google/favicon.ico",
+        "category": "model",
+        "publishedAt": "2026-06-05"
     },
     {
-        "id": "github-copilot-app-agents-2026-06-02",
-        "title": "GitHub launches the Copilot app, a native agentic desktop for developers",
-        "summary": "GitHub unveils the new GitHub Copilot app in technical preview, a native desktop 'My Work' view that orchestrates parallel agent sessions across repos with sandboxed cloud/local execution, the GA GitHub Copilot SDK in Node, Python, Go, .NET, Rust, and Java, and Memory++ for cross-device continuity.",
-        "source": "GitHub",
-        "sourceUrl": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
-        "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
+        "id": "apple-wwdc-2026-on-device-ai-2026-06-04",
+        "title": "Apple to set out its on-device AI plan at WWDC 2026",
+        "summary": "Apple will frame WWDC 2026 around on-device Apple Intelligence, distilling a large Gemini model to run locally, leaning on Nvidia confidential compute in Google Cloud for the rest, and reportedly eyeing Liquid AI for model shrinking.",
+        "source": "Apple",
+        "sourceUrl": "https://www.macrumors.com/2026/06/04/apple-to-reveal-what-makes-its-ai-different/",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
+        "category": "capability",
+        "publishedAt": "2026-06-04"
+    },
+    {
+        "id": "hugging-face-hf-cli-agents-2026-06-04",
+        "title": "Hugging Face rebuilds the hf CLI for agent-driven workflows",
+        "summary": "Hugging Face ships a redesigned hf CLI with agent-aware output and user-agent tagging; Claude Code alone drives about 40k users and 49M requests, with Codex close behind, as coding agents become the dominant Hub clients.",
+        "source": "Hugging Face",
+        "sourceUrl": "https://huggingface.co/blog/hf-cli-for-agents",
+        "imageUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+        "category": "tool",
+        "publishedAt": "2026-06-04"
+    },
+    {
+        "id": "nvidia-nemotron-3-ultra-2026-06-04",
+        "title": "NVIDIA releases open Nemotron 3 Ultra 550B MoE for long-running agents",
+        "summary": "NVIDIA's Nemotron 3 Ultra is a 550B-parameter MoE with 55B active, hybrid Mamba-Transformer layers, NVFP4 quantization across Hopper, Blackwell, and Ampere, and 30% lower cost-to-completion on agentic benchmarks.",
+        "source": "NVIDIA",
+        "sourceUrl": "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents/",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
+        "category": "model",
+        "publishedAt": "2026-06-04"
+    },
+    {
+        "id": "adobe-nvidia-rtx-spark-photoshop-premiere-2026-06-03",
+        "title": "Adobe and NVIDIA rebuild Photoshop and Premiere Pro for RTX Spark",
+        "summary": "Adobe and NVIDIA extend their partnership to optimize Photoshop, Premiere Pro, and new AI agents for the 1-petaflop RTX Spark superchip, targeting 2x faster editing, effects, and Firefly workflows on Windows PCs.",
+        "source": "Adobe",
+        "sourceUrl": "https://www.capturemag.com.au/news/adobe-and-nvidia-partner-to-optimise-software-for-rtx-spark-superchip",
+        "imageUrl": "https://www.bytechat.io/favicon.ico",
         "category": "product",
-        "publishedAt": "2026-06-02"
+        "publishedAt": "2026-06-03"
     },
     {
-        "id": "alibaba-qwen-3-7-plus-2026-06-02",
-        "title": "Alibaba's Qwen team ships Qwen3.7-Plus, a multimodal agent model on Bailian",
-        "summary": "Alibaba releases Qwen3.7-Plus, a multimodal model that unifies vision and language into a single agent foundation, on the Bailian (Model Studio) platform. Its preview ranks #16 in LM Arena vision, with deep reasoning, self-programming, tool invocation, and Agentic RL feedback built into the platform.",
+        "id": "bytedance-doubao-paid-pro-2026-06-03",
+        "title": "ByteDance's Doubao launches paid Pro tier in China",
+        "summary": "ByteDance introduces Doubao Pro at 68-500 yuan per month, the first paid tier for China's most-used AI assistant, with monthly actives dipping 6.07M and a planned Force Conference rollout of deeper AI shopping features.",
+        "source": "ByteDance",
+        "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3355782/china-ready-pay-ai-bytedances-doubao-loses-6-million-users",
+        "imageUrl": "https://cdn.technobezz.com/c/Technobezz_2026_02_14_T092431_822_304d822711.png",
+        "category": "product",
+        "publishedAt": "2026-06-03"
+    },
+    {
+        "id": "google-gemma-4-12b-encoder-free-2026-06-03",
+        "title": "Google DeepMind launches Gemma 4 12B unified encoder-free multimodal",
+        "summary": "Gemma 4 12B Unified is an 11.95B open-weight model that drops vision and audio encoders in favor of joint text-image-audio decoding, hits 77.2% on MMLU Pro and 72.0% on LiveCodeBench v6, and runs on a 16GB laptop.",
+        "source": "Google",
+        "sourceUrl": "https://developers.googleblog.com/en/gemma-4-12b-the-developer-guide/",
+        "imageUrl": "https://blog.google/favicon.ico",
+        "category": "model",
+        "publishedAt": "2026-06-03"
+    },
+    {
+        "id": "meta-business-agent-platform-2026-06-03",
+        "title": "Meta launches Meta Business Agent and Business Agent Platform",
+        "summary": "At its Conversations event in London, Meta rolls out Meta Business Agent across WhatsApp, Instagram, and Messenger for more than a million businesses, alongside a Business Agent Platform that connects to Shopify, Zendesk, and Shopee.",
+        "source": "Meta",
+        "sourceUrl": "https://about.fb.com/news/2026/06/meta-business-agent/",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
+        "category": "product",
+        "publishedAt": "2026-06-03"
+    },
+    {
+        "id": "openai-gpt-rosalind-life-sciences-2026-06-03",
+        "title": "OpenAI introduces GPT-Rosalind for life sciences research",
+        "summary": "OpenAI's first life-sciences model series lands in research preview with Amgen, Moderna, the Allen Institute, and Thermo Fisher, plus a free Codex Life Sciences Research Plugin that connects to more than 50 scientific data sources.",
+        "source": "OpenAI",
+        "sourceUrl": "https://www.the-decoder.com/openai-introduces-gpt-rosalind-for-life-sciences-research/",
+        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
+        "category": "model",
+        "publishedAt": "2026-06-03"
+    },
+    {
+        "id": "xai-grok-imagine-1-5-video-2026-06-03",
+        "title": "xAI ships Grok Imagine 1.5 image-to-video in preview",
+        "summary": "grok-imagine-video-1.5-preview turns a single image into 720p video with camera moves, atmosphere, and physics, stitches multiple shots into longer scenes, and is available now via the xAI API.",
+        "source": "xAI",
+        "sourceUrl": "https://www.the-decoder.com/xai-updates-grok-imagine-to-1-5-with-image-to-video-generation-at-720p-resolution/",
+        "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
+        "category": "model",
+        "publishedAt": "2026-06-03"
+    },
+    {
+        "id": "alibaba-qwen-3-7-plus-bailian-2026-06-02",
+        "title": "Alibaba ships Qwen3.7-Plus multimodal agent model on Bailian",
+        "summary": "Qwen3.7-Plus adds image and video understanding, deep reasoning, tool invocation, and autonomous iteration to the 3.7 family on Model Studio; its preview ranks #16 in Vision Arena and works with Claude Code, OpenClaw, and Qwen Code.",
         "source": "Alibaba",
         "sourceUrl": "https://www.marktechpost.com/2026/06/02/alibabas-qwen-team-launches-qwen3-7-plus-adding-vision-deep-reasoning-tool-invocation-and-autonomous-iteration-on-the-bailian-platform/",
         "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
@@ -30,59 +131,59 @@
         "publishedAt": "2026-06-02"
     },
     {
-        "id": "perplexity-computer-hybrid-2026-06-02",
-        "title": "Perplexity Computer adds real-time local-cloud task splitting, demoed at Computex",
-        "summary": "Perplexity unveils hybrid agentic inference for Perplexity Computer, deciding in real time which subtasks stay on a local model and which get routed to frontier cloud models, with chip-agnostic support. The feature is rolling out in July, alongside a new Search as Code architecture for Computer and Agent API.",
+        "id": "anthropic-project-glasswing-150-orgs-2026-06-02",
+        "title": "Anthropic expands Project Glasswing to 150 critical-infra orgs",
+        "summary": "Anthropic opens Claude Mythos Preview to about 150 vetted organizations across 15+ countries covering power, water, healthcare, and communications, alongside a Claude Security product for general code scanning.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.anthropic.com/news/expanding-project-glasswing",
+        "imageUrl": "https://www.anthropic.com/favicon.ico",
+        "category": "capability",
+        "publishedAt": "2026-06-02"
+    },
+    {
+        "id": "microsoft-mai-seven-models-build-2026-2026-06-02",
+        "title": "Microsoft ships seven in-house MAI models led by MAI-Thinking-1",
+        "summary": "At Build 2026 Microsoft AI unveils MAI-Thinking-1, MAI-Code-1-Flash, MAI-Image-2.5, MAI-Transcribe-1.5, and MAI-Voice-2, with the 5B coding model rolling out as a default in VS Code GitHub Copilot and Foundry in private preview.",
+        "source": "Microsoft",
+        "sourceUrl": "https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026",
+        "imageUrl": "https://www.bytechat.io/favicon.ico",
+        "category": "model",
+        "publishedAt": "2026-06-02"
+    },
+    {
+        "id": "perplexity-hybrid-local-cloud-orchestrator-2026-06-02",
+        "title": "Perplexity unveils hybrid local-server inference orchestrator at Computex",
+        "summary": "Perplexity's Personal Computer reasons per-subtask about local vs cloud execution on Intel Core Ultra Series 3 and Nvidia RTX Spark, keeping sensitive data on-device while routing hard reasoning to frontier cloud models, rolling out in July.",
         "source": "Perplexity",
-        "sourceUrl": "https://9to5mac.com/2026/06/02/perplexity-computer-adding-ability-to-split-tasks-between-local-and-cloud-models/",
+        "sourceUrl": "https://www.the-decoder.com/perplexity-announces-hybrid-ai-system-that-decides-what-runs-locally-or-in-the-cloud/",
         "imageUrl": "https://www.perplexity.ai/favicon.svg",
         "category": "capability",
         "publishedAt": "2026-06-02"
     },
     {
-        "id": "microsoft-build-2026-2026-06-02",
-        "title": "Microsoft Build 2026 spotlights in-house coding model and Windows Agent Runtime",
-        "summary": "Microsoft Build 2026 in San Francisco leads with a first-party coding model for GitHub Copilot, the production Microsoft Agent Framework, and a Windows Agent Runtime preview.",
-        "source": "Microsoft",
-        "sourceUrl": "https://news.microsoft.com/build-2026/",
-        "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
-        "category": "product",
-        "publishedAt": "2026-06-02"
-    },
-    {
-        "id": "nvidia-vera-cpu-agents-2026-05-31",
-        "title": "NVIDIA unveils Vera, the first CPU purpose-built for AI agents",
-        "summary": "NVIDIA launches Vera, a new 88-core CPU for the Vera Rubin platform with 1.8x the task-completion speed of x86, claiming Anthropic, OpenAI, SpaceXAI, ByteDance, CoreWeave and Oracle Cloud Infrastructure as adopters. Vera powers standalone servers, Vera Rubin systems, and the Vera BlueField-4 STX AI storage processor.",
-        "source": "NVIDIA",
-        "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-unveils-vera-the-cpu-for-agents",
+        "id": "amazon-bedrock-openai-models-codex-ga-2026-06-01",
+        "title": "OpenAI frontier models and Codex go GA on Amazon Bedrock",
+        "summary": "GPT-5.5, GPT-5.4, and Codex are now generally available on Amazon Bedrock with the Responses API, pricing matched to OpenAI direct, usage counted toward AWS commitments, and GPT-5.4 added to GovCloud (US-West).",
+        "source": "Amazon",
+        "sourceUrl": "https://aws.amazon.com/blogs/machine-learning/openai-models-and-codex-on-amazon-bedrock-are-now-generally-available/",
         "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
         "category": "product",
-        "publishedAt": "2026-05-31"
+        "publishedAt": "2026-06-01"
     },
     {
-        "id": "nvidia-vera-rubin-production-2026-05-31",
-        "title": "NVIDIA Vera Rubin ramps into full production for agentic AI factories",
-        "summary": "NVIDIA's third-generation MGX platform Vera Rubin begins full production with 150+ Taiwan supply chain partners, delivering 10x agent throughput vs. Grace Blackwell.",
-        "source": "NVIDIA",
-        "sourceUrl": "https://nvidianews.nvidia.com/news/vera-rubin-full-production-agentic-ai-factory",
-        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
-        "category": "product",
-        "publishedAt": "2026-05-31"
-    },
-    {
-        "id": "nvidia-nemotron-3-ultra-2026-05-31",
-        "title": "NVIDIA unveils Nemotron 3 Ultra 550B open MoE for long-running agents",
-        "summary": "NVIDIA launches Nemotron 3 Ultra, a 550B-parameter mixture-of-experts open model for always-on agents, claiming 5x faster inference and 30% lower cost.",
-        "source": "NVIDIA",
-        "sourceUrl": "https://nvidianews.nvidia.com/news/enterprise-software-leaders-build-ai-agents-with-nvidia",
-        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
-        "category": "model",
-        "publishedAt": "2026-05-31"
+        "id": "anthropic-confidential-s-1-filing-2026-06-01",
+        "title": "Anthropic confidentially files draft S-1 for proposed IPO",
+        "summary": "Anthropic submits a draft S-1 registration statement to the SEC, opening the path to a public offering once the review completes, while the company continues to expand enterprise deals and Claude partnerships.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+        "imageUrl": "https://www.anthropic.com/favicon.ico",
+        "category": "capability",
+        "publishedAt": "2026-06-01"
     },
     {
         "id": "nvidia-cosmos-3-physical-ai-2026-05-31",
-        "title": "NVIDIA Cosmos 3 launches as open frontier foundation model for physical AI",
-        "summary": "NVIDIA's Cosmos 3 is the first fully open omnimodel that natively reasons and generates text, images, video, ambient sound and action for physical AI development.",
+        "title": "NVIDIA launches open Cosmos 3 omnimodel for physical AI",
+        "summary": "Cosmos 3 is the first fully open mixture-of-transformers omnimodel that reasons and generates text, images, video, ambient sound, and action, with the Cosmos Coalition of Agile Robots, Black Forest Labs, Generalist, LTX, Runway, and Skild AI.",
         "source": "NVIDIA",
         "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai",
         "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
@@ -90,153 +191,53 @@
         "publishedAt": "2026-05-31"
     },
     {
-        "id": "nvidia-rtx-spark-microsoft-2026-05-31",
-        "title": "NVIDIA RTX Spark superchip brings 1-petaflop personal AI to Windows PCs",
-        "summary": "NVIDIA and Microsoft unveil RTX Spark, the first Windows PC purpose-built for personal AI agents with 1 petaflop performance and NVIDIA OpenShell runtime.",
+        "id": "nvidia-vera-cpu-agents-2026-05-31",
+        "title": "NVIDIA Vera is the first CPU purpose-built for AI agents",
+        "summary": "NVIDIA's 88-core Vera CPU claims 1.8x task-completion speed over x86 and is being adopted by Anthropic, OpenAI, SpaceXAI, ByteDance, CoreWeave, and Oracle Cloud Infrastructure across standalone servers and Vera Rubin systems.",
         "source": "NVIDIA",
-        "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-microsoft-windows-pcs-agents-rtx-spark",
+        "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-unveils-vera-the-cpu-for-agents",
         "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
         "category": "product",
         "publishedAt": "2026-05-31"
     },
     {
-        "id": "nvidia-alpamayo-2-super-robotaxi-2026-05-31",
-        "title": "NVIDIA Alpamayo 2 Super brings open 32B reasoning VLA to level-4 robotaxis",
-        "summary": "NVIDIA launches Alpamayo 2 Super, an open 32-billion-parameter reasoning vision-language-action model for safer level-4 autonomous vehicle development.",
-        "source": "NVIDIA",
-        "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-alpamayo-2-super-robotaxis",
-        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
-        "category": "model",
-        "publishedAt": "2026-05-31"
-    },
-    {
-        "id": "minimax-m3-release-2026-05-31",
-        "title": "MiniMax M3 debuts with 1M context, native multimodality and open-weights commitment",
-        "summary": "MiniMax releases M3, the first open-weight model combining frontier coding performance, 1M-token MSA context window, and native image/video input at 1/20th the compute of M2.",
-        "source": "MiniMax",
-        "sourceUrl": "https://www.minimax.io/blog/minimax-m3",
-        "imageUrl": "https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png",
-        "category": "model",
-        "publishedAt": "2026-05-31"
-    },
-    {
-        "id": "mistral-voxtral-speech-2026-05-28",
-        "title": "Mistral releases Voxtral open-source speech models with 32K context at $0.001/minute",
-        "summary": "Mistral ships Voxtral Small (24B) and Mini (3B) under Apache 2.0, supporting 30-40 minutes of audio with 32K context. Voxtral Mini Transcribe undercuts OpenAI Whisper at $0.001/minute via API and on Hugging Face, with voice mode integration in Le Chat coming in the weeks ahead.",
+        "id": "mistral-vibe-unified-agent-2026-05-28",
+        "title": "Mistral unifies Le Chat and Vibe CLI into one long-running agent",
+        "summary": "At the AI Now Summit, Mistral folds Le Chat and Vibe CLI into a single Vibe agent with Work and Code modes, parallel remote coding sessions, and a new VS Code extension, available on the Pro, Team, and Enterprise plans.",
         "source": "Mistral",
-        "sourceUrl": "https://tpsreport.news/news/mistral-voxtral-speech-models-32k-context",
+        "sourceUrl": "https://mistral.ai/news/vibe-agent/",
         "imageUrl": "https://www.mistral.ai/favicon.ico",
-        "category": "model",
-        "publishedAt": "2026-05-28"
-    },
-    {
-        "id": "openai-gpt-5-5-instant-upgrade-2026-05-28",
-        "title": "OpenAI upgrades GPT-5.5 Instant with better readability, retires GPT-4.5 and o3",
-        "summary": "OpenAI ships an updated GPT-5.5 Instant with a more natural tone and fewer bullet-heavy responses, while scheduling GPT-4.5 sunset for June 27 and o3 for August 26.",
-        "source": "OpenAI",
-        "sourceUrl": "https://the-decoder.com/openai-gives-gpt-5-5-instant-a-readability-upgrade-while-phasing-out-two-older-models/",
-        "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
         "category": "product",
         "publishedAt": "2026-05-28"
     },
     {
-        "id": "anthropic-claude-opus-4-8-2026-05-28",
-        "title": "Anthropic launches Claude Opus 4.8 with stronger agentic coding and effort controls",
-        "summary": "Anthropic ships Claude Opus 4.8, the latest Claude Opus flagship with improved coding and reasoning, a new effort control for users, and dynamic workflows in Claude Code.",
-        "source": "Anthropic",
-        "sourceUrl": "https://www.anthropic.com/news/claude-opus-4-8",
-        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
-        "category": "model",
-        "publishedAt": "2026-05-28"
-    },
-    {
-        "id": "anthropic-dynamic-workflows-claude-code-2026-05-28",
-        "title": "Anthropic introduces dynamic workflows in Claude Code for end-to-end coding",
-        "summary": "Claude Code gets dynamic workflows that orchestrate hundreds of parallel subagents to complete codebase-scale migrations with built-in verification.",
-        "source": "Anthropic",
-        "sourceUrl": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
-        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
-        "category": "tool",
-        "publishedAt": "2026-05-28"
-    },
-    {
-        "id": "xai-grok-build-0-1-api-2026-05-28",
-        "title": "xAI ships Grok Build 0.1 coding model on API alongside Composer 2.5 in CLI",
-        "summary": "xAI makes grok-build-0.1, the agentic coding model powering the Grok Build CLI, available via the xAI API in public beta at a 256K context window.",
-        "source": "xAI",
-        "sourceUrl": "https://www.bighatgroup.com/blog/xai-weekly-2026-05-27/",
-        "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
-        "category": "tool",
-        "publishedAt": "2026-05-28"
-    },
-    {
-        "id": "alibaba-qwen-cloud-global-2026-05-28",
-        "title": "Alibaba Cloud launches Qwen Cloud for global markets, built for AI agents",
-        "summary": "Alibaba Cloud debuts Qwen Cloud, an AI-native platform with Skills for agents, a CLI, and unified access to Qwen, open-source and third-party multimodal models.",
-        "source": "Alibaba",
-        "sourceUrl": "https://www.alibabacloud.com/blog/alibaba-cloud-launches-qwen-cloud-for-global-markets_603191",
-        "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
-        "category": "product",
-        "publishedAt": "2026-05-28"
-    },
-    {
-        "id": "mistral-vibe-ai-now-summit-2026-05-28",
-        "title": "Mistral debuts Vibe agent and Mistral for Industrial Engineering at AI Now Summit",
-        "summary": "Mistral consolidates Le Chat into the Vibe unified agent platform, launches Mistral for Industrial Engineering with Airbus, BMW, EDF and CMA CGM, and announces a Les Ulis data center.",
+        "id": "mistral-ai-now-summit-industrial-engineering-2026-05-28",
+        "title": "Mistral debuts Mistral for Industrial Engineering with Airbus, BMW, ASML",
+        "summary": "Mistral's first AI Now Summit in Paris adds a physics-AI industrial stack with Airbus, BMW Group, and ASML as launch customers, plus a 10 MW Les Ulis inference data center opening in Q3 2026 alongside custom-silicon exploration.",
         "source": "Mistral",
         "sourceUrl": "https://mistral.ai/news/ai-now-summit-2026/",
         "imageUrl": "https://www.mistral.ai/favicon.ico",
+        "category": "capability",
+        "publishedAt": "2026-05-28"
+    },
+    {
+        "id": "oracle-oci-joins-arm-agi-cpu-ecosystem-2026-06-02",
+        "title": "Oracle Cloud Infrastructure joins the Arm AGI CPU ecosystem",
+        "summary": "At COMPUTEX, Oracle Cloud Infrastructure commits to Arm's AGI CPU alongside Meta, OpenAI, SAP, Cloudflare, SK Telecom, Cerebras, and ByteDance, targeting more efficient rack-scale infrastructure for agentic AI workloads.",
+        "source": "Oracle",
+        "sourceUrl": "https://newsroom.arm.com/news/arm-agi-cpu-oracle-cloud-infrastructure-agentic-ai",
+        "imageUrl": "https://newsroom.arm.com/favicon.ico",
         "category": "product",
-        "publishedAt": "2026-05-28"
+        "publishedAt": "2026-06-02"
     },
     {
-        "id": "perplexity-computer-microsoft-365-2026-05-28",
-        "title": "Perplexity Computer lands inside Microsoft Word, Excel, PowerPoint and Outlook",
-        "summary": "Perplexity's multi-model Computer agent is now available as add-ins across Microsoft 365 apps, orchestrating 19+ models to draft documents, build sheets and rewrite emails.",
-        "source": "Perplexity",
-        "sourceUrl": "https://www.timesofai.com/news/perplexity-computer/",
-        "imageUrl": "https://www.perplexity.ai/favicon.svg",
-        "category": "tool",
-        "publishedAt": "2026-05-28"
-    },
-    {
-        "id": "apple-wwdc-2026-on-device-ai-2026-05-28",
-        "title": "Apple plans to make on-device AI a key WWDC 2026 focus, leaning on custom silicon",
-        "summary": "Apple will highlight on-device Apple Intelligence at WWDC 2026 (June 8), using a distilled version of Google's Gemini to run locally and Nvidia confidential compute in the cloud.",
-        "source": "Apple",
-        "sourceUrl": "https://www.macrumors.com/2026/05/28/apple-to-make-on-device-ai-key-focus/",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
-        "category": "product",
-        "publishedAt": "2026-05-28"
-    },
-    {
-        "id": "amazon-bedrock-grok-spacexai-2026-05-28",
-        "title": "Amazon plans to bring SpaceXAI's Grok models to Amazon Bedrock",
-        "summary": "AWS is in talks to add SpaceXAI's Grok to Bedrock alongside Anthropic, Meta, Cohere and OpenAI, deepening SpaceXAI's enterprise reach ahead of its SpaceX IPO.",
-        "source": "Amazon",
-        "sourceUrl": "https://africa.businessinsider.com/news/amazon-plans-to-make-spacexs-grok-models-available-on-its-flagship-ai-service/96gw6ex",
-        "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
-        "category": "product",
-        "publishedAt": "2026-05-28"
-    },
-    {
-        "id": "deepseek-v4-75-percent-price-cut-2026-05-23",
-        "title": "DeepSeek permanently cuts V4 Pro pricing by 75%, locking in the agent-era cost play",
-        "summary": "DeepSeek makes its 75% V4 Pro discount permanent, dropping V4 Pro to $0.003625-$0.87 per million tokens to position itself as the cost-effective default for AI agents.",
+        "id": "deepseek-v4-pro-75-percent-permanent-2026-05-23",
+        "title": "DeepSeek makes 75% V4-Pro price cut permanent to lock agent-era cost play",
+        "summary": "DeepSeek permanently drops V4 Pro to $0.003625-$0.87 per million tokens, leaning on Huawei Ascend silicon and 1M-token context to anchor a sub-quarter pricing gap against Claude Opus 4.8 and GPT-5.5 ahead of US IPO filings.",
         "source": "DeepSeek",
         "sourceUrl": "https://www.engadget.com/2180062/deepseek-permanently-reduces-the-price-of-its-flagship-v4-model-by-75-percent/",
         "imageUrl": "https://preview.redd.it/deepseek-v4-all-leaks-and-infos-for-the-release-day-not-v0-lllfdd3uvimg1.png?width=640&crop=smart&auto=webp&s=2492384251ab16ffeac1c5d0317dd71610c3c077",
         "category": "product",
         "publishedAt": "2026-05-23"
-    },
-    {
-        "id": "mistral-medium-3-5-2026-05-22",
-        "title": "Mistral ships Medium 3.5 open-weight flagship with Work mode in Le Chat",
-        "summary": "Mistral releases Medium 3.5, a 128B dense open-weight model merging instruction-following, reasoning and coding, and ships Work mode in Le Chat plus remote Vibe agents.",
-        "source": "Mistral",
-        "sourceUrl": "https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/",
-        "imageUrl": "https://www.mistral.ai/favicon.ico",
-        "category": "model",
-        "publishedAt": "2026-05-22"
     }
 ]
