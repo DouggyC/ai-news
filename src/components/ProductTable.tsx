@@ -19,6 +19,7 @@ const companyOrder = [
   'Adobe',
   'Tencent',
   'Alibaba',
+  'Salesforce',
   'OpenAI',
   'Anthropic',
   'OpenAI-Realtime-2',
@@ -28,10 +29,12 @@ const companyOrder = [
   'DeepSeek',
   'Mistral',
   'MiniMax',
+  'Moonshot',
   'JetBrains',
   'Perplexity',
   'Cursor',
   'Cloudflare',
+  'Cohere',
   'Cognition',
   'Midjourney',
   'Runway',
@@ -194,6 +197,9 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
 
     Jan: 'backgroundColor:rgba(244, 63, 94, 0.2);color:#fb7185;borderColor:rgba(244, 63, 94, 0.3)',
     LocalAI: 'backgroundColor:rgba(20, 184, 166, 0.2);color:#2dd4bf;borderColor:rgba(20, 184, 166, 0.3)',
+    Salesforce: 'backgroundColor:rgba(14, 165, 233, 0.2);color:#0ea5e9;borderColor:rgba(14, 165, 233, 0.3)',
+    Cohere: 'backgroundColor:rgba(185, 28, 28, 0.2);color:#b91c1c;borderColor:rgba(185, 28, 28, 0.3)',
+    Moonshot: 'backgroundColor:rgba(124, 58, 237, 0.2);color:#7c3aed;borderColor:rgba(124, 58, 237, 0.3)',
   };
 
   const style =

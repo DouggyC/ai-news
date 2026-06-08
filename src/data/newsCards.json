@@ -31,13 +31,23 @@
         "publishedAt": "2026-06-05"
     },
     {
-        "id": "apple-wwdc-2026-on-device-ai-2026-06-04",
-        "title": "Apple to set out its on-device AI plan at WWDC 2026",
-        "summary": "Apple will frame WWDC 2026 around on-device Apple Intelligence, distilling a large Gemini model to run locally, leaning on Nvidia confidential compute in Google Cloud for the rest, and reportedly eyeing Liquid AI for model shrinking.",
+        "id": "apple-wwdc-2026-siri-gemini-ios27-2026-06-08",
+        "title": "Apple rebuilds Siri on Gemini and opens Apple Intelligence to Claude, ChatGPT, and Gemini in iOS 27",
+        "summary": "At WWDC 2026, Apple announced iOS 27 with a Gemini-powered Siri 2.0 built on a custom 1.2T-parameter Gemini model, a new Extensions API that lets users route Apple Intelligence features to Anthropic Claude, ChatGPT, or Gemini, and iOS 27 Beta 1 shipping the same day; the keynote was Tim Cook's last before handing the CEO role to John Ternus in September.",
         "source": "Apple",
-        "sourceUrl": "https://www.macrumors.com/2026/06/04/apple-to-reveal-what-makes-its-ai-different/",
+        "sourceUrl": "https://www.apple.com/newsroom/",
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg",
-        "category": "capability",
+        "category": "product",
+        "publishedAt": "2026-06-08"
+    },
+    {
+        "id": "anthropic-when-ai-builds-itself-2026-06-04",
+        "title": "Anthropic says Claude writes 80% of its own code and calls for a global pause on frontier AI",
+        "summary": "Anthropic Institute's \"When AI builds itself\" report reveals that as of May 2026 Claude authors over 80% of code merged into Anthropic's codebase and engineers ship 8x more code per quarter, while calling for a verifiable global mechanism to slow or pause frontier AI development before AI systems can fully design and train their own successors.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.anthropic.com/institute/recursive-self-improvement",
+        "imageUrl": "https://www.anthropic.com/favicon.ico",
+        "category": "research",
         "publishedAt": "2026-06-04"
     },
     {
@@ -171,6 +181,16 @@
         "publishedAt": "2026-06-01"
     },
     {
+        "id": "minimax-m3-open-weight-1m-context-2026-06-01",
+        "title": "MiniMax ships M3, the first open-weight model with 1M-token context and native multimodality",
+        "summary": "MiniMax's M3 is the first open-weight model to combine frontier coding (59% on SWE-Bench Pro, surpassing GPT-5.5 and Gemini 3.1 Pro), a 1M-token context window via the new MSA sparse attention, and native image and video input; priced at $0.30-$0.60 per million input tokens, with open weights and a technical report due on Hugging Face within 10 days.",
+        "source": "Minimax",
+        "sourceUrl": "https://www.minimax.io/blog/minimax-m3",
+        "imageUrl": "https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png",
+        "category": "model",
+        "publishedAt": "2026-06-01"
+    },
+    {
         "id": "anthropic-confidential-s-1-filing-2026-06-01",
         "title": "Anthropic confidentially files draft S-1 for proposed IPO",
         "summary": "Anthropic submits a draft S-1 registration statement to the SEC, opening the path to a public offering once the review completes, while the company continues to expand enterprise deals and Claude partnerships.",
@@ -211,16 +231,6 @@
         "publishedAt": "2026-05-28"
     },
     {
-        "id": "mistral-ai-now-summit-industrial-engineering-2026-05-28",
-        "title": "Mistral debuts Mistral for Industrial Engineering with Airbus, BMW, ASML",
-        "summary": "Mistral's first AI Now Summit in Paris adds a physics-AI industrial stack with Airbus, BMW Group, and ASML as launch customers, plus a 10 MW Les Ulis inference data center opening in Q3 2026 alongside custom-silicon exploration.",
-        "source": "Mistral",
-        "sourceUrl": "https://mistral.ai/news/ai-now-summit-2026/",
-        "imageUrl": "https://www.mistral.ai/favicon.ico",
-        "category": "capability",
-        "publishedAt": "2026-05-28"
-    },
-    {
         "id": "oracle-oci-joins-arm-agi-cpu-ecosystem-2026-06-02",
         "title": "Oracle Cloud Infrastructure joins the Arm AGI CPU ecosystem",
         "summary": "At COMPUTEX, Oracle Cloud Infrastructure commits to Arm's AGI CPU alongside Meta, OpenAI, SAP, Cloudflare, SK Telecom, Cerebras, and ByteDance, targeting more efficient rack-scale infrastructure for agentic AI workloads.",
@@ -229,15 +239,5 @@
         "imageUrl": "https://newsroom.arm.com/favicon.ico",
         "category": "product",
         "publishedAt": "2026-06-02"
-    },
-    {
-        "id": "deepseek-v4-pro-75-percent-permanent-2026-05-23",
-        "title": "DeepSeek makes 75% V4-Pro price cut permanent to lock agent-era cost play",
-        "summary": "DeepSeek permanently drops V4 Pro to $0.003625-$0.87 per million tokens, leaning on Huawei Ascend silicon and 1M-token context to anchor a sub-quarter pricing gap against Claude Opus 4.8 and GPT-5.5 ahead of US IPO filings.",
-        "source": "DeepSeek",
-        "sourceUrl": "https://www.engadget.com/2180062/deepseek-permanently-reduces-the-price-of-its-flagship-v4-model-by-75-percent/",
-        "imageUrl": "https://preview.redd.it/deepseek-v4-all-leaks-and-infos-for-the-release-day-not-v0-lllfdd3uvimg1.png?width=640&crop=smart&auto=webp&s=2492384251ab16ffeac1c5d0317dd71610c3c077",
-        "category": "product",
-        "publishedAt": "2026-05-23"
     }
 ]

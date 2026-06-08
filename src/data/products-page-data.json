@@ -36,6 +36,16 @@
         "name": "OCI Generative AI",
         "url": "https://www.oracle.com/artificial-intelligence/generative-ai/",
         "description": "Oracle's fully managed generative AI service for enterprise applications with REST APIs and SDKs. Summarization, writing assistance, and chat built into Oracle Cloud."
+      },
+      "Cohere": {
+        "name": "Command A+",
+        "url": "https://cohere.com/blog/command-a-plus",
+        "description": "Cohere's open-source 218B-parameter MoE model (May 21, 2026) with 25B active, Apache 2.0 license. Unified across reasoning, vision, translation, and tool use. Runs on 2x H100 or a single Blackwell GPU. +20% agentic QA, +32% spreadsheet analysis vs Command A Reasoning. 85% on τ²-Bench Telecom. Powers North enterprise workspace."
+      },
+      "Moonshot": {
+        "name": "Kimi K2.6",
+        "url": "https://platform.kimi.ai/",
+        "description": "Moonshot's open-source agent-first model (April 2026) optimized for coding, agent swarms, and OpenClaw/Hermes workflows. Generates full-stack sites with video hero sections and motion design from a single prompt. Matches/beats frontier models on coding/agentic benchmarks."
       }
     }
   },
@@ -161,6 +171,16 @@
         "name": "MiniMax Agent",
         "url": "https://agent.minimax.io",
         "description": "MiniMax's AI assistant (May 2026) with Agent Team building, habit learning, and all-in-one chat with skills, memories, and schedules. Desktop app available."
+      },
+      "Cohere": {
+        "name": "Coral",
+        "url": "https://coral.cohere.com",
+        "description": "Cohere's enterprise chat assistant (May 2026) powered by Command A+. North workspace integration for grounded answers over enterprise data. Multi-session memory and agentic tool use. Free and Pro tiers."
+      },
+      "Moonshot": {
+        "name": "Kimi",
+        "url": "https://www.kimi.com",
+        "description": "Moonshot's flagship AI assistant (May 2026) powered by Kimi K2.6 with Kimi Claw personal AI teammate in beta. Long-context chat, web search, multimodal inputs, deep research, and agent swarm workflows. Free and Kimi Plus tiers."
       }
     }
   },
@@ -205,7 +225,7 @@
       "Cognition": {
         "name": "Windsurf Editor",
         "url": "https://windsurf.com",
-        "description": "Cascade-powered IDE owned by Cognition AI (Devin team). SWE-1.5 at 950 tok/s on Cerebras. Wave 13 brings free SWE-1.5, parallel agents. Pro $20/mo."
+        "description": "Cascade-powered IDE owned by Cognition AI (Devin team). Windsurf 2.0 (April 15, 2026) brings Agent Command Center with Kanban view of local + cloud agents, Codemaps visual code map, one-click Devin cloud handoff. SWE-1.5 free for 3 months, SWE-1.6 GA at 200 tok/s (Fireworks) / 950 tok/s (Cerebras). Devin Local 2026.5.26 in Rust."
       },
       "xAI": {
         "name": "Grok Build",
@@ -351,6 +371,16 @@
         "name": "MiniMax Platform",
         "url": "https://platform.minimax.io",
         "description": "MiniMax API platform for text (M2.7, M2.5), speech (Speech 2.8), video (Hailuo 2.3), and music (Music 2.6) models. M2.7-highspeed variant available. Token plans and pricing available."
+      },
+      "Cohere": {
+        "name": "Cohere API",
+        "url": "https://docs.cohere.com",
+        "description": "Developer platform for Command A+ (May 21, 2026, Apache 2.0) with embeddings, rerank, and agent toolkits. Self-host on 2x H100 or single Blackwell. North enterprise API with role-based access, audit logs, and data residency."
+      },
+      "Moonshot": {
+        "name": "Moonshot API",
+        "url": "https://platform.kimi.ai/",
+        "description": "Kimi K2.6 (April 2026) and prior K-series endpoints. OpenAI-compatible REST API with long-context (256K+ tokens), function calling, vision, and agent-mode tools. Token-based pricing on Moonshot Platform."
       }
     }
   },
@@ -786,6 +816,11 @@
         "name": "Manus AI",
         "url": "https://manus.im/blog/manus-meta-ads-manager-connector",
         "description": "Autonomous AI agent in Meta Ads Manager (acquired for ~$2B, Feb 2026). Automates report building, audience research, campaign analysis, and anomaly detection for advertisers."
+      },
+      "Salesforce": {
+        "name": "Agentforce",
+        "url": "https://www.salesforce.com/agentforce",
+        "description": "Salesforce's enterprise agent platform. Agentforce 1 Editions with 12,000+ ARR as of Q4 FY26, $800M ARR (+169% YoY) heading into Q1 FY27 earnings May 27, 2026. Headless 360 architecture (April 2026 TDX) exposes every Salesforce capability as API, MCP tool, or CLI. Operations released May 3 with 30+ back-office blueprints."
       }
     }
   },
@@ -911,6 +946,11 @@
         "name": "LangGraph Platform",
         "url": "https://www.langchain.com/langgraph",
         "description": "Hosted runtime and controls for enterprise-grade stateful agents."
+      },
+      "Salesforce": {
+        "name": "Agentforce Coworker",
+        "url": "https://www.salesforce.com/blog/agentforce-coworker-salesforce-ai-teammate/",
+        "description": "Autonomous AI teammate (May 21, 2026, beta) embedded in Salesforce, Slack, Microsoft Teams, ChatGPT, Claude, and mobile. Headless-first, inherits Data 360 permissions and governance. Setup with Agentforce GA (May 26, 2026). Reduces 1.8hr/day search tax per knowledge worker."
       }
     }
   },
