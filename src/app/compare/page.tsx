@@ -45,6 +45,13 @@ const providerColors: Record<string, string> = {
   Microsoft: '#0078d4',
   Cohere: '#e11d48',
   Xiaomi: '#ff6900',
+  Amazon: '#ff9900',
+  Tencent: '#00a4ff',
+  Upstage: '#ef4444',
+  InclusionAI: '#10b981',
+  MBZUAI: '#a3e635',
+  KwaiKAT: '#f43f5e',
+  'Zhipu AI': '#0ea5e9',
 };
 
 function getInitialModels(): FrontierModel[] {
@@ -158,7 +165,7 @@ export default function ComparePage() {
             paddingRight: '24px',
           }}
         >
-          Last updated: June 8, 2026
+          Last updated: June 10, 2026
         </div>
         <div
           style={{

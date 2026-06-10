@@ -19,6 +19,7 @@ const companyOrder = [
   'Adobe',
   'Tencent',
   'Alibaba',
+  'Baidu',
   'Salesforce',
   'OpenAI',
   'Anthropic',
@@ -62,6 +63,7 @@ const companyOrder = [
   'Zapier',
   'HuggingFace',
   'Replicate',
+  'Reve',
   'Ollama',
   'LMStudio',
   'CrewAI',
@@ -101,6 +103,8 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
       'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
     Alibaba:
       'backgroundColor:rgba(234, 179, 8, 0.2);color:#fbbf24;borderColor:rgba(234, 179, 8, 0.3)',
+    Baidu:
+      'backgroundColor:rgba(59, 130, 246, 0.2);color:#60a5fa;borderColor:rgba(59, 130, 246, 0.3)',
     OpenAI:
       'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
     Anthropic:
@@ -156,6 +160,8 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
       'backgroundColor:rgba(234, 179, 8, 0.2);color:#fbbf24;borderColor:rgba(234, 179, 8, 0.3)',
     Replicate:
       'backgroundColor:rgba(255, 255, 255, 0.06);color:rgba(255, 255, 255, 0.7);borderColor:rgba(255, 255, 255, 0.1)',
+    Reve:
+      'backgroundColor:rgba(217, 70, 239, 0.2);color:#e879f9;borderColor:rgba(217, 70, 239, 0.3)',
     Ollama:
       'backgroundColor:rgba(255, 255, 255, 0.06);color:rgba(255, 255, 255, 0.7);borderColor:rgba(255, 255, 255, 0.1)',
     LMStudio:
