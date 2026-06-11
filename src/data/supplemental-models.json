@@ -1334,4 +1334,50 @@
     "json": true,
     "search": true
   }
+,
+  "qwen3-6-27b": {
+    "provider": "Alibaba",
+    "parameters": 27000000000,
+    "modelSizeGB": 0,
+    "contextLength": 1048576,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 84.0,
+    "humaneval": 82.0,
+    "multimodal": true,
+    "vision": true,
+    "functionCalling": true,
+    "json": true,
+    "search": false
+  },
+  "qwen3-6-35b-a3b": {
+    "provider": "Alibaba",
+    "parameters": 35000000000,
+    "modelSizeGB": 0,
+    "contextLength": 1048576,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 82.0,
+    "humaneval": 80.0,
+    "multimodal": true,
+    "vision": true,
+    "functionCalling": true,
+    "json": true,
+    "search": false
+  },
+  "mimo-v2-omni": {
+    "provider": "Xiaomi",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": true,
+    "license": "MIT",
+    "mmlu": 85.0,
+    "humaneval": 72.0,
+    "multimodal": true,
+    "vision": true,
+    "functionCalling": true,
+    "json": true,
+    "search": true
+  }
 }

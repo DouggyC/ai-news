@@ -125,7 +125,7 @@
       "Microsoft": {
         "name": "Copilot",
         "url": "https://copilot.microsoft.com",
-        "description": "Powered by GPT-5.5 Instant (May 7, 2026) across web, work, and Microsoft 365 surfaces. Agent Platform, Agents SDK, and Copilot Studio for enterprise orchestration. MAI-Thinking-1 (June 2, 2026) available in private preview for in-house reasoning. Opus 4.8 and Fable 5 in GitHub Copilot."
+        "description": "Powered by GPT-5.5 Instant (May 7, 2026) across web, work, and Microsoft 365 surfaces. Agent Platform, Agents SDK, and Copilot Studio for enterprise orchestration. MAI-Thinking-1 (June 2, 2026) available in private preview for in-house reasoning. Opus 4.8 and Fable 5 in GitHub Copilot. Microsoft Scout (June 2, 2026, Frontier preview) is the first Autopilot — always-on personal agent integrated into Teams/Outlook/OneDrive, built on OpenClaw. New Copilot superapp launch."
       },
       "Meta": {
         "name": "Meta AI",
@@ -228,9 +228,9 @@
         "description": "JetBrains AI coding agent with Junie CLI in beta (March 9, 2026). LLM-agnostic supporting OpenAI, Anthropic, Google, Grok. MCP integration, IDE+CI/CD+GitHub/GitLab. Junie CLI Now Connects to Your JetBrains IDE (April 8, 2026). ACP Agent Registry. ReSharper 2026.2 EAP support."
       },
       "Cursor": {
-        "name": "Cursor 3.x",
+        "name": "Cursor 3.5",
         "url": "https://www.cursor.com",
-        "description": "AI-native editor (Cursor 3 unified workspace since April 2, 2026). v3.2 (Apr 24) adds /multitask async subagents, worktrees, multi-root workspaces. Composer 2.5 default. Cursor Automations in Agents Window with multi-repo and no-repo modes. Development environments for cloud agents (May 13). Pro $20/mo, Pro+ $60/mo, Ultra $200/mo. Gartner Leader in Enterprise AI Coding Agents. Training a much larger next-gen model with SpaceXAI on Colossus 2."
+        "description": "AI-native editor (Cursor 3 unified workspace since April 2, 2026). v3.3 (May 7) adds Build in Parallel async subagents and Split into PRs; v3.4 (May 13) adds multi-repo environments, Dockerfile build secrets, 70% faster layer-cached rebuilds; v3.5 (May 20) brings Automations to the Agents Window with multi-repo and no-repo modes, plus Shared Canvases. Composer 2.5 default. Development environments for cloud agents. Pro $20/mo, Pro+ $60/mo, Ultra $200/mo. Gartner Leader in Enterprise AI Coding Agents. Training a much larger next-gen model with SpaceXAI on Colossus 2."
       },
       "Cognition": {
         "name": "Devin Desktop",
@@ -370,7 +370,7 @@
       "Alibaba": {
         "name": "Model Studio",
         "url": "https://www.alibabacloud.com/en/product/model-studio",
-        "description": "Alibaba Cloud developer platform for Qwen models and agent apps. Qwen 3.7-Max (May 26, 2026) and Qwen3.6-Plus available via API. Qwen Cloud launches new skills portal for MCP-compatible agentic workflows."
+        "description": "Alibaba Cloud developer platform for Qwen models and agent apps. Qwen 3.7-Max (May 26, 2026, Singapore Qwen Conference) and Qwen3.7-Plus available via API. Qwen Cloud (June 3, 2026) is a new AI-native cloud platform with Skills portal for agents, CLI for workflows, and Model Studio CLI; brings together Qwen models, open-source models, and third-party offerings for text/vision/audio/image/video/embedding tasks."
       },
       "HuggingFace": {
         "name": "Inference API",
@@ -532,6 +532,11 @@
         "url": "https://developers.openai.com/api/docs/models/gpt-image-2",
         "description": "Powered by ChatGPT Images 2.0 (gpt-image-2, April 21, 2026) — top-ranked on Image Arena. Thinkable generation mode, multilingual text rendering (Japanese, Korean, Hindi, Bengali), 4K resolution, complex infographics and comic strips. Available in ChatGPT and the API; gpt-image-1.5 deprecated as default."
       },
+      "Microsoft": {
+        "name": "MAI-Image-2.5",
+        "url": "https://microsoft.ai/news/introducing-mai-image-2-5/",
+        "description": "Microsoft's MAI-Image-2.5 family (June 2, 2026, Build 2026) ranks #2 on Arena image edit leaderboard ahead of Nano Banana 2, with MAI-Image-2.5-Flash for high-volume workloads. Text-to-image and image-to-image with 'control with preservation' editing. Live in PowerPoint, rolling out to OneDrive, available in Foundry. MAI-Image-2.5: $5/$8 per 1M text/image input, $47 per 1M image output. MAI-Image-2.5-Flash: $1.75 per 1M text/image input, $19 per 1M image output. Also on OpenRouter."
+      },
       "Amazon": {
         "name": "Titan Image",
         "url": "https://aws.amazon.com/bedrock/titan/",
@@ -565,7 +570,7 @@
       "xAI": {
         "name": "Grok Imagine API",
         "url": "https://docs.x.ai",
-        "description": "xAI image generation with Quality Mode (May 6). grok-imagine-image-quality for higher realism, text rendering. grok-imagine-image-pro retired May 15, 2026."
+        "description": "xAI image generation with Quality Mode (May 6). grok-imagine-image-quality for higher realism, text rendering. grok-imagine-image-pro retired May 15, 2026. Grok Imagine 1.5 Preview (grok-imagine-video-1.5-preview, June 3, 2026) for image-to-video at 720p with synchronized audio, #1 on Artificial Analysis Video Arena Image-to-Video (Elo 1404), 15-second clips."
       },
       "Reve": {
         "name": "Reve 2.0",
@@ -600,12 +605,12 @@
       "HeyGen": {
         "name": "HeyGen",
         "url": "https://www.heygen.com",
-        "description": "Avatar-first video generation with enterprise localization and dubbing flows."
+        "description": "Avatar-first video generation with enterprise localization and dubbing flows. May 2026: Avatar V with Custom Motion (direct face/hands/posture/gaze/energy in plain English), Avatar V API ($0.05/second), LiveAvatar real-time conversational avatars, HyperFrames (turns HTML/agent markup into finished video), HyperFrames as official Claude connector (June 10, 2026). Native Android app. Integrations: Superhuman, Codex, Canva, Lovable (MCP/OAuth). $29/mo."
       },
       "Pika": {
-        "name": "Pika 2.2",
+        "name": "Pika 2.5",
         "url": "https://pika.art",
-        "description": "Pika 2.2 (April 2026) with Scene Director for multi-shot storyboards (2-6 scenes, up to 24s total), native AI Sound Design (ambient/action SFX), and improved motion brushes. 6s individual clips at 1080p 30fps. API supports batch processing and webhook callbacks, $0.05/second. Standard $8/mo, Pro $28/mo."
+        "description": "Pika 2.5 (current production as of early 2026) with rebuilt physics engine, layered motion control (pan/tilt/zoom/dolly/orbit), Pikaframes scene extension to 15-25s, 4K upscaling, sharper textures, sound-to-video synchronization. Pika 2.5 Studio timeline editor, Pikaffects 2.0 (Melt, Inflate, Explode, Squish, Cake-ify), Pikaswaps, Pikadditions, Pika MCP. 12s individual clips at 1080p. API via fal.ai, $0.05/second. Standard $8/mo, Pro $28/mo, Fancy $58/mo."
       },
       "ByteDance": {
         "name": "Seedance 2.0",
@@ -613,9 +618,9 @@
         "description": "ByteDance multimodal video generation with audio-video joint architecture. Up to 20-second clips via CapCut and Dreamina."
       },
       "Luma": {
-        "name": "Dream Machine",
+        "name": "Ray3.2",
         "url": "https://lumalabs.ai/dream-machine",
-        "description": "Text and image to video generation focused on fast creative iteration."
+        "description": "Luma's Ray3.2 model (released June 9, 2026) with frame-level multi-keyframe control (up to 16 keyframes), native HDR generation, 16-bit EXR export for VFX pipelines, 20s 1080p cinematic generations, and enhanced Reframe for surgical aspect-ratio edits. Ray3.2 API now available for direct pipeline integration (June 9, 2026). Free tier, Pro $30/mo, Enterprise custom."
       },
       "Meta": {
         "name": "Meta Video Generation",
@@ -665,7 +670,7 @@
       "ElevenLabs": {
         "name": "ElevenLabs",
         "url": "https://elevenlabs.io",
-        "description": "High-quality speech synthesis, dubbing, and voice cloning platform."
+        "description": "High-quality speech synthesis, dubbing, and voice cloning platform. Conversational AI 2.0 (May 2026) with state-of-the-art turn-taking, integrated RAG for knowledge bases, automatic language detection across 70+ languages, multi-character personas, HIPAA compliance, EU data residency, batch outbound calling, voice+text multimodality. Eleven v3 conversational model with audio tags."
       },
       "PlayHT": {
         "name": "PlayAI",
@@ -696,6 +701,11 @@
         "name": "MiniMax Audio",
         "url": "https://www.minimax.io/audio",
         "description": "MiniMax's TTS platform (Speech 2.8, 2.6, 2.5) with realistic voice cloning across 40+ languages, enhanced multilingual performance, and natural rhythm. HD speech on Token Plan."
+      },
+      "Microsoft": {
+        "name": "MAI-Voice-2",
+        "url": "https://microsoft.ai/news/mai-voice-2expressive-speech-in-10-languages/",
+        "description": "Microsoft's MAI-Voice-2 TTS (June 2, 2026, Build 2026) with expressive prosody, voice cloning from 5-60s reference clips, voice prompting, and consent guardrails. Supports 15 languages with more coming. MAI-Voice-2-Flash for latency-sensitive voice agents coming soon. Available via Azure Speech ($22 per 1M characters) and integrated into VS Code and Dynamics 365 Contact Center. DuoAI demo showcases multimodal agent conversations with MAI-Voice-2 + MAI-Transcribe-1.5 + MAI-Image-2.5."
       }
     }
   },
@@ -741,6 +751,11 @@
         "name": "MiniMax Music",
         "url": "https://www.minimax.io/news/music-26",
         "description": "MiniMax's music generation platform (Music 2.6, 2.5+, 2.5) with Cover feature for remixing songs with deeper bass and richer instrumentation. Genre support: Pop, Hyperpop, Dance, Electronic, Trap, EDM."
+      },
+      "Microsoft": {
+        "name": "MAI-Transcribe-1.5",
+        "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/new-mai-models-in-microsoft-foundry-across-text-image-voice-and-speech/4524632",
+        "description": "Microsoft's MAI-Transcribe-1.5 (June 2, 2026, Build 2026) is the #1 FLEURS-ranked transcription model across 43 languages with content biasing and domain terminology support. 5x faster than competitors. Available via Azure Speech ($0.36/hour) and integrated into Copilot, Teams, GitHub, and Dynamics 365 Contact Center."
       }
     }
   },
