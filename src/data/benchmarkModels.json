@@ -151,7 +151,7 @@
  "humaneval":88.0,
  "livebench":60.0,
  "mmluPlus":80.0,
- "gpqa":67.2
+ "gpqa":64.6
  },
  {
  "id": "gemini-3.1-pro",
@@ -183,8 +183,8 @@
  "mmlu":90.0,
  "humaneval":90.0,
  "livebench":73.0,
- "mmluPlus":89.0,
- "gpqa":89.8
+ "mmluPlus":88.2,
+ "gpqa":81.2
  },
  {
  "id": "gemini-3.1-flash-lite",
@@ -404,7 +404,7 @@
  "humaneval":75.6,
  "livebench":60.0,
  "mmluPlus":68.5,
- "gpqa":66.7
+ "gpqa":86.6
  },
  {
  "id": "mimo-v2-pro",
@@ -481,7 +481,7 @@
  "humaneval":80.0,
  "livebench":65.0,
  "mmluPlus":80.7,
- "gpqa":75.0
+ "gpqa":68.0
  },
  {
  "id": "mistral-medium-3.5",

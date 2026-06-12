@@ -1,13 +1,193 @@
 [
     {
-        "id": "anthropic-claude-fable-5-mythos-5-2026-06-09",
-        "title": "Anthropic launches Claude Fable 5 and Claude Mythos 5 with 30-day safety retention",
-        "summary": "Anthropic released Claude Fable 5 as the first publicly available Mythos-class model on $10/$50 per million input/output tokens, with Claude Mythos 5 reserved for Project Glasswing cyber partners and trusted biology researchers; Anthropic also announced a 30-day data retention policy for both models, even for zero-retention enterprise customers.",
+        "id": "openai-acquires-ona-codex-2026-06-11",
+        "title": "OpenAI acquires Ona to give Codex long-running, customer-controlled cloud execution",
+        "summary": "OpenAI announced on June 11, 2026, that it will acquire Ona, a startup whose technology provides secure, persistent cloud environments where AI agents can access tools, systems, and context over time; Ona's customer-controlled execution model will let Codex agents operate inside an organization's own cloud while OpenAI provides the intelligence and orchestration, with the Ona team joining OpenAI's Codex group after closing.",
+        "source": "OpenAI",
+        "sourceUrl": "https://www.cnbc.com/2026/06/11/open-ai-ona-acquisition-codex.html",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+        "category": "product",
+        "publishedAt": "2026-06-11"
+    },
+    {
+        "id": "openai-visa-agentic-payments-chatgpt-2026-06-11",
+        "title": "OpenAI and Visa embed agentic payments inside ChatGPT for any merchant on the network",
+        "summary": "OpenAI and Visa announced a partnership on June 11, 2026, that lets ChatGPT shop and complete purchases on behalf of users at any merchant that accepts Visa, with tokenized credentials, spending limits, required approvals, and merchant allowlists; the framework also exposes the rails to developers and merchants via OpenAI's agentic commerce protocol.",
+        "source": "OpenAI",
+        "sourceUrl": "https://www.euronews.com/next/2026/06/11/chatgpt-can-now-buy-things-for-you-after-deal-with-payments-giant-visa",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+        "category": "product",
+        "publishedAt": "2026-06-11"
+    },
+    {
+        "id": "openai-oracle-cloud-models-codex-distribution-2026-06-11",
+        "title": "OpenAI ships models and Codex through Oracle Cloud, letting enterprises draw down existing commitments",
+        "summary": "OpenAI announced on June 11, 2026, that its models and the Codex coding agent are now available through Oracle Cloud Infrastructure, letting enterprise customers apply existing Oracle Cloud commitments to OpenAI usage and avoid fresh procurement cycles; the arrangement turns Oracle into a first-class OpenAI distribution channel alongside Microsoft Azure.",
+        "source": "OpenAI",
+        "sourceUrl": "https://www.aichatdaily.com/ai-business/openai-brings-models-codex-oracle-cloud-customers",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+        "category": "product",
+        "publishedAt": "2026-06-11"
+    },
+    {
+        "id": "anthropic-dxc-regulated-industries-claude-2026-06-11",
+        "title": "Anthropic and DXC Technology form multi-year alliance to deploy Claude inside banks, airlines, and government",
+        "summary": "Anthropic and DXC Technology announced a multi-year global alliance on June 11, 2026, in which DXC will train tens of thousands of Claude-certified forward-deployed engineers to bring Claude into the systems DXC operates for the world's largest banks, airlines, insurers, manufacturers, and government agencies, starting with Modernization-as-a-Service, cybersecurity, and OASIS-based application services.",
         "source": "Anthropic",
-        "sourceUrl": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "sourceUrl": "https://www.anthropic.com/news/dxc-anthropic-alliance",
         "imageUrl": "https://www.anthropic.com/favicon.ico",
+        "category": "product",
+        "publishedAt": "2026-06-11"
+    },
+    {
+        "id": "anthropic-tcs-india-enterprise-claude-2026-06-11",
+        "title": "Anthropic taps TCS to scale Claude across Indian enterprises, financial services, and Diligenta",
+        "summary": "Anthropic partnered with Tata Consultancy Services on June 11, 2026, to set up a dedicated business unit for deploying Claude to TCS customers, give more than 50,000 TCS employees access to Claude, and build out Diligenta (22M+ UK life-and-pensions customers) and TCS iON on top of the Claude Code ecosystem.",
+        "source": "Anthropic",
+        "sourceUrl": "https://techcrunch.com/2026/06/11/anthropic-taps-tcs-to-scale-its-enterprise-ai-deployments/",
+        "imageUrl": "https://www.anthropic.com/favicon.ico",
+        "category": "product",
+        "publishedAt": "2026-06-11"
+    },
+    {
+        "id": "anthropic-claude-fable-invisible-guardrails-walkback-2026-06-11",
+        "title": "Anthropic apologizes and walks back invisible distillation guardrails on Claude Fable 5",
+        "summary": "Anthropic apologized on June 11, 2026, for stealthily throttling Claude Fable 5 with hidden guardrails that blocked research and competitor distillation queries, saying the company will now fall back to Claude Opus 4.8 and tell users every time a safeguard is triggered; the reversal follows backlash from the AI research community and Wired's reporting on the policy.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+        "imageUrl": "https://www.anthropic.com/favicon.ico",
+        "category": "capability",
+        "publishedAt": "2026-06-11"
+    },
+    {
+        "id": "anthropic-claude-corps-fellowship-2026-06-11",
+        "title": "Anthropic launches Claude Corps, a national fellowship to extend AI benefits across American communities",
+        "summary": "Anthropic announced Claude Corps on June 11, 2026, a national fellowship program for people early in their careers who are passionate about extending the benefits of AI to communities across America; the program sits alongside DXC, TCS, Project Glasswing, and the new policy push as Anthropic builds enterprise and civic distribution for Claude.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.anthropic.com/news/claude-corps",
+        "imageUrl": "https://www.anthropic.com/favicon.ico",
+        "category": "product",
+        "publishedAt": "2026-06-11"
+    },
+    {
+        "id": "google-deepmind-10m-multi-agent-safety-fund-2026-06-11",
+        "title": "Google DeepMind commits $10M with Schmidt Sciences, ARIA, and Cooperative AI to study multi-agent safety",
+        "summary": "Google DeepMind, Schmidt Sciences, ARIA, the Cooperative AI foundation, and Google.org announced a $10 million research fund on June 11, 2026, to seed academic work on how millions of AI agents will behave when they interact across the open internet; DeepMind's AGI safety lead Rohin Shah says the field of multi-agent safety effectively does not exist yet and the timing is urgent.",
+        "source": "Google DeepMind",
+        "sourceUrl": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Google_DeepMind_logo.svg",
+        "category": "research",
+        "publishedAt": "2026-06-11"
+    },
+    {
+        "id": "google-diffusiongemma-26b-open-diffusion-llm-2026-06-11",
+        "title": "Google releases DiffusionGemma, a 26B open diffusion language model that runs on 18GB of RAM",
+        "summary": "Google DeepMind unveiled DiffusionGemma on June 11, 2026, an experimental 26-billion-parameter mixture-of-experts language model that generates paragraphs of tokens in parallel using diffusion rather than autoregressive decoding, posting up to 4x speedup on a single H100 and running locally on 18GB of DRAM or VRAM; the open-weights model is released under Apache 2.0 with vLLM, MLX, and HF Transformers support.",
+        "source": "Google",
+        "sourceUrl": "https://www.theregister.com/ai-and-ml/2026/06/11/googles-diffusiongemma-uses-diffusion-tech-to-speed-text-generation/5254406",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Google_DeepMind_logo.svg",
         "category": "model",
+        "publishedAt": "2026-06-11"
+    },
+    {
+        "id": "xai-grok-build-plugin-marketplace-2026-06-11",
+        "title": "xAI launches Grok Build Plugin Marketplace with MongoDB, Vercel, Sentry, Chrome DevTools, and Cloudflare",
+        "summary": "xAI launched the Grok Build Plugin Marketplace on June 11, 2026, a built-in catalog of plugins that bundle skills, slash commands, agents, hooks, MCP servers, and LSPs into a single installable package; the launch catalog ships six partners and pins every remote plugin to a 40-character commit SHA that Grok Build re-verifies after cloning.",
+        "source": "xAI",
+        "sourceUrl": "https://www.marktechpost.com/2026/06/11/xai-ships-grok-build-plugin-marketplace-with-mongodb-vercel-sentry-chrome-devtools-cloudflare-and-superpowers-plugins-at-launch/",
+        "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
+        "category": "tool",
+        "publishedAt": "2026-06-11"
+    },
+    {
+        "id": "xai-grok-canada-privacy-deepfakes-violation-2026-06-11",
+        "title": "Canada's Privacy Commissioner finds xAI and X violated federal law on Grok sexualized deepfakes",
+        "summary": "Canada's Privacy Commissioner of Canada released a report on June 11, 2026, finding that X Corp. and xAI violated Canada's federal private-sector privacy law by launching the Grok image-generation tool without proper safeguards, fueling millions of non-consensual sexualized deepfakes; the Commissioner welcomed xAI's subsequent mitigations but lacks authority to fine or order changes.",
+        "source": "xAI",
+        "sourceUrl": "https://www.aljazeera.com/economy/2026/6/11/musks-grok-accused-of-violating-canadian-privacy-laws-on-deepfakes",
+        "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
+        "category": "capability",
+        "publishedAt": "2026-06-11"
+    },
+    {
+        "id": "nvidia-isaac-gr00t-reference-humanoid-2026-06-11",
+        "title": "NVIDIA unveils Isaac GR00T Reference Humanoid Robot with Unitree, Sharpa Wave, and Jetson Thor",
+        "summary": "NVIDIA unveiled the Isaac GR00T Reference Humanoid Robot at GTC Taipei on June 11, 2026, a fully open humanoid platform combining a Unitree H2 Plus body, Sharpa Wave five-finger tactile hands, Jetson Thor onboard compute, and the full Isaac GR00T software stack; the platform also adds Unitree G1 support and is expected from Unitree in late 2026.",
+        "source": "NVIDIA",
+        "sourceUrl": "https://roboticsandautomationnews.com/2026/06/11/nvidia-unveils-open-humanoid-robot-platform-for-robotics-research/102480/",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
+        "category": "product",
+        "publishedAt": "2026-06-11"
+    },
+    {
+        "id": "nvidia-factory-operations-blueprint-fox-2026-06-11",
+        "title": "NVIDIA launches Factory Operations Blueprint (FOX) for autonomous manufacturing agents",
+        "summary": "NVIDIA announced the Factory Operations Blueprint, or FOX, at GTC Taipei on June 11, 2026, a reference design for building autonomous factory manager agents that connect machine data, quality systems, work instructions, robot fleets, and operational alerts into one AI-driven decision layer; the blueprint is built on NemoClaw, AI-Q Blueprint, and Nemotron open models.",
+        "source": "NVIDIA",
+        "sourceUrl": "https://roboticsandautomationnews.com/2026/06/11/nvidia-launches-ai-factory-manager-blueprint-for-autonomous-manufacturing/102491/",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
+        "category": "tool",
+        "publishedAt": "2026-06-11"
+    },
+    {
+        "id": "runway-lionsgate-equity-stake-joint-ip-2026-06-11",
+        "title": "Lionsgate takes equity stake in Runway, joint development to mine franchises for AI-generated shorts",
+        "summary": "Runway and Lionsgate announced an expanded partnership on June 11, 2026, in which Lionsgate has taken an equity interest in Runway and the two companies will launch a joint development program to co-produce new IP, starting with a short-form episodic series drawing on Lionsgate's franchises; Lionsgate also becomes a presenting partner at the Runway AI Festival in June.",
+        "source": "Runway",
+        "sourceUrl": "https://runwayml.com/news/runway-and-lionsgate-expand-partnership",
+        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
+        "category": "product",
+        "publishedAt": "2026-06-11"
+    },
+    {
+        "id": "perplexity-deep-research-computer-20-models-2026-06-11",
+        "title": "Perplexity moves Deep Research into Computer, routing subtasks across 20+ frontier models",
+        "summary": "Perplexity moved Deep Research into its Computer multi-model orchestration system on June 11, 2026, breaking hard questions into subtasks and routing them across 20+ frontier models to produce reports, decks, and dashboards; BrowseComp accuracy jumped from 40.7% to 83.8% and Humanity's Last Exam rose 36.4% to 50.5%, with Search-as-Code available through both Computer and the Agent API.",
+        "source": "Perplexity",
+        "sourceUrl": "https://www.marktechpost.com/2026/06/11/perplexity-moves-deep-research-into-computer-routing-research-subtasks-across-20-frontier-models-for-reports-decks-and-dashboards/",
+        "imageUrl": "https://www.perplexity.ai/favicon.svg",
+        "category": "capability",
+        "publishedAt": "2026-06-11"
+    },
+    {
+        "id": "perplexity-amazon-comet-ninth-circuit-2026-06-11",
+        "title": "Perplexity and Amazon face skeptical Ninth Circuit panel over Comet shopping agent injunction",
+        "summary": "A Ninth Circuit panel heard arguments on June 11, 2026, over whether to keep a preliminary injunction blocking Perplexity's Comet browser from shopping on Amazon, with judges pushing back on Perplexity's argument that agents gain authorized access through their users; the ACLU filed an amicus brief warning a ruling for Amazon could chill journalism, research, and common browser tools.",
+        "source": "Perplexity",
+        "sourceUrl": "https://www.courthousenews.com/perplexity-ai-asks-ninth-circuit-to-allow-shopping-tool-on-amazon/",
+        "imageUrl": "https://www.perplexity.ai/favicon.svg",
+        "category": "research",
+        "publishedAt": "2026-06-11"
+    },
+    {
+        "id": "hugging-face-physicsintern-research-sidekick-2026-06-11",
+        "title": "Hugging Face ships PhysicsIntern 2.0 as a set of skills that ride on Claude Code, Codex, and Pi",
+        "summary": "Hugging Face published PhysicsIntern 2.0 on June 11, 2026, rebuilding the autonomous physics-research agent as a set of skills rather than a bespoke harness, so it runs on top of Claude Code, Codex, and Pi with surveyor, deriver, computer, reviewer, critic, and finalizer sub-agents in fresh contexts and at least two independent verdicts required before a result is treated as established.",
+        "source": "Hugging Face",
+        "sourceUrl": "https://huggingface.co/blog/dlouapre/physics-intern",
+        "imageUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+        "category": "tool",
+        "publishedAt": "2026-06-11"
+    },
+    {
+        "id": "hugging-face-arcee-exclusive-storage-2026-06-09",
+        "title": "Hugging Face and Arcee sign multi-million-dollar deal to make the Hub Arcee's exclusive storage home",
+        "summary": "Hugging Face announced a multi-million-dollar strategic collaboration on June 9, 2026, making the Hugging Face Hub the exclusive home for all of Arcee AI's models, datasets, and agent traces (public and private) via the new Buckets private-storage product; the deal gives Arcee a cloud-agnostic store where it can train on any provider without egress fees or lock-in.",
+        "source": "Hugging Face",
+        "sourceUrl": "https://huggingface.co/blog/clem/arcee-hf",
+        "imageUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+        "category": "product",
         "publishedAt": "2026-06-09"
+    },
+    {
+        "id": "zhipu-scaíl-2-end-to-end-video-2026-06-11",
+        "title": "Zhipu and Tsinghua release SCAIL-2, an end-to-end video model that abandons stick-figure intermediates",
+        "summary": "Zhipu AI and the Tsinghua University team led by Professor Tang Jie released SCAIL-2 on June 11, 2026, an end-to-end video model that abandons the industry's reliance on explicit intermediate 'stick-figure' pose representations and instead drives latent-space features directly, framing the model as a 'driver program' for the AGI operating system and a paradigm challenge to current digital content pipelines.",
+        "source": "Zhipu AI",
+        "sourceUrl": "https://eu.36kr.com/en/p/3848005423797509",
+        "imageUrl": "https://zhipuai.cn/favicon.ico",
+        "category": "model",
+        "publishedAt": "2026-06-11"
     },
     {
         "id": "apple-foundation-models-third-gen-wwdc-2026-06-08",
@@ -19,146 +199,15 @@
         "category": "model",
         "publishedAt": "2026-06-08"
     },
-
     {
-        "id": "anthropic-claude-foundation-models-swift-2026-06-08",
-        "title": "Anthropic ships Claude support in Apple's Foundation Models framework via Swift package",
-        "summary": "Anthropic released a new Swift package that lets Apple developers hand off from Apple's on-device Foundation Models framework to Claude for multi-step reasoning, code generation, web search, and code execution, with streaming, tool calls, and structured responses flowing back into SwiftUI views on iOS 27, iPadOS 27, macOS 27, visionOS 27, and watchOS 27.",
+        "id": "anthropic-claude-fable-5-mythos-5-2026-06-09",
+        "title": "Anthropic launches Claude Fable 5 and Claude Mythos 5 with 30-day safety retention",
+        "summary": "Anthropic released Claude Fable 5 as the first publicly available Mythos-class model on $10/$50 per million input/output tokens, with Claude Mythos 5 reserved for Project Glasswing cyber partners and trusted biology researchers; Anthropic also announced a 30-day data retention policy for both models, even for zero-retention enterprise customers.",
         "source": "Anthropic",
-        "sourceUrl": "https://claude.com/blog/claude-for-foundation-models",
+        "sourceUrl": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
         "imageUrl": "https://www.anthropic.com/favicon.ico",
-        "category": "tool",
-        "publishedAt": "2026-06-08"
-    },
-    {
-        "id": "openai-chatgpt-dreaming-memory-2026-06-04",
-        "title": "OpenAI rolls out Dreaming v3 memory architecture for ChatGPT, freeing up 5x compute for free users",
-        "summary": "OpenAI deployed its third-generation Dreaming memory system across ChatGPT, cutting serving compute for memory on free users by roughly 5x so the same quality bar can be extended to Free and Go tiers, while Plus and Pro users gain expanded memory capacity with a reviewable Memory Summary page that lets them add, update, or pin context for future conversations.",
-        "source": "OpenAI",
-        "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/943552/chatgpts-upgraded-memory-system-is-rolling-out-to-everyone",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
-        "category": "capability",
-        "publishedAt": "2026-06-04"
-    },
-    {
-        "id": "xai-grok-imagine-1-5-preview-2026-06-03",
-        "title": "xAI ships Grok Imagine 1.5 Preview image-to-video at 720p with native audio on the API",
-        "summary": "xAI released grok-imagine-video-1.5-preview, an image-to-video model that animates a still frame at up to 720p with prompt-controlled camera, pacing, and sound design, chains multiple shots into longer consistent scenes, and is priced at $0.08 per second across us-east-1, us-west-2, and eu-west-1.",
-        "source": "xAI",
-        "sourceUrl": "https://the-decoder.com/xai-updates-grok-imagine-to-1-5-with-image-to-video-generation-at-720p-resolution/",
-        "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
         "category": "model",
-        "publishedAt": "2026-06-03"
-    },
-    {
-        "id": "xai-grok-vapi-default-voice-2026-06-03",
-        "title": "xAI's Grok Voice becomes the default engine for 2.5M+ agents on Vapi",
-        "summary": "xAI partnered with Vapi to make Grok Voice the default engine for Vapi's 12 core voices across more than 2.5 million voice agents; Vapi's blind head-to-head arena ranked Grok Voice #1 and Grok Speech-to-Text and Text-to-Speech are now selectable in the Vapi dashboard alongside custom voice cloning through the Grok Voice API.",
-        "source": "xAI",
-        "sourceUrl": "https://www.frontiernews.ai/news/article/xais-rapid-fire-release-blitz-grok-gets-voice-vide-8ff0e89e",
-        "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
-        "category": "product",
-        "publishedAt": "2026-06-03"
-    },
-    {
-        "id": "alibaba-qwen3-7-plus-bailian-2026-06-02",
-        "title": "Alibaba launches Qwen3.7-Plus multimodal agent model at one-sixth the price of Qwen3.7-Max",
-        "summary": "Alibaba released Qwen3.7-Plus on the Bailian platform, adding vision, video understanding, deep reasoning, self-programming, tool invocation, verification and testing, and autonomous iteration over the text-only Qwen3.7-Max; pricing lands at $0.40 per million input tokens and $1.60 per million output tokens, with the model ranked #5 globally on Vision Arena.",
-        "source": "Alibaba",
-        "sourceUrl": "https://www.alibabacloud.com/blog/alibaba-launches-qwen3-7-plus-ai-swine-diagnosis-assistant-and-model-studio-cli_603230",
-        "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
-        "category": "model",
-        "publishedAt": "2026-06-02"
-    },
-    {
-        "id": "alibaba-qwen-app-external-agents-2026-06-03",
-        "title": "Alibaba opens Qwen app to external agents and skills, escalating China's AI agent war",
-        "summary": "Alibaba announced that the consumer Qwen app will open its ecosystem to third-party agents and skills, joining Tencent's push to weave agentic AI into WeChat and positioning Qwen against Doubao, Kimi, and Yuanbao as the model and platform layer for an agent-driven super-app economy in China.",
-        "source": "Alibaba",
-        "sourceUrl": "https://asia.nikkei.com/business/technology/artificial-intelligence/alibaba-opens-qwen-to-external-apps-as-china-s-ai-agent-race-intensifies",
-        "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
-        "category": "product",
-        "publishedAt": "2026-06-03"
-    },
-    {
-        "id": "microsoft-work-iq-apis-2026-06-02",
-        "title": "Microsoft announces Work IQ APIs for Microsoft 365 Copilot, generally available June 16",
-        "summary": "Microsoft will GA the Work IQ APIs on June 16, 2026, giving agents a consumption-priced surface to reason over email, calendar, meetings, chats, files, people, and collaboration patterns across Microsoft 365; a new cost-management dashboard in the Microsoft 365 admin center will let IT admins set Copilot Credit limits per tenant, group, or user.",
-        "source": "Microsoft",
-        "sourceUrl": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/",
-        "imageUrl": "https://i.ytimg.com/vi/qAgAQQ41P3A/maxresdefault.jpg",
-        "category": "tool",
-        "publishedAt": "2026-06-02"
-    },
-    {
-        "id": "nvidia-cosmos-3-omnimodel-2026-05-31",
-        "title": "NVIDIA launches Cosmos 3, the first fully open omnimodel for physical AI",
-        "summary": "Unveiled at GTC Taipei, NVIDIA's Cosmos 3 is the first fully open mixture-of-transformers omnimodel that reasons and generates across text, images, video, ambient sound, and action for robotics and AV training; Super and Nano variants are available now on build.nvidia.com and Hugging Face under the OpenMDW 1.1 license, with Cosmos Coalition partners including Black Forest Labs, Runway, and Skild AI.",
-        "source": "NVIDIA",
-        "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai",
-        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
-        "category": "model",
-        "publishedAt": "2026-05-31"
-    },
-    {
-        "id": "nvidia-alpamayo-2-super-robotaxi-2026-05-31",
-        "title": "NVIDIA Alpamayo 2 Super brings 32B-parameter reasoning VLA to level-4 robotaxi development",
-        "summary": "NVIDIA introduced Alpamayo 2 Super, a 32B open reasoning vision-language-action model that scales 3x over the 10B Alpamayo family and adds full-surround perception plus Meta-Actions for yielding, lane changes, and stops; inference code and weights land on GitHub and Hugging Face this summer, alongside AlpaGym, OmniDreams, and Omniverse NuRec.",
-        "source": "NVIDIA",
-        "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-alpamayo-2-super-robotaxis",
-        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
-        "category": "model",
-        "publishedAt": "2026-05-31"
-    },
-    {
-        "id": "nvidia-nemotron-3-ultra-agent-moe-2026-06-04",
-        "title": "NVIDIA releases Nemotron 3 Ultra 550B MoE for long-running agents with Perplexity, Palantir, and ServiceNow",
-        "summary": "Announced at GTC Taipei, Nemotron 3 Ultra is a 550B MoE with 55B active parameters and hybrid Mamba-Transformer layers that delivers up to 5x faster inference and 30% lower cost-to-completion on agentic benchmarks; CrowdStrike and Palantir are early adopters, and the model is open under the Nemotron Coalition.",
-        "source": "NVIDIA",
-        "sourceUrl": "https://developer.nvidia.com/blog/nvidia-nemotron-3-ultra-powers-faster-more-efficient-reasoning-for-long-running-agents/",
-        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
-        "category": "model",
-        "publishedAt": "2026-06-04"
-    },
-    {
-        "id": "runway-cosmos-coalition-founding-2026-06-01",
-        "title": "Runway joins NVIDIA's Cosmos Coalition to co-develop open world models for physical AI",
-        "summary": "Runway announced it is a founding member of the NVIDIA-led Cosmos Coalition alongside Black Forest Labs, Generalist, LTX, Skild AI, and Agile Robots; the first joint project will be a base world model codeveloped by Runway and NVIDIA, with shared infrastructure and mutual contribution across the open ecosystem.",
-        "source": "Runway",
-        "sourceUrl": "https://runwayml.com/news/introducing-cosmos-coalition",
-        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
-        "category": "research",
-        "publishedAt": "2026-06-01"
-    },
-    {
-        "id": "hugging-face-openenv-agentic-rl-2026-06-08",
-        "title": "Hugging Face hands OpenEnv agentic RL standard to a PyTorch-led community committee",
-        "summary": "Hugging Face transferred stewardship of OpenEnv, its open standard for agentic reinforcement-learning environments, to a new community committee that includes Meta-PyTorch, Reflection, Unsloth, Modal, Prime Intellect, NVIDIA, Mercor, Fleet AI, and Hugging Face itself; OpenEnv is hosted at huggingface/OpenEnv and positions itself as the interop layer between training libraries and shared agentic harnesses.",
-        "source": "Hugging Face",
-        "sourceUrl": "https://huggingface.co/blog/openenv-agentic-rl",
-        "imageUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
-        "category": "tool",
-        "publishedAt": "2026-06-08"
-    },
-    {
-        "id": "hugging-face-hf-cli-agents-2026-06-04",
-        "title": "Hugging Face rebuilds the hf CLI around coding agents like Claude Code and Codex",
-        "summary": "Hugging Face released an agent-aware build of the hf CLI that detects Claude Code, Codex, Cursor, Gemini, Pi, and a universal AI_AGENT env var, switches output to an unformatted dense mode, and tags each Hub request with an agent-prefixed user-agent; on multi-step tasks the agent-driven baseline uses up to 6x fewer tokens than hand-rolled curl or the Python SDK.",
-        "source": "Hugging Face",
-        "sourceUrl": "https://huggingface.co/blog/hf-cli-for-agents",
-        "imageUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
-        "category": "tool",
-        "publishedAt": "2026-06-04"
-    },
-    {
-        "id": "minimax-m3-1m-context-native-multimodal-2026-06-01",
-        "title": "MiniMax launches M3, the first open-weight model with 1M context, multimodality, and frontier coding",
-        "summary": "MiniMax's M3 ships with the new MiniMax Sparse Attention (MSA) architecture to support a 1M-token context window, native image and video input, and computer use; it scores 59.0% on SWE-Bench Pro and 70.06% on OSWorld-Verified, with a $20/month Token Plan, discounted launch API pricing, and open weights due within 10 days.",
-        "source": "Minimax",
-        "sourceUrl": "https://www.minimax.io/blog/minimax-m3",
-        "imageUrl": "https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png",
-        "category": "model",
-        "publishedAt": "2026-06-01"
+        "publishedAt": "2026-06-09"
     },
     {
         "id": "moonshot-kimi-work-desktop-300-agents-2026-06-08",
@@ -171,46 +220,15 @@
         "publishedAt": "2026-06-08"
     },
     {
-        "id": "mistral-vibe-unified-agent-le-chat-2026-05-28",
-        "title": "Mistral unifies Le Chat into Vibe, a single long-running agent for work and code",
-        "summary": "Mistral folded Le Chat and the Vibe CLI into one Vibe agent on a single license, adding Work mode for long-horizon research and analysis, Code mode for remote coding agents on the web, and a new VS Code extension; sessions can run in parallel, persist while the user's machine is off, and be triggered from third-party apps like Slack.",
-        "source": "Mistral",
-        "sourceUrl": "https://mistral.ai/news/vibe-agent/",
-        "imageUrl": "https://www.mistral.ai/favicon.ico",
-        "category": "product",
-        "publishedAt": "2026-05-28"
+        "id": "meta-muse-spark-replaces-llama-4-glasses-2026-06-09",
+        "title": "Meta's Muse Spark AI replaces Llama 4 across Ray-Ban and Oakley smart glasses",
+        "summary": "Meta Superintelligence Labs extended its Muse Spark model to all Ray-Ban and Oakley smart glasses except Meta Ray-Ban Display; Muse Spark matches Llama 4 Maverick performance at 10x lower compute, is closed-source, and Meta has delayed the public API multiple times since April while targeting a release within June.",
+        "source": "Meta",
+        "sourceUrl": "https://www.uploadvr.com/meta-muse-spark-ai-model-replaces-llama-on-smart-glasses/",
+        "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
+        "category": "model",
+        "publishedAt": "2026-06-09"
     },
-    {
-        "id": "adobe-cx-enterprise-coworker-ga-2026-06-10",
-        "title": "Adobe CX Enterprise Coworker hits GA as an agentic central intelligence layer for customer experience",
-        "summary": "Adobe made CX Enterprise Coworker generally available as an outcomes-based agentic AI system that synthesizes Adobe and third-party data, coordinates AI agents across analytics, content, and journey orchestration, and ships with built-in MCP and Agent2Agent interoperability; Adobe Experience Platform now powers more than 1 trillion experiences annually as the contextual layer underneath.",
-        "source": "Adobe",
-        "sourceUrl": "https://news.adobe.com/news/2026/06/adobe-announces-general-availability-of-cx-enterprise-coworker",
-        "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
-        "category": "product",
-        "publishedAt": "2026-06-10"
-    },
-    {
-        "id": "perplexity-personal-computer-hybrid-orchestrator-2026-06-02",
-        "title": "Perplexity unveils hybrid local-server inference orchestrator at Computex, shipping in July",
-        "summary": "Perplexity demonstrated the first hybrid local-server inference orchestrator alongside Intel at Computex 2026; a compact on-device router classifies each subtask by data sensitivity and compute need, then dispatches work to the local machine or to a frontier cloud model, with the model-agnostic harness confirmed to run on Intel Core Ultra Series 3 and NVIDIA RTX Spark silicon.",
-        "source": "Perplexity",
-        "sourceUrl": "https://venturebeat.com/technology/perplexity-ai-unveils-hybrid-local-cloud-inference-system-at-computex-2026",
-        "imageUrl": "https://www.perplexity.ai/favicon.svg",
-        "category": "product",
-        "publishedAt": "2026-06-02"
-    },
-    {
-        "id": "perplexity-search-as-code-2026-06-01",
-        "title": "Perplexity ships Search as Code, an Agentic Search SDK that lets models assemble retrieval pipelines",
-        "summary": "Perplexity introduced Search as Code (SaC), a new search architecture that exposes the building blocks of its search stack as SDK primitives so any model can assemble a retrieval pipeline on demand inside a secure sandbox; SaC is live today in Perplexity Computer and the Agent API, advancing the cost-performance frontier on knowledge-intensive agent benchmarks.",
-        "source": "Perplexity",
-        "sourceUrl": "https://research.perplexity.ai/articles/rethinking-search-as-code-generation",
-        "imageUrl": "https://www.perplexity.ai/favicon.svg",
-        "category": "research",
-        "publishedAt": "2026-06-01"
-    },
-
     {
         "id": "zhipu-glm-5-1-8h-endurance-2026-06-10",
         "title": "Zhipu launches GLM-5.1 with 8-hour autonomous work mode and 10% price hike",
@@ -220,25 +238,5 @@
         "imageUrl": "https://zhipuai.cn/favicon.ico",
         "category": "model",
         "publishedAt": "2026-06-10"
-    },
-    {
-        "id": "bytedance-doubao-paid-pro-late-june-2026-06-02",
-        "title": "ByteDance confirms Doubao Pro Edition will charge 68 to 500 yuan per month starting late June",
-        "summary": "ByteDance confirmed its Doubao AI assistant will launch a paid Pro Edition in late June with tiers at 68, 200, and 500 yuan per month, covering software development, data analysis, design, workflow automation, and scientific research; basic chatbot functions will remain free as Doubao prepares to integrate e-commerce into Q3 ahead of the Volcano Engine Force Conference.",
-        "source": "ByteDance",
-        "sourceUrl": "https://eu.36kr.com/en/p/3835814391100550",
-        "imageUrl": "https://cdn.technobezz.com/c/Technobezz_2026_02_14_T092431_822_304d822711.png",
-        "category": "product",
-        "publishedAt": "2026-06-02"
-    },
-    {
-        "id": "meta-muse-spark-replaces-llama-4-glasses-2026-06-09",
-        "title": "Meta's Muse Spark AI replaces Llama 4 across Ray-Ban and Oakley smart glasses",
-        "summary": "Meta Superintelligence Labs extended its Muse Spark model to all Ray-Ban and Oakley smart glasses except Meta Ray-Ban Display; Muse Spark matches Llama 4 Maverick performance at 10x lower compute, is closed-source, and Meta has delayed the public API multiple times since April while targeting a release within June.",
-        "source": "Meta",
-        "sourceUrl": "https://www.uploadvr.com/meta-muse-spark-ai-model-replaces-llama-on-smart-glasses/",
-        "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
-        "category": "model",
-        "publishedAt": "2026-06-09"
     }
 ]

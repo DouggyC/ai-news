@@ -205,12 +205,12 @@
       "OpenAI": {
         "name": "Codex",
         "url": "https://developers.openai.com/codex/ide",
-        "description": "IDE extension and cloud coding agent powered by GPT-5.5. Available in VS Code, GitHub, JetBrains, Xcode, Eclipse, and the Codex CLI. Mobile preview inside ChatGPT iOS/Android (May 14, 2026) supervises Codex sessions on Mac. Safe coding commitment May 8, 2026. Now on AWS Bedrock (April 28, 2026)."
+        "description": "IDE extension and cloud coding agent powered by GPT-5.5. Available in VS Code, GitHub, JetBrains, Xcode, Eclipse, and the Codex CLI. Mobile preview inside ChatGPT iOS/Android (May 14, 2026) supervises Codex sessions on Mac. Safe coding commitment May 8, 2026. On AWS Bedrock (April 28, 2026). 5M+ weekly active users (June 2, 2026). Six role-specific enterprise plugins (data analytics, creative production, sales, product design, equity investing, investment banking) plus Annotations and Sites (June 2, 2026) for building/deploying internal web apps. Acquiring Ona (announced June 11, 2026) for secure customer-controlled cloud execution."
       },
       "Anthropic": {
         "name": "Claude Code",
         "url": "https://www.anthropic.com/claude-code",
-        "description": "Terminal-first coding agent with IDE workflows powered by Claude Opus 4.8. Claude Fable 5 also available in GitHub Copilot, Claude API, and Claude Platform on AWS (June 9, 2026). Dynamic workflows feature for parallel sub-agents running hundreds of tasks per session. /ultrareview slash command, auto mode for Max users. Desktop app GA. Agent view (May 11, 2026). Fast mode for Opus 4.8 at 2x standard rate for 2.5x speed."
+        "description": "Terminal-first coding agent with IDE workflows powered by Claude Opus 4.8. Claude Fable 5 available in GitHub Copilot, Claude API, and Claude Platform on AWS (June 9, 2026). Dynamic workflows GA in Claude Code (June 11, 2026, Code with Claude Tokyo) — Claude writes orchestration scripts running tens to hundreds of parallel subagents per session, enabled via /ultracode or asking Claude to create a workflow. Scheduled deployments and environment variable vaults in public beta in Claude Managed Agents (June 11, 2026). ant CLI, Claude Code Analytics API. /ultrareview, auto mode for Max users. Desktop app GA. Fast mode for Opus 4.8 at 2x standard rate for 2.5x speed."
       },
       "Microsoft": {
         "name": "GitHub Copilot",
@@ -228,9 +228,9 @@
         "description": "JetBrains AI coding agent with Junie CLI in beta (March 9, 2026). LLM-agnostic supporting OpenAI, Anthropic, Google, Grok. MCP integration, IDE+CI/CD+GitHub/GitLab. Junie CLI Now Connects to Your JetBrains IDE (April 8, 2026). ACP Agent Registry. ReSharper 2026.2 EAP support."
       },
       "Cursor": {
-        "name": "Cursor 3.5",
+        "name": "Cursor 3.7",
         "url": "https://www.cursor.com",
-        "description": "AI-native editor (Cursor 3 unified workspace since April 2, 2026). v3.3 (May 7) adds Build in Parallel async subagents and Split into PRs; v3.4 (May 13) adds multi-repo environments, Dockerfile build secrets, 70% faster layer-cached rebuilds; v3.5 (May 20) brings Automations to the Agents Window with multi-repo and no-repo modes, plus Shared Canvases. Composer 2.5 default. Development environments for cloud agents. Pro $20/mo, Pro+ $60/mo, Ultra $200/mo. Gartner Leader in Enterprise AI Coding Agents. Training a much larger next-gen model with SpaceXAI on Colossus 2."
+        "description": "AI-native editor (Cursor 3 unified workspace since April 2, 2026). v3.3 (May 7) Build in Parallel async subagents and Split into PRs; v3.4 (May 13) multi-repo environments, Dockerfile build secrets, 70% faster layer-cached rebuilds; v3.5 (May 20) Automations to Agents Window with multi-repo/no-repo modes and Shared Canvases; v3.6 (May 29) Auto-review Run Mode with classifier subagent; v3.7 (June 4) Canvas Design Mode, Context Usage Report, custom stores/tools, auto-review for SDK with subagent nesting. Bugbot 3x faster/22% cheaper/10% more bugs (June 10). Composer 2.5 default. cursor.com/agents cloud URL. Pro $20/mo, Pro+ $60/mo, Ultra $200/mo. Gartner Leader. Training much larger next-gen model with SpaceXAI on Colossus 2."
       },
       "Cognition": {
         "name": "Devin Desktop",
@@ -240,10 +240,17 @@
       "xAI": {
         "name": "Grok Build",
         "url": "https://grok.com",
-        "description": "xAI coding agent and CLI (May 14, 2026) in early beta for SuperGrok Heavy subscribers. Plan mode for approve-before-execute workflows. Works with AGENTS.md, plugins, hooks, skills, MCP servers. Parallel subagents for large tasks. Headless mode (-p) for scripting."
+        "description": "xAI coding agent and CLI (May 14, 2026) for SuperGrok/X Premium+ subscribers, in early beta. Plan mode for approve-before-execute workflows. Grok Build Plugin Marketplace (June 11, 2026) bundles skills, slash commands, agents, hooks, MCP servers, and LSPs into installable packages from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. /marketplace to browse. Parallel subagents, headless mode (-p) for scripting. ACP support for custom bots."
+      },
+
+      "Microsoft-Code": {
+        "name": "MAI-Code-1-Flash",
+        "url": "https://developer.microsoft.com/blog/build-recap",
+        "description": "Microsoft's inference-efficient coding model (June 2, 2026, Build) with 5B active parameters, 51% on SWE-Bench Pro, Haiku-class size but cheaper. Tuned for VS Code, GitHub Copilot CLI, and Microsoft stack. Rolling out as a default in VS Code for Copilot Free, Student, Pro, Pro+, and Max. First in a new wave of purpose-built coding models from Microsoft for GitHub Copilot."
       }
     }
   },
+
   {
     "category": "CLI",
     "products": {
@@ -260,12 +267,12 @@
       "Anthropic": {
         "name": "Claude Code",
         "url": "https://www.anthropic.com/claude-code",
-        "description": "Terminal-first coding agent with IDE workflows powered by Claude Opus 4.8 (and Claude Fable 5 via API). Dynamic workflows (May 28, 2026) for parallel sub-agents at scale. /ultrareview slash command, auto mode for Max users. Desktop app GA. Agent view (May 11, 2026)."
+        "description": "Terminal-first coding agent with IDE workflows powered by Claude Opus 4.8 (Claude Fable 5 also available via API). Dynamic workflows now GA (May 28, 2026 research preview → June 11, 2026 GA, Code with Claude Tokyo) for parallel sub-agents at scale. /ultracode or ask Claude to create a workflow. Scheduled deployments and env var vaults in public beta for Claude Managed Agents (June 11, 2026). ant CLI, Analytics API. /ultrareview, auto mode for Max users. Desktop app GA. v2.1.173 (June 11, 2026) normalizes Fable 5 model names with [1m] suffix."
       },
       "xAI": {
         "name": "Grok Build CLI",
         "url": "https://grok.com",
-        "description": "xAI terminal coding agent (May 14, 2026) for SuperGrok Heavy subscribers. Plan mode, parallel subagents, deep worktree integrations. ACP support for custom bots and orchestration. Headless mode for CI/CD."
+        "description": "xAI terminal coding agent (May 14, 2026) for SuperGrok/X Premium+ subscribers, in early beta. Plan mode, parallel subagents, deep worktree integrations. Grok Build Plugin Marketplace (June 11, 2026) for installing skills/MCP/plugins from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. ACP support for custom bots and orchestration. Headless mode for CI/CD. grok-build-0.1 API (May 29, 2026) at $1/$2 per 1M tokens, 100+ tok/s."
       },
       "JetBrains": {
         "name": "TeamCity CLI",
@@ -314,7 +321,7 @@
     "products": {
       "Google": {
         "name": "Gemini API",
-        "url": "https://ai.google.dev/gemini-api/docs",
+        "url": "https://aistudio.google.com/app/apikey",
         "description": "Developer platform for Gemini models, tools, embeddings, and multimodal apps. File Search now multimodal (May 5). Higher-res images, custom metadata. Gemini 3.1 Flash TTS in preview. Gemini 3.5 Live Translate audio model in public preview via Gemini Live API (June 9, 2026). Managed Agents API for autonomous agentic workflows (May 2026)."
       },
       "OpenAI": {
@@ -325,7 +332,7 @@
       "Anthropic": {
         "name": "Claude API",
         "url": "https://docs.anthropic.com",
-        "description": "Claude Fable 5 (Mythos-class, June 9, 2026, $10/$50 per 1M tokens, 1M context) on `claude-fable-5`. Opus 4.8, Sonnet 4.6, and Haiku 4.5 also available. Computer use, long-context developer platform, Advisor strategy, Memory, MCP tunnels, dreaming/outcomes/multiagent orchestration. Claude Platform on AWS now GA (May 11, 2026). Financial services and small business templates."
+        "description": "Claude Fable 5 (Mythos-class, June 9, 2026, $10/$50 per 1M tokens, 1M context) on `claude-fable-5`. Opus 4.8, Sonnet 4.6, and Haiku 4.5 also available. Computer use, long-context developer platform, Advisor strategy, Memory, MCP tunnels, dreaming/outcomes/multiagent orchestration. Claude Platform on AWS GA (May 11, 2026). ant CLI for Claude API with YAML versioning and Claude Code integration (June 2026). Claude Code Analytics API. Dynamic workflows GA in Claude Code (June 11, 2026) and managed agents now run on schedules with vault-stored env vars (June 11, 2026)."
       },
       "Microsoft": {
         "name": "Azure AI Foundry",
@@ -555,7 +562,7 @@
       "Midjourney": {
         "name": "Midjourney",
         "url": "https://updates.midjourney.com",
-        "description": "V8.1 default (April 30, 2026) on Discord and web. HD mode 3x faster and 3x cheaper, made default. Moodboards and sref stable. Standard resolution 50% faster. V8.2 delayed from May 2026 to likely June for aesthetic upgrade; V9 in development."
+        "description": "V8.1 became the default model on midjourney.com on June 10, 2026 after launching April 30, 2026 on Discord and web. Standard jobs now render 4-5x faster than earlier versions, sharper HD images, and improved prompt adherence. Moodboards and sref stable. V8.2 delayed to this month for aesthetic upgrade; V9 in development."
       },
       "StabilityAI": {
         "name": "Stable Diffusion 3.5",
@@ -565,7 +572,7 @@
       "BlackForest": {
         "name": "FLUX.2",
         "url": "https://bfl.ai",
-        "description": "Black Forest Labs' current image model family. FLUX.2 [pro] production-grade at $0.03/MP with multi-reference (up to 10 images), 4MP output, exact hex color control, structured prompting. FLUX.2 [flex] for typography and fine-grained control. FLUX.2 [klein] 4B/9B open-weight models (Apache 2.0) with sub-0.5s inference on consumer GPUs since Jan 15, 2026. FLUX.2 [dev] 32B open-weight. Replaces FLUX.1 line."
+        "description": "Black Forest Labs' current image model family. FLUX.2 [pro] production-grade at $0.03/MP with multi-reference (up to 10 images), 4MP output, exact hex color control, structured prompting. FLUX.2 [flex] for typography and fine-grained control. FLUX.2 [klein] 4B/9B open-weight models (Apache 2.0) with sub-0.5s inference on consumer GPUs since Jan 15, 2026. FLUX.2 [dev] 32B open-weight. Replaces FLUX.1 line. New: flux-2-pro-preview endpoint for speed upgrades, FLUX Erase (May 21, 2026) for mask-based object removal beating GPT Image-2, FLUX VTO (May 28, 2026) virtual try-on for retail catalog scale."
       },
       "xAI": {
         "name": "Grok Imagine API",
@@ -626,6 +633,11 @@
         "name": "Meta Video Generation",
         "url": "https://ai.meta.com",
         "description": "Meta's video generation capabilities integrated across Meta apps."
+      },
+      "ElevenLabs": {
+        "name": "ElevenLabs Avatars",
+        "url": "https://elevenlabs.io/blog/introducing-flows-agent",
+        "description": "ElevenLabs Avatars (launched June 12, 2026) — photorealistic, lip-synced talking-head video generated in a single dashboard. Combines text-to-speech and lip-sync models operating simultaneously to generate consistent digital identities. Avatar Node in ElevenLabs Flows for automated text-to-avatar marketing video pipelines. Rolling out globally across all paid subscription tiers using the standard credit-based ecosystem."
       },
       "NVIDIA": {
         "name": "SANA-WM",
@@ -728,9 +740,9 @@
         "description": "Developer platform for transcription, speech understanding, and voice apps."
       },
       "StabilityAI": {
-        "name": "Stable Audio",
+        "name": "Stable Audio 3.0",
         "url": "https://stability.ai/stable-audio",
-        "description": "Music and sound generation model family from Stability AI."
+        "description": "Stability AI's audio generation family (May 20, 2026). Small SFX, Small, Medium (1.4B), and Large (2.7B) variants. Generates high-quality musical tracks up to 6 min 20s at 44.1kHz stereo — more than double Stable Audio 2.0. Small and Medium weights open on Hugging Face; Large available via API and self-hosting. Audio-to-audio, inpainting, LoRA fine-tuning, variable-length generation. Professional music offering led by former Universal Audio/Fender CDO Ethan Kaplan."
       },
       "Suno": {
         "name": "Suno",

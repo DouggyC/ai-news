@@ -11,6 +11,7 @@ const companyOrder = [
   'NVIDIA',
   'NVIDIA-Vera',
   'Microsoft',
+  'Microsoft-Code',
   'Google',
   'Amazon',
   'Meta',
@@ -206,6 +207,7 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
     Salesforce: 'backgroundColor:rgba(14, 165, 233, 0.2);color:#0ea5e9;borderColor:rgba(14, 165, 233, 0.3)',
     Cohere: 'backgroundColor:rgba(185, 28, 28, 0.2);color:#b91c1c;borderColor:rgba(185, 28, 28, 0.3)',
     Moonshot: 'backgroundColor:rgba(124, 58, 237, 0.2);color:#7c3aed;borderColor:rgba(124, 58, 237, 0.3)',
+    'Microsoft-Code': 'backgroundColor:rgba(99, 102, 241, 0.2);color:#a5b4fc;borderColor:rgba(99, 102, 241, 0.3)',
   };
 
   const style =
