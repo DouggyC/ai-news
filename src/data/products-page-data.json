@@ -19,8 +19,8 @@
       },
       "Anthropic": {
         "name": "Claude Fable 5",
-        "url": "https://www.anthropic.com/news/claude-opus-4-8",
-        "description": "Anthropic's first Mythos-class generally available model (June 9, 2026) at $10/$50 per 1M tokens. SOTA on SWE-Bench Pro 80.3%, FrontierCode 29.3%, OSWorld 83.4%, Humanity's Last Exam 49.8% (57.9% w/ tools). 1M context, 128K output, adaptive thinking, vision. Falls back to Opus 4.8 for cyber/biology/chemistry/distillation. Companion model Claude Mythos 5 available to Project Glasswing. Claude Opus 4.8 (May 28, 2026) at $5/$25 remains the default Claude surface."
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "description": "Anthropic's first Mythos-class generally available model (June 9, 2026) at $10/$50 per 1M tokens. SOTA on SWE-Bench Pro 80.3%, FrontierCode 29.3%, OSWorld 83.4%, Humanity's Last Exam 49.8% (57.9% w/ tools). 1M context, 128K output, adaptive thinking, vision. Falls back to Opus 4.8 for cyber/biology/chemistry/distillation. Claude Mythos 5 available to Project Glasswing. SUSPENDED June 12, 2026 by US government export control directive over alleged narrow jailbreak \u2014 disabled for all customers worldwide pending review. Claude Opus 4.8 (May 28, 2026) at $5/$25 remains the default Claude surface."
       },
       "xAI": {
         "name": "Grok 4.3",
@@ -40,7 +40,7 @@
       "Cohere": {
         "name": "Command A+",
         "url": "https://cohere.com/blog/command-a-plus",
-        "description": "Cohere's open-source 218B-parameter MoE model (May 21, 2026) with 25B active, Apache 2.0 license. Unified across reasoning, vision, translation, and tool use. Runs on 2x H100 or a single Blackwell GPU. +20% agentic QA, +32% spreadsheet analysis vs Command A Reasoning. 85% on τ²-Bench Telecom. Powers North enterprise workspace."
+        "description": "Cohere's open-source 218B-parameter MoE model (May 21, 2026) with 25B active, Apache 2.0 license. Unified across reasoning, vision, translation, and tool use. Runs on 2x H100 or a single Blackwell GPU. +20% agentic QA, +32% spreadsheet analysis vs Command A Reasoning. 85% on \u03c4\u00b2-Bench Telecom. Powers North enterprise workspace."
       },
       "Moonshot": {
         "name": "Kimi K2.6",
@@ -50,7 +50,7 @@
       "Baidu": {
         "name": "ERNIE 5.1",
         "url": "https://ernie.baidu.com/blog/posts/ernie-5.1-0508-release/",
-        "description": "Baidu's flagship model (May 8, 2026) trained at 6% of comparable pre-training cost. 1,223 score on LMArena Search Arena (#4 global, #1 Chinese). Topped domestic search rankings; strong τ³-bench and SpreadsheetBench-Verified. Powers ernie.baidu.com chat and Qianfan model platform."
+        "description": "Baidu's flagship model (May 8, 2026) trained at 6% of comparable pre-training cost. 1,223 score on LMArena Search Arena (#4 global, #1 Chinese). Topped domestic search rankings; strong \u03c4\u00b3-bench and SpreadsheetBench-Verified. Powers ernie.baidu.com chat and Qianfan model platform."
       }
     }
   },
@@ -90,7 +90,7 @@
       "MiniMax": {
         "name": "MiniMax M3",
         "url": "https://www.minimax.io/models/text/m3",
-        "description": "MiniMax's flagship open-weight model (May 31, 2026) with 1M-token context, native multimodality (image+video input, desktop computer use), and frontier coding/agentic performance. 59.0% SWE-Bench Pro, 83.5 BrowseComp, 70.06% OSWorld-Verified. Powered by MiniMax Sparse Attention (MSA) — 9x prefill, 15x decode speedup at 1M context, 1/20th per-token compute. Token Plan $20/$50/$120/mo. Open weights shipping within 10 days of release."
+        "description": "MiniMax's flagship open-weight model (May 31, 2026) with 1M-token context, native multimodality (image+video input, desktop computer use), and frontier coding/agentic performance. 59.0% SWE-Bench Pro, 83.5 BrowseComp, 70.06% OSWorld-Verified. Powered by MiniMax Sparse Attention (MSA) \u2014 9x prefill, 15x decode speedup at 1M context, 1/20th per-token compute. Token Plan $20/$50/$120/mo. Open weights shipping within 10 days of release."
       },
       "Nous Research": {
         "name": "Hermes 3",
@@ -120,12 +120,12 @@
       "Anthropic": {
         "name": "Claude",
         "url": "https://claude.com/product/overview",
-        "description": "Default on Sonnet 4.6, Opus 4.8 for max capability. Claude Fable 5 (Mythos-class) now included free on Pro/Max/Team/Enterprise plans through June 22, 2026; usage-credit required from June 23. Effort control across all plans. Claude for Small Business (May 13) with Quickbooks, PayPal, HubSpot, Canva, Docusign connectors. Claude Cowork GA (April 9) on macOS/Windows. Microsoft 365 add-ins for Excel, PowerPoint, Word, Outlook."
+        "description": "Default on Sonnet 4.6, Opus 4.8 for max capability. Claude Fable 5 (Mythos-class) SUSPENDED June 12, 2026 by US export control directive \u2014 disabled for all customers. Claude for Small Business (May 13) with Quickbooks, PayPal, HubSpot, Canva, Docusign connectors. Claude Cowork GA (April 9) on macOS/Windows. Microsoft 365 add-ins for Excel, PowerPoint, Word, Outlook. Effort control across all plans. Anthropic-DXC alliance (June 11, 2026) and TCS partnership (June 12, 2026) for regulated industries."
       },
       "Microsoft": {
         "name": "Copilot",
         "url": "https://copilot.microsoft.com",
-        "description": "Powered by GPT-5.5 Instant (May 7, 2026) across web, work, and Microsoft 365 surfaces. Agent Platform, Agents SDK, and Copilot Studio for enterprise orchestration. MAI-Thinking-1 (June 2, 2026) available in private preview for in-house reasoning. Opus 4.8 and Fable 5 in GitHub Copilot. Microsoft Scout (June 2, 2026, Frontier preview) is the first Autopilot — always-on personal agent integrated into Teams/Outlook/OneDrive, built on OpenClaw. New Copilot superapp launch."
+        "description": "Powered by GPT-5.5 Instant (May 7, 2026) across web, work, and Microsoft 365 surfaces. Agent Platform, Agents SDK, and Copilot Studio for enterprise orchestration. MAI-Thinking-1 (June 2, 2026) available in private preview for in-house reasoning. Opus 4.8 and Fable 5 in GitHub Copilot. Microsoft Scout (June 2, 2026, Frontier preview) is the first Autopilot \u2014 always-on personal agent integrated into Teams/Outlook/OneDrive, built on OpenClaw. New Copilot superapp launch."
       },
       "Meta": {
         "name": "Meta AI",
@@ -140,7 +140,7 @@
       "xAI": {
         "name": "Grok",
         "url": "https://grok.com",
-        "description": "Powered by Grok 4.3 with Connectors for web, iOS, Android. MCP server support. Custom Voices (Apr 30, 2026), $4.20 per 1M characters for TTS. Grok Skills (May 22, 2026) for persistent custom expertise, file/deck/spreadsheet/PDF generation. Grok Build early beta for SuperGrok Heavy subscribers (May 14, 2026). Grok Business and Enterprise tiers."
+        "description": "Powered by Grok 4.3 with Connectors for web, iOS, Android. MCP server support. Custom Voices (Apr 30, 2026), $4.20 per 1M characters for TTS. Grok Skills (May 22, 2026) for persistent custom expertise, file/deck/spreadsheet/PDF generation. Grok Build early beta for SuperGrok Heavy subscribers (May 14, 2026). Grok Business and Enterprise tiers. Grok Build Plugin Marketplace (June 11, 2026) with skills/MCP/plugins from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. Gopuff Go agent (June 9, 2026) powered by Grok text/audio/image. eToro Tori (June 10, 2026) with real-time market sentiment from X. Grok Voice API default for Vapi (June 3, 2026)."
       },
       "DeepSeek": {
         "name": "DeepSeek Chat",
@@ -160,7 +160,7 @@
       "Tencent": {
         "name": "Yuanbao",
         "url": "https://yuanbao.tencent.com/",
-        "description": "Powered by Hunyuan 3.0 Preview (Hy3, April 23, 2026) - 295B total params, 21B active, 256K context. Fast-and-slow thinking fused MoE. 40% inference efficiency gain. API on TokenHub at $0.18/M input, $0.59/M output. Also deploys DeepSeek."
+        "description": "Powered by Hunyuan 3.0 (Hy3) MoE, 295B total params, 21B active, 256K context \u2014 fast-and-slow thinking fused. 9 legacy models (HY 2.0 Think, hunyuan-T1-latest, hunyuan-turbos, hunyuan-standard, hunyuan-role, etc.) retire June 26, 2026; multimodal vision models (HY Vision 1.5 Instruct, hunyuan-turbos-vision, hunyuan-t1-vision, hunyuan-turbos-vision-video) retire June 22, 2026. New multimodal lineup: HY-Vision-2.0-Instruct, HY-Vision-1.5-Thinking, HY-Vision-Video, YT-VITA on TokenHub. HunyuanVideo-Avatar open-sourced for voice-driven digital humans (May 28, 2026). API on TokenHub at $0.18/M input, $0.59/M output."
       },
       "Alibaba": {
         "name": "Qwen Chat",
@@ -175,7 +175,7 @@
       "Perplexity": {
         "name": "Perplexity",
         "url": "https://docs.perplexity.ai/docs/getting-started/overview",
-        "description": "Answer engine with GPT-5.5 orchestration. Personal Computer for Mac (May 11). Computer Agent with Workflows, Teams integration, Snowflake/Databricks connectors."
+        "description": "Answer engine with GPT-5.5 orchestration. Personal Computer for Mac (May 11). Computer Agent with Workflows, Teams integration, Snowflake/Databricks connectors. Computer in Microsoft Word, Excel, PowerPoint, Outlook (May 28, 2026); Teams integration from earlier in May. Harvard Business School study (June 10, 2026): Computer cuts estimated task time by 87% and cost by 94% across 10,000 matched pairs. Personal Computer with local inference (hybrid local-server orchestrator) coming in July 2026 \u2014 first product to treat compute as one more thing to orchestrate across machine and cloud."
       },
       "MiniMax": {
         "name": "MiniMax Agent",
@@ -209,13 +209,13 @@
       },
       "Anthropic": {
         "name": "Claude Code",
-        "url": "https://www.anthropic.com/claude-code",
-        "description": "Terminal-first coding agent with IDE workflows powered by Claude Opus 4.8. Claude Fable 5 available in GitHub Copilot, Claude API, and Claude Platform on AWS (June 9, 2026). Dynamic workflows GA in Claude Code (June 11, 2026, Code with Claude Tokyo) — Claude writes orchestration scripts running tens to hundreds of parallel subagents per session, enabled via /ultracode or asking Claude to create a workflow. Scheduled deployments and environment variable vaults in public beta in Claude Managed Agents (June 11, 2026). ant CLI, Claude Code Analytics API. /ultrareview, auto mode for Max users. Desktop app GA. Fast mode for Opus 4.8 at 2x standard rate for 2.5x speed."
+        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "description": "Terminal-first coding agent with IDE workflows powered by Claude Opus 4.8. Claude Fable 5 SUSPENDED June 12, 2026 by US export control directive \u2014 was available in GitHub Copilot, Claude API, and Claude Platform on AWS (June 9, 2026). Dynamic workflows GA in Claude Code (June 11, 2026, Code with Claude Tokyo) \u2014 Claude writes orchestration scripts running tens to hundreds of parallel subagents per session, enabled via /ultracode or asking Claude to create a workflow. Scheduled deployments and environment variable vaults in public beta in Claude Managed Agents (June 11, 2026). ant CLI, Claude Code Analytics API. /ultrareview, auto mode for Max users. Desktop app GA. Fast mode for Opus 4.8 at 2x standard rate for 2.5x speed."
       },
       "Microsoft": {
         "name": "GitHub Copilot",
         "url": "https://github.com/features/copilot",
-        "description": "Editor-native agent mode with GPT-5.5, Claude (Opus 4.8, Fable 5), and Gemini model options. Agent mode for multi-file changes, documentation generation, PR review. Claude Fable 5 GA in Copilot (June 9, 2026) for Pro+/Max/Business/Enterprise — requires 30-day data retention. MAI-Thinking-1 in private preview on Foundry with GitHub Copilot integration."
+        "description": "Editor-native agent mode with GPT-5.5, Claude (Opus 4.8, Fable 5 \u2014 suspended June 12, 2026 by US export control directive), and Gemini model options. Agent mode for multi-file changes, documentation generation, PR review. Fable 5 was GA in Copilot (June 9, 2026) for Pro+/Max/Business/Enterprise requiring 30-day data retention. MAI-Thinking-1 in private preview on Foundry with GitHub Copilot integration."
       },
       "Amazon": {
         "name": "Kiro",
@@ -230,19 +230,18 @@
       "Cursor": {
         "name": "Cursor 3.7",
         "url": "https://www.cursor.com",
-        "description": "AI-native editor (Cursor 3 unified workspace since April 2, 2026). v3.3 (May 7) Build in Parallel async subagents and Split into PRs; v3.4 (May 13) multi-repo environments, Dockerfile build secrets, 70% faster layer-cached rebuilds; v3.5 (May 20) Automations to Agents Window with multi-repo/no-repo modes and Shared Canvases; v3.6 (May 29) Auto-review Run Mode with classifier subagent; v3.7 (June 4) Canvas Design Mode, Context Usage Report, custom stores/tools, auto-review for SDK with subagent nesting. Bugbot 3x faster/22% cheaper/10% more bugs (June 10). Composer 2.5 default. cursor.com/agents cloud URL. Pro $20/mo, Pro+ $60/mo, Ultra $200/mo. Gartner Leader. Training much larger next-gen model with SpaceXAI on Colossus 2."
+        "description": "AI-native editor (Cursor 3 unified workspace since April 2, 2026). v3.3 (May 7) Build in Parallel async subagents and Split into PRs; v3.4 (May 13) multi-repo environments, Dockerfile build secrets, 70% faster layer-cached rebuilds; v3.5 (May 20) Automations to Agents Window with multi-repo/no-repo modes and Shared Canvases; v3.6 (May 29) Auto-review Run Mode with classifier subagent; v3.7 (June 4) Canvas Design Mode with multi-select and voice input, Context Usage Report, custom stores/tools, auto-review for SDK with subagent nesting. Auto-review now default for new users (June 11, 2026, cursor.com/blog/agent-autonomy-auto-review). Bugbot 3x faster/22% cheaper/10% more bugs (June 10), now runnable with /review. Composer 2.5 default. cursor.com/agents cloud URL. Pro $20/mo, Pro+ $60/mo, Ultra $200/mo. Gartner Leader. Training much larger next-gen model with SpaceXAI on Colossus 2."
       },
       "Cognition": {
         "name": "Devin Desktop",
         "url": "https://cognition.ai/blog/introducing-devin-desktop",
-        "description": "Cognition AI's agent-first IDE (formerly Windsurf, rebranded to Devin Desktop June 2, 2026). Windsurf 2.0 Agent Command Center with Kanban view of local + cloud agents, Codemaps, one-click Devin cloud handoff. SWE-1.5 free for 3 months, SWE-1.6 GA at 200 tok/s (Fireworks) / 950 tok/s (Cerebras). Devin Local 2026.5.26 in Rust, 30% more token-efficient than Cascade, subagent support, sandboxing. ACP support for Codex, Claude Agent, OpenCode."
+        "description": "Cognition AI's agent-first IDE (formerly Windsurf, rebranded to Devin Desktop June 2, 2026). Windsurf 2.0 Agent Command Center with Kanban view of local + cloud agents, Codemaps, one-click Devin cloud handoff. SWE-1.5 free for 3 months, SWE-1.6 GA at 200 tok/s (Fireworks) / 950 tok/s (Cerebras). Devin Local 2026.5.26 in Rust, 30% more token-efficient than Cascade, subagent support, sandboxing. Devin 2.2 (May 21, 2026): end-to-end testing with computer use, Review Autofix, 3x faster startup, redesigned interface. Devin Auto-Triage (May 18, 2026): Devin proactively responds to bug reports/incidents, investigates with connected tools, opens PRs. ACP support for Codex, Claude Agent, OpenCode."
       },
       "xAI": {
         "name": "Grok Build",
         "url": "https://grok.com",
         "description": "xAI coding agent and CLI (May 14, 2026) for SuperGrok/X Premium+ subscribers, in early beta. Plan mode for approve-before-execute workflows. Grok Build Plugin Marketplace (June 11, 2026) bundles skills, slash commands, agents, hooks, MCP servers, and LSPs into installable packages from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. /marketplace to browse. Parallel subagents, headless mode (-p) for scripting. ACP support for custom bots."
       },
-
       "Microsoft-Code": {
         "name": "MAI-Code-1-Flash",
         "url": "https://developer.microsoft.com/blog/build-recap",
@@ -250,7 +249,6 @@
       }
     }
   },
-
   {
     "category": "CLI",
     "products": {
@@ -267,7 +265,7 @@
       "Anthropic": {
         "name": "Claude Code",
         "url": "https://www.anthropic.com/claude-code",
-        "description": "Terminal-first coding agent with IDE workflows powered by Claude Opus 4.8 (Claude Fable 5 also available via API). Dynamic workflows now GA (May 28, 2026 research preview → June 11, 2026 GA, Code with Claude Tokyo) for parallel sub-agents at scale. /ultracode or ask Claude to create a workflow. Scheduled deployments and env var vaults in public beta for Claude Managed Agents (June 11, 2026). ant CLI, Analytics API. /ultrareview, auto mode for Max users. Desktop app GA. v2.1.173 (June 11, 2026) normalizes Fable 5 model names with [1m] suffix."
+        "description": "Terminal-first coding agent with IDE workflows powered by Claude Opus 4.8 (Claude Fable 5 SUSPENDED June 12, 2026 by US export control directive \u2014 was available via API). Dynamic workflows now GA (May 28, 2026 research preview \u2192 June 11, 2026 GA, Code with Claude Tokyo) for parallel sub-agents at scale. /ultracode or ask Claude to create a workflow. Scheduled deployments and env var vaults in public beta for Claude Managed Agents (June 11, 2026). ant CLI, Analytics API. /ultrareview, auto mode for Max users. Desktop app GA. v2.1.173 (June 11, 2026) normalizes Fable 5 model names with [1m] suffix."
       },
       "xAI": {
         "name": "Grok Build CLI",
@@ -297,7 +295,7 @@
       "Mistral": {
         "name": "Mistral Vibe",
         "url": "https://docs.mistral.ai/products",
-        "description": "Open-source terminal-native coding agent powered by Mistral Medium 3.5. Remote cloud sandboxes via Vibe Code Workflow (May 5, 2026), parallel async sessions, GitHub PR integration."
+        "description": "Open-source terminal-native coding agent powered by Mistral Medium 3.5. Remote cloud sandboxes via Vibe Code Workflow (May 5, 2026), parallel async sessions, GitHub PR integration. Le Chat rebranded to Vibe (May 28, 2026) \u2014 Work Mode and Code Mode under one agent and one license, all Le Chat history preserved. Vibe remote agents (May 22, 2026) can teleport local sessions to cloud when work outgrows laptop. Connectors in Studio with custom MCPs (May 22, 2026)."
       },
       "Zapier": {
         "name": "Zapier Platform CLI",
@@ -313,6 +311,11 @@
         "name": "AI Workbench CLI",
         "url": "https://docs.nvidia.com/ai-workbench/",
         "description": "CLI-backed local and remote AI dev environments for model teams."
+      },
+      "Cognition": {
+        "name": "Devin CLI",
+        "url": "https://cognition.ai/blog/devin-for-terminal",
+        "description": "Cognition AI's local coding agent CLI (June 4, 2026) \u2014 run Devin right in your shell, with local/remote execution across Opus 4.7, GPT-5.5, and SWE-1.6. Custom terminal rendering in Rust for fast, snappy UI. Hand off long-running sessions to cloud agents with their own sandboxed computers when local isn't enough; resume in CLI or open PR. Install: `curl -fsSL https://cli.devin.ai/install.sh | bash`. ACP support for Codex, Claude Agent, OpenCode."
       }
     }
   },
@@ -332,7 +335,7 @@
       "Anthropic": {
         "name": "Claude API",
         "url": "https://docs.anthropic.com",
-        "description": "Claude Fable 5 (Mythos-class, June 9, 2026, $10/$50 per 1M tokens, 1M context) on `claude-fable-5`. Opus 4.8, Sonnet 4.6, and Haiku 4.5 also available. Computer use, long-context developer platform, Advisor strategy, Memory, MCP tunnels, dreaming/outcomes/multiagent orchestration. Claude Platform on AWS GA (May 11, 2026). ant CLI for Claude API with YAML versioning and Claude Code integration (June 2026). Claude Code Analytics API. Dynamic workflows GA in Claude Code (June 11, 2026) and managed agents now run on schedules with vault-stored env vars (June 11, 2026)."
+        "description": "Claude Fable 5 (Mythos-class, June 9, 2026, $10/$50 per 1M tokens, 1M context) on `claude-fable-5` \u2014 SUSPENDED June 12, 2026 by US export control directive over alleged narrow jailbreak, disabled for all customers. Opus 4.8, Sonnet 4.6, and Haiku 4.5 remain available. Computer use, long-context developer platform, Advisor strategy, Memory, MCP tunnels, dreaming/outcomes/multiagent orchestration. Claude Platform on AWS GA (May 11, 2026). ant CLI for Claude API with YAML versioning and Claude Code integration (June 2026). Claude Code Analytics API. Dynamic workflows GA in Claude Code (June 11, 2026) and managed agents now run on schedules with vault-stored env vars (June 11, 2026)."
       },
       "Microsoft": {
         "name": "Azure AI Foundry",
@@ -352,7 +355,7 @@
       "xAI": {
         "name": "xAI API",
         "url": "https://docs.x.ai",
-        "description": "Developer access to Grok 4.3 ($1.25/$2.50 per 1M tokens) and grok-4.20 (2M context). Custom Voices TTS ($4.20/1M chars), Voice Agent API ($3/hr). grok-imagine-image-quality for image generation. grok-build-0.1 for terminal coding workflows. Responses API with tool calling (May 22, 2026). Grok 5 in training on Colossus 2."
+        "description": "Developer access to Grok 4.3 ($1.25/$2.50 per 1M tokens) and grok-4.20 (2M context). Custom Voices TTS ($4.20/1M chars), Voice Agent API ($3/hr). grok-imagine-image-quality for image generation. grok-build-0.1 for terminal coding workflows. Responses API with tool calling (May 22, 2026). Grok 5 in training on Colossus 2. Grok Build Plugin Marketplace (June 11, 2026) for skills, slash commands, agents, hooks, MCP servers, and LSPs from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. Voice API default for Vapi (June 3, 2026). Gopuff Go and eToro Tori agent integrations."
       },
       "DeepSeek": {
         "name": "DeepSeek API",
@@ -367,7 +370,7 @@
       "NVIDIA": {
         "name": "NVIDIA Build",
         "url": "https://build.nvidia.com",
-        "description": "NIM-backed API catalog and deployment platform for enterprise AI services. NIM 2.0 with custom model support. Nemotron 3 Ultra NIM 2.0.5 (June 4, 2026, 550B-A55B, NVFP4). Cosmos, Isaac models available."
+        "description": "NIM-backed API catalog and deployment platform for enterprise AI services. NIM 2.0 with custom model support. Nemotron 3 Ultra NIM 2.0.5 (June 4, 2026, 550B-A55B, NVFP4). NVIDIA Blackwell leads the first Agentic AI Infrastructure Benchmark (June 12, 2026). Cosmos, Isaac models available. Nemotron 3 Ultra, Nemotron 3.5 ASR, Nemotron 3.5 Content Safety on Microsoft Foundry (June 2, 2026)."
       },
       "Cloudflare": {
         "name": "Workers AI",
@@ -417,12 +420,12 @@
       "Amazon": {
         "name": "SageMaker AI",
         "url": "https://aws.amazon.com/sagemaker/",
-        "description": "Managed model training, deployment, and MLOps workflows on AWS. Bedrock for inference, SageMaker for training. Claude Fable 5 available on Bedrock (June 9, 2026) in US East (N. Virginia) and Europe (Stockholm)."
+        "description": "Managed model training, deployment, and MLOps workflows on AWS. Bedrock for inference, SageMaker for training. Claude Fable 5 was on Bedrock (June 9, 2026) in US East (N. Virginia) and Europe (Stockholm) \u2014 SUSPENDED June 12, 2026 by US export control directive."
       },
       "NVIDIA": {
         "name": "NIM",
         "url": "https://build.nvidia.com",
-        "description": "Containerized inference microservices for enterprise deployment (NIM 2.0 with custom model support). One container, one backend philosophy. Built on vLLM, TensorRT-LLM, SGLang. Vera Rubin NVL72 systems ramped into full production (May 31, 2026) with 10x agent throughput vs Grace Blackwell. Nemotron 3 Ultra NIM 2.0.5 (June 4, 2026). Hosted on build.nvidia.com."
+        "description": "Containerized inference microservices for enterprise deployment (NIM 2.0 with custom model support). One container, one backend philosophy. Built on vLLM, TensorRT-LLM, SGLang. Vera Rubin NVL72 systems ramped into full production (May 31, 2026) with 10x agent throughput vs Grace Blackwell. Nemotron 3 Ultra NIM 2.0.5 (June 4, 2026). NVIDIA Blackwell leads the first Agentic AI Infrastructure Benchmark (June 12, 2026). Hosted on build.nvidia.com."
       },
       "NVIDIA-Vera": {
         "name": "Vera CPU",
@@ -482,7 +485,7 @@
       "LangChain": {
         "name": "LangSmith",
         "url": "https://www.langchain.com/langsmith",
-        "description": "Tracing, evaluation, prompt management, and observability for agent stacks. LangGraph Platform for enterprise."
+        "description": "Tracing, evaluation, prompt management, and observability for agent stacks. LangGraph Platform for enterprise. LangSmith Engine (Interrupt 2026) watches production traces, clusters failures, diagnoses root causes, proposes fixes. LangSmith Sandboxes GA (May 13, 2026) \u2014 secure, kernel-isolated microVMs for agent code execution with parallel workloads, snapshotting, Service URLs, Sandbox CLI, Auth Proxy with custom callbacks. Deep Agents v0.6 with Delta Channels in langgraph v1.2 \u2014 checkpoint storage grows linearly instead of O(N\u00b2) for long message histories."
       },
       "Kilo": {
         "name": "Kilo Code",
@@ -512,17 +515,17 @@
       "Anthropic": {
         "name": "Computer Use",
         "url": "https://docs.anthropic.com/en/docs/agents-and-tools/tool-use/computer-use",
-        "description": "Claude Opus 4.8 computer control and tool use for autonomous task execution. Claude Fable 5 (Mythos-class) excels at long-horizon coding and knowledge work. MCP connector beta. Financial services agent templates for pitchbooks, KYC, month-end close."
+        "description": "Claude Opus 4.8 computer control and tool use for autonomous task execution. Claude Fable 5 (Mythos-class) \u2014 SUSPENDED June 12, 2026 by US export control directive, disabled for all customers. MCP connector beta. Financial services agent templates for pitchbooks, KYC, month-end close."
       },
       "Microsoft": {
         "name": "Copilot Studio",
         "url": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/",
-        "description": "Enterprise copilot orchestration for workflows, connectors, and approvals. GPT-5.5 Chat and GPT-5.5 Reasoning model options. MAI-Thinking-1 (June 2, 2026) and Claude Fable 5 in Copilot."
+        "description": "Enterprise copilot orchestration for workflows, connectors, and approvals. GPT-5.5 Chat and GPT-5.5 Reasoning model options. MAI-Thinking-1 (June 2, 2026) and Claude Fable 5 (SUSPENDED June 12, 2026 by US export control directive) in Copilot."
       },
       "Amazon": {
         "name": "Bedrock AgentCore",
         "url": "https://aws.amazon.com/bedrock/agentcore/",
-        "description": "Agent development platform with managed harness, AgentCore CLI, and pre-built skills. Runtime, Memory, Gateway, Browser, Code Interpreter, Identity, Policy, Observability, Evaluations. Supports LangGraph, LlamaIndex, CrewAI, Strands. S3/EFS filesystem mounting (May 2026). Claude Fable 5 now on Bedrock with 30-day data retention (June 9, 2026)."
+        "description": "Agent development platform with managed harness, AgentCore CLI, and pre-built skills. Runtime, Memory, Gateway, Browser, Code Interpreter, Identity, Policy, Observability, Evaluations. Supports LangGraph, LlamaIndex, CrewAI, Strands. S3/EFS filesystem mounting (May 2026). Claude Fable 5 was on Bedrock with 30-day data retention (June 9, 2026) \u2014 SUSPENDED June 12, 2026 by US export control directive."
       }
     }
   },
@@ -537,7 +540,7 @@
       "OpenAI": {
         "name": "GPT Image 2",
         "url": "https://developers.openai.com/api/docs/models/gpt-image-2",
-        "description": "Powered by ChatGPT Images 2.0 (gpt-image-2, April 21, 2026) — top-ranked on Image Arena. Thinkable generation mode, multilingual text rendering (Japanese, Korean, Hindi, Bengali), 4K resolution, complex infographics and comic strips. Available in ChatGPT and the API; gpt-image-1.5 deprecated as default."
+        "description": "Powered by ChatGPT Images 2.0 (gpt-image-2, April 21, 2026) \u2014 top-ranked on Image Arena. Thinkable generation mode, multilingual text rendering (Japanese, Korean, Hindi, Bengali), 4K resolution, complex infographics and comic strips. Available in ChatGPT and the API; gpt-image-1.5 deprecated as default."
       },
       "Microsoft": {
         "name": "MAI-Image-2.5",
@@ -556,7 +559,7 @@
       },
       "Adobe": {
         "name": "Firefly",
-        "url": "https://www.adobe.com/products/firefly.html",
+        "url": "https://firefly.adobe.com",
         "description": "Commercially safe image generation for creative and marketing workflows. Part of Adobe's agentic CX platform including Experience Platform Agent Orchestrator and CX Enterprise Coworker (April 20, 2026, GA coming months)."
       },
       "Midjourney": {
@@ -567,12 +570,12 @@
       "StabilityAI": {
         "name": "Stable Diffusion 3.5",
         "url": "https://stability.ai/stable-image",
-        "description": "Stability AI's flagship open image model family (SD 3.5 Large 8.1B, Large Turbo, Medium 2.5B) plus API products Stable Image Ultra (powered by SD3.5 Large, $0.08/image) and Stable Image Core (next-gen after SDXL, $0.03/image). SD3.0 APIs deprecated. AMD Radeon and NVIDIA TensorRT optimizations (May 2026). Available via Stability AI NIM, Hugging Face, and self-hosted."
+        "description": "Stability AI's flagship open image model family (SD 3.5 Large 8.1B, Large Turbo, Medium 2.5B) plus API products Stable Image Ultra (powered by SD3.5 Large, $0.08/image) and Stable Image Core (next-gen after SDXL, $0.03/image). SD3.0 APIs deprecated. NVIDIA TensorRT-optimized SD 3.5 (June 12, 2026) \u2014 2.3x faster generation on Large, 1.7x on Medium, 40% less VRAM, available on RTX 50/40 Series, Blackwell, Ada Lovelace RTX PRO. Available via Stability AI NIM, Hugging Face, and self-hosted."
       },
       "BlackForest": {
         "name": "FLUX.2",
         "url": "https://bfl.ai",
-        "description": "Black Forest Labs' current image model family. FLUX.2 [pro] production-grade at $0.03/MP with multi-reference (up to 10 images), 4MP output, exact hex color control, structured prompting. FLUX.2 [flex] for typography and fine-grained control. FLUX.2 [klein] 4B/9B open-weight models (Apache 2.0) with sub-0.5s inference on consumer GPUs since Jan 15, 2026. FLUX.2 [dev] 32B open-weight. Replaces FLUX.1 line. New: flux-2-pro-preview endpoint for speed upgrades, FLUX Erase (May 21, 2026) for mask-based object removal beating GPT Image-2, FLUX VTO (May 28, 2026) virtual try-on for retail catalog scale."
+        "description": "Black Forest Labs' current image model family. FLUX.2 [pro] production-grade at $0.03/MP with multi-reference (up to 10 images), 4MP output, exact hex color control, structured prompting. FLUX.2 [flex] for typography and fine-grained control. FLUX.2 [klein] 4B/9B open-weight models (Apache 2.0) with sub-0.5s inference on consumer GPUs since Jan 15, 2026 \u2014 first FLUX model shipping on consumer hardware via ASUS ProArt laptops with NVIDIA optimization (June 4, 2026). FLUX.2 [dev] 32B open-weight. Replaces FLUX.1 line. flux-2-pro-preview endpoint for speed upgrades, FLUX Erase (May 21, 2026) for mask-based object removal beating GPT Image-2, FLUX VTO (May 28, 2026) virtual try-on for retail catalog scale."
       },
       "xAI": {
         "name": "Grok Imagine API",
@@ -582,7 +585,7 @@
       "Reve": {
         "name": "Reve 2.0",
         "url": "https://reve.ai",
-        "description": "Reve AI's layout-first image model (June 3, 2026) — #2 on Text-to-Image Arena with 1280 score (+125 from 1.5), behind GPT Image 2 and ahead of Gemini 3.1 Flash Image Preview (Nano Banana 2). Proprietary model from Palo Alto startup; ensemble approach. API access with layout-based creative control."
+        "description": "Reve AI's layout-first image model (June 3, 2026) \u2014 #2 on Text-to-Image Arena with 1280 score (+125 from 1.5), behind GPT Image 2 and ahead of Gemini 3.1 Flash Image Preview (Nano Banana 2). Proprietary model from Palo Alto startup; ensemble approach. API access with layout-based creative control."
       }
     }
   },
@@ -637,7 +640,7 @@
       "ElevenLabs": {
         "name": "ElevenLabs Avatars",
         "url": "https://elevenlabs.io/blog/introducing-flows-agent",
-        "description": "ElevenLabs Avatars (launched June 12, 2026) — photorealistic, lip-synced talking-head video generated in a single dashboard. Combines text-to-speech and lip-sync models operating simultaneously to generate consistent digital identities. Avatar Node in ElevenLabs Flows for automated text-to-avatar marketing video pipelines. Rolling out globally across all paid subscription tiers using the standard credit-based ecosystem."
+        "description": "ElevenLabs Avatars (launched June 12, 2026) \u2014 photorealistic, lip-synced talking-head video generated in a single dashboard. Combines text-to-speech and lip-sync models operating simultaneously to generate consistent digital identities. Avatar Node in ElevenLabs Flows for automated text-to-avatar marketing video pipelines. Rolling out globally across all paid subscription tiers using the standard credit-based ecosystem."
       },
       "NVIDIA": {
         "name": "SANA-WM",
@@ -742,7 +745,7 @@
       "StabilityAI": {
         "name": "Stable Audio 3.0",
         "url": "https://stability.ai/stable-audio",
-        "description": "Stability AI's audio generation family (May 20, 2026). Small SFX, Small, Medium (1.4B), and Large (2.7B) variants. Generates high-quality musical tracks up to 6 min 20s at 44.1kHz stereo — more than double Stable Audio 2.0. Small and Medium weights open on Hugging Face; Large available via API and self-hosting. Audio-to-audio, inpainting, LoRA fine-tuning, variable-length generation. Professional music offering led by former Universal Audio/Fender CDO Ethan Kaplan."
+        "description": "Stability AI's audio generation family (May 20, 2026). Small SFX, Small, Medium (1.4B), and Large (2.7B) variants. Generates high-quality musical tracks up to 6 min 20s at 44.1kHz stereo \u2014 more than double Stable Audio 2.0. Small and Medium weights open on Hugging Face; Large available via API and self-hosting. Audio-to-audio, inpainting, LoRA fine-tuning, variable-length generation. Professional music offering led by former Universal Audio/Fender CDO Ethan Kaplan."
       },
       "Suno": {
         "name": "Suno",
@@ -797,12 +800,12 @@
       "Perplexity": {
         "name": "Perplexity",
         "url": "https://docs.perplexity.ai/docs/getting-started/overview",
-        "description": "Research-first answer engine with strong citation and follow-up workflows. Computer agent with parallel research, Workflows."
+        "description": "Research-first answer engine with strong citation and follow-up workflows. Computer agent with parallel research, Workflows. Search as Code (SaC, June 1, 2026) is Perplexity's new reference search architecture \u2014 exposes search stack primitives via Agentic Search SDK, advances cost-performance frontier on agentic search. Personal Computer with local inference coming in July 2026 (first hybrid local-server orchestrator). Harvard Business School study (June 10, 2026): Computer cuts task time by 87% and cost by 94%."
       },
       "Anthropic": {
         "name": "Claude Research",
         "url": "https://claude.com",
-        "description": "Claude for research with Opus 4.8 and Claude Fable 5 (Mythos-class, June 9, 2026) for the hardest long-horizon research. xhigh effort level, memory across sessions, computer use. Cowork scheduled tasks for recurring research workflows."
+        "description": "Claude for research with Opus 4.8 and Claude Fable 5 (Mythos-class, June 9, 2026) for the hardest long-horizon research. Fable 5 SUSPENDED June 12, 2026 by US export control directive, disabled for all customers. xhigh effort level, memory across sessions, computer use. Cowork scheduled tasks for recurring research workflows."
       }
     }
   },
@@ -822,7 +825,7 @@
       "Anthropic": {
         "name": "Claude Enterprise",
         "url": "https://claude.com/pricing/enterprise",
-        "description": "Claude workspace with enterprise controls, knowledge, and Opus 4.8 / Claude Fable 5 (Mythos-class) access. Claude Cowork in Amazon Bedrock. Microsoft 365 integration. Financial services and small business solutions. Connector permissions in custom roles (May 28, 2026). Fable 5 requires 30-day data retention for safety classifiers."
+        "description": "Claude workspace with enterprise controls, knowledge, and Opus 4.8 / Claude Fable 5 (Mythos-class) access. Fable 5 SUSPENDED June 12, 2026 by US export control directive, disabled for all customers. Claude Cowork in Amazon Bedrock. Microsoft 365 integration. Financial services and small business solutions. Connector permissions in custom roles (May 28, 2026). TCS partnership (June 12, 2026) \u2014 Claude deployed to 50,000 TCS employees; DXC alliance (June 11, 2026) \u2014 Claude-certified forward-deployed engineers."
       },
       "Microsoft": {
         "name": "Microsoft 365 Copilot",
@@ -832,7 +835,7 @@
       "Amazon": {
         "name": "Amazon Q Business",
         "url": "https://aws.amazon.com/q/business/",
-        "description": "Enterprise assistant for internal knowledge, apps, and business automation. Claude Fable 5 now on Bedrock (June 9, 2026) with 30-day data retention."
+        "description": "Enterprise assistant for internal knowledge, apps, and business automation. Claude Fable 5 was on Bedrock (June 9, 2026) with 30-day data retention \u2014 SUSPENDED June 12, 2026 by US export control directive."
       },
       "NVIDIA": {
         "name": "NVIDIA AI Enterprise",
@@ -912,7 +915,7 @@
       "Tencent": {
         "name": "Hunyuan Agent",
         "url": "https://hunyuan.tencent.com",
-        "description": "Tencent's agent stack for private enterprise and ecosystem scenarios. Powers Yuanbao, CodeBuddy, WorkBuddy. Hy3 preview (April 23, 2026) drives multi-step agent workflows with up to 495 steps."
+        "description": "Tencent's agent stack for private enterprise and ecosystem scenarios. Powers Yuanbao, CodeBuddy, WorkBuddy. Hy3 (Hunyuan 3.0) drives multi-step agent workflows with up to 495 steps. HunyuanVideo-Avatar open-sourced for voice-driven digital humans (May 28, 2026). New YT-VITA, HY-Vision-2.0-Instruct, HY-Vision-1.5-Thinking models replace retiring legacy vision models on June 22, 2026."
       },
       "Nous Research": {
         "name": "Hermes Agent",
