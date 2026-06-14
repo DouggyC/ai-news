@@ -45,7 +45,7 @@
       "Moonshot": {
         "name": "Kimi K2.6",
         "url": "https://platform.kimi.ai/",
-        "description": "Moonshot's open-source agent-first model (April 2026) optimized for coding, agent swarms, and OpenClaw/Hermes workflows. Generates full-stack sites with video hero sections and motion design from a single prompt. Matches/beats frontier models on coding/agentic benchmarks."
+        "description": "Moonshot's open-source agent-first model (April 20, 2026, K2.6: 1T total/32B active MoE, 256K context) optimized for coding, agent swarms, and OpenClaw/Hermes workflows. Generates full-stack sites with video hero sections and motion design from a single prompt. K2.6 Agent Swarm runs up to 300 sub-agents, 4,000 coordinated steps. K2.7-Code (June 12, 2026, 1T/32B, Modified MIT, $0.95/$4.00) is the coding-specialized variant: +21.8% on Kimi Code Bench v2 vs K2.6, 30% fewer reasoning tokens, 256K context. Powers Kimi chat, Kimi Work (local desktop), and Kimi Code. Matches/beats frontier models on coding/agentic benchmarks."
       },
       "Baidu": {
         "name": "ERNIE 5.1",
@@ -59,7 +59,6 @@
     "products": {
       "Meta": {
         "name": "Muse Spark",
-        "url": "https://ai.meta.com/blog/introducing-model-meta-superintelligence-labs/",
         "description": "Meta's latest flagship model (April 8, 2026), ranks 4th on AI Index with strong health and science reasoning. Multimodal with tool-use and Contemplating mode for multi-agent reasoning."
       },
       "DeepSeek": {
@@ -129,7 +128,6 @@
       },
       "Meta": {
         "name": "Meta AI",
-        "url": "https://ai.meta.com",
         "description": "Powered by Muse Spark. Meta AI app rebuilt natively on May 12, 2026: Contemplating mode (multi-agent visible parallel reasoning), Live AI camera for real-time vision streaming, Marketplace shopping agent across WhatsApp, Instagram, Facebook. Free at meta.ai and across Meta apps, Instagram, Facebook, Messenger, WhatsApp. Rolling out to Ray-Ban Meta glasses."
       },
       "Amazon": {
@@ -190,7 +188,7 @@
       "Moonshot": {
         "name": "Kimi",
         "url": "https://www.kimi.com",
-        "description": "Moonshot's flagship AI assistant (May 2026) powered by Kimi K2.6 with Kimi Claw personal AI teammate in beta. Long-context chat, web search, multimodal inputs, deep research, and agent swarm workflows. Free and Kimi Plus tiers."
+        "description": "Moonshot's flagship AI assistant (May 2026) powered by Kimi K2.6 with K2.6 Agent Swarm (up to 300 sub-agents, 4,000 coordinated steps) and Kimi Claw cloud teammate. Long-context chat, web search, multimodal inputs, deep research, agent swarm workflows. Kimi Work (June 8/12 2026) is the local-first desktop variant — see Sovereign Agent. Free, Moderato $19/mo, Allegretto $39/mo, Allegro $99/mo."
       }
     }
   },
@@ -230,7 +228,7 @@
       "Cursor": {
         "name": "Cursor 3.7",
         "url": "https://www.cursor.com",
-        "description": "AI-native editor (Cursor 3 unified workspace since April 2, 2026). v3.3 (May 7) Build in Parallel async subagents and Split into PRs; v3.4 (May 13) multi-repo environments, Dockerfile build secrets, 70% faster layer-cached rebuilds; v3.5 (May 20) Automations to Agents Window with multi-repo/no-repo modes and Shared Canvases; v3.6 (May 29) Auto-review Run Mode with classifier subagent; v3.7 (June 4) Canvas Design Mode with multi-select and voice input, Context Usage Report, custom stores/tools, auto-review for SDK with subagent nesting. Auto-review now default for new users (June 11, 2026, cursor.com/blog/agent-autonomy-auto-review). Bugbot 3x faster/22% cheaper/10% more bugs (June 10), now runnable with /review. Composer 2.5 default. cursor.com/agents cloud URL. Pro $20/mo, Pro+ $60/mo, Ultra $200/mo. Gartner Leader. Training much larger next-gen model with SpaceXAI on Colossus 2."
+        "description": "AI-native editor (Cursor 3 unified workspace since April 2, 2026). v3.3 (May 7) Build in Parallel async subagents and Split into PRs; v3.4 (May 13) multi-repo environments, Dockerfile build secrets, 70% faster layer-cached rebuilds; v3.5 (May 20) Automations to Agents Window with multi-repo/no-repo modes and Shared Canvases; v3.6 (May 29) Auto-review Run Mode with classifier subagent; v3.7 (June 4) Canvas Design Mode with multi-select and voice input, Context Usage Report, custom stores/tools, auto-review for SDK with subagent nesting. Auto-review now default for new users (June 11, 2026, cursor.com/blog/agent-autonomy-auto-review). Bugbot 3x faster/22% cheaper/10% more bugs (June 10), now runnable with /review. Composer 2.5 default. cursor.com/agents cloud URL. Pro cut 40% to $12/mo on June 12, 2026 with new Efficiency Mode (up to 35% token reduction); enterprise spend controls and usage-based tiers above thresholds. Pro+ $60/mo, Ultra $200/mo. Gartner Leader. Training much larger next-gen model with SpaceXAI on Colossus 2."
       },
       "Cognition": {
         "name": "Devin Desktop",
@@ -349,7 +347,6 @@
       },
       "Meta": {
         "name": "Llama API",
-        "url": "https://www.llama.com/",
         "description": "Official API access path for Meta's Llama model ecosystem. Muse Spark API in private preview."
       },
       "xAI": {
@@ -400,7 +397,7 @@
       "Moonshot": {
         "name": "Moonshot API",
         "url": "https://platform.kimi.ai/",
-        "description": "Kimi K2.6 (April 2026) and prior K-series endpoints. OpenAI-compatible REST API with long-context (256K+ tokens), function calling, vision, and agent-mode tools. Token-based pricing on Moonshot Platform."
+        "description": "Kimi K2.7-Code (June 12, 2026, Modified MIT, $0.95/$4.00 per 1M tokens, 1T total/32B active MoE, 256K context, +21.8% on Kimi Code Bench v2 vs K2.6) plus K2.6, K2.5 endpoints. OpenAI-compatible REST API with long-context, function calling, vision, and agent-mode tools. K2.7-Code targets long-horizon software engineering with 30% fewer reasoning tokens. Token-based pricing on Moonshot Platform."
       }
     }
   },
@@ -492,15 +489,19 @@
         "url": "https://www.kilo.ai",
         "description": "Cloud coding agent with Mistral Medium 3.5, VS Code extension, CLI. Remote async sessions that open PRs on GitHub. Integrates with Tencent Hy3 preview."
       },
+      "HuggingFace-Serge": {
+        "name": "Serge",
+        "url": "https://huggingface.co/blog/huggingface/serge",
+        "description": "HuggingFace's GitHub-native AI code reviewer (announced June 12, 2026, Apache 2.0). Reviews pull requests with any OpenAI-compatible LLM, follows repository-owned review rules in `.ai/review-rules.md`, and publishes inline comments through GitHub's review experience. Runs as a GitHub Action for single-repo CI, a GitHub App webhook for org-wide automation, or a staged web app for human-in-the-loop reviews. Compatible with OpenAI, the Hugging Face Router, local vLLM/TGI/LM Studio endpoints. Triggered with `@askserge please review`; bubblewrap sandboxing (June 9) isolates fork PR code from review host. Code at github.com/huggingface/serge."
+      },
       "Meta": {
         "name": "AI Studio",
-        "url": "https://ai.meta.com/ai-studio/",
         "description": "Platform to create custom AI characters for entertainment, productivity, and support. Build conversational AIs with personality, knowledge, tone, and image generation. Share via Messenger, Instagram, WhatsApp."
-      }
+}
     }
   },
   {
-    "category": "Automation / Orchestration",
+"category": "Automation / Orchestration",
     "products": {
       "Google": {
         "name": "Vertex AI Agent Builder",
@@ -554,7 +555,6 @@
       },
       "Meta": {
         "name": "Imagine",
-        "url": "https://ai.meta.com",
         "description": "Meta's consumer image generation experience powered by Llama ecosystem tooling."
       },
       "Adobe": {
@@ -634,7 +634,6 @@
       },
       "Meta": {
         "name": "Meta Video Generation",
-        "url": "https://ai.meta.com",
         "description": "Meta's video generation capabilities integrated across Meta apps."
       },
       "ElevenLabs": {
@@ -921,6 +920,11 @@
         "name": "Hermes Agent",
         "url": "https://hermes-agent.nousresearch.com",
         "description": "Open-source autonomous AI agent (189K GitHub stars, MIT) v0.16.0 'The Surface Release' (June 6, 2026) with persistent memory, self-improvement, 40+ tools, MCP integration, scheduled cron jobs, messaging gateway across Telegram/Discord/Slack/WhatsApp/Signal. Runs locally on NVIDIA RTX PCs, RTX PRO Workstations, and DGX Spark. Qwen 3.6, Llama, Mistral via Ollama or LM Studio. Auto-migrates from OpenClaw."
+      },
+      "Moonshot": {
+        "name": "Kimi Work",
+        "url": "https://www.kimi.com/products/kimi-work",
+        "description": "Moonshot's local-first desktop AI agent (announced June 8, 2026, opened for testing June 12, 2026) for macOS (Apple Silicon) and Windows. Runs on Kimi K2.6 with up to 300 parallel sub-agents and 4,000 coordinated steps. WebBridge drives the user's real logged-in browser; built-in cron engine runs scheduled tasks; mounts local folders and runs Python. Produces documents, spreadsheets, PDFs, slide decks, and renders full websites with live preview. Free download; Moderato $19/mo, Allegretto $39/mo (full 300-agent swarm), Allegro $99/mo for highest-volume professional use."
       }
     }
   },

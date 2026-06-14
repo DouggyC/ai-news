@@ -1,5 +1,65 @@
 [
     {
+        "id": "zai-glm-5-2-1m-context-flagship-2026-06-13",
+        "title": "Z.ai launches GLM-5.2 with usable 1M-token context and two thinking modes, MIT weights promised next week",
+        "summary": "Z.ai announced GLM-5.2 on June 13, 2026 as its newest flagship for agentic coding and long-horizon software engineering; the 1M-token context window is now live for all GLM Coding Plan (Lite, Pro, Max, Team) subscribers, the model ships with new High and Max thinking-effort levels, and Z.ai committed to releasing standalone API access, a chatbot on chat.z.ai, and MIT-licensed open weights 'next week' (no exact date confirmed).",
+        "source": "Zhipu AI",
+        "sourceUrl": "https://www.buildfastwithai.com/blogs/glm-5-2-review-2026",
+        "imageUrl": "https://zhipuai.cn/favicon.ico",
+        "category": "model",
+        "publishedAt": "2026-06-13"
+    },
+    {
+        "id": "stability-stable-video-backgrounds-3-2026-06-13",
+        "title": "Stability AI ships Stable Video Backgrounds 3.0 with multi-layer compositing and adaptive motion tracking",
+        "summary": "Stability AI released Stable Video Backgrounds 3.0 on June 13, 2026 with multi-layer compositing, adaptive motion tracking, and speed gains aimed at professional creators and enterprise post-production; early user reports say pricing undercuts Runway and Claude Studio by 15–30% for comparable output, with a no-code editor planned for August and 4K/HDR support in beta for September.",
+        "source": "Stability AI",
+        "sourceUrl": "https://aidailyshot.com/blog/stability-ai-launches-stable-video-backgrounds-3-0",
+        "imageUrl": "https://stability.ai/favicon.ico",
+        "category": "product",
+        "publishedAt": "2026-06-13"
+    },
+    {
+        "id": "openai-multistate-attorneys-general-subpoena-2026-06-13",
+        "title": "Multi-state coalition of attorneys general subpoenas OpenAI over advertising, minors, and model 'sycophancy'",
+        "summary": "A coalition of US state attorneys general, led by New York AG Letitia James, served OpenAI with a subpoena on Friday, June 12, 2026 seeking records on advertising, user engagement and retention, model sycophancy, consumer and health data, and treatment of minors and seniors; OpenAI told TechCrunch it is 'cooperating' and that today's ChatGPT includes stronger safeguards for minors, and the probe comes a week after Florida AG James Uthmeier filed the first state-led deceptive-practices suit against OpenAI and Sam Altman.",
+        "source": "OpenAI",
+        "sourceUrl": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+        "category": "research",
+        "publishedAt": "2026-06-13"
+    },
+    {
+        "id": "google-deepmind-agi-to-asi-60-page-report-2026-06-13",
+        "title": "Google DeepMind maps four routes from human-level AI to superintelligence in 60-page 'AGI to ASI' report",
+        "summary": "Google DeepMind researchers posted a 60-page 'From AGI to ASI' report to arXiv on June 13, 2026, led by Tim Genewein with co-founders Shane Legg and Marcus Hutter, outlining four overlapping pathways to artificial superintelligence — continued scaling of effective compute (roughly 10× per year for a decade), algorithmic breakthroughs, recursive self-improvement, and large-scale multi-agent coordination — and warning that the field of multi-agent safety 'effectively does not exist yet'.",
+        "source": "Google",
+        "sourceUrl": "https://theaiinsider.tech/2026/06/13/google-deepmind-maps-four-routes-from-human-level-ai-to-superintelligence/",
+        "imageUrl": "https://deepmind.google/favicon.ico",
+        "category": "research",
+        "publishedAt": "2026-06-13"
+    },
+    {
+        "id": "anthropic-fable-mythos-suspended-govt-order-2026-06-12",
+        "title": "Anthropic disables Claude Fable 5 and Mythos 5 for every customer after US export-control directive",
+        "summary": "Anthropic disclosed on June 12, 2026 that the US Commerce Department, under Secretary Howard Lutnick, issued an export-control directive at 5:21pm ET the same day ordering the immediate shutdown of Claude Fable 5 and Claude Mythos 5 for any foreign national inside or outside the United States (including Anthropic's own foreign-national staff), citing a 'narrow, non-universal jailbreak' of Fable 5; Anthropic complied but published a statement disputing the evidence and warning the same standard 'would essentially halt all new model deployments' across the frontier-AI industry.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.marktechpost.com/2026/06/13/anthropic-disables-claude-fable-5-and-mythos-5-after-us-government-order/",
+        "imageUrl": "https://www.anthropic.com/favicon.ico",
+        "category": "research",
+        "publishedAt": "2026-06-12"
+    },
+    {
+        "id": "moonshot-kimi-k2-7-code-open-2026-06-12",
+        "title": "Moonshot open-sources Kimi K2.7-Code, a 1T-MoE coding model with 30% fewer thinking tokens and 12× cheaper than Claude Fable 5",
+        "summary": "Moonshot AI released Kimi K2.7-Code on June 12, 2026 as an open-source 1T-parameter MoE (32B active) coding model with roughly 30% lower reasoning-token usage than K2.6 and vendor-reported gains of +21.8% on Kimi Code Bench v2, +11.0% on Program Bench and +31.5% on MLS Bench Lite; weights are live on Hugging Face under a Modified MIT license, pricing is $0.95/M input and $4.00/M output (a 12× undercut of the now-suspended Fable 5), and a 6× high-speed variant is due in roughly a week.",
+        "source": "Moonshot",
+        "sourceUrl": "https://the-decoder.com/moonshots-open-model-kimi-k2-7-code-undercuts-gpt-5-5-and-claude-by-up-to-12x-on-price-per-token/",
+        "imageUrl": "https://kimi.moonshot.cn/favicon.ico",
+        "category": "model",
+        "publishedAt": "2026-06-12"
+    },
+    {
         "id": "minimax-m3-open-weight-multimodal-2026-06-12",
         "title": "MiniMax releases M3, a 428B open-weight frontier model with 1M context and native multimodality",
         "summary": "MiniMax released the MiniMax M3 open-weights model on June 12, 2026, combining a 428B-parameter mixture-of-experts architecture (23B active) with a 1M-token context window and native image-and-video understanding; the model posts 59.0% on SWE-Bench Pro, 66.0% on Terminal-Bench 2.1 and 74.2% on MCP Atlas, and ships with the new MiniMax Sparse Attention, a Day-0 API on platform.minimax.io, and weights on Hugging Face under a commercially permissive license.",
@@ -7,26 +67,6 @@
         "sourceUrl": "https://fireworks.ai/blog/minimax-m3-launch",
         "imageUrl": "https://platform.minimax.io/favicon.ico",
         "category": "model",
-        "publishedAt": "2026-06-12"
-    },
-    {
-        "id": "moonshot-kimi-k2-7-code-open-2026-06-12",
-        "title": "Moonshot open-sources Kimi K2.7-Code with 30% fewer thinking tokens and a high-speed tier on June 15",
-        "summary": "Moonshot AI released Kimi K2.7-Code on June 12, 2026 as an open-source 1T-parameter MoE (32B active) coding model with ~30% lower reasoning-token usage than K2.6, vendor-reported gains of +21.8% on Kimi Code Bench v2, +11.0% on Program Bench and +31.5% on MLS Bench Lite; weights are live on Hugging Face under a Modified MIT license, a Kimi Code coding-agent launch is priced from $19/month, and a high-speed K2.7-Code variant arrives June 15 with 5–6× faster output at roughly double the API price.",
-        "source": "Moonshot",
-        "sourceUrl": "https://cryptobriefing.com/kimi-k2-7-code-open-source-release/",
-        "imageUrl": "https://kimi.moonshot.cn/favicon.ico",
-        "category": "model",
-        "publishedAt": "2026-06-12"
-    },
-    {
-        "id": "anthropic-us-gov-suspends-fable-mythos-2026-06-12",
-        "title": "US government orders Anthropic to suspend Claude Fable 5 and Mythos 5 worldwide over jailbreak claims",
-        "summary": "Anthropic disclosed on June 12, 2026 that the US government issued an export-control directive at 5:21 pm ET the same day ordering the immediate shutdown of Claude Fable 5 and Claude Mythos 5 for all users globally, citing a claimed 'narrow, non-universal jailbreak' of Fable 5; Anthropic complied but published a blog post disputing the evidence, warning that applying the same standard 'would essentially halt all new model deployments' across the frontier-AI industry.",
-        "source": "Anthropic",
-        "sourceUrl": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
-        "imageUrl": "https://www.anthropic.com/favicon.ico",
-        "category": "research",
         "publishedAt": "2026-06-12"
     },
     {
@@ -60,11 +100,21 @@
         "publishedAt": "2026-06-12"
     },
     {
+        "id": "github-agentic-workflows-public-preview-2026-06-11",
+        "title": "GitHub ships Agentic Workflows in public preview, putting Copilot, Claude, Codex and Gemini inside GitHub Actions",
+        "summary": "GitHub released Agentic Workflows in public preview on June 11, 2026 after a four-month closed technical preview, letting teams author reasoning-heavy automations (issue triage, CI failure analysis, documentation updates, dependency work, compliance reporting) as natural-language Markdown that compiles into standard Actions YAML; the `engine` frontmatter picks Copilot, Anthropic Claude, OpenAI Codex, or Google Gemini, agents run in a sandboxed container behind an Agent Workflow Firewall, and a companion changelog lets organizations drop the personal access token and bill Copilot directly to the org.",
+        "source": "GitHub",
+        "sourceUrl": "https://github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview/",
+        "imageUrl": "https://www.apple.com/favicon.ico",
+        "category": "tool",
+        "publishedAt": "2026-06-11"
+    },
+    {
         "id": "google-deepmind-faithful-uncertainty-research-2026-06-12",
         "title": "Google researchers propose 'faithful uncertainty' to let LLMs hedge instead of hallucinating",
         "summary": "Google researchers published a new paper on June 12, 2026 introducing 'faithful uncertainty', a metacognitive technique that aligns a model's linguistic hedging ('My best guess is…') with its intrinsic statistical confidence; the authors argue this reframes hallucinations as 'confident errors' and is critical for agentic systems, where metacognition acts as the central control layer for tool calls, retrieval evaluation, and avoiding sycophantic acceptance of bad context.",
         "source": "Google",
-        "sourceUrl": "https://venturebeat.com/orchestration/google-researchers-introduce-faithful-uncertainty-allowing-llms-to-offer-best-guesses-instead-of-hallucinations",
+        "sourceUrl": "https://the-decoder.com/google-researchers-propose-faithful-uncertainty-to-fight-llm-hallucinations/",
         "imageUrl": "https://deepmind.google/favicon.ico",
         "category": "research",
         "publishedAt": "2026-06-12"
@@ -160,16 +210,6 @@
         "publishedAt": "2026-06-11"
     },
     {
-        "id": "anthropic-tcs-india-enterprise-claude-2026-06-11",
-        "title": "Anthropic taps TCS to scale Claude across Indian enterprises, financial services, and Diligenta",
-        "summary": "Anthropic partnered with Tata Consultancy Services on June 11, 2026, to set up a dedicated business unit for deploying Claude to TCS customers, give more than 50,000 TCS employees access to Claude, and build out Diligenta (22M+ UK life-and-pensions customers) and TCS iON on top of the Claude Code ecosystem.",
-        "source": "Anthropic",
-        "sourceUrl": "https://techcrunch.com/2026/06/11/anthropic-taps-tcs-to-scale-its-enterprise-ai-deployments/",
-        "imageUrl": "https://www.anthropic.com/favicon.ico",
-        "category": "product",
-        "publishedAt": "2026-06-11"
-    },
-    {
         "id": "google-deepmind-10m-multi-agent-safety-fund-2026-06-11",
         "title": "Google DeepMind commits $10M with Schmidt Sciences, ARIA, and Cooperative AI to study multi-agent safety",
         "summary": "Google DeepMind, Schmidt Sciences, ARIA, the Cooperative AI foundation, and Google.org announced a $10 million research fund on June 11, 2026, to seed academic work on how millions of AI agents will behave when they interact across the open internet; DeepMind's AGI safety lead Rohin Shah says the field of multi-agent safety effectively does not exist yet and the timing is urgent.",
@@ -198,45 +238,5 @@
         "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
         "category": "tool",
         "publishedAt": "2026-06-11"
-    },
-    {
-        "id": "nvidia-factory-operations-blueprint-fox-2026-06-11",
-        "title": "NVIDIA launches Factory Operations Blueprint (FOX) for autonomous manufacturing agents",
-        "summary": "NVIDIA announced the Factory Operations Blueprint, or FOX, at GTC Taipei on June 11, 2026, a reference design for building autonomous factory manager agents that connect machine data, quality systems, work instructions, robot fleets, and operational alerts into one AI-driven decision layer; the blueprint is built on NemoClaw, AI-Q Blueprint, and Nemotron open models.",
-        "source": "NVIDIA",
-        "sourceUrl": "https://roboticsandautomationnews.com/2026/06/11/nvidia-launches-ai-factory-manager-blueprint-for-autonomous-manufacturing/102491/",
-        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
-        "category": "tool",
-        "publishedAt": "2026-06-11"
-    },
-    {
-        "id": "perplexity-deep-research-computer-20-models-2026-06-11",
-        "title": "Perplexity moves Deep Research into Computer, routing subtasks across 20+ frontier models",
-        "summary": "Perplexity moved Deep Research into its Computer multi-model orchestration system on June 11, 2026, breaking hard questions into subtasks and routing them across 20+ frontier models to produce reports, decks, and dashboards; BrowseComp accuracy jumped from 40.7% to 83.8% and Humanity's Last Exam rose 36.4% to 50.5%, with Search-as-Code available through both Computer and the Agent API.",
-        "source": "Perplexity",
-        "sourceUrl": "https://www.marktechpost.com/2026/06/11/perplexity-moves-deep-research-into-computer-routing-research-subtasks-across-20-frontier-models-for-reports-decks-and-dashboards/",
-        "imageUrl": "https://www.perplexity.ai/favicon.svg",
-        "category": "capability",
-        "publishedAt": "2026-06-11"
-    },
-    {
-        "id": "zhipu-glm-5-1-8h-endurance-2026-06-10",
-        "title": "Zhipu launches GLM-5.1 with 8-hour autonomous work mode and 10% price hike",
-        "summary": "Zhipu released GLM-5.1 with a new '8-hour work mode' that lets the model independently plan, execute, test, and self-repair across a single task, becoming the first domestic model to top Opus 4.6 on SWE-bench Pro; pricing rose 10%, reaching parity with Anthropic in coding scenarios as the company pivots from price competition to long-duration agent execution.",
-        "source": "Zhipu AI",
-        "sourceUrl": "https://xix.ai/ainews/zhipu-glm51-launches-with-longcontext-performance-surpassing-opus-46.html",
-        "imageUrl": "https://zhipuai.cn/favicon.ico",
-        "category": "model",
-        "publishedAt": "2026-06-10"
-    },
-    {
-        "id": "meta-muse-spark-replaces-llama-4-glasses-2026-06-09",
-        "title": "Meta's Muse Spark AI replaces Llama 4 across Ray-Ban and Oakley smart glasses",
-        "summary": "Meta Superintelligence Labs extended its Muse Spark model to all Ray-Ban and Oakley smart glasses except Meta Ray-Ban Display; Muse Spark matches Llama 4 Maverick performance at 10x lower compute, is closed-source, and Meta has delayed the public API multiple times since April while targeting a release within June.",
-        "source": "Meta",
-        "sourceUrl": "https://www.uploadvr.com/meta-muse-spark-ai-model-replaces-llama-on-smart-glasses/",
-        "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
-        "category": "model",
-        "publishedAt": "2026-06-09"
     }
 ]

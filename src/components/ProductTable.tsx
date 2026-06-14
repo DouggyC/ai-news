@@ -63,6 +63,7 @@ const companyOrder = [
   'Courier',
   'Zapier',
   'HuggingFace',
+  'HuggingFace-Serge',
   'Replicate',
   'Reve',
   'Ollama',
@@ -208,6 +209,7 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
     Cohere: 'backgroundColor:rgba(185, 28, 28, 0.2);color:#b91c1c;borderColor:rgba(185, 28, 28, 0.3)',
     Moonshot: 'backgroundColor:rgba(124, 58, 237, 0.2);color:#7c3aed;borderColor:rgba(124, 58, 237, 0.3)',
     'Microsoft-Code': 'backgroundColor:rgba(99, 102, 241, 0.2);color:#a5b4fc;borderColor:rgba(99, 102, 241, 0.3)',
+    'HuggingFace-Serge': 'backgroundColor:rgba(234, 179, 8, 0.2);color:#fde047;borderColor:rgba(234, 179, 8, 0.3)',
   };
 
   const style =
