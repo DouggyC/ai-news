@@ -1,5 +1,75 @@
 [
     {
+        "id": "openai-partner-network-150m-300k-consultants-2026-06-14",
+        "title": "OpenAI launches Partner Network with $150M fund, 300,000 certified consultants by year-end",
+        "summary": "OpenAI announced the OpenAI Partner Network on June 14, 2026, its first formal channel program, backed by $150 million and a goal of certifying 300,000 consultants by end of 2026; partners can progress through Select, Advanced and Elite tiers, with specializations in Codex, cybersecurity, APIs and agent transformation, and a new Forward Deployed Experts pilot that puts OpenAI engineers on-site with top-tier partners ahead of a July go-live.",
+        "source": "OpenAI",
+        "sourceUrl": "https://www.crn.com/news/ai/2026/openai-unveils-partner-program-150m-investment-channel-chief-sees-massive-opportunity-ahead",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+        "category": "product",
+        "publishedAt": "2026-06-14"
+    },
+    {
+        "id": "openai-confidential-ipo-850b-sept-2026-2026-06-14",
+        "title": "OpenAI files confidential IPO at $730B-$850B with Goldman and Morgan Stanley, targets September 2026",
+        "summary": "OpenAI filed a confidential S-1 with the SEC on June 14, 2026 with Goldman Sachs and Morgan Stanley as lead underwriters, 13 days after Anthropic submitted its own draft; private-market buyers have priced OpenAI at $730-$850 billion on a $122B late-2025 round, analysts expect a >$1T opening-day market cap that would make it one of the five largest IPOs in US history, and the Sept 2026 target sets up a back-to-back public-market test of frontier-AI valuations.",
+        "source": "OpenAI",
+        "sourceUrl": "https://www.abhs.in/blog/openai-ipo-september-2026-goldman-sachs-850-billion-valuation-filing",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+        "category": "research",
+        "publishedAt": "2026-06-14"
+    },
+    {
+        "id": "anthropic-fable-5-mythos-5-export-ban-financial-2026-06-14",
+        "title": "White House export ban on Fable 5 and Mythos 5 hits Anthropic days before its IPO",
+        "summary": "SiliconANGLE reported on June 14, 2026 that the US Commerce Department forced Anthropic to disable Claude Fable 5 and Mythos 5 for every customer globally after the administration, citing 'verbal evidence of a potential narrow, non-universal jailbreak'; Anthropic hit back saying the same standard 'would essentially halt all new model deployments' across the frontier-AI industry, and analysts warned the ban - coming days after Anthropic's confidential S-1 - could derail its $1T-valuation IPO timeline and lose substantial enterprise revenue.",
+        "source": "Anthropic",
+        "sourceUrl": "https://siliconangle.com/2026/06/14/white-house-forces-anthropic-disable-new-frontier-models-following-abrupt-export-ban/",
+        "imageUrl": "https://www.anthropic.com/favicon.ico",
+        "category": "research",
+        "publishedAt": "2026-06-14"
+    },
+    {
+        "id": "microsoft-mai-independence-copilot-vs-code-2026-06-14",
+        "title": "Microsoft declares 'AI independence' as MAI-Thinking-1 and MAI-Code-1 replace OpenAI in Copilot and VS Code",
+        "summary": "Microsoft laid out its AI-independence strategy on June 14, 2026, with Satya Nadella arguing on X that enterprises need to build 'frontier ecosystems' rather than rely on a handful of general-purpose models; the company confirmed the MAI-Thinking-1 reasoning model and MAI-Code-1 (and Code-1-Flash) are now the native engine for GitHub Copilot and VS Code, replacing OpenAI backends at a 10x cost reduction, and Microsoft also unveiled the chip-to-cloud Project Solara stack for agent-first devices built with Qualcomm and MediaTek.",
+        "source": "Microsoft",
+        "sourceUrl": "https://www.wownews24x7.com/microsoft-declares-ai-independence-with-in-house-reasoning-and-coding-models",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
+        "category": "model",
+        "publishedAt": "2026-06-14"
+    },
+    {
+        "id": "mistral-3b-euro-20b-valuation-data-centers-2026-06-15",
+        "title": "Mistral in talks for €3B at a €20B valuation to build its own EU data centers",
+        "summary": "TechFundingNews reported on June 15, 2026 that Mistral AI has opened early discussions to raise €3 billion at roughly a €20 billion valuation, nearly double the €11.7B mark from its September 2025 Series C; the new round is earmarked for Mistral's first owned data centers, with a target of 1 gigawatt of compute by 2030, ASML's stake would be worth around €2.2B on paper, and the raise follows Mistral's launch of the Vibe agent and physics-AI stack for industrial engineering.",
+        "source": "Mistral",
+        "sourceUrl": "https://techfundingnews.com/mistral-ai-3b-euro-20b-valuation-data-centres/",
+        "imageUrl": "https://mistral.ai/favicon.ico",
+        "category": "product",
+        "publishedAt": "2026-06-15"
+    },
+    {
+        "id": "alibaba-zhou-jingren-resignation-denied-2026-06-14",
+        "title": "Alibaba denies Qwen CTO Zhou Jingren resigned, days after the third Tongyi leader exit of 2026",
+        "summary": "Alibaba publicly denied on June 14, 2026 a report that Zhou Jingren, CTO of Alibaba Cloud and head of the Tongyi Lab that builds Qwen, had resigned; the company said Zhou continues to lead Tongyi and Qwen development, but the denial comes just six days after he was moved into a new 'Chief Scientist' role overseeing a frontier-AI research institute with no operational responsibility, and is the fourth core Qwen figure to leave in 2026 after Lin Junyang (March) and Yu Bowen, raising fresh questions about leadership stability in China's top open-weights program.",
+        "source": "Alibaba",
+        "sourceUrl": "https://www.ainvest.com/news/alibaba-reports-zhou-jingren-resigned-baseless-2606/",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+        "category": "research",
+        "publishedAt": "2026-06-14"
+    },
+    {
+        "id": "perplexity-amazon-cfaa-9th-circuit-2026-06-12",
+        "title": "Ninth Circuit hears Perplexity v. Amazon, a CFAA case that will define liability for every AI agent",
+        "summary": "The US Court of Appeals for the Ninth Circuit heard oral arguments on June 12, 2026 in Amazon v. Perplexity AI, the first major case to test whether the 1986 Computer Fraud and Abuse Act can block agentic AI systems from accessing third-party sites; a March 2026 injunction relied on the Facebook v. Power Ventures precedent, but Perplexity argued in its May brief that the CFAA is 'a fundamental misfit' for AI agents that users explicitly direct, and the ruling will shape the legal framework for every autonomous tool that books travel, manages finances, or executes coding tasks on users' behalf.",
+        "source": "Perplexity",
+        "sourceUrl": "https://opentools.ai/news/perplexity-ai-amazon-ninth-circuit-cfaa-ai-agents-2026",
+        "imageUrl": "https://www.perplexity.ai/favicon.ico",
+        "category": "research",
+        "publishedAt": "2026-06-12"
+    },
+    {
         "id": "zai-glm-5-2-1m-context-flagship-2026-06-13",
         "title": "Z.ai launches GLM-5.2 with usable 1M-token context and two thinking modes, MIT weights promised next week",
         "summary": "Z.ai announced GLM-5.2 on June 13, 2026 as its newest flagship for agentic coding and long-horizon software engineering; the 1M-token context window is now live for all GLM Coding Plan (Lite, Pro, Max, Team) subscribers, the model ships with new High and Max thinking-effort levels, and Z.ai committed to releasing standalone API access, a chatbot on chat.z.ai, and MIT-licensed open weights 'next week' (no exact date confirmed).",
@@ -12,7 +82,7 @@
     {
         "id": "stability-stable-video-backgrounds-3-2026-06-13",
         "title": "Stability AI ships Stable Video Backgrounds 3.0 with multi-layer compositing and adaptive motion tracking",
-        "summary": "Stability AI released Stable Video Backgrounds 3.0 on June 13, 2026 with multi-layer compositing, adaptive motion tracking, and speed gains aimed at professional creators and enterprise post-production; early user reports say pricing undercuts Runway and Claude Studio by 15–30% for comparable output, with a no-code editor planned for August and 4K/HDR support in beta for September.",
+        "summary": "Stability AI released Stable Video Backgrounds 3.0 on June 13, 2026 with multi-layer compositing, adaptive motion tracking, and speed gains aimed at professional creators and enterprise post-production; early user reports say pricing undercuts Runway and Claude Studio by 15-30% for comparable output, with a no-code editor planned for August and 4K/HDR support in beta for September.",
         "source": "Stability AI",
         "sourceUrl": "https://aidailyshot.com/blog/stability-ai-launches-stable-video-backgrounds-3-0",
         "imageUrl": "https://stability.ai/favicon.ico",
@@ -32,7 +102,7 @@
     {
         "id": "google-deepmind-agi-to-asi-60-page-report-2026-06-13",
         "title": "Google DeepMind maps four routes from human-level AI to superintelligence in 60-page 'AGI to ASI' report",
-        "summary": "Google DeepMind researchers posted a 60-page 'From AGI to ASI' report to arXiv on June 13, 2026, led by Tim Genewein with co-founders Shane Legg and Marcus Hutter, outlining four overlapping pathways to artificial superintelligence — continued scaling of effective compute (roughly 10× per year for a decade), algorithmic breakthroughs, recursive self-improvement, and large-scale multi-agent coordination — and warning that the field of multi-agent safety 'effectively does not exist yet'.",
+        "summary": "Google DeepMind researchers posted a 60-page 'From AGI to ASI' report to arXiv on June 13, 2026, led by Tim Genewein with co-founders Shane Legg and Marcus Hutter, outlining four overlapping pathways to artificial superintelligence - continued scaling of effective compute (roughly 10x per year for a decade), algorithmic breakthroughs, recursive self-improvement, and large-scale multi-agent coordination - and warning that the field of multi-agent safety 'effectively does not exist yet'.",
         "source": "Google",
         "sourceUrl": "https://theaiinsider.tech/2026/06/13/google-deepmind-maps-four-routes-from-human-level-ai-to-superintelligence/",
         "imageUrl": "https://deepmind.google/favicon.ico",
@@ -51,8 +121,8 @@
     },
     {
         "id": "moonshot-kimi-k2-7-code-open-2026-06-12",
-        "title": "Moonshot open-sources Kimi K2.7-Code, a 1T-MoE coding model with 30% fewer thinking tokens and 12× cheaper than Claude Fable 5",
-        "summary": "Moonshot AI released Kimi K2.7-Code on June 12, 2026 as an open-source 1T-parameter MoE (32B active) coding model with roughly 30% lower reasoning-token usage than K2.6 and vendor-reported gains of +21.8% on Kimi Code Bench v2, +11.0% on Program Bench and +31.5% on MLS Bench Lite; weights are live on Hugging Face under a Modified MIT license, pricing is $0.95/M input and $4.00/M output (a 12× undercut of the now-suspended Fable 5), and a 6× high-speed variant is due in roughly a week.",
+        "title": "Moonshot open-sources Kimi K2.7-Code, a 1T-MoE coding model with 30% fewer thinking tokens and 12x cheaper than Claude Fable 5",
+        "summary": "Moonshot AI released Kimi K2.7-Code on June 12, 2026 as an open-source 1T-parameter MoE (32B active) coding model with roughly 30% lower reasoning-token usage than K2.6 and vendor-reported gains of +21.8% on Kimi Code Bench v2, +11.0% on Program Bench and +31.5% on MLS Bench Lite; weights are live on Hugging Face under a Modified MIT license, pricing is $0.95/M input and $4.00/M output (a 12x undercut of the now-suspended Fable 5), and a 6x high-speed variant is due in roughly a week.",
         "source": "Moonshot",
         "sourceUrl": "https://the-decoder.com/moonshots-open-model-kimi-k2-7-code-undercuts-gpt-5-5-and-claude-by-up-to-12x-on-price-per-token/",
         "imageUrl": "https://kimi.moonshot.cn/favicon.ico",
@@ -71,11 +141,11 @@
     },
     {
         "id": "nvidia-blackwell-leads-agentperf-2026-06-12",
-        "title": "NVIDIA Blackwell Ultra NVL72 tops the first Agentic AI infrastructure benchmark, 20× more agents per megawatt than Hopper",
-        "summary": "NVIDIA announced on June 12, 2026 that its Blackwell Ultra NVL72 platform led the first round of AgentPerf from Artificial Analysis, the industry's first open, multi-vendor agentic-AI infrastructure benchmark, running up to 20× more concurrent agents per megawatt than the NVIDIA HGX H200 system on DeepSeek V4 Pro workloads at SLO=30; the result is attributed to NVFP4 quantization, fifth-gen Tensor Cores, NVLink scale-up and 288GB of HBM3e per GPU, with Baseten, DeepInfra and Together AI already serving production agentic traffic on Blackwell.",
+        "title": "NVIDIA Blackwell Ultra NVL72 tops the first Agentic AI infrastructure benchmark, 20x more agents per megawatt than Hopper",
+        "summary": "NVIDIA announced on June 12, 2026 that its Blackwell Ultra NVL72 platform led the first round of AgentPerf from Artificial Analysis, the industry's first open, multi-vendor agentic-AI infrastructure benchmark, running up to 20x more concurrent agents per megawatt than the NVIDIA HGX H200 system on DeepSeek V4 Pro workloads at SLO=30; the result is attributed to NVFP4 quantization, fifth-gen Tensor Cores, NVLink scale-up and 288GB of HBM3e per GPU, with Baseten, DeepInfra and Together AI already serving production agentic traffic on Blackwell.",
         "source": "NVIDIA",
         "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
-        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg?w=400&h=250&fit=crop",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
         "category": "research",
         "publishedAt": "2026-06-12"
     },
@@ -100,19 +170,9 @@
         "publishedAt": "2026-06-12"
     },
     {
-        "id": "github-agentic-workflows-public-preview-2026-06-11",
-        "title": "GitHub ships Agentic Workflows in public preview, putting Copilot, Claude, Codex and Gemini inside GitHub Actions",
-        "summary": "GitHub released Agentic Workflows in public preview on June 11, 2026 after a four-month closed technical preview, letting teams author reasoning-heavy automations (issue triage, CI failure analysis, documentation updates, dependency work, compliance reporting) as natural-language Markdown that compiles into standard Actions YAML; the `engine` frontmatter picks Copilot, Anthropic Claude, OpenAI Codex, or Google Gemini, agents run in a sandboxed container behind an Agent Workflow Firewall, and a companion changelog lets organizations drop the personal access token and bill Copilot directly to the org.",
-        "source": "GitHub",
-        "sourceUrl": "https://github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview/",
-        "imageUrl": "https://www.apple.com/favicon.ico",
-        "category": "tool",
-        "publishedAt": "2026-06-11"
-    },
-    {
         "id": "google-deepmind-faithful-uncertainty-research-2026-06-12",
         "title": "Google researchers propose 'faithful uncertainty' to let LLMs hedge instead of hallucinating",
-        "summary": "Google researchers published a new paper on June 12, 2026 introducing 'faithful uncertainty', a metacognitive technique that aligns a model's linguistic hedging ('My best guess is…') with its intrinsic statistical confidence; the authors argue this reframes hallucinations as 'confident errors' and is critical for agentic systems, where metacognition acts as the central control layer for tool calls, retrieval evaluation, and avoiding sycophantic acceptance of bad context.",
+        "summary": "Google researchers published a new paper on June 12, 2026 introducing 'faithful uncertainty', a metacognitive technique that aligns a model's linguistic hedging ('My best guess is...') with its intrinsic statistical confidence; the authors argue this reframes hallucinations as 'confident errors' and is critical for agentic systems, where metacognition acts as the central control layer for tool calls, retrieval evaluation, and avoiding sycophantic acceptance of bad context.",
         "source": "Google",
         "sourceUrl": "https://the-decoder.com/google-researchers-propose-faithful-uncertainty-to-fight-llm-hallucinations/",
         "imageUrl": "https://deepmind.google/favicon.ico",
@@ -168,66 +228,6 @@
         "imageUrl": "https://www.anthropic.com/favicon.ico",
         "category": "product",
         "publishedAt": "2026-06-12"
-    },
-    {
-        "id": "openai-acquires-ona-codex-2026-06-11",
-        "title": "OpenAI acquires Ona to give Codex long-running, customer-controlled cloud execution",
-        "summary": "OpenAI announced on June 11, 2026, that it will acquire Ona, a startup whose technology provides secure, persistent cloud environments where AI agents can access tools, systems, and context over time; Ona's customer-controlled execution model will let Codex agents operate inside an organization's own cloud while OpenAI provides the intelligence and orchestration, with the Ona team joining OpenAI's Codex group after closing.",
-        "source": "OpenAI",
-        "sourceUrl": "https://www.cnbc.com/2026/06/11/open-ai-ona-acquisition-codex.html",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
-        "category": "product",
-        "publishedAt": "2026-06-11"
-    },
-    {
-        "id": "openai-visa-agentic-payments-chatgpt-2026-06-11",
-        "title": "OpenAI and Visa embed agentic payments inside ChatGPT for any merchant on the network",
-        "summary": "OpenAI and Visa announced a partnership on June 11, 2026, that lets ChatGPT shop and complete purchases on behalf of users at any merchant that accepts Visa, with tokenized credentials, spending limits, required approvals, and merchant allowlists; the framework also exposes the rails to developers and merchants via OpenAI's agentic commerce protocol.",
-        "source": "OpenAI",
-        "sourceUrl": "https://www.euronews.com/next/2026/06/11/chatgpt-can-now-buy-things-for-you-after-deal-with-payments-giant-visa",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
-        "category": "product",
-        "publishedAt": "2026-06-11"
-    },
-    {
-        "id": "openai-oracle-cloud-models-codex-distribution-2026-06-11",
-        "title": "OpenAI ships models and Codex through Oracle Cloud, letting enterprises draw down existing commitments",
-        "summary": "OpenAI announced on June 11, 2026, that its models and the Codex coding agent are now available through Oracle Cloud Infrastructure, letting enterprise customers apply existing Oracle Cloud commitments to OpenAI usage and avoid fresh procurement cycles; the arrangement turns Oracle into a first-class OpenAI distribution channel alongside Microsoft Azure.",
-        "source": "OpenAI",
-        "sourceUrl": "https://www.aichatdaily.com/ai-business/openai-brings-models-codex-oracle-cloud-customers",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
-        "category": "product",
-        "publishedAt": "2026-06-11"
-    },
-    {
-        "id": "anthropic-dxc-regulated-industries-claude-2026-06-11",
-        "title": "Anthropic and DXC Technology form multi-year alliance to deploy Claude inside banks, airlines, and government",
-        "summary": "Anthropic and DXC Technology announced a multi-year global alliance on June 11, 2026, in which DXC will train tens of thousands of Claude-certified forward-deployed engineers to bring Claude into the systems DXC operates for the world's largest banks, airlines, insurers, manufacturers, and government agencies, starting with Modernization-as-a-Service, cybersecurity, and OASIS-based application services.",
-        "source": "Anthropic",
-        "sourceUrl": "https://www.anthropic.com/news/dxc-anthropic-alliance",
-        "imageUrl": "https://www.anthropic.com/favicon.ico",
-        "category": "product",
-        "publishedAt": "2026-06-11"
-    },
-    {
-        "id": "google-deepmind-10m-multi-agent-safety-fund-2026-06-11",
-        "title": "Google DeepMind commits $10M with Schmidt Sciences, ARIA, and Cooperative AI to study multi-agent safety",
-        "summary": "Google DeepMind, Schmidt Sciences, ARIA, the Cooperative AI foundation, and Google.org announced a $10 million research fund on June 11, 2026, to seed academic work on how millions of AI agents will behave when they interact across the open internet; DeepMind's AGI safety lead Rohin Shah says the field of multi-agent safety effectively does not exist yet and the timing is urgent.",
-        "source": "Google DeepMind",
-        "sourceUrl": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
-        "imageUrl": "https://deepmind.google/favicon.ico",
-        "category": "research",
-        "publishedAt": "2026-06-11"
-    },
-    {
-        "id": "google-diffusiongemma-26b-open-diffusion-llm-2026-06-11",
-        "title": "Google releases DiffusionGemma, a 26B open diffusion language model that runs on 18GB of RAM",
-        "summary": "Google DeepMind unveiled DiffusionGemma on June 11, 2026, an experimental 26-billion-parameter mixture-of-experts language model that generates paragraphs of tokens in parallel using diffusion rather than autoregressive decoding, posting up to 4x speedup on a single H100 and running locally on 18GB of DRAM or VRAM; the open-weights model is released under Apache 2.0 with vLLM, MLX, and HF Transformers support.",
-        "source": "Google",
-        "sourceUrl": "https://www.theregister.com/ai-and-ml/2026/06/11/googles-diffusiongemma-uses-diffusion-tech-to-speed-text-generation/5254406",
-        "imageUrl": "https://deepmind.google/favicon.ico",
-        "category": "model",
-        "publishedAt": "2026-06-11"
     },
     {
         "id": "xai-grok-build-plugin-marketplace-2026-06-11",

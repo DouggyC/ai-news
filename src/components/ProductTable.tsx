@@ -68,8 +68,8 @@ const companyOrder = [
   'Reve',
   'Ollama',
   'LMStudio',
+  'Cresta',
   'CrewAI',
-  'MultiOn',
   'AutoGen',
   'Nous Research',
   'Kilo',
@@ -168,6 +168,8 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
       'backgroundColor:rgba(255, 255, 255, 0.06);color:rgba(255, 255, 255, 0.7);borderColor:rgba(255, 255, 255, 0.1)',
     LMStudio:
       'backgroundColor:rgba(255, 255, 255, 0.06);color:rgba(255, 255, 255, 0.7);borderColor:rgba(255, 255, 255, 0.1)',
+    Cresta:
+      'backgroundColor:rgba(20, 184, 166, 0.2);color:#2dd4bf;borderColor:rgba(20, 184, 166, 0.3)',
     CrewAI:
       'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
     MultiOn:

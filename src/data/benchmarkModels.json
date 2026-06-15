@@ -19,7 +19,7 @@
  "humaneval":95.5,
  "livebench":84.0,
  "mmluPlus": null,
- "gpqa":93.2
+ "gpqa":93.5
  },
  {
  "id": "gpt-5.5-instant",
@@ -129,7 +129,7 @@
  "humaneval":93.7,
  "livebench":76.3,
  "mmluPlus": null,
- "gpqa":84.0
+ "gpqa":89.6
  },
  {
  "id": "claude-sonnet-4.6",
@@ -140,7 +140,7 @@
  "humaneval":95.0,
  "livebench":75.5,
  "mmluPlus": null,
- "gpqa":79.9
+ "gpqa":87.5
  },
  {
  "id": "claude-haiku-4.5",
@@ -183,8 +183,8 @@
  "mmlu":90.0,
  "humaneval":90.0,
  "livebench":73.0,
- "mmluPlus":88.2,
- "gpqa":81.2
+ "mmluPlus":89.0,
+ "gpqa":89.8
  },
  {
  "id": "gemini-3.1-flash-lite",
@@ -713,5 +713,16 @@
  "livebench":60.0,
  "mmluPlus": null,
  "gpqa":85.7
+ },
+ {
+ "id": "jt-35b-flash",
+ "name": "JT-35B-Flash",
+ "provider": "China Mobile",
+ "openSource": true,
+ "mmlu": null,
+ "humaneval": null,
+ "livebench":55.3,
+ "mmluPlus": null,
+ "gpqa":82.9
  }
 ]

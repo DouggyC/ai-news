@@ -131,7 +131,7 @@ export default function AINewsPage() {
             AI News
           </h1>
           <p style={{ color: 'rgba(255, 255, 255, 0.6)', fontSize: '1rem' }}>
-            Last updated: June 14, 2026
+            Last updated: June 15, 2026
           </p>
         </div>
 

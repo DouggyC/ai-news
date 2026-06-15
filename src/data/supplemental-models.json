@@ -1379,5 +1379,20 @@
     "functionCalling": true,
     "json": true,
     "search": true
+  },
+  "jt-35b-flash": {
+    "provider": "China Mobile",
+    "parameters": 35000000000,
+    "modelSizeGB": 0,
+    "contextLength": 262144,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": null,
+    "humaneval": null,
+    "multimodal": false,
+    "vision": false,
+    "functionCalling": true,
+    "json": true,
+    "search": false
   }
 }
