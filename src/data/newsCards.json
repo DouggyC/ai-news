@@ -60,16 +60,6 @@
         "publishedAt": "2026-06-14"
     },
     {
-        "id": "perplexity-amazon-cfaa-9th-circuit-2026-06-12",
-        "title": "Ninth Circuit hears Perplexity v. Amazon, a CFAA case that will define liability for every AI agent",
-        "summary": "The US Court of Appeals for the Ninth Circuit heard oral arguments on June 12, 2026 in Amazon v. Perplexity AI, the first major case to test whether the 1986 Computer Fraud and Abuse Act can block agentic AI systems from accessing third-party sites; a March 2026 injunction relied on the Facebook v. Power Ventures precedent, but Perplexity argued in its May brief that the CFAA is 'a fundamental misfit' for AI agents that users explicitly direct, and the ruling will shape the legal framework for every autonomous tool that books travel, manages finances, or executes coding tasks on users' behalf.",
-        "source": "Perplexity",
-        "sourceUrl": "https://opentools.ai/news/perplexity-ai-amazon-ninth-circuit-cfaa-ai-agents-2026",
-        "imageUrl": "https://www.perplexity.ai/favicon.ico",
-        "category": "research",
-        "publishedAt": "2026-06-12"
-    },
-    {
         "id": "zai-glm-5-2-1m-context-flagship-2026-06-13",
         "title": "Z.ai launches GLM-5.2 with usable 1M-token context and two thinking modes, MIT weights promised next week",
         "summary": "Z.ai announced GLM-5.2 on June 13, 2026 as its newest flagship for agentic coding and long-horizon software engineering; the 1M-token context window is now live for all GLM Coding Plan (Lite, Pro, Max, Team) subscribers, the model ships with new High and Max thinking-effort levels, and Z.ai committed to releasing standalone API access, a chatbot on chat.z.ai, and MIT-licensed open weights 'next week' (no exact date confirmed).",
@@ -77,26 +67,6 @@
         "sourceUrl": "https://www.buildfastwithai.com/blogs/glm-5-2-review-2026",
         "imageUrl": "https://zhipuai.cn/favicon.ico",
         "category": "model",
-        "publishedAt": "2026-06-13"
-    },
-    {
-        "id": "stability-stable-video-backgrounds-3-2026-06-13",
-        "title": "Stability AI ships Stable Video Backgrounds 3.0 with multi-layer compositing and adaptive motion tracking",
-        "summary": "Stability AI released Stable Video Backgrounds 3.0 on June 13, 2026 with multi-layer compositing, adaptive motion tracking, and speed gains aimed at professional creators and enterprise post-production; early user reports say pricing undercuts Runway and Claude Studio by 15-30% for comparable output, with a no-code editor planned for August and 4K/HDR support in beta for September.",
-        "source": "Stability AI",
-        "sourceUrl": "https://aidailyshot.com/blog/stability-ai-launches-stable-video-backgrounds-3-0",
-        "imageUrl": "https://stability.ai/favicon.ico",
-        "category": "product",
-        "publishedAt": "2026-06-13"
-    },
-    {
-        "id": "openai-multistate-attorneys-general-subpoena-2026-06-13",
-        "title": "Multi-state coalition of attorneys general subpoenas OpenAI over advertising, minors, and model 'sycophancy'",
-        "summary": "A coalition of US state attorneys general, led by New York AG Letitia James, served OpenAI with a subpoena on Friday, June 12, 2026 seeking records on advertising, user engagement and retention, model sycophancy, consumer and health data, and treatment of minors and seniors; OpenAI told TechCrunch it is 'cooperating' and that today's ChatGPT includes stronger safeguards for minors, and the probe comes a week after Florida AG James Uthmeier filed the first state-led deceptive-practices suit against OpenAI and Sam Altman.",
-        "source": "OpenAI",
-        "sourceUrl": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
-        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
-        "category": "research",
         "publishedAt": "2026-06-13"
     },
     {
@@ -108,16 +78,6 @@
         "imageUrl": "https://deepmind.google/favicon.ico",
         "category": "research",
         "publishedAt": "2026-06-13"
-    },
-    {
-        "id": "anthropic-fable-mythos-suspended-govt-order-2026-06-12",
-        "title": "Anthropic disables Claude Fable 5 and Mythos 5 for every customer after US export-control directive",
-        "summary": "Anthropic disclosed on June 12, 2026 that the US Commerce Department, under Secretary Howard Lutnick, issued an export-control directive at 5:21pm ET the same day ordering the immediate shutdown of Claude Fable 5 and Claude Mythos 5 for any foreign national inside or outside the United States (including Anthropic's own foreign-national staff), citing a 'narrow, non-universal jailbreak' of Fable 5; Anthropic complied but published a statement disputing the evidence and warning the same standard 'would essentially halt all new model deployments' across the frontier-AI industry.",
-        "source": "Anthropic",
-        "sourceUrl": "https://www.marktechpost.com/2026/06/13/anthropic-disables-claude-fable-5-and-mythos-5-after-us-government-order/",
-        "imageUrl": "https://www.anthropic.com/favicon.ico",
-        "category": "research",
-        "publishedAt": "2026-06-12"
     },
     {
         "id": "moonshot-kimi-k2-7-code-open-2026-06-12",
@@ -133,30 +93,10 @@
         "id": "minimax-m3-open-weight-multimodal-2026-06-12",
         "title": "MiniMax releases M3, a 428B open-weight frontier model with 1M context and native multimodality",
         "summary": "MiniMax released the MiniMax M3 open-weights model on June 12, 2026, combining a 428B-parameter mixture-of-experts architecture (23B active) with a 1M-token context window and native image-and-video understanding; the model posts 59.0% on SWE-Bench Pro, 66.0% on Terminal-Bench 2.1 and 74.2% on MCP Atlas, and ships with the new MiniMax Sparse Attention, a Day-0 API on platform.minimax.io, and weights on Hugging Face under a commercially permissive license.",
-        "source": "MiniMax",
+        "source": "Minimax",
         "sourceUrl": "https://fireworks.ai/blog/minimax-m3-launch",
         "imageUrl": "https://platform.minimax.io/favicon.ico",
         "category": "model",
-        "publishedAt": "2026-06-12"
-    },
-    {
-        "id": "nvidia-blackwell-leads-agentperf-2026-06-12",
-        "title": "NVIDIA Blackwell Ultra NVL72 tops the first Agentic AI infrastructure benchmark, 20x more agents per megawatt than Hopper",
-        "summary": "NVIDIA announced on June 12, 2026 that its Blackwell Ultra NVL72 platform led the first round of AgentPerf from Artificial Analysis, the industry's first open, multi-vendor agentic-AI infrastructure benchmark, running up to 20x more concurrent agents per megawatt than the NVIDIA HGX H200 system on DeepSeek V4 Pro workloads at SLO=30; the result is attributed to NVFP4 quantization, fifth-gen Tensor Cores, NVLink scale-up and 288GB of HBM3e per GPU, with Baseten, DeepInfra and Together AI already serving production agentic traffic on Blackwell.",
-        "source": "NVIDIA",
-        "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/",
-        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
-        "category": "research",
-        "publishedAt": "2026-06-12"
-    },
-    {
-        "id": "mistral-mensch-vibe-agentic-europe-2026-06-12",
-        "title": "Mistral CEO Mensch makes the case for Vibe as Europe's enterprise agentic AI platform, hints at custom chips",
-        "summary": "Mistral CEO Arthur Mensch told CNBC on June 12, 2026 that Mistral is exploring designing its own chips and that enterprise AI adoption still has a long runway; the interview doubles as a launch moment for Vibe, Mistral's agentic enterprise platform built on the 128B-parameter Mistral Medium 3.5 model with Work and Code modes, $3.1B raised to date, an $830M Paris data-center debt round, and roughly 95% of revenue from business customers.",
-        "source": "Mistral",
-        "sourceUrl": "https://www.cnbc.com/2026/06/12/tech-download-mistral-mensch-agentic-ai-chips.html",
-        "imageUrl": "https://mistral.ai/favicon.ico",
-        "category": "product",
         "publishedAt": "2026-06-12"
     },
     {
@@ -170,73 +110,133 @@
         "publishedAt": "2026-06-12"
     },
     {
-        "id": "google-deepmind-faithful-uncertainty-research-2026-06-12",
-        "title": "Google researchers propose 'faithful uncertainty' to let LLMs hedge instead of hallucinating",
-        "summary": "Google researchers published a new paper on June 12, 2026 introducing 'faithful uncertainty', a metacognitive technique that aligns a model's linguistic hedging ('My best guess is...') with its intrinsic statistical confidence; the authors argue this reframes hallucinations as 'confident errors' and is critical for agentic systems, where metacognition acts as the central control layer for tool calls, retrieval evaluation, and avoiding sycophantic acceptance of bad context.",
-        "source": "Google",
-        "sourceUrl": "https://the-decoder.com/google-researchers-propose-faithful-uncertainty-to-fight-llm-hallucinations/",
-        "imageUrl": "https://deepmind.google/favicon.ico",
-        "category": "research",
-        "publishedAt": "2026-06-12"
-    },
-    {
-        "id": "xai-former-engineer-safety-whistleblower-suit-2026-06-12",
-        "title": "Former xAI engineer sues SpaceX and xAI, alleging he was fired for raising Grok safety and export-control concerns",
-        "summary": "Devin Kim, a former xAI engineer who left in September 2025 and is now president of the nonprofit Center for AI Safety, filed suit against xAI and SpaceX in California state court on June 12, 2026, alleging he was dismissed in retaliation for repeatedly warning that Grok could spread discrimination and weapons-related information; the complaint also claims co-founder Jimmy Ba sought to bypass EU safety testing for Grok Code 1 and ignored Musk's own directives on testing, days before SpaceX's expected record-breaking IPO.",
-        "source": "xAI",
-        "sourceUrl": "https://theaiinsider.tech/2026/06/12/former-xai-engineer-sues-elon-musks-companies-over-ai-safety-whistleblower-dismissal/",
-        "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
-        "category": "research",
-        "publishedAt": "2026-06-12"
-    },
-    {
-        "id": "meta-applied-ai-gulag-revolt-2026-06-12",
-        "title": "Meta's three-month-old Applied AI unit is in open revolt, with engineers calling it a 'soul-crushing gulag'",
-        "summary": "Wired reported on June 12, 2026 that Meta's three-month-old Applied AI organization of roughly 6,500 engineers and product managers is in revolt, with members describing the unit as 'soul-crushing' and more than 1,600 Meta employees company-wide signing a petition against a click-and-keystroke monitoring program used to train Muse Spark; Chief Product Officer Chris Cox acknowledged the 'brutal' environment on an internal call, and CEO Mark Zuckerberg followed up Friday with a memo admitting 'recent changes had caused distress' and committing to fix the mistakes.",
-        "source": "Meta",
-        "sourceUrl": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
-        "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
-        "category": "research",
-        "publishedAt": "2026-06-12"
-    },
-    {
-        "id": "anthropic-first-public-record-survey-2026-06-12",
-        "title": "Anthropic releases first Anthropic Public Record: 51,993 Americans surveyed, only 15% trust AI companies to decide for them",
-        "summary": "Anthropic published the first wave of its new Anthropic Public Record survey series on June 12, 2026, drawing on a nationally representative YouGov sample of 51,993 Americans fielded from November to December 2025; 48% ranked curing diseases in their top-three hopes for AI, 64% identified AI-induced job loss as their top fear, more than 70% want government regulation, and just 15% said they trust AI companies to make decisions about how AI is developed and used.",
-        "source": "Anthropic",
-        "sourceUrl": "https://www.anthropic.com/news/anthropic-public-record",
-        "imageUrl": "https://www.anthropic.com/favicon.ico",
-        "category": "research",
-        "publishedAt": "2026-06-12"
-    },
-    {
-        "id": "google-sues-outsider-enterprise-gemini-2026-06-12",
-        "title": "Google sues suspected Chinese 'Outsider Enterprise' ring for using Gemini to build 9,000 phishing sites and 2.5M scam texts",
-        "summary": "Google filed a lawsuit on June 12, 2026 against a suspected Chinese cybercrime group called the Outsider Enterprise, alleging it used Google's own Gemini chatbot to generate code for 9,000 fraudulent websites and more than one million malicious URLs, then sent over 2.5 million phishing texts to Android users in a two-week May campaign; the case is Google's second major AI-fraud suit after Lighthouse in 2025 and the first to explicitly allege generative AI as a tool in the scam supply chain.",
-        "source": "Google",
-        "sourceUrl": "https://thenextweb.com/news/google-gemini-outsider-enterprise-scam-lawsuit",
-        "imageUrl": "https://deepmind.google/favicon.ico",
-        "category": "capability",
-        "publishedAt": "2026-06-12"
-    },
-    {
-        "id": "anthropic-15m-sltt-cyber-defense-2026-06-12",
-        "title": "Anthropic launches $15M Claude cyber defense program for state, local, tribal and territorial governments",
-        "summary": "Anthropic announced a $15 million cyber defense program on June 12, 2026 that gives state, local, tribal and territorial (SLTT) governments up to $100,000 in Claude credits each to find and fix vulnerabilities using Claude Opus 4.8, Claude Security and Claude Code, plus hands-on support and weekly training from Anthropic's applied-AI team; the first cohort kicked off the same day with California and Texas signed on, and the program is distinct from the restricted-access Project Glasswing cyber initiative.",
-        "source": "Anthropic",
-        "sourceUrl": "https://www.statescoop.com/anthropic-launches-15m-cyber-defense-program-for-state-local-tribal-and-territorial-governments/",
-        "imageUrl": "https://www.anthropic.com/favicon.ico",
+        "id": "openai-academy-three-enterprise-courses-2026-06-15",
+        "title": "OpenAI Academy launches three enterprise courses - AI Foundations, Applied AI, and Agents and Workflows",
+        "summary": "OpenAI Academy introduced three new structured enterprise courses on June 12, 2026, with broad coverage on June 15, 2026 - AI Foundations, Applied AI Foundations, and Agents and Workflows - taking employees from basic AI literacy through repeatable prompt workflows to directing agent-assisted work; courses ship with completion certificates, were co-developed with BCG, Accenture and BBVA, and OpenAI says it is the 'beginning of a broader OpenAI Academy learning roadmap' with more role-based paths and organizational reporting planned.",
+        "source": "OpenAI",
+        "sourceUrl": "https://www.edtechinnovationhub.com/news/openai-academy-adds-courses-that-take-workplace-teams-from-prompts-to-agents",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
         "category": "product",
-        "publishedAt": "2026-06-12"
+        "publishedAt": "2026-06-15"
     },
     {
-        "id": "xai-grok-build-plugin-marketplace-2026-06-11",
-        "title": "xAI launches Grok Build Plugin Marketplace with MongoDB, Vercel, Sentry, Chrome DevTools, and Cloudflare",
-        "summary": "xAI launched the Grok Build Plugin Marketplace on June 11, 2026, a built-in catalog of plugins that bundle skills, slash commands, agents, hooks, MCP servers, and LSPs into a single installable package; the launch catalog ships six partners and pins every remote plugin to a 40-character commit SHA that Grok Build re-verifies after cloning.",
+        "id": "openai-multistate-probe-ipo-2026-06-15",
+        "title": "OpenAI hit with multi-state probe into possible user harm as its IPO looms",
+        "summary": "A multi-state coalition of attorneys general served OpenAI with a subpoena on June 12-13, 2026, with widespread coverage on June 15, seeking records on advertising, user engagement and retention, model sycophancy, consumer and health data, and treatment of minors and seniors; OpenAI told reporters it will respond 'constructively' and that today's ChatGPT includes stronger safeguards for minors, and the probe lands just days after OpenAI filed a confidential S-1 with the SEC and hours before rival SpaceX's IPO.",
+        "source": "OpenAI",
+        "sourceUrl": "https://www.techtimes.com/articles/318412/20260615/openai-multistate-probe-possible-user-harm-ipo-looms.htm",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+        "category": "research",
+        "publishedAt": "2026-06-15"
+    },
+    {
+        "id": "google-ai-mode-info-agents-2026-06-15",
+        "title": "Google AI Mode launches information agents for AI Ultra subscribers, proactively tracking topics over time",
+        "summary": "Google Search VP Robby Stein announced on June 15, 2026 that AI Mode now ships 'information agents' for AI Ultra subscribers across all languages and markets; users can ask the search agent to keep them updated on topics like sneaker drops, concerts, or movie tickets, and the agent will pull from blogs, news sites and social platforms, sending a notification the moment something relevant changes; the feature is the first concrete product from the Search agents Google unveiled at I/O 2026, with AI Pro access planned for later this summer.",
+        "source": "Google",
+        "sourceUrl": "https://www.androidauthority.com/google-search-information-agents-ai-ultra-subscribers-3677456/",
+        "imageUrl": "https://deepmind.google/favicon.ico",
+        "category": "product",
+        "publishedAt": "2026-06-15"
+    },
+    {
+        "id": "google-deepmind-multi-agent-safety-10m-2026-06-15",
+        "title": "Google DeepMind, Schmidt Sciences and ARIA open $10M funding call for multi-agent AI safety research",
+        "summary": "Google DeepMind, Schmidt Sciences, the Cooperative AI Foundation, ARIA and Google.org opened a $10M funding call on June 14-15, 2026 for research into the safety of large populations of AI agents interacting across shared digital systems; Tier 1 grants run up to $300K and Tier 2 grants from $300K to $1M for 1-2 year projects, proposals are due August 8, 2026, and the call follows DeepMind's recent 'distributional AGI safety' paper arguing advanced capabilities may emerge through coordinated agent networks rather than a single monolith.",
+        "source": "Google",
+        "sourceUrl": "https://www.edtechinnovationhub.com/news/google-deepmind-and-partners-put-10m-behind-multi-agent-ai-safety-research",
+        "imageUrl": "https://deepmind.google/favicon.ico",
+        "category": "research",
+        "publishedAt": "2026-06-15"
+    },
+    {
+        "id": "anthropic-foreign-access-block-reversal-2026-06-15",
+        "title": "US order to block foreign access to Anthropic's top models marks first AI-specific export-control reversal",
+        "summary": "The Next Web reported on June 15, 2026 that the US government's June 12 directive to Anthropic is the first export-control measure aimed at specific AI models rather than chips or the hardware that runs them; because the directive targets foreign nationals on a multi-tenant cloud service, the only practical compliance path was to switch the models off globally, and Anthropic says the same standard 'could essentially halt all new model deployments' across the industry if it became the template.",
+        "source": "Anthropic",
+        "sourceUrl": "https://thenextweb.com/news/anthropic-foreign-access-block-us-reversal",
+        "imageUrl": "https://www.anthropic.com/favicon.ico",
+        "category": "research",
+        "publishedAt": "2026-06-15"
+    },
+    {
+        "id": "cyber-experts-letter-lutnick-anthropic-2026-06-15",
+        "title": "76 cybersecurity experts blast US government for restricting Anthropic's Fable 5 and Mythos 5",
+        "summary": "Dozens of prominent cybersecurity CEOs, CISOs, venture capitalists and researchers - 76 signatures as of Monday morning - sent a letter on June 14-15, 2026 to Commerce Secretary Howard Lutnick and National Cyber Director Sean Cairncross criticizing the Trump administration's export-control directive on Anthropic; the letter argues the action 'has taken the best models away from defenders, created market uncertainty, and risked America's AI leadership without any real risk to justify it', and warns that China is 'only months behind the best American models' on cyber capability.",
+        "source": "Anthropic",
+        "sourceUrl": "https://www.cybersecuritydive.com/news/anthropic-us-government-export-ban-mythos-fable/822909/",
+        "imageUrl": "https://www.anthropic.com/favicon.ico",
+        "category": "research",
+        "publishedAt": "2026-06-15"
+    },
+    {
+        "id": "xai-grok-automations-skills-model-selector-2026-06-15",
+        "title": "xAI upgrades Grok Tasks to Grok Automations with reusable skills, model selector, and live X data",
+        "summary": "xAI launched Grok Automations on June 15, 2026 as a substantial upgrade from Grok Tasks, introducing reusable skills (prebuilt and bespoke), a model selector that routes each task to the appropriate Grok model, and deep integration with real-time data from X; the launch ships alongside the Grok Build CLI and a marketplace for plugins, and xAI explicitly positions the move away from the cryptocurrency/tokenization path other AI platforms are taking, betting instead on tangible software enhancements.",
         "source": "xAI",
-        "sourceUrl": "https://www.marktechpost.com/2026/06/11/xai-ships-grok-build-plugin-marketplace-with-mongodb-vercel-sentry-chrome-devtools-cloudflare-and-superpowers-plugins-at-launch/",
+        "sourceUrl": "https://www.valuethemarkets.com/cryptocurrency/news/xai-enhances-grok-tasks-to-grok-automations-a-step-towards-advanced-ai-integration",
         "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
-        "category": "tool",
-        "publishedAt": "2026-06-11"
+        "category": "product",
+        "publishedAt": "2026-06-15"
+    },
+    {
+        "id": "xai-safety-lawsuit-kim-csam-2026-06-15",
+        "title": "xAI safety lawsuit deepens as Kim complaint cites 23,000 suspected CSAM images, four state probes, and ignored fixes",
+        "summary": "An AI CERTs News analysis on June 15, 2026 reports that Devin Kim's whistleblower suit against xAI and SpaceX is now part of a broader 'AI Safety Lawsuit' template being filed in Connecticut, California, Baltimore and the UK, citing the same product flaws; the Center for Countering Digital Hate counted 23,000 sexualized child images in 11 days of Grok testing, four US states and one UK jurisdiction have opened formal probes since January 2026, and Moody's has flagged the governance dispute as a credit-watch item ahead of the SpaceX IPO.",
+        "source": "xAI",
+        "sourceUrl": "https://www.aicerts.ai/news/ai-safety-lawsuit-rocks-xai-governance/",
+        "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
+        "category": "research",
+        "publishedAt": "2026-06-15"
+    },
+    {
+        "id": "nvidia-moe-fusion-kernels-deepseek-gpt-oss-2026-06-15",
+        "title": "NVIDIA ships fused MoE MLP kernels that cut DeepSeek-V3 training time 8% and GPT-OSS 93%",
+        "summary": "NVIDIA published a technical blog on June 15, 2026 describing advanced fused MLP kernels built with the CuTe DSL that target the memory and synchronization bottlenecks of mixture-of-experts training; the kernels ship in the cuDNN Frontend and integrate with Transformer Engine and Megatron Core, delivering 1.3x-2x kernel-level speedups, full-iteration CUDA Graph support, native quantization (MXFP8, NVFP4), and end-to-end training-time improvements of up to 8% on DeepSeek-V3 and 93% on GPT-OSS, with JAX support in development.",
+        "source": "NVIDIA",
+        "sourceUrl": "https://developer.nvidia.com/blog/boosting-moe-training-throughput-with-advanced-fusion-kernels/",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
+        "category": "research",
+        "publishedAt": "2026-06-15"
+    },
+    {
+        "id": "nvidia-world-action-models-wam-dreamzero-2026-06-15",
+        "title": "NVIDIA spotlights 'World-Action Models' as DreamZero tops April 2026 RoboArena ahead of Pi-0.5",
+        "summary": "NVIDIA's technical blog on June 15, 2026 surveys the rise of World-Action Models (WAMs) - robot foundation models that use pretrained video backbones like Wan and Cosmos to jointly denoise video and action tokens, with NVIDIA's own DreamZero leading the April 2026 RoboArena leaderboard at 1750 points (above Pi-0.5's 1622); the post frames WAMs as a credible alternative to the VLA (vision-language-action) recipe established by Pi-0 and used by NVIDIA GR00T, Xiaomi Robotics and Being-H0.5, and predicts VLA-WAM hybrids as the likely next step.",
+        "source": "NVIDIA",
+        "sourceUrl": "https://developer.nvidia.com/blog/pretrained-to-imagine-fine-tuned-to-act-the-rise-of-world-action-models/",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
+        "category": "research",
+        "publishedAt": "2026-06-15"
+    },
+    {
+        "id": "microsoft-mirage-video-world-55x-less-memory-2026-06-15",
+        "title": "Microsoft Research's Mirage cuts video world-model GPU memory 55x and compute 10x, tops WorldScore",
+        "summary": "Microsoft Research, Zhejiang University, the University of Adelaide and Monash University posted arXiv preprint 2606.09828 on June 15, 2026 introducing Mirage, a video world model that moves the spatial-consistency memory into the model's latent space rather than keeping it in pixel space; Mirage reaches up to 10.57x faster end-to-end video generation, a 55x smaller VRAM footprint and state-of-the-art WorldScore results, beating the pixel-space point-cloud approach used by Google DeepMind's Genie 3, Runway's GWM-1 and NVIDIA's Cosmos; code is open-sourced on Microsoft's GitHub.",
+        "source": "Microsoft",
+        "sourceUrl": "https://www.techtimes.com/articles/318412/20260615/microsoft-mirage-fixes-ai-video-world-model-drift-55x-less-gpu-memory.htm",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
+        "category": "research",
+        "publishedAt": "2026-06-15"
+    },
+    {
+        "id": "microsoft-azure-copilot-investor-lawsuit-2026-06-15",
+        "title": "Microsoft faces proposed securities class action over Azure and Copilot AI disclosures",
+        "summary": "The City of St. Clair Shores Police and Fire Retirement System filed a proposed class action in the US District Court for the Western District of Washington on June 12, 2026, with coverage on June 15, alleging Microsoft overstated its AI positioning and understated capacity holdbacks and slower-than-expected Copilot subscription conversions; the complaint says Microsoft's January 28 Q2 FY26 earnings - which showed Azure growth slowing because of computational capacity holdbacks - revealed the misrepresentations, and Bloomberg Law reports the suit also names dealings with OpenAI among the alleged misstatements.",
+        "source": "Microsoft",
+        "sourceUrl": "https://news.bloomberglaw.com/ip-law/microsoft-investor-sues-over-ai-expenditures-copilot-struggles",
+        "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
+        "category": "research",
+        "publishedAt": "2026-06-15"
+    },
+    {
+        "id": "zhipu-glm-5-2-open-source-stock-jump-2026-06-15",
+        "title": "Zhipu AI stock rockets 48% as it makes GLM-5.2 open source the same week Anthropic's Fable 5 was banned",
+        "summary": "South China Morning Post reported on June 15, 2026 that shares of Zhipu AI (trading as Knowledge Atlas Technology) surged as much as 48% to HK$1,620 in Hong Kong morning trade after the company confirmed it would release GLM-5.2 under an MIT open-source license that week; the stock is now up more than 780% since its blockbuster January IPO, the timing undercuts Anthropic's now-banned Fable 5, and the GLM Coding Plan is positioned at roughly a tenth of Claude Code / Claude Max pricing, with full open weights arriving during the week of June 16.",
+        "source": "Zhipu AI",
+        "sourceUrl": "https://www.scmp.com/tech/tech-trends/article/3357115/zhipu-ais-stock-rockets-after-chinese-firm-makes-glm-52-open-source",
+        "imageUrl": "https://zhipuai.cn/favicon.ico",
+        "category": "model",
+        "publishedAt": "2026-06-15"
     }
 ]

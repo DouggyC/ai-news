@@ -1394,5 +1394,20 @@
     "functionCalling": true,
     "json": true,
     "search": false
+  },
+  "glm-5.2": {
+    "provider": "Zhipu AI",
+    "parameters": 744000000000,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": true,
+    "license": "MIT",
+    "mmlu": 86.0,
+    "humaneval": 82.0,
+    "multimodal": false,
+    "vision": false,
+    "functionCalling": true,
+    "json": true,
+    "search": false
   }
 }

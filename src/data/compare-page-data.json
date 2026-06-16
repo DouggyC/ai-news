@@ -1494,5 +1494,29 @@
     "functionCalling": true,
     "json": true,
     "search": false
+  },
+  {
+    "id": "glm-5.2",
+    "name": "GLM-5.2",
+    "provider": "Zhipu AI",
+    "openSource": true,
+    "license": "MIT",
+    "releaseDate": "2026-06-13",
+    "parameters": 744000000000,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "inputPrice": 1.4,
+    "outputPrice": 4.4,
+    "free": false,
+    "mmlu": 86,
+    "mmluPlus": 82,
+    "humaneval": 82,
+    "liveBench": 65,
+    "gpqa": 88,
+    "multimodal": false,
+    "vision": false,
+    "functionCalling": true,
+    "json": true,
+    "search": false
   }
 ]

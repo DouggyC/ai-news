@@ -5,7 +5,7 @@
       "Google": {
         "name": "Gemini 3.5 Flash",
         "url": "https://deepmind.google/technologies/gemini/",
-        "description": "Flagship multimodal model (May 19, 2026) now default across Gemini app, AI Mode in Search, and Gemini Enterprise. 1M context, 4x faster than other frontier models, native to Antigravity 2.0 agentic dev platform. Gemini 3.5 Pro expected this month."
+        "description": "Flagship multimodal model (May 19, 2026) now default across Gemini app, AI Mode in Search, and Gemini Enterprise. 1M context, 4x faster than other frontier models, native to Antigravity 2.0 agentic dev platform. Gemini 3.5 Pro confirmed for June 2026 GA (announced at I/O 2026, May 19): 2M-token context window, Deep Think reasoning mode, frontier multimodal; pricing expected ~$15/$60 per 1M tokens. Limited Vertex enterprise preview began in late May; Polymarket odds >70% for late-June launch."
       },
       "Amazon": {
         "name": "Nova 2",
@@ -15,12 +15,12 @@
       "OpenAI": {
         "name": "GPT-5.5",
         "url": "https://developers.openai.com/api/docs/guides/latest-model",
-        "description": "Frontier reasoning model (April 23, 2026), GPT-5.5 and GPT-5.5 Pro in API (April 24). GPT-5.5 Instant default in ChatGPT since June 3, 2026. Powers Codex (including Codex Mobile preview May 14, 2026), Deep Research, voice, image, agent tools. GPT-5.6 'kindle-alpha' checkpoint surfacing in Codex logs; Polymarket prices June 30 release at 80-89%."
+        "description": "Frontier reasoning model (April 23, 2026), GPT-5.5 and GPT-5.5 Pro in API (April 24). GPT-5.5 Instant default in ChatGPT since June 3, 2026. Powers Codex (including Codex Mobile preview May 14, 2026), Deep Research, voice, image, agent tools. GPT-5.6 'kindle-alpha' checkpoint surfacing in Codex logs; Polymarket prices June 30 release at 80-89%. Chief Scientist Jakub Pachocki (June 11, 2026): GPT-5.6 is a 'meaningful improvement' over GPT-5.5 with efficiency and safety upgrades; integrates coding, reasoning, and general-purpose into a single architecture ahead of the ChatGPT superapp overhaul and the confidential S-1 IPO filing (June 8, 2026). Targeted release window June 15 \u2013 July 5, 2026."
       },
       "Anthropic": {
         "name": "Claude Fable 5",
         "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-        "description": "Anthropic's first Mythos-class generally available model (June 9, 2026) at $10/$50 per 1M tokens. SOTA on SWE-Bench Pro 80.3%, FrontierCode 29.3%, OSWorld 83.4%, Humanity's Last Exam 49.8% (57.9% w/ tools). 1M context, 128K output, adaptive thinking, vision. Falls back to Opus 4.8 for cyber/biology/chemistry/distillation. Claude Mythos 5 available to Project Glasswing. SUSPENDED June 12, 2026 by US government export control directive over alleged narrow jailbreak \u2014 disabled for all customers worldwide pending review. Free for Pro/Max/Team/Enterprise through June 22, 2026; from June 23 requires usage credits. Claude Opus 4.8 (May 28, 2026) at $5/$25 remains the default Claude surface. Legacy claude-opus-4 and claude-sonnet-4 retired June 15, 2026."
+        "description": "Anthropic's first Mythos-class generally available model (June 9, 2026) at $10/$50 per 1M tokens. SOTA on SWE-Bench Pro 80.3%, FrontierCode 29.3%, OSWorld 83.4%, Humanity's Last Exam 49.8% (57.9% w/ tools). 1M context, 128K output, adaptive thinking, vision. Falls back to Opus 4.8 for cyber/biology/chemistry/distillation. Claude Mythos 5 available to Project Glasswing (expanded June 2, 2026 from ~50 to ~150 organizations across 15+ countries including power/water/healthcare/communications and Okta, Samsung, SK Hynix, SK Telecom, NATO, ENISA). SUSPENDED June 12, 2026 by US government export control directive (Commerce Department) over alleged narrow jailbreak \u2014 disabled for all customers worldwide (including foreign national Anthropic employees) pending review; Trump administration (June 15) cited Anthropic's 'recklessness' in responding to initial concerns. Free for Pro/Max/Team/Enterprise through June 22, 2026; from June 23 requires usage credits. Claude Opus 4.8 (May 28, 2026) at $5/$25 remains the default Claude surface. Legacy claude-opus-4 and claude-sonnet-4 retired June 15, 2026. Claude Security uses Opus 4.8 (released alongside) to scan codebases and suggest patches."
       },
       "xAI": {
         "name": "Grok 4.3",
@@ -74,7 +74,7 @@
       "Alibaba": {
         "name": "Qwen 3.7-Max",
         "url": "https://www.alibabacloud.com/blog/qwen3-7-the-agent-frontier_603154",
-        "description": "Alibaba's new flagship model (May 26, 2026, Singapore Qwen Conference) with 1T+ parameters, 1M context, runs 35 hours autonomously without performance degradation. Top-tier on Artificial Analysis Intelligence Index. Powers Wukong enterprise platform, Qwen App with full Taobao integration, and Qwen Cloud agentic platform. Qwen3.6-Plus also available."
+        "description": "Alibaba's new flagship model (May 26, 2026, Singapore Qwen Conference) with 1T+ parameters, 1M context, runs 35 hours autonomously without performance degradation. Top-tier on Artificial Analysis Intelligence Index. Powers Wukong enterprise platform, Qwen App with full Taobao integration, and Qwen Cloud agentic platform. Qwen3.7-Plus launched June 2, 2026 as multimodal agent model (~$0.40/$2.40 per 1M tokens, ~60% cheaper than Qwen3.7-Max), #5 globally on Vision Arena, ScreenSpot Pro 79.0 / Terminal-Bench 70.3, GUI/CLI hybrid agent, video and driving-scene understanding. Model Studio CLI (June 8, 2026) open-sources 150+ multimodal models for agent access (Qwen, HappyHorse, Wan, DeepSeek, Kimi). Qwen-powered AI swine diagnosis assistant with Muyuan Group launched June 8, 2026."
       },
       "Microsoft": {
         "name": "MAI-Thinking-1",
@@ -114,7 +114,7 @@
       "OpenAI": {
         "name": "ChatGPT",
         "url": "https://developers.openai.com/chatgpt",
-        "description": "Powered by GPT-5.5 with GPT-5.5 Instant as default since June 3, 2026 (readability upgrade May 28). Personal Finance experience (May 15) for Pro users with Plaid. ChatGPT for Excel and Google Sheets GA (May 5). Voice intelligence updates May 7 with GPT-Realtime-2, GPT-Realtime-Translate, GPT-Realtime-Whisper. Codex Mobile interface in ChatGPT iOS/Android (May 14, 2026). OpenAI Partner Network launched June 14, 2026 with $150M program and three tiers (Select/Advanced/Elite) targeting 300,000 certified consultants by end of 2026 \u2014 Forward Deployed Experts pilot for complex enterprise deployments."
+        "description": "Powered by GPT-5.5 with GPT-5.5 Instant as default since June 3, 2026 (readability upgrade May 28). Personal Finance experience (May 15) for Pro users with Plaid. ChatGPT for Excel and Google Sheets GA (May 5). Voice intelligence updates May 7 with GPT-Realtime-2, GPT-Realtime-Translate, GPT-Realtime-Whisper. Codex Mobile interface in ChatGPT iOS/Android (May 14, 2026) with worktrees, Codex profile screen, /goal support, inline review comments. OpenAI Partner Network launched June 14, 2026 with $150M program and three tiers (Select/Advanced/Elite) targeting 300,000 certified consultants by end of 2026 \u2014 Forward Deployed Experts pilot for complex enterprise deployments. Pinned Chats and revamped Projects rolled out across web/Android/iOS on June 15, 2026 \u2014 pin important conversations to the top of the sidebar, group related chats and files into per-project workspaces with per-project custom instructions. ChatGPT Superapp overhaul (coding tools, agents, third-party Canva/Booking.com integrations) planned for rollout over coming weeks ahead of confidential IPO filing."
       },
       "Anthropic": {
         "name": "Claude",
@@ -128,7 +128,7 @@
       },
       "Meta": {
         "name": "Meta AI",
-        "description": "Powered by Muse Spark. Meta AI app rebuilt natively on May 12, 2026: Contemplating mode (multi-agent visible parallel reasoning), Live AI camera for real-time vision streaming, Marketplace shopping agent across WhatsApp, Instagram, Facebook. Free at meta.ai and across Meta apps, Instagram, Facebook, Messenger, WhatsApp. Rolling out to Ray-Ban Meta glasses. Meta Business Agent (June 3, 2026) is the customer-facing business AI deployed on WhatsApp, Messenger, and Instagram (1M+ businesses, 1B+ daily threads) with morning briefings. Meta Business Agent Platform provides enterprise-scale agent building, customization, and deployment with Shopify/Zendesk/Shopee connectors. Meta Creator Assistant (June 14, 2026) is the conversational AI inside Facebook creator dashboards that explains audience data, content performance, and engagement patterns in plain language (US, Canada, India). Meta One Plus ($7.99) and Meta One Premium ($19.99) AI plans launched May 27, 2026 in Singapore, Guatemala, Bolivia."
+        "description": "Powered by Muse Spark. Meta AI app rebuilt natively on May 12, 2026: Contemplating mode (multi-agent visible parallel reasoning), Live AI camera for real-time vision streaming, Marketplace shopping agent across WhatsApp, Instagram, Facebook. Free at meta.ai and across Meta apps, Instagram, Facebook, Messenger, WhatsApp. Rolling out to Ray-Ban Meta glasses. Meta Business Agent (June 3, 2026) is the customer-facing business AI deployed on WhatsApp, Messenger, and Instagram (1M+ businesses, 1B+ daily threads) with morning briefings. Meta Business Agent Platform provides enterprise-scale agent building, customization, and deployment with Shopify/Zendesk/Shopee connectors. Meta Creator Assistant (June 14, 2026) is the conversational AI inside Facebook creator dashboards that explains audience data, content performance, and engagement patterns in plain language (US, Canada, India). Meta One Plus ($7.99) and Meta One Premium ($19.99) AI plans launched May 27, 2026 in Singapore, Guatemala, Bolivia. Facebook AI Mode launched June 15, 2026 \u2014 new search tab on Facebook that uses Meta AI to surface conversational answers pulled from public posts across Groups, Reels, and Marketplace (US first). Meta Edits App desktop version and AI Production Assistant launched June 15, 2026 at LA creator event \u2014 desktop video editor with AI assistant for content ideas and analytics-based guidance, integrates with Adobe Premiere / DaVinci Resolve workflows."
       },
       "Amazon": {
         "name": "Amazon Q",
@@ -138,7 +138,7 @@
       "xAI": {
         "name": "Grok",
         "url": "https://grok.com",
-        "description": "Powered by Grok 4.3 with Connectors for web, iOS, Android. MCP server support. Custom Voices (Apr 30, 2026), $4.20 per 1M characters for TTS. Grok Skills (May 22, 2026) for persistent custom expertise, file/deck/spreadsheet/PDF generation. Grok Build early beta for SuperGrok Heavy subscribers (May 14, 2026). Grok Business and Enterprise tiers. Grok Build Plugin Marketplace (June 11, 2026) with skills/MCP/plugins from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. Gopuff Go agent (June 9, 2026) powered by Grok text/audio/image. eToro Tori (June 10, 2026) with real-time market sentiment from X. Grok Voice API default for Vapi (June 3, 2026)."
+        "description": "Powered by Grok 4.3 with Connectors for web, iOS, Android. MCP server support. Custom Voices (Apr 30, 2026), $4.20 per 1M characters for TTS. Grok Skills (May 22, 2026) for persistent custom expertise, file/deck/spreadsheet/PDF generation. Grok Build early beta for SuperGrok Heavy subscribers (May 14, 2026). Grok Business and Enterprise tiers. Grok Build Plugin Marketplace (June 11, 2026) with skills/MCP/plugins from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. Gopuff Go agent (June 9, 2026) powered by Grok text/audio/image. eToro Tori (June 10, 2026) with real-time market sentiment from X. Grok Voice API default for Vapi (June 3, 2026). June 15, 2026: Grok Build gains multi-session manager \u2014 manage many coding sessions at once, see what each is doing, reply to ones that need you, and dispatch new work. Grok V9-Medium (1.5T params, Cursor-trained coding model) finished training May 25 with public release expected mid-June 2026 (Polymarket ~30% odds of Grok 5 by June 30, 2026; Grok 5 still training on Colossus 2 1.5GW)."
       },
       "DeepSeek": {
         "name": "DeepSeek Chat",
@@ -203,7 +203,7 @@
       "OpenAI": {
         "name": "Codex",
         "url": "https://developers.openai.com/codex/ide",
-        "description": "IDE extension and cloud coding agent powered by GPT-5.5. Available in VS Code, GitHub, JetBrains, Xcode, Eclipse, and the Codex CLI. Mobile preview inside ChatGPT iOS/Android (May 14, 2026) supervises Codex sessions on Mac. Safe coding commitment May 8, 2026. On AWS Bedrock (April 28, 2026). 5M+ weekly active users (June 2, 2026). Six role-specific enterprise plugins (data analytics, creative production, sales, product design, equity investing, investment banking) plus Annotations and Sites (June 2, 2026) for building/deploying internal web apps. Acquiring Ona (announced June 11, 2026) for secure customer-controlled cloud execution \u2014 Ona's persistent sandboxed environments let agents work in customer-owned clouds for hours or days."
+        "description": "IDE extension and cloud coding agent powered by GPT-5.5. Available in VS Code, GitHub, JetBrains, Xcode, Eclipse, and the Codex CLI. Mobile preview inside ChatGPT iOS/Android (May 14, 2026) supervises Codex sessions on Mac \u2014 June 8, 2026 update adds worktrees (create/switch branches and run setup scripts from device), Codex profile screen with usage stats and token activity charts, /goal support for creating/managing goals from Codex Mobile, inline review comments when viewing changed files, ask-in-thread from transcript selection, edit previously sent prompts. Safe coding commitment May 8, 2026. On AWS Bedrock (April 28, 2026). 5M+ weekly active users (June 2, 2026). Six role-specific enterprise plugins (data analytics, creative production, sales, product design, equity investing, investment banking) plus Annotations and Sites (June 2, 2026) for building/deploying internal web apps. Acquiring Ona (announced June 11, 2026) for secure customer-controlled cloud execution \u2014 Ona's persistent sandboxed environments let agents work in customer-owned clouds for hours or days."
       },
       "Anthropic": {
         "name": "Claude Code",
@@ -238,7 +238,7 @@
       "xAI": {
         "name": "Grok Build",
         "url": "https://grok.com",
-        "description": "xAI coding agent and CLI (May 14, 2026) for SuperGrok/X Premium+ subscribers, in early beta. Plan mode for approve-before-execute workflows. Grok Build Plugin Marketplace (June 11, 2026) bundles skills, slash commands, agents, hooks, MCP servers, and LSPs into installable packages from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. /marketplace to browse. Parallel subagents, headless mode (-p) for scripting. ACP support for custom bots."
+        "description": "xAI coding agent and CLI (May 14, 2026) for SuperGrok/X Premium+ subscribers, in early beta. Plan mode for approve-before-execute workflows. Grok Build Plugin Marketplace (June 11, 2026) bundles skills, slash commands, agents, hooks, MCP servers, and LSPs into installable packages from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. /marketplace to browse. Parallel subagents, headless mode (-p) for scripting. ACP support for custom bots. June 15, 2026 update: multi-session manager \u2014 manage many coding sessions at once, see what each is doing, reply to ones that need you, dispatch new work. Composer 2.5 now default in /models menu (June 1, 2026). Grok Build 0.1 API ($1/$2 per 1M tokens, 100+ tok/s) public beta since May 29, 2026."
       },
       "Microsoft-Code": {
         "name": "MAI-Code-1-Flash",
@@ -268,7 +268,7 @@
       "xAI": {
         "name": "Grok Build CLI",
         "url": "https://grok.com",
-        "description": "xAI terminal coding agent (May 14, 2026) for SuperGrok/X Premium+ subscribers, in early beta. Plan mode, parallel subagents, deep worktree integrations. Grok Build Plugin Marketplace (June 11, 2026) for installing skills/MCP/plugins from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. ACP support for custom bots and orchestration. Headless mode for CI/CD. grok-build-0.1 API (May 29, 2026) at $1/$2 per 1M tokens, 100+ tok/s."
+        "description": "xAI terminal coding agent (May 14, 2026) for SuperGrok/X Premium+ subscribers, in early beta. Plan mode, parallel subagents, deep worktree integrations. Grok Build Plugin Marketplace (June 11, 2026) for installing skills/MCP/plugins from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. ACP support for custom bots and orchestration. Headless mode for CI/CD. grok-build-0.1 API (May 29, 2026) at $1/$2 per 1M tokens, 100+ tok/s. June 15, 2026 update: multi-session manager \u2014 manage many coding sessions at once, see what each is doing, reply to ones that need you, dispatch new work. Composer 2.5 now default in /models menu (June 1, 2026). Grok V9-Medium (1.5T params, Cursor-trained coding model) finished training May 25 with public release expected mid-June 2026."
       },
       "JetBrains": {
         "name": "TeamCity CLI",
@@ -352,7 +352,7 @@
       "xAI": {
         "name": "xAI API",
         "url": "https://docs.x.ai",
-        "description": "Developer access to Grok 4.3 ($1.25/$2.50 per 1M tokens) and grok-4.20 (2M context). Custom Voices TTS ($4.20/1M chars), Voice Agent API ($3/hr). grok-imagine-image-quality for image generation. grok-build-0.1 for terminal coding workflows. Responses API with tool calling (May 22, 2026). Grok 5 in training on Colossus 2. Grok Build Plugin Marketplace (June 11, 2026) for skills, slash commands, agents, hooks, MCP servers, and LSPs from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. Voice API default for Vapi (June 3, 2026). Gopuff Go and eToro Tori agent integrations."
+        "description": "Developer access to Grok 4.3 ($1.25/$2.50 per 1M tokens) and grok-4.20 (2M context). Custom Voices TTS ($4.20/1M chars), Voice Agent API ($3/hr). grok-imagine-image-quality for image generation. grok-imagine-video-1.5-preview (June 3, 2026, 720p image-to-video, #1 Artificial Analysis Video Arena Image-to-Video at Elo 1404, 15-second clips). grok-build-0.1 for terminal coding workflows. Composer 2.5 in Grok Build (June 1, 2026). Responses API with tool calling (May 22, 2026). Grok 5 in training on Colossus 2 (1.5GW); Grok V9-Medium (1.5T params, Cursor-trained coding model) finished training May 25, 2026 with public release expected mid-June 2026. Grok Build Plugin Marketplace (June 11, 2026) for skills, slash commands, agents, hooks, MCP servers, and LSPs from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. Voice API default for Vapi (June 3, 2026). Gopuff Go and eToro Tori agent integrations. June 15, 2026: multi-session coding manager (manage many coding sessions at once from Grok Build)."
       },
       "DeepSeek": {
         "name": "DeepSeek API",
@@ -467,7 +467,7 @@
       "JetBrains": {
         "name": "AI Assistant",
         "url": "https://www.jetbrains.com/ai/",
-        "description": "In-IDE assistant for completion, chat, refactors, and team model routing. Junie integration, ACP Agent Registry, BYOK support. TeamCity AI Assistant in Enterprise trial."
+        "description": "In-IDE assistant for completion, chat, refactors, and team model routing. Junie integration, ACP Agent Registry, BYOK support. Mellum2 12B open-source model (June 1, 2026, Apache 2.0) integrates into IntelliJ IDEA, PyCharm, WebStorm, and Android Studio via the AI Assistant plugin for local/on-prem code intelligence \u2014 base, instruct, and thinking checkpoints on Hugging Face, runs in PyTorch/GGUF with Ollama and vLLM support. TeamCity AI Assistant in Enterprise trial."
       },
       "Cursor": {
         "name": "Background Agent",
@@ -570,7 +570,7 @@
       "Midjourney": {
         "name": "Midjourney",
         "url": "https://updates.midjourney.com",
-        "description": "V8.1 became the default model on midjourney.com on June 10, 2026 after launching April 30, 2026 on Discord and web. Standard jobs now render 4-5x faster than earlier versions, sharper HD images, and improved prompt adherence. Moodboards and sref stable. V8.2 delayed to this month for aesthetic upgrade; V9 in development."
+        "description": "V8.1 became the default model on midjourney.com on June 10, 2026 after launching April 30, 2026 on Discord and web. Standard jobs now render 4-5x faster than earlier versions, sharper HD images (2x size, 4x resolution vs V7 in HD), and improved prompt adherence. V8.0 alpha deprecating within two weeks of June 10, 2026. V7 omni-reference still used for OREF features until V8 version is ready. Moodboards and sref stable. June 3, 2026 office hours: V8.2 delayed to this month for aesthetic upgrade and personalization; new multi-reference editing model in development (instruction-based editing, camera control, multi-character coherence, OREF for V8) with first versions in dataset/model refinement; V9 research prep begun; major site/prompt-bar redesign in testing (50+ user research sessions informed unified settings/prompt surface, two-way sync between parameters and prompts). Larger batch generation in active testing, new upscaler in development. June 10, 2026 office hours: Korean translation pilot via Crowdin, larger-batch generation mostly through interface work."
       },
       "StabilityAI": {
         "name": "Stable Diffusion 3.5",
@@ -869,7 +869,7 @@
       "Salesforce": {
         "name": "Agentforce",
         "url": "https://www.salesforce.com/agentforce",
-        "description": "Salesforce's enterprise agent platform. Agentforce 1 Editions with 12,000+ ARR as of Q4 FY26, $800M ARR (+169% YoY) heading into Q1 FY27 earnings May 27, 2026. Headless 360 architecture (April 2026 TDX) exposes every Salesforce capability as API, MCP tool, or CLI. Operations released May 3 with 30+ back-office blueprints."
+        "description": "Salesforce's enterprise agent platform. Agentforce 1 Editions with 12,000+ ARR as of Q4 FY26, $800M ARR (+169% YoY) heading into Q1 FY27 earnings May 27, 2026. Headless 360 architecture (April 2026 TDX) exposes every Salesforce capability as API, MCP tool, or CLI. Operations released May 3 with 30+ back-office blueprints. Summer '26 release GA on June 15, 2026 (API v67.0): Multi-Agent Orchestration graduates from beta to GA (Atlas Reasoning Engine 3.0, one orchestrator routes dynamically across registered subagents), Agentforce Self-Service (Help Agent setup in 6 clicks, Portal experience, simplified pricing), Customer Engagement Agent (24/7 lead capture with warm handoff to sales), Momentum (auto-captures calls/emails/meetings back to Salesforce for agentic selling), Scheduling Console (AI-powered dispatch with map routes), Tableau MCP and Salesforce-hosted MCP servers GA. Setup with Agentforce now GA (May 2026) for admins; legacy agent upgrade to new Agentforce Builder; OpenAI Search provider GA for Bring Your Own Channel."
       }
     }
   },
@@ -1004,7 +1004,7 @@
       "Salesforce": {
         "name": "Agentforce Coworker",
         "url": "https://www.salesforce.com/blog/agentforce-coworker-salesforce-ai-teammate/",
-        "description": "Autonomous AI teammate (May 21, 2026, beta) embedded in Salesforce, Slack, Microsoft Teams, ChatGPT, Claude, and mobile. Headless-first, inherits Data 360 permissions and governance. Setup with Agentforce GA (May 26, 2026). Reduces 1.8hr/day search tax per knowledge worker."
+        "description": "Autonomous AI teammate (May 21, 2026, beta) embedded in Salesforce, Slack, Microsoft Teams, ChatGPT, Claude, and mobile. Headless-first, inherits Data 360 permissions and governance. Setup with Agentforce GA (May 26, 2026). Reduces 1.8hr/day search tax per knowledge worker. Summer '26 (GA June 15, 2026): Setup with Agentforce is now GA, legacy agents can be upgraded to new Agentforce Builder in a few clicks, Multi-Agent Orchestration GA for unified subagent teams, full Agent Script and hybrid reasoning implementation guide updated, new Testing Center and Observability capabilities."
       }
     }
   },

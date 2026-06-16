@@ -150,8 +150,8 @@
  "mmlu":85.0,
  "humaneval":88.0,
  "livebench":60.0,
- "mmluPlus":80.0,
- "gpqa":64.6
+ "mmluPlus":76.0,
+ "gpqa":67.2
  },
  {
  "id": "gemini-3.1-pro",
@@ -426,7 +426,7 @@
  "humaneval":72.0,
  "livebench":55.0,
  "mmluPlus": null,
- "gpqa":82.8
+ "gpqa":85.5
  },
  {
  "id": "nemotron-3-ultra-550b",
@@ -590,8 +590,8 @@
  "mmlu":92.4,
  "humaneval":98.2,
  "livebench":59.1,
- "mmluPlus":88.9,
- "gpqa":81.0
+ "mmluPlus":89.5,
+ "gpqa":86.6
  },
  {
  "id": "gemini-3-pro",
