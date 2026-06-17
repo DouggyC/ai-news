@@ -272,7 +272,7 @@
  "humaneval":94.0,
  "livebench":69.0,
  "mmluPlus": null,
- "gpqa":91.1
+ "gpqa":88.5
  },
  {
  "id": "deepseek-v4-pro",
@@ -283,7 +283,7 @@
  "humaneval":76.8,
  "livebench":74.4,
  "mmluPlus":87.5,
- "gpqa":88.8
+ "gpqa":90.5
  },
  {
  "id": "deepseek-v4-flash",
@@ -426,7 +426,7 @@
  "humaneval":72.0,
  "livebench":55.0,
  "mmluPlus": null,
- "gpqa":85.5
+ "gpqa":82.8
  },
  {
  "id": "nemotron-3-ultra-550b",
@@ -724,5 +724,16 @@
  "livebench":55.3,
  "mmluPlus": null,
  "gpqa":82.9
+ },
+ {
+ "id": "kimi-k2.7-code",
+ "name": "Kimi K2.7 Code",
+ "provider": "Moonshot",
+ "openSource": true,
+ "mmlu": null,
+ "humaneval": null,
+ "livebench":71.9,
+ "mmluPlus": null,
+ "gpqa":89.6
  }
 ]

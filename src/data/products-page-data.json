@@ -5,7 +5,8 @@
       "Google": {
         "name": "Gemini 3.5 Flash",
         "url": "https://deepmind.google/technologies/gemini/",
-        "description": "Flagship multimodal model (May 19, 2026) now default across Gemini app, AI Mode in Search, and Gemini Enterprise. 1M context, 4x faster than other frontier models, native to Antigravity 2.0 agentic dev platform. Gemini 3.5 Pro confirmed for June 2026 GA (announced at I/O 2026, May 19): 2M-token context window, Deep Think reasoning mode, frontier multimodal; pricing expected ~$15/$60 per 1M tokens. Limited Vertex enterprise preview began in late May; Polymarket odds >70% for late-June launch."
+        "description": "Flagship multimodal model (May 19, 2026) now default across Gemini app, AI Mode in Search, and Gemini Enterprise. 1M context, 4x faster than other frontier models, native to Antigravity 2.0 agentic dev platform. Gemini 3.5 Pro confirmed for June 2026 GA (announced at I/O 2026, May 19): 2M-token context window, Deep Think reasoning mode, frontier multimodal; pricing expected ~$15/$60 per 1M tokens. Limited Vertex enterprise preview began in late May; Polymarket odds >70% for late-June launch. Gemini Omni 2 video editing rolled out June 16, 2026 in Pixel Drop (Android 17) \u2014 users can now chat to create and edit videos in the Gemini app, blend text/images/video, and create custom AI avatars. Lyria 3 music generation (Gemini 3 in Pixel Drop) also June 16 \u2014 text or image prompts into full tracks with custom style, vocals, and tempo on all Android 17 Pixel devices."
+
       },
       "Amazon": {
         "name": "Nova 2",
@@ -40,7 +41,8 @@
       "Cohere": {
         "name": "Command A+",
         "url": "https://cohere.com/blog/command-a-plus",
-        "description": "Cohere's open-source 218B-parameter MoE model (May 21, 2026) with 25B active, Apache 2.0 license. Unified across reasoning, vision, translation, and tool use. Runs on 2x H100 or a single Blackwell GPU. +20% agentic QA, +32% spreadsheet analysis vs Command A Reasoning. 85% on \u03c4\u00b2-Bench Telecom. Powers North enterprise workspace."
+        "description": "Cohere's open-source 218B-parameter MoE model (May 21, 2026) with 25B active, Apache 2.0 license. Unified across reasoning, vision, translation, and tool use. Runs on 2x H100 or a single Blackwell GPU. +20% agentic QA, +32% spreadsheet analysis vs Command A Reasoning. 85% on \u03c4\u00b2-Bench Telecom. Powers North enterprise workspace. Companion: North Mini Code (June 15, 2026) \u2014 Cohere's first dedicated open-weight agentic coding model, 30B/3B MoE, Apache 2.0."
+
       },
       "Moonshot": {
         "name": "Kimi K2.6",
@@ -101,6 +103,13 @@
         "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
         "description": "NVIDIA's 550B total / 55B active LatentMoE (Mamba-2 + MoE + Attention hybrid) with Multi-Token Prediction, released June 4, 2026 under OpenMDW-1.1. 1M context, NVFP4 quantization runs on Hopper/Blackwell/Ampere, 5x faster inference vs other open models, 30% lower cost to task completion on Terminal Bench 2. 20T pretraining tokens. Packaged as NIM microservice with OpenAI/Anthropic-compatible APIs."
       }
+,
+      "Cohere": {
+        "name": "North Mini Code",
+        "url": "https://cohere.com/blog/north-mini-code",
+        "description": "Cohere's first open-weight agentic coding model (June 15, 2026, Apache 2.0 from launch). 30B-parameter MoE with 3B active parameters, designed for multi-step tool-using work in agents like Claude Code and Cursor. Companion to the closed-weight Command A+ enterprise family. Frames the developer-tooling sovereignty gap the same way Cohere framed enterprise AI sovereignty \u2014 who controls the coding agent controls how engineering evolves."
+      }
+
     }
   },
   {
@@ -109,17 +118,18 @@
       "Google": {
         "name": "Gemini Spark",
         "url": "https://gemini.google.com",
-        "description": "24/7 personal AI agent powered by Gemini 3.5 Flash (May 19, 2026). Now with Notebooks for project organization, sync with NotebookLM. Deep Think and Deep Research Max modes available. Project Mariner capabilities folded into Gemini Agent. MacOS app integration announced for summer 2026."
+        "description": "24/7 personal AI agent powered by Gemini 3.5 Flash (May 19, 2026). Now with Notebooks for project organization, sync with NotebookLM. Deep Think and Deep Research Max modes available. Project Mariner capabilities folded into Gemini Agent. MacOS app integration announced for summer 2026. June 16, 2026 Pixel Drop / Android 17: Gemini Omni 2 video creation/editing in the Gemini app on Pixel (blend text, images, video into finished clips, build custom AI avatars); Lyria 3 music generation on all Android 17 Pixel devices (text or image prompts into tracks with custom style/vocals/tempo)."
+
       },
       "OpenAI": {
         "name": "ChatGPT",
         "url": "https://developers.openai.com/chatgpt",
-        "description": "Powered by GPT-5.5 with GPT-5.5 Instant as default since June 3, 2026 (readability upgrade May 28). Personal Finance experience (May 15) for Pro users with Plaid. ChatGPT for Excel and Google Sheets GA (May 5). Voice intelligence updates May 7 with GPT-Realtime-2, GPT-Realtime-Translate, GPT-Realtime-Whisper. Codex Mobile interface in ChatGPT iOS/Android (May 14, 2026) with worktrees, Codex profile screen, /goal support, inline review comments. OpenAI Partner Network launched June 14, 2026 with $150M program and three tiers (Select/Advanced/Elite) targeting 300,000 certified consultants by end of 2026 \u2014 Forward Deployed Experts pilot for complex enterprise deployments. Pinned Chats and revamped Projects rolled out across web/Android/iOS on June 15, 2026 \u2014 pin important conversations to the top of the sidebar, group related chats and files into per-project workspaces with per-project custom instructions. ChatGPT Superapp overhaul (coding tools, agents, third-party Canva/Booking.com integrations) planned for rollout over coming weeks ahead of confidential IPO filing."
+        "description": "Powered by GPT-5.5 with GPT-5.5 Instant as default since June 3, 2026 (readability upgrade May 28). Personal Finance experience (May 15) for Pro users with Plaid. ChatGPT for Excel and Google Sheets GA (May 5). Voice intelligence updates May 7 with GPT-Realtime-2, GPT-Realtime-Translate, GPT-Realtime-Whisper. Codex Mobile interface in ChatGPT iOS/Android (May 14, 2026) with worktrees, Codex profile screen, /goal support, inline review comments. OpenAI Partner Network launched June 14, 2026 with $150M program and three tiers (Select/Advanced/Elite) targeting 300,000 certified consultants by end of 2026 \u2014 Forward Deployed Experts pilot for complex enterprise deployments. Pinned Chats and revamped Projects rolled out across web/Android/iOS on June 15, 2026 \u2014 pin important conversations to the top of the sidebar, group related chats and files into per-project workspaces with per-project custom instructions. o3 Pro Mode launched in ChatGPT Pro on June 16, 2026 (gated behind $200/mo Pro tier) \u2014 o3 with extended thinking time for higher-capability reasoning on graduate-level math, competitive programming, and scientific reasoning. Visa-OpenAI payment integration announced June 15, 2026 to embed secure global payments directly inside ChatGPT for agentic shopping. ChatGPT Superapp overhaul (coding tools, agents, third-party Canva/Booking.com integrations) planned for rollout over coming weeks ahead of confidential IPO filing."
       },
       "Anthropic": {
         "name": "Claude",
         "url": "https://claude.com/product/overview",
-        "description": "Default on Sonnet 4.6, Opus 4.8 for max capability. Claude Fable 5 (Mythos-class) SUSPENDED June 12, 2026 by US export control directive \u2014 disabled for all customers. Free for Pro/Max/Team/Enterprise through June 22, then metered credits from June 23. Claude for Small Business (May 13) with Quickbooks, PayPal, HubSpot, Canva, Docusign connectors. Claude Cowork GA (April 9) on macOS/Windows. Microsoft 365 add-ins for Excel, PowerPoint, Word, Outlook. Effort control across all plans. Anthropic-DXC alliance (June 11, 2026) and TCS partnership (June 12, 2026) for regulated industries. June 15, 2026: Agent SDK / claude -p / GitHub Actions usage moves from subscription limits to a separate monthly credit ($20 Pro, $100 Max 5x, $200 Max 20x, one-time claim, no rollover); legacy claude-opus-4 and claude-sonnet-4 retire."
+        "description": "Default on Sonnet 4.6, Opus 4.8 for max capability. Claude Fable 5 (Mythos-class) SUSPENDED June 12, 2026 by US export control directive \u2014 disabled for all customers. Free for Pro/Max/Team/Enterprise through June 22, then metered credits from June 23. Claude for Small Business (May 13) with Quickbooks, PayPal, HubSpot, Canva, Docusign connectors. Claude Cowork GA (April 9) on macOS/Windows. Microsoft 365 add-ins for Excel, PowerPoint, Word, Outlook. Effort control across all plans. Anthropic-DXC alliance (June 11, 2026) and TCS partnership (June 12, 2026) for regulated industries. June 15, 2026: Agent SDK / claude -p / GitHub Actions usage moves from subscription limits to a separate monthly credit ($20 Pro, $100 Max 5x, $200 Max 20x, one-time claim, no rollover); legacy claude-opus-4 and claude-sonnet-4 retire. June 16, 2026: Multilingual voice mode upgrade rolling out across iOS/Android with 18 new languages (German, Portuguese, Chinese, Japanese, Russian, Ukrainian, more), real-time mid-conversation language switching, push-to-talk, and redesigned phone-call icon. Workspace agents (April 22) available in research preview in ChatGPT Business/Enterprise/Edu/Teachers plans with credit-based pricing from May 6, 2026."
       },
       "Microsoft": {
         "name": "Copilot",
@@ -208,7 +218,7 @@
       "Anthropic": {
         "name": "Claude Code",
         "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-        "description": "Terminal-first coding agent with IDE workflows powered by Claude Opus 4.8. Claude Fable 5 SUSPENDED June 12, 2026 by US export control directive \u2014 was available in GitHub Copilot, Claude API, and Claude Platform on AWS (June 9, 2026). Dynamic workflows GA in Claude Code (June 11, 2026, Code with Claude Tokyo) \u2014 Claude writes orchestration scripts running tens to hundreds of parallel subagents per session, enabled via /ultracode or asking Claude to create a workflow. Scheduled deployments and environment variable vaults in public beta in Claude Managed Agents (June 11, 2026). ant CLI, Claude Code Analytics API. /ultrareview, auto mode for Max users. Desktop app GA. Fast mode for Opus 4.8 at 2x standard rate for 2.5x speed. June 15, 2026: Agent SDK / claude -p / GitHub Actions usage on subscription plans moves to a separate monthly credit ($20 Pro, $100 Max 5x, $200 Max 20x) billed at standard API rates; one-time opt-in claim required."
+        "description": "Terminal-first coding agent with IDE workflows powered by Claude Opus 4.8. Claude Fable 5 SUSPENDED June 12, 2026 by US export control directive \u2014 was available in GitHub Copilot, Claude API, and Claude Platform on AWS (June 9, 2026). Dynamic workflows GA in Claude Code (June 11, 2026, Code with Claude Tokyo) \u2014 Claude writes orchestration scripts running tens to hundreds of parallel subagents per session, enabled via /ultracode or asking Claude to create a workflow. Scheduled deployments and environment variable vaults in public beta in Claude Managed Agents (June 11, 2026). ant CLI, Claude Code Analytics API. /ultrareview, auto mode for Max users. Desktop app GA. Fast mode for Opus 4.8 at 2x standard rate for 2.5x speed. June 15, 2026: Agent SDK / claude -p / GitHub Actions usage on subscription plans moves to a separate monthly credit ($20 Pro, $100 Max 5x, $200 Max 20x) billed at standard API rates; one-time opt-in claim required. Week 24 (June 8-16, 2026): nested sub-agents (background chains 5 deep, foreground unlimited), --safe-mode/CLAUDE_CODE_SAFE_MODE to isolate broken customizations, fallbackModel for up to 3 sequential model fallbacks, /cd mid-conversation working directory moves, auto mode on Bedrock/Vertex/Foundry for Opus 4.7/4.8, security-guidance plugin for real-time vulnerability reviews of Claude's code changes, --plugin list command, safer auto-edit prompts before writing risky files."
       },
       "Microsoft": {
         "name": "GitHub Copilot",
@@ -228,7 +238,7 @@
       "Cursor": {
         "name": "Cursor 3.7",
         "url": "https://www.cursor.com",
-        "description": "AI-native editor (Cursor 3 unified workspace since April 2, 2026). v3.7 (June 4) Canvas Design Mode with multi-select and voice input, Context Usage Report, custom stores/tools, auto-review for SDK with subagent nesting. Enterprise Organizations framework GA (June 3, 2026) with three-layer governance (Org \u2192 Team \u2192 Group), centralized analytics, SCIM directory sync. Auto-review now default for new users (June 11, 2026, cursor.com/blog/agent-autonomy-auto-review). Bugbot 3x faster/22% cheaper/10% more bugs (June 10, ~90s review), now runnable with /review. Composer 2.5 default. cursor.com/agents cloud URL. Pro cut 40% to $12/mo on June 12, 2026 with new Efficiency Mode (up to 35% token reduction); enterprise spend controls and usage-based tiers above thresholds. Pro+ $60/mo, Ultra $200/mo. Gartner Leader. Training much larger next-gen model with SpaceXAI on Colossus 2."
+        "description": "AI-native editor (Cursor 3 unified workspace since April 2, 2026). v3.7 (June 4) Canvas Design Mode with multi-select and voice input, Context Usage Report, custom stores/tools, auto-review for SDK with subagent nesting. Enterprise Organizations framework GA (June 3, 2026) with three-layer governance (Org \u2192 Team \u2192 Group), centralized analytics, SCIM directory sync. Auto-review now default for new users (June 11, 2026, cursor.com/blog/agent-autonomy-auto-review). Bugbot 3x faster/22% cheaper/10% more bugs (June 10, ~90s review, in-house Composer 2.5 with model block list for fleet routing), now runnable with /review. Composer 2.5 default. cursor.com/agents cloud URL. Pro cut 40% to $12/mo on June 12, 2026 with new Efficiency Mode (up to 35% token reduction); enterprise spend controls and usage-based tiers above thresholds. Pro+ $60/mo, Ultra $200/mo. Gartner Leader. SpaceX announced all-stock $60B acquisition of Cursor on June 16, 2026 (after $1B+ ARR reached November 2025) \u2014 deal expected to close Q3 2026, gives SpaceX-xAI direct coding-tool arm to compete with Anthropic and OpenAI; existing termination fee of $1.5B + $8.5B in compute resources. Training much larger next-gen model with SpaceXAI on Colossus 2."
       },
       "Cognition": {
         "name": "Devin Desktop",
@@ -245,6 +255,13 @@
         "url": "https://developer.microsoft.com/blog/build-recap",
         "description": "Microsoft's inference-efficient coding model (June 2, 2026, Build) with 5B active parameters, 51% on SWE-Bench Pro, Haiku-class size but cheaper. Tuned for VS Code, GitHub Copilot CLI, and Microsoft stack. Rolling out as a default in VS Code for Copilot Free, Student, Pro, Pro+, and Max. First in a new wave of purpose-built coding models from Microsoft for GitHub Copilot."
       }
+,
+      "Cohere": {
+        "name": "North Mini Code",
+        "url": "https://cohere.com/blog/north-mini-code",
+        "description": "Cohere's first dedicated agentic coding model (launched June 15, 2026), 30B-parameter MoE with 3B active, Apache 2.0 from launch. Designed for multi-step, tool-using work in agents like Claude Code and Cursor. Brings Cohere's enterprise sovereignty framing to the developer layer \u2014 open weights give teams control over how coding agents evolve, optimize, and operate. Companion to the Command A+ enterprise family."
+      }
+
     }
   },
   {
@@ -263,7 +280,7 @@
       "Anthropic": {
         "name": "Claude Code",
         "url": "https://www.anthropic.com/claude-code",
-        "description": "Terminal-first coding agent with IDE workflows powered by Claude Opus 4.8 (Claude Fable 5 SUSPENDED June 12, 2026 by US export control directive \u2014 was available via API). Dynamic workflows now GA (May 28, 2026 research preview \u2192 June 11, 2026 GA, Code with Claude Tokyo) for parallel sub-agents at scale. /ultracode or ask Claude to create a workflow. Scheduled deployments and env var vaults in public beta for Claude Managed Agents (June 11, 2026). ant CLI, Analytics API. /ultrareview, auto mode for Max users. Desktop app GA. v2.1.173 (June 11, 2026) normalizes Fable 5 model names with [1m] suffix. June 15, 2026: claude -p (headless) and Agent SDK calls move to a separate monthly credit pool per user ($20 Pro, $100 Max 5x, $200 Max 20x), no rollover, one-time opt-in claim."
+        "description": "Terminal-first coding agent with IDE workflows powered by Claude Opus 4.8 (Claude Fable 5 SUSPENDED June 12, 2026 by US export control directive \u2014 was available via API). Dynamic workflows now GA (May 28, 2026 research preview \u2192 June 11, 2026 GA, Code with Claude Tokyo) for parallel sub-agents at scale. /ultracode or ask Claude to create a workflow. Scheduled deployments and env var vaults in public beta for Claude Managed Agents (June 11, 2026). ant CLI, Analytics API. /ultrareview, auto mode for Max users. Desktop app GA. v2.1.173 (June 11, 2026) normalizes Fable 5 model names with [1m] suffix. June 15, 2026: claude -p (headless) and Agent SDK calls move to a separate monthly credit pool per user ($20 Pro, $100 Max 5x, $200 Max 20x), no rollover, one-time opt-in claim. Week 24 (June 8-16, 2026): nested sub-agents that can spawn their own agents (background chains capped 5 deep, foreground unlimited), --safe-mode / CLAUDE_CODE_SAFE_MODE to launch with all customizations disabled, fallbackModel for up to 3 sequential model fallbacks, /cd session moves (change working directory mid-conversation without breaking prompt cache), localized session titles, --plugin list command, managed deployment version controls, security-guidance plugin for real-time vulnerability reviews of Claude's code changes, auto mode on Bedrock/Vertex/Foundry for Opus 4.7/4.8, safer auto-edit prompts before writing risky files. Sub-agent panel below prompt shows full tree with descendant counts and path back to main."
       },
       "xAI": {
         "name": "Grok Build CLI",
@@ -357,7 +374,8 @@
       "DeepSeek": {
         "name": "DeepSeek API",
         "url": "https://api-docs.deepseek.com/",
-        "description": "Low-cost API access to DeepSeek V4 (Pro: $0.435/$0.87, Flash: $0.14/$0.28 per 1M tokens - 75% discount made permanent May 23, 2026). 1M context, 384K max output, reasoning modes, multimodal image recognition. OpenAI and Anthropic compatible formats. Hybrid Attention combining CSA and HCA. Built on Huawei Ascend 950PR."
+        "description": "Low-cost API access to DeepSeek V4 (Pro: $0.435/$0.87, Flash: $0.14/$0.28 per 1M tokens - 75% discount made permanent May 23, 2026). 1M context, 384K max output, reasoning modes, multimodal image recognition. OpenAI and Anthropic compatible formats. Hybrid Attention combining CSA and HCA. Built on Huawei Ascend 950PR. June 14, 2026: official GitHub Copilot integration page documents a VS Code extension that adds DeepSeek V4 Pro and Flash to Copilot Chat with agent mode, tool calling, skills, MCP, and an optional vision proxy path. June 15, 2026: official Hermes Agent integration page documents a curl install flow, Quick Setup with DeepSeek as the provider, api.deepseek.com as base URL, and deepseek-v4-pro as the default model. DeepSeek V4 Flash latency improved 40% (1.6s \u2192 973ms) per AILatency June 13, 2026. DeepSeek closed first external funding round at $7.4B / $50B+ valuation on June 16, 2026."
+
       },
       "Mistral": {
         "name": "La Plateforme",
@@ -689,7 +707,8 @@
       "ElevenLabs": {
         "name": "ElevenLabs",
         "url": "https://elevenlabs.io",
-        "description": "High-quality speech synthesis, dubbing, and voice cloning platform. Conversational AI 2.0 (May 2026) with state-of-the-art turn-taking, integrated RAG for knowledge bases, automatic language detection across 70+ languages, multi-character personas, HIPAA compliance, EU data residency, batch outbound calling, voice+text multimodality. Eleven v3 conversational model with audio tags."
+        "description": "High-quality speech synthesis, dubbing, and voice cloning platform. Conversational AI 2.0 (May 2026) with state-of-the-art turn-taking, integrated RAG for knowledge bases, automatic language detection across 70+ languages, multi-character personas, HIPAA compliance, EU data residency, batch outbound calling, voice+text multimodality. Eleven v3 conversational model with audio tags. Dubbing v2 launched June 16, 2026 \u2014 emotion-preserving AI dubbing that analyzes emotion, tone, intonation, and speech intervals of the original voice and reproduces them in 90+ languages with automatic voice cloning, automatic voice timing adjustment, and context-based translation."
+
       },
       "PlayHT": {
         "name": "PlayAI",

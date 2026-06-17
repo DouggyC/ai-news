@@ -1064,6 +1064,21 @@
     "json": true,
     "search": true
   },
+  "kimi-k2.7-code": {
+    "provider": "Moonshot",
+    "parameters": 1000000000000,
+    "modelSizeGB": 0,
+    "contextLength": 262144,
+    "openSource": true,
+    "license": "Modified MIT",
+    "mmlu": 88.5,
+    "humaneval": 84.0,
+    "multimodal": true,
+    "vision": true,
+    "functionCalling": true,
+    "json": true,
+    "search": true
+  },
   "qwen3.6-max": {
     "provider": "Alibaba",
     "parameters": 397000000000,
@@ -1333,8 +1348,7 @@
     "functionCalling": true,
     "json": true,
     "search": true
-  }
-,
+  },
   "qwen3-6-27b": {
     "provider": "Alibaba",
     "parameters": 27000000000,
@@ -1409,5 +1423,20 @@
     "functionCalling": true,
     "json": true,
     "search": false
+  },
+  "kimi-k2.7-code": {
+    "provider": "Moonshot",
+    "parameters": 1000000000000,
+    "modelSizeGB": 0,
+    "contextLength": 262144,
+    "openSource": true,
+    "license": "Modified MIT",
+    "mmlu": null,
+    "humaneval": null,
+    "multimodal": true,
+    "vision": true,
+    "functionCalling": true,
+    "json": true,
+    "search": true
   }
 }

@@ -165,7 +165,7 @@ export default function ComparePage() {
             paddingRight: '24px',
           }}
         >
-          Last updated: June 16, 2026
+          Last updated: June 17, 2026
         </div>
         <div
           style={{
