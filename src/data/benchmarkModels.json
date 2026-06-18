@@ -19,7 +19,7 @@
  "humaneval":95.5,
  "livebench":84.0,
  "mmluPlus": null,
- "gpqa":93.5
+ "gpqa":93.2
  },
  {
  "id": "gpt-5.5-instant",
@@ -272,7 +272,7 @@
  "humaneval":94.0,
  "livebench":69.0,
  "mmluPlus": null,
- "gpqa":88.5
+ "gpqa":91.1
  },
  {
  "id": "deepseek-v4-pro",
@@ -283,7 +283,7 @@
  "humaneval":76.8,
  "livebench":74.4,
  "mmluPlus":87.5,
- "gpqa":90.5
+ "gpqa":88.8
  },
  {
  "id": "deepseek-v4-flash",
@@ -349,7 +349,7 @@
  "humaneval":82.6,
  "livebench":56.4,
  "mmluPlus": null,
- "gpqa":89.3
+ "gpqa":85.7
  },
  {
  "id": "qwen3-6-27b",
@@ -735,5 +735,16 @@
  "livebench":71.9,
  "mmluPlus": null,
  "gpqa":89.6
+ },
+ {
+ "id": "glm-5.2",
+ "name": "GLM-5.2",
+ "provider": "Zhipu AI",
+ "openSource": true,
+ "mmlu":90.0,
+ "humaneval":90.0,
+ "livebench":76.2,
+ "mmluPlus": null,
+ "gpqa":89.5
  }
 ]

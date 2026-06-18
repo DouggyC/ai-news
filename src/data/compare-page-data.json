@@ -453,6 +453,31 @@
     "search": false
   },
   {
+    "id": "gemma-4-12b",
+    "name": "Gemma 4 12B",
+    "provider": "Google",
+    "openSource": true,
+    "license": "Gemma Terms",
+    "releaseDate": "2026-06-03",
+    "parameters": 11950000000,
+    "modelSizeGB": 0,
+    "contextLength": 256000,
+    "inputPrice": 0.1,
+    "outputPrice": 0.3,
+    "free": false,
+    "mmlu": 75,
+    "mmluPlus": 77.2,
+    "humaneval": 70,
+    "liveBench": 60,
+    "gpqa": 75.3,
+    "multimodal": true,
+    "vision": true,
+    "functionCalling": true,
+    "json": true,
+    "search": false
+  },
+
+  {
     "id": "grok-4.3",
     "name": "Grok 4.3",
     "provider": "xAI",
@@ -1216,6 +1241,30 @@
     "json": true,
     "search": false
   },
+  {
+    "id": "north-mini-code",
+    "name": "North Mini Code",
+    "provider": "Cohere",
+    "openSource": true,
+    "license": "Apache 2.0",
+    "releaseDate": "2026-06-09",
+    "parameters": 30000000000,
+    "modelSizeGB": 0,
+    "contextLength": 256000,
+    "inputPrice": 0,
+    "outputPrice": 0,
+    "free": true,
+    "mmlu": 70,
+    "mmluPlus": 65,
+    "humaneval": 85,
+    "liveBench": 55,
+    "multimodal": false,
+    "vision": false,
+    "functionCalling": true,
+    "json": true,
+    "search": false
+  },
+
   {
     "id": "kimi-k2.6",
     "name": "Kimi K2.6",

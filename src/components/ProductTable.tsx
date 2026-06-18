@@ -21,6 +21,7 @@ const companyOrder = [
   'Tencent',
   'Alibaba',
   'Baidu',
+  'Z.ai',
   'Salesforce',
   'OpenAI',
   'Anthropic',
@@ -107,6 +108,9 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
       'backgroundColor:rgba(234, 179, 8, 0.2);color:#fbbf24;borderColor:rgba(234, 179, 8, 0.3)',
     Baidu:
       'backgroundColor:rgba(59, 130, 246, 0.2);color:#60a5fa;borderColor:rgba(59, 130, 246, 0.3)',
+    'Z.ai':
+      'backgroundColor:rgba(236, 72, 153, 0.2);color:#f472b6;borderColor:rgba(236, 72, 153, 0.3)',
+
     OpenAI:
       'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
     Anthropic:
