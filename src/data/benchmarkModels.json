@@ -746,5 +746,50 @@
  "livebench":76.2,
  "mmluPlus": null,
  "gpqa":89.5
+ },
+ {
+ "id": "claude-opus-4-5-thinking",
+ "name": "Claude Opus 4.5 Thinking",
+ "provider": "Anthropic",
+ "openSource": false,
+ "mmlu":92.4,
+ "humaneval":96.0,
+ "livebench":76.0,
+ "mmluPlus":89.5,
+ "gpqa":86.6
+ },
+ {
+ "id": "gpt-5",
+ "name": "GPT-5",
+ "provider": "OpenAI",
+ "openSource": false,
+ "mmlu":88.7,
+ "humaneval":92.0,
+ "livebench":65.9,
+ "mmluPlus":87.1,
+ "gpqa":85.4
+ },
+ {
+ "id": "gpt-5-mini",
+ "name": "GPT-5 Mini",
+ "provider": "OpenAI",
+ "openSource": false,
+ "mmlu":86.0,
+ "humaneval":88.0,
+ "livebench":65.9,
+ "mmluPlus":83.7,
+ "gpqa":82.8
+ },
+ {
+ "id": "kimi-k2-thinking",
+ "name": "Kimi K2 Thinking",
+ "provider": "Moonshot",
+ "openSource": true,
+ "mmlu":89.4,
+ "humaneval":84.0,
+ "livebench":64.8,
+ "mmluPlus":84.6,
+ "gpqa":84.5
  }
 ]
+

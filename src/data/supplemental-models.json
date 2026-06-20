@@ -1484,5 +1484,66 @@
     "functionCalling": true,
     "json": true,
     "search": false
+  },
+  "claude-opus-4-5-thinking": {
+    "provider": "Anthropic",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 92.4,
+    "humaneval": 96.0,
+    "multimodal": true,
+    "vision": true,
+    "functionCalling": true,
+    "json": true,
+    "search": true
+  },
+  "gpt-5": {
+    "provider": "OpenAI",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 400000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 88.7,
+    "humaneval": 92.0,
+    "multimodal": true,
+    "vision": true,
+    "functionCalling": true,
+    "json": true,
+    "search": true
+  },
+  "gpt-5-mini": {
+    "provider": "OpenAI",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 400000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 86.0,
+    "humaneval": 88.0,
+    "multimodal": true,
+    "vision": true,
+    "functionCalling": true,
+    "json": true,
+    "search": true
+  },
+  "kimi-k2-thinking": {
+    "provider": "Moonshot",
+    "parameters": 1000000000000,
+    "modelSizeGB": 0,
+    "contextLength": 262144,
+    "openSource": true,
+    "license": "Modified MIT",
+    "mmlu": 89.4,
+    "humaneval": 84.0,
+    "multimodal": true,
+    "vision": true,
+    "functionCalling": true,
+    "json": true,
+    "search": true
   }
 }
+
