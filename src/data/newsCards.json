@@ -1,53 +1,143 @@
 [
   {
-    "id": "openai-gpt-5-5-instant-health-2026-06-18",
-    "title": "OpenAI upgrades GPT-5.5 Instant for free users to frontier-level health intelligence",
-    "summary": "OpenAI pushed a major GPT-5.5 Instant update on June 18, 2026 that brings the free ChatGPT tier to roughly parity with its paid Thinking models on clinical-style health evaluations, beating GPT-5.3 Instant by a wide margin on when to slow down, ask for missing details, explain uncertainty, and escalate urgent cases; OpenAI notes that more than 230M people ask ChatGPT health questions every week, so the move shifts frontier health AI from a premium reasoning tier into the default free product.",
-    "source": "OpenAI",
-    "sourceUrl": "https://digg.com/tech/6u9jiptn",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
-    "category": "product",
-    "publishedAt": "2026-06-18"
+    "id": "google-jumper-leaves-deepmind-anthropic-2026-06-20",
+    "title": "Nobel laureate John Jumper leaves Google DeepMind for Anthropic",
+    "summary": "John Jumper, who shared the 2024 Nobel Prize in Chemistry with Demis Hassabis for AlphaFold, announced on June 20, 2026 that he is leaving Google DeepMind after nearly nine years to join Anthropic, calling DeepMind 'a special place' while saying he plans to take a short break before starting at Anthropic where his future role has not yet been disclosed; the move comes days after Noam Shazeer left for OpenAI and turns Anthropic into a leading buyer of AI talent, with a science-focused event scheduled for June 30.",
+    "source": "Google",
+    "sourceUrl": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+    "imageUrl": "https://deepmind.google/favicon.ico",
+    "category": "research",
+    "publishedAt": "2026-06-20"
   },
   {
-    "id": "openai-gpt-5-6-prep-late-june-2026-06-18",
-    "title": "OpenAI preps GPT-5.6 / GPT-5.6-Pro for late-June release - 1.5M-token context, sharper agentic coding",
-    "summary": "OpenAI is lining up GPT-5.6 and a GPT-5.6 Pro variant for a Tuesday launch in the week of June 23-30, 2026, with the GPT-5.6 identifier already showing up in Codex backend logs and chief scientist Jakub Pachocki publicly calling it a 'meaningful improvement' over GPT-5.5; rumored gains include an expanded ~1.5M-token context window, stronger long-horizon agentic coding (developers claim it edges Anthropic's Mythos line), and deeper token-price cuts - with a next-gen bidirectional voice model code-named GPT-Bidi-1 reportedly shipping alongside.",
-    "source": "OpenAI",
-    "sourceUrl": "https://www.testingcatalog.com/openai-prepares-gpt-5-6-models-for-the-upcoming-release/",
+    "id": "meta-crusoe-1-6-gw-ai-compute-deal-2026-06-19",
+    "title": "Meta locks in 1.6 GW of Crusoe AI compute for Hyperion buildout",
+    "summary": "Meta contracted to buy approximately 1.6 gigawatts of AI computing capacity from Crusoe on June 18-19, 2026, split across Crusoe data centers in Childress, Texas and Warrenton, Missouri with the financial terms and delivery timeline undisclosed; the deal lands in the same week Meta raised its 2026 capex guidance to $125-$145B (Q1 capex alone hit $18.997B) and Zuckerberg told investors that Meta Superintelligence Labs is 'on track to deliver personal superintelligence to billions of people' with Muse Spark already driving double-digit percent increases in Meta AI sessions per user.",
+    "source": "Meta",
+    "sourceUrl": "https://icharles.com/articles/meta-crusoe-1-6-gigawatt-deal",
+    "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
+    "category": "product",
+    "publishedAt": "2026-06-19"
+  },
+  {
+    "id": "deepseek-7-4b-funding-round-59b-valuation-2026-06-19",
+    "title": "DeepSeek closes $7.4B round at $59B valuation - China's biggest AI raise ever",
+    "summary": "DeepSeek closed its first outside funding round on June 18-19, 2026 at more than $7.4B (~50B yuan) at a post-money valuation of $52-59B, with founder Liang Wenfeng personally contributing ~$2.8B (40% of the round) and Tencent, CATL, JD.com, NetEase and IDG joining; investors routed capital into a Liang-controlled limited partnership rather than direct equity, accepted a five-year lock-up and gave up voting rights, while China's National AI Industry Investment Fund got the only direct stake with voting rights - and DeepSeek imposed a strict no-poaching clause barring investors from recruiting its ~150 engineers.",
+    "source": "DeepSeek",
+    "sourceUrl": "https://phronews.com/deepseek-just-raised-7-4-billion-at-a-59-billion-valuation/",
+    "imageUrl": "https://preview.redd.it/deepseek-v4-all-leaks-and-infos-for-the-release-day-not-v0-lllfdd3uvimg1.png?width=640&crop=smart&auto=webp&s=2492384251ab16ffeac1c5d0317dd71610c3c077",
+    "category": "research",
+    "publishedAt": "2026-06-19"
+  },
+  {
+    "id": "anthropic-ema-okta-mcp-connectors-2026-06-19",
+    "title": "Anthropic ships Enterprise-Managed Authorization for Claude MCP via Okta",
+    "summary": "Anthropic launched Enterprise-Managed Authorization (EMA) for Claude's MCP connectors on June 18-19, 2026, the first live production implementation of the ID-JAG standard declared stable by the IETF/MCP on the same day; the feature lets enterprise IT admins provision third-party AI integrations once through Okta and push access to every employee on first login with no individual OAuth screens, with Asana, Atlassian, Canva, Figma, Granola, Linear and Supabase shipping support at launch and Azure AD/Google Workspace support on the roadmap.",
+    "source": "Anthropic",
+    "sourceUrl": "https://www.techtimes.com/articles/318704/20260619/claude-mcp-connectors-now-provision-through-okta-employees-inherit-access-login.htm",
+    "imageUrl": "https://www.anthropic.com/favicon.ico",
+    "category": "product",
+    "publishedAt": "2026-06-19"
+  },
+  {
+    "id": "perplexity-brain-self-improving-memory-2026-06-19",
+    "title": "Perplexity ships 'Brain' - a self-improving memory layer for its Computer agent",
+    "summary": "Perplexity launched Brain on June 18, 2026 as a self-improving memory system for its Computer agent that builds a context graph of every task, reviews it overnight, and updates a personal LLM wiki that loads into the next session - with internal numbers showing +25% answer correctness, +16% recall and -13% cost on tasks the agent has already seen; Brain rolls out today to Max and Enterprise Max subscribers in Research Preview, and lands on the same day Perplexity added Deep Research to Computer with command panels, forking, inline actions, analytics APIs and custom credit limits.",
+    "source": "Perplexity",
+    "sourceUrl": "https://decrypt.co/371584/perplexity-ai-agent-brain",
+    "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
+    "category": "product",
+    "publishedAt": "2026-06-19"
+  },
+  {
+    "id": "alibaba-qwen-robot-suite-full-stack-2026-06-19",
+    "title": "Alibaba launches Qwen-Robot Suite as chairman Tsai bets on $50T full-stack AI market",
+    "summary": "Alibaba unveiled its first Qwen-based robotics foundation models on June 16-19, 2026 - Qwen-RobotManip (a VLA model on Qwen3.5-4B), Qwen-RobotNav (a Qwen3-VL navigation model at 2B/4B/8B hitting 76.5% SR on VLN-CE RxR) and Qwen-RobotWorld (a 60-layer MMDiT video world model with 8.6M video-text pairs) - while chairman Joe Tsai told VivaTech the company is going all-in on chips, cloud, Qwen models and AI apps because AI 'could eventually create a US$50 trillion market'; the rollout was demonstrated on a Unitree robot dog and entered pilot testing with select Alibaba Cloud robotics customers.",
+    "source": "Alibaba",
+    "sourceUrl": "https://www.alibabacloud.com/blog/entering-the-physical-ai-era-introducing-the-qwen-robot-suite_603261",
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
     "category": "model",
-    "publishedAt": "2026-06-18"
+    "publishedAt": "2026-06-19"
+  },
+  {
+    "id": "moonshot-kimi-k2-7-code-30percent-thinking-tokens-2026-06-19",
+    "title": "Moonshot ships Kimi K2.7-Code with 30% fewer thinking tokens, ~$0.95/M input",
+    "summary": "Moonshot AI released Kimi K2.7-Code on June 16-19, 2026 as an open-weight, coding-specialized agentic model built on the same 1T-parameter MoE base (32B active, 256K context) as K2.6, designed for long-horizon software engineering and cutting average thinking-token usage by ~30% versus K2.6 while still scoring +11 to +31 points higher on K2.6 leaderboard benchmarks; the model is OpenAI- and Anthropic-API-compatible, slots into Claude Code/Cline/Roo Code/OpenCode with one env var, ships under a Modified MIT license with weights on Hugging Face, and lists at $0.95 input / $4.00 output per million tokens.",
+    "source": "Moonshot",
+    "sourceUrl": "https://www.toolmintx.in/blog/kimi-k2-7-code-moonshot-ai-latest-models",
+    "imageUrl": "https://kimi.moonshot.cn/favicon.ico",
+    "category": "model",
+    "publishedAt": "2026-06-19"
+  },
+  {
+    "id": "meta-americas-workforce-academy-115m-2026-06-20",
+    "title": "Meta launches $115M America's Workforce Academy to staff AI data centers",
+    "summary": "Meta announced America's Workforce Academy on June 20, 2026 with a $115M first-year investment to train veterans, recent graduates and career changers as fiber technicians, electricians, welders and other trades workers building AI data centers - participants get tuition, airfare, lodging and a daily stipend covered and a job offer on graduation; the 2026 pilot runs in Louisiana, Ohio, Indiana and Texas with the National Urban League, Associated Builders and Contractors, CBRE and community partners, addressing the workforce side of Meta's $125-$145B 2026 capex plan and the same week Meta placed a 1.6 GW order with Crusoe.",
+    "source": "Meta",
+    "sourceUrl": "https://consultentency.com/technology/meta-offers-paid-training-for-ai-data-center-jobs/",
+    "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
+    "category": "product",
+    "publishedAt": "2026-06-20"
+  },
+  {
+    "id": "meta-muse-spark-superintelligence-labs-2026-06-19",
+    "title": "Meta unveils Muse Spark from Superintelligence Labs - natively multimodal reasoning model powering Meta AI",
+    "summary": "Meta released Muse Spark on June 19, 2026 as the first model from its new Superintelligence Labs led by Alexandr Wang - a natively multimodal reasoning model with tool-use, visual chain-of-thought, and a 'Contemplating mode' that orchestrates multiple agents reasoning in parallel; Muse Spark powers the Meta AI app and website today and is rolling out to WhatsApp, Instagram, Facebook, Messenger and AI glasses in the coming weeks, with private preview API access for select partners, and positions Meta against OpenAI, Google and Anthropic after a 33% Q1 revenue jump and a $125B-$145B full-year CapEx guidance.",
+    "source": "Meta",
+    "sourceUrl": "https://bitrss.com/meta-unveils-muse-spark-everything-you-need-to-know-about-its-latest-ai-model-199681",
+    "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
+    "category": "model",
+    "publishedAt": "2026-06-19"
+  },
+  {
+    "id": "openai-gpt-5-6-stealth-testing-june-25-2026-06-19",
+    "title": "OpenAI quietly A/B-tests GPT-5.6 Pro in ChatGPT - June 25 launch planned",
+    "summary": "OpenAI is stealth-testing GPT-5.6 Pro inside ChatGPT, swapped in for some users who select GPT-5.5 Pro, with AI influencers citing 'unnamed sources' on X about a planned public launch on Thursday June 25 - and Polymarket traders pricing the June 22-28 launch window at 89%; OpenAI chief scientist Jakub Pachocki told staff the next model is a 'meaningful improvement' over GPT-5.5 per The Information, leakers claim a December 2025 knowledge cutoff, sharper reasoning (one tester said GPT-5.6 Pro 'continues to mog Anthropic's Fable 5 in 3D'), and SVG/3D design generation strong enough to beat peers.",
+    "source": "OpenAI",
+    "sourceUrl": "https://tech.yahoo.com/ai/chatgpt/articles/gpt-5-6-rumors-heat-181555360.html",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+    "category": "model",
+    "publishedAt": "2026-06-19"
+  },
+  {
+    "id": "openai-codex-record-replay-macos-2026-06-20",
+    "title": "OpenAI ships Codex Record & Replay - 'show it once, skip the script' on macOS",
+    "summary": "OpenAI added Record & Replay to its Codex macOS app on June 18, 2026 (shipped in Codex app 26.616) and drew broad coverage on June 19-20 as a way for users to perform a workflow once while Codex watches, then converts that demo into a reusable skill the agent can execute on demand - bridging prompt engineering and automation; the feature is available today to ChatGPT Plus/Pro/Business/Enterprise/Edu subscribers outside the EEA, UK and Switzerland, requires Computer Use to be enabled, runs on macOS only at launch, and arrives as OpenAI's EU AI Act Article 50 obligations are 44 days from taking effect on August 2.",
+    "source": "OpenAI",
+    "sourceUrl": "https://www.techtimes.com/articles/318759/20260620/openai-codex-automation-gains-record-replay-show-it-once-skip-script.htm",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+    "category": "product",
+    "publishedAt": "2026-06-20"
+  },
+  {
+    "id": "openai-chatgpt-enterprise-spend-controls-2026-06-19",
+    "title": "OpenAI adds spend controls and unified analytics to ChatGPT Enterprise",
+    "summary": "OpenAI added spend controls and expanded usage analytics for ChatGPT Enterprise on June 19, 2026, giving Global Admins a unified dashboard of ChatGPT and Codex credit consumption across users, products and models with the ability to set budgets and track AI spend by team; the launch also lands on the same day Computerworld profiled the new 'Global Admin Console' - but analysts cautioned OpenAI still cannot show how those costs lead to business benefits, so admins get cost visibility without ROI tracking as enterprise AI deployments scale.",
+    "source": "OpenAI",
+    "sourceUrl": "https://www.computerworld.com/article/4187257/openai-adds-spend-controls-and-usage-analytics-to-chatgpt-enterprise-2.html",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+    "category": "product",
+    "publishedAt": "2026-06-19"
+  },
+  {
+    "id": "openai-lifescibench-750-tasks-2026-06-20",
+    "title": "OpenAI releases LifeSciBench - 750 expert-written life-science tasks for agentic AI",
+    "summary": "OpenAI released LifeSciBench on June 19-20, 2026 as the first expert-written benchmark for measuring agentic AI on real-world life-science research rather than narrow biology trivia, with 750 tasks across seven core research workflows created and reviewed by 173 PhD-level scientists from biotech and pharma; the benchmark grades responses on scientific accuracy, practical research usefulness and adherence to expert collaboration norms rather than just a correct final answer, and lands in the same week OpenAI published a paper showing a GPT-5.4 agent on Molecule.one's Maria platform improved Chan-Lam coupling yields by >80%.",
+    "source": "OpenAI",
+    "sourceUrl": "https://zbrandco.com/openai-releases-lifescibench-life-science-ai-benchmark/",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
+    "category": "research",
+    "publishedAt": "2026-06-20"
   },
   {
     "id": "anthropic-claude-code-artifacts-launch-2026-06-18",
     "title": "Anthropic ships Artifacts for Claude Code - live, shareable web pages from coding sessions",
-    "summary": "Anthropic launched Artifacts for Claude Code on June 18, 2026 as a beta for Claude Team and Enterprise customers, letting engineers turn an entire coding-session context (code, tools, chat history) into a live, interactive, shareable HTML page that updates in real time as Claude modifies it and ships with version history and organization-scoped access control; Claude Code lead Boris Cherny called it 'a game changer' and Anthropic positions it as a bridge between engineers and non-technical stakeholders for incident timelines, PR walkthroughs, license audits and architecture overviews.",
+    "summary": "Anthropic launched Artifacts for Claude Code on June 18, 2026 as a beta for Claude Team and Enterprise customers, letting engineers turn an entire coding-session context (code, tools, chat history) into a live, interactive, shareable HTML page that updates in real time as Claude modifies it and ships with version history and organization-scoped access control; Claude Code lead Boris Cherny called it 'a game changer' and Anthropic positions it as a bridge between engineers and non-technical stakeholders for incident timelines, PR walkthroughs, license audits and architecture overviews - and by June 19 it was topping Product Hunt's daily AI leaderboard.",
     "source": "Anthropic",
     "sourceUrl": "https://the-decoder.com/anthropic-brings-artifacts-to-claude-code-letting-teams-share-live-pages-from-coding-sessions/",
     "imageUrl": "https://www.anthropic.com/favicon.ico",
     "category": "product",
     "publishedAt": "2026-06-18"
-  },
-  {
-    "id": "anthropic-claude-outage-restored-2026-06-18",
-    "title": "Anthropic restores Claude after global outage - second widely reported disruption in June",
-    "summary": "Anthropic's Claude went down globally on June 18, 2026 from roughly 06:55 to 07:40 UTC, with Downdetector spiking past 2,500 reports (Claude Chat 60% / app 26% / website 7%) and Anthropic acknowledging the issue on its status page before restoring service within about 40 minutes; the incident marks the second widely reported Claude disruption this month and follows recurring June performance issues affecting Claude.ai, Claude API, Claude Code, Opus 4.8 and Haiku 4.5 as Anthropic warns that explosive demand is pressuring its infrastructure.",
-    "source": "Anthropic",
-    "sourceUrl": "https://indianexpress.com/article/technology/tech-news-technology/anthropics-claude-experiences-major-outage-services-restored-10745865/",
-    "imageUrl": "https://www.anthropic.com/favicon.ico",
-    "category": "capability",
-    "publishedAt": "2026-06-18"
-  },
-  {
-    "id": "anthropic-seoul-office-korea-mou-2026-06-17",
-    "title": "Anthropic opens Seoul office and signs AI safety MOU with Korea's Ministry of Science and ICT",
-    "summary": "Anthropic opened its first Seoul office on June 17, 2026, led by Korea Representative Director KiYoung Choi, and signed a Memorandum of Understanding with Korea's Ministry of Science and ICT to collaborate on AI safety and cybersecurity, including Korean-language model-safety evaluations with the Korea AI Safety Institute; the company also announced partnerships with Korean enterprises, startups, the National AI Research Lab (KAIST, Korea University, Yonsei, POSTECH) and a doubling-down on existing ties with WRTN Technologies and Law&Company.",
-    "source": "Anthropic",
-    "sourceUrl": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
-    "imageUrl": "https://www.anthropic.com/favicon.ico",
-    "category": "product",
-    "publishedAt": "2026-06-17"
   },
   {
     "id": "google-deepmind-ai-control-roadmap-2026-06-18",
@@ -60,19 +150,9 @@
     "publishedAt": "2026-06-18"
   },
   {
-    "id": "google-deepmind-agi-to-asi-report-2026-06-18",
-    "title": "Google DeepMind publishes 57-page 'From AGI to ASI' report - four pathways to superintelligence",
-    "summary": "Google DeepMind published a 57-page report titled 'From AGI to ASI' on June 18, 2026, led by Chief AGI Scientist Shane Legg and AIXI inventor Marcus Hutter, treating AGI as the starting line rather than the finish and laying out four concrete pathways to artificial superintelligence: scaling, paradigm evolution, recursive self-improvement, and multi-agent collective intelligence that could form coherent group entities like fully automated corporations; the report rejects the single-inflection-point narrative and advocates for an ongoing scientific discipline of AI forecasting with quantitative growth models and continual benchmark stitching.",
-    "source": "Google",
-    "sourceUrl": "https://www.i-scoop.eu/from-agi-to-asi-inside-google-deepminds-roadmap-to-superintelligence/",
-    "imageUrl": "https://deepmind.google/favicon.ico",
-    "category": "research",
-    "publishedAt": "2026-06-18"
-  },
-  {
     "id": "google-noam-shazeer-leaves-for-openai-2026-06-17",
     "title": "Gemini co-lead Noam Shazeer leaves Google to join OpenAI",
-    "summary": "Noam Shazeer - VP of engineering at Google and co-lead of Gemini, who returned to Google in August 2024 from Character.ai - announced on X on the evening of June 17, 2026 that he is leaving the company to join OpenAI, with Google thanking him for 'meaningful contributions' to Gemini; the departure is one of the highest-profile AI-researcher moves of the year and removes one of the two named technical leads of Google's flagship model family as OpenAI ramps its post-S-1 hiring push.",
+    "summary": "Noam Shazeer - VP of engineering at Google and co-lead of Gemini, who returned to Google in August 2024 from Character.ai - announced on X on the evening of June 17, 2026 that he is leaving the company to join OpenAI, with Google thanking him for 'meaningful contributions' to Gemini; the departure is one of the highest-profile AI-researcher moves of the year and removes one of the two named technical leads of Google's flagship model family as OpenAI ramps its post-S-1 hiring push, and is followed days later by Nobel laureate John Jumper's move from DeepMind to Anthropic.",
     "source": "Google",
     "sourceUrl": "https://9to5google.com/2026/06/17/geminis-co-lead-is-leaving-google-to-join-openai/",
     "imageUrl": "https://deepmind.google/favicon.ico",
@@ -88,16 +168,6 @@
     "imageUrl": "https://deepmind.google/favicon.ico",
     "category": "product",
     "publishedAt": "2026-06-17"
-  },
-  {
-    "id": "meta-muse-spark-superintelligence-labs-2026-06-19",
-    "title": "Meta unveils Muse Spark from Superintelligence Labs - natively multimodal reasoning model powering Meta AI",
-    "summary": "Meta released Muse Spark on June 19, 2026 as the first model from its new Superintelligence Labs led by Alexandr Wang - a natively multimodal reasoning model with tool-use, visual chain-of-thought, and a 'Contemplating mode' that orchestrates multiple agents reasoning in parallel; Muse Spark powers the Meta AI app and website today and is rolling out to WhatsApp, Instagram, Facebook, Messenger and AI glasses in the coming weeks, with private preview API access for select partners, and positions Meta against OpenAI, Google and Anthropic after a 33% Q1 revenue jump and a $125B-$145B full-year CapEx guidance.",
-    "source": "Meta",
-    "sourceUrl": "https://bitrss.com/meta-unveils-muse-spark-everything-you-need-to-know-about-its-latest-ai-model-199681",
-    "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
-    "category": "model",
-    "publishedAt": "2026-06-19"
   },
   {
     "id": "meta-ai-mode-facebook-rollout-2026-06-18",
@@ -120,26 +190,6 @@
     "publishedAt": "2026-06-18"
   },
   {
-    "id": "xai-grok-databricks-agent-bricks-2026-06-18",
-    "title": "xAI's Grok lands on Databricks Agent Bricks - Grok 4.3 Beta alongside enterprise data",
-    "summary": "xAI and Databricks announced on June 18, 2026 at the Databricks Data + AI Summit that Grok models (including Grok 4.3 Beta) are now natively available on Databricks Agent Bricks, letting enterprise engineering teams build AI agents that reason over data already in Databricks Lakehouse without leaving the governed platform; the integration follows the Grok 4.3 GA on Amazon Bedrock on June 17 and the Grok for Word add-in on June 18, positioning Grok across document creation, video analysis and speech APIs inside the data environments enterprises already operate.",
-    "source": "xAI",
-    "sourceUrl": "https://blockchain.news/news/grok-databricks-integration",
-    "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
-    "category": "product",
-    "publishedAt": "2026-06-18"
-  },
-  {
-    "id": "xai-grok-amazon-bedrock-mantle-2026-06-17",
-    "title": "xAI's Grok 4.3 hits Amazon Bedrock on the new 'Mantle' inference engine",
-    "summary": "AWS and xAI announced on June 15-17, 2026 that Grok 4.3 is generally available on Amazon Bedrock, xAI's first model on the platform, with a 1M-token context window, configurable reasoning effort (none/low/medium/high), and pricing of $1.25 input / $2.50 output per million tokens; Grok 4.3 tops the Artificial Analysis Omniscience benchmark for lowest hallucination among frontier models and the Tau2 Telecom tool-calling benchmark, and runs on the new Bedrock 'Mantle' inference engine, marking xAI's push into enterprise and agent workloads like contract review, case-law research and financial Q&A.",
-    "source": "xAI",
-    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/06/grok-amazon-bedrock/",
-    "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
-    "category": "model",
-    "publishedAt": "2026-06-17"
-  },
-  {
     "id": "nvidia-enpire-physical-autoresearch-2026-06-17",
     "title": "NVIDIA's ENPIRE lets AI coding agents run real-robot research end-to-end, hits 99% on Push-T",
     "summary": "NVIDIA, Carnegie Mellon and UC Berkeley published ENPIRE on June 17, 2026 - the first documented 'physical autoresearch' system in which frontier coding agents (Codex with GPT-5.5, Claude Code with Opus 4.7, Kimi Code with K2.6) autonomously reset, run and verify real-world robot trials and rewrite code; across eight dual-arm YAM stations, agent teams hit 99% pass@8 success on Push-T, pin insertion, and zip-tie cutting, with the eight-station fleet cutting Push-T time-to-success from ~5h to ~2h and pin insertion from 90+ min to ~40 min, and an open-source release planned.",
@@ -148,26 +198,6 @@
     "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
     "category": "research",
     "publishedAt": "2026-06-17"
-  },
-  {
-    "id": "nvidia-vera-rubin-nvl72-cloud-rollout-europe-2026-06-18",
-    "title": "NVIDIA Vera Rubin NVL72 cloud rollout confirmed for AWS, Azure, GCP and Oracle in H2 - Europe manufacturing live",
-    "summary": "NVIDIA confirmed on June 18, 2026 that CoreWeave was the first cloud provider to operate a fully validated Vera Rubin NVL72 rack on June 1 and that AWS, Google Cloud, Microsoft Azure and Oracle Cloud - alongside Cloud Partners CoreWeave, Lambda, Nebius and Nscale - will deploy in H2 2026, with Azure targeting hundreds of thousands of Superchips at its Wisconsin and Atlanta Fairwater AI superfactory sites; the European supply chain is now live too, with Bull assembling Foxconn-manufactured Vera Rubin NVL72 racks in Angers, France as the first domestically built Vera Rubin systems in Europe.",
-    "source": "NVIDIA",
-    "sourceUrl": "https://www.techtimes.com/articles/318651/20260618/nvidia-vera-rubin-nvl72-cloud-rollout-expands-europe-h2-deployments-near.htm",
-    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
-    "category": "product",
-    "publishedAt": "2026-06-18"
-  },
-  {
-    "id": "nvidia-coherent-texas-groundbreaking-2026-06-18",
-    "title": "NVIDIA and Coherent break ground in Texas - $2B bet on 6-inch InP photonics for AI networking",
-    "summary": "NVIDIA CEO Jensen Huang joined Coherent on June 18, 2026 to break ground on a new 6-inch indium phosphide fabrication facility in Sherman, Texas that will quadruple Coherent's wafer output and feed NVIDIA's most advanced photonics networking switches; the expansion is backed by NVIDIA's $2B strategic investment from March 2, a proposed $50M CHIPS Act grant signed as a letter of intent on June 16, ~$20M from the Texas Semiconductor Innovation Fund and the Sherman Economic Development Corporation, and is expected to create more than 1,000 jobs (550+ direct advanced-manufacturing roles) as part of NVIDIA's $500B U.S. AI-infrastructure commitment.",
-    "source": "NVIDIA",
-    "sourceUrl": "https://www.techtimes.com/articles/318659/20260618/nvidia-coherent-break-ground-texas-ai-optical-bottleneck-fix-2b-bet-backed-chips-act.htm",
-    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
-    "category": "product",
-    "publishedAt": "2026-06-18"
   },
   {
     "id": "deepseek-v4-preview-release-2026-06-18",
@@ -190,26 +220,6 @@
     "publishedAt": "2026-06-18"
   },
   {
-    "id": "mistral-le-chat-enterprise-medium-3-2026-06-18",
-    "title": "Mistral launches Le Chat Enterprise with new Mistral Medium 3 - on Google Cloud Marketplace day one",
-    "summary": "Mistral launched Le Chat Enterprise on June 18, 2026 powered by its new Mistral Medium 3 model, consolidating enterprise AI tools into one privacy-first platform with enterprise search across Google Drive, SharePoint, OneDrive, Google Calendar and Gmail, no-code agent builders, custom data and tool connectors (MCP support coming soon), document libraries with auto-summarization, custom models with feedback loops, and hybrid deployment across self-hosted, public cloud, private cloud or Mistral-hosted; Le Chat Enterprise is live on Google Cloud Marketplace from day one with Azure AI and AWS Marketplace availability coming soon.",
-    "source": "Mistral",
-    "sourceUrl": "https://tpsreport.news/news/mistral-le-chat-enterprise-medium-3",
-    "imageUrl": "https://mistral.ai/favicon.ico",
-    "category": "product",
-    "publishedAt": "2026-06-18"
-  },
-  {
-    "id": "moonshot-kimi-k2-7-code-highspeed-2026-06-17",
-    "title": "Moonshot's Kimi K2.7-Code ships with 30% fewer thinking tokens, 6x HighSpeed variant for agents",
-    "summary": "Moonshot AI's open-weight Kimi K2.7-Code, a 1T-parameter MoE coding model with 32B active parameters and 256K context, made rounds on June 16-17, 2026 with strong K2.6-leaderboard gains (Kimi Code Bench v2 62.0 vs 50.9, MCP Atlas 76.0 vs 69.4) and a new HighSpeed variant hitting ~180 tok/s and peaking at 260 tok/s in short contexts - roughly 6x the standard K2.7-Code release while preserving the 30% reduction in reasoning tokens per task; the model is OpenAI- and Anthropic-API-compatible, slots into Claude Code, Cline, Roo Code and OpenCode with one environment-variable change, and weighs in at $0.95 input / $4.00 output per million tokens.",
-    "source": "Moonshot",
-    "sourceUrl": "https://forum.moonshot.ai/t/here-comes-kimi-k2-7-code-better-coding-with-more-efficiency/441",
-    "imageUrl": "https://kimi.moonshot.cn/favicon.ico",
-    "category": "model",
-    "publishedAt": "2026-06-17"
-  },
-  {
     "id": "zhipu-glm-5-2-fully-open-mit-2026-06-17",
     "title": "Z.ai open-sources GLM-5.2 under MIT with 753B params, 1M context, $1.4 input / $4.4 output per million tokens",
     "summary": "Z.ai (formerly Zhipu AI) released GLM-5.2 under the MIT license on June 17, 2026 with full weights on Hugging Face and ModelScope, no regional restrictions and no strings attached - one of the largest fully-open flagship models of the year at 753B parameters (40B active MoE), 1M-token context, max 128K output, and pricing of $1.4 input / $4.4 output per million tokens (1/4 to 1/6 of comparable closed models); on the published scorecard GLM-5.2 beats GPT-5.5 on SWE-bench Pro (62.1 vs 58.6) and FrontierSWE (74.4 vs 72.6), places first on Design Arena, and is the first open-weight model over 80% on Terminal-Bench, with a new IndexShare technique cutting per-token compute 2.9x at 1M context.",
@@ -228,15 +238,5 @@
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
     "category": "model",
     "publishedAt": "2026-06-18"
-  },
-  {
-    "id": "microsoft-copilot-cowork-ga-usage-pricing-2026-06-17",
-    "title": "Microsoft ships Copilot Cowork GA with usage-based Copilot Credits, model-flex across Anthropic and OpenAI",
-    "summary": "Microsoft announced the general availability of Copilot Cowork worldwide on June 16-17, 2026, the long-running multi-step AI agent that runs in the Microsoft 365 cloud and acts on customer tenants' documents, now with usage-based Copilot Credits billing (1 cent per credit, or P3 volume commit with discount) layered on top of the $30/user/month Microsoft 365 Copilot USL; customers can pick from Anthropic Opus 4.8 and Sonnet 4.6 or, via the Frontier program, OpenAI GPT-5.5 and Microsoft's own Cowork 1, with admins able to set per-tenant/group/user spend limits and a per-task cost readout coming soon after GA.",
-    "source": "Microsoft",
-    "sourceUrl": "https://www.computerworld.com/article/4186190/microsoft-launches-copilot-cowork-with-usage-based-pricing.html",
-    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg?quality=82&strip=all&w=1600",
-    "category": "product",
-    "publishedAt": "2026-06-17"
   }
 ]

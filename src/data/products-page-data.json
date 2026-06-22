@@ -73,7 +73,7 @@
       "Alibaba": {
         "name": "Qwen 3.7-Max",
         "url": "https://www.alibabacloud.com/blog/qwen3-7-the-agent-frontier_603154",
-        "description": "Alibaba's new flagship model (May 26, 2026, Singapore Qwen Conference) with 1T+ parameters, 1M context, runs 35 hours autonomously without performance degradation. Top-tier on Artificial Analysis Intelligence Index. Powers Wukong enterprise platform, Qwen App with full Taobao integration, and Qwen Cloud agentic platform. Qwen3.7-Plus launched June 2, 2026 as multimodal agent model (~$0.40/$2.40 per 1M tokens, ~60% cheaper than Qwen3.7-Max), #5 globally on Vision Arena, ScreenSpot Pro 79.0 / Terminal-Bench 70.3, GUI/CLI hybrid agent, video and driving-scene understanding. Model Studio CLI (June 8, 2026) open-sources 150+ multimodal models for agent access (Qwen, HappyHorse, Wan, DeepSeek, Kimi). Qwen-powered AI swine diagnosis assistant with Muyuan Group launched June 8, 2026."
+        "description": "Alibaba's new flagship model (May 26, 2026, Singapore Qwen Conference) with 1T+ parameters, 1M context, runs 35 hours autonomously without performance degradation. Top-tier on Artificial Analysis Intelligence Index. Powers Wukong enterprise platform, Qwen App with full Taobao integration, and Qwen Cloud agentic platform. Qwen3.7-Plus launched June 2, 2026 as multimodal agent model (~$0.40/$2.40 per 1M tokens, ~60% cheaper than Qwen3.7-Max), #5 globally on Vision Arena, ScreenSpot Pro 79.0 / Terminal-Bench 70.3, GUI/CLI hybrid agent, video and driving-scene understanding. Model Studio CLI (June 8, 2026) open-sources 150+ multimodal models for agent access (Qwen, HappyHorse, Wan, DeepSeek, Kimi). Qwen-powered AI swine diagnosis assistant with Muyuan Group launched June 8, 2026. Qwen-Robot Suite launched June 17, 2026 — Alibaba's first Qwen-based foundational robotics models: Qwen-RobotManip (Vision-Language-Action model for manipulation), Qwen-RobotNav (Vision-Language-Navigation for instruction following, goal navigation, target tracking, autonomous driving), Qwen-RobotWorld (video world model trained on 38,100+ hours of open-source robot data, predicts future trajectories across 20+ embodiment types and 500+ action categories). In pilot with Alibaba Cloud robotics enterprise customers; industry-leading on RoboChallenge and dozens of embodied-intelligence benchmarks."
       },
       "Microsoft": {
         "name": "MAI-Thinking-1",
@@ -156,7 +156,7 @@
       "Mistral": {
         "name": "Vibe",
         "url": "https://mistral.ai/products/vibe/",
-        "description": "Mistral's unified AI agent (rebranded from Le Chat, May 28, 2026) with Work Mode (long-running multi-step tasks with parallel tool calls, recurring scheduled jobs, 100+ connectors, MCP) and Code Mode (remote cloud coding sessions in isolated sandboxes, GitHub PR integration, Slack trigger). New VS Code extension and JetBrains/Zed ACP integration. Powered by Mistral Medium 3.5. Pro $14.99/mo, Team $24.99/user/mo."
+        "description": "Mistral's unified AI agent (rebranded from Le Chat, May 28, 2026) with Work Mode (long-running multi-step tasks with parallel tool calls, recurring scheduled jobs, 100+ connectors, MCP) and Code Mode (remote cloud coding sessions in isolated sandboxes, GitHub PR integration, Slack trigger). New VS Code extension and JetBrains/Zed ACP integration. Powered by Mistral Medium 3.5. Pro $14.99/mo, Team $24.99/user/mo. 20+ MCP-powered connectors added June 18, 2026 (Databricks, Snowflake, GitHub, Stripe, Asana) with one-click memory import from ChatGPT; available on free plan. Vibe (formerly Le Chat) consolidates Work Mode, Code Mode, and Chat Mode."
       },
       "ByteDance": {
         "name": "Doubao",
@@ -181,7 +181,7 @@
       "Perplexity": {
         "name": "Perplexity",
         "url": "https://docs.perplexity.ai/docs/getting-started/overview",
-        "description": "Answer engine with GPT-5.5 orchestration. Personal Computer for Mac (May 11). Computer Agent with Workflows, Teams integration, Snowflake/Databricks connectors. Computer in Microsoft Word, Excel, PowerPoint, Outlook (May 28, 2026); Teams integration from earlier in May. Harvard Business School study (June 10, 2026): Computer cuts estimated task time by 87% and cost by 94% across 10,000 matched pairs. Personal Computer with local inference (hybrid local-server orchestrator) coming in July 2026 — first product to treat compute as one more thing to orchestrate across machine and cloud."
+        "description": "Answer engine with GPT-5.5 orchestration. Personal Computer for Mac (May 11). Computer Agent with Workflows, Teams integration, Snowflake/Databricks connectors. Computer in Microsoft Word, Excel, PowerPoint, Outlook (May 28, 2026); Teams integration from earlier in May. Harvard Business School study (June 10, 2026): Computer cuts estimated task time by 87% and cost by 94% across 10,000 matched pairs. Personal Computer with local inference (hybrid local-server orchestrator) coming in July 2026 — first product to treat compute as one more thing to orchestrate across machine and cloud. Brain (June 18, 2026, Research Preview, Max + Enterprise Max) — self-improving work-memory system that builds a context graph of Computer sessions, teaches itself overnight how to do recurring work better, shows its sources, and improves answer correctness +25% / recall +16% / cost -13% on repeated tasks."
       },
       "MiniMax": {
         "name": "MiniMax Agent",
@@ -216,7 +216,7 @@
       "Anthropic": {
         "name": "Claude Code",
         "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-        "description": "Terminal-first coding agent with IDE workflows powered by Claude Opus 4.8. Claude Fable 5 SUSPENDED June 12, 2026 by US export control directive — was available in GitHub Copilot, Claude API, and Claude Platform on AWS (June 9, 2026). Dynamic workflows GA in Claude Code (June 11, 2026, Code with Claude Tokyo) — Claude writes orchestration scripts running tens to hundreds of parallel subagents per session, enabled via /ultracode or asking Claude to create a workflow. Scheduled deployments and environment variable vaults in public beta in Claude Managed Agents (June 11, 2026). ant CLI, Claude Code Analytics API. /ultrareview, auto mode for Max users. Desktop app GA. Fast mode for Opus 4.8 at 2x standard rate for 2.5x speed. June 15, 2026: Agent SDK / claude -p / GitHub Actions usage on subscription plans moves to a separate monthly credit ($20 Pro, $100 Max 5x, $200 Max 20x) billed at standard API rates; one-time opt-in claim required. Week 24 (June 8-16, 2026): nested sub-agents (background chains 5 deep, foreground unlimited), --safe-mode/CLAUDE_CODE_SAFE_MODE to isolate broken customizations, fallbackModel for up to 3 sequential model fallbacks, /cd mid-conversation working directory moves, auto mode on Bedrock/Vertex/Foundry for Opus 4.7/4.8, security-guidance plugin for real-time vulnerability reviews of Claude's code changes, --plugin list command, safer auto-edit prompts before writing risky files."
+        "description": "Terminal-first coding agent with IDE workflows powered by Claude Opus 4.8. Claude Fable 5 SUSPENDED June 12, 2026 by US export control directive — was available in GitHub Copilot, Claude API, and Claude Platform on AWS (June 9, 2026). Dynamic workflows GA in Claude Code (June 11, 2026, Code with Claude Tokyo) — Claude writes orchestration scripts running tens to hundreds of parallel subagents per session, enabled via /ultracode or asking Claude to create a workflow. Scheduled deployments and environment variable vaults in public beta in Claude Managed Agents (June 11, 2026). ant CLI, Claude Code Analytics API. /ultrareview, auto mode for Max users. Desktop app GA. Fast mode for Opus 4.8 at 2x standard rate for 2.5x speed. June 15, 2026: Agent SDK / claude -p / GitHub Actions usage on subscription plans moves to a separate monthly credit ($20 Pro, $100 Max 5x, $200 Max 20x) billed at standard API rates; one-time opt-in claim required. Week 24 (June 8-16, 2026): nested sub-agents (background chains 5 deep, foreground unlimited), --safe-mode/CLAUDE_CODE_SAFE_MODE to isolate broken customizations, fallbackModel for up to 3 sequential model fallbacks, /cd mid-conversation working directory moves, auto mode on Bedrock/Vertex/Foundry for Opus 4.7/4.8, security-guidance plugin for real-time vulnerability reviews of Claude's code changes, --plugin list command, safer auto-edit prompts before writing risky files. Claude Code Artifacts launched in beta June 18, 2026 — Claude Code sessions turn into live, shareable HTML pages at private org-scoped URLs that update in place as work progresses (version history, gallery, auth-restricted to org members); rolling out to Claude Team and Enterprise customers via CLI and desktop app, powered by Opus 4.8."
       },
       "Microsoft": {
         "name": "GitHub Copilot",
@@ -241,7 +241,7 @@
       "Cognition": {
         "name": "Devin Desktop",
         "url": "https://cognition.ai/blog/introducing-devin-desktop",
-        "description": "Cognition AI's agent-first IDE (formerly Windsurf, rebranded to Devin Desktop June 2, 2026, formal announcement June 7). Agent Command Center with Kanban view of local + cloud agents, Codemaps, one-click Devin cloud handoff, Spaces for project-level context. SWE-1.6 GA at 200 tok/s (Fireworks) / 950 tok/s (Cerebras). Devin Local 2026.5.26 in Rust, 30% more token-efficient than Cascade, subagent support, sandboxing. Cascade (Python) deprecated and removed July 1, 2026. Devin 2.2 (May 21, 2026): end-to-end testing with computer use, Review Autofix, 3x faster startup, redesigned interface. Devin Auto-Triage (May 18, 2026): Devin proactively responds to bug reports/incidents, investigates with connected tools, opens PRs. Agent Client Protocol (ACP) support for Codex, Claude Agent, OpenCode, and 25+ agents (JetBrains, Google, GitHub adoption). Agent router coming in weeks."
+        "description": "Cognition AI's agent-first IDE (formerly Windsurf, rebranded to Devin Desktop June 2, 2026, formal announcement June 7). Agent Command Center with Kanban view of local + cloud agents, Codemaps, one-click Devin cloud handoff, Spaces for project-level context. SWE-1.6 GA at 200 tok/s (Fireworks) / 950 tok/s (Cerebras). Devin Local 2026.5.26 in Rust, 30% more token-efficient than Cascade, subagent support, sandboxing. Cascade (Python) deprecated and removed July 1, 2026. Devin 2.2 (May 21, 2026): end-to-end testing with computer use, Review Autofix, 3x faster startup, redesigned interface. Devin Auto-Triage (May 18, 2026): Devin proactively responds to bug reports/incidents, investigates with connected tools, opens PRs. Agent Client Protocol (ACP) support for Codex, Claude Agent, OpenCode, and 25+ agents (JetBrains, Google, GitHub adoption). Agent router coming in weeks. June 19, 2026: MCP Marketplace Expansion adds 48+ engineering MCP connectors (Miro, Mixpanel, Honeycomb, Postman, monday.com, Klaviyo, LaunchDarkly with hosted OAuth, Fathom, Attio, Calendly, Google Drive GA for all); Devin Review for GitLab Merge Requests (intelligent diffs, inline comments, AI chat, sidebar by status); dedicated MCP Management Page for enterprise admins (per-server usage, per-session usage, org-wide rollups)."
       },
       "xAI": {
         "name": "Grok Build",
@@ -306,7 +306,7 @@
       "Mistral": {
         "name": "Mistral Vibe",
         "url": "https://docs.mistral.ai/products",
-        "description": "Open-source terminal-native coding agent powered by Mistral Medium 3.5. Remote cloud sandboxes via Vibe Code Workflow (May 5, 2026), parallel async sessions, GitHub PR integration. Le Chat rebranded to Vibe (May 28, 2026) — Work Mode and Code Mode under one agent and one license, all Le Chat history preserved. Vibe remote agents (May 22, 2026) can teleport local sessions to cloud when work outgrows laptop. Connectors in Studio with custom MCPs (May 22, 2026). New VS Code extension and JetBrains/Zed ACP integration. Code Mode adds remote sessions from Vibe web surface with GitHub integration and Slack triggers (June). Mistral Medium 3.5 also on Microsoft Copilot Studio (May 28, 2026) with EU data residency."
+        "description": "Open-source terminal-native coding agent powered by Mistral Medium 3.5. Remote cloud sandboxes via Vibe Code Workflow (May 5, 2026), parallel async sessions, GitHub PR integration. Le Chat rebranded to Vibe (May 28, 2026) — Work Mode and Code Mode under one agent and one license, all Le Chat history preserved. Vibe remote agents (May 22, 2026) can teleport local sessions to cloud when work outgrows laptop. Connectors in Studio with custom MCPs (May 22, 2026). New VS Code extension and JetBrains/Zed ACP integration. Code Mode adds remote sessions from Vibe web surface with GitHub integration and Slack triggers (June). Mistral Medium 3.5 also on Microsoft Copilot Studio (May 28, 2026) with EU data residency. Vibe 2.0 terminal release June 18, 2026 — adds custom subagents, multi-choice clarifications, slash-command skills; Devstral 2 API pricing now $0.40/M input and $2.00/M output tokens (smaller variant $0.10/$0.30)."
       },
       "Zapier": {
         "name": "Zapier Platform CLI",
@@ -365,7 +365,7 @@
       "xAI": {
         "name": "xAI API",
         "url": "https://docs.x.ai",
-        "description": "Developer access to Grok 4.3 ($1.25/$2.50 per 1M tokens) and grok-4.20 (2M context). Custom Voices TTS ($4.20/1M chars), Voice Agent API ($3/hr). grok-imagine-image-quality for image generation. grok-imagine-video-1.5-preview (June 3, 2026, 720p image-to-video, #1 Artificial Analysis Video Arena Image-to-Video at Elo 1404, 15-second clips). grok-build-0.1 for terminal coding workflows. Composer 2.5 in Grok Build (June 1, 2026). Responses API with tool calling (May 22, 2026). Grok 5 in training on Colossus 2 (1.5GW); Grok V9-Medium (1.5T params, Cursor-trained coding model) finished training May 25, 2026 with public release expected mid-June 2026. Grok Build Plugin Marketplace (June 11, 2026) for skills, slash commands, agents, hooks, MCP servers, and LSPs from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. Voice API default for Vapi (June 3, 2026). Gopuff Go and eToro Tori agent integrations. June 15, 2026: multi-session coding manager (manage many coding sessions at once from Grok Build)."
+        "description": "Developer access to Grok 4.3 ($1.25/$2.50 per 1M tokens) and grok-4.20 (2M context). Custom Voices TTS ($4.20/1M chars), Voice Agent API ($3/hr). grok-imagine-image-quality for image generation. grok-imagine-video-1.5-preview (June 3, 2026, 720p image-to-video, #1 Artificial Analysis Video Arena Image-to-Video at Elo 1404, 15-second clips). grok-build-0.1 for terminal coding workflows. Composer 2.5 in Grok Build (June 1, 2026). Responses API with tool calling (May 22, 2026). Grok 5 in training on Colossus 2 (1.5GW); Grok V9-Medium (1.5T params, Cursor-trained coding model) finished training May 25, 2026 with public release expected mid-June 2026. Grok Build Plugin Marketplace (June 11, 2026) for skills, slash commands, agents, hooks, MCP servers, and LSPs from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. Voice API default for Vapi (June 3, 2026). Gopuff Go and eToro Tori agent integrations. June 15, 2026: multi-session coding manager (manage many coding sessions at once from Grok Build). Grok Imagine Video 1.5 GA on xAI API June 16, 2026 — out of preview."
       },
       "DeepSeek": {
         "name": "DeepSeek API",
@@ -375,7 +375,7 @@
       "Mistral": {
         "name": "La Plateforme",
         "url": "https://docs.mistral.ai",
-        "description": "Mistral developer platform for chat, OCR, embeddings, agents, and code. Medium 3.5 default with reasoning_effort parameter. Vibe CLI with remote cloud sandboxes (May 5, 2026). Voxtral TTS with zero-shot voice cloning. Mistral Medium 3.5 added to Microsoft Copilot Studio model lineup (May 28, 2026) with EU in-region data control and admin governance — in early release environments. New Mistral Vibe extension for VS Code. Code Mode (May 28, 2026) launches remote coding agents from the Vibe web surface with GitHub integration, parallel sessions, and Slack triggers (June). Mistral in early talks to raise €3B at €20B valuation, plans 1GW compute by 2030."
+        "description": "Mistral developer platform for chat, OCR, embeddings, agents, and code. Medium 3.5 default with reasoning_effort parameter. Vibe CLI with remote cloud sandboxes (May 5, 2026). Voxtral TTS with zero-shot voice cloning. Mistral Medium 3.5 added to Microsoft Copilot Studio model lineup (May 28, 2026) with EU in-region data control and admin governance — in early release environments. New Mistral Vibe extension for VS Code. Code Mode (May 28, 2026) launches remote coding agents from the Vibe web surface with GitHub integration, parallel sessions, and Slack triggers (June). Mistral in early talks to raise €3B at €20B valuation, plans 1GW compute by 2030. Mistral Forge (enterprise custom model training on proprietary data — codebases, compliance policies, operational docs — supporting dense and MoE with pre/post-training + RL) and Mistral AI Studio (production deployment platform: Observability, Agent Runtime on Temporal, AI Registry for asset versioning) launched June 18, 2026."
       },
       "NVIDIA": {
         "name": "NVIDIA Build",
@@ -430,7 +430,7 @@
       "Amazon": {
         "name": "SageMaker AI",
         "url": "https://aws.amazon.com/sagemaker/",
-        "description": "Managed model training, deployment, and MLOps workflows on AWS. Bedrock for inference, SageMaker for training. Claude Fable 5 was on Bedrock (June 9, 2026) in US East (N. Virginia) and Europe (Stockholm) — SUSPENDED June 12, 2026 by US export control directive."
+        "description": "Managed model training, deployment, and MLOps workflows on AWS. Bedrock for inference, SageMaker for training. Claude Fable 5 was on Bedrock (June 9, 2026) in US East (N. Virginia) and Europe (Stockholm) — SUSPENDED June 12, 2026 by US export control directive. Managed Knowledge Base on Bedrock AgentCore GA June 17, 2026 — connect unstructured data sources, AgentCore handles the rest; AgentCore Web Search GA same day."
       },
       "NVIDIA": {
         "name": "NIM",
@@ -578,7 +578,7 @@
       "Adobe": {
         "name": "Firefly",
         "url": "https://firefly.adobe.com",
-        "description": "Commercially safe image generation for creative and marketing workflows. Part of Adobe's agentic CX platform including Experience Platform Agent Orchestrator and CX Enterprise Coworker (April 20, 2026, GA coming months)."
+        "description": "Commercially safe image generation for creative and marketing workflows. Part of Adobe's agentic CX platform including Experience Platform Agent Orchestrator and CX Enterprise Coworker (April 20, 2026, GA coming months). Firefly AI Assistant (public beta) and the upgraded Firefly creative AI studio rolled out June 18, 2026: new Elements (reusable characters/environments you can drop into scenes), Projects (grouped assets/context), brand kit generation, storyboards, Quick Cut video editing, image-to-video from storyboards. AI Assistant in public beta across Premiere, Photoshop, Illustrator, Frame.io, InDesign (private beta in After Effects). Upgraded AI studio in private beta via waitlist at firefly.adobe.com/studio."
       },
       "Midjourney": {
         "name": "Midjourney",
@@ -822,12 +822,12 @@
       "Perplexity": {
         "name": "Perplexity",
         "url": "https://docs.perplexity.ai/docs/getting-started/overview",
-        "description": "Research-first answer engine with strong citation and follow-up workflows. Computer agent with parallel research, Workflows. Search as Code (SaC, June 1, 2026) is Perplexity's new reference search architecture — exposes search stack primitives via Agentic Search SDK, advances cost-performance frontier on agentic search. Personal Computer with local inference coming in July 2026 (first hybrid local-server orchestrator). Harvard Business School study (June 10, 2026): Computer cuts task time by 87% and cost by 94%."
+        "description": "Research-first answer engine with strong citation and follow-up workflows. Computer agent with parallel research, Workflows. Search as Code (SaC, June 1, 2026) is Perplexity's new reference search architecture — exposes search stack primitives via Agentic Search SDK, advances cost-performance frontier on agentic search. Personal Computer with local inference coming in July 2026 (first hybrid local-server orchestrator). Harvard Business School study (June 10, 2026): Computer cuts task time by 87% and cost by 94%. Brain (June 18, 2026, Research Preview, Max + Enterprise Max) — context-graph memory that retrains Computer overnight on prior research sessions; cuts follow-up research cost 13%."
       },
       "Anthropic": {
         "name": "Claude Research",
         "url": "https://claude.com",
-        "description": "Claude for research with Opus 4.8 and Claude Fable 5 (Mythos-class, June 9, 2026) for the hardest long-horizon research. Fable 5 SUSPENDED June 12, 2026 by US export control directive, disabled for all customers. xhigh effort level, memory across sessions, computer use. Cowork scheduled tasks for recurring research workflows."
+        "description": "Claude for research with Opus 4.8 and Claude Fable 5 (Mythos-class, June 9, 2026) for the hardest long-horizon research. Fable 5 SUSPENDED June 12, 2026 by US export control directive, disabled for all customers. xhigh effort level, memory across sessions, computer use. Cowork scheduled tasks for recurring research workflows. Claude Code Artifacts (beta, June 18, 2026) for Team/Enterprise lets researchers publish living web artifacts — incident timelines, audit dashboards — from any Claude Code session."
       }
     }
   },
@@ -842,12 +842,12 @@
       "OpenAI": {
         "name": "ChatGPT Enterprise",
         "url": "https://developers.openai.com/chatgpt",
-        "description": "Enterprise ChatGPT with GPT-5.5, admin controls, connectors, and security. Team and Edu plans available. GPT-5.5 Instant default since June 3, 2026."
+        "description": "Enterprise ChatGPT with GPT-5.5, admin controls, connectors, and security. Team and Edu plans available. GPT-5.5 Instant default since June 3, 2026. Global Admin Console for ChatGPT Enterprise rolled out June 18, 2026: consolidated ChatGPT and Codex credit usage across the workspace with granular breakdown by user/product/model, default workspace credit limits, team-specific limits and per-user overrides, employee self-service credit monitoring, and credit-request workflow with context — addresses rising AI costs from power-user adoption."
       },
       "Anthropic": {
         "name": "Claude Enterprise",
         "url": "https://claude.com/pricing/enterprise",
-        "description": "Claude workspace with enterprise controls, knowledge, and Opus 4.8 / Claude Fable 5 (Mythos-class) access. Fable 5 SUSPENDED June 12, 2026 by US export control directive, disabled for all customers. Claude Cowork in Amazon Bedrock. Microsoft 365 integration. Financial services and small business solutions. Connector permissions in custom roles (May 28, 2026). TCS partnership (June 12, 2026) — Claude deployed to 50,000 TCS employees; DXC alliance (June 11, 2026) — Claude-certified forward-deployed engineers."
+        "description": "Claude workspace with enterprise controls, knowledge, and Opus 4.8 / Claude Fable 5 (Mythos-class) access. Fable 5 SUSPENDED June 12, 2026 by US export control directive, disabled for all customers. Claude Cowork in Amazon Bedrock. Microsoft 365 integration. Financial services and small business solutions. Connector permissions in custom roles (May 28, 2026). TCS partnership (June 12, 2026) — Claude deployed to 50,000 TCS employees; DXC alliance (June 11, 2026) — Claude-certified forward-deployed engineers. Claude Code Artifacts launched in beta June 18, 2026 for Claude Team and Enterprise customers — live shareable pages that update in place as the coding agent works; admin-toggleable."
       },
       "Microsoft": {
         "name": "Microsoft 365 Copilot",
@@ -877,7 +877,7 @@
       "Adobe": {
         "name": "CX Enterprise Coworker",
         "url": "https://news.adobe.com/news/2026/04/adobe-unveils-cx-enterprise-coworker",
-        "description": "Agentic AI for customer experience (announced at Adobe Summit April 20, 2026; GA coming months). Plans, orchestrates, and improves CX processes grounded in enterprise data, workflows, and brand controls. Anchored in Adobe Real-Time CDP, Journey Optimizer, Customer Journey Analytics, Marketo Engage, Target. Built on MCP and A2A open standards."
+        "description": "Agentic AI for customer experience (announced at Adobe Summit April 20, 2026; GA coming months). Plans, orchestrates, and improves CX processes grounded in enterprise data, workflows, and brand controls. Anchored in Adobe Real-Time CDP, Journey Optimizer, Customer Journey Analytics, Marketo Engage, Target. Built on MCP and A2A open standards. AI Assistant (powered by Adobe creative agent) is now in public beta across Premiere, Photoshop, Illustrator, Frame.io, and InDesign since June 18, 2026 — orchestrates multi-step workflows via conversational prompts inside the apps people already use."
       },
       "Meta": {
         "name": "Manus AI",
@@ -998,6 +998,11 @@
         "name": "TGI",
         "url": "https://huggingface.co/docs/text-generation-inference",
         "description": "Text Generation Inference server for enterprise open-model deployments."
+      },
+      "Mistral": {
+        "name": "Le Chat Enterprise",
+        "url": "https://mistral.ai/news/",
+        "description": "Mistral enterprise AI assistant launched June 18, 2026, powered by Mistral Medium 3.5. Enterprise search across Google Drive/SharePoint/OneDrive/Google Calendar/Gmail; no-code agent builders; custom data and tool connectors (MCP support); document libraries with auto-summarization; hybrid deployment (self-hosted, public cloud, private cloud, Mistral-hosted). Rolling out features over 2 weeks; GA on Google Cloud Marketplace, Azure AI and AWS Marketplace coming soon."
       }
     }
   },
