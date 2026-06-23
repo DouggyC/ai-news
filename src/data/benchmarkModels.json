@@ -788,8 +788,8 @@
  "mmlu":89.4,
  "humaneval":84.0,
  "livebench":64.8,
- "mmluPlus":84.6,
- "gpqa":84.5
+ "mmluPlus":84.8,
+ "gpqa":83.8
  }
 ]
 

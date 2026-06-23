@@ -8,6 +8,7 @@ interface ProductTableProps {
 }
 
 const companyOrder = [
+  'Apple',
   'NVIDIA',
   'NVIDIA-Vera',
   'Microsoft',
@@ -87,6 +88,8 @@ const companyOrder = [
 
 function getCompanyBadgeStyle(company: string): React.CSSProperties {
   const colors: Record<string, string> = {
+    Apple:
+      'backgroundColor:rgba(156, 163, 175, 0.2);color:#9ca3af;borderColor:rgba(156, 163, 175, 0.3)',
     NVIDIA:
       'backgroundColor:rgba(118, 185, 0, 0.2);color:#76b900;borderColor:rgba(118, 185, 0, 0.3)',
     Microsoft:

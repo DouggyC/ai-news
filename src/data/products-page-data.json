@@ -197,6 +197,11 @@
         "name": "Kimi",
         "url": "https://www.kimi.com",
         "description": "Moonshot's flagship AI assistant (May 2026) powered by Kimi K2.6 with K2.6 Agent Swarm (up to 300 sub-agents, 4,000 coordinated steps) and Kimi Claw cloud teammate. Long-context chat, web search, multimodal inputs, deep research, agent swarm workflows. Kimi Work (June 8/12 2026) is the local-first desktop variant — see Sovereign Agent. Free, Moderato $19/mo, Allegretto $39/mo, Allegro $99/mo."
+      },
+      "Apple": {
+        "name": "Siri AI",
+        "url": "https://www.apple.com/apple-intelligence/",
+        "description": "Apple's Siri AI assistant, unveiled at WWDC26 (June 1, 2026) as an entirely new version of Siri powered by next-generation Apple Foundation Models. Profoundly more capable and conversational, with personal context understanding, onscreen awareness, broad world knowledge, Visual Intelligence, and a dedicated Siri app to revisit conversations (iCloud-synced). New architecture routes between on-device models and Private Cloud Compute; the Foundation Models framework gives any app direct access to the on-device models powering Apple Intelligence. iOS 27 / iPadOS 27 / macOS 27 / watchOS 27 / visionOS 27 / tvOS 27; available for developer testing today, beta later this year, English first, free software update this fall. Supported on iPhone 16+ and 15 Pro/Pro Max, iPad mini (A17 Pro) and M1+ iPads, MacBook Neo (A18 Pro) and M1+ Macs, Apple Vision Pro, Apple Watch Series 9+/Ultra 2+/SE 3 (paired with AI-enabled iPhone). The Image Playground API also gains a powerful new generative model on Private Cloud Compute with photorealistic output and refinement via natural language."
       }
     }
   },
@@ -411,6 +416,11 @@
         "name": "Moonshot API",
         "url": "https://platform.kimi.ai/",
         "description": "Kimi K2.7-Code (June 12, 2026, Modified MIT, $0.95/$4.00 per 1M tokens, 1T total/32B active MoE, 256K context, +21.8% on Kimi Code Bench v2 vs K2.6) plus K2.6, K2.5 endpoints. OpenAI-compatible REST API with long-context, function calling, vision, and agent-mode tools. K2.7-Code targets long-horizon software engineering with 30% fewer reasoning tokens. Token-based pricing on Moonshot Platform."
+      },
+      "Apple": {
+        "name": "Foundation Models Framework",
+        "url": "https://developer.apple.com/wwdc26/guides/apple-intelligence/",
+        "description": "Apple's native Swift framework (announced WWDC26, June 1, 2026) giving apps direct access to the on-device Apple Foundation Models that power Apple Intelligence. Multimodal prompts (text + images), Vision framework tool calls (OCR, barcode) executed on-device, Dynamic Profiles to swap models/tools/instructions mid-session, Language Model protocol for plugging in third-party providers (Anthropic Claude, Google Gemini, any conforming endpoint). Cloud access to next-gen Apple Foundation Models via Private Cloud Compute is free for App Store Small Business Program apps with under 2M first-time downloads. Ships with the new Evaluations framework for testing AI features under dynamic conditions, App Intents framework upgrades (View Annotations API for on-screen awareness, App Intents Testing framework), and a reimagined Image Playground API (new photorealistic generative model on Private Cloud Compute, text/touch refinement, landscape/portrait dimensions)."
       }
     }
   },
@@ -604,6 +614,11 @@
         "name": "Reve 2.0",
         "url": "https://reve.ai",
         "description": "Reve AI's layout-first image model (June 3, 2026) — #2 on Text-to-Image Arena with 1280 score (+125 from 1.5), behind GPT Image 2 and ahead of Gemini 3.1 Flash Image Preview (Nano Banana 2). Proprietary model from Palo Alto startup; ensemble approach. API access with layout-based creative control."
+      },
+      "Apple": {
+        "name": "Image Playground",
+        "url": "https://www.apple.com/apple-intelligence/",
+        "description": "Apple's image generation API reimagined at WWDC26 (June 1, 2026) with a powerful new generative model running on Private Cloud Compute that produces high-quality images in virtually any style, including photorealistic output. People can start from a photo or description, refine images using natural language or touch, and choose landscape or portrait dimensions. All new capabilities are exposed through the Image Playground API for third-party apps. Systemwide Visual Intelligence also expanded to iPad, Mac, and Apple Vision Pro (iOS 27 / iPadOS 27 / macOS 27 / visionOS 27). Free software update this fall on Apple Intelligence-capable devices."
       }
     }
   },
@@ -828,6 +843,11 @@
         "name": "Claude Research",
         "url": "https://claude.com",
         "description": "Claude for research with Opus 4.8 and Claude Fable 5 (Mythos-class, June 9, 2026) for the hardest long-horizon research. Fable 5 SUSPENDED June 12, 2026 by US export control directive, disabled for all customers. xhigh effort level, memory across sessions, computer use. Cowork scheduled tasks for recurring research workflows. Claude Code Artifacts (beta, June 18, 2026) for Team/Enterprise lets researchers publish living web artifacts — incident timelines, audit dashboards — from any Claude Code session."
+      },
+      "Apple": {
+        "name": "Apple Intelligence Research",
+        "url": "https://www.apple.com/apple-intelligence/",
+        "description": "Apple's research surface for Apple Intelligence (announced WWDC26, June 1, 2026): next-generation Apple Foundation Models powering on-device intelligence and Private Cloud Compute, App Intents framework for app discovery/execution, and a new Evaluations framework for testing AI features under dynamic conditions. Siri AI uses the system orchestrator with on-device Spotlight index and App Toolbox. Generative image, writing, and Visual Intelligence research surface spans iPhone, iPad, Mac, Apple Watch, and Apple Vision Pro. Apple continues to publish on-device LLM and multimodal research; Private Cloud Compute is independently verifiable by external experts."
       }
     }
   },
@@ -888,6 +908,11 @@
         "name": "Agentforce",
         "url": "https://www.salesforce.com/agentforce",
         "description": "Salesforce's enterprise agent platform. Agentforce 1 Editions with 12,000+ ARR as of Q4 FY26, $800M ARR (+169% YoY) heading into Q1 FY27 earnings May 27, 2026. Headless 360 architecture (April 2026 TDX) exposes every Salesforce capability as API, MCP tool, or CLI. Operations released May 3 with 30+ back-office blueprints. Summer '26 release GA on June 15, 2026 (API v67.0): Multi-Agent Orchestration graduates from beta to GA (Atlas Reasoning Engine 3.0, one orchestrator routes dynamically across registered subagents), Agentforce Self-Service (Help Agent setup in 6 clicks, Portal experience, simplified pricing), Customer Engagement Agent (24/7 lead capture with warm handoff to sales), Momentum (auto-captures calls/emails/meetings back to Salesforce for agentic selling), Scheduling Console (AI-powered dispatch with map routes), Tableau MCP and Salesforce-hosted MCP servers GA. Setup with Agentforce now GA (May 2026) for admins; legacy agent upgrade to new Agentforce Builder; OpenAI Search provider GA for Bring Your Own Channel."
+      },
+      "Apple": {
+        "name": "Apple Intelligence for Enterprise",
+        "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
+        "description": "Apple's enterprise surface for Apple Intelligence, announced at WWDC26 (June 1, 2026): Apple Intelligence and Siri AI ship as free software updates in iOS 27 / iPadOS 27 / macOS 27 / watchOS 27 / visionOS 27 / tvOS 27 this fall. Built on Apple silicon with on-device processing and Private Cloud Compute for larger server-based models (personal data not stored or made accessible to Apple). Foundation Models framework lets enterprise developers integrate Apple Intelligence into their apps at no per-request cost. App Intents framework connects line-of-business apps to Siri AI. Trust and safety improvements: stronger parental controls, Communication Safety, expanded Sensitive Content Warning. iPhone, iPad, Mac, Apple Watch, Apple Vision Pro."
       }
     }
   },
@@ -948,6 +973,11 @@
         "name": "Kimi Work",
         "url": "https://www.kimi.com/products/kimi-work",
         "description": "Moonshot's local-first desktop AI agent (announced June 8, 2026, opened for testing June 12, 2026) for macOS (Apple Silicon) and Windows. Runs on Kimi K2.6 with up to 300 parallel sub-agents and 4,000 coordinated steps. WebBridge drives the user's real logged-in browser; built-in cron engine runs scheduled tasks; mounts local folders and runs Python. Produces documents, spreadsheets, PDFs, slide decks, and renders full websites with live preview. Free download; Moderato $19/mo, Allegretto $39/mo (full 300-agent swarm), Allegro $99/mo for highest-volume professional use."
+      },
+      "Apple": {
+        "name": "App Intents Agent",
+        "url": "https://developer.apple.com/wwdc26/guides/apple-intelligence/",
+        "description": "Apple's on-device agent surface unveiled at WWDC26 (June 1, 2026) via the App Intents framework. Adopting App Intents schemas lets any app's content and capabilities become discoverable and executable through natural language inside Siri AI, Shortcuts, and Spotlight. The new View Annotations API maps on-screen views to entities so users can reference and act on what's in front of them conversationally. The new App Intents Testing framework validates the full integration (Siri, Shortcuts, Spotlight) through real system pathways without UI automation. All processing stays on device with the Foundation Models framework; Personal Context and App Toolbox are first-party Apple Intelligence components."
       }
     }
   },
