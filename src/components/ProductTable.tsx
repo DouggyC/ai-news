@@ -26,6 +26,7 @@ const companyOrder = [
   'Salesforce',
   'OpenAI',
   'Anthropic',
+  'Claude Tag',
   'OpenAI-Realtime-2',
   'OpenAI-Realtime-Translate',
   'OpenAI-Realtime-Whisper',
@@ -36,6 +37,7 @@ const companyOrder = [
   'Moonshot',
   'JetBrains',
   'Perplexity',
+  'Computer for Counsel',
   'Cursor',
   'Cloudflare',
   'Cohere',
@@ -83,6 +85,7 @@ const companyOrder = [
   'LocalAI',
   'vLLM',
   'Vellum',
+  'Sakana',
 ];
 
 
@@ -118,6 +121,7 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
       'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
     Anthropic:
       'backgroundColor:rgba(249, 115, 22, 0.2);color:#fb923c;borderColor:rgba(249, 115, 22, 0.3)',
+    'Claude Tag': 'backgroundColor:rgba(249, 115, 22, 0.2);color:#fb923c;borderColor:rgba(249, 115, 22, 0.3)',
     xAI: 'backgroundColor:rgba(255, 255, 255, 0.1);color:rgba(255, 255, 255, 0.7);borderColor:rgba(255, 255, 255, 0.15)',
     DeepSeek:
       'backgroundColor:rgba(239, 68, 68, 0.2);color:#f87171;borderColor:rgba(239, 68, 68, 0.3)',
@@ -129,6 +133,7 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
       'backgroundColor:rgba(99, 102, 241, 0.2);color:#818cf8;borderColor:rgba(99, 102, 241, 0.3)',
     Perplexity:
       'backgroundColor:rgba(234, 179, 8, 0.2);color:#fbbf24;borderColor:rgba(234, 179, 8, 0.3)',
+    'Computer for Counsel': 'backgroundColor:rgba(234, 179, 8, 0.2);color:#fbbf24;borderColor:rgba(234, 179, 8, 0.3)',
     Cursor:
       'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
     Midjourney:
@@ -194,6 +199,7 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
       'backgroundColor:rgba(99, 102, 241, 0.2);color:#818cf8;borderColor:rgba(99, 102, 241, 0.3)',
     vLLM: 'backgroundColor:rgba(234, 179, 8, 0.2);color:#fbbf24;borderColor:rgba(234, 179, 8, 0.3)',
     Vellum: 'backgroundColor:rgba(168, 85, 247, 0.2);color:#c084fc;borderColor:rgba(168, 85, 247, 0.3)',
+    Sakana: 'backgroundColor:rgba(14, 165, 233, 0.2);color:#0ea5e9;borderColor:rgba(14, 165, 233, 0.3)',
     'LangGraph-Cloud': 'backgroundColor:rgba(234, 179, 8, 0.2);color:#fbbf24;borderColor:rgba(234, 179, 8, 0.3)',
     Langflow: 'backgroundColor:rgba(168, 85, 247, 0.2);color:#c084fc;borderColor:rgba(168, 85, 247, 0.3)',
     'Nous Research': 'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',

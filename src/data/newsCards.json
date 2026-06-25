@@ -1,5 +1,75 @@
 [
   {
+    "id": "xai-grok-goal-mode-grok-build-2026-06-22",
+    "title": "xAI ships '/goal' mode in Grok Build — long-running autonomous task execution",
+    "summary": "xAI announced '/goal' on June 22, 2026 as a new mode inside Grok Build that yields long-running, autonomous execution of larger implementation tasks; the agent plans an approach, breaks the work into a checklist, and continues until verification, while the developer can keep sharing extra instructions and run /goal status, /goal pause, /goal resume or /goal clear to monitor and steer — installable via 'curl -fsSL https://x.ai/cli/install.sh | bash' and available now to Grok Build users.",
+    "source": "xAI",
+    "sourceUrl": "https://www.marktechpost.com/2026/06/22/xai-launches-goal-in-grok-build-adding-long-running-autonomous-execution-with-built-in-verification-for-multi-step-coding-tasks/",
+    "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
+    "category": "tool",
+    "publishedAt": "2026-06-22"
+  },
+  {
+    "id": "nvidia-vera-rubin-supercomputers-science-2026-06-22",
+    "title": "NVIDIA's Vera Rubin packs TOP500 supercomputers into a single rack for science",
+    "summary": "NVIDIA announced on June 22, 2026 at ISC High Performance 2026 in Hamburg that the Vera Rubin platform delivers 7 exaflops of AI for science and 5 petaflops of native FP64 performance in a single rack, with up to 144 GPUs via the new NVL4 form factor — bringing TOP500-class HPC to research centers; Los Alamos National Laboratory selected Vera Rubin plus Vera CPU for two new HPE Cray systems ('Mission' for national security, 'Vision' for open science and agentic AI), while Bull, Dell, GIGABYTE, HPE and Supermicro will ship NVL4 racks in Q4 2026.",
+    "source": "NVIDIA",
+    "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-vera-rubin-delivers-world-class-supercomputers-for-science",
+    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
+    "category": "product",
+    "publishedAt": "2026-06-22"
+  },
+  {
+    "id": "deepseek-ocr2-visual-causal-flow-2026-06-22",
+    "title": "DeepSeek open-sources DeepSeek-OCR 2 — first model with 'causal flow' visual reasoning",
+    "summary": "DeepSeek released DeepSeek-OCR 2 on June 22, 2026 with paper, code and weights (Apache-2.0) on GitHub and Hugging Face, introducing a new DeepEncoder V2 architecture that replaces the fixed raster-scan encoder with a 'causal flow' mechanism — reordering visual tokens by semantic priority using a Qwen2-0.5B inside the encoder; on OmniDocBench v1.5 the model scores 91.09% with only 256-1120 visual tokens (a 3.73% jump over DeepSeek-OCR), and at matched 1120-token budgets beats Gemini-3 Pro on document edit distance (0.100 vs 0.115) — the release positions DeepSeek's encoder research as groundwork for native multimodal LLMs.",
+    "source": "DeepSeek",
+    "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-OCR-2/",
+    "imageUrl": "https://preview.redd.it/deepseek-v4-all-leaks-and-infos-for-the-release-day-not-v0-lllfdd3uvimg1.png?width=640&crop=smart&auto=webp&s=2492384251ab16ffeac1c5d0317dd71610c3c077",
+    "category": "model",
+    "publishedAt": "2026-06-22"
+  },
+  {
+    "id": "mistral-ocr-4-bounding-boxes-170-languages-2026-06-22",
+    "title": "Mistral ships OCR 4 — bounding boxes, block labels and 170 languages, self-hostable",
+    "summary": "Mistral released OCR 4 on June 22, 2026 as the successor to its document-intelligence model, returning bounding boxes, typed block labels (paragraph, title, list, table, image, equation, caption, code, header, footer, signature, etc.) and per-word confidence scores alongside extracted text; the model handles 170 languages across 10 groups, runs in a single container for self-hosted deployments, ships as an ingestion layer for the new Mistral Search Toolkit (RAG/enterprise-search framework), and is priced at $4 per 1,000 pages through the API ($2 with the Batch-API discount) with a $5/1k-pages Document AI option in Mistral Studio.",
+    "source": "Mistral",
+    "sourceUrl": "https://www.marktechpost.com/2026/06/23/mistral-ocr-4/",
+    "imageUrl": "https://mistral.ai/favicon.ico",
+    "category": "model",
+    "publishedAt": "2026-06-22"
+  },
+  {
+    "id": "runway-aleph-2-figma-weave-2026-06-22",
+    "title": "Runway brings Aleph 2.0 video-editing model into Figma Weave",
+    "summary": "Runway released Aleph 2.0 inside Figma Weave on June 22, 2026, putting frame-level in-context video editing on the Weave canvas: extract a frame, restyle it, connect it back to the Aleph 2.0 node with a timestamp, and the model propagates the edit across every frame the subject appears in; Weave accepts up to 30-second 1080p clips, works across multi-shot sequences, and positions Aleph 2.0 as a node alongside existing image and compositing tools so product swaps, background changes and restyles happen in one pipeline without reshoots or context switches.",
+    "source": "Runway",
+    "sourceUrl": "https://runwayml.com/news/aleph-2-in-figma-weave",
+    "imageUrl": "https://www.google.com/favicon.ico",
+    "category": "product",
+    "publishedAt": "2026-06-22"
+  },
+  {
+    "id": "google-deepmind-interactions-api-ga-2026-06-22",
+    "title": "Google generalizes the Interactions API — new default surface for Gemini models and agents",
+    "summary": "Google moved the Interactions API to general availability on June 22, 2026 and made it the default surface across Google AI Studio, the Gemini API and all of its docs (with a legacy generateContent toggle for snippets); the GA adds Managed Agents, background execution, Gemini Omni on the roadmap, two Deep Research agent variants (speed vs depth), collaborative planning, native chart generation and multimodal grounding across images, PDFs and audio, with MCP support for custom data sources and Vertex AI availability coming next — Google frames the Interactions API as where frontier long-running and agentic features will land first.",
+    "source": "Google",
+    "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/interactions-api-general-availability/",
+    "imageUrl": "https://deepmind.google/favicon.ico",
+    "category": "tool",
+    "publishedAt": "2026-06-22"
+  },
+  {
+    "id": "anthropic-claude-sonnet-5-slug-sighting-2026-06-21",
+    "title": "Anthropic 'claude-sonnet-5' slug spotted on partner platform — likely week-of-June-23 launch",
+    "summary": "A 'claude-sonnet-5' model identifier surfaced on an Anthropic partner platform on June 21, 2026, pulling 5,000+ engagements within two hours; Anthropic has not announced a Sonnet 5, and the most recent Sonnet is Claude Sonnet 4.6 (Feb 17, 2026) — but the timing lines up with the rumored 'week of June 23' launch window alongside GPT-5.6 and arrives while Claude Fable 5 / Mythos 5 remain dark after the June 12 US export-control directive, giving Anthropic a fresh flagship-tier story in a model tier that is not subject to the Mythos-class restrictions.",
+    "source": "Anthropic",
+    "sourceUrl": "https://fableknows.com/claude-sonnet-5/",
+    "imageUrl": "https://www.anthropic.com/favicon.ico",
+    "category": "model",
+    "publishedAt": "2026-06-21"
+  },
+  {
     "id": "openai-samsung-electronics-chatgpt-codex-deployment-2026-06-21",
     "title": "OpenAI deploys ChatGPT Enterprise and Codex to all Samsung Electronics employees",
     "summary": "OpenAI announced on June 21, 2026 that Samsung Electronics will make ChatGPT Enterprise and Codex available to every Samsung employee in Korea and to every Device eXperience (DX) division employee worldwide — covering R&D, manufacturing, marketing and corporate functions — making it one of OpenAI's largest enterprise deployments to date and an expansion of the prior Samsung memory-chip collaboration with OpenAI Korea GM Harrison Kim calling the rollout 'particularly significant.'",
@@ -19,7 +89,6 @@
     "category": "product",
     "publishedAt": "2026-06-21"
   },
-
   {
     "id": "anthropic-persona-id-verification-july-8-2026-06-21",
     "title": "Anthropic adds Persona-powered ID checks for some Claude features starting July 8",
@@ -71,16 +140,6 @@
     "publishedAt": "2026-06-21"
   },
   {
-    "id": "nvidia-blackwell-next-linux-kernel-patch-2026-06-21",
-    "title": "'Blackwell-Next' surfaces in Linux 7.2 kernel patch — NVIDIA readies post-Rubin data-center GPU",
-    "summary": "NVIDIA engineers added a CXL DVSEC-based readiness check for a 'Blackwell-Next' GPU to the NVGrace-GPU VFIO driver in a Linux 7.2 pull request spotted by Phoronix and reported on June 21, 2026; the change is tied to the NVGrace-GPU driver used on Grace-based data center platforms and virtualization rather than consumer GeForce, and follows NVIDIA's confirmed roadmap of Blackwell → Blackwell Ultra → Rubin → Rubin Ultra → Feynman through 2028.",
-    "source": "NVIDIA",
-    "sourceUrl": "https://videocardz.com/newz/nvidia-blackwell-next-name-spotted-in-linux-kernel-patch",
-    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
-    "category": "research",
-    "publishedAt": "2026-06-21"
-  },
-  {
     "id": "nvidia-25b-bond-offering-ai-infrastructure-2026-06-21",
     "title": "NVIDIA completes $25B AI-debt offering — orders top $85B, second-largest IG bond of 2026",
     "summary": "NVIDIA completed a $25B investment-grade bond offering on June 15, 2026 that drew more than $85B in investor orders — the second-largest US corporate bond sale of 2026 — to fund data centers, networking, advanced manufacturing and AI infrastructure, with the deal coming as CEO Jensen Huang warned in Sherman, Texas that 'the United States is woefully behind in energy production' and AI power demand is set to accelerate sharply.",
@@ -111,16 +170,6 @@
     "publishedAt": "2026-06-20"
   },
   {
-    "id": "meta-applied-ai-employee-revolt-bosworth-memo-2026-06-21",
-    "title": "Meta CTO Bosworth calls Applied AI rollout 'atrocious' as employees label the unit 'the Gulag'",
-    "summary": "Meta CTO Andrew Bosworth admitted on June 21, 2026 that the rollout of the new Applied AI engineering division — built from ~7,000 employees reassigned during May's 10% layoff round and led by Maher Saba — was 'atrocious,' capping managers at 20 direct reports, adding AI coaching tools, and investing in micro-kitchens and travel budgets to recover morale; a Wired podcast leaked an employee-only recording where a worker called leadership 'being the company's bitch' and asked that a specific Meta AI executive be told 'he's a piece of shit,' the same day Mark Zuckerberg's hackathon idea was publicly criticized in comments.",
-    "source": "Meta",
-    "sourceUrl": "https://www.nospinnetwork.com/meta-ai-unit-faces-employee-revolt-wired-podcast-reports/",
-    "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
-    "category": "research",
-    "publishedAt": "2026-06-21"
-  },
-  {
     "id": "deepseek-7-4b-funding-round-59b-valuation-2026-06-19",
     "title": "DeepSeek closes $7.4B round at $59B valuation — China's biggest AI raise ever",
     "summary": "DeepSeek closed its first outside funding round on June 18-19, 2026 at more than $7.4B (~50B yuan) at a post-money valuation of $52-59B, with founder Liang Wenfeng personally contributing ~$2.8B (40% of the round) and Tencent, CATL, JD.com, NetEase and IDG joining; investors routed capital into a Liang-controlled limited partnership rather than direct equity, accepted a five-year lock-up and gave up voting rights, while China's National AI Industry Investment Fund got the only direct stake with voting rights — and DeepSeek imposed a strict no-poaching clause barring investors from recruiting its ~150 engineers.",
@@ -128,26 +177,6 @@
     "sourceUrl": "https://phronews.com/deepseek-just-raised-7-4-billion-at-a-59-billion-valuation/",
     "imageUrl": "https://preview.redd.it/deepseek-v4-all-leaks-and-infos-for-the-release-day-not-v0-lllfdd3uvimg1.png?width=640&crop=smart&auto=webp&s=2492384251ab16ffeac1c5d0317dd71610c3c077",
     "category": "research",
-    "publishedAt": "2026-06-19"
-  },
-  {
-    "id": "deepseek-no-talent-poaching-investor-clause-2026-06-21",
-    "title": "DeepSeek bars investors from poaching its engineers as part of $7.4B funding terms",
-    "summary": "DeepSeek founder Liang Wenfeng made a no-talent-poaching clause a precondition of its first outside funding round closed the week of June 17-21, 2026, telling investors in a virtual meeting that poaching had already cost DeepSeek several researchers to Chinese tech giants Tencent, Alibaba and ByteDance and that protecting the ~150-person team was non-negotiable; the clause pairs with a five-year LP lock-up, no direct equity and no voting rights for commercial backers, while China's National AI Industry Investment Fund took the only direct equity stake.",
-    "source": "DeepSeek",
-    "sourceUrl": "https://mix3up.com/article/china-s-deepseek-ai-startup-sets-condition-for-investors-no-talent-poaching",
-    "imageUrl": "https://preview.redd.it/deepseek-v4-all-leaks-and-infos-for-the-release-day-not-v0-lllfdd3uvimg1.png?width=640&crop=smart&auto=webp&s=2492384251ab16ffeac1c5d0317dd71610c3c077",
-    "category": "research",
-    "publishedAt": "2026-06-21"
-  },
-  {
-    "id": "anthropic-ema-okta-mcp-connectors-2026-06-19",
-    "title": "Anthropic ships Enterprise-Managed Authorization for Claude MCP via Okta",
-    "summary": "Anthropic launched Enterprise-Managed Authorization (EMA) for Claude's MCP connectors on June 18-19, 2026, the first live production implementation of the ID-JAG standard declared stable by the IETF/MCP on the same day; the feature lets enterprise IT admins provision third-party AI integrations once through Okta and push access to every employee on first login with no individual OAuth screens, with Asana, Atlassian, Canva, Figma, Granola, Linear and Supabase shipping support at launch and Azure AD/Google Workspace support on the roadmap.",
-    "source": "Anthropic",
-    "sourceUrl": "https://www.techtimes.com/articles/318704/20260619/claude-mcp-connectors-now-provision-through-okta-employees-inherit-access-login.htm",
-    "imageUrl": "https://www.anthropic.com/favicon.ico",
-    "category": "product",
     "publishedAt": "2026-06-19"
   },
   {
@@ -169,16 +198,6 @@
     "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
     "category": "model",
     "publishedAt": "2026-06-19"
-  },
-  {
-    "id": "alibaba-logos-open-source-scientific-ai-2026-06-21",
-    "title": "Alibaba + Renmin University open-source LOGOS — a unified scientific AI grammar model",
-    "summary": "Alibaba's ATH-Token Foundry and Renmin University's Gaoling School of AI open-sourced LOGOS on June 21, 2026 — the first foundation model built around a 'unified scientific grammar' that bridges protein, antibody, small molecule, chemical-reaction, metal-organic-framework and protein-ligand modalities; the 1B-parameter LOGOS-1B outperforms Microsoft's much larger NatureLM mixture-of-experts on multiple tasks after pretraining on 44.87B tokens spanning seven modalities, with the release landing as the US keeps DeepSeek off the Entity List but adds Alibaba-aligned firms to a military-aid watchlist.",
-    "source": "Alibaba",
-    "sourceUrl": "https://www.chinatechnews.com/2026/06/22/124133-alibaba-open-sources-unified-scientific-ai-model-challenging-western-tech-giants-in-biotech-race",
-    "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
-    "category": "model",
-    "publishedAt": "2026-06-21"
   },
   {
     "id": "moonshot-kimi-k2-7-code-30percent-thinking-tokens-2026-06-19",
@@ -211,16 +230,6 @@
     "publishedAt": "2026-06-20"
   },
   {
-    "id": "openai-chatgpt-enterprise-spend-controls-2026-06-19",
-    "title": "OpenAI adds spend controls and unified analytics to ChatGPT Enterprise",
-    "summary": "OpenAI added spend controls and expanded usage analytics for ChatGPT Enterprise on June 19, 2026, giving Global Admins a unified dashboard of ChatGPT and Codex credit consumption across users, products and models with the ability to set budgets and track AI spend by team; the launch also lands on the same day Computerworld profiled the new 'Global Admin Console' — but analysts cautioned OpenAI still cannot show how those costs lead to business benefits, so admins get cost visibility without ROI tracking as enterprise AI deployments scale.",
-    "source": "OpenAI",
-    "sourceUrl": "https://www.computerworld.com/article/4187257/openai-adds-spend-controls-and-usage-analytics-to-chatgpt-enterprise-2.html",
-    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg",
-    "category": "product",
-    "publishedAt": "2026-06-19"
-  },
-  {
     "id": "bytedance-doubao-2-1-pro-volcano-engine-2026-06-21",
     "title": "ByteDance launches Doubao 2.1 Pro — pivots toward MaaS as daily token calls hit 180T",
     "summary": "ByteDance released Doubao 2.1 Pro at the 2026 Volcano Engine Force Conference on June 21, 2026 with claimed breakthroughs in code delivery, long-horizon agent tasks, multimodal understanding and enterprise-grade stability — under Volcano Engine president Tan Dai and CEO Liang Rubo reiterating ByteDance's pivot to MaaS (Model as a Service); Doubao's daily token call volume has now hit 180 trillion (up more than 1500× since release, 10× in the past year) and its consumer daily revenue still trails its daily compute bill, but B2B video-generation model Seedance's $2B ARR now offsets Doubao's compute cost.",
@@ -229,15 +238,5 @@
     "imageUrl": "https://cdn.technobezz.com/c/Technobezz_2026_02_14_T092431_822_304d822711.png",
     "category": "model",
     "publishedAt": "2026-06-21"
-  },
-  {
-    "id": "xai-grok-goal-mode-grok-build-2026-06-22",
-    "title": "xAI ships '/goal' mode in Grok Build — long-running autonomous task execution",
-    "summary": "xAI announced '/goal' on June 22, 2026 as a new mode inside Grok Build that yields long-running, autonomous execution of larger implementation tasks; the agent plans an approach, breaks the work into a checklist, and continues until verification, while the developer can keep sharing extra instructions and run /goal status, /goal pause, /goal resume or /goal clear to monitor and steer — installable via 'curl -fsSL https://x.ai/cli/install.sh | bash' and available now to Grok Build users.",
-    "source": "xAI",
-    "sourceUrl": "https://smartchunks.com/xai-grok-4-3-amazon-bedrock-aws-enterprise-launch/",
-    "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
-    "category": "tool",
-    "publishedAt": "2026-06-22"
   }
 ]
