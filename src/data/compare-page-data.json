@@ -1612,5 +1612,29 @@
     "functionCalling": true,
     "json": true,
     "search": false
+  },
+  {
+    "id": "nex-n2-pro",
+    "name": "Nex-N2-Pro",
+    "provider": "Nex AGI",
+    "openSource": true,
+    "license": "Apache 2.0",
+    "releaseDate": "2026-06-02",
+    "parameters": 397000000000,
+    "modelSizeGB": 800,
+    "contextLength": 262000,
+    "inputPrice": 0.5,
+    "outputPrice": 2.5,
+    "free": false,
+    "mmlu": 89.0,
+    "mmluPlus": 86.5,
+    "humaneval": 92.0,
+    "liveBench": 76.0,
+    "gpqa": 90.7,
+    "multimodal": true,
+    "vision": true,
+    "functionCalling": true,
+    "json": true,
+    "search": true
   }
 ]

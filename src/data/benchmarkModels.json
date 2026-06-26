@@ -590,8 +590,8 @@
  "mmlu":92.4,
  "humaneval":98.2,
  "livebench":59.1,
- "mmluPlus":89.5,
- "gpqa":86.6
+ "mmluPlus":88.9,
+ "gpqa":81.0
  },
  {
  "id": "gemini-3-pro",

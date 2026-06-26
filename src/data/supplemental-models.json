@@ -1544,6 +1544,21 @@
     "functionCalling": true,
     "json": true,
     "search": true
+  },
+  "nex-n2-pro": {
+    "provider": "Nex AGI",
+    "parameters": 397000000000,
+    "modelSizeGB": 800,
+    "contextLength": 262000,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 89.0,
+    "humaneval": 92.0,
+    "multimodal": true,
+    "vision": true,
+    "functionCalling": true,
+    "json": true,
+    "search": true
   }
 }
 
