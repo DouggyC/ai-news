@@ -129,7 +129,7 @@
  "humaneval":93.7,
  "livebench":76.3,
  "mmluPlus": null,
- "gpqa":89.6
+ "gpqa":84.0
  },
  {
  "id": "claude-sonnet-4.6",
@@ -140,7 +140,7 @@
  "humaneval":95.0,
  "livebench":75.5,
  "mmluPlus": null,
- "gpqa":87.5
+ "gpqa":79.9
  },
  {
  "id": "claude-haiku-4.5",
@@ -151,7 +151,7 @@
  "humaneval":88.0,
  "livebench":60.0,
  "mmluPlus":76.0,
- "gpqa":67.2
+ "gpqa":64.6
  },
  {
  "id": "gemini-3.1-pro",
@@ -525,7 +525,7 @@
  "humaneval":80.0,
  "livebench":65.0,
  "mmluPlus":83.0,
- "gpqa":78.5
+ "gpqa":63.6
  },
  {
  "id": "kat-coder-pro-v2",
@@ -790,6 +790,28 @@
  "livebench":64.8,
  "mmluPlus":84.8,
  "gpqa":83.8
+ },
+ {
+ "id": "nex-n2-pro",
+ "name": "Nex N2 Pro",
+ "provider": "Nex AGI",
+ "openSource": false,
+ "mmlu": null,
+ "humaneval": null,
+ "livebench": null,
+ "mmluPlus": null,
+ "gpqa":89.2
+ },
+ {
+ "id": "grok-build-0-1-06-16",
+ "name": "Grok Build 0.1 0616",
+ "provider": "xAI",
+ "openSource": false,
+ "mmlu": null,
+ "humaneval": null,
+ "livebench": null,
+ "mmluPlus": null,
+ "gpqa":89.5
  }
 ]
 
