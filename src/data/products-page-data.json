@@ -481,6 +481,11 @@
         "name": "vLLM",
         "url": "https://vllm.ai",
         "description": "Open-source high-throughput serving engine used in self-hosted stacks. Powers many cloud providers."
+      },
+      "OpenRouter": {
+        "name": "OpenRouter",
+        "url": "https://openrouter.ai",
+        "description": "Unified LLM router exposing 200+ models from 50+ providers (Anthropic, OpenAI, Google, Meta, Mistral, DeepSeek, xAI, Cohere, Moonshot, etc.) behind a single OpenAI-compatible API. One key, one billing layer, automatic failover and fallback across providers. Free tier with rate limits; paid models billed at cost (no markup). BYOK option to use your own provider keys with cached throughput discounts. App attribution via HTTP-Referer header for analytics and revenue sharing. Route parameters let you pin to specific providers, set fallbacks, enforce data policies (zero-retention endpoints), or sort by price/latency. Web search, structured output, tool calling, prompt caching supported across providers."
       }
     }
   },

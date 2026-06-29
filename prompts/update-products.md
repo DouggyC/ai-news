@@ -16,6 +16,7 @@ Google AI products May 2026 site:deepmind.google OR site:techcrunch.com
 Meta AI products May 2026 site:ai.meta.com OR site:techcrunch.com
 xAI Grok products May 2026 site:x.ai OR site:techcrunch.com
 NVIDIA AI products May 2026 site:nvidia.com OR site:techcrunch.com
+OpenRouter AI products 2026 site:openrouter.ai OR site:artificialanalysis.ai
 DeepSeek AI products May 2026 site:deepseek.com OR site:techcrunch.com
 Cursor AI editor May 2026 site:cursor.com OR site:techcrunch.com
 JetBrains AI tools May 2026 site:jetbrains.com OR site:techcrunch.com
@@ -117,6 +118,7 @@ export const ProductRowSchema: z.ZodType<ProductRow> = z.object({
 - Meta → Llama 4
 - xAI → Grok 4
 - DeepSeek → DeepSeek V3.2
+- **Routing/distribution note**: OpenRouter (https://openrouter.ai) is a unified LLM router exposing 200+ models from 50+ providers behind a single OpenAI-compatible API. When a frontier model is also distributed via OpenRouter, note "Also on OpenRouter" in the description (already done for several models).
 - Mistral → Le Chat / Mistral Large
 
 ### Step 3: Provider Colors (if new company)

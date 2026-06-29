@@ -76,6 +76,7 @@ Fetch from AA API:
 #PR|Meta Llama models 2026 site:ai.meta.com OR site:lmarena.ai
 #TX|xAI Grok models 2026 site:x.ai OR site:lmarena.ai
 #BS|NVIDIA Nemotron models 2026 site:nvidia.com OR site:artificialanalysis.ai
+#BS|OpenRouter new models 2026 site:openrouter.ai OR site:artificialanalysis.ai
 #XN|DeepSeek models 2026 site:deepseek.com OR site:artificialanalysis.ai
 #BN|Alibaba Qwen models 2026 site:qwenlm.ai OR site:artificialanalysis.ai
 #RJ|MiniMax models 2026 site:minimaxi.com OR site:artificialanalysis.ai

@@ -67,7 +67,9 @@ const companyOrder = [
   'Courier',
   'Zapier',
   'HuggingFace',
-  'HuggingFace-Serge',
+'HuggingFace-Serge',
+'OpenRouter',
+'Replicate',
   'Replicate',
   'Reve',
   'Ollama',
@@ -174,6 +176,9 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
       'backgroundColor:rgba(234, 179, 8, 0.2);color:#fbbf24;borderColor:rgba(234, 179, 8, 0.3)',
     Replicate:
       'backgroundColor:rgba(255, 255, 255, 0.06);color:rgba(255, 255, 255, 0.7);borderColor:rgba(255, 255, 255, 0.1)',
+    OpenRouter:
+      'backgroundColor:rgba(99, 102, 241, 0.2);color:#818cf8;borderColor:rgba(99, 102, 241, 0.3)',
+
     Reve:
       'backgroundColor:rgba(217, 70, 239, 0.2);color:#e879f9;borderColor:rgba(217, 70, 239, 0.3)',
     Ollama:

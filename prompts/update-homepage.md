@@ -16,6 +16,7 @@ Google AI news May 2026 site:deepmind.google OR site:techcrunch.com OR site:thev
 Meta AI news May 2026 site:ai.meta.com OR site:techcrunch.com OR site:theverge.com
 xAI Grok news May 2026 site:x.ai OR site:techcrunch.com OR site:theverge.com
 NVIDIA AI news May 2026 site:nvidia.com OR site:techcrunch.com OR site:theverge.com
+OpenRouter AI news 2026 site:openrouter.ai OR site:artificialanalysis.ai
 DeepSeek AI news May 2026 site:deepseek.com OR site:techcrunch.com OR site:theverge.com
 Alibaba Qwen AI news May 2026 site:qwenlm.ai OR site:techcrunch.com OR site:theverge.com
 MiniMax AI news May 2026 site:minimaxi.com OR site:techcrunch.com OR site:theverge.com
@@ -104,7 +105,7 @@ export const NewsCardSchema: z.ZodType<NewsCard> = z.object({
 | `research` | Research papers, benchmarks, milestones |
 
 ## Target Companies (Top 15+ frontier AI)
-NVIDIA, Microsoft, Google, Amazon, Meta, Oracle, ByteDance, Adobe, Alibaba, OpenAI, Anthropic, xAI, DeepSeek, Mistral, MiniMax, Moonshot, Apple, StabilityAI, Runway, Perplexity, Hugging Face, Zhipu AI
+NVIDIA, Microsoft, Google, Amazon, Meta, Oracle, ByteDance, Adobe, Alibaba, OpenAI, Anthropic, xAI, DeepSeek, Mistral, MiniMax, Moonshot, Apple, StabilityAI, Runway, Perplexity, Hugging Face, Zhipu AI, Sakana AI, Inclusion AI, Nex AGI, DeepReinforce, Meituan / LongCat, OpenRouter (routing/gateway covering 50+ providers)
 
 ## Card Limits
 - **Maximum**: 24 cards

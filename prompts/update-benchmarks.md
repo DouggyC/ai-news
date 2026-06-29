@@ -64,6 +64,7 @@ Fetch from AA API:
 #NN|Meta Llama benchmark scores MMLU HumanEval 2026 site:ai.meta.com OR site:artificialanalysis.ai OR site:lmarena.ai
 #TJ|xAI Grok benchmark scores MMLU HumanEval 2026 site:x.ai OR site:artificialanalysis.ai OR site:lmarena.ai
 #MX|NVIDIA Nemotron benchmark scores 2026 site:nvidia.com OR site:artificialanalysis.ai OR site:lmarena.ai
+#MX|OpenRouter router pricing/availability 2026 site:openrouter.ai OR site:artificialanalysis.ai
 #WS|DeepSeek V4 benchmark scores 2026 site:deepseek.com OR site:artificialanalysis.ai OR site:lmarena.ai
 #ZR|Alibaba Qwen benchmark scores MMLU HumanEval 2026 site:qwenlm.ai OR site:artificialanalysis.ai OR site:lmarena.ai
 #TH|MiniMax benchmark scores MMLU HumanEval 2026 site:minimaxi.com OR site:artificialanalysis.ai OR site:lmarena.ai
