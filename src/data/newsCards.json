@@ -1,8 +1,88 @@
 [
   {
+    "id": "openai-gpt-5-6-sol-preview-2026-06-25",
+    "title": "OpenAI unveils GPT-5.6 — Sol, Terra, Luna at $5/$30 per million tokens (limited preview)",
+    "summary": "OpenAI on June 25, 2026 launched a limited preview of the GPT-5.6 family: flagship Sol, balanced Terra (2x cheaper than GPT-5.5) and fast Luna, priced at $5 input / $30 output per million tokens for Sol and even less for Terra and Luna — well below Anthropic's $10/$50 Claude Fable 5; Sol adds a 'max' reasoning mode and an 'ultra' sub-agent mode, is the first OpenAI model previewed under a US-government-requested access process, ships on Cerebras at up to 750 tokens/sec in July, and was framed as particularly strong on coding, cybersecurity and biology with a tightened safety stack including '100,000 GPU hours' of red-teaming.",
+    "source": "OpenAI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
+    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg",
+    "category": "model",
+    "publishedAt": "2026-06-25"
+  },
+  {
+    "id": "openai-gpt-5-6-trump-admin-delayed-release-2026-06-25",
+    "title": "OpenAI delays GPT-5.6 broad release at Trump administration's request — first US-gov't pre-launch review",
+    "summary": "OpenAI on June 25, 2026 disclosed that the Trump administration asked it to stagger GPT-5.6's rollout, making the model the first US frontier release to undergo a government-requested pre-launch access process; under the deal the White House Office of the National Cyber Director and Office of Science and Technology Policy will approve customer access on a case-by-case basis during the preview, OpenAI CEO Sam Altman told staff the company will work toward broader availability in 'a couple of weeks,' and the administration took the step after determining GPT-5.6 has 'Mythos-like' capability — citing the same security concerns that triggered a Commerce Department order forcing Anthropic to suspend Claude Fable 5 and Mythos 5 for foreign nationals earlier this month.",
+    "source": "OpenAI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request",
+    "imageUrl": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=1200",
+    "category": "capability",
+    "publishedAt": "2026-06-25"
+  },
+  {
+    "id": "cursor-1-5t-param-colossus-compile-2026-06-24",
+    "title": "Cursor reveals 1.5T-parameter in-house coding model training on 100,000 xAI Colossus GPUs",
+    "summary": "Cursor at its Compile keynote on June 24, 2026 disclosed it is training its first fully self-built frontier model — a 1.5-trillion-parameter system pre-trained from scratch on xAI's Colossus supercomputer cluster in Memphis using more than 100,000 Nvidia GPUs (10-20x the compute of prior Cursor models) and as big as Claude Opus and GPT-5.5 according to CEO Michael Truell; the model moves Cursor away from its Kimi K2.5 base to a blank initialization, is expected to ship 'within weeks,' and was unveiled alongside a Git-rival hosting platform called Origin (general availability fall 2026) and an iOS mobile app for remotely monitoring coding agents — the same day SpaceX confirmed its $60B all-stock acquisition of Cursor's parent Anysphere.",
+    "source": "Cursor",
+    "sourceUrl": "https://www.techtimes.com/articles/318974/20260624/cursor-trains-first-frontier-model-scratch-colossus-15-trillion-parameters.htm",
+    "imageUrl": "https://www.cursor.com/favicon.ico",
+    "category": "model",
+    "publishedAt": "2026-06-24"
+  },
+  {
+    "id": "google-gemini-robotics-on-device-2026-06-24",
+    "title": "Google DeepMind ships Gemini Robotics On-Device — first VLA runnable on a robot without the cloud",
+    "summary": "Google DeepMind on June 24, 2026 released Gemini Robotics On-Device, the first VLA (vision-language-action) model it has made available for fine-tuning and that runs locally on a robot — no cloud, no internet — with performance the team says is 'quite close' to the hybrid cloud-based Gemini Robotics released in March; the model was trained on ALOHA robots but adapted to bi-arm Franka FR3 industrial arms and Apptronik's Apollo humanoid, can be fine-tuned with as few as 50-100 demonstrations, ships with the first Gemini Robotics SDK plus MuJoCo simulator support, and is rolling out now through DeepMind's trusted-tester program with strict safety guidance for developers building always-on physical-AI applications.",
+    "source": "Google",
+    "sourceUrl": "https://deepmind.google/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/",
+    "imageUrl": "https://deepmind.google/favicon.ico",
+    "category": "model",
+    "publishedAt": "2026-06-24"
+  },
+  {
+    "id": "microsoft-seven-model-suite-mai-2026-06-24",
+    "title": "Microsoft ships seven in-house MAI models — Thinking-1, Code-1-Flash, Image-2.5, Voice-2, Transcribe-1.5",
+    "summary": "Microsoft on June 24, 2026 launched a seven-model suite developed internally by Microsoft AI (MAI) — MAI-Thinking-1 (medium-weight reasoning trained on clean data instead of third-party outputs), MAI-Code-1-Flash (agentic coding in GitHub Copilot and VS Code), MAI-Image-2.5 (ranking above Google's Nano Banana Pro), MAI-Transcribe-1.5 ('best transcription model in the world,' 5x faster than rivals), MAI-Voice-2 (15+ languages with misuse safeguards, Flash variant coming) — with a 'Frontier Tuning' system that lets enterprises customize models on proprietary data inside their compliance boundaries via a three-step reinforcement learning loop; the launch marks a strategic shift away from dependence on OpenAI and positions Microsoft to compete directly with Google and other AI labs across the full stack.",
+    "source": "Microsoft",
+    "sourceUrl": "https://www.frontiernews.ai/news/article/microsofts-seven-model-suite-signals-a-shift-away-c22d01fc",
+    "imageUrl": "https://www.microsoft.com/favicon.ico",
+    "category": "model",
+    "publishedAt": "2026-06-24"
+  },
+  {
+    "id": "cohere-command-a-plus-foundry-2026-06-24",
+    "title": "Cohere Command A+ debuts in Microsoft Foundry — 218B MoE reasoning model with 48-language support",
+    "summary": "Cohere's open-source Command A+ (218B-parameter mixture-of-experts with 25B active) launched in Microsoft Foundry on June 24, 2026 as a serverless API offering that combines reasoning, RAG, coding and tool use in a single enterprise model; it reasons across 48 languages, processes documents with embedded images and tables, and orchestrates multi-step workflows without requiring customers to stitch multiple models together — letting Foundry developers deploy Cohere's newest model in the same environment where they build, evaluate and operate AI applications, with Microsoft's enterprise customers targeted as the primary audience given the platform's existing compliance, governance and integration tooling.",
+    "source": "Cohere",
+    "sourceUrl": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-cohere-command-a-in-foundry/4530376",
+    "imageUrl": "https://cohere.com/favicon.ico",
+    "category": "model",
+    "publishedAt": "2026-06-24"
+  },
+  {
+    "id": "nvidia-dflash-speculative-decoding-blackwell-2026-06-24",
+    "title": "NVIDIA DFlash speculative decoding — 15x throughput on Blackwell at matched interactivity",
+    "summary": "NVIDIA on June 24, 2026 detailed DFlash, a speculative decoding technique that drafts entire token blocks in parallel rather than one token at a time, reporting up to 15x throughput at the same user interactivity target on gpt-oss-120b across 8 Blackwell GPUs in a DGX B300 (about 1.5x more than EAGLE-3 at 500-600 tokens/sec per user); a separate NVIDIA Speed-Bench showed DFlash averaging 2.3x vs EAGLE-3's 1.7x on gpt-oss-120b and 2.8x vs EAGLE-3's 2.2x on Llama 3.1 8B Instruct — paper reports up to 6.08x lossless speedup on Qwen3-8B, with the lightweight five-layer drafter shipped on GitHub and Hugging Face (arXiv 2602.06036).",
+    "source": "NVIDIA",
+    "sourceUrl": "https://www.marktechpost.com/2026/06/24/dflash-speculative-decoding-drafts-whole-token-blocks-in-parallel-for-up-to-15x-higher-throughput-on-nvidia-blackwell/",
+    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
+    "category": "research",
+    "publishedAt": "2026-06-24"
+  },
+  {
+    "id": "microsoft-365-education-ai-wave-2026-06-24",
+    "title": "Microsoft ships AI wave for Education — Teach Unit Plans, Study and Learn Agent, Copilot Notebooks",
+    "summary": "Microsoft on June 24, 2026 rolled out a new wave of AI-powered teaching and learning experiences inside Microsoft 365 Education ahead of ISTELive 26 — including standards-aligned Unit Plans in Teach (50+ countries), a Study and Learn Agent in Copilot Chat built on learning-science principles (scaffolded questions, interactive practice, real-time feedback) for students age 13+, and Copilot Notebooks that turn lecture slides, handouts, readings and notes into AI-powered interactive study guides; all three ship at no additional cost with Microsoft 365 Education and were announced alongside Microsoft's third annual AI in Education Report highlighting accelerating K-12 adoption.",
+    "source": "Microsoft",
+    "sourceUrl": "https://www.microsoft.com/en-us/education/blog/2026/06/ai-in-education-is-changing-fast-new-microsoft-365-education-experiences-put-learning-first/",
+    "imageUrl": "https://www.microsoft.com/favicon.ico",
+    "category": "product",
+    "publishedAt": "2026-06-24"
+  },
+  {
     "id": "openai-jalapeno-broadcom-inference-chip-2026-06-24",
     "title": "OpenAI unveils 'Jalapeño' — its first custom Broadcom-built LLM inference chip",
-    "summary": "OpenAI and Broadcom on June 24, 2026 unveiled Jalapeño, OpenAI's first in-house 'Intelligence Processor' for LLM inference — an ASIC co-developed with Broadcom silicon and networking (Tomahawk) and Celestica boards/racks, designed from scratch around LLM fundamentals and shipped from early schematics to tape-out in nine months with OpenAI's own models helping design parts of the chip; engineering samples are already running GPT-5.3-Codex-Spark in OpenAI's lab and OpenAI reports 'substantially better' performance per watt than current state-of-the-art — with first Jalapeño servers targeted for end of 2026 inside gigawatt-scale deployments alongside Microsoft and other partners.",
+    "summary": "OpenAI and Broadcom on June 24, 2026 unveiled Jalapeño, OpenAI's first in-house 'Intelligence Processor' for LLM inference — an ASIC co-developed with Broadcom silicon and networking (Tomahawk) and Celestica boards/racks, designed from scratch around LLM fundamentals and shipped from initial design to manufacturing tape-out in nine months (what OpenAI calls the fastest ASIC development cycle ever achieved in high-performance advanced semiconductors) with OpenAI's own models helping design parts of the chip; engineering samples are already running GPT-5.3-Codex-Spark at production target frequency and power, OpenAI reports 'substantially better' performance per watt than current state-of-the-art, and the first Jalapeño servers are targeted for end of 2026 inside gigawatt-scale deployments alongside Microsoft and other partners.",
     "source": "OpenAI",
     "sourceUrl": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
     "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg",
@@ -62,7 +142,7 @@
   {
     "id": "meta-llama-prediction-market-app-2026-06-24",
     "title": "Meta builds AI-driven prediction market app 'Arena' — Llama generates questions, resolves markets",
-    "summary": "Meta is developing a standalone prediction-market app codenamed Arena (also called FBForecast) to compete with Kalshi and Polymarket, with internal documents reviewed by NPR and The New York Times on June 24, 2026 showing users will receive a daily 'play money' allotment to bet on yes/no real-world events, Llama will auto-generate questions from trending topics and deliver personalized market recommendations, and the same AI will resolve markets 'in near real time'; the app is positioned as a 'rebuild' of Meta's 2020 Forecast app, which was wound down in 2022 due to 'the operational cost of manual question curation,' and prototypes will be tested internally before public launch on iOS and Android.",
+    "summary": "Meta is developing a standalone prediction-market app codenamed Arena (also called FBForecast) to compete with Kalshi and Polymarket, with internal documents reviewed by NPR and The New York Times on June 24, 2026 showing users will receive a daily 'play money' allotment to bet on yes/no real-world events, Llama will auto-generate questions from trending topics and deliver personalized market recommendations, and the same AI will resolve markets 'in near real time' (no human review, no dispute window) — the app is positioned as a 'rebuild' of Meta's 2020 Forecast app, which was wound down in 2022 due to 'the operational cost of manual question curation,' and prototypes will be tested internally before public launch on iOS and Android.",
     "source": "Meta",
     "sourceUrl": "https://www.gpb.org/news/2026/06/24/meta-plans-release-ai-powered-prediction-market-app-documents-show",
     "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
@@ -100,42 +180,12 @@
     "publishedAt": "2026-06-24"
   },
   {
-    "id": "qualcomm-hugging-face-distributed-agentic-ai-2026-06-24",
-    "title": "Qualcomm and Hugging Face expand partnership — Dragonfly C1000 for Meta data centers, open models on Qualcomm",
-    "summary": "Qualcomm and Hugging Face announced an expanded partnership on June 24, 2026 (with Meta signing on as a data-center customer for Qualcomm's Dragonfly C1000 and successor generations, available 2028) to advance agentic and hybrid AI from device to cloud; the deal covers optimized mapping of Hugging Face's 3M+ open models onto Qualcomm platforms via an Agent that handles setup, optimization and zero-touch deployment, Hugging Face PRO access for Qualcomm customers, and a distributed framework for orchestrating agents across on-device and cloud based on performance, cost, privacy and latency — with Modular AI components integrated into the Hugging Face ecosystem.",
-    "source": "Hugging Face",
-    "sourceUrl": "https://www.qualcomm.com/news/releases/2026/06/qualcomm-and-hugging-face-expand-relationship-to-advance-open--d",
-    "imageUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
-    "category": "tool",
-    "publishedAt": "2026-06-24"
-  },
-  {
-    "id": "hugging-face-agent-collab-template-fast-gemma-2026-06-24",
-    "title": "Hugging Face ships reusable multi-agent template — lessons from the Fast Gemma Challenge to speed Gemma 4 E4B",
-    "summary": "Hugging Face on June 24, 2026 published a reusable agent-collaboration template and a blog post distilling lessons from its Fast Gemma Challenge, in which dozens of cooperating agents worked to speed up Gemma 4 E4B; the template (github.com/huggingface/agent-collabs) packages the patterns that worked — coordinating cooperative multi-agent workflows toward a shared goal — so any developer can launch their own agent collab on HF, and the company is publishing what worked and what didn't to seed a wave of community-run agent collaboration experiments.",
-    "source": "Hugging Face",
-    "sourceUrl": "https://huggingface.co/blog/kogai/kog-laneformer-2b-the-latency-first-model",
-    "imageUrl": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
-    "category": "tool",
-    "publishedAt": "2026-06-24"
-  },
-  {
-    "id": "meta-facebook-creator-studio-ai-companion-app-2026-06-24",
-    "title": "Meta turns Facebook Creator Studio into a stand-alone AI companion app for creators",
-    "summary": "Meta on June 24, 2026 launched a stand-alone Creator Studio app for Facebook — repositioning it as an AI companion app for creators that bakes in the recently launched Facebook AI creator assistant (built on Muse Spark), surfaces personalized recommendations based on content style, performance and engagement, answers natural-language questions like 'When should I post?' and 'What are people saying in my comments?', and adds an AI-powered comment tool that surfaces priority comments and drafts replies in the creator's tone for review; the app opens to a feed of daily priorities (newest post performance, goal progress, comments needing a reply), part of a wider Meta app-launch push that includes Forum (Reddit-style), Instants and the upcoming Polymarket-style 'Arena' prediction market.",
-    "source": "Meta",
-    "sourceUrl": "https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/",
-    "imageUrl": "https://www.facebook.com/images/fb_icon_325x325.png",
-    "category": "product",
-    "publishedAt": "2026-06-24"
-  },
-  {
-    "id": "deepseek-compute-pathway-efficiency-double-2026-06-24",
-    "title": "DeepSeek publishes compute-pathway trick — doubles prefill utilization from 40% to 80% with no new chips",
-    "summary": "DeepSeek on June 24, 2026 published a technique that re-routes 'thinking' traffic through otherwise-idle decoding machines alongside the prefill pipeline, lifting prefill cluster utilization from roughly 40% to ~80% with no additional hardware — 'nearly double the efficiency' that lands as a big win for multi-turn agentic workloads where prefill/decoding scheduling is the bottleneck; DeepSeek's approach prioritizes thinking traffic over memory traffic to avoid new bottlenecks, and ships as an open science release so anyone running DeepSeek-class stacks can integrate it for free.",
+    "id": "deepseek-dualpath-prefill-utilization-double-2026-06-24",
+    "title": "DeepSeek publishes DualPath — reroutes prefill traffic through idle decode NICs, doubles cluster utilization",
+    "summary": "DeepSeek on June 24, 2026 released DualPath (arXiv 2602.21548), an open datacenter serving technique that loads KV-cache through idle decode-side storage NICs and hands them to prefill engines via high-bandwidth RDMA — eliminating the prefill-side storage bottleneck that caps long-context agent serving at ~40% utilization; DeepSeek's internal measurements show up to 1.87x offline throughput improvement and 1.96x average online throughput improvement (without SLO violations) versus the company's own disaggregated-prefill baseline, with a traffic-control layer that prioritizes thinking traffic over memory traffic to avoid creating a new bottleneck — landing as a big win for multi-turn agentic workloads where prefill scheduling is the choke point.",
     "source": "DeepSeek",
-    "sourceUrl": "https://www.franksworld.com/2026/06/24/deepseeks-revolutionary-ai-solution-maximizing-computational-efficiency/",
-    "imageUrl": "https://preview.redd.it/deepseek-v4-all-leaks-and-infos-for-the-release-day-not-v0-lllfdd3uvimg1.png?width=640&crop=smart&auto=webp&s=2492384251ab16ffeac1c5d0317dd71610c3c077",
+    "sourceUrl": "https://www.geeky-gadgets.com/deepseek-ai-efficiency-breakthrough/",
+    "imageUrl": "https://thedecoder.com/wp-content/uploads/2026/06/DeepSeek-Feature.jpg",
     "category": "research",
     "publishedAt": "2026-06-24"
   },
@@ -164,28 +214,8 @@
     "title": "Mistral OCR 4 ships with bounding boxes, block labels and 170-language self-hosting",
     "summary": "Mistral released OCR 4 on June 23, 2026 as the successor to its document-intelligence model, returning bounding boxes, typed block labels (paragraph, title, list, table, image, equation, caption, code, header, footer, signature) and per-word confidence scores alongside extracted text; the model covers 170 languages across 10 groups, runs in a single container for self-hosted deployments with strict data-sovereignty requirements, ships as the ingestion layer for the open-source Mistral Search Toolkit (RAG / enterprise search) announced at AI Now Summit, is priced at $4 per 1,000 pages through the API ($2 with the Batch discount) with a $5/1k-pages Document AI option in Mistral Studio, and an internal blind review of 600+ documents picked OCR 4's output 72% of the time over competing models.",
     "source": "Mistral",
-    "sourceUrl": "https://the-decoder.com/mistrals-new-ocr-model-beats-competitors-in-72-percent-of-blind-test-cases-company-says/",
+    "sourceUrl": "https://thenextweb.com/news/mistral-ocr-4-document-ai-self-hosted",
     "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
-    "category": "model",
-    "publishedAt": "2026-06-23"
-  },
-  {
-    "id": "deepseek-harness-team-agent-buildout-2026-06-23",
-    "title": "DeepSeek's Harness team races to ship a Claude Code rival after $7.4B round",
-    "summary": "South China Morning Post reported on June 23, 2026 that DeepSeek is rapidly scaling its new Harness team, led by former Jane Street quant Cui Tianyi — posting on X that the group is severely understaffed and that he personally conducts high-frequency interviews daily — to build a domestic code agent product benchmarked against Anthropic's Claude Code; senior researcher Chen Deli has publicly confirmed the effort, the team's job description reads 'Model + Harness = Agent,' and the push follows DeepSeek's $7.4B / $50B+ valuation maiden round, with DeepSeek Code tipped to eventually become a stand-alone product as Anthropic's Claude Code reshapes the industry spotlight on harness engineering.",
-    "source": "DeepSeek",
-    "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3358077/deepseeks-harness-team-races-recruit-talent-booming-ai-agent-market",
-    "imageUrl": "https://preview.redd.it/deepseek-v4-all-leaks-and-infos-for-the-release-day-not-v0-lllfdd3uvimg1.png?width=640&crop=smart&auto=webp&s=2492384251ab16ffeac1c5d0317dd71610c3c077",
-    "category": "research",
-    "publishedAt": "2026-06-23"
-  },
-  {
-    "id": "multiverse-pulsar-16b-nvidia-nemotron-2026-06-23",
-    "title": "Multiverse ships Pulsar 16B with NVIDIA — 30B-class reasoning in 16B parameters (Apache-2.0)",
-    "summary": "Multiverse Computing released Pulsar 16B on June 23, 2026 in collaboration with NVIDIA — a 16.15B-parameter open reasoning model (3.1B active) compressed from NVIDIA Nemotron 3 Nano using CompactifAI plus NVIDIA's Model Optimizer and Megatron Bridge libraries, validated on NVIDIA accelerated infrastructure; the model claims 30B-class reasoning at roughly half the parameter count, ships in BF16 / FP8 / NVFP4 precisions, and lands on Hugging Face under Apache 2.0, with Multiverse positioning it as frontier-grade reasoning enterprises can run and scale economically without cloud-scale infrastructure overhead.",
-    "source": "NVIDIA",
-    "sourceUrl": "https://completeaitraining.com/news/nvidia-announces-bionemo-agent-toolkit-to-accelerate-life/",
-    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
     "category": "model",
     "publishedAt": "2026-06-23"
   },
@@ -198,45 +228,5 @@
     "imageUrl": "https://www.microsoft.com/favicon.ico",
     "category": "tool",
     "publishedAt": "2026-06-23"
-  },
-  {
-    "id": "aws-bedrock-guardrails-automated-reasoning-refinement-2026-06-23",
-    "title": "AWS adds Automated Reasoning refinement workflows to Amazon Bedrock Guardrails",
-    "summary": "AWS on June 23, 2026 shipped two new refinement workflows for Automated Reasoning checks in Amazon Bedrock Guardrails, using formal logic to mathematically validate generative-AI responses against a defined policy; the iterative policy-improvement workflow lets customers run natural-language tests and have the system deduce the changes needed to make policies pass, while the ambiguity-reduction workflow auto-refines variable descriptions and type definitions to cut ambiguous translation results — both available through the Amazon Bedrock APIs and the AWS Management Console in every region where Automated Reasoning checks are GA.",
-    "source": "Amazon",
-    "sourceUrl": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-bedrock-guardrails/",
-    "imageUrl": "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png",
-    "category": "product",
-    "publishedAt": "2026-06-23"
-  },
-  {
-    "id": "stability-ai-ceo-departure-third-in-18-months-2026-06-23",
-    "title": "Stability AI fires CEO — third leadership shake-up in 18 months as Stability 4.0 slips",
-    "summary": "Stability AI on June 23, 2026 announced the departure of its CEO — its third leadership change in 18 months — framed as a 'strategic transition' with no permanent replacement named, deepening board-level uncertainty as the company burns cash while missing product milestones; the company still promises a Stability 4.0 release, but investor patience is thinning and a pattern of executive turnover signals fundamental disagreements on strategy — the news comes days before Stability's planned AI Festival participation and as open-source rivals (Qwen-AgentWorld, GLM-5.2, DeepSeek V4) keep shipping models while Stability's cadence slows.",
-    "source": "StabilityAI",
-    "sourceUrl": "https://promptyze.com/stability-ai-fires-its-ceo-third-leadership-shake-up-in-18-months/",
-    "imageUrl": "https://picsum.photos/seed/stability/600/400",
-    "category": "product",
-    "publishedAt": "2026-06-23"
-  },
-  {
-    "id": "adobe-firefly-ai-assistant-five-creative-cloud-apps-2026-06-23",
-    "title": "Adobe's Firefly AI Assistant rolls into Premiere, Photoshop, Illustrator, InDesign, Frame.io (public beta)",
-    "summary": "Adobe's Firefly-powered AI Assistant moved into public beta on June 23, 2026 across Premiere, Photoshop, Illustrator, InDesign and Frame.io, letting users describe the outcome they want while the assistant orchestrates multi-step workflows behind the scenes; example tasks include sorting and renaming Premiere clips, swapping Photoshop backgrounds across a batch of files, and running layout / file / feedback automation across the rest of Creative Cloud — paired with a redesigned Firefly studio (private beta) that adds 'Elements' (named, reusable character/location/object assets) and 'Projects' (persistent context) so campaigns stay consistent across iterations without breaking flow.",
-    "source": "Adobe",
-    "sourceUrl": "https://news.adobe.com/news/2026/06/adobe-unveils-major-expansion",
-    "imageUrl": "https://news.adobe.com/etc.clientlibs/adobecommunity/clientlibs/clientlib-base/resources/adobe-favicon.ico",
-    "category": "product",
-    "publishedAt": "2026-06-23"
-  },
-  {
-    "id": "xai-grok-goal-mode-grok-build-2026-06-22",
-    "title": "xAI ships '/goal' mode in Grok Build — long-running autonomous execution with verifier subagents",
-    "summary": "xAI announced '/goal' on June 22, 2026 as a new mode inside Grok Build that yields long-running, autonomous execution of larger implementation tasks; the agent plans an approach, breaks the work into a checklist, and runs planner / implementer / skeptic-verifier / strategist / summarizer subagents in a loop until the goal is verified — with developers steering live runs via /goal status, /goal pause, /goal resume and /goal clear — installable via 'curl -fsSL https://x.ai/cli/install.sh | bash' and available now to SuperGrok / X Premium Plus subscribers running Grok Build.",
-    "source": "xAI",
-    "sourceUrl": "https://www.marktechpost.com/2026/06/22/xai-launches-goal-in-grok-build-adding-long-running-autonomous-execution-with-built-in-verification-for-multi-step-coding-tasks/",
-    "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
-    "category": "tool",
-    "publishedAt": "2026-06-22"
   }
 ]

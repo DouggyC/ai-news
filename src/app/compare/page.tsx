@@ -53,6 +53,8 @@ const providerColors: Record<string, string> = {
   KwaiKAT: '#f43f5e',
   'Zhipu AI': '#0ea5e9',
   'Nex AGI': '#0d9488',
+  DeepReinforce: '#a855f7',
+  Meituan: '#facc15',
 };
 
 function getInitialModels(): FrontierModel[] {
@@ -166,7 +168,7 @@ export default function ComparePage() {
             paddingRight: '24px',
           }}
         >
-          Last updated: June 24, 2026
+          Last updated: June 25, 2026
         </div>
         <div
           style={{
