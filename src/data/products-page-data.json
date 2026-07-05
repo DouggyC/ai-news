@@ -207,6 +207,11 @@
         "name": "Claude Tag (Slack)",
         "url": "https://docs.anthropic.com",
         "description": "Anthropic's persistent, channel-scoped Claude teammate for Slack (launched June 23, 2026 in beta for Claude Enterprise / Team, replacing the Claude in Slack app — migration deadline August 3, 2026). Single @Claude identity per org; admins scope channels, tools, data sources, and codebases. Optional ambient mode for proactive follow-ups, scheduled tasks, and cross-channel context. Breaks work into stages and posts updates in the Slack thread; employees can hand off half-finished tasks between team members. Anthropic reports Claude Tag wrote/merged 65% of the company's own product-team code internally — now available externally as a separate enterprise SKU, framed as 'the beginning of an evolution of Claude Code.' Powered by Claude Opus 4.8."
+      },
+      "Anthropic-Sonnet-5": {
+        "name": "Claude Sonnet 5",
+        "url": "https://www.anthropic.com/news/claude-sonnet-5",
+        "description": "Anthropic's most agentic Sonnet model (June 30, 2026). Introductory pricing $2/$10 per 1M tokens through August 31, 2026, then $3/$15 standard. Available on Claude Platform, AWS, Google Cloud, Microsoft Foundry."
       }
     }
   },
@@ -486,6 +491,26 @@
         "name": "OpenRouter",
         "url": "https://openrouter.ai",
         "description": "Unified LLM router exposing 200+ models from 50+ providers (Anthropic, OpenAI, Google, Meta, Mistral, DeepSeek, xAI, Cohere, Moonshot, etc.) behind a single OpenAI-compatible API. One key, one billing layer, automatic failover and fallback across providers. Free tier with rate limits; paid models billed at cost (no markup). BYOK option to use your own provider keys with cached throughput discounts. App attribution via HTTP-Referer header for analytics and revenue sharing. Route parameters let you pin to specific providers, set fallbacks, enforce data policies (zero-retention endpoints), or sort by price/latency. Web search, structured output, tool calling, prompt caching supported across providers."
+      },
+      "OpenRouter-Advisor": {
+        "name": "OpenRouter Advisor",
+        "url": "https://openrouter.ai/blog/advisor-server-tool/",
+        "description": "Server-side tool for model self-escalation (GA June 10, 2026). Lets any executor model call a smarter advisor model mid-generation. Cross-vendor pairing, multiple named advisors, advisor gets its own tool loop including web search."
+      },
+      "OpenRouter-Subagent": {
+        "name": "OpenRouter Subagent",
+        "url": "https://openrouter.ai/blog/announcements/subagent-server-tool/",
+        "description": "Server-side tool for delegating routine work to cheaper worker models (June 16, 2026). Tokens bill at worker's own rate. Pairs with Advisor - orchestrator delegates busywork to subagent while consulting advisor."
+      },
+      "OpenRouter-MCP": {
+        "name": "OpenRouter MCP Server",
+        "url": "https://openrouter.ai/blog/announcements/openrouter-mcp-server/",
+        "description": "MCP server for live OpenRouter data (June 25, 2026). Tools: models-list, model-get, benchmarks (Artificial Analysis + Design Arena), rankings-daily, chat-send, docs-search, credits-get."
+      },
+      "OpenRouter-Image": {
+        "name": "OpenRouter Image API",
+        "url": "https://openrouter.ai/blog/announcements/image-api/",
+        "description": "Dedicated image generation API (June 23, 2026) unifying 30+ image models from Google, OpenAI, BFL, Recraft, ByteDance, Sourceful, Microsoft, xAI. Endpoints API exposes exact USD cost per generation."
       }
     }
   },
@@ -591,6 +616,11 @@
         "url": "https://deepmind.google/models/imagen/",
         "description": "Google image generation stack surfaced through Gemini and Vertex AI. Gemini 3.1 Flash Image Preview (Nano Banana 2) at #3 on Image Arena. Gemini Omni (video) and Veo 3.1 in production. Gemini 3.5 Flash gained native Computer Use (June 25, 2026) — 78.4 on OSWorld, ahead of Gemini 3 Flash (65.1) and GPT-5.4 mini (72.1); trails GPT-5.5 (78.7) and Opus 4.8 (83.4). Available via Gemini API and Gemini Enterprise Agent Platform with prompt-injection safeguards. Gemini 3.5 Pro GA pushed from June to July 2026 (June 23 announcement) to incorporate early-tester feedback — 2M-token context and Deep Think reasoning mode still planned. Google DeepMind + A24 research partnership announced June 22, 2026 for creator-facing AI tooling."
       },
+      "Google-NanoBanana-Lite": {
+        "name": "Nano Banana 2 Lite",
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+        "description": "Google's fastest image generation and editing model in the Nano Banana family (Nano Banana 2 Lite / Gemini 3.1 Flash-Lite Image, GA June 30, 2026). Generates an image in as little as 4 seconds. Built for A/B testing ad variations and high-volume social apps."
+      },
       "OpenAI": {
         "name": "GPT Image 2",
         "url": "https://developers.openai.com/api/docs/models/gpt-image-2",
@@ -654,6 +684,11 @@
         "name": "Veo 3.1",
         "url": "https://deepmind.google/models/veo/",
         "description": "Google's flagship video generation model (Veo 3.1 updates shipped January 13, 2026) for cinematic and prompt-driven clips with native audio. Enhanced Ingredients to Video, native 9:16 vertical output, 4K upscaling, improved character/background consistency. Available in Gemini API, AI Studio, Vertex AI, Flow, YouTube Shorts, Google Vids."
+      },
+      "Google-Omni-Flash": {
+        "name": "Gemini Omni Flash",
+        "url": "https://cloud.google.com/blog/products/ai-machine-learning/nano-banana-2-lite-and-gemini-omni-flash-available",
+        "description": "Google's conversational video generation and editing model (public preview June 30, 2026). Powers character/product swaps, dynamic style transfers, object addition, scene relighting. Generates video from text, a first-frame image, or an existing video. Available via Gemini Enterprise Agent Platform and the Runway API as `gemini_omni_flash`."
       },
       "Runway": {
         "name": "Runway",
@@ -763,6 +798,11 @@
         "name": "Grok Voice API",
         "url": "https://docs.x.ai",
         "description": "xAI TTS and voice cloning API with Custom Voices (May 2026). grok-voice-think-fast-1.0 for voice agents. $4.20 per 1M characters, Voice Agent $3/hr."
+      },
+      "xAI-Voice-Builder": {
+        "name": "Voice Agent Builder",
+        "url": "https://x.ai/news/grok-voice-agent-builder",
+        "description": "xAI's no-code platform for production voice agents on Grok Voice (launched July 1, 2026). Bundles telephony, knowledge retrieval, tools, guardrails, MCPs, observability in one speech-to-speech interface. 80+ voices plus custom voice cloning. Flat $0.05/min audio, $0.01/min provisioned telephony. 25+ languages, sub-2-min setup."
       },
       "Mistral": {
         "name": "Voxtral TTS",
@@ -878,6 +918,11 @@
         "name": "Computer for Counsel",
         "url": "https://docs.perplexity.ai/docs/getting-started/overview",
         "description": "Perplexity's legal vertical of Computer (launched June 25, 2026 for Pro/Max subscribers). Connects to legal research databases (midpageAI, LegalZoom, DocuSign, NetDocuments) and matter-management systems; pulls citable sources for motions, briefs, due-diligence memos, and contract review. Powered by the same Perplexity Computer stack as the general vertical — same Brain context-graph memory (June 18, 2026) for cross-session learning."
+      },
+      "Claude Science": {
+        "name": "Claude Science",
+        "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+        "description": "Anthropic's AI workbench for scientists (June 30, 2026). Beta available to Claude Pro, Max, Team, and Enterprise on macOS and Linux. Integrates common research tools, produces auditable artifacts. Anthropic sponsors up to 50 AI for Science projects (up to $30K credits each); applications open through July 15, 2026."
       }
     }
   },

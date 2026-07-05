@@ -1,4 +1,54 @@
 {
+  "gpt-5.6-sol": {
+    "provider": "OpenAI",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 92.6,
+    "humaneval": 95.0
+  },
+  "gpt-5.6-terra": {
+    "provider": "OpenAI",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 92.4,
+    "humaneval": 94.5
+  },
+  "gpt-5.6-luna": {
+    "provider": "OpenAI",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 92.0,
+    "humaneval": 94.0
+  },
+  "claude-mythos-5": {
+    "provider": "Anthropic",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 94.2,
+    "humaneval": 96.0
+  },
+  "claude-sonnet-5": {
+    "provider": "Anthropic",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 91.5,
+    "humaneval": 94.0
+  },
   "solar-pro-3": {
     "provider": "Upstage",
     "parameters": 0,
