@@ -44,7 +44,8 @@ const companyOrder = [
   'Perplexity',
   'Computer for Counsel',
   'Cursor',
-  'Cloudflare',
+  'Cartesia',
+'Cloudflare',
   'Cohere',
   'Cognition',
   'Midjourney',
@@ -78,7 +79,8 @@ const companyOrder = [
   'OpenRouter-Advisor',
   'OpenRouter-Subagent',
   'OpenRouter-MCP',
-  'OpenRouter-Image',
+'OpenRouter-Image',
+'OpenRouter-Fusion',
   'Replicate',
   'Reve',
   'Ollama',
@@ -95,7 +97,8 @@ const companyOrder = [
   'Jan',
   'LocalAI',
   'vLLM',
-  'Vellum',
+  'Vapi',
+'Vellum',
   'Sakana',
 ];
 
@@ -247,8 +250,11 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
     'OpenRouter-Advisor': 'backgroundColor:rgba(99, 102, 241, 0.2);color:#a5b4fc;borderColor:rgba(99, 102, 241, 0.3)',
     'OpenRouter-Subagent': 'backgroundColor:rgba(99, 102, 241, 0.2);color:#c7d2fe;borderColor:rgba(99, 102, 241, 0.3)',
     'OpenRouter-MCP': 'backgroundColor:rgba(99, 102, 241, 0.2);color:#818cf8;borderColor:rgba(99, 102, 241, 0.4)',
-    'OpenRouter-Image': 'backgroundColor:rgba(99, 102, 241, 0.2);color:#6366f1;borderColor:rgba(99, 102, 241, 0.3)',
-  };
+'OpenRouter-Image': 'backgroundColor:rgba(99, 102, 241, 0.2);color:#6366f1;borderColor:rgba(99, 102, 241, 0.3)',
+'OpenRouter-Fusion': 'backgroundColor:rgba(99, 102, 241, 0.2);color:#4f46e5;borderColor:rgba(99, 102, 241, 0.3)',
+    Cartesia: 'backgroundColor:rgba(244, 114, 182, 0.2);color:#f472b6;borderColor:rgba(244, 114, 182, 0.3)',
+    Vapi: 'backgroundColor:rgba(20, 184, 166, 0.2);color:#5eead4;borderColor:rgba(20, 184, 166, 0.3)',
+};
 
   const style =
     colors[company] ||

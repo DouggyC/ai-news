@@ -20,14 +20,14 @@
     "publishedAt": "2026-06-30"
   },
   {
-    "id": "anthropic-claude-science-workbench-2026-06-30",
-    "title": "Anthropic launches Claude Science — vertical AI workbench for researchers with NVIDIA BioNeMo skills",
-    "summary": "Anthropic on June 30, 2026 released Claude Science in beta for Pro/Max/Team/Enterprise, a dedicated workbench that runs the existing Claude Opus 4.8 model (no new weights) but integrates NVIDIA BioNeMo Agent Toolkit skills (Evo 2, Boltz-2, OpenFold3) for life-sciences research; available on macOS and Linux with local, SSH or HPC login-node compute, case studies with Novo Nordisk and the Allen Institute, and up to 50 Claude Science AI-for-Science projects backed by $30K in credits plus $2K in Modal compute, with applications open through July 15.",
-    "source": "Anthropic",
-    "sourceUrl": "https://www.anthropic.com/news/claude-science-ai-workbench",
-    "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
-    "category": "product",
-    "publishedAt": "2026-06-30"
+    "id": "tencent-hunyuan-hy3-full-release-2026-07-06",
+    "title": "Tencent ships Hunyuan Hy3 — 295B/21B-active MoE under Apache 2.0, rivals 2-5x larger flagships",
+    "summary": "Tencent on July 6, 2026 officially released Hy3, a 295-billion-parameter Mixture-of-Experts model with only 21B active parameters and a 256K context — released under Apache 2.0 on Hugging Face and ModelScope; Hy3 tops FrontierScience-Olympiad at 74.8 (above GLM-5.2's 72.5 and GPT-5.5's 73.8) and reaches 84.2 on BrowseComp on par with Claude Opus 4.8 and GPT-5.5, while already shipping across Tencent WorkBuddy/CodeBuddy, Yuanbao (now with a free Agent function generating PPT/Word/Excel/PDF/HTML), Marvis, ima, Weixin Official Accounts AI assistants and Path of Exile: Advent on WeGame — with API access on Tencent Cloud TokenHub and progressive rollout to OpenRouter, Hermes, Kilo, Cline, OpenClaw, OpenCode and Cherry Studio.",
+    "source": "Tencent",
+    "sourceUrl": "https://www.tencent.com/en-us/articles/2202386.html",
+    "imageUrl": "https://static.www.tencent.com/uploads/2026/07/06/b9743332e65a5a8c51780eaf1655d341.png",
+    "category": "model",
+    "publishedAt": "2026-07-06"
   },
   {
     "id": "xai-grok-voice-agent-builder-2026-07-01",
@@ -58,6 +58,16 @@
     "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
     "category": "model",
     "publishedAt": "2026-07-02"
+  },
+  {
+    "id": "mistral-open-weight-moe-e4b-european-cloud-2026-07-05",
+    "title": "Mistral confirms €4B European AI cloud + open-weight MoE flagship for July early access",
+    "summary": "Mistral AI on July 5-6, 2026 confirmed a new sparse Mixture-of-Experts flagship model with early access starting in July alongside a €4 billion plan to build European-controlled AI cloud infrastructure in France and Sweden, anchored by its acquisition of infrastructure startup Koyeb; the strategy is framed as reducing European dependence on U.S. hyperscalers (AWS, Azure, GCP) at a moment when U.S. export controls, EU sovereignty debates and rapid Mistral ARR growth are reshaping the regional procurement market.",
+    "source": "Mistral",
+    "sourceUrl": "https://www.techtimes.com/articles/319798/20260706/mistral-ai-targets-frontier-gap-open-weight-model-entering-july-early-access.htm",
+    "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
+    "category": "product",
+    "publishedAt": "2026-07-05"
   },
   {
     "id": "microsoft-frontier-company-2-5b-deployment-org-2026-07-02",
@@ -110,6 +120,16 @@
     "publishedAt": "2026-06-30"
   },
   {
+    "id": "google-gemini-3-5-pro-deep-think-leak-2026-07-06",
+    "title": "Google Gemini 3.5 Pro leaks Deep Think reasoning mode — July 17 launch target",
+    "summary": "Leaks first surfaced on July 6, 2026 detailing Google DeepMind's Gemini 3.5 Pro, including a new Deep Think reasoning mode aimed at competition-grade math and multi-step science; Google confirmed the model targets a July 17, 2026 launch window after delaying from June to address token-efficiency feedback from early testers, with Gemini 3.5 Pro becoming the only major upcoming frontier release without a U.S. government access restriction — and its 2M-token context window would be the largest in any production model to date.",
+    "source": "Google",
+    "sourceUrl": "https://www.geeky-gadgets.com/google-gemini-3-5-pro-leaks/",
+    "imageUrl": "https://deepmind.google/favicon.ico",
+    "category": "model",
+    "publishedAt": "2026-07-06"
+  },
+  {
     "id": "deepseek-v4-mid-july-peak-pricing-2026-06-29",
     "title": "DeepSeek sets official V4 launch for mid-July — 1M context across lineup + first peak/off-peak API pricing",
     "summary": "DeepSeek on June 29, 2026 confirmed that DeepSeek V4 — building on the April preview with stronger agent execution, math reasoning and code generation — will launch officially in mid-July with a 1-million-token context window across the entire model lineup; the company is also introducing its first peak/off-peak API pricing, charging 2× the off-peak rate during 9 AM–12 PM and 2 PM–6 PM daily windows, while V4 Pro's $0.435/$0.87 per million input/output discount was made permanent in late May.",
@@ -118,16 +138,6 @@
     "imageUrl": "https://thedecoder.com/wp-content/uploads/2026/06/DeepSeek-Feature.jpg",
     "category": "model",
     "publishedAt": "2026-06-29"
-  },
-  {
-    "id": "deepseek-dspark-speculative-decoding-85pct-2026-06-27",
-    "title": "DeepSeek open-sources DSpark — speculative decoding framework delivers 60–85% faster V4 inference",
-    "summary": "DeepSeek on June 27, 2026 open-sourced DSpark under MIT with checkpoints and training code (also released the DeepSpec framework for training speculative-decoding drafters); pairing a parallel draft backbone with a tiny sequential head plus a confidence-based, load-aware verifier, DSpark lifts accepted length 26–31% over Eagle3 and 16–18% over NVIDIA's DFlash, and on DeepSeek-V4 in production it delivers 60–85% per-user generation speedup over the MTP-1 baseline losslessly — a strategic win as China's export-control environment tightens.",
-    "source": "DeepSeek",
-    "sourceUrl": "https://venturebeat.com/orchestration/deepseek-open-sources-dspark-a-new-framework-to-speed-up-llm-inference-by-up-to-85",
-    "imageUrl": "https://thedecoder.com/wp-content/uploads/2026/06/DeepSeek-Feature.jpg",
-    "category": "research",
-    "publishedAt": "2026-06-27"
   },
   {
     "id": "bytedance-seedance-2-5-public-launch-2026-07-03",
@@ -158,6 +168,16 @@
     "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
     "category": "model",
     "publishedAt": "2026-07-03"
+  },
+  {
+    "id": "meta-pocket-vibe-coded-games-app-2026-07-02",
+    "title": "Meta quietly ships Pocket — vibe-coded AI mini-games app with social feed and remixable 'gizmos'",
+    "summary": "Meta on July 2, 2026 (iOS/Android publication: June 29) quietly launched Pocket, a stand-alone AI app that turns text prompts into interactive mini-games called 'gizmos' — touch- and tilt-reactive, with sound, camera and camera-roll access — alongside a TikTok-style social feed for browsing, playing and remixing what others built; Pocket builds on Meta's earlier acquisition of the Gizmo vibe-coding team and follows the Vibes AI video app in Meta's strategy of testing creative AI bets as separate apps before integrating winners into Facebook, Instagram and WhatsApp.",
+    "source": "Meta",
+    "sourceUrl": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+    "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
+    "category": "product",
+    "publishedAt": "2026-07-02"
   },
   {
     "id": "apple-pcc-google-cloud-launch-2026-07-01",
@@ -200,16 +220,6 @@
     "publishedAt": "2026-06-24"
   },
   {
-    "id": "cursor-1-5t-param-colossus-compile-2026-06-24",
-    "title": "Cursor reveals 1.5T-parameter in-house coding model training on 100,000 xAI Colossus GPUs",
-    "summary": "Cursor at its Compile keynote on June 24, 2026 disclosed it is training its first fully self-built frontier model — a 1.5-trillion-parameter system pre-trained from scratch on xAI's Colossus supercomputer cluster in Memphis using more than 100,000 Nvidia GPUs (10-20x the compute of prior Cursor models) and as big as Claude Opus and GPT-5.5 according to CEO Michael Truell; the model moves Cursor away from its Kimi K2.5 base to a blank initialization, is expected to ship 'within weeks,' and was unveiled alongside a Git-rival hosting platform called Origin (general availability fall 2026) and an iOS mobile app for remotely monitoring coding agents — the same day SpaceX confirmed its $60B all-stock acquisition of Cursor's parent Anysphere.",
-    "source": "Cursor",
-    "sourceUrl": "https://www.techtimes.com/articles/318974/20260624/cursor-trains-first-frontier-model-scratch-colossus-15-trillion-parameters.htm",
-    "imageUrl": "https://www.cursor.com/favicon.ico",
-    "category": "model",
-    "publishedAt": "2026-06-24"
-  },
-  {
     "id": "google-gemini-robotics-on-device-2026-06-24",
     "title": "Google DeepMind ships Gemini Robotics On-Device — first VLA runnable on a robot without the cloud",
     "summary": "Google DeepMind on June 24, 2026 released Gemini Robotics On-Device, the first VLA (vision-language-action) model it has made available for fine-tuning and that runs locally on a robot — no cloud, no internet — with performance the team says is 'quite close' to the hybrid cloud-based Gemini Robotics released in March; the model was trained on ALOHA robots but adapted to bi-arm Franka FR3 industrial arms and Apptronik's Apollo humanoid, can be fine-tuned with as few as 50-100 demonstrations, ships with the first Gemini Robotics SDK plus MuJoCo simulator support, and is rolling out now through DeepMind's trusted-tester program with strict safety guidance for developers building always-on physical-AI applications.",
@@ -228,15 +238,5 @@
     "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
     "category": "research",
     "publishedAt": "2026-07-04"
-  },
-  {
-    "id": "mistral-ocr-4-bounding-boxes-170-languages-2026-06-23",
-    "title": "Mistral OCR 4 ships with bounding boxes, block labels and 170-language self-hosting",
-    "summary": "Mistral released OCR 4 on June 23, 2026 as the successor to its document-intelligence model, returning bounding boxes, typed block labels (paragraph, title, list, table, image, equation, caption, code, header, footer, signature) and per-word confidence scores alongside extracted text; the model covers 170 languages across 10 groups, runs in a single container for self-hosted deployments with strict data-sovereignty requirements, ships as the ingestion layer for the open-source Mistral Search Toolkit (RAG / enterprise search) announced at AI Now Summit, is priced at $4 per 1,000 pages through the API ($2 with the Batch discount) with a $5/1k-pages Document AI option in Mistral Studio, and an internal blind review of 600+ documents picked OCR 4's output 72% of the time over competing models.",
-    "source": "Mistral",
-    "sourceUrl": "https://thenextweb.com/news/mistral-ocr-4-document-ai-self-hosted",
-    "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
-    "category": "model",
-    "publishedAt": "2026-06-23"
   }
 ]

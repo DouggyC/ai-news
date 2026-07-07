@@ -46,8 +46,8 @@
     "contextLength": 1000000,
     "openSource": false,
     "license": "Proprietary",
-    "mmlu": 91.5,
-    "humaneval": 94.0
+    "mmlu": 89.0,
+    "humaneval": 86.0
   },
   "solar-pro-3": {
     "provider": "Upstage",
@@ -1249,7 +1249,7 @@
     "json": true,
     "search": true
   },
-  "claude-opus-4.5": {
+"claude-opus-4.5": {
     "provider": "Anthropic",
     "parameters": 0,
     "modelSizeGB": 0,

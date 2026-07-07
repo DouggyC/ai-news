@@ -30,7 +30,7 @@
  "humaneval":88.0,
  "livebench":75.0,
  "mmluPlus": null,
- "gpqa":84.6
+ "gpqa":82.3
  },
  {
  "id": "gpt-5.4-pro",
@@ -151,7 +151,7 @@
  "humaneval":88.0,
  "livebench":60.0,
  "mmluPlus":76.0,
- "gpqa":64.6
+ "gpqa":67.2
  },
  {
  "id": "gemini-3.1-pro",
@@ -164,17 +164,17 @@
  "mmluPlus": null,
  "gpqa":94.1
  },
- {
- "id": "gemini-3.5-flash",
- "name": "Gemini3.5 Flash",
- "provider": "Google",
- "openSource": false,
- "mmlu":91.5,
- "humaneval":92.0,
- "livebench":75.0,
- "mmluPlus":89.6,
- "gpqa":92.2
- },
+{
+"id": "gemini-3.5-flash",
+"name": "Gemini3.5 Flash",
+"provider": "Google",
+"openSource": false,
+ "mmlu": 88.4,
+ "humaneval": 94.6,
+ "livebench": 75.02,
+ "mmluPlus": 89.58,
+ "gpqa": 92.2
+},
  {
  "id": "gemini-3-flash",
  "name": "Gemini3 Flash",
@@ -184,7 +184,7 @@
  "humaneval":90.0,
  "livebench":73.0,
  "mmluPlus":89.0,
- "gpqa":89.8
+ "gpqa":81.2
  },
  {
  "id": "gemini-3.1-flash-lite",
@@ -582,6 +582,17 @@
  "mmluPlus": null,
  "gpqa":92.6
  },
+{
+"id": "claude-sonnet-5",
+"name": "Claude Sonnet5",
+"provider": "Anthropic",
+"openSource": false,
+"mmlu": 89.0,
+"humaneval": 86.0,
+"livebench": 75.82,
+"mmluPlus": null,
+"gpqa": 91.1
+},
  {
  "id": "claude-opus-4.5",
  "name": "Claude Opus4.5",
@@ -736,17 +747,17 @@
  "mmluPlus": null,
  "gpqa":89.6
  },
- {
- "id": "glm-5.2",
- "name": "GLM-5.2",
- "provider": "Zhipu AI",
- "openSource": true,
- "mmlu":90.0,
- "humaneval":90.0,
- "livebench":76.2,
- "mmluPlus": null,
- "gpqa":89.5
- },
+{
+"id": "glm-5.2",
+"name": "GLM-5.2",
+"provider": "Zhipu AI",
+"openSource": true,
+ "mmlu": 90.0,
+ "humaneval": 90.0,
+ "livebench": 76.2,
+"mmluPlus": null,
+ "gpqa": 89.5
+},
  {
  "id": "claude-opus-4-5-thinking",
  "name": "Claude Opus 4.5 Thinking",
