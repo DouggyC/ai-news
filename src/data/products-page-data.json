@@ -251,7 +251,7 @@
       "Cursor": {
         "name": "Cursor 3.8",
         "url": "https://www.cursor.com",
-        "description": "AI-native editor (Cursor 3 unified workspace since April 2, 2026). v3.7 (June 4) Canvas Design Mode with multi-select and voice input, Context Usage Report, custom stores/tools, auto-review for SDK with subagent nesting. Enterprise Organizations framework GA (June 3, 2026) with three-layer governance (Org → Team → Group), centralized analytics, SCIM directory sync. Auto-review now default for new users (June 11, 2026, cursor.com/blog/agent-autonomy-auto-review). Bugbot 3x faster/22% cheaper/10% more bugs (June 10, ~90s review, in-house Composer 2.5 with model block list for fleet routing), now runnable with /review. Composer 2.5 default. cursor.com/agents cloud URL. Pro cut 40% to $12/mo on June 12, 2026 with new Efficiency Mode (up to 35% token reduction); enterprise spend controls and usage-based tiers above thresholds. Pro+ $60/mo, Ultra $200/mo. Gartner Leader. SpaceX announced all-stock $60B acquisition of Cursor on June 16, 2026 (after $1B+ ARR reached November 2025) — deal expected to close Q3 2026, gives SpaceX-xAI direct coding-tool arm to compete with Anthropic and OpenAI; existing termination fee of $1.5B + $8.5B in compute resources. June 17, 2026 (8-K SEC filing): Merger Sub X67 Inc. merges into Anysphere Inc. (Cursor); implied equity value $60B at SPCX VWAP. CEO Michael Truell announced next-gen model at Cursor's inaugural conference — 1.5T-parameter model pre-trained on 100,000 GPUs, 'as big as Opus and GPT,' no reliance on existing model. Cursor was previously preparing $2B round at $50B valuation; deal converts April 2026 option into binding merger agreement. Cursor 3.8 (June 18, 2026) Automations update — /automate slash command to create automations from local agent sessions, 5 new GitHub triggers (issue comment, PR review comment/submitted, review thread updated, workflow run completed) and Slack emoji triggers; cloud agents now have computer use to produce demos/artifacts of work; templates for triaging failed GitHub Actions and auto-fixing PR review comments in Marketplace. SpaceX-Cursor $60B all-stock acquisition (June 16/17, 2026) and Cursor inaugural developer conference (June 18) revealed next-gen 1.5T-parameter model pre-trained on 100,000 GPUs ('as big as Opus and GPT'); Colossus supercomputer access via SpaceX-xAI integration."
+        "description": "AI-native editor (Cursor 3 unified workspace since April 2, 2026). Cursor 3.10 (June 30, 2026) — Customize page unifies Plugins/Skills/MCPs; Cursor for iOS in public beta on all paid plans (cloud agents on iPhone/iPad, Live Activities + push notifications, Remote Control handoff, generated artifact review, PR merge from phone, voice input, slash commands); 75% Composer 2.5 launch promo through July 5. Cursor 3.8 (June 18, 2026) Automations — /automate slash command to create automations from local agent sessions, 5 new GitHub triggers (issue comment, PR review comment/submitted, review thread updated, workflow run completed) and Slack emoji triggers; cloud agents now have computer use to produce demos/artifacts of work; templates for triaging failed GitHub Actions and auto-fixing PR review comments. Cursor 3.7 (June 4) Canvas Design Mode with multi-select and voice input, Context Usage Report, custom stores/tools, auto-review for SDK with subagent nesting. Enterprise Organizations framework GA (June 3, 2026) with three-layer governance (Org → Team → Group), centralized analytics, SCIM directory sync. Auto-review now default for new users (June 11, 2026, cursor.com/blog/agent-autonomy-auto-review). Bugbot 3x faster/22% cheaper/10% more bugs (June 10, ~90s review, in-house Composer 2.5 with model block list for fleet routing), now runnable with /review. Composer 2.5 default. cursor.com/agents cloud URL. Pro cut 40% to $12/mo on June 12, 2026 with new Efficiency Mode (up to 35% token reduction); enterprise spend controls and usage-based tiers above thresholds. Pro+ $60/mo, Ultra $200/mo. Gartner Leader. SpaceX announced all-stock $60B acquisition of Cursor on June 16, 2026 (after $1B+ ARR reached November 2025) — deal expected to close Q3 2026, gives SpaceX-xAI direct coding-tool arm to compete with Anthropic and OpenAI; existing termination fee of $1.5B + $8.5B in compute resources. June 17, 2026 (8-K SEC filing): Merger Sub X67 Inc. merges into Anysphere Inc. (Cursor); implied equity value $60B at SPCX VWAP. CEO Michael Truell announced next-gen model at Cursor's inaugural conference — 1.5T-parameter model pre-trained on 100,000 GPUs, 'as big as Opus and GPT,' no reliance on existing model. Cursor was previously preparing $2B round at $50B valuation; deal converts April 2026 option into binding merger agreement. Grok 4.5 available in Cursor from launch day (July 8, 2026, cursor.com/blog/grok-4-5). SpaceX-Cursor $60B all-stock acquisition (June 16/17, 2026) and Cursor inaugural developer conference (June 18) revealed next-gen 1.5T-parameter model pre-trained on 100,000 GPUs ('as big as Opus and GPT'); Colossus supercomputer access via SpaceX-xAI integration."
       },
       "Cognition": {
         "name": "Devin Desktop",
@@ -642,8 +642,9 @@
         "description": "Bedrock image model family for enterprise-safe generation and editing."
       },
       "Meta": {
-        "name": "Imagine",
-        "description": "Meta's consumer image generation experience powered by Llama ecosystem tooling. Meta swapped its content moderation and support stack to Muse Spark (June 25, 2026) — Meta Superintelligence Labs reports 13% fewer errors than human reviewers and 10% more actual violations caught versus the prior Google Gemini pipeline; pushing past 90% LLM moderation for some content types by year-end 2026."
+        "name": "Muse Image",
+        "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+        "description": "Meta Superintelligence Labs' first image generation model (launched July 7, 2026, ai.meta.com). Follows instructions faithfully, edits with precision, composes from multiple references, draws on Instagram for social context, brings agentic tool use, and integrates with Muse Spark. Content Seal invisible watermarking system stamps all Meta AI / meta.ai generations (resists crop/compress/resize/screenshot). Available in the Meta AI app and on meta.ai, Instagram Stories in the US, and WhatsApp in limited countries; coming soon to Facebook. Coming to advertisers via Advantage+ in the following weeks."
       },
       "Adobe": {
         "name": "Firefly",
@@ -731,8 +732,8 @@
         "description": "Luma's Ray3.2 model (released June 9, 2026) with frame-level multi-keyframe control (up to 16 keyframes), native HDR generation, 16-bit EXR export for VFX pipelines, 20s 1080p cinematic generations, and enhanced Reframe for surgical aspect-ratio edits. Ray3.2 API now available for direct pipeline integration (June 9, 2026). Free tier, Pro $30/mo, Enterprise custom."
       },
       "Meta": {
-        "name": "Meta Video Generation",
-        "description": "Meta's video generation capabilities integrated across Meta apps. Meta swapped its content moderation and support stack to Muse Spark (June 25, 2026) — Meta Superintelligence Labs reports 13% fewer errors than human reviewers and 10% more actual violations caught versus the prior Google Gemini pipeline; pushing past 90% LLM moderation for some content types by year-end 2026."
+        "name": "Muse Video",
+        "description": "Meta Superintelligence Labs' first video generation model (previewed July 7, 2026, ai.meta.com, alongside Muse Image). Built on the same pretraining base as Muse Image, native audio support (sound generated in the same pass — no separate audio pipeline). Currently #3 on Arena text-to-video leaderboard (Elo), behind Veo but ahead of most peers. Coming soon to creators and inside Meta AI; Content Seal watermark extension to video planned."
       },
       "ElevenLabs": {
         "name": "ElevenLabs Avatars",
@@ -769,10 +770,15 @@
         "url": "https://developers.openai.com/api/docs/guides/text-to-speech",
         "description": "GPT-Realtime-Translate for 70+ language translation (May 7, 2026)."
       },
-      "OpenAI-Realtime-Whisper": {
-        "name": "GPT-Realtime-Whisper",
-        "url": "https://developers.openai.com/api/docs/guides/text-to-speech",
-        "description": "GPT-Realtime-Whisper for streaming transcription (May 7, 2026)."
+"OpenAI-Realtime-Whisper": {
+"name": "GPT-Realtime-Whisper",
+"url": "https://developers.openai.com/api/docs/guides/text-to-speech",
+"description": "GPT-Realtime-Whisper for streaming transcription (May 7, 2026)."
+      },
+      "OpenAI-GPT-Live": {
+        "name": "GPT-Live",
+        "url": "https://openai.com/index/introducing-gpt-live",
+        "description": "OpenAI's full-duplex voice models (launched July 8, 2026): GPT-Live-1 (paid tiers) and GPT-Live-1 mini (free tier default in ChatGPT, replacing Advanced Voice Mode). Full-duplex = speaks and listens simultaneously, allowing natural interruptions and live translation. GPT-Live-1 mini becomes the default voice in ChatGPT across web/iOS/Android; GPT-Live-1 available to Go/Plus/Pro paid users. Routes text queries to GPT-5.5 for search/reasoning/agentic capabilities while maintaining voice conversation. Supports visual output for some responses, longer (30-40 min) hands-free conversations, live translation demoed. Safeguards for age-appropriate responses and self-harm resources. API availability forthcoming (developer signup open). Replaces prior Advanced Voice Mode pipeline that combined STT + LLM + TTS."
       },
       "Amazon": {
         "name": "Amazon Polly",

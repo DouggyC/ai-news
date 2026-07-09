@@ -1623,5 +1623,20 @@
     "functionCalling": true,
     "json": true,
     "search": false
+  },
+  "grok-4.5": {
+    "provider": "xAI",
+    "parameters": 1500000000000,
+    "modelSizeGB": 0,
+    "contextLength": 500000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": null,
+    "humaneval": null,
+    "multimodal": true,
+"vision": true,
+    "functionCalling": true,
+    "json": true,
+    "search": true
   }
 }

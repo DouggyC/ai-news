@@ -34,6 +34,7 @@ const companyOrder = [
   'OpenAI-Realtime-2',
   'OpenAI-Realtime-Translate',
   'OpenAI-Realtime-Whisper',
+  'OpenAI-GPT-Live',
   'xAI',
   'DeepSeek',
   'xAI-Voice-Builder',
@@ -233,6 +234,8 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
       'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
     'OpenAI-Realtime-Whisper':
       'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.3)',
+    'OpenAI-GPT-Live':
+      'backgroundColor:rgba(16, 185, 129, 0.2);color:#34d399;borderColor:rgba(16, 185, 129, 0.3)',
     'Runway Characters': 'backgroundColor:rgba(255, 255, 255, 0.06);color:rgba(255, 255, 255, 0.7);borderColor:rgba(255, 255, 255, 0.1)',
 
     Jan: 'backgroundColor:rgba(244, 63, 94, 0.2);color:#fb7185;borderColor:rgba(244, 63, 94, 0.3)',
