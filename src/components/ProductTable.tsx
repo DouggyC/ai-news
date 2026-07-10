@@ -14,6 +14,7 @@ const companyOrder = [
   'Microsoft',
   'Microsoft-Code',
   'Google',
+  'Google-AlphaEvolve',
   'Google-NanoBanana-Lite',
   'Google-Omni-Flash',
   'Amazon',
@@ -31,10 +32,12 @@ const companyOrder = [
   'Claude Tag',
   'Anthropic-Sonnet-5',
   'Claude Science',
+  'Anthropic-Reflect',
   'OpenAI-Realtime-2',
   'OpenAI-Realtime-Translate',
   'OpenAI-Realtime-Whisper',
   'OpenAI-GPT-Live',
+  'OpenAI-Work',
   'xAI',
   'DeepSeek',
   'xAI-Voice-Builder',
@@ -256,8 +259,11 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
 'OpenRouter-Image': 'backgroundColor:rgba(99, 102, 241, 0.2);color:#6366f1;borderColor:rgba(99, 102, 241, 0.3)',
 'OpenRouter-Fusion': 'backgroundColor:rgba(99, 102, 241, 0.2);color:#4f46e5;borderColor:rgba(99, 102, 241, 0.3)',
     Cartesia: 'backgroundColor:rgba(244, 114, 182, 0.2);color:#f472b6;borderColor:rgba(244, 114, 182, 0.3)',
+    'Google-AlphaEvolve': 'backgroundColor:rgba(59, 130, 246, 0.2);color:#60a5fa;borderColor:rgba(59, 130, 246, 0.4)',
+    'OpenAI-Work': 'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.4)',
+    'Anthropic-Reflect': 'backgroundColor:rgba(249, 115, 22, 0.2);color:#fb923c;borderColor:rgba(249, 115, 22, 0.4)',
     Vapi: 'backgroundColor:rgba(20, 184, 166, 0.2);color:#5eead4;borderColor:rgba(20, 184, 166, 0.3)',
-};
+  };
 
   const style =
     colors[company] ||

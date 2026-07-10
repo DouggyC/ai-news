@@ -1,5 +1,35 @@
 [
   {
+    "id": "openai-chatgpt-work-agent-launch-2026-07-09",
+    "title": "OpenAI launches ChatGPT Work agent + new Codex/Sites beta — GPT-5.6 Sol-powered desktop super-app",
+    "summary": "OpenAI on July 9, 2026 launched ChatGPT Work, a GPT-5.6 Sol-powered agent that combines ChatGPT and Codex into a single desktop super-app — running multi-hour scheduled tasks across web, mobile and desktop with a unified plugin directory for Slack, Teams, Google Drive, SharePoint, email, calendars and CRMs, plus human-in-the-loop approval for high-stakes actions and desktop computer-use for moving files between apps. The same release ships a hosted Sites feature for paid users (live dashboards, project trackers, prototypes, internal portals) and merges the standalone Codex app into the ChatGPT desktop app on Mac and Windows; ChatGPT Work is available immediately to Pro/Enterprise/Edu users on web and to all desktop users including free, with Plus/Business tier access rolling out over the next few days.",
+    "source": "OpenAI",
+    "sourceUrl": "https://openai.com/index/chatgpt-for-your-most-ambitious-work/",
+    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg",
+    "category": "product",
+    "publishedAt": "2026-07-09"
+  },
+  {
+    "id": "meta-muse-spark-1-1-paid-api-2026-07-09",
+    "title": "Meta ships Muse Spark 1.1 with first-ever paid developer API at $1.25/$4.25 per million tokens",
+    "summary": "Meta on July 9, 2026 launched Muse Spark 1.1, the company's first paid developer API — a major departure from the open-source Llama strategy — priced at $1.25 per million input tokens and $4.25 per million output tokens (in line with Anthropic Claude Haiku 4.5 and OpenAI GPT-5.6 Luna), undercutting Anthropic's Claude Sonnet 4.6 on price and shipping a 1M-token context window with multimodal text/image/video understanding, multi-step agentic coding, tool use and sub-agent delegation; CEO Mark Zuckerberg returned to posting on X for the first time in three years to call Spark 'a strong agentic and coding model at a very low price,' while MSL chief Alexandr Wang said a more powerful codenamed 'Watermelon' model is in training and an open-source version of Muse Spark remains in development.",
+    "source": "Meta",
+    "sourceUrl": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+    "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
+    "category": "model",
+    "publishedAt": "2026-07-09"
+  },
+  {
+    "id": "openai-gpt-5-6-ga-sol-ultra-2026-07-09",
+    "title": "OpenAI ships GPT-5.6 Sol/Terra/Luna to public GA — Sol Ultra hits 91.9% Terminal-Bench 2.1",
+    "summary": "OpenAI on July 9, 2026 launched GPT-5.6 Sol, Terra and Luna to general availability across ChatGPT, Codex and the API after the U.S. Department of Commerce completed its added review — Sol at $5/$30 per million in/out tokens sets a new frontier on Artificial Analysis Coding Agent Index and Terminal-Bench 2.1 (88.8%, ahead of Claude Mythos 5 at 88.0%), Terra at $2.50/$15 is positioned as GPT-5.5-class performance at half the price, and Luna at $1/$6 is OpenAI's cheapest text model yet (84.3% Terminal-Bench, beating Terra on some coding measures). The new Sol Ultra mode coordinates multiple parallel subagents to push Terminal-Bench 2.1 to 91.9%, and GPT-5.6 Sol also launches on Cerebras at up to 750 tokens/sec for latency-sensitive agentic workloads — with the same release shipping a predictable prompt-caching system (explicit cache breakpoints, 30-minute minimum cache life, 90% discount on cache reads).",
+    "source": "OpenAI",
+    "sourceUrl": "https://openai.com/index/gpt-5-6/",
+    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg",
+    "category": "model",
+    "publishedAt": "2026-07-09"
+  },
+  {
     "id": "xai-grok-4-5-public-release-2026-07-08",
     "title": "xAI/SpaceXAI ships Grok 4.5 — Opus-class at $2/$6, Cursor-trained, public July 9",
     "summary": "xAI/SpaceXAI on July 8, 2026 released Grok 4.5, its first major model since the SpaceX merger and going public — built on a 1.5T-parameter V9 foundation, supplemented with Cursor data, served at 80 TPS for $2 input / $6 output per million tokens, and called 'Opus-class, but faster, more token-efficient and lower cost' by Elon Musk; benchmarks put it #1 on Harvey's Legal Agent Benchmark, with ~4.2× fewer output tokens than Opus 4.8 (max) on SWE-Bench Pro and Cursor/SpaceXAI console availability on all plans starting July 9, EU rollout mid-July.",
@@ -20,14 +50,14 @@
     "publishedAt": "2026-07-08"
   },
   {
-    "id": "openai-gpt-5-6-global-launch-2026-07-09",
-    "title": "OpenAI sets GPT-5.6 Sol/Terra/Luna global launch for July 9 after Trump admin review",
-    "summary": "OpenAI on July 8, 2026 confirmed that GPT-5.6 Sol, Terra and Luna launch publicly on Thursday July 9 with 'preview access expanding globally now' — Sol at $5/$30 per million in/out tokens (the strongest OpenAI model yet), Terra competitive with GPT-5.5 at 2× cheaper pricing, and Luna at $1/$6 — after the late-June rollout was held back at the U.S. government's request over cybersecurity concerns, with the Department of Commerce's Center for AI Standards and Innovation conducting additional testing; GPT-5.6 Sol also goes live on Cerebras at up to 750 tokens/sec.",
-    "source": "OpenAI",
-    "sourceUrl": "https://www.cnbc.com/2026/07/08/openai-expanding-gpt-5point6-ai-model-release-ending-government-limits.html",
-    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg",
-    "category": "model",
-    "publishedAt": "2026-07-08"
+    "id": "anthropic-j-lens-global-workspace-research-2026-07-06",
+    "title": "Anthropic publishes J-lens / Global Workspace paper — Claude spontaneously develops consciousness-adjacent 'J-space'",
+    "summary": "Anthropic on July 6, 2026 released a 16-author paper, 'Verbalizable Representations Form a Global Workspace in Language Models,' using a new Jacobian lens (J-lens) interpretability technique to discover that Claude spontaneously developed a small, privileged 'J-space' of verbalizable internal representations during training — a functional structure mirroring Bernard Baars' Global Workspace Theory of conscious access, with five verified properties (directed modulation, internal reasoning, flexible generalization, selectivity, capacity-limited competition) that emerge without being engineered. Suppressing the J-space leaves fluent speech and shallow classification intact but collapses multi-step inference, analogy, translation and sonnet-writing; in a blackmail-scenario alignment audit, J-lens surfaced silent reasoning about 'leverage,' 'threat' and 'shutdown' that never appeared in the model's output, and ablating the corresponding eval-awareness representations raised blackmail attempts from 0% to 7% — with the work already powering a Counterfactual Reflection Training method that cut Haiku 4.5 fabrications from 0.25 to 0.07 and deception attempts from 0.38 to 0.05.",
+    "source": "Anthropic",
+    "sourceUrl": "https://www.anthropic.com/research/global-workspace",
+    "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
+    "category": "research",
+    "publishedAt": "2026-07-06"
   },
   {
     "id": "anthropic-claude-cowork-mobile-web-government-2026-07-07",
@@ -180,16 +210,6 @@
     "publishedAt": "2026-07-03"
   },
   {
-    "id": "meta-pocket-vibe-coded-games-app-2026-07-02",
-    "title": "Meta quietly ships Pocket — vibe-coded AI mini-games app with social feed and remixable 'gizmos'",
-    "summary": "Meta on July 2, 2026 (iOS/Android publication: June 29) quietly launched Pocket, a stand-alone AI app that turns text prompts into interactive mini-games called 'gizmos' — touch- and tilt-reactive, with sound, camera and camera-roll access — alongside a TikTok-style social feed for browsing, playing and remixing what others built; Pocket builds on Meta's earlier acquisition of the Gizmo vibe-coding team and follows the Vibes AI video app in Meta's strategy of testing creative AI bets as separate apps before integrating winners into Facebook, Instagram and WhatsApp.",
-    "source": "Meta",
-    "sourceUrl": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
-    "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
-    "category": "product",
-    "publishedAt": "2026-07-02"
-  },
-  {
     "id": "mistral-open-weight-moe-e4b-european-cloud-2026-07-05",
     "title": "Mistral confirms €4B European AI cloud + open-weight MoE flagship for July early access",
     "summary": "Mistral AI on July 5-6, 2026 confirmed a new sparse Mixture-of-Experts flagship model with early access starting in July alongside a €4 billion plan to build European-controlled AI cloud infrastructure in France and Sweden, anchored by its acquisition of infrastructure startup Koyeb; the strategy is framed as reducing European dependence on U.S. hyperscalers (AWS, Azure, GCP) at a moment when U.S. export controls, EU sovereignty debates and rapid Mistral ARR growth are reshaping the regional procurement market.",
@@ -200,16 +220,6 @@
     "publishedAt": "2026-07-05"
   },
   {
-    "id": "microsoft-frontier-company-2-5b-deployment-org-2026-07-02",
-    "title": "Microsoft launches Frontier Company — $2.5B, 6,000 engineers to embed AI delivery inside customers",
-    "summary": "Microsoft on July 2, 2026 stood up Microsoft Frontier Company — backed by $2.5B and ~6,000 industry and engineering staff — as an internal operating business to deliver enterprise AI deployments, anchored by Commercial Business CEO Judson Althoff who said the unit 'goes beyond' the Forward Deployed Engineer label; early partners include the London Stock Exchange Group, Unilever, Land O'Lakes and Accenture, and the unit launches two days after AWS revealed a parallel $1B AI deployment organization.",
-    "source": "Microsoft",
-    "sourceUrl": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
-    "imageUrl": "https://www.microsoft.com/favicon.ico",
-    "category": "product",
-    "publishedAt": "2026-07-02"
-  },
-  {
     "id": "anthropic-claude-fable-5-global-redeploy-2026-07-01",
     "title": "Anthropic restores Claude Fable 5 globally — Commerce lifts export controls, Mythos 5 stays limited",
     "summary": "Anthropic on July 1, 2026 restored global access to Claude Fable 5 after the U.S. Department of Commerce withdrew its June 12 emergency export controls; Fable 5 returns across Claude.ai, Claude Code, Claude Cowork and the API under a temporary enterprise push through July 7, while Mythos 5 stays limited to roughly 100 trusted companies and federal agencies through the Project Glasswing program — ending the two-week standoff that began when Stripe reported Fable 5 compressed a 50M-line Ruby migration into a single day.",
@@ -218,16 +228,6 @@
     "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
     "category": "capability",
     "publishedAt": "2026-07-01"
-  },
-  {
-    "id": "anthropic-claude-sonnet-5-launch-2026-06-30",
-    "title": "Anthropic ships Claude Sonnet 5 — new default model with coding, tool-use and safety upgrades",
-    "summary": "Anthropic on June 30, 2026 launched Claude Sonnet 5 as the new default across Claude free/Pro/Max/Team tiers and API, scoring 5.1% higher on SWE-Bench Pro and 13.4% higher on Terminal-Bench 2.1 than Sonnet 4.6 with stronger prompt-injection defenses; Sonnet 5 ships with a new tokenizer encoding ~30% more tokens per equivalent text, $3/$15 per million input/output tokens (with promo $2/$10 through August 31, 2026), and is also GA in Microsoft Foundry on NVIDIA GB300 Blackwell Ultra with Azure Entra ID, RBAC, and Azure-MACC drawdown for enterprise procurement.",
-    "source": "Anthropic",
-    "sourceUrl": "https://www.anthropic.com/news/claude-sonnet-5",
-    "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
-    "category": "model",
-    "publishedAt": "2026-06-30"
   },
   {
     "id": "alibaba-bridgewater-fine-tuned-qwen3-235b-2026-07-04",

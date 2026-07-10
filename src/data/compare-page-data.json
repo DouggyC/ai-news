@@ -548,7 +548,6 @@
   },
   {
     "id": "muse-spark",
-    "id": "muse-spark",
     "name": "Muse Spark",
     "provider": "Meta",
     "openSource": false,
@@ -1828,5 +1827,29 @@
     "functionCalling": true,
     "json": true,
     "search": true
+  },
+  {
+    "id": "jt-4.1-flash-236b-a21b",
+    "name": "JT-4.1 Flash 236B A21B",
+    "provider": "China Mobile",
+    "openSource": false,
+    "license": "Proprietary",
+    "releaseDate": "2026-07-09",
+    "parameters": 236000000000,
+    "modelSizeGB": 0,
+    "contextLength": 262144,
+    "inputPrice": 0,
+    "outputPrice": 0,
+    "free": true,
+    "mmlu": 82.0,
+    "mmluPlus": 80.0,
+    "humaneval": 85.0,
+    "liveBench": 62.0,
+    "gpqa": 84.5,
+    "multimodal": false,
+    "vision": false,
+    "functionCalling": true,
+    "json": true,
+    "search": false
   }
 ]
