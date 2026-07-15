@@ -1,5 +1,15 @@
 [
   {
+    "id": "openai-sol-autonomously-post-trained-luna-2026-07-10",
+    "title": "OpenAI: GPT-5.6 Sol autonomously post-trained the smaller Luna model",
+    "summary": "OpenAI on July 10, 2026 disclosed that its GPT-5.6 Sol flagship autonomously post-trained the smaller Luna model after a 'fairly under-specified prompt' on Codex — Sol identified training configurations, selected GPUs, launched the training script and verified the run, work OpenAI engineer Jason Liu said would otherwise have taken 'two staff researchers maybe an extra two weeks'; on a new internal Recursive Self-Improvement (RSI) benchmark Sol scores 16.2 points higher than GPT-5.5, with internal usage showing per-researcher daily token output more than doubled and pull-requests-per-researcher climbing as teams adopt Sol across debugging, training-system optimization and running experiments.",
+    "source": "OpenAI",
+    "sourceUrl": "https://the-decoder.com/openais-gpt-5-6-sol-autonomously-post-trained-the-smaller-luna-model-with-a-fairly-underspecified-prompt/",
+    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg",
+    "category": "capability",
+    "publishedAt": "2026-07-10"
+  },
+  {
     "id": "openai-chatgpt-work-agent-launch-2026-07-09",
     "title": "OpenAI launches ChatGPT Work agent + new Codex/Sites beta — GPT-5.6 Sol-powered desktop super-app",
     "summary": "OpenAI on July 9, 2026 launched ChatGPT Work, a GPT-5.6 Sol-powered agent that combines ChatGPT and Codex into a single desktop super-app — running multi-hour scheduled tasks across web, mobile and desktop with a unified plugin directory for Slack, Teams, Google Drive, SharePoint, email, calendars and CRMs, plus human-in-the-loop approval for high-stakes actions and desktop computer-use for moving files between apps. The same release ships a hosted Sites feature for paid users (live dashboards, project trackers, prototypes, internal portals) and merges the standalone Codex app into the ChatGPT desktop app on Mac and Windows; ChatGPT Work is available immediately to Pro/Enterprise/Edu users on web and to all desktop users including free, with Plus/Business tier access rolling out over the next few days.",
@@ -48,6 +58,26 @@
     "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg",
     "category": "model",
     "publishedAt": "2026-07-08"
+  },
+  {
+    "id": "nvidia-nemotron-labs-diffusion-tri-mode-2026-07-09",
+    "title": "NVIDIA ships Nemotron-Labs-Diffusion — single tri-mode LLM with AR + diffusion + self-speculation",
+    "summary": "NVIDIA on July 9, 2026 released Nemotron-Labs-Diffusion, a tri-mode open-weight LLM family (3B/8B/14B, base/instruct/VLM) that unifies autoregressive, diffusion-parallel and self-speculation decoding in one checkpoint by switching only the attention pattern; the 8B instruct variant decodes ~6× more tokens per forward pass than Qwen3-8B and hits 4× higher throughput on SPEED-Bench with SGLang on a GB200 GPU, with self-speculation averaging 6.82 accepted tokens per draft step (vs Eagle3's 2.75). Weights are on Hugging Face under the NVIDIA Nemotron Open Model License with vLLM and SGLang support — eliminating the separate draft model that has blocked widespread speculative-decoding deployment and turning expensive inference into something deployable at consumer scale.",
+    "source": "NVIDIA",
+    "sourceUrl": "https://huggingface.co/collections/nvidia/nemotron-labs-diffusion",
+    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
+    "category": "research",
+    "publishedAt": "2026-07-09"
+  },
+  {
+    "id": "google-sensorfm-wearable-foundation-model-2026-07-09",
+    "title": "Google Research unveils SensorFM — wearable health foundation model pretrained on 1 trillion minutes of data",
+    "summary": "Google Research on July 9, 2026 introduced SensorFM, a foundation model for wearable health pretrained on over 1 trillion minutes of unlabeled sensor signals from 5 million consented Fitbit/Pixel Watch participants across 100+ countries, fusing heart rate, skin temperature, sleep, blood-oxygen and movement data; evaluated across 35 clinical and behavioral discriminative tasks (cardiovascular, metabolic, sleep, mental health and lifestyle), the model demonstrates systematic improvements with joint scaling of capacity and pretraining volume and enables a Personal Health Agent built on a 'classroom' of LLM agents that autonomously searches the predictive-head space, validated against 1,860 clinician ratings.",
+    "source": "Google",
+    "sourceUrl": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/",
+    "imageUrl": "https://deepmind.google/favicon.ico",
+    "category": "research",
+    "publishedAt": "2026-07-09"
   },
   {
     "id": "anthropic-j-lens-global-workspace-research-2026-07-06",
@@ -190,26 +220,6 @@
     "publishedAt": "2026-07-06"
   },
   {
-    "id": "bytedance-seedance-2-5-public-launch-2026-07-03",
-    "title": "ByteDance rolls out Seedance 2.5 — first AI video model to generate 30-sec clips in a single pass",
-    "summary": "ByteDance on July 3, 2026 opened the public launch window for Seedance 2.5, claiming a video-generation milestone no competitor has hit — a continuous 30-second clip produced in one pass without stitching — using a sparse Diffusion Transformer with unified audio-video latent processing and up to 50 multimodal reference inputs (images, audio, 3D mockups); Dreamina gets international access first, Jimeng in China, CapCut integration in mid-July, and Volcano Engine API access in late July, while ByteDance upgrades Seedance 2.0 to native 4K alongside Seedream 5.0 Pro and Seed-Audio 1.0.",
-    "source": "ByteDance",
-    "sourceUrl": "https://www.ibtimes.com/bytedance-rolls-out-seedance-25-claims-30-second-seamless-ai-video-generation-copyright-3804901",
-    "imageUrl": "https://cdn.technobezz.com/c/Technobezz_2026_02_14_T092431_822_304d822711.png",
-    "category": "product",
-    "publishedAt": "2026-07-03"
-  },
-  {
-    "id": "meta-muse-spark-watermelon-coming-2026-07-03",
-    "title": "Meta AI chief says Muse Spark update 'Watermelon' is coming soon — caught up to GPT-5.5, Claude Opus-class coding to follow",
-    "summary": "Meta Chief AI Officer Alexandr Wang on July 3, 2026 said on X that the next Muse Spark update — codenamed 'Watermelon' and trained on an order-of-magnitude more compute than Avocado — has caught up to OpenAI's flagship GPT-5.5 on several benchmarks and will roll out 'soon' via Meta AI and a new API with major improvements in coding and agentic capabilities; Wang separately said a model on par with Anthropic Claude Opus for coding is 'pretty soon' to follow, with Bloomberg reporting Meta is weighing an AI infrastructure service selling raw compute and hosted models.",
-    "source": "Meta",
-    "sourceUrl": "https://siliconangle.com/2026/07/03/meta-release-new-ai-model-advanced-coding-capabilities-soon/",
-    "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
-    "category": "model",
-    "publishedAt": "2026-07-03"
-  },
-  {
     "id": "mistral-open-weight-moe-e4b-european-cloud-2026-07-05",
     "title": "Mistral confirms €4B European AI cloud + open-weight MoE flagship for July early access",
     "summary": "Mistral AI on July 5-6, 2026 confirmed a new sparse Mixture-of-Experts flagship model with early access starting in July alongside a €4 billion plan to build European-controlled AI cloud infrastructure in France and Sweden, anchored by its acquisition of infrastructure startup Koyeb; the strategy is framed as reducing European dependence on U.S. hyperscalers (AWS, Azure, GCP) at a moment when U.S. export controls, EU sovereignty debates and rapid Mistral ARR growth are reshaping the regional procurement market.",
@@ -220,23 +230,13 @@
     "publishedAt": "2026-07-05"
   },
   {
-    "id": "anthropic-claude-fable-5-global-redeploy-2026-07-01",
-    "title": "Anthropic restores Claude Fable 5 globally — Commerce lifts export controls, Mythos 5 stays limited",
-    "summary": "Anthropic on July 1, 2026 restored global access to Claude Fable 5 after the U.S. Department of Commerce withdrew its June 12 emergency export controls; Fable 5 returns across Claude.ai, Claude Code, Claude Cowork and the API under a temporary enterprise push through July 7, while Mythos 5 stays limited to roughly 100 trusted companies and federal agencies through the Project Glasswing program — ending the two-week standoff that began when Stripe reported Fable 5 compressed a 50M-line Ruby migration into a single day.",
-    "source": "Anthropic",
-    "sourceUrl": "https://www.anthropic.com/news/redeploying-fable-5",
-    "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
-    "category": "capability",
-    "publishedAt": "2026-07-01"
-  },
-  {
-    "id": "alibaba-bridgewater-fine-tuned-qwen3-235b-2026-07-04",
-    "title": "Bridgewater + Thinking Machines Lab fine-tune Qwen3-235B — 84.7% accuracy on finance tasks vs GPT/Claude/Gemini",
-    "summary": "Bridgewater AIA Labs and Thinking Machines Lab on July 4, 2026 published results of a fine-tuned Qwen3-235B open-weight model that scored 84.7% accuracy on an internal six-task finance evaluation versus 78.2% for the strongest frontier model tested, with a 13.8× per-1,000-tasks inference-cost reduction; expert-written prompts and fine-tuning on private workflow judgments pushed frontier closed models into the mid-70s, while GPT 5.4 cost 43% more than GPT 5.2 for only marginal finance accuracy gains — reinforcing that domain-tuning plus deployable open-weight models can beat raw scale for vertical workflows.",
-    "source": "Alibaba",
-    "sourceUrl": "https://winbuzzer.com/2026/07/04/bridgewater-test-says-gpt-claude-lag-tuned-qwen-model-xcxwbn/",
-    "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
-    "category": "research",
-    "publishedAt": "2026-07-04"
+    "id": "bytedance-seedance-2-5-public-launch-2026-07-03",
+    "title": "ByteDance rolls out Seedance 2.5 — first AI video model to generate 30-sec clips in a single pass",
+    "summary": "ByteDance on July 3, 2026 opened the public launch window for Seedance 2.5, claiming a video-generation milestone no competitor has hit — a continuous 30-second clip produced in one pass without stitching — using a sparse Diffusion Transformer with unified audio-video latent processing and up to 50 multimodal reference inputs (images, audio, 3D mockups); Dreamina gets international access first, Jimeng in China, CapCut integration in mid-July, and Volcano Engine API access in late July, while ByteDance upgrades Seedance 2.0 to native 4K alongside Seedream 5.0 Pro and Seed-Audio 1.0.",
+    "source": "ByteDance",
+    "sourceUrl": "https://www.ibtimes.com/bytedance-rolls-out-seedance-25-claims-30-second-seamless-ai-video-generation-copyright-3804901",
+    "imageUrl": "https://cdn.technobezz.com/c/Technobezz_2026_02_14_T092431_822_304d822711.png",
+    "category": "product",
+    "publishedAt": "2026-07-03"
   }
 ]

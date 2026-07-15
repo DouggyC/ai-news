@@ -55,7 +55,7 @@ const providerColors: Record<string, string> = {
   'Nex AGI': '#0d9488',
   DeepReinforce: '#a855f7',
   Meituan: '#facc15',
-
+  LongCat: '#ea580c',
   'China Mobile': '#dc2626',
 };
 
@@ -170,7 +170,7 @@ export default function ComparePage() {
             paddingRight: '24px',
           }}
         >
-          Last updated: July 9, 2026
+          Last updated: July 10, 2026
         </div>
         <div
           style={{

@@ -1211,13 +1211,8 @@
     "contextLength": 262144,
     "openSource": true,
     "license": "Tencent Hunyuan Community License",
-    "mmlu": 85,
-    "humaneval": 88,
-    "multimodal": true,
-    "vision": true,
-    "functionCalling": true,
-    "json": true,
-    "search": false
+    "mmlu": 88.5,
+    "humaneval": 89.0
   },
   "ring-2.6-1t": {
     "provider": "InclusionAI",
@@ -1653,5 +1648,85 @@
     "functionCalling": true,
     "json": true,
     "search": false
+  },
+  "muse-spark-1-1": {
+    "provider": "Meta",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 90.5,
+    "humaneval": 92.5
+  },
+  "exaone-4-5-33b": {
+    "provider": "LG AI Research",
+    "parameters": 33000000000,
+    "modelSizeGB": 0,
+    "contextLength": 128000,
+    "openSource": true,
+    "license": "EXAONE AI Model License",
+    "mmlu": 86.5,
+    "humaneval": 84.0
+  },
+  "k-exaone": {
+    "provider": "LG AI Research",
+    "parameters": 23000000000,
+    "modelSizeGB": 0,
+    "contextLength": 128000,
+    "openSource": true,
+    "license": "EXAONE AI Model License",
+    "mmlu": 87.5,
+    "humaneval": 79.0
+  },
+  "ernie-5-0-thinking": {
+    "provider": "Baidu",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 128000,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 88.0,
+    "humaneval": 80.0
+  },
+  "mercury-2": {
+    "provider": "Inception",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 128000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": null,
+    "humaneval": null
+  },
+  "trinity-large-thinking": {
+    "provider": "Arcee AI",
+    "parameters": 40000000000,
+    "modelSizeGB": 0,
+    "contextLength": 131072,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": null,
+    "humaneval": null
+  },
+  "longcat-2-0": {
+    "provider": "LongCat",
+    "parameters": 560000000000,
+    "modelSizeGB": 0,
+    "contextLength": 128000,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 81.0,
+    "humaneval": 75.0
+  },
+  "glm-5v-turbo": {
+    "provider": "Zhipu AI",
+    "parameters": 744000000000,
+    "modelSizeGB": 0,
+    "contextLength": 203000,
+    "openSource": true,
+    "license": "MIT",
+    "mmlu": 86.0,
+    "humaneval": 80.0
   }
 }

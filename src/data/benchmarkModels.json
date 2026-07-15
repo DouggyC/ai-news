@@ -878,5 +878,104 @@
     "livebench": 63.0,
     "mmluPlus": null,
     "gpqa": 84.5
+  },
+  {
+    "id": "muse-spark-1-1",
+    "name": "Muse Spark1.1",
+    "provider": "Meta",
+    "openSource": false,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": 73.5,
+    "mmluPlus": null,
+    "gpqa": 89.8
+  },
+  {
+    "id": "hy3",
+    "name": "HY3",
+    "provider": "Tencent",
+    "openSource": true,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": 89.7
+  },
+  {
+    "id": "exaone-4-5-33b",
+    "name": "EXAONE4.5 33B",
+    "provider": "LG AI Research",
+    "openSource": true,
+    "mmlu": 86.5,
+    "humaneval": 84.0,
+    "livebench": 58.0,
+    "mmluPlus": null,
+    "gpqa": 79.4
+  },
+  {
+    "id": "k-exaone",
+    "name": "K-EXAONE",
+    "provider": "LG AI Research",
+    "openSource": true,
+    "mmlu": 87.5,
+    "humaneval": 79.0,
+    "livebench": 55.0,
+    "mmluPlus": null,
+    "gpqa": 78.3
+  },
+  {
+    "id": "ernie-5-0-thinking",
+    "name": "ERNIE5.0 Thinking",
+    "provider": "Baidu",
+    "openSource": true,
+    "mmlu": 88.0,
+    "humaneval": 80.0,
+    "livebench": 60.0,
+    "mmluPlus": 83.0,
+    "gpqa": 77.7
+  },
+  {
+    "id": "mercury-2",
+    "name": "Mercury2",
+    "provider": "Inception",
+    "openSource": false,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": 77.0
+  },
+  {
+    "id": "trinity-large-thinking",
+    "name": "Trinity Large Thinking",
+    "provider": "Arcee AI",
+    "openSource": true,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": 75.2
+  },
+  {
+    "id": "longcat-2-0",
+    "name": "LongCat2.0",
+    "provider": "LongCat",
+    "openSource": true,
+    "mmlu": 81.0,
+    "humaneval": 75.0,
+    "livebench": 55.0,
+    "mmluPlus": null,
+    "gpqa": 78.0
+  },
+  {
+    "id": "glm-5v-turbo",
+    "name": "GLM-5V Turbo",
+    "provider": "Zhipu AI",
+    "openSource": true,
+    "mmlu": 86.0,
+    "humaneval": 80.0,
+    "livebench": 60.0,
+    "mmluPlus": null,
+    "gpqa": 80.9
   }
 ]
