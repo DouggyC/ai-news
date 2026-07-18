@@ -70,16 +70,6 @@
     "publishedAt": "2026-07-10"
   },
   {
-    "id": "anthropic-claude-cowork-mobile-web-government-2026-07-07",
-    "title": "Anthropic ships Claude Cowork to mobile + web and launches Claude for Government",
-    "summary": "Anthropic on July 7, 2026 expanded Claude Cowork to iOS, Android and web (cloud-first, beta for Max at $100/mo with Pro/free to follow) so sessions sync across devices and run in the background with no device online, while notification pings to phones surface decisions — usage data from 1.2M anonymized sessions shows business process/content creation at 50% of Cowork use with software dev just 8.7%; same day Anthropic shipped Claude Code + Claude Cowork on Claude for Government Desktop (FedRAMP High, hash-chained audit logs, two-person approval) and extended doubled Cowork usage limits through August 5.",
-    "source": "Anthropic",
-    "sourceUrl": "https://claude.com/blog/cowork-web-mobile",
-    "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
-    "category": "product",
-    "publishedAt": "2026-07-07"
-  },
-  {
     "id": "anthropic-fable-5-credit-access-2026-07-07",
     "title": "Anthropic restricts Fable 5 to credit-based access — extends deadline to July 12 after backlash",
     "summary": "Anthropic on July 7, 2026 announced that starting midnight July 8, Claude Fable 5 would require credit-based pay-per-use or an API/VPS deployment ($10/$50 per million in/out tokens) instead of regular Claude subscriptions — Anthropic engineer Thariq Shihipar later said on X that Fable 5 will return to standard plans 'when capacity allows'; following online backlash Anthropic extended Fable 5 access to existing Claude subscribers until July 12, narrowing what was initially framed as a one-week window.",
@@ -90,10 +80,10 @@
     "publishedAt": "2026-07-07"
   },
   {
-    "id": "xai-grok-4-5-public-release-2026-07-08",
+    "id": "spacexai-grok-4-5-public-release-2026-07-08",
     "title": "xAI/SpaceXAI ships Grok 4.5 — Opus-class at $2/$6, Cursor-trained, public July 9",
     "summary": "xAI/SpaceXAI on July 8, 2026 released Grok 4.5, its first major model since the SpaceX merger and going public — built on a 1.5T-parameter V9 foundation, supplemented with Cursor data, served at 80 TPS for $2 input / $6 output per million tokens, and called 'Opus-class, but faster, more token-efficient and lower cost' by Elon Musk; benchmarks put it #1 on Harvey's Legal Agent Benchmark, with ~4.2× fewer output tokens than Opus 4.8 (max) on SWE-Bench Pro and Cursor/SpaceXAI console availability on all plans starting July 9, EU rollout mid-July.",
-    "source": "xAI",
+    "source": "SpaceXAI",
     "sourceUrl": "https://x.ai/news/grok-4-5",
     "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
     "category": "model",
@@ -228,5 +218,16 @@
     "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
     "category": "model",
     "publishedAt": "2026-07-08"
+  },
+  {
+    "id": "moonshot-kimi-k3-2-8t-open-weight-flagship-2026-07-16",
+    "title": "Moonshot releases Kimi K3 — 2.8T open-weight flagship",
+    "source": "Moonshot",
+    "category": "model",
+    "imageUrl": "https://kimi.com/favicon.ico",
+    "sourceUrl": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
+    "text": "Moonshot AI released Kimi K3 on July 16, 2026 — a 2.8-trillion-parameter mixture-of-experts model with 1M-token context, native multimodal input (text/image/video), and always-on reasoning at max effort. Scored 93.5% on GPQA Diamond (best open-weight result) and 57 on the AA Intelligence Index (4th globally, on par with Claude Opus 4.8 and GPT-5.5). Pricing $3/$15 per million tokens (cache-hit input $0.30). Full open weights drop July 27, 2026. Beats Claude Fable 5 on Terminal-Bench 2.1.",
+    "publishedAt": "2026-07-16",
+    "summary": "Moonshot AI released Kimi K3 on July 16, 2026 — a 2.8-trillion-parameter mixture-of-experts model with 1M-token context, native multimodal input (text/image/video), and always-on reasoning at max effort. Scored 93.5% on GPQA Diamond (best open-weight result) and 57 on the AA Inte..."
   }
 ]

@@ -23,7 +23,7 @@ const top15Companies = [
   'Alibaba',
   'OpenAI',
   'Anthropic',
-  'xAI',
+  'SpaceXAI',
   'DeepSeek',
   'Mistral',
   'Minimax',
@@ -77,7 +77,7 @@ function getCompanyColor(company: string): string {
     Alibaba: 'background: rgba(234, 179, 8, 0.2); color: #fbbf24;',
     OpenAI: 'background: rgba(34, 197, 94, 0.2); color: #4ade80;',
     Anthropic: 'background: rgba(249, 115, 22, 0.2); color: #fb923c;',
-    xAI: 'background: rgba(255, 255, 255, 0.1); color: rgba(255, 255, 255, 0.7);',
+    SpaceXAI: 'background: rgba(229, 231, 235, 0.12); color: #e5e7eb; border: 1px solid rgba(229, 231, 235, 0.3);',
     DeepSeek: 'background: rgba(239, 68, 68, 0.2); color: #f87171;',
     Mistral: 'background: rgba(6, 182, 212, 0.2); color: #22d3ee;',
     Minimax: 'background: rgba(99, 102, 241, 0.2); color: #818cf8;',
@@ -96,7 +96,7 @@ export default function AINewsPage() {
     'Anthropic',
     'Google',
     'Meta',
-    'xAI',
+    'SpaceXAI',
     'NVIDIA',
     'DeepSeek',
     'Minimax',
@@ -131,7 +131,7 @@ export default function AINewsPage() {
             AI News
           </h1>
           <p style={{ color: 'rgba(255, 255, 255, 0.6)', fontSize: '1rem' }}>
-            Last updated: July 11, 2026
+            Last updated: July 18, 2026
           </p>
         </div>
 

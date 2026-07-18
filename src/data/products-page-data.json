@@ -21,11 +21,6 @@
         "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
         "description": "Anthropic's first Mythos-class generally available model (June 9, 2026) at $10/$50 per 1M tokens. SOTA on SWE-Bench Pro 80.3%, FrontierCode 29.3%, OSWorld 83.4%, Humanity's Last Exam 49.8% (57.9% w/ tools). 1M context, 128K output, adaptive thinking, vision. Falls back to Opus 4.8 for cyber/biology/chemistry/distillation. Claude Mythos 5 available to Project Glasswing (expanded June 2, 2026 from ~50 to ~150 organizations across 15+ countries including power/water/healthcare/communications and Okta, Samsung, SK Hynix, SK Telecom, NATO, ENISA). SUSPENDED June 12, 2026 by US government export control directive (Commerce Department) over alleged narrow jailbreak — disabled for all customers worldwide (including foreign national Anthropic employees) pending review; Trump administration (June 15) cited Anthropic's 'recklessness' in responding to initial concerns. Free for Pro/Max/Team/Enterprise through June 22, 2026; from June 23 requires usage credits. Claude Opus 4.8 (May 28, 2026) at $5/$25 remains the default Claude surface. Legacy claude-opus-4 and claude-sonnet-4 retired June 15, 2026. Claude Security uses Opus 4.8 (released alongside) to scan codebases and suggest patches. Claude Code v2.1.190 released June 24, 2026 contains strings foreshadowing Fable 5's return to subscriptions with weekly usage limits (superseding the pay-as-you-go credits introduced June 23); Mythos 5 cleared June 26, 2026 for ~100 pre-approved US cyber-defender organizations following two-week negotiation with Commerce Secretary Lutnick; Fable 5 still pending Pentagon/NSA sign-off."
       },
-      "xAI": {
-        "name": "Grok 4.3",
-        "url": "https://docs.x.ai/overview",
-        "description": "xAI frontier model (April 17, 2026, API May 6) with 1M context, $1.25/$2.50 per 1M tokens. grok-4.20 extends to 2M context. Custom Voices TTS ($4.20/1M chars), Voice Agent API ($3/hr). grok-imagine-image-quality for image generation. Grok 5 in training on Colossus 2 (1.5GW); Polymarket now prices June 30 release at ~3-7% (down from 30s in spring). Grok V9-Medium (1.5T params, Cursor-trained coding model, built on Colossus 2) finished training May 25 with public release expected mid-June 2026 — positioned as the coding sibling of the eventual Grok 5 frontier model. June 17, 2026: Grok 4.3 GA on Amazon Bedrock via the new Mantle inference engine — #1 on Artificial Analysis Omniscience (lowest hallucination among frontier models), #1 on Tau2 Telecom (real-world tool-calling in customer-support agents), #1 on Vals AI Case Law and Corporate Finance benchmarks; configurable reasoning effort (none/low/medium/high), 1M context, OpenAI-compatible Responses API on Bedrock. Grok 4.20 (2M context) also available on Bedrock. Grok 4.5 (SpaceXAI's Opus-class model launched July 8, 2026, $2/$6 per 1M tokens — 'Opus-class model, but faster, more token-efficient and lower cost' per Elon Musk; first release since SpaceXAI public listing; trained in Memphis data centers with new datasets spanning science/engineering/math; Responses API and Chat Completions; reasoning effort Low/Medium/High; tools include function calling, web/X search, code execution) is SpaceXAI's current default and replaces prior Grok 4.3 as the workhorse for coding/app-building/office/research/writing at competitive pricing; Grok 4.3 and grok-4.20 (2M context) remain on Bedrock via the Mantle inference engine."
-      },
       "ByteDance": {
         "name": "Doubao 2.0",
         "url": "https://www.doubao.com",
@@ -50,6 +45,11 @@
         "name": "ERNIE 5.1",
         "url": "https://ernie.baidu.com/blog/posts/ernie-5.1-0508-release/",
         "description": "Baidu's flagship model (May 8, 2026) trained at 6% of comparable pre-training cost. 1,223 score on LMArena Search Arena (#4 global, #1 Chinese). Topped domestic search rankings; strong τ³-bench and SpreadsheetBench-Verified. Powers ernie.baidu.com chat and Qianfan model platform."
+      },
+      "SpaceXAI": {
+        "name": "Grok 4.3",
+        "url": "https://docs.x.ai/overview",
+        "description": "xAI frontier model (April 17, 2026, API May 6) with 1M context, $1.25/$2.50 per 1M tokens. grok-4.20 extends to 2M context. Custom Voices TTS ($4.20/1M chars), Voice Agent API ($3/hr). grok-imagine-image-quality for image generation. Grok 5 in training on Colossus 2 (1.5GW); Polymarket now prices June 30 release at ~3-7% (down from 30s in spring). Grok V9-Medium (1.5T params, Cursor-trained coding model, built on Colossus 2) finished training May 25 with public release expected mid-June 2026 — positioned as the coding sibling of the eventual Grok 5 frontier model. June 17, 2026: Grok 4.3 GA on Amazon Bedrock via the new Mantle inference engine — #1 on Artificial Analysis Omniscience (lowest hallucination among frontier models), #1 on Tau2 Telecom (real-world tool-calling in customer-support agents), #1 on Vals AI Case Law and Corporate Finance benchmarks; configurable reasoning effort (none/low/medium/high), 1M context, OpenAI-compatible Responses API on Bedrock. Grok 4.20 (2M context) also available on Bedrock. Grok 4.5 (SpaceXAI's Opus-class model launched July 8, 2026, $2/$6 per 1M tokens — 'Opus-class model, but faster, more token-efficient and lower cost' per Elon Musk; first release since SpaceXAI public listing; trained in Memphis data centers with new datasets spanning science/engineering/math; Responses API and Chat Completions; reasoning effort Low/Medium/High; tools include function calling, web/X search, code execution) is SpaceXAI's current default and replaces prior Grok 4.3 as the workhorse for coding/app-building/office/research/writing at competitive pricing; Grok 4.3 and grok-4.20 (2M context) remain on Bedrock via the Mantle inference engine."
       }
     }
   },
@@ -143,11 +143,6 @@
         "url": "https://aws.amazon.com/q/",
         "description": "Enterprise-first assistant grounded in AWS services and company data. Two tiers: Q Business for knowledge work, Q Developer for coding. Alexa for Shopping (May 13, 2026) replaces Rufus, integrates shopping capabilities into main Alexa experience."
       },
-      "xAI": {
-        "name": "Grok",
-        "url": "https://grok.com",
-        "description": "Powered by Grok 4.3 with Connectors for web, iOS, Android. MCP server support. Custom Voices (Apr 30, 2026), $4.20 per 1M characters for TTS. Grok Skills (May 22, 2026) for persistent custom expertise, file/deck/spreadsheet/PDF generation. Grok Build early beta for SuperGrok Heavy subscribers (May 14, 2026). Grok Business and Enterprise tiers. Grok Build Plugin Marketplace (June 11, 2026) with skills/MCP/plugins from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. Gopuff Go agent (June 9, 2026) powered by Grok text/audio/image. eToro Tori (June 10, 2026) with real-time market sentiment from X. Grok Voice API default for Vapi (June 3, 2026). June 15, 2026: Grok Build gains multi-session manager — manage many coding sessions at once, see what each is doing, reply to ones that need you, and dispatch new work. Grok V9-Medium (1.5T params, Cursor-trained coding model) finished training May 25 with public release expected mid-June 2026 (Polymarket ~30% odds of Grok 5 by June 30, 2026; Grok 5 still training on Colossus 2 1.5GW). June 16, 2026: Grok for PowerPoint launched — generate full slide decks directly in PowerPoint from a Grok prompt. June 17, 2026: Grok 4.3 GA on Amazon Bedrock — see Foundation Models entry for benchmarks and pricing. Agent Dashboard in Grok Build (June 15) gives a unified view of running agents across cloud/local. Grok for Word add-in launched June 18, 2026 — free Microsoft 365 add-in turns notes into structured documents, fixes grammar, brings research from web/X/connectors (SharePoint, Google Drive) directly into Word. Also available for PowerPoint and Excel. Grok Build /goal command launched June 22, 2026 — long-running autonomous tasks with sub-agents implementing and verifying a single user-defined goal (significant repositioning of Grok Build as a multi-step agent platform). Firecrawl plugin (June 23, 2026) and MongoDB plugin (June 24, 2026) added to the Grok Build Plugin Marketplace. Grok + Interactive Brokers integration launched June 22, 2026 — query portfolio data, research investments, analyze positions using AI; trade execution requires explicit user approval."
-      },
       "DeepSeek": {
         "name": "DeepSeek Chat",
         "url": "https://www.deepseek.com",
@@ -217,6 +212,11 @@
         "name": "Claude Reflect",
         "url": "https://www.anthropic.com/news/reflect-with-claude",
         "description": "Anthropic's built-in usage dashboard for Claude (launched July 9, 2026 in beta for Free, Pro, and Max users with memory turned on). Tracks and visualizes how you use Claude and your broader AI habits — topic summaries, usage patterns, types of tasks you run. Surfaces suggestions (e.g., 'use Projects to avoid re-explaining context across repeated tasks') and tools to set quiet hours or schedule breaks. Frames AI as a productivity partner in your daily workflow rather than a chat destination. Expandable later to include a view of time spent using Claude."
+      },
+      "SpaceXAI": {
+        "name": "Grok",
+        "url": "https://grok.com",
+        "description": "Powered by Grok 4.3 with Connectors for web, iOS, Android. MCP server support. Custom Voices (Apr 30, 2026), $4.20 per 1M characters for TTS. Grok Skills (May 22, 2026) for persistent custom expertise, file/deck/spreadsheet/PDF generation. Grok Build early beta for SuperGrok Heavy subscribers (May 14, 2026). Grok Business and Enterprise tiers. Grok Build Plugin Marketplace (June 11, 2026) with skills/MCP/plugins from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. Gopuff Go agent (June 9, 2026) powered by Grok text/audio/image. eToro Tori (June 10, 2026) with real-time market sentiment from X. Grok Voice API default for Vapi (June 3, 2026). June 15, 2026: Grok Build gains multi-session manager — manage many coding sessions at once, see what each is doing, reply to ones that need you, and dispatch new work. Grok V9-Medium (1.5T params, Cursor-trained coding model) finished training May 25 with public release expected mid-June 2026 (Polymarket ~30% odds of Grok 5 by June 30, 2026; Grok 5 still training on Colossus 2 1.5GW). June 16, 2026: Grok for PowerPoint launched — generate full slide decks directly in PowerPoint from a Grok prompt. June 17, 2026: Grok 4.3 GA on Amazon Bedrock — see Foundation Models entry for benchmarks and pricing. Agent Dashboard in Grok Build (June 15) gives a unified view of running agents across cloud/local. Grok for Word add-in launched June 18, 2026 — free Microsoft 365 add-in turns notes into structured documents, fixes grammar, brings research from web/X/connectors (SharePoint, Google Drive) directly into Word. Also available for PowerPoint and Excel. Grok Build /goal command launched June 22, 2026 — long-running autonomous tasks with sub-agents implementing and verifying a single user-defined goal (significant repositioning of Grok Build as a multi-step agent platform). Firecrawl plugin (June 23, 2026) and MongoDB plugin (June 24, 2026) added to the Grok Build Plugin Marketplace. Grok + Interactive Brokers integration launched June 22, 2026 — query portfolio data, research investments, analyze positions using AI; trade execution requires explicit user approval."
       }
     }
   },
@@ -254,7 +254,7 @@
         "description": "JetBrains AI coding agent — GA on June 17, 2026 (left beta). Advanced Plan mode (structured plan/requirements/design/delivery stages before coding), agentic debugging via the real debugger (not println), Remote Control (start task, monitor from phone, review PR over coffee), code review with full project context, deep IDE integration via ACP (Agent Communication Protocol) so Junie CLI talks to your IDE on the same protocol it uses with terminal clients. LLM-agnostic: works with Anthropic Claude Fable 5 (suspended), Opus 4.7, Sonnet 4.6, Gemini 3.1 Pro, GPT-5.5, Grok 4.3, plus local runtimes via LiteLLM/LMStudio/Ollama. BYOK supported; JetBrains AI Pro/Ultimate/Enterprise tiers with cloud credits and AI Credits top-up. SOC 2 certified. Mellum2 12B open-source model (June 1, 2026, Apache 2.0) — 2.5B active per token, <50% inference time vs comparable dense models, used as focal model for routing, summarization, and sub-agents. Rider 2026.2 EAP 5 (June 8, 2026) adds quality-check hooks for Claude Code and Codex (PostToolUse, runs IDE validation after agent edits). IntelliJ IDEA 2026.1.3 (June 4, 2026) brings tmux terminal fix and Markdown preview improvements."
       },
       "Cursor": {
-        "name": "Cursor 3.8",
+        "name": "Cursor 3.8 (owned by SpaceX)",
         "url": "https://www.cursor.com",
         "description": "AI-native editor (Cursor 3 unified workspace since April 2, 2026). Cursor 3.11 (July 10, 2026) — durable Side Chats via /side, /btw, or the plus button that branch off the running main agent for tangential questions without derailing the primary workflow; Conversation search via Cmd+K (local index scaling to thousands of transcripts) and Cmd+F within a single conversation; redesigned project and repo pickers scoped by location (This Computer, Cloud, Remote Machines) with multi-repo support and branch selection without leaving the picker; five new cloud-agent hook events (beforeSubmitPrompt, afterAgentResponse, afterAgentThought, stop, subagentStart) to inspect or gate agent reasoning on cloud VMs. Cursor 3.10 (June 30, 2026) — Customize page unifies Plugins/Skills/MCPs; Cursor for iOS in public beta on all paid plans (cloud agents on iPhone/iPad, Live Activities + push notifications, Remote Control handoff, generated artifact review, PR merge from phone, voice input, slash commands); 75% Composer 2.5 launch promo through July 5. Cursor 3.8 (June 18, 2026) Automations — /automate slash command to create automations from local agent sessions, 5 new GitHub triggers (issue comment, PR review comment/submitted, review thread updated, workflow run completed) and Slack emoji triggers; cloud agents now have computer use to produce demos/artifacts of work; templates for triaging failed GitHub Actions and auto-fixing PR review comments. Cursor 3.7 (June 4) Canvas Design Mode with multi-select and voice input, Context Usage Report, custom stores/tools, auto-review for SDK with subagent nesting. Enterprise Organizations framework GA (June 3, 2026) with three-layer governance (Org → Team → Group), centralized analytics, SCIM directory sync. Auto-review now default for new users (June 11, 2026, cursor.com/blog/agent-autonomy-auto-review). Bugbot 3x faster/22% cheaper/10% more bugs (June 10, ~90s review, in-house Composer 2.5 with model block list for fleet routing), now runnable with /review. Composer 2.5 default. cursor.com/agents cloud URL. Pro cut 40% to $12/mo on June 12, 2026 with new Efficiency Mode (up to 35% token reduction); enterprise spend controls and usage-based tiers above thresholds. Pro+ $60/mo, Ultra $200/mo. Gartner Leader. SpaceX announced all-stock $60B acquisition of Cursor on June 16, 2026 (after $1B+ ARR reached November 2025) — deal expected to close Q3 2026, gives SpaceX-xAI direct coding-tool arm to compete with Anthropic and OpenAI; existing termination fee of $1.5B + $8.5B in compute resources."
       },
@@ -262,11 +262,6 @@
         "name": "Devin Desktop",
         "url": "https://cognition.ai/blog/introducing-devin-desktop",
         "description": "Cognition AI's agent-first IDE (formerly Windsurf, rebranded to Devin Desktop June 2, 2026, formal announcement June 7). Agent Command Center with Kanban view of local + cloud agents, Codemaps, one-click Devin cloud handoff, Spaces for project-level context. SWE-1.6 GA at 200 tok/s (Fireworks) / 950 tok/s (Cerebras). Devin Local 2026.5.26 in Rust, 30% more token-efficient than Cascade, subagent support, sandboxing. Cascade (Python) deprecated and removed July 1, 2026. Devin 2.2 (May 21, 2026): end-to-end testing with computer use, Review Autofix, 3x faster startup, redesigned interface. Devin Auto-Triage (May 18, 2026): Devin proactively responds to bug reports/incidents, investigates with connected tools, opens PRs. Agent Client Protocol (ACP) support for Codex, Claude Agent, OpenCode, and 25+ agents (JetBrains, Google, GitHub adoption). Agent router coming in weeks. June 19, 2026: MCP Marketplace Expansion adds 48+ engineering MCP connectors (Miro, Mixpanel, Honeycomb, Postman, monday.com, Klaviyo, LaunchDarkly with hosted OAuth, Fathom, Attio, Calendly, Google Drive GA for all); Devin Review for GitLab Merge Requests (intelligent diffs, inline comments, AI chat, sidebar by status); dedicated MCP Management Page for enterprise admins (per-server usage, per-session usage, org-wide rollups)."
-      },
-      "xAI": {
-        "name": "Grok Build",
-        "url": "https://grok.com",
-        "description": "xAI coding agent and CLI (May 14, 2026) for SuperGrok/X Premium+ subscribers, in early beta. Plan mode for approve-before-execute workflows. Grok Build Plugin Marketplace (June 11, 2026) bundles skills, slash commands, agents, hooks, MCP servers, and LSPs into installable packages from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. /marketplace to browse. Parallel subagents, headless mode (-p) for scripting. ACP support for custom bots. June 15, 2026 update: multi-session manager — manage many coding sessions at once, see what each is doing, reply to ones that need you, dispatch new work. Composer 2.5 now default in /models menu (June 1, 2026). Grok Build 0.1 API ($1/$2 per 1M tokens, 100+ tok/s) public beta since May 29, 2026. Grok Build /goal command launched June 22, 2026 — long-running autonomous tasks with sub-agents implementing and verifying a single user-defined goal (significant repositioning of Grok Build as a multi-step agent platform). Firecrawl plugin (June 23, 2026) and MongoDB plugin (June 24, 2026) added to the Grok Build Plugin Marketplace. Grok + Interactive Brokers integration launched June 22, 2026 — query portfolio data, research investments, analyze positions using AI; trade execution requires explicit user approval."
       },
       "Microsoft-Code": {
         "name": "MAI-Code-1-Flash",
@@ -277,6 +272,11 @@
         "name": "North Mini Code",
         "url": "https://cohere.com/blog/north-mini-code",
         "description": "Cohere's first dedicated agentic coding model (launched June 15, 2026), 30B-parameter MoE with 3B active, Apache 2.0 from launch. Designed for multi-step, tool-using work in agents like Claude Code and Cursor. Brings Cohere's enterprise sovereignty framing to the developer layer — open weights give teams control over how coding agents evolve, optimize, and operate. Companion to the Command A+ enterprise family."
+      },
+      "SpaceXAI": {
+        "name": "Grok Build",
+        "url": "https://grok.com",
+        "description": "xAI coding agent and CLI (May 14, 2026) for SuperGrok/X Premium+ subscribers, in early beta. Plan mode for approve-before-execute workflows. Grok Build Plugin Marketplace (June 11, 2026) bundles skills, slash commands, agents, hooks, MCP servers, and LSPs into installable packages from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. /marketplace to browse. Parallel subagents, headless mode (-p) for scripting. ACP support for custom bots. June 15, 2026 update: multi-session manager — manage many coding sessions at once, see what each is doing, reply to ones that need you, dispatch new work. Composer 2.5 now default in /models menu (June 1, 2026). Grok Build 0.1 API ($1/$2 per 1M tokens, 100+ tok/s) public beta since May 29, 2026. Grok Build /goal command launched June 22, 2026 — long-running autonomous tasks with sub-agents implementing and verifying a single user-defined goal (significant repositioning of Grok Build as a multi-step agent platform). Firecrawl plugin (June 23, 2026) and MongoDB plugin (June 24, 2026) added to the Grok Build Plugin Marketplace. Grok + Interactive Brokers integration launched June 22, 2026 — query portfolio data, research investments, analyze positions using AI; trade execution requires explicit user approval."
       }
     }
   },
@@ -297,11 +297,6 @@
         "name": "Claude Code",
         "url": "https://www.anthropic.com/claude-code",
         "description": "Terminal-first coding agent with IDE workflows powered by Claude Opus 4.8 (Claude Fable 5 SUSPENDED June 12–June 30, 2026 by US export control directive — REDEPLOYED July 1, 2026 after US export controls lifted (new safety classifier blocks the Amazon-reported technique in 99%+ cases) — was available via API). Dynamic workflows now GA (May 28, 2026 research preview → June 11, 2026 GA, Code with Claude Tokyo) for parallel sub-agents at scale. /ultracode or ask Claude to create a workflow. Scheduled deployments and env var vaults in public beta for Claude Managed Agents (June 11, 2026). ant CLI, Analytics API. /ultrareview, auto mode for Max users. Desktop app GA. v2.1.173 (June 11, 2026) normalizes Fable 5 model names with [1m] suffix. June 15, 2026: claude -p (headless) and Agent SDK calls move to a separate monthly credit pool per user ($20 Pro, $100 Max 5x, $200 Max 20x), no rollover, one-time opt-in claim. Week 24 (June 8-16, 2026): nested sub-agents that can spawn their own agents (background chains capped 5 deep, foreground unlimited), --safe-mode / CLAUDE_CODE_SAFE_MODE to launch with all customizations disabled, fallbackModel for up to 3 sequential model fallbacks, /cd session moves (change working directory mid-conversation without breaking prompt cache), localized session titles, --plugin list command, managed deployment version controls, security-guidance plugin for real-time vulnerability reviews of Claude's code changes, auto mode on Bedrock/Vertex/Foundry for Opus 4.7/4.8, safer auto-edit prompts before writing risky files. Sub-agent panel below prompt shows full tree with descendant counts and path back to main. Claude Tag (Slack-native AI teammate) launched June 23, 2026 for Claude Enterprise / Team — persistent channel-scoped Claude instance with optional ambient mode for proactive follow-ups; single @Claude identity per org; 30-day migration from 'Claude in Slack' (powered by Claude Opus 4.8)."
-      },
-      "xAI": {
-        "name": "Grok Build CLI",
-        "url": "https://grok.com",
-        "description": "xAI terminal coding agent (May 14, 2026) for SuperGrok/X Premium+ subscribers, in early beta. Plan mode, parallel subagents, deep worktree integrations. Grok Build Plugin Marketplace (June 11, 2026) for installing skills/MCP/plugins from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. ACP support for custom bots and orchestration. Headless mode for CI/CD. grok-build-0.1 API (May 29, 2026) at $1/$2 per 1M tokens, 100+ tok/s. June 15, 2026 update: multi-session manager — manage many coding sessions at once, see what each is doing, reply to ones that need you, dispatch new work. Composer 2.5 now default in /models menu (June 1, 2026). Grok V9-Medium (1.5T params, Cursor-trained coding model) finished training May 25 with public release expected mid-June 2026. Grok for Word add-in launched June 18, 2026 — free Microsoft 365 add-in for Word (and PowerPoint/Excel) brings Grok-powered drafting, research, and rewriting into Office documents via connectors (SharePoint, Google Drive). Grok Build /goal command launched June 22, 2026 — long-running autonomous tasks with sub-agents implementing and verifying a single user-defined goal (significant repositioning of Grok Build as a multi-step agent platform). Firecrawl plugin (June 23, 2026) and MongoDB plugin (June 24, 2026) added to the Grok Build Plugin Marketplace. Grok + Interactive Brokers integration launched June 22, 2026 — query portfolio data, research investments, analyze positions using AI; trade execution requires explicit user approval."
       },
       "JetBrains": {
         "name": "TeamCity CLI",
@@ -347,6 +342,11 @@
         "name": "Devin CLI",
         "url": "https://cognition.ai/blog/devin-for-terminal",
         "description": "Cognition AI's local coding agent CLI (June 4, 2026) — run Devin right in your shell, with local/remote execution across Opus 4.7, GPT-5.5, and SWE-1.6. Custom terminal rendering in Rust for fast, snappy UI. Hand off long-running sessions to cloud agents with their own sandboxed computers when local isn't enough; resume in CLI or open PR. Install: `curl -fsSL https://cli.devin.ai/install.sh | bash`. ACP support for Codex, Claude Agent, OpenCode."
+      },
+      "SpaceXAI": {
+        "name": "Grok Build CLI",
+        "url": "https://grok.com",
+        "description": "xAI terminal coding agent (May 14, 2026) for SuperGrok/X Premium+ subscribers, in early beta. Plan mode, parallel subagents, deep worktree integrations. Grok Build Plugin Marketplace (June 11, 2026) for installing skills/MCP/plugins from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. ACP support for custom bots and orchestration. Headless mode for CI/CD. grok-build-0.1 API (May 29, 2026) at $1/$2 per 1M tokens, 100+ tok/s. June 15, 2026 update: multi-session manager — manage many coding sessions at once, see what each is doing, reply to ones that need you, dispatch new work. Composer 2.5 now default in /models menu (June 1, 2026). Grok V9-Medium (1.5T params, Cursor-trained coding model) finished training May 25 with public release expected mid-June 2026. Grok for Word add-in launched June 18, 2026 — free Microsoft 365 add-in for Word (and PowerPoint/Excel) brings Grok-powered drafting, research, and rewriting into Office documents via connectors (SharePoint, Google Drive). Grok Build /goal command launched June 22, 2026 — long-running autonomous tasks with sub-agents implementing and verifying a single user-defined goal (significant repositioning of Grok Build as a multi-step agent platform). Firecrawl plugin (June 23, 2026) and MongoDB plugin (June 24, 2026) added to the Grok Build Plugin Marketplace. Grok + Interactive Brokers integration launched June 22, 2026 — query portfolio data, research investments, analyze positions using AI; trade execution requires explicit user approval."
       }
     }
   },
@@ -381,11 +381,6 @@
       "Meta": {
         "name": "Llama API",
         "description": "Official API access path for Meta's Llama model ecosystem. Muse Spark API in private preview. Meta swapped its content moderation and support stack to Muse Spark (June 25, 2026) — Meta Superintelligence Labs reports 13% fewer errors than human reviewers and 10% more actual violations caught versus the prior Google Gemini pipeline; pushing past 90% LLM moderation for some content types by year-end 2026. Meta Model API (public preview launched July 9, 2026 alongside Muse Spark 1.1) — developers can now build with Muse Spark 1.1 via Meta's own API for the first time, available via Meta AI app and meta.ai in 'Thinking' mode and through the new API surface with long-context support and strong coding/reasoning for large-scale agentic workloads."
-      },
-      "xAI": {
-        "name": "xAI API",
-        "url": "https://docs.x.ai",
-        "description": "Developer access to Grok 4.3 ($1.25/$2.50 per 1M tokens) and grok-4.20 (2M context). Custom Voices TTS ($4.20/1M chars), Voice Agent API ($3/hr). grok-imagine-image-quality for image generation. grok-imagine-video-1.5-preview (June 3, 2026, 720p image-to-video, #1 Artificial Analysis Video Arena Image-to-Video at Elo 1404, 15-second clips) and Grok Imagine Video 1.5 GA (June 16, 2026). grok-build-0.1 for terminal coding workflows. Composer 2.5 in Grok Build (June 1, 2026). Responses API with tool calling (May 22, 2026). Grok 5 in training on Colossus 2 (1.5GW). Grok V9-Medium (1.5T params, Cursor-trained coding model) finished training May 25, 2026; public release expected mid-June 2026 with pricing TBD. Grok Build Plugin Marketplace (June 11, 2026) for skills, slash commands, agents, hooks, MCP servers, and LSPs from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. Voice API default for Vapi (June 3, 2026). Gopuff Go and eToro Tori agent integrations. June 15, 2026: multi-session coding manager (manage many coding sessions at once from Grok Build). Grok Build /goal command launched June 22, 2026 — long-running autonomous tasks with sub-agents implementing and verifying a single user-defined goal (significant repositioning of Grok Build as a multi-step agent platform). Firecrawl plugin (June 23, 2026) and MongoDB plugin (June 24, 2026) added to the Grok Build Plugin Marketplace. Grok + Interactive Brokers integration launched June 22, 2026 — query portfolio data, research investments, analyze positions using AI; trade execution requires explicit user approval. Grok 5 public release by June 30, 2026 now priced at 2.9-7% on prediction markets (Polymarket, Kalshi). Grok 4.5 API (launched July 8, 2026) now the default: $2 input / $6 output per 1M tokens, with reasoning effort Low/Medium/High, Responses API and Chat Completions endpoints, function calling, web/X search, and code execution. Trained in SpaceXAI Memphis data centers. EU availability delayed — 'available later this month'."
       },
       "DeepSeek": {
         "name": "DeepSeek API",
@@ -446,6 +441,11 @@
         "name": "Runway Dev",
         "url": "https://dev.runwayml.com",
         "description": "Runway's enterprise AI media platform for developers (launched July 8, 2026) — single API integrating Runway's frontier models (Gen-4.5, Aleph 2.0, Act-Two) alongside best-in-class third-party models (Seedance 2.0, GPT Image 2, ElevenLabs) with day-zero availability for new model releases. Outcomes-based Recipes for high-volume creative generations (ads, ecommerce product visuals, social cutdowns); customizable Workflow endpoints to compose multi-model pipelines; interactive real-time Characters API for agent personalities. Already used by Adobe, ElevenLabs, Shutterstock, Figma Weave, Gamma, Silverside at millions of generations scale. Enterprise-ready with zero-data retention, contractual no-train guarantees, and procurement-grade security controls (SOC 2, GDPR). Single billing and observability across every model; swap models by changing one line of code. Available now at dev.runwayml.com."
+      },
+      "SpaceXAI": {
+        "name": "xAI API",
+        "url": "https://docs.x.ai",
+        "description": "Developer access to Grok 4.3 ($1.25/$2.50 per 1M tokens) and grok-4.20 (2M context). Custom Voices TTS ($4.20/1M chars), Voice Agent API ($3/hr). grok-imagine-image-quality for image generation. grok-imagine-video-1.5-preview (June 3, 2026, 720p image-to-video, #1 Artificial Analysis Video Arena Image-to-Video at Elo 1404, 15-second clips) and Grok Imagine Video 1.5 GA (June 16, 2026). grok-build-0.1 for terminal coding workflows. Composer 2.5 in Grok Build (June 1, 2026). Responses API with tool calling (May 22, 2026). Grok 5 in training on Colossus 2 (1.5GW). Grok V9-Medium (1.5T params, Cursor-trained coding model) finished training May 25, 2026; public release expected mid-June 2026 with pricing TBD. Grok Build Plugin Marketplace (June 11, 2026) for skills, slash commands, agents, hooks, MCP servers, and LSPs from MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare, Superpowers. Voice API default for Vapi (June 3, 2026). Gopuff Go and eToro Tori agent integrations. June 15, 2026: multi-session coding manager (manage many coding sessions at once from Grok Build). Grok Build /goal command launched June 22, 2026 — long-running autonomous tasks with sub-agents implementing and verifying a single user-defined goal (significant repositioning of Grok Build as a multi-step agent platform). Firecrawl plugin (June 23, 2026) and MongoDB plugin (June 24, 2026) added to the Grok Build Plugin Marketplace. Grok + Interactive Brokers integration launched June 22, 2026 — query portfolio data, research investments, analyze positions using AI; trade execution requires explicit user approval. Grok 5 public release by June 30, 2026 now priced at 2.9-7% on prediction markets (Polymarket, Kalshi). Grok 4.5 API (launched July 8, 2026) now the default: $2 input / $6 output per 1M tokens, with reasoning effort Low/Medium/High, Responses API and Chat Completions endpoints, function calling, web/X search, and code execution. Trained in SpaceXAI Memphis data centers. EU availability delayed — 'available later this month'."
       }
     }
   },
@@ -548,7 +548,7 @@
         "description": "In-IDE assistant for completion, chat, refactors, and team model routing. Junie integration, ACP Agent Registry, BYOK support. Mellum2 12B open-source model (June 1, 2026, Apache 2.0) integrates into IntelliJ IDEA, PyCharm, WebStorm, and Android Studio via the AI Assistant plugin for local/on-prem code intelligence — base, instruct, and thinking checkpoints on Hugging Face, runs in PyTorch/GGUF with Ollama and vLLM support. TeamCity AI Assistant in Enterprise trial."
       },
       "Cursor": {
-        "name": "Background Agent",
+        "name": "Background Agent (owned by SpaceX)",
         "url": "https://www.cursor.com",
         "description": "Async dev workflows for longer tasks inside the Cursor coding environment. Cursor 3 unified workspace (April 2, 2026) and v3.2 (April 24) add /multitask, worktrees, and multi-root workspaces. Development environments for cloud agents (May 13, 2026). Automations in Marketplace templates."
       },
@@ -691,11 +691,6 @@
         "url": "https://bfl.ai",
         "description": "Black Forest Labs' current image model family. FLUX.2 [pro] production-grade at $0.03/MP with multi-reference (up to 10 images), 4MP output, exact hex color control, structured prompting. FLUX.2 [flex] for typography and fine-grained control. FLUX.2 [klein] 4B/9B open-weight models (Apache 2.0) with sub-0.5s inference on consumer GPUs since Jan 15, 2026 — first FLUX model shipping on consumer hardware via ASUS ProArt laptops with NVIDIA optimization (June 4, 2026). FLUX.2 [dev] 32B open-weight. Replaces FLUX.1 line. flux-2-pro-preview endpoint for speed upgrades, FLUX Erase (May 21, 2026) for mask-based object removal beating GPT Image-2, FLUX VTO (May 28, 2026) virtual try-on for retail catalog scale."
       },
-      "xAI": {
-        "name": "Grok Imagine API",
-        "url": "https://docs.x.ai",
-        "description": "xAI image generation with Quality Mode (May 6). grok-imagine-image-quality for higher realism, text rendering. grok-imagine-image-pro retired May 15, 2026. Grok Imagine 1.5 Preview (grok-imagine-video-1.5-preview, June 3, 2026) for image-to-video at 720p with synchronized audio, #1 on Artificial Analysis Video Arena Image-to-Video (Elo 1404), 15-second clips. June 16-17, 2026: Grok Imagine Video 1.5 GA on xAI API (model id grok-imagine-video-1.5) — audio (sound effects, ambience, dialogue) generated in the same pass, better motion/physics with fewer warps, more believable weight/momentum; Fast variant produces 6-second 720p video in ~25 seconds (down from 40+ on previous model). New in Grok Imagine: Projects sidebar for organizing work, multi-agent parallel generation, search across image/video library."
-      },
       "Reve": {
         "name": "Reve 2.0",
         "url": "https://reve.ai",
@@ -705,6 +700,11 @@
         "name": "Image Playground",
         "url": "https://www.apple.com/apple-intelligence/",
         "description": "Apple's image generation API reimagined at WWDC26 (June 1, 2026) with a powerful new generative model running on Private Cloud Compute that produces high-quality images in virtually any style, including photorealistic output. People can start from a photo or description, refine images using natural language or touch, and choose landscape or portrait dimensions. All new capabilities are exposed through the Image Playground API for third-party apps. Systemwide Visual Intelligence also expanded to iPad, Mac, and Apple Vision Pro (iOS 27 / iPadOS 27 / macOS 27 / visionOS 27). Free software update this fall on Apple Intelligence-capable devices."
+      },
+      "SpaceXAI": {
+        "name": "Grok Imagine API",
+        "url": "https://docs.x.ai",
+        "description": "xAI image generation with Quality Mode (May 6). grok-imagine-image-quality for higher realism, text rendering. grok-imagine-image-pro retired May 15, 2026. Grok Imagine 1.5 Preview (grok-imagine-video-1.5-preview, June 3, 2026) for image-to-video at 720p with synchronized audio, #1 on Artificial Analysis Video Arena Image-to-Video (Elo 1404), 15-second clips. June 16-17, 2026: Grok Imagine Video 1.5 GA on xAI API (model id grok-imagine-video-1.5) — audio (sound effects, ambience, dialogue) generated in the same pass, better motion/physics with fewer warps, more believable weight/momentum; Fast variant produces 6-second 720p video in ~25 seconds (down from 40+ on previous model). New in Grok Imagine: Projects sidebar for organizing work, multi-agent parallel generation, search across image/video library."
       }
     }
   },
@@ -830,16 +830,6 @@
         "url": "https://wellsaidlabs.com",
         "description": "Enterprise voice generation for training, marketing, and product narration."
       },
-      "xAI": {
-        "name": "Grok Voice API",
-        "url": "https://docs.x.ai",
-        "description": "xAI TTS and voice cloning API with Custom Voices (May 2026). grok-voice-think-fast-1.0 for voice agents. $4.20 per 1M characters, Voice Agent $3/hr."
-      },
-      "xAI-Voice-Builder": {
-        "name": "Voice Agent Builder",
-        "url": "https://x.ai/news/grok-voice-agent-builder",
-        "description": "xAI's no-code platform for production voice agents on Grok Voice (launched July 1, 2026, also integrated as Vapi's default voice provider June 3, 2026). Bundles telephony, knowledge retrieval, tools, guardrails, MCPs, observability in one speech-to-speech interface. 80+ voices plus custom voice cloning. Flat $0.05/min audio, $0.01/min provisioned telephony. 25+ languages, sub-2-min setup. 21 new flagship voices added July 6, 2026. SOC 2, HIPAA eligible, GDPR compliant."
-      },
       "Cartesia": {
         "name": "Cartesia Sonic",
         "url": "https://cartesia.ai",
@@ -869,6 +859,16 @@
         "name": "Lexis",
         "url": "https://omilia.com/products/lexis-tts/",
         "description": "Omilia's native generative TTS engine for enterprise contact centers (launched July 8, 2026, Athens). Built directly into the Omilia Cloud Platform (OCP) with sub-45ms first-audio latency, audio stays inside the OCP perimeter (no third-party speech, language, or voice services). Short high-quality recording enables a custom branded voice in minutes; two-layer tuning (custom pronunciation dictionaries + SSML at the linguistic layer, warmth/pitch/pace/emotional range at the model layer). 25+ locales with native pronunciation and prosody; pre-tuned 'CX Ambassador' personas (Trusted Advisor, Quick Operator). Compliant with PCI-DSS, SOC 2 Type II, ISO 27001, HIPAA, GDPR, CCPA. Available as fully managed SaaS or on-premise deployment for data-residency mandates. Eliminates the third-party audit surface conventional TTS API chains introduce."
+      },
+      "SpaceXAI": {
+        "name": "Grok Voice API",
+        "url": "https://docs.x.ai",
+        "description": "xAI TTS and voice cloning API with Custom Voices (May 2026). grok-voice-think-fast-1.0 for voice agents. $4.20 per 1M characters, Voice Agent $3/hr."
+      },
+      "SpaceXAI-Voice-Builder": {
+        "name": "Voice Agent Builder",
+        "url": "https://x.ai/news/grok-voice-agent-builder",
+        "description": "xAI's no-code platform for production voice agents on Grok Voice (launched July 1, 2026, also integrated as Vapi's default voice provider June 3, 2026). Bundles telephony, knowledge retrieval, tools, guardrails, MCPs, observability in one speech-to-speech interface. 80+ voices plus custom voice cloning. Flat $0.05/min audio, $0.01/min provisioned telephony. 25+ languages, sub-2-min setup. 21 new flagship voices added July 6, 2026. SOC 2, HIPAA eligible, GDPR compliant."
       }
     }
   },
@@ -940,11 +940,6 @@
         "url": "https://developers.openai.com/api/docs/guides/deep-research",
         "description": "ChatGPT research mode powered by GPT-5.5 with web and file investigation tools. Deep Research and Deep Research Max (April 21)."
       },
-      "xAI": {
-        "name": "DeepSearch",
-        "url": "https://grok.com",
-        "description": "Grok research workflow combining live web search and reasoning chains."
-      },
       "DeepSeek": {
         "name": "DeepSeek Search",
         "url": "https://www.deepseek.com",
@@ -974,6 +969,11 @@
         "name": "Claude Science",
         "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
         "description": "Anthropic's AI workbench for scientists (June 30, 2026). Beta available to Claude Pro, Max, Team, and Enterprise on macOS and Linux. Integrates common research tools, produces auditable artifacts. Anthropic sponsors up to 50 AI for Science projects (up to $30K credits each); applications open through July 15, 2026."
+      },
+      "SpaceXAI": {
+        "name": "DeepSearch",
+        "url": "https://grok.com",
+        "description": "Grok research workflow combining live web search and reasoning chains."
       }
     }
   },
