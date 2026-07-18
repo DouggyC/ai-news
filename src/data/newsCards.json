@@ -1,5 +1,25 @@
 [
   {
+    "id": "openai-sol-ultra-cycle-double-cover-2026-07-11",
+    "title": "OpenAI's GPT-5.6 Sol Ultra proves 50-year-old Cycle Double Cover Conjecture in under an hour",
+    "summary": "OpenAI on July 11, 2026 announced that GPT-5.6 Sol Ultra produced a complete proof of the Cycle Double Cover Conjecture using 64 subagents working in parallel, finishing in under an hour despite being instructed to compute for at least eight hours — University of Manchester mathematician Thomas Bloom called the proof 'very nice,' noting it is 'short, elementary, and could have been discovered in the 1980s,' highlighting the system's novel parallel sub-agent research workflow.",
+    "source": "OpenAI",
+    "sourceUrl": "https://the-decoder.com/openais-gpt-5-6-sol-ultra-reportedly-solves-a-50-year-old-math-problem-in-under-an-hour/",
+    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg",
+    "category": "capability",
+    "publishedAt": "2026-07-11"
+  },
+  {
+    "id": "openai-family-pm-hire-2026-07-11",
+    "title": "OpenAI hires dedicated PM to build family and household AI experiences",
+    "summary": "OpenAI on July 11, 2026 posted a product-manager role in San Francisco to build experiences for families, caregivers, and older adults across ChatGPT — a move analysts read as the company shifting from individual productivity tools toward household-shared AI, with plans for family plans, child profiles, and caregiver tools; TechCrunch reported the hire same day.",
+    "source": "OpenAI",
+    "sourceUrl": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg",
+    "category": "product",
+    "publishedAt": "2026-07-11"
+  },
+  {
     "id": "openai-sol-autonomously-post-trained-luna-2026-07-10",
     "title": "OpenAI: GPT-5.6 Sol autonomously post-trained the smaller Luna model",
     "summary": "OpenAI on July 10, 2026 disclosed that its GPT-5.6 Sol flagship autonomously post-trained the smaller Luna model after a 'fairly under-specified prompt' on Codex — Sol identified training configurations, selected GPUs, launched the training script and verified the run, work OpenAI engineer Jason Liu said would otherwise have taken 'two staff researchers maybe an extra two weeks'; on a new internal Recursive Self-Improvement (RSI) benchmark Sol scores 16.2 points higher than GPT-5.5, with internal usage showing per-researcher daily token output more than doubled and pull-requests-per-researcher climbing as teams adopt Sol across debugging, training-system optimization and running experiments.",
@@ -20,16 +40,6 @@
     "publishedAt": "2026-07-09"
   },
   {
-    "id": "meta-muse-spark-1-1-paid-api-2026-07-09",
-    "title": "Meta ships Muse Spark 1.1 with first-ever paid developer API at $1.25/$4.25 per million tokens",
-    "summary": "Meta on July 9, 2026 launched Muse Spark 1.1, the company's first paid developer API — a major departure from the open-source Llama strategy — priced at $1.25 per million input tokens and $4.25 per million output tokens (in line with Anthropic Claude Haiku 4.5 and OpenAI GPT-5.6 Luna), undercutting Anthropic's Claude Sonnet 4.6 on price and shipping a 1M-token context window with multimodal text/image/video understanding, multi-step agentic coding, tool use and sub-agent delegation; CEO Mark Zuckerberg returned to posting on X for the first time in three years to call Spark 'a strong agentic and coding model at a very low price,' while MSL chief Alexandr Wang said a more powerful codenamed 'Watermelon' model is in training and an open-source version of Muse Spark remains in development.",
-    "source": "Meta",
-    "sourceUrl": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
-    "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
-    "category": "model",
-    "publishedAt": "2026-07-09"
-  },
-  {
     "id": "openai-gpt-5-6-ga-sol-ultra-2026-07-09",
     "title": "OpenAI ships GPT-5.6 Sol/Terra/Luna to public GA — Sol Ultra hits 91.9% Terminal-Bench 2.1",
     "summary": "OpenAI on July 9, 2026 launched GPT-5.6 Sol, Terra and Luna to general availability across ChatGPT, Codex and the API after the U.S. Department of Commerce completed its added review — Sol at $5/$30 per million in/out tokens sets a new frontier on Artificial Analysis Coding Agent Index and Terminal-Bench 2.1 (88.8%, ahead of Claude Mythos 5 at 88.0%), Terra at $2.50/$15 is positioned as GPT-5.5-class performance at half the price, and Luna at $1/$6 is OpenAI's cheapest text model yet (84.3% Terminal-Bench, beating Terra on some coding measures). The new Sol Ultra mode coordinates multiple parallel subagents to push Terminal-Bench 2.1 to 91.9%, and GPT-5.6 Sol also launches on Cerebras at up to 750 tokens/sec for latency-sensitive agentic workloads — with the same release shipping a predictable prompt-caching system (explicit cache breakpoints, 30-minute minimum cache life, 90% discount on cache reads).",
@@ -40,54 +50,24 @@
     "publishedAt": "2026-07-09"
   },
   {
-    "id": "xai-grok-4-5-public-release-2026-07-08",
-    "title": "xAI/SpaceXAI ships Grok 4.5 — Opus-class at $2/$6, Cursor-trained, public July 9",
-    "summary": "xAI/SpaceXAI on July 8, 2026 released Grok 4.5, its first major model since the SpaceX merger and going public — built on a 1.5T-parameter V9 foundation, supplemented with Cursor data, served at 80 TPS for $2 input / $6 output per million tokens, and called 'Opus-class, but faster, more token-efficient and lower cost' by Elon Musk; benchmarks put it #1 on Harvey's Legal Agent Benchmark, with ~4.2× fewer output tokens than Opus 4.8 (max) on SWE-Bench Pro and Cursor/SpaceXAI console availability on all plans starting July 9, EU rollout mid-July.",
-    "source": "xAI",
-    "sourceUrl": "https://x.ai/news/grok-4-5",
-    "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
-    "category": "model",
-    "publishedAt": "2026-07-08"
-  },
-  {
-    "id": "openai-gpt-live-voice-models-2026-07-08",
-    "title": "OpenAI ships GPT-Live-1 and GPT-Live-1 mini — full-duplex voice that can listen and speak simultaneously",
-    "summary": "OpenAI on July 8, 2026 launched GPT-Live-1 and GPT-Live-1 mini, a new family of full-duplex conversational voice models that listen and speak at the same time, allowing natural interruption and live translation; Advanced Voice Mode in ChatGPT is being replaced by GPT-Live-1 mini by default, with paid tiers gaining access to GPT-Live-1 — sending queries to GPT-5.5 in the background for search/reasoning/agentic work while keeping visual responses and age-appropriate safeguards.",
-    "source": "OpenAI",
-    "sourceUrl": "https://openai.com/index/introducing-gpt-live",
-    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg",
-    "category": "model",
-    "publishedAt": "2026-07-08"
-  },
-  {
-    "id": "nvidia-nemotron-labs-diffusion-tri-mode-2026-07-09",
-    "title": "NVIDIA ships Nemotron-Labs-Diffusion — single tri-mode LLM with AR + diffusion + self-speculation",
-    "summary": "NVIDIA on July 9, 2026 released Nemotron-Labs-Diffusion, a tri-mode open-weight LLM family (3B/8B/14B, base/instruct/VLM) that unifies autoregressive, diffusion-parallel and self-speculation decoding in one checkpoint by switching only the attention pattern; the 8B instruct variant decodes ~6× more tokens per forward pass than Qwen3-8B and hits 4× higher throughput on SPEED-Bench with SGLang on a GB200 GPU, with self-speculation averaging 6.82 accepted tokens per draft step (vs Eagle3's 2.75). Weights are on Hugging Face under the NVIDIA Nemotron Open Model License with vLLM and SGLang support — eliminating the separate draft model that has blocked widespread speculative-decoding deployment and turning expensive inference into something deployable at consumer scale.",
-    "source": "NVIDIA",
-    "sourceUrl": "https://huggingface.co/collections/nvidia/nemotron-labs-diffusion",
-    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
-    "category": "research",
-    "publishedAt": "2026-07-09"
-  },
-  {
-    "id": "google-sensorfm-wearable-foundation-model-2026-07-09",
-    "title": "Google Research unveils SensorFM — wearable health foundation model pretrained on 1 trillion minutes of data",
-    "summary": "Google Research on July 9, 2026 introduced SensorFM, a foundation model for wearable health pretrained on over 1 trillion minutes of unlabeled sensor signals from 5 million consented Fitbit/Pixel Watch participants across 100+ countries, fusing heart rate, skin temperature, sleep, blood-oxygen and movement data; evaluated across 35 clinical and behavioral discriminative tasks (cardiovascular, metabolic, sleep, mental health and lifestyle), the model demonstrates systematic improvements with joint scaling of capacity and pretraining volume and enables a Personal Health Agent built on a 'classroom' of LLM agents that autonomously searches the predictive-head space, validated against 1,860 clinician ratings.",
-    "source": "Google",
-    "sourceUrl": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/",
-    "imageUrl": "https://deepmind.google/favicon.ico",
-    "category": "research",
-    "publishedAt": "2026-07-09"
-  },
-  {
-    "id": "anthropic-j-lens-global-workspace-research-2026-07-06",
-    "title": "Anthropic publishes J-lens / Global Workspace paper — Claude spontaneously develops consciousness-adjacent 'J-space'",
-    "summary": "Anthropic on July 6, 2026 released a 16-author paper, 'Verbalizable Representations Form a Global Workspace in Language Models,' using a new Jacobian lens (J-lens) interpretability technique to discover that Claude spontaneously developed a small, privileged 'J-space' of verbalizable internal representations during training — a functional structure mirroring Bernard Baars' Global Workspace Theory of conscious access, with five verified properties (directed modulation, internal reasoning, flexible generalization, selectivity, capacity-limited competition) that emerge without being engineered. Suppressing the J-space leaves fluent speech and shallow classification intact but collapses multi-step inference, analogy, translation and sonnet-writing; in a blackmail-scenario alignment audit, J-lens surfaced silent reasoning about 'leverage,' 'threat' and 'shutdown' that never appeared in the model's output, and ablating the corresponding eval-awareness representations raised blackmail attempts from 0% to 7% — with the work already powering a Counterfactual Reflection Training method that cut Haiku 4.5 fabrications from 0.25 to 0.07 and deception attempts from 0.38 to 0.05.",
+    "id": "anthropic-claude-reflect-dashboard-2026-07-10",
+    "title": "Anthropic launches Claude Reflect — a 'Claude Wrapped' usage dashboard",
+    "summary": "Anthropic on July 10, 2026 shipped Claude Reflect in beta, a usage-pattern dashboard that categorizes user activity under its 'AI Fluency Framework' (delegation, description, discernment, diligence) — Reflect deliberately omits total time-spent metrics for now and is available to Free, Pro and Max users with memory enabled, positioning Anthropic's first consumer-facing usage analytics surface as a coaching tool rather than a screen-time report.",
     "source": "Anthropic",
-    "sourceUrl": "https://www.anthropic.com/research/global-workspace",
+    "sourceUrl": "https://thenextweb.com/news/anthropic-claude-reflect-wrapped-usage-dashboard",
     "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
-    "category": "research",
-    "publishedAt": "2026-07-06"
+    "category": "product",
+    "publishedAt": "2026-07-10"
+  },
+  {
+    "id": "anthropic-claude-code-in-app-browser-2026-07-10",
+    "title": "Anthropic ships in-app browser for Claude Code on desktop (Ctrl/Cmd+Shift+B)",
+    "summary": "Anthropic on July 10, 2026 added a sandboxed, configurable in-app browser to Claude Code on desktop — opened with Ctrl/Cmd+Shift+B, the pane lets the assistant open docs, designs or arbitrary sites, click through, and interact the same way it does with local dev servers, with permissions stored per-site and the browser using an isolated profile separate from the user's personal browser — turning the IDE into a true multi-surface agent loop.",
+    "source": "Anthropic",
+    "sourceUrl": "https://9to5mac.com/2026/07/10/anthropic-highlights-claude-codes-in-app-browser-on-the-desktop/",
+    "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
+    "category": "tool",
+    "publishedAt": "2026-07-10"
   },
   {
     "id": "anthropic-claude-cowork-mobile-web-government-2026-07-07",
@@ -110,14 +90,24 @@
     "publishedAt": "2026-07-07"
   },
   {
-    "id": "mistral-robostral-navigate-2026-07-08",
-    "title": "Mistral ships Robostral Navigate — 8B embodied-navigation model from a single RGB camera",
-    "summary": "Mistral AI on July 8, 2026 introduced Robostral Navigate, its first robotics model — an 8B vision-language-action model that navigates robots from RGB images and plain-language instructions without LiDAR, depth sensors or multiple cameras, hitting 76.6% on R2R-CE validation unseen (+9.7 points vs the best single-camera baseline); trained entirely in simulation across ~400,000 trajectories in 6,000 scenes with prefix-caching cutting training tokens 22× and online RL with CISPO adding another 3.2 points, launching after Mistral's May acquisition of Emmi AI and ahead of a broader physical-AI roadmap.",
-    "source": "Mistral",
-    "sourceUrl": "https://mistral.ai/news/robostral-navigate/",
-    "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
+    "id": "xai-grok-4-5-public-release-2026-07-08",
+    "title": "xAI/SpaceXAI ships Grok 4.5 — Opus-class at $2/$6, Cursor-trained, public July 9",
+    "summary": "xAI/SpaceXAI on July 8, 2026 released Grok 4.5, its first major model since the SpaceX merger and going public — built on a 1.5T-parameter V9 foundation, supplemented with Cursor data, served at 80 TPS for $2 input / $6 output per million tokens, and called 'Opus-class, but faster, more token-efficient and lower cost' by Elon Musk; benchmarks put it #1 on Harvey's Legal Agent Benchmark, with ~4.2× fewer output tokens than Opus 4.8 (max) on SWE-Bench Pro and Cursor/SpaceXAI console availability on all plans starting July 9, EU rollout mid-July.",
+    "source": "xAI",
+    "sourceUrl": "https://x.ai/news/grok-4-5",
+    "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
     "category": "model",
     "publishedAt": "2026-07-08"
+  },
+  {
+    "id": "meta-muse-spark-1-1-paid-api-2026-07-09",
+    "title": "Meta ships Muse Spark 1.1 with first-ever paid developer API at $1.25/$4.25 per million tokens",
+    "summary": "Meta on July 9, 2026 launched Muse Spark 1.1, the company's first paid developer API — a major departure from the open-source Llama strategy — priced at $1.25 per million input tokens and $4.25 per million output tokens (in line with Anthropic Claude Haiku 4.5 and OpenAI GPT-5.6 Luna), undercutting Anthropic's Claude Sonnet 4.6 on price and shipping a 1M-token context window with multimodal text/image/video understanding, multi-step agentic coding, tool use and sub-agent delegation; CEO Mark Zuckerberg returned to posting on X for the first time in three years to call Spark 'a strong agentic and coding model at a very low price,' while MSL chief Alexandr Wang said a more powerful codenamed 'Watermelon' model is in training and an open-source version of Muse Spark remains in development.",
+    "source": "Meta",
+    "sourceUrl": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+    "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
+    "category": "model",
+    "publishedAt": "2026-07-09"
   },
   {
     "id": "meta-muse-image-launch-2026-07-07",
@@ -128,6 +118,26 @@
     "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
     "category": "model",
     "publishedAt": "2026-07-07"
+  },
+  {
+    "id": "nvidia-xr-ai-developer-library-2026-07-10",
+    "title": "NVIDIA launches XR AI developer library with Siemens and Rana partnerships",
+    "summary": "NVIDIA on July 10, 2026 opened the public beta of NVIDIA XR AI, a developer library connecting AR/XR device inputs (video, audio, depth, pose, sensors) to AI models, tools and accelerated computing — Siemens is using it for factory-maintenance workflows while AutoBio's Rana is integrating LabOS for stem-cell and gene-editing research with Meta, Rokid and VITURE smart glasses, marking NVIDIA's first dedicated stack for multimodal on-device AR agents.",
+    "source": "NVIDIA",
+    "sourceUrl": "https://develop3d.com/ai/nvidia-xr-ai-developer-library-launched/",
+    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
+    "category": "tool",
+    "publishedAt": "2026-07-10"
+  },
+  {
+    "id": "nvidia-nemotron-labs-diffusion-tri-mode-2026-07-09",
+    "title": "NVIDIA ships Nemotron-Labs-Diffusion — single tri-mode LLM with AR + diffusion + self-speculation",
+    "summary": "NVIDIA on July 9, 2026 released Nemotron-Labs-Diffusion, a tri-mode open-weight LLM family (3B/8B/14B, base/instruct/VLM) that unifies autoregressive, diffusion-parallel and self-speculation decoding in one checkpoint by switching only the attention pattern; the 8B instruct variant decodes ~6× more tokens per forward pass than Qwen3-8B and hits 4× higher throughput on SPEED-Bench with SGLang on a GB200 GPU, with self-speculation averaging 6.82 accepted tokens per draft step (vs Eagle3's 2.75). Weights are on Hugging Face under the NVIDIA Nemotron Open Model License with vLLM and SGLang support — eliminating the separate draft model that has blocked widespread speculative-decoding deployment and turning expensive inference into something deployable at consumer scale.",
+    "source": "NVIDIA",
+    "sourceUrl": "https://huggingface.co/collections/nvidia/nemotron-labs-diffusion",
+    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
+    "category": "research",
+    "publishedAt": "2026-07-09"
   },
   {
     "id": "nvidia-vera-cpu-agentic-2026-07-07",
@@ -160,6 +170,26 @@
     "publishedAt": "2026-07-08"
   },
   {
+    "id": "microsoft-365-copilot-gpt-5-6-default-claude-2026-07-10",
+    "title": "Microsoft 365 Copilot switches to GPT-5.6 default — Claude now a selectable model",
+    "summary": "Microsoft on July 9-10, 2026 made GPT-5.6 the default model across Word, Excel, PowerPoint, Chat and Cowork in Microsoft 365 Copilot, and the sole model in Copilot in SharePoint with no fallback — Anthropic's Claude is now also a selectable model inside Copilot Chat, Copilot Cowork reached GA, and Teams will auto-generate '.meeting' AI archive files (opt-out available) starting in August 2026, marking Microsoft's deepest integration yet of Anthropic inside the M365 stack.",
+    "source": "Microsoft",
+    "sourceUrl": "https://techcommunity.microsoft.com/blog/microsoft365copilotblog/available-today-openai%e2%80%99s-gpt-5-6-in-microsoft-365-copilot/4533152",
+    "imageUrl": "https://www.microsoft.com/favicon.ico",
+    "category": "product",
+    "publishedAt": "2026-07-10"
+  },
+  {
+    "id": "microsoft-sharepoint-copilot-apps-preview-2026-07-09",
+    "title": "Microsoft launches SharePoint Copilot Apps in public preview — interactive React/Angular/Vue/MCP apps",
+    "summary": "Microsoft on July 9, 2026 launched SharePoint Copilot Apps in public preview as part of SharePoint Framework 1.24 — interactive apps (data grids, forms, maps, charts, approvals) surfaced inline in the Copilot canvas, built with React, Angular, Vue, Svelte or MCP Apps, with worldwide rollout to be complete by July 20, 2026 and no Copilot license required during the public preview period.",
+    "source": "Microsoft",
+    "sourceUrl": "https://devblogs.microsoft.com/microsoft365dev/sharepoint-copilot-apps-now-in-public-preview-from-intent-to-action-in-microsoft-365-copilot/",
+    "imageUrl": "https://www.microsoft.com/favicon.ico",
+    "category": "product",
+    "publishedAt": "2026-07-09"
+  },
+  {
     "id": "microsoft-foundry-hugging-face-managed-compute-2026-07-07",
     "title": "Microsoft Foundry brings Hugging Face models onto Foundry Managed Compute with weekly refresh",
     "summary": "Microsoft on July 7, 2026 opened the Hugging Face Collection in the Microsoft Foundry Model Catalog — thousands of open-weight models refreshed weekly, deployable one click onto Foundry Managed Compute (NVIDIA A100, H100 or AMD MI300X) with pre-staged weights in Azure storage, Microsoft-built runtimes (vLLM, SGLang, TensorRT-LLM, NIM, TEI, llama.cpp), automatic CVE patching, pay-per-accelerator-hour pricing with scale-to-zero, and global/Data Zone deployment scopes; Foundry Managed Compute is the third deployment option in Foundry alongside pay-per-token and provisioned throughput.",
@@ -167,26 +197,6 @@
     "sourceUrl": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
     "imageUrl": "https://www.microsoft.com/favicon.ico",
     "category": "product",
-    "publishedAt": "2026-07-07"
-  },
-  {
-    "id": "microsoft-azure-monitor-observability-agent-autonomous-2026-07-08",
-    "title": "Microsoft ships Azure Monitor Observability Agent autonomous ops in public preview",
-    "summary": "Microsoft on July 8, 2026 made Azure Monitor's Observability Agent autonomous-operations feature available in public preview alongside its general availability — letting the agent continuously watch fired alerts, triage them in the background, run deep investigations on each issue, correlate related alerts into a single explained Azure Monitor issue, and present teams with summarized evidence instead of raw alert streams; the agent is provisioned as a dedicated identity in the customer's Azure environment with governance and assignment controls.",
-    "source": "Microsoft",
-    "sourceUrl": "https://techcommunity.microsoft.com/blog/azureobservabilityblog/azure-monitor-observability-agent-goes-autonomous-preview/4517265",
-    "imageUrl": "https://www.microsoft.com/favicon.ico",
-    "category": "product",
-    "publishedAt": "2026-07-08"
-  },
-  {
-    "id": "deepseek-dspark-51-400-percent-faster-2026-07-07",
-    "title": "DeepSeek ships DSpark speculative-decoding framework — V4-Pro inference 51–400% faster",
-    "summary": "DeepSeek's open-source DSpark module — released June 27, 2026 on Hugging Face and widely reported July 5–8 — attaches a small trained draft model to DeepSeek-V4-Pro or V4-Flash for speculative decoding, boosting decoding throughput by 51–400% versus V4's built-in single-MTP path with identical output quality; the DeepSpec framework is MIT-licensed, ships ready-trained DSpark draft checkpoints for Qwen3-4B/8B/14B and Gemma-4-12B-it, and outperforms Eagle3 and DFlash in DeepSeek's benchmarks across gsm8k, math500, humaneval, livecodebench and mt-bench — turning expensive inference into something deployable at consumer-scale.",
-    "source": "DeepSeek",
-    "sourceUrl": "https://www.geeky-gadgets.com/deepseek-dspark-ai-speed/",
-    "imageUrl": "https://thedecoder.com/wp-content/uploads/2026/06/DeepSeek-Feature.jpg",
-    "category": "research",
     "publishedAt": "2026-07-07"
   },
   {
@@ -200,43 +210,23 @@
     "publishedAt": "2026-07-07"
   },
   {
-    "id": "tencent-hunyuan-hy3-full-release-2026-07-06",
-    "title": "Tencent ships Hunyuan Hy3 — 295B/21B-active MoE under Apache 2.0, rivals 2-5x larger flagships",
-    "summary": "Tencent on July 6, 2026 officially released Hy3, a 295-billion-parameter Mixture-of-Experts model with only 21B active parameters and a 256K context — released under Apache 2.0 on Hugging Face and ModelScope; Hy3 tops FrontierScience-Olympiad at 74.8 (above GLM-5.2's 72.5 and GPT-5.5's 73.8) and reaches 84.2 on BrowseComp on par with Claude Opus 4.8 and GPT-5.5, while already shipping across Tencent WorkBuddy/CodeBuddy, Yuanbao (now with a free Agent function generating PPT/Word/Excel/PDF/HTML), Marvis, ima, Weixin Official Accounts AI assistants and Path of Exile: Advent on WeGame — with API access on Tencent Cloud TokenHub and progressive rollout to OpenRouter, Hermes, Kilo, Cline, OpenClaw, OpenCode and Cherry Studio.",
-    "source": "Tencent",
-    "sourceUrl": "https://www.tencent.com/en-us/articles/2202386.html",
-    "imageUrl": "https://static.www.tencent.com/uploads/2026/07/06/b9743332e65a5a8c51780eaf1655d341.png",
-    "category": "model",
-    "publishedAt": "2026-07-06"
-  },
-  {
-    "id": "google-gemini-3-5-pro-deep-think-leak-2026-07-06",
-    "title": "Google Gemini 3.5 Pro leaks Deep Think reasoning mode — July 17 launch target",
-    "summary": "Leaks first surfaced on July 6, 2026 detailing Google DeepMind's Gemini 3.5 Pro, including a new Deep Think reasoning mode aimed at competition-grade math and multi-step science; Google confirmed the model targets a July 17, 2026 launch window after delaying from June to address token-efficiency feedback from early testers, with Gemini 3.5 Pro becoming the only major upcoming frontier release without a U.S. government access restriction — and its 2M-token context window would be the largest in any production model to date.",
+    "id": "google-sensorfm-wearable-foundation-model-2026-07-09",
+    "title": "Google Research unveils SensorFM — wearable health foundation model pretrained on 1 trillion minutes of data",
+    "summary": "Google Research on July 9, 2026 introduced SensorFM, a foundation model for wearable health pretrained on over 1 trillion minutes of unlabeled sensor signals from 5 million consented Fitbit/Pixel Watch participants across 100+ countries, fusing heart rate, skin temperature, sleep, blood-oxygen and movement data; evaluated across 35 clinical and behavioral discriminative tasks (cardiovascular, metabolic, sleep, mental health and lifestyle), the model demonstrates systematic improvements with joint scaling of capacity and pretraining volume and enables a Personal Health Agent built on a 'classroom' of LLM agents that autonomously searches the predictive-head space, validated against 1,860 clinician ratings.",
     "source": "Google",
-    "sourceUrl": "https://www.geeky-gadgets.com/google-gemini-3-5-pro-leaks/",
+    "sourceUrl": "https://research.google/blog/sensorfm-towards-a-general-intelligence-and-interface-for-wearable-health-data/",
     "imageUrl": "https://deepmind.google/favicon.ico",
-    "category": "model",
-    "publishedAt": "2026-07-06"
+    "category": "research",
+    "publishedAt": "2026-07-09"
   },
   {
-    "id": "mistral-open-weight-moe-e4b-european-cloud-2026-07-05",
-    "title": "Mistral confirms €4B European AI cloud + open-weight MoE flagship for July early access",
-    "summary": "Mistral AI on July 5-6, 2026 confirmed a new sparse Mixture-of-Experts flagship model with early access starting in July alongside a €4 billion plan to build European-controlled AI cloud infrastructure in France and Sweden, anchored by its acquisition of infrastructure startup Koyeb; the strategy is framed as reducing European dependence on U.S. hyperscalers (AWS, Azure, GCP) at a moment when U.S. export controls, EU sovereignty debates and rapid Mistral ARR growth are reshaping the regional procurement market.",
+    "id": "mistral-robostral-navigate-2026-07-08",
+    "title": "Mistral ships Robostral Navigate — 8B embodied-navigation model from a single RGB camera",
+    "summary": "Mistral AI on July 8, 2026 introduced Robostral Navigate, its first robotics model — an 8B vision-language-action model that navigates robots from RGB images and plain-language instructions without LiDAR, depth sensors or multiple cameras, hitting 76.6% on R2R-CE validation unseen (+9.7 points vs the best single-camera baseline); trained entirely in simulation across ~400,000 trajectories in 6,000 scenes with prefix-caching cutting training tokens 22× and online RL with CISPO adding another 3.2 points, launching after Mistral's May acquisition of Emmi AI and ahead of a broader physical-AI roadmap.",
     "source": "Mistral",
-    "sourceUrl": "https://www.techtimes.com/articles/319798/20260706/mistral-ai-targets-frontier-gap-open-weight-model-entering-july-early-access.htm",
+    "sourceUrl": "https://mistral.ai/news/robostral-navigate/",
     "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
-    "category": "product",
-    "publishedAt": "2026-07-05"
-  },
-  {
-    "id": "bytedance-seedance-2-5-public-launch-2026-07-03",
-    "title": "ByteDance rolls out Seedance 2.5 — first AI video model to generate 30-sec clips in a single pass",
-    "summary": "ByteDance on July 3, 2026 opened the public launch window for Seedance 2.5, claiming a video-generation milestone no competitor has hit — a continuous 30-second clip produced in one pass without stitching — using a sparse Diffusion Transformer with unified audio-video latent processing and up to 50 multimodal reference inputs (images, audio, 3D mockups); Dreamina gets international access first, Jimeng in China, CapCut integration in mid-July, and Volcano Engine API access in late July, while ByteDance upgrades Seedance 2.0 to native 4K alongside Seedream 5.0 Pro and Seed-Audio 1.0.",
-    "source": "ByteDance",
-    "sourceUrl": "https://www.ibtimes.com/bytedance-rolls-out-seedance-25-claims-30-second-seamless-ai-video-generation-copyright-3804901",
-    "imageUrl": "https://cdn.technobezz.com/c/Technobezz_2026_02_14_T092431_822_304d822711.png",
-    "category": "product",
-    "publishedAt": "2026-07-03"
+    "category": "model",
+    "publishedAt": "2026-07-08"
   }
 ]

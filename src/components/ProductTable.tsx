@@ -17,6 +17,7 @@ const companyOrder = [
   'Google-AlphaEvolve',
   'Google-NanoBanana-Lite',
   'Google-Omni-Flash',
+  'Google-Stitch',
   'Amazon',
   'Meta',
   'Oracle',
@@ -96,6 +97,7 @@ const companyOrder = [
   'Kilo',
   'n8n',
   'OpenClaw',
+  'Omilia',
   'deepset',
   'FlowiseAI',
   'Jan',
@@ -263,6 +265,8 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
     'OpenAI-Work': 'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.4)',
     'Anthropic-Reflect': 'backgroundColor:rgba(249, 115, 22, 0.2);color:#fb923c;borderColor:rgba(249, 115, 22, 0.4)',
     Vapi: 'backgroundColor:rgba(20, 184, 166, 0.2);color:#5eead4;borderColor:rgba(20, 184, 166, 0.3)',
+    'Google-Stitch': 'backgroundColor:rgba(59, 130, 246, 0.2);color:#93c5fd;borderColor:rgba(59, 130, 246, 0.4)',
+    Omilia: 'backgroundColor:rgba(217, 119, 6, 0.2);color:#f59e0b;borderColor:rgba(217, 119, 6, 0.3)',
   };
 
   const style =
