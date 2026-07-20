@@ -57,7 +57,8 @@ const providerColors: Record<string, string> = {
   Meituan: '#facc15',
   LongCat: '#ea580c',
   'China Mobile': '#dc2626',
-  'Thinking Machines': '#ec4899',
+'Thinking Machines': '#ec4899',
+BasaltLabs: '#7c3aed',
 };
 
 function getInitialModels(): FrontierModel[] {
@@ -171,7 +172,7 @@ export default function ComparePage() {
             paddingRight: '24px',
           }}
         >
-          Last updated: July 18, 2026
+          Last updated: July 19, 2026
         </div>
         <div
           style={{

@@ -977,5 +977,27 @@
     "livebench": 60.0,
     "mmluPlus": null,
     "gpqa": 80.9
+  },
+  {
+    "id": "kimi-k3",
+    "name": "Kimi K3",
+    "provider": "Moonshot",
+    "openSource": true,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": 93.5
+  },
+  {
+    "id": "inkling",
+    "name": "Inkling",
+    "provider": "Thinking Machines",
+    "openSource": true,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": 87.2
   }
 ]
