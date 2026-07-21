@@ -105,7 +105,8 @@ const companyOrder = [
   'OpenRouter-MCP',
   'OpenRouter-Image',
   'OpenRouter-Fusion',
-  'Reve'
+  'Reve',
+  'Ideogram'
 ];
 
 
@@ -268,6 +269,7 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
     Vapi: 'backgroundColor:rgba(20, 184, 166, 0.2);color:#5eead4;borderColor:rgba(20, 184, 166, 0.3)',
     'Google-Stitch': 'backgroundColor:rgba(59, 130, 246, 0.2);color:#93c5fd;borderColor:rgba(59, 130, 246, 0.4)',
     Omilia: 'backgroundColor:rgba(217, 119, 6, 0.2);color:#f59e0b;borderColor:rgba(217, 119, 6, 0.3)',
+    Ideogram: 'backgroundColor:rgba(244, 63, 94, 0.2);color:#fb7185;borderColor:rgba(244, 63, 94, 0.3)',
   };
 
   const style =

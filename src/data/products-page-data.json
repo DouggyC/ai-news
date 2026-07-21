@@ -702,6 +702,11 @@
         "url": "https://reve.ai",
         "description": "Reve AI's layout-first image model (June 3, 2026) — #2 on Text-to-Image Arena with 1280 score (+125 from 1.5), behind GPT Image 2 and ahead of Gemini 3.1 Flash Image Preview (Nano Banana 2). Proprietary model from Palo Alto startup; ensemble approach. API access with layout-based creative control."
       },
+      "Ideogram": {
+        "name": "Ideogram 4.0",
+        "url": "https://ideogram.ai",
+        "description": "Ideogram's open-weight frontier text-to-image foundation model (June 3, 2026) — first Ideogram release as open weights under commercial license. 9.3B parameter single-stream DiT (34 transformer layers, QK-RMSNorm, MRoPE) with Qwen3-VL-8B-Instruct as the frozen text encoder. Trained exclusively on structured JSON captions with bounding-box layout control and color palettes. #1 open-weight image model and #2 overall in designer-preference ELO (1062, behind only GPT Image 2's 1141 — ahead of Nano Banana 2, Grok Imagine 2K, Luma 1.1, FLUX.2 Pro). Frontier text rendering across languages with bounding-box layout control, 2K photoreal output, and a layer-based generation stack (transparent layers now; editable text and movable image layers in follow-up release; branded-asset generation with typography/palette/logo fidelity soon after). HQ Toronto/SF. Distributed via ideogram.ai, Ideogram API, Ideogram Background Remover; open weights on GitHub. Customers can fine-tune on own brand data, audit training data, run on own hardware. Designed for production design workflows — headlines change, cutouts drop onto new backdrops."
+      },
       "Apple": {
         "name": "Image Playground",
         "url": "https://www.apple.com/apple-intelligence/",
@@ -789,12 +794,12 @@
       "OpenAI": {
         "name": "Realtime Voice",
         "url": "https://developers.openai.com/api/docs/guides/text-to-speech",
-        "description": "Speech generation powered by gpt-realtime-2, gpt-realtime-translate (70+ input, 13 output languages), gpt-realtime-whisper streaming STT (May 7, 2026). Realtime 2: $32/1M audio input, $64/1M output tokens."
+        "description": "Speech generation powered by gpt-realtime-2.1 (July 6, 2026, improved alphanumeric recognition, silence/noise handling, interruption behavior), gpt-realtime-2.1-mini (faster, lower-cost), gpt-realtime-translate (70+ input, 13 output languages), gpt-realtime-whisper streaming STT. p95 latency reduced 25%+ via improved caching. GPT-Realtime-2 (May 7, 2026) remains available alongside -2.1. GPT-Live-1/Live-1 mini (full-duplex, July 8, 2026) is the ChatGPT consumer voice default. Realtime 2.1: $32/1M audio input, $64/1M output tokens."
       },
       "OpenAI-Realtime-2": {
-        "name": "GPT-Realtime-2",
-        "url": "https://developers.openai.com/api/docs/guides/text-to-speech",
-        "description": "GPT-Realtime-2 for voice reasoning with GPT-5-class intelligence, parallel tool calls, preambles (May 7, 2026). 128K context, 5 reasoning effort levels. $32/1M audio input, $64/1M output tokens."
+        "name": "GPT-Realtime-2.1",
+        "url": "https://developers.openai.com/api/docs/models/gpt-realtime-2.1",
+        "description": "GPT-Realtime-2.1 released July 6, 2026 — successor to GPT-Realtime-2 (May 7, 2026, $32/$64 per 1M audio tokens). Improved alphanumeric recognition, silence/noise handling, interruption behavior for natural turn-taking. Speech-to-speech with configurable reasoning effort, instruction following, and tool use for complex voice-agent workflows. p95 latency reduced 25%+ across all Realtime models via improved caching. GPT-Realtime-2.1 mini for faster/lower-cost realtime. $4/$24 per 1M text tokens, $32/$64 audio, $5/$0.50 image. Alias `gpt-realtime-2.1` on the API with snapshot versioning."
       },
       "OpenAI-Realtime-Translate": {
         "name": "GPT-Realtime-Translate",

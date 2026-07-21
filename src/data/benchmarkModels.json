@@ -183,8 +183,8 @@
     "mmlu": 90.0,
     "humaneval": 90.0,
     "livebench": 73.0,
-    "mmluPlus": 89.0,
-    "gpqa": 81.2
+    "mmluPlus": 88.2,
+"gpqa": 81.2
   },
   {
     "id": "gemini-3.1-flash-lite",
@@ -920,7 +920,7 @@
     "mmlu": 87.5,
     "humaneval": 79.0,
     "livebench": 55.0,
-    "mmluPlus": null,
+    "mmluPlus": 83.8,
     "gpqa": 78.3
   },
   {
@@ -983,10 +983,10 @@
     "name": "Kimi K3",
     "provider": "Moonshot",
     "openSource": true,
-    "mmlu": null,
-    "humaneval": null,
-    "livebench": null,
-    "mmluPlus": null,
+    "mmlu": 89.2,
+"humaneval": null,
+"livebench": null,
+    "mmluPlus": 78.5,
     "gpqa": 93.5
   },
   {
@@ -994,9 +994,9 @@
     "name": "Inkling",
     "provider": "Thinking Machines",
     "openSource": true,
-    "mmlu": null,
-    "humaneval": null,
-    "livebench": null,
+    "mmlu": 88.7,
+"humaneval": null,
+"livebench": null,
     "mmluPlus": null,
     "gpqa": 87.2
   }
