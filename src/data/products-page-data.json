@@ -46,6 +46,21 @@
         "url": "https://ernie.baidu.com/blog/posts/ernie-5.1-0508-release/",
         "description": "Baidu's flagship model (May 8, 2026) trained at 6% of comparable pre-training cost. 1,223 score on LMArena Search Arena (#4 global, #1 Chinese). Topped domestic search rankings; strong τ³-bench and SpreadsheetBench-Verified. Powers ernie.baidu.com chat and Qianfan model platform."
       },
+      "Google-Gemini-3.6-Flash": {
+        "name": "Gemini 3.6 Flash",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+        "description": "Google's new workhorse Flash model (launched July 21, 2026) — successor to 3.5 Flash. 17% fewer output tokens than 3.5 Flash on the Artificial Analysis Index, up to 65% fewer on agentic benchmarks like DeepSWE by Datacurve. Knowledge cutoff advanced from January 2025 to March 2026. Priced $1.50/M input and $7.50/M output (down from $9 output on 3.5 Flash). Available in Gemini app, Gemini API (AI Studio, Android Studio), Gemini Enterprise Agent Platform, and Google Antigravity. Ships with enhanced Frontier Safety safeguards for CBRN and cyber-offense domains; substantially more resistant to jailbreaks while minimizing refusals on beneficial uses."
+      },
+      "Google-Gemini-3.5-Flash-Lite": {
+        "name": "Gemini 3.5 Flash-Lite",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+        "description": "Google's fastest, most cost-effective 3.5-class model (launched July 21, 2026). 350 output tokens/s per Artificial Analysis Index. Priced $0.30/M input, $2.50/M output. Significantly outperforms 3.1 Flash-Lite in agentic workflows across thinking levels; supports minimal/low/high thinking effort to trade latency for depth. Computer use is a built-in tool. Rolling out in Gemini app, Gemini API, Gemini Enterprise Agent Platform, and Google Search."
+      },
+      "Google-Gemini-3.5-Flash-Cyber": {
+        "name": "Gemini 3.5 Flash Cyber",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+        "description": "Google's cyber-security fine-tune of 3.5 Flash (announced July 21, 2026), built for finding, validating, and patching code vulnerabilities at lower per-token cost than larger models. Runs inside CodeMender, Google DeepMind's code-security agent — multiple 3.5 Flash Cyber agents combine into a single combined report; competitive performance on CyberGym benchmark. Restricted availability via limited-access pilot to governments and trusted partners to mitigate broader misuse risk."
+      },
       "SpaceXAI": {
         "name": "Grok 4.3",
         "url": "https://docs.x.ai/overview",
@@ -114,6 +129,11 @@
         "name": "Inkling",
         "url": "https://thinkingmachines.ai/news/introducing-inkling/",
         "description": "Thinking Machines Lab's first open-weight multimodal MoE (launched July 15, 2026, by Mira Murati's team). 975B total / 41B active, 1M-token context, pretrained on 45T tokens of text + images + audio + video, natively multimodal. Day-0 weights on Hugging Face in BF16 and NVFP4 (Blackwell-optimized) checkpoints with speculative MTP layers; day-0 support in transformers, SGLang, vLLM, llama.cpp. First model trained end-to-end on NVIDIA GB300 NVL72 systems via the Tinker customization partnership. Thinking Machines explicitly states Inkling is 'not the strongest overall model available today, open or closed' — positioned as a broad, balanced base for fine-tuning on Tinker (their customization platform) rather than a leaderboard topper. Available at 50% launch discount on Tinker (64K and 256K context); Inkling-Small (276B total / 12B active) previewing now, weights pending. Bridgewater Associates and others already cite strong fine-tuning results. Deployed via TogetherAI, Fireworks, Modal, Databricks, Baseten. Companion: Inkling Playground in Tinker console with agentic web search."
+      },
+      "Mind Lab": {
+        "name": "Macaron-V1",
+        "url": "https://macaron.im/mindlab/research/introducing-macaron-v1",
+        "description": "Mind Lab's first official agent model release (July 21, 2026) — open-weight flagship with Mixture-of-LoRA (MoL) architecture, separate LoRA specialists for agent, coding, chat, and Generative UI tasks. Two variants: Macaron-V1-Venti (748B parameters, 744B base GLM-5.2 + four 1B LoRA specialists; first model post-trained from GLM-5.2) and Macaron-V1-Tall (50B parameters, 35B Qwen 3.6 base + four 3.7B LoRA specialists, designed for local deployment). LongStraw enables training at context lengths up to 2M tokens; MindForge/MinT agentic RL infrastructure trained on production Pi and Claude Code harness. Evaluated on VitaBench, PinchBench, SWE-Verified, DeepSWE, SWE Atlas QnA, TerminalBench 2.1, UI4A-Bench — Venti matches or outperforms Opus 4.8, GPT-5.5, and Gemini 3.1 Pro across most tracks while remaining open and self-hostable. Coding is the closest-to-frontier track, not ahead. UI4A is Macaron's code-native Generative UI solution. Open weights on Hugging Face (macaron-v1-venti, macaron-v1-coding-venti, macaron-v1-tall); hosted API at mint.macaron.im (overseas) and mintcn.macaron.xin (China). Macaron Artifacts Claude Code plugin visualizes UI4A output."
       }
     }
   },
@@ -128,6 +148,11 @@
         "name": "ChatGPT",
         "url": "https://developers.openai.com/chatgpt",
         "description": "Powered by GPT-5.5 with GPT-5.5 Instant as default since June 3, 2026 (readability upgrade May 28); GPT-5.6 (Sol/Terra/Luna) GA July 9, 2026 now available in ChatGPT alongside Codex and the new ChatGPT Work agent. Personal Finance experience (May 15) for Pro users with Plaid. ChatGPT for Excel and Google Sheets GA (May 5). Voice intelligence updates May 7 with GPT-Realtime-2, GPT-Realtime-Translate, GPT-Realtime-Whisper. Codex Mobile interface in ChatGPT iOS/Android (May 14, 2026) with worktrees, Codex profile screen, /goal support, inline review comments. OpenAI Partner Network launched June 14, 2026 with $150M program and three tiers (Select/Advanced/Elite) targeting 300,000 certified consultants by end of 2026 — Forward Deployed Experts pilot for complex enterprise deployments. Pinned Chats and revamped Projects rolled out across web/Android/iOS on June 15, 2026. o3 Pro Mode launched in ChatGPT Pro on June 16, 2026 (gated behind $200/mo Pro tier). Visa-OpenAI payment integration announced June 15, 2026 to embed secure global payments directly inside ChatGPT for agentic shopping. June 17, 2026: Scheduled Tasks feature (replaces Pulse in 14 days). Codex Europe/UK/Switzerland expansion June 17, 2026. June 18, 2026: GPT-5.5 Instant health intelligence upgrade (HealthBench Professional); ChatGPT for Clinicians and OpenAI for Healthcare specialized tools. Daybreak / GPT-5.5-Cyber full release (June 22, 2026) with Codex Security plugin, Daybreak Cyber Partner Program, and 'Patch the Planet' coordination with Trail of Bits and HackerOne. GPT-5.5 Instant upgraded June 24, 2026 with improved intent understanding and stronger multi-turn context retention; Dreaming V3 (June 23, 2026). ChatGPT Work launched July 9, 2026 as a new agent for finishing real work across apps/files (sheets, slides, docs, web apps); stays with complex projects for hours, breaks them into smaller steps, runs tasks independently; powered by GPT-5.6; rolling out today on web and mobile for Pro/Enterprise/Edu, over the next few days to Plus/Business; ChatGPT desktop app now combines Chat/Work/Codex across Mac and Windows."
+      },
+      "Anthropic-Cowork": {
+        "name": "Claude Cowork",
+        "url": "https://claude.com/product/overview",
+        "description": "Anthropic's shared workspace for Claude (GA April 9, 2026 on macOS/Windows). Claude-controlled environment that edits files, organizes folders, and interacts with apps on Anthropic's servers — not the user's local machine. July 21, 2026: Record a Skill launched for Pro, Max, and Team — screen-record a workflow once (browser or computer use) and Claude analyzes the recording to generate a reusable, rerunnable skill. No prompt engineering required; the recording itself is the specification. Connector suggestions appear when one exists for a step in the recording. Phased rollout; early use cases include filing expenses, LinkedIn tasks, email replies, and trading alerts. Converges with ChatGPT's record-and-replay pattern (June 18, 2026) — both vendors shipping 'watch me do it once, then automate it' primitives in parallel."
       },
       "Anthropic": {
         "name": "Claude",
@@ -553,6 +578,16 @@
         "url": "https://www.jetbrains.com/ai/",
         "description": "In-IDE assistant for completion, chat, refactors, and team model routing. Junie integration, ACP Agent Registry, BYOK support. Mellum2 12B open-source model (June 1, 2026, Apache 2.0) integrates into IntelliJ IDEA, PyCharm, WebStorm, and Android Studio via the AI Assistant plugin for local/on-prem code intelligence — base, instruct, and thinking checkpoints on Hugging Face, runs in PyTorch/GGUF with Ollama and vLLM support. TeamCity AI Assistant in Enterprise trial."
       },
+      "JetBrains-Context": {
+        "name": "JetBrains Context",
+        "url": "https://blog.jetbrains.com/ai/2026/07/introducing-jetbrains-context-repository-intelligence-for-coding-agents/",
+        "description": "JetBrains's repository intelligence layer for coding agents (early access from July 21, 2026, included with JetBrains AI subscription). Incrementally builds a semantic index of repositories and exposes semantic retrieval tools so agents like Claude Code, Codex CLI, and Junie CLI can ask questions directly instead of repeatedly searching and reading files. Multi-repo search discovers relevant code across an organization's codebase, including repositories not checked out locally — validates APIs/dependencies, surfaces reusable code, enforces architecture conformity. Validated on 205 open-source SWE-bench tasks, 175 production-monorepo tasks, and 1,953 code-localization tasks: up to 68% fewer agent turns, 59% lower latency, 48% lower execution cost. Source code stays local; the backend never stores source. `jbcontext` CLI for setup, login, indexing, analytics. Recommended Agent in AI Chat now defaults to Codex for JVM/.NET/Python."
+      },
+      "Vercel": {
+        "name": "Vercel Agent",
+        "url": "https://vercel.com/blog/vercel-agent",
+        "description": "Vercel's production-first responder for deployed apps and agents (expanded July 21, 2026). Lives in the Vercel Dashboard; autonomously investigates production logs, metrics, and deployments when something changes, finds the root cause, and proposes a fix before you've opened your laptop. Read-only by default; works under its own identity; reach it through Vercel Dashboard, GitHub, and the CLI. Per-action permission model: proposing a plan (rollback deploy, change config, clear cache) requests access scoped specifically to that plan, and the agent drops back to read-only after completion. Code generated by the agent runs in Vercel Sandbox, an ephemeral Firecracker microVM isolated from live systems. Capabilities: review a pull request and flag performance regressions a passing CI run won't show; trace a cost increase back to the change that caused it; fix a broken build by reading logs, asking permission, and testing in a sandbox. Coming soon: delegation to specialists (deep security review, design/UX review). Available to Pro and Enterprise teams; enable in the Agent section of the dashboard."
+      },
       "Cursor": {
         "name": "Background Agent (owned by SpaceX)",
         "url": "https://www.cursor.com",
@@ -800,6 +835,11 @@
         "name": "GPT-Realtime-2.1",
         "url": "https://developers.openai.com/api/docs/models/gpt-realtime-2.1",
         "description": "GPT-Realtime-2.1 released July 6, 2026 — successor to GPT-Realtime-2 (May 7, 2026, $32/$64 per 1M audio tokens). Improved alphanumeric recognition, silence/noise handling, interruption behavior for natural turn-taking. Speech-to-speech with configurable reasoning effort, instruction following, and tool use for complex voice-agent workflows. p95 latency reduced 25%+ across all Realtime models via improved caching. GPT-Realtime-2.1 mini for faster/lower-cost realtime. $4/$24 per 1M text tokens, $32/$64 audio, $5/$0.50 image. Alias `gpt-realtime-2.1` on the API with snapshot versioning."
+      },
+      "OpenAI-Realtime-2-Mini": {
+        "name": "GPT-Realtime-2.1-Mini",
+        "url": "https://developers.openai.com/api/docs/models/gpt-realtime-2.1-mini",
+        "description": "GPT-Realtime-2.1-Mini (July 6, 2026) — distilled reasoning model for faster, lower-cost realtime voice. First mini Realtime tier with reasoning + tool use / function calling enabled (prior mini lacked reasoning). Audio and text inputs over WebRTC, WebSocket, or SIP. Same price as the previous gpt-realtime-mini: $0.60/M text input, $2.40/M text output, $10/M audio input, $20/M audio output, $0.80/M image input. Significantly improves alphanumeric recognition vs GPT-Realtime-2. Ships at the mini cost envelope while supporting the full voice-agent execution loop — audio in → intent reasoning → tool call → verification → response. Replaces gpt-realtime-mini in the API; backward-compatible model alias."
       },
       "OpenAI-Realtime-Translate": {
         "name": "GPT-Realtime-Translate",

@@ -1972,5 +1972,29 @@
     "functionCalling": true,
     "json": true,
     "search": false
+  },
+  {
+    "id": "gpt-oss-120b",
+    "name": "gpt-oss-120b",
+    "provider": "OpenAI",
+    "openSource": true,
+    "license": "Apache 2.0",
+    "releaseDate": "2026-08-05",
+    "parameters": 120000000000,
+    "modelSizeGB": 240,
+    "contextLength": 131072,
+    "inputPrice": 0.15,
+    "outputPrice": 0.6,
+    "free": false,
+    "mmlu": 80.8,
+    "mmluPlus": 80.8,
+    "humaneval": 88,
+    "liveBench": 72,
+    "gpqa": 80.1,
+    "multimodal": false,
+    "vision": false,
+    "functionCalling": true,
+    "json": true,
+    "search": false
   }
 ]

@@ -15,6 +15,9 @@ const companyOrder = [
   'Google-NanoBanana-Lite',
   'Google-Omni-Flash',
   'Google-Stitch',
+  'Google-Gemini-3.6-Flash',
+  'Google-Gemini-3.5-Flash-Lite',
+  'Google-Gemini-3.5-Flash-Cyber',
   'Apple',
   'Microsoft',
   'Microsoft-Code',
@@ -27,8 +30,10 @@ const companyOrder = [
   'Claude Tag',
   'Claude Science',
   'Anthropic-Reflect',
+  'Anthropic-Cowork',
   'OpenAI',
   'OpenAI-Realtime-2',
+  'OpenAI-Realtime-2-Mini',
   'OpenAI-Realtime-Translate',
   'OpenAI-Realtime-Whisper',
   'OpenAI-GPT-Live',
@@ -47,11 +52,13 @@ const companyOrder = [
   'ThinkingMachines',
   'MiniMax',
   'Z.ai',
+  'Mind Lab',
   'Perplexity',
   'Computer for Counsel',
   'Cognition',
   'Cohere',
   'JetBrains',
+  'JetBrains-Context',
   'ElevenLabs',
   'Cartesia',
   'Runway',
@@ -106,7 +113,8 @@ const companyOrder = [
   'OpenRouter-Image',
   'OpenRouter-Fusion',
   'Reve',
-  'Ideogram'
+  'Ideogram',
+  'Vercel'
 ];
 
 
@@ -270,6 +278,14 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
     'Google-Stitch': 'backgroundColor:rgba(59, 130, 246, 0.2);color:#93c5fd;borderColor:rgba(59, 130, 246, 0.4)',
     Omilia: 'backgroundColor:rgba(217, 119, 6, 0.2);color:#f59e0b;borderColor:rgba(217, 119, 6, 0.3)',
     Ideogram: 'backgroundColor:rgba(244, 63, 94, 0.2);color:#fb7185;borderColor:rgba(244, 63, 94, 0.3)',
+    'Google-Gemini-3.6-Flash': 'backgroundColor:rgba(59, 130, 246, 0.2);color:#60a5fa;borderColor:rgba(59, 130, 246, 0.5)',
+    'Google-Gemini-3.5-Flash-Lite': 'backgroundColor:rgba(59, 130, 246, 0.15);color:#bfdbfe;borderColor:rgba(59, 130, 246, 0.3)',
+    'Google-Gemini-3.5-Flash-Cyber': 'backgroundColor:rgba(59, 130, 246, 0.2);color:#1e40af;borderColor:rgba(59, 130, 246, 0.4)',
+    'OpenAI-Realtime-2-Mini': 'backgroundColor:rgba(34, 197, 94, 0.15);color:#86efac;borderColor:rgba(34, 197, 94, 0.3)',
+    'Anthropic-Cowork': 'backgroundColor:rgba(249, 115, 22, 0.15);color:#fdba74;borderColor:rgba(249, 115, 22, 0.3)',
+    'JetBrains-Context': 'backgroundColor:rgba(99, 102, 241, 0.15);color:#a5b4fc;borderColor:rgba(99, 102, 241, 0.3)',
+    'Mind Lab': 'backgroundColor:rgba(236, 72, 153, 0.2);color:#f9a8d4;borderColor:rgba(236, 72, 153, 0.3)',
+    Vercel: 'backgroundColor:rgba(255, 255, 255, 0.08);color:#ffffff;borderColor:rgba(255, 255, 255, 0.15)',
   };
 
   const style =

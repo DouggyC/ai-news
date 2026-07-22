@@ -1,5 +1,95 @@
 [
   {
+    "id": "google-gemini-3-6-flash-3-5-flash-lite-cyber-2026-07-21",
+    "title": "Google ships Gemini 3.6 Flash, 3.5 Flash-Lite and cybersecurity-tuned 3.5 Flash Cyber",
+    "summary": "Google DeepMind on July 21, 2026 released three new Gemini models — 3.6 Flash as the new 'workhorse' replacing 3.5 Flash (17% fewer output tokens per task, up to 65% fewer on DeepSWE at lower cost per output token), 3.5 Flash-Lite at 350 output tokens/s and $0.30/$2.50 per million in/out tokens, and 3.5 Flash Cyber — a fine-tuned cybersecurity model available exclusively to governments and trusted partners via CodeMender. DeepMind also confirmed Gemini 3.5 Pro is still in partner testing and that pre-training for Gemini 4 has begun — its 'most ambitious pre-training run yet' — while 3.5 Flash is being deprecated.",
+    "source": "Google",
+    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+    "imageUrl": "https://deepmind.google/favicon.ico",
+    "category": "model",
+    "publishedAt": "2026-07-21"
+  },
+  {
+    "id": "anthropic-teach-claude-a-skill-cowork-record-2026-07-21",
+    "title": "Anthropic ships 'Record a Skill' in Claude Cowork — screen-record a workflow, Claude turns it into a rerunnable skill",
+    "summary": "Anthropic on July 21, 2026 launched Record a Skill in Claude Cowork — a screen-recording feature that lets Pro, Max and Team users demonstrate a task once while narrating, then have Claude analyze the workflow and turn it into a reusable, rerunnable skill (with connector suggestions when they exist). The release eliminates the manual 'write the automation prompt' step, builds on Cowork's shared workspace that edits files and runs on Anthropic's own servers, and is being phased out to eligible users alongside a renewed privacy discussion about what data screen recordings may capture and whether the resulting skills improve future models.",
+    "source": "Anthropic",
+    "sourceUrl": "https://www.androidauthority.com/claude-cowork-record-skills-feature-3689919/",
+    "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
+    "category": "product",
+    "publishedAt": "2026-07-21"
+  },
+  {
+    "id": "microsoft-mistral-strategic-partnership-expansion-2026-07-21",
+    "title": "Microsoft + Mistral expand strategic partnership — multibillion-dollar deal puts Mistral Medium 3.5 in Foundry, Copilot Studio and Azure",
+    "summary": "Microsoft and Mistral on July 21, 2026 announced a major expansion of their strategic partnership: a multibillion-dollar agreement to scale Europe's AI infrastructure (Mistral drawing on thousands of NVIDIA Vera Rubin GPUs), Mistral Medium 3.5 and OCR 4 added to Microsoft Foundry, Mistral Medium 3.5 brought into Microsoft Copilot Studio, and joint go-to-market targeting regulated industries across Europe and globally — giving enterprise customers sovereign deployment options and Azure Local support so Mistral models can run from cloud-scale to fully disconnected environments.",
+    "source": "Microsoft",
+    "sourceUrl": "https://news.microsoft.com/source/2026/07/21/microsoft-and-mistral-expand-strategic-partnership-to-give-enterprises-and-regulated-industries-frontier-ai-they-can-control/",
+    "imageUrl": "https://www.microsoft.com/favicon.ico",
+    "category": "product",
+    "publishedAt": "2026-07-21"
+  },
+  {
+    "id": "nvidia-vera-rubin-nvl72-ga-global-rollout-2026-07-21",
+    "title": "NVIDIA Vera Rubin NVL72 enters full production — 10× tokens/MW, racks live at CoreWeave, Google Cloud, Microsoft Azure, Oracle",
+    "summary": "NVIDIA on July 21, 2026 announced that Vera Rubin NVL72 has entered full production at partner sites spanning 350+ factories in 30 countries, with CoreWeave's first benchmark on DeepSeek-R1 showing 10× more tokens per second per megawatt versus Grace Blackwell NVL72 — landing directly on the metric that determines whether AI factories scale profitably. The platform underpins the expanded Microsoft–Mistral partnership (tens of thousands of Rubin GPUs for Europe's sovereign AI infrastructure), powers Google Cloud's new A5X instances, anchors Bristol Myers Squibb's life-science AI factory, ships Spectrum-6 networking to CoreWeave/Microsoft/Nebius/SpaceXAI/Tesla, and enables a $12,500/month Anthropic compute lease — with Vera CPU alone now doubling DeepInfra's AI-agent orchestration speed.",
+    "source": "NVIDIA",
+    "sourceUrl": "https://blogs.nvidia.com/blog/vera-rubin/",
+    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
+    "category": "product",
+    "publishedAt": "2026-07-21"
+  },
+  {
+    "id": "moonshot-kimi-k3-demand-surge-pauses-signups-2026-07-19",
+    "title": "Moonshot pauses Kimi K3 sign-ups as demand pushes capacity to its limits — 2.8T open-weight launch rattles global chip stocks",
+    "summary": "Moonshot AI on July 19, 2026 paused new Kimi K3 subscriptions 48 hours after launch, saying demand 'pushed close to the limits of our current capacity' — existing subscribers unaffected, new slots reopening 'in batches.' The crunch is amplified by the fact that K3's open weights don't drop until July 27, so all usage currently funnels through Moonshot's own servers; the pause comes as K3 topped Arena's coding leaderboard, helped wipe out roughly $3 trillion in global semiconductor value within days, and pushed Moonshot's ARR to $300M (vs $200M in April) ahead of a planned Hong Kong listing at a reported $30B+ valuation.",
+    "source": "Moonshot",
+    "sourceUrl": "https://thenextweb.com/news/moonshot-kimi-k3-subscriptions-paused-gpu-capacity",
+    "imageUrl": "https://kimi.com/favicon.ico",
+    "category": "capability",
+    "publishedAt": "2026-07-19"
+  },
+  {
+    "id": "alibaba-qwen-3-8-max-preview-2-4t-claims-second-only-to-fable-2026-07-19",
+    "title": "Alibaba previews Qwen3.8-Max — 2.4T-parameter multimodal model claimed 'second only to Claude Fable 5'",
+    "summary": "Alibaba on July 19, 2026 at WAIC Shanghai previewed Qwen3.8-Max-Preview, a 2.4-trillion-parameter multimodal model (text, image, video, documents) — the first Qwen above 1T to handle multiple modalities — and billed it as 'second only to Fable 5' on its official X account. The preview is live on Alibaba's Token Plan and Qoder/QoderWork developer platforms at 10% of standard rates, with open weights promised 'soon' but no date, model card, activated-parameter count, or benchmark scores released — a notable departure from May's Qwen3.7-Max launch, which shipped with full published numbers.",
+    "source": "Alibaba",
+    "sourceUrl": "https://siliconangle.com/2026/07/19/alibaba-previews-qwen3-8-claims-second-claude-fable-5/",
+    "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
+    "category": "model",
+    "publishedAt": "2026-07-19"
+  },
+  {
+    "id": "mistral-large-3-128k-context-function-calling-2026-07-17",
+    "title": "Mistral releases Mistral Large 3 — 128K context and function-calling schema that cuts token overhead ~30%",
+    "summary": "Mistral AI on July 17, 2026 released Mistral Large 3 on la Plateforme and Azure AI Foundry — its latest flagship — headlined by a 128K context window and a reworked function-calling schema that Mistral claims reduces token overhead in tool-use workflows by up to 30%. The release is Mistral's clearest enterprise-differentiation move this cycle: by burning less of the context window on verbose JSON schema serialization per turn, multi-tool agentic pipelines become meaningfully cheaper to run at the same quality.",
+    "source": "Mistral",
+    "sourceUrl": "https://shiporskip.io/news/mistral-large-3-api-128k-context-function-calling",
+    "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
+    "category": "model",
+    "publishedAt": "2026-07-17"
+  },
+  {
+    "id": "apple-ios-27-public-beta-siri-ai-launches-2026-07-14",
+    "title": "Apple opens Siri AI + Foundation Models framework to public beta with iOS 27 — first broad test of the ChatGPT/Gemini/Claude rival",
+    "summary": "Apple on July 14, 2026 released the iOS 27 public beta, opening its all-new Siri AI and Apple Intelligence Foundation Models to its largest test audience yet — 2.5 billion devices — before the fall launch. Siri AI uses an on-device model and a new PrivateCloudComputeLanguageModel (32K context, configurable reasoning level, no API keys, fully private), and the Foundation Models framework itself is going open source with new tools (BarcodeReader, OCR via Vision, Spotlight-powered local RAG) and a 'fm' CLI for macOS 27 — letting developers build agentic apps on top of Apple's own stack plus distilled Gemini collaborators.",
+    "source": "Apple",
+    "sourceUrl": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
+    "imageUrl": "https://www.apple.com/favicon.ico",
+    "category": "product",
+    "publishedAt": "2026-07-14"
+  },
+  {
+    "id": "moonshot-kimi-k3-2-8t-open-weight-flagship-2026-07-16",
+    "title": "Moonshot releases Kimi K3 — 2.8T open-weight flagship",
+    "summary": "Moonshot AI released Kimi K3 on July 16, 2026 — a 2.8-trillion-parameter mixture-of-experts model with 1M-token context, native multimodal input (text/image/video), and always-on reasoning at max effort. Scored 93.5% on GPQA Diamond (best open-weight result) and 57 on the AA Intelligence Index (4th globally, on par with Claude Opus 4.8 and GPT-5.5). Pricing $3/$15 per million tokens (cache-hit input $0.30). Full open weights drop July 27, 2026. Beats Claude Fable 5 on Terminal-Bench 2.1.",
+    "source": "Moonshot",
+    "sourceUrl": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
+    "imageUrl": "https://kimi.com/favicon.ico",
+    "category": "model",
+    "publishedAt": "2026-07-16"
+  },
+  {
     "id": "openai-sol-ultra-cycle-double-cover-2026-07-11",
     "title": "OpenAI's GPT-5.6 Sol Ultra proves 50-year-old Cycle Double Cover Conjecture in under an hour",
     "summary": "OpenAI on July 11, 2026 announced that GPT-5.6 Sol Ultra produced a complete proof of the Cycle Double Cover Conjecture using 64 subagents working in parallel, finishing in under an hour despite being instructed to compute for at least eight hours — University of Manchester mathematician Thomas Bloom called the proof 'very nice,' noting it is 'short, elementary, and could have been discovered in the 1980s,' highlighting the system's novel parallel sub-agent research workflow.",
@@ -70,16 +160,6 @@
     "publishedAt": "2026-07-10"
   },
   {
-    "id": "anthropic-fable-5-credit-access-2026-07-07",
-    "title": "Anthropic restricts Fable 5 to credit-based access — extends deadline to July 12 after backlash",
-    "summary": "Anthropic on July 7, 2026 announced that starting midnight July 8, Claude Fable 5 would require credit-based pay-per-use or an API/VPS deployment ($10/$50 per million in/out tokens) instead of regular Claude subscriptions — Anthropic engineer Thariq Shihipar later said on X that Fable 5 will return to standard plans 'when capacity allows'; following online backlash Anthropic extended Fable 5 access to existing Claude subscribers until July 12, narrowing what was initially framed as a one-week window.",
-    "source": "Anthropic",
-    "sourceUrl": "https://www.androidauthority.com/anthropic-claude-fable-5-credits-usage-july-3684840/",
-    "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
-    "category": "capability",
-    "publishedAt": "2026-07-07"
-  },
-  {
     "id": "spacexai-grok-4-5-public-release-2026-07-08",
     "title": "xAI/SpaceXAI ships Grok 4.5 — Opus-class at $2/$6, Cursor-trained, public July 9",
     "summary": "xAI/SpaceXAI on July 8, 2026 released Grok 4.5, its first major model since the SpaceX merger and going public — built on a 1.5T-parameter V9 foundation, supplemented with Cursor data, served at 80 TPS for $2 input / $6 output per million tokens, and called 'Opus-class, but faster, more token-efficient and lower cost' by Elon Musk; benchmarks put it #1 on Harvey's Legal Agent Benchmark, with ~4.2× fewer output tokens than Opus 4.8 (max) on SWE-Bench Pro and Cursor/SpaceXAI console availability on all plans starting July 9, EU rollout mid-July.",
@@ -100,26 +180,6 @@
     "publishedAt": "2026-07-09"
   },
   {
-    "id": "meta-muse-image-launch-2026-07-07",
-    "title": "Meta ships Muse Image — first image gen model from Meta Superintelligence Labs, plus Muse Video preview",
-    "summary": "Meta on July 7, 2026 launched Muse Image, the first image generation model from Meta Superintelligence Labs, inside Meta AI and 30+ new Instagram Stories effects with WhatsApp image generation rolling out in select countries and Advantage+ access for advertisers in coming weeks; Muse Image pairs with Muse Spark for layout planning, can call search/coding tools to render legible text and working QR codes, is free for everyday creation with subscription tiers for extra capacity, and ships alongside a preview of Muse Video (native audio, public release TBD) — letting Meta drop third-party image systems it had been licensing.",
-    "source": "Meta",
-    "sourceUrl": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
-    "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
-    "category": "model",
-    "publishedAt": "2026-07-07"
-  },
-  {
-    "id": "nvidia-xr-ai-developer-library-2026-07-10",
-    "title": "NVIDIA launches XR AI developer library with Siemens and Rana partnerships",
-    "summary": "NVIDIA on July 10, 2026 opened the public beta of NVIDIA XR AI, a developer library connecting AR/XR device inputs (video, audio, depth, pose, sensors) to AI models, tools and accelerated computing — Siemens is using it for factory-maintenance workflows while AutoBio's Rana is integrating LabOS for stem-cell and gene-editing research with Meta, Rokid and VITURE smart glasses, marking NVIDIA's first dedicated stack for multimodal on-device AR agents.",
-    "source": "NVIDIA",
-    "sourceUrl": "https://develop3d.com/ai/nvidia-xr-ai-developer-library-launched/",
-    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
-    "category": "tool",
-    "publishedAt": "2026-07-10"
-  },
-  {
     "id": "nvidia-nemotron-labs-diffusion-tri-mode-2026-07-09",
     "title": "NVIDIA ships Nemotron-Labs-Diffusion — single tri-mode LLM with AR + diffusion + self-speculation",
     "summary": "NVIDIA on July 9, 2026 released Nemotron-Labs-Diffusion, a tri-mode open-weight LLM family (3B/8B/14B, base/instruct/VLM) that unifies autoregressive, diffusion-parallel and self-speculation decoding in one checkpoint by switching only the attention pattern; the 8B instruct variant decodes ~6× more tokens per forward pass than Qwen3-8B and hits 4× higher throughput on SPEED-Bench with SGLang on a GB200 GPU, with self-speculation averaging 6.82 accepted tokens per draft step (vs Eagle3's 2.75). Weights are on Hugging Face under the NVIDIA Nemotron Open Model License with vLLM and SGLang support — eliminating the separate draft model that has blocked widespread speculative-decoding deployment and turning expensive inference into something deployable at consumer scale.",
@@ -137,16 +197,6 @@
     "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-vera-max-single-threaded-cpu-at-scale/",
     "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
     "category": "product",
-    "publishedAt": "2026-07-07"
-  },
-  {
-    "id": "nvidia-huggingface-lerobot-gr00t-2026-07-07",
-    "title": "NVIDIA + Hugging Face bring Isaac GR00T 1.7 and Cosmos 3 to LeRobot open robotics stack",
-    "summary": "NVIDIA and Hugging Face on July 7, 2026 integrated NVIDIA Isaac GR00T 1.7 (open VLA model for humanoid robots) and the NVIDIA Isaac Teleop framework into LeRobot, with NVIDIA Cosmos 3 world-foundation model integration planned — letting developers collect data, train, fine-tune and deploy robot foundation models through a single open-source workflow; NVIDIA Jetson Thor integration with LeRobot's Reachy 2 supports VLA model deployment on open-source humanoid robots, with Cosmos 3 set to bring frontier physical-AI world models into the same loop.",
-    "source": "NVIDIA",
-    "sourceUrl": "https://blogs.nvidia.com/blog/hugging-face-lerobot-models-frameworks-open-robotics/",
-    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
-    "category": "capability",
     "publishedAt": "2026-07-07"
   },
   {
@@ -180,26 +230,6 @@
     "publishedAt": "2026-07-09"
   },
   {
-    "id": "microsoft-foundry-hugging-face-managed-compute-2026-07-07",
-    "title": "Microsoft Foundry brings Hugging Face models onto Foundry Managed Compute with weekly refresh",
-    "summary": "Microsoft on July 7, 2026 opened the Hugging Face Collection in the Microsoft Foundry Model Catalog — thousands of open-weight models refreshed weekly, deployable one click onto Foundry Managed Compute (NVIDIA A100, H100 or AMD MI300X) with pre-staged weights in Azure storage, Microsoft-built runtimes (vLLM, SGLang, TensorRT-LLM, NIM, TEI, llama.cpp), automatic CVE patching, pay-per-accelerator-hour pricing with scale-to-zero, and global/Data Zone deployment scopes; Foundry Managed Compute is the third deployment option in Foundry alongside pay-per-token and provisioned throughput.",
-    "source": "Microsoft",
-    "sourceUrl": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
-    "imageUrl": "https://www.microsoft.com/favicon.ico",
-    "category": "product",
-    "publishedAt": "2026-07-07"
-  },
-  {
-    "id": "deepseek-custom-ai-inference-chip-2026-07-07",
-    "title": "DeepSeek develops in-house AI inference chip — moves to break Nvidia/Huawei dependence",
-    "summary": "DeepSeek is developing its own AI chip focused on inference rather than training, Reuters reported July 7, 2026 — three sources say the Hangzhou-based company has been reaching out to chip-design, foundry and memory partners for about a year and is privately hiring chip-design engineers, targeting reduced dependence on Nvidia and Huawei as U.S. export controls push Chinese AI labs toward domestic silicon; the move comes as DeepSeek prepares to close its first external funding round at a reported $52–59B valuation, with V4 already adapted for Huawei Ascend chips and orders for Ascend 950 surging after V4-Flash's launch.",
-    "source": "DeepSeek",
-    "sourceUrl": "https://cybernews.com/ai-news/deepseek-dependence-nvidia-chips/",
-    "imageUrl": "https://thedecoder.com/wp-content/uploads/2026/06/DeepSeek-Feature.jpg",
-    "category": "product",
-    "publishedAt": "2026-07-07"
-  },
-  {
     "id": "google-sensorfm-wearable-foundation-model-2026-07-09",
     "title": "Google Research unveils SensorFM — wearable health foundation model pretrained on 1 trillion minutes of data",
     "summary": "Google Research on July 9, 2026 introduced SensorFM, a foundation model for wearable health pretrained on over 1 trillion minutes of unlabeled sensor signals from 5 million consented Fitbit/Pixel Watch participants across 100+ countries, fusing heart rate, skin temperature, sleep, blood-oxygen and movement data; evaluated across 35 clinical and behavioral discriminative tasks (cardiovascular, metabolic, sleep, mental health and lifestyle), the model demonstrates systematic improvements with joint scaling of capacity and pretraining volume and enables a Personal Health Agent built on a 'classroom' of LLM agents that autonomously searches the predictive-head space, validated against 1,860 clinician ratings.",
@@ -208,26 +238,5 @@
     "imageUrl": "https://deepmind.google/favicon.ico",
     "category": "research",
     "publishedAt": "2026-07-09"
-  },
-  {
-    "id": "mistral-robostral-navigate-2026-07-08",
-    "title": "Mistral ships Robostral Navigate — 8B embodied-navigation model from a single RGB camera",
-    "summary": "Mistral AI on July 8, 2026 introduced Robostral Navigate, its first robotics model — an 8B vision-language-action model that navigates robots from RGB images and plain-language instructions without LiDAR, depth sensors or multiple cameras, hitting 76.6% on R2R-CE validation unseen (+9.7 points vs the best single-camera baseline); trained entirely in simulation across ~400,000 trajectories in 6,000 scenes with prefix-caching cutting training tokens 22× and online RL with CISPO adding another 3.2 points, launching after Mistral's May acquisition of Emmi AI and ahead of a broader physical-AI roadmap.",
-    "source": "Mistral",
-    "sourceUrl": "https://mistral.ai/news/robostral-navigate/",
-    "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
-    "category": "model",
-    "publishedAt": "2026-07-08"
-  },
-  {
-    "id": "moonshot-kimi-k3-2-8t-open-weight-flagship-2026-07-16",
-    "title": "Moonshot releases Kimi K3 — 2.8T open-weight flagship",
-    "source": "Moonshot",
-    "category": "model",
-    "imageUrl": "https://kimi.com/favicon.ico",
-    "sourceUrl": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
-    "text": "Moonshot AI released Kimi K3 on July 16, 2026 — a 2.8-trillion-parameter mixture-of-experts model with 1M-token context, native multimodal input (text/image/video), and always-on reasoning at max effort. Scored 93.5% on GPQA Diamond (best open-weight result) and 57 on the AA Intelligence Index (4th globally, on par with Claude Opus 4.8 and GPT-5.5). Pricing $3/$15 per million tokens (cache-hit input $0.30). Full open weights drop July 27, 2026. Beats Claude Fable 5 on Terminal-Bench 2.1.",
-    "publishedAt": "2026-07-16",
-    "summary": "Moonshot AI released Kimi K3 on July 16, 2026 — a 2.8-trillion-parameter mixture-of-experts model with 1M-token context, native multimodal input (text/image/video), and always-on reasoning at max effort. Scored 93.5% on GPQA Diamond (best open-weight result) and 57 on the AA Inte..."
   }
 ]

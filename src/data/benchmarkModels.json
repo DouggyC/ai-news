@@ -129,7 +129,7 @@
     "humaneval": 93.7,
     "livebench": 76.3,
     "mmluPlus": null,
-    "gpqa": 84.0
+    "gpqa": 89.6
   },
   {
     "id": "claude-sonnet-4.6",
@@ -140,7 +140,7 @@
     "humaneval": 95.0,
     "livebench": 75.5,
     "mmluPlus": null,
-    "gpqa": 79.9
+    "gpqa": 87.5
   },
   {
     "id": "claude-haiku-4.5",
@@ -183,8 +183,8 @@
     "mmlu": 90.0,
     "humaneval": 90.0,
     "livebench": 73.0,
-    "mmluPlus": 88.2,
-"gpqa": 81.2
+    "mmluPlus": 89.0,
+    "gpqa": 89.8
   },
   {
     "id": "gemini-3.1-flash-lite",
@@ -634,8 +634,8 @@
     "mmlu": 90.0,
     "humaneval": 95.0,
     "livebench": 74.3,
-    "mmluPlus": null,
-    "gpqa": 89.9
+    "mmluPlus": 87.4,
+    "gpqa": 90.3
   },
   {
     "id": "gpt-5.4-nano",
@@ -799,8 +799,8 @@
     "mmlu": 86.0,
     "humaneval": 88.0,
     "livebench": 65.9,
-    "mmluPlus": 83.7,
-    "gpqa": 82.8
+    "mmluPlus": 86.7,
+    "gpqa": 84.2
   },
   {
     "id": "kimi-k2-thinking",
