@@ -294,7 +294,7 @@
     "humaneval": 76.8,
     "livebench": 74.4,
     "mmluPlus": 87.5,
-    "gpqa": 88.8
+    "gpqa": 90
   },
   {
     "id": "deepseek-v4-flash",
@@ -536,7 +536,7 @@
     "humaneval": 80.0,
     "livebench": 65.0,
     "mmluPlus": 83.0,
-    "gpqa": 63.6
+    "gpqa": 78
   },
   {
     "id": "kat-coder-pro-v2",
@@ -612,8 +612,8 @@
     "mmlu": 92.4,
     "humaneval": 98.2,
     "livebench": 59.1,
-    "mmluPlus": 88.9,
-    "gpqa": 81.0
+    "mmluPlus": 90,
+    "gpqa": 87
   },
   {
     "id": "gemini-3-pro",
@@ -799,8 +799,8 @@
     "mmlu": 86.0,
     "humaneval": 88.0,
     "livebench": 65.9,
-    "mmluPlus": 86.7,
-    "gpqa": 84.2
+    "mmluPlus": 84,
+    "gpqa": 83
   },
   {
     "id": "kimi-k2-thinking",
@@ -984,8 +984,8 @@
     "provider": "Moonshot",
     "openSource": true,
     "mmlu": 89.2,
-"humaneval": null,
-"livebench": null,
+    "humaneval": null,
+    "livebench": null,
     "mmluPlus": 78.5,
     "gpqa": 93.5
   },
@@ -995,9 +995,31 @@
     "provider": "Thinking Machines",
     "openSource": true,
     "mmlu": 88.7,
-"humaneval": null,
-"livebench": null,
+    "humaneval": null,
+    "livebench": null,
     "mmluPlus": null,
     "gpqa": 87.2
+  },
+  {
+    "id": "gemini-3.6-flash",
+    "name": "Gemini3.6 Flash",
+    "provider": "Google",
+    "openSource": false,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": 92.8
+  },
+  {
+    "id": "gemini-3.5-flash-lite",
+    "name": "Gemini3.5 Flash Lite",
+    "provider": "Google",
+    "openSource": false,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": 83.8
   }
 ]

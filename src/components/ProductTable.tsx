@@ -21,6 +21,7 @@ const companyOrder = [
   'Apple',
   'Microsoft',
   'Microsoft-Code',
+  'Microsoft-Agent-Framework',
   'Meta',
   'Amazon',
   'SpaceXAI',
@@ -38,9 +39,11 @@ const companyOrder = [
   'OpenAI-Realtime-Whisper',
   'OpenAI-GPT-Live',
   'OpenAI-Work',
+  'OpenAI-Presence',
   'Cursor',
   'Oracle',
   'Tencent',
+  'Tencent-Hyra',
   'Alibaba',
   'ByteDance',
   'Salesforce',
@@ -71,6 +74,7 @@ const companyOrder = [
   'BlackForest',
   'HuggingFace',
   'HuggingFace-Serge',
+  'HuggingFace-Tau',
   'Suno',
   'Udio',
   'PlayHT',
@@ -114,7 +118,8 @@ const companyOrder = [
   'OpenRouter-Fusion',
   'Reve',
   'Ideogram',
-  'Vercel'
+  'Vercel',
+  'Kore',
 ];
 
 
@@ -286,6 +291,11 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
     'JetBrains-Context': 'backgroundColor:rgba(99, 102, 241, 0.15);color:#a5b4fc;borderColor:rgba(99, 102, 241, 0.3)',
     'Mind Lab': 'backgroundColor:rgba(236, 72, 153, 0.2);color:#f9a8d4;borderColor:rgba(236, 72, 153, 0.3)',
     Vercel: 'backgroundColor:rgba(255, 255, 255, 0.08);color:#ffffff;borderColor:rgba(255, 255, 255, 0.15)',
+    'OpenAI-Presence': 'backgroundColor:rgba(34, 197, 94, 0.2);color:#22c55e;borderColor:rgba(34, 197, 94, 0.4)',
+    'Microsoft-Agent-Framework': 'backgroundColor:rgba(99, 102, 241, 0.2);color:#c7d2fe;borderColor:rgba(99, 102, 241, 0.3)',
+    'Tencent-Hyra': 'backgroundColor:rgba(34, 197, 94, 0.2);color:#86efac;borderColor:rgba(34, 197, 94, 0.3)',
+    'HuggingFace-Tau': 'backgroundColor:rgba(234, 179, 8, 0.2);color:#fde047;borderColor:rgba(234, 179, 8, 0.4)',
+    Kore: 'backgroundColor:rgba(190, 24, 93, 0.2);color:#fbcfe8;borderColor:rgba(190, 24, 93, 0.3)',
   };
 
   const style =

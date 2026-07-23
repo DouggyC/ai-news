@@ -583,6 +583,11 @@
         "url": "https://blog.jetbrains.com/ai/2026/07/introducing-jetbrains-context-repository-intelligence-for-coding-agents/",
         "description": "JetBrains's repository intelligence layer for coding agents (early access from July 21, 2026, included with JetBrains AI subscription). Incrementally builds a semantic index of repositories and exposes semantic retrieval tools so agents like Claude Code, Codex CLI, and Junie CLI can ask questions directly instead of repeatedly searching and reading files. Multi-repo search discovers relevant code across an organization's codebase, including repositories not checked out locally — validates APIs/dependencies, surfaces reusable code, enforces architecture conformity. Validated on 205 open-source SWE-bench tasks, 175 production-monorepo tasks, and 1,953 code-localization tasks: up to 68% fewer agent turns, 59% lower latency, 48% lower execution cost. Source code stays local; the backend never stores source. `jbcontext` CLI for setup, login, indexing, analytics. Recommended Agent in AI Chat now defaults to Codex for JVM/.NET/Python."
       },
+      "HuggingFace-Tau": {
+        "name": "Tau",
+        "url": "https://huggingface.co/blog/huggingface/tau-coding-agent",
+        "description": "Hugging Face's open-source coding agent (launched July 22, 2026) designed as both a production-ready terminal agent and an interactive educational curriculum for understanding agent architecture. Deconstructs agent complexity into distinct learnable components — agent brain (harness), coding environment (files/shell/sessions), and Textual TUI — to teach event streams, tool calls, transcript management, and session persistence. Inspired by Pi but reimagined as a Python learning path; architectural clarity via event-based design where agents emit transparent event streams rather than callbacks. Each layer — provider adapters, agent harness, coding environment, frontend — operates independently. Production-credible while being comprehensible for learners."
+      },
       "Vercel": {
         "name": "Vercel Agent",
         "url": "https://vercel.com/blog/vercel-agent",
@@ -676,6 +681,11 @@
         "name": "AlphaEvolve",
         "url": "https://cloud.google.com/blog/products/ai-machine-learning/alphaevolve-is-available-for-everyone",
         "description": "Google's Gemini-powered evolutionary coding agent (now GA to all Google Cloud customers as of July 9, 2026 via Gemini Enterprise Agent Platform). User provides a seed program plus a scoring function; AlphaEvolve uses Gemini to propose code changes, evaluates candidates against the user-supplied evaluator, and evolves the population toward better solutions over generations. Generation half is fully managed in Google's cloud (LLM ensemble supports gemini-3.5-flash and gemini-3.1-pro-preview with configurable weights); evaluation half runs wherever the user chooses — local exec() sandbox, Cloud Run function, or GKE + Ray GPU cluster. Optimizes anything the user can score (pure-Python heuristics, compiled Rust/C++, full ML training runs). Adopted by BASF, JetBrains, Kinaxis since the December 2025 private preview."
+      },
+      "Microsoft-Agent-Framework": {
+        "name": "Microsoft Agent Framework Harness",
+        "url": "https://devblogs.microsoft.com/agent-framework/the-microsoft-agent-framework-harness-is-now-released/",
+        "description": "Microsoft's production-ready agent runtime (Harness released July 15-22, 2026) for the Agent Framework line that succeeded AutoGen and Semantic Kernel. Opinionated, batteries-included harness wrapping a chat client with a complete agentic pipeline — planning, memory, context management, approvals, tool orchestration, telemetry — tuned for long-running autonomous work like research, data analysis, and general task automation. Python 1.12 and .NET 1.14 shipped July 21, 2026 with two production-shape changes: app-owned MCP hosting helpers expose your agents and workflows as native MCP tools (your agent becomes an MCP server, not just a client), and an alpha Azure Cosmos DB semantic-memory context provider with fact extraction and user profiles gives agents persistent memory that outlives the session. Stable graduation: declarative workflows, tool-approval middleware, and file memory provider graduated to stable in Python. Available across Microsoft Foundry and developer machines."
       }
     }
   },
@@ -795,7 +805,7 @@
       "ByteDance": {
         "name": "Seedance 2.0",
         "url": "https://seed.bytedance.com/en/seedance2_0",
-        "description": "ByteDance multimodal video generation with audio-video joint architecture. Up to 20-second clips via CapCut and Dreamina."
+        "description": "ByteDance multimodal video generation with audio-video joint architecture. Seedance 2.0 was promoted to native 4K / 10-bit output (July 2026) on CapCut, Dreamina, Jimeng, BytePlus ModelArk, and Volcano Engine. Seedance 2.5 API went live July 21, 2026 (unveiled at Volcano Engine FORCE) — 30-second single-shot clips in one continuous generation (no stitching), up to 50 multimodal reference inputs spanning images/video/audio/scripts/style guides, and 3D white-box camera control via green-screen plates or 3D blockouts — first 3D camera-blockout preview function in a video model. Independent pricing ~$1-2 per 30s clip at lower settings; no official rate card. Independent arena ranking pending — no neutral benchmark or model card yet. Cease-and-desist letters from Hollywood studios over Seedance 2.0 celebrity deepfakes remain outstanding; no confirmed US availability date."
       },
       "Luma": {
         "name": "Ray3.2",
@@ -1021,6 +1031,11 @@
         "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
         "description": "Anthropic's AI workbench for scientists (June 30, 2026). Beta available to Claude Pro, Max, Team, and Enterprise on macOS and Linux. Integrates common research tools, produces auditable artifacts. Anthropic sponsors up to 50 AI for Science projects (up to $30K credits each); applications open through July 15, 2026."
       },
+      "Tencent-Hyra": {
+        "name": "Hyra-1.0 (Hunyuan Research Agent)",
+        "url": "https://news.aibase.com/news/29747",
+        "description": "Tencent Hunyuan's research intelligent agent with recursive self-improvement (released July 21, 2026) for performance-oriented research and engineering tasks. Three-component architecture: Context Agent maintains an experience library and continuously generates 'inspiration' context to fill the task queue; multiple Proposal Agents take context from the queue and generate/run solutions in independent sandboxes; the system operates as an asynchronous producer-consumer pipeline where resource utilization expands efficiently over time. For tasks without an evaluator, Hyra upgrades to a two-layer loop where solutions and evaluation mechanisms evolve together, preventing reward hacking. Follows 'The Bitter Lesson' philosophy — keep the framework lightweight and expand the agent's action space, using a simple general loop to convert intelligence and compute into real returns."
+      },
       "SpaceXAI": {
         "name": "DeepSearch",
         "url": "https://grok.com",
@@ -1040,6 +1055,11 @@
         "name": "ChatGPT Enterprise",
         "url": "https://developers.openai.com/chatgpt",
         "description": "Enterprise ChatGPT with GPT-5.5, admin controls, connectors, and security. Team and Edu plans available. GPT-5.5 Instant default since June 3, 2026. Global Admin Console for ChatGPT Enterprise rolled out June 18, 2026: consolidated ChatGPT and Codex credit usage across the workspace with granular breakdown by user/product/model, default workspace credit limits, team-specific limits and per-user overrides, employee self-service credit monitoring, and credit-request workflow with context — addresses rising AI costs from power-user adoption."
+      },
+      "OpenAI-Presence": {
+        "name": "OpenAI Presence",
+        "url": "https://openai.com/index/introducing-openai-presence/",
+        "description": "OpenAI's dedicated enterprise AI agent platform (launched July 22, 2026) for deploying trusted voice and chat agents across customer support, sales, IT, HR, and internal workflows. Resolves 75% of OpenAI's own English-language phone support calls without human intervention and cut human handoffs by 15 percentage points within 10 days of internal deployment via a Codex-powered feedback loop. Battle-tested product: pairs model reasoning with policies, guardrails, escalation rules, simulation testing, and post-deployment improvement. Launch customers include BBVA Mexico, SoftBank Corp., and Retail Insurance Australia (IAG). Limited general availability — not self-serve; deployments led by OpenAI Forward Deployed Engineers and select global systems integrators via the $10B OpenAI Deployment Company formed in May after acquiring consultancy Tomoro. Positions OpenAI in the enterprise customer service market beyond API access into the deployment, governance, and continuous-improvement layer."
       },
       "Anthropic": {
         "name": "Claude Enterprise",
@@ -1235,6 +1255,11 @@
         "name": "Agentforce Coworker",
         "url": "https://www.salesforce.com/blog/agentforce-coworker-salesforce-ai-teammate/",
         "description": "Autonomous AI teammate (May 21, 2026, beta) embedded in Salesforce, Slack, Microsoft Teams, ChatGPT, Claude, and mobile. Headless-first, inherits Data 360 permissions and governance. Setup with Agentforce GA (May 26, 2026). Reduces 1.8hr/day search tax per knowledge worker. Summer '26 (GA June 15, 2026): Setup with Agentforce is now GA, legacy agents can be upgraded to new Agentforce Builder in a few clicks, Multi-Agent Orchestration GA for unified subagent teams, full Agent Script and hybrid reasoning implementation guide updated, new Testing Center and Observability capabilities."
+      },
+      "Kore": {
+        "name": "Arch AI",
+        "url": "https://www.kore.ai/blog/build-governed-ai-agents-with-arch-ai",
+        "description": "Kore.ai's AI solution architect inside the Kore.ai Agent Platform {Artemis} (launched July 21-22, 2026). Turns a plain-language business workflow description into a complete governed AI agent system, then tests, deploys, and continuously improves it. Generates agents defined in Agent Blueprint Language (ABL) — a formal written definition of how each agent must behave — so every agent is validated before deployment, governed at runtime, fully auditable, and editable at any level. Stays engaged after launch, monitoring performance and recommending specific improvements. Targets production-ready AI agents in days rather than months."
       }
     }
   },
