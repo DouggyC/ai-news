@@ -61,6 +61,8 @@ const providerColors: Record<string, string> = {
   BasaltLabs: '#7c3aed',
   'LG AI Research': '#a50034',
   Inception: '#14b8a6',
+  AI9Stars: '#f97316',
+  'Sapiens AI': '#84cc16',
 };
 
 function getInitialModels(): FrontierModel[] {
@@ -174,7 +176,7 @@ export default function ComparePage() {
             paddingRight: '24px',
           }}
         >
-          Last updated: July 22, 2026
+          Last updated: July 23, 2026
         </div>
         <div
           style={{

@@ -20,6 +20,16 @@
     "publishedAt": "2026-07-22"
   },
   {
+    "id": "openai-chatgpt-health-us-rollout-2026-07-23",
+    "title": "OpenAI makes ChatGPT Health available to all U.S. users over 18 — GPT-5.6-Luna tops GPT-5.5 on HealthBench",
+    "summary": "OpenAI on July 23, 2026 made ChatGPT Health available to all logged-in U.S. users 18+ across Free, Go, Plus and Pro plans on web and iOS — a health-focused experience with physicians helping improve responses and explicit guarantees that user data is not used for training. The launch lands a day after a Florida pastor sued the company for a near-fatal suggestion not to consult a doctor, and OpenAI separately disclosed that GPT-5.6-Luna, the smallest model from its latest release, outperforms GPT-5.5 on its open-source HealthBench evaluation; the rollout comes ahead of expected expansion to other regions.",
+    "source": "OpenAI",
+    "sourceUrl": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
+    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg",
+    "category": "product",
+    "publishedAt": "2026-07-23"
+  },
+  {
     "id": "amd-anthropic-2gw-mi450-equity-partnership-2026-07-22",
     "title": "AMD + Anthropic strike multi-year 2-gigawatt MI450 deal — AMD commits up to $5B equity, Claude co-develops ROCm",
     "summary": "AMD and Anthropic on July 22, 2026 announced a strategic partnership to deploy up to 2 gigawatts of AMD Instinct MI450 Series GPUs in AMD Helios rack-scale systems, with the first gigawatt going live in H1 2027 — Helios pairs MI455X GPUs with EPYC 'Venice' CPUs, Pensando networking and ROCm 7. The deal includes a multi-year engineering collaboration using Claude to optimize workloads for Instinct GPUs and accelerate ROCm development, plus broad internal adoption of Claude across AMD engineering and product teams; AMD has committed up to $5B in equity in Anthropic. Anthropic CCO Tom Brown framed it as 'mapping the right workloads to the right hardware' across a diversified compute base as Claude demand outpaces single-vendor capacity.",
@@ -40,6 +50,26 @@
     "publishedAt": "2026-07-22"
   },
   {
+    "id": "anthropic-voice-mode-opus-sonnet-2026-07-23",
+    "title": "Anthropic brings voice mode to Claude Opus and Sonnet — Gmail, Slack, Canva reach, 9 new languages",
+    "summary": "Anthropic on July 23, 2026 extended voice mode beyond Haiku to Opus and Sonnet, letting users tackle 'real business problems' (turn a conversation into a one-page pitch, rearrange a calendar when a train is delayed) by speaking, and seamlessly switch models mid-conversation when a Haiku exchange sparks something deeper. Voice mode also reaches into apps like Gmail, Slack and Canva, and exits beta for French, German, Spanish, Hindi, Indonesian, Italian, Japanese, Korean and Portuguese — Anthropic framed the launch as a response to users immediately pushing voice past quick Q&A into 'work conversations' that Haiku 'kept quick, but not always deep.'",
+    "source": "Anthropic",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
+    "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
+    "category": "product",
+    "publishedAt": "2026-07-23"
+  },
+  {
+    "id": "anthropic-economic-index-connector-2026-07-22",
+    "title": "Anthropic ships Economic Index connector for Claude — natural-language queries on the labor-market dataset",
+    "summary": "Anthropic on July 22, 2026 launched an Anthropic Economic Index connector inside Claude.ai — a one-click toggle that lets anyone ask Claude questions about the labor-market dataset the index publishes (which jobs are changing, which tasks are being automated, what it means for a given field), with Claude pointing back to the underlying data and its limitations on every answer. The connector works in any conversation with any Claude model, requires no install, and Anthropic framed the move as taking the index 'from researchers and policymakers to anyone curious about how AI fits into their day-to-day work' — the full datasets remain freely available on Anthropic's site.",
+    "source": "Anthropic",
+    "sourceUrl": "https://www.anthropic.com/news/anthropic-economic-index-connector",
+    "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
+    "category": "tool",
+    "publishedAt": "2026-07-22"
+  },
+  {
     "id": "nvidia-spectrum-6-ethernet-switch-ai-factories-2026-07-22",
     "title": "NVIDIA launches Spectrum-6 102.4Tb/s Ethernet switch for gigascale AI factories — CoreWeave, Microsoft, Nebius, SpaceXAI, Tesla adopt",
     "summary": "NVIDIA on July 22, 2026 launched Spectrum-6 — a 102.4-terabit-per-second Ethernet switch built for AI factories, doubling the previous generation's capacity and integrating with ConnectX-9 SuperNICs, the Vera CPU, Rubin GPU, NVLink 6 Switch and BlueField-4 DPU inside the full Vera Rubin stack. Early adopters include CoreWeave, Microsoft, Nebius, SpaceXAI and Tesla; NVIDIA cites up to 1.6× higher AI-networking performance vs. standard Ethernet, up to 95% efficiency at 100,000+ GPUs, 5× better power efficiency with Spectrum-X Photonics, and 10× higher MTBF — CoreWeave's Min Jun framing networking as 'central to delivering that performance at scale' for frontier-model training and inference.",
@@ -48,6 +78,16 @@
     "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
     "category": "product",
     "publishedAt": "2026-07-22"
+  },
+  {
+    "id": "nvidia-kaist-joint-ai-research-lab-2026-07-23",
+    "title": "NVIDIA + KAIST launch $300M joint AI lab in Seoul — Nemotron-powered Korean-language models, 10 funded researchers/year",
+    "summary": "NVIDIA and KAIST on July 23, 2026 announced a $300M joint AI research laboratory at the KAIST Kim Jaechul Graduate School of AI in Seoul, dedicated to agentic AI for Korean industries, language and use cases — funded by $50M/year in compute contributions from NVIDIA Cloud Partners over an initial five-year period. The lab will fund at least 10 KAIST researchers annually with NVIDIA internships, hire top Korean researchers for full-time NVIDIA roles, and lean on NVIDIA Nemotron open models and local cloud infrastructure to build a pipeline from academic research to enterprise and national deployments. Bill Dally framed the move as giving Korea 'a foundation for the next frontier of AI research,' with Hyunwoo Kim (incoming KAIST faculty) set to lead the lab.",
+    "source": "NVIDIA",
+    "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-and-kaist-launch-joint-ai-research-lab-to-accelerate-ai-innovation-in-korea",
+    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
+    "category": "research",
+    "publishedAt": "2026-07-23"
   },
   {
     "id": "white-house-moonshot-distilled-fable-kimi-k3-2026-07-22",
@@ -68,6 +108,16 @@
     "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
     "category": "model",
     "publishedAt": "2026-07-22"
+  },
+  {
+    "id": "alibaba-qwen-audio-3-0-tts-2026-07-23",
+    "title": "Alibaba ships Qwen-Audio-3.0-TTS — inline [whisper]/[breaths]/[laughs] tags + free-style natural-language voice control",
+    "summary": "Alibaba's Qwen team on July 23, 2026 released Qwen-Audio-3.0-TTS in two flavors — Flash (sub-100ms latency on a single A100, for interactive assistants and gaming NPCs) and Plus (~12B parameters, up to 48 kHz studio-grade output for audiobooks, e-learning, advertising). The release's headline feature is inline tag steering: developers can embed `[whisper]`, `[angry]`, `[breaths]`, `[laughs]` markup directly in input text to control prosody, emotional tone and breath sounds without post-processing, and the model accepts free-style natural-language style prompts (e.g. 'a calm, slightly breathy late-night radio host'). The launch fits Alibaba Cloud's pay-as-you-go monetization pattern, though per-second pricing was not disclosed.",
+    "source": "Alibaba",
+    "sourceUrl": "https://runtimewire.com/article/qwen-audio-3-0-tts-offers-real-time-and-studio-grade-voice-generation-for-alibab",
+    "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
+    "category": "model",
+    "publishedAt": "2026-07-23"
   },
   {
     "id": "apple-google-gemini-foundation-models-siri-2026-07-22",
@@ -118,6 +168,16 @@
     "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
     "category": "product",
     "publishedAt": "2026-07-22"
+  },
+  {
+    "id": "spacexai-grok-build-workflows-2026-07-23",
+    "title": "SpaceXAI ships Workflows in Grok Build — fan-out orchestration across up to 1,024 parallel agents",
+    "summary": "SpaceXAI on July 23, 2026 shipped Workflows in Grok Build — an orchestration layer that lets Grok write and run multi-phase workflows, fanning a task out across up to 128 agents (1,024 for big jobs), verifying results, and reporting back when everything finishes while the user's session stays free. Progress is saved phase-by-phase so pause-and-resume never redoes finished work; runs can be watched live with per-agent token counts via `/workflows`. Saved workflows in `.grok/workflows/` are team-shared, and ones in `~/.grok/workflows/` follow the user everywhere; each saved workflow becomes its own slash command that takes arguments, and a built-in `/deep-research` ships that fans research questions out to parallel investigators, verifies claims, and returns a cited report.",
+    "source": "SpaceXAI",
+    "sourceUrl": "https://x.ai/news/workflows",
+    "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
+    "category": "product",
+    "publishedAt": "2026-07-23"
   },
   {
     "id": "microsoft-genesis-mission-discovery-quantum-2026-07-22",
@@ -178,65 +238,5 @@
     "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
     "category": "product",
     "publishedAt": "2026-07-21"
-  },
-  {
-    "id": "moonshot-kimi-k3-demand-surge-pauses-signups-2026-07-19",
-    "title": "Moonshot pauses Kimi K3 sign-ups as demand pushes capacity to its limits — 2.8T open-weight launch rattles global chip stocks",
-    "summary": "Moonshot AI on July 19, 2026 paused new Kimi K3 subscriptions 48 hours after launch, saying demand 'pushed close to the limits of our current capacity' — existing subscribers unaffected, new slots reopening 'in batches.' The crunch is amplified by the fact that K3's open weights don't drop until July 27, so all usage currently funnels through Moonshot's own servers; the pause comes as K3 topped Arena's coding leaderboard, helped wipe out roughly $3 trillion in global semiconductor value within days, and pushed Moonshot's ARR to $300M (vs $200M in April) ahead of a planned Hong Kong listing at a reported $30B+ valuation.",
-    "source": "Moonshot",
-    "sourceUrl": "https://thenextweb.com/news/moonshot-kimi-k3-subscriptions-paused-gpu-capacity",
-    "imageUrl": "https://kimi.com/favicon.ico",
-    "category": "capability",
-    "publishedAt": "2026-07-19"
-  },
-  {
-    "id": "alibaba-qwen-3-8-max-preview-2-4t-claims-second-only-to-fable-2026-07-19",
-    "title": "Alibaba previews Qwen3.8-Max — 2.4T-parameter multimodal model claimed 'second only to Claude Fable 5'",
-    "summary": "Alibaba on July 19, 2026 at WAIC Shanghai previewed Qwen3.8-Max-Preview, a 2.4-trillion-parameter multimodal model (text, image, video, documents) — the first Qwen above 1T to handle multiple modalities — and billed it as 'second only to Fable 5' on its official X account. The preview is live on Alibaba's Token Plan and Qoder/QoderWork developer platforms at 10% of standard rates, with open weights promised 'soon' but no date, model card, activated-parameter count, or benchmark scores released — a notable departure from May's Qwen3.7-Max launch, which shipped with full published numbers.",
-    "source": "Alibaba",
-    "sourceUrl": "https://siliconangle.com/2026/07/19/alibaba-previews-qwen3-8-claims-second-claude-fable-5/",
-    "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
-    "category": "model",
-    "publishedAt": "2026-07-19"
-  },
-  {
-    "id": "mistral-large-3-128k-context-function-calling-2026-07-17",
-    "title": "Mistral releases Mistral Large 3 — 128K context and function-calling schema that cuts token overhead ~30%",
-    "summary": "Mistral AI on July 17, 2026 released Mistral Large 3 on la Plateforme and Azure AI Foundry — its latest flagship — headlined by a 128K context window and a reworked function-calling schema that Mistral claims reduces token overhead in tool-use workflows by up to 30%. The release is Mistral's clearest enterprise-differentiation move this cycle: by burning less of the context window on verbose JSON schema serialization per turn, multi-tool agentic pipelines become meaningfully cheaper to run at the same quality.",
-    "source": "Mistral",
-    "sourceUrl": "https://shiporskip.io/news/mistral-large-3-api-128k-context-function-calling",
-    "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
-    "category": "model",
-    "publishedAt": "2026-07-17"
-  },
-  {
-    "id": "moonshot-kimi-k3-2-8t-open-weight-flagship-2026-07-16",
-    "title": "Moonshot releases Kimi K3 — 2.8T open-weight flagship",
-    "summary": "Moonshot AI released Kimi K3 on July 16, 2026 — a 2.8-trillion-parameter mixture-of-experts model with 1M-token context, native multimodal input (text/image/video), and always-on reasoning at max effort. Scored 93.5% on GPQA Diamond (best open-weight result) and 57 on the AA Intelligence Index (4th globally, on par with Claude Opus 4.8 and GPT-5.5). Pricing $3/$15 per million tokens (cache-hit input $0.30). Full open weights drop July 27, 2026. Beats Claude Fable 5 on Terminal-Bench 2.1.",
-    "source": "Moonshot",
-    "sourceUrl": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
-    "imageUrl": "https://kimi.com/favicon.ico",
-    "category": "model",
-    "publishedAt": "2026-07-16"
-  },
-  {
-    "id": "apple-ios-27-public-beta-siri-ai-launches-2026-07-14",
-    "title": "Apple opens Siri AI + Foundation Models framework to public beta with iOS 27 — first broad test of the ChatGPT/Gemini/Claude rival",
-    "summary": "Apple on July 14, 2026 released the iOS 27 public beta, opening its all-new Siri AI and Apple Intelligence Foundation Models to its largest test audience yet — 2.5 billion devices — before the fall launch. Siri AI uses an on-device model and a new PrivateCloudComputeLanguageModel (32K context, configurable reasoning level, no API keys, fully private), and the Foundation Models framework itself is going open source with new tools (BarcodeReader, OCR via Vision, Spotlight-powered local RAG) and a 'fm' CLI for macOS 27 — letting developers build agentic apps on top of Apple's own stack plus distilled Gemini collaborators.",
-    "source": "Apple",
-    "sourceUrl": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
-    "imageUrl": "https://www.apple.com/favicon.ico",
-    "category": "product",
-    "publishedAt": "2026-07-14"
-  },
-  {
-    "id": "openai-family-pm-hire-2026-07-11",
-    "title": "OpenAI hires dedicated PM to build family and household AI experiences",
-    "summary": "OpenAI on July 11, 2026 posted a product-manager role in San Francisco to build experiences for families, caregivers, and older adults across ChatGPT — a move analysts read as the company shifting from individual productivity tools toward household-shared AI, with plans for family plans, child profiles, and caregiver tools; TechCrunch reported the hire same day.",
-    "source": "OpenAI",
-    "sourceUrl": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
-    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg",
-    "category": "product",
-    "publishedAt": "2026-07-11"
   }
 ]

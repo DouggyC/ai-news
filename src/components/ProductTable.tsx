@@ -22,6 +22,8 @@ const companyOrder = [
   'Microsoft',
   'Microsoft-Code',
   'Microsoft-Agent-Framework',
+  'Microsoft-MAI-Image-2.5-Pro',
+  'Microsoft-MAI-Voice-2-Flash',
   'Meta',
   'Amazon',
   'SpaceXAI',
@@ -295,6 +297,8 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
     'Microsoft-Agent-Framework': 'backgroundColor:rgba(99, 102, 241, 0.2);color:#c7d2fe;borderColor:rgba(99, 102, 241, 0.3)',
     'Tencent-Hyra': 'backgroundColor:rgba(34, 197, 94, 0.2);color:#86efac;borderColor:rgba(34, 197, 94, 0.3)',
     'HuggingFace-Tau': 'backgroundColor:rgba(234, 179, 8, 0.2);color:#fde047;borderColor:rgba(234, 179, 8, 0.4)',
+    'Microsoft-MAI-Image-2.5-Pro': 'backgroundColor:rgba(99, 102, 241, 0.2);color:#c7d2fe;borderColor:rgba(99, 102, 241, 0.3)',
+    'Microsoft-MAI-Voice-2-Flash': 'backgroundColor:rgba(20, 184, 166, 0.2);color:#5eead4;borderColor:rgba(20, 184, 166, 0.3)',
     Kore: 'backgroundColor:rgba(190, 24, 93, 0.2);color:#fbcfe8;borderColor:rgba(190, 24, 93, 0.3)',
   };
 
