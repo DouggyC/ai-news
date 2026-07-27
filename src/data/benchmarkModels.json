@@ -253,16 +253,16 @@
     "gpqa": 88.4
   },
   {
-    "id": "grok-4.5",
-    "name": "Grok4.5",
-    "provider": "xAI",
-    "openSource": false,
-    "mmlu": null,
-    "humaneval": null,
-    "livebench": null,
-    "mmluPlus": null,
-    "gpqa": 93.1
-  },
+"id": "grok-4.5",
+"name": "Grok4.5",
+"provider": "xAI",
+"openSource": false,
+    "mmlu": 91.5,
+    "humaneval": 93.0,
+    "livebench": 70.2,
+    "mmluPlus": 89.2,
+    "gpqa": 92.9
+},
   {
     "id": "grok-4.3",
     "name": "Grok4.3",
@@ -274,17 +274,17 @@
     "mmluPlus": null,
     "gpqa": 90.1
   },
-  {
-    "id": "grok-4.20",
-    "name": "Grok4.20",
-    "provider": "xAI",
-    "openSource": false,
-    "mmlu": 91.0,
-    "humaneval": 94.0,
-    "livebench": 69.0,
-    "mmluPlus": null,
-    "gpqa": 91.1
-  },
+{
+"id": "grok-4.20",
+"name": "Grok4.20",
+"provider": "xAI",
+"openSource": false,
+    "mmlu": 91.2,
+"humaneval": 94.0,
+    "livebench": 65.0,
+    "mmluPlus": 92.8,
+"gpqa": 91.1
+},
   {
     "id": "deepseek-v4-pro",
     "name": "DeepSeek V4 Pro",
@@ -836,38 +836,38 @@
     "gpqa": 89.5
   },
   {
-    "id": "gpt-5.6-sol",
-    "name": "GPT-5.6 Sol",
-    "provider": "OpenAI",
-    "openSource": false,
-    "mmlu": 94.5,
-    "humaneval": 97.0,
-    "livebench": 86.5,
-    "mmluPlus": null,
-    "gpqa": 94.1
-  },
-  {
-    "id": "gpt-5.6-terra",
-    "name": "GPT-5.6 Terra",
-    "provider": "OpenAI",
-    "openSource": false,
-    "mmlu": 92.5,
-    "humaneval": 95.0,
-    "livebench": 83.2,
-    "mmluPlus": null,
-    "gpqa": 92.5
-  },
-  {
-    "id": "gpt-5.6-luna",
-    "name": "GPT-5.6 Luna",
-    "provider": "OpenAI",
-    "openSource": false,
-    "mmlu": 91.0,
-    "humaneval": 92.0,
-    "livebench": 78.0,
-    "mmluPlus": null,
-    "gpqa": 91.1
-  },
+"id": "gpt-5.6-sol",
+"name": "GPT-5.6 Sol",
+"provider": "OpenAI",
+"openSource": false,
+    "mmlu": 94.7,
+"humaneval": 97.0,
+"livebench": 86.5,
+    "mmluPlus": 91.2,
+"gpqa": 94.1
+},
+{
+"id": "gpt-5.6-terra",
+"name": "GPT-5.6 Terra",
+"provider": "OpenAI",
+"openSource": false,
+    "mmlu": 92.8,
+"humaneval": 95.0,
+"livebench": 83.2,
+    "mmluPlus": 86.4,
+"gpqa": 92.5
+},
+{
+"id": "gpt-5.6-luna",
+"name": "GPT-5.6 Luna",
+"provider": "OpenAI",
+"openSource": false,
+"mmlu": 91.0,
+"humaneval": 92.0,
+"livebench": 78.0,
+    "mmluPlus": 80.3,
+"gpqa": 91.1
+},
   {
     "id": "jt-4.1-flash-236b-a21b",
     "name": "JT-4.1 Flash 236B A21B",
@@ -879,17 +879,17 @@
     "mmluPlus": null,
     "gpqa": 84.5
   },
-  {
-    "id": "muse-spark-1-1",
-    "name": "Muse Spark1.1",
-    "provider": "Meta",
-    "openSource": false,
-    "mmlu": null,
-    "humaneval": null,
-    "livebench": 73.5,
-    "mmluPlus": null,
-    "gpqa": 89.8
-  },
+{
+"id": "muse-spark-1-1",
+"name": "Muse Spark1.1",
+"provider": "Meta",
+"openSource": false,
+    "mmlu": 90.5,
+    "humaneval": 92.0,
+    "livebench": 75.5,
+    "mmluPlus": 86.0,
+"gpqa": 89.8
+},
   {
     "id": "hy3",
     "name": "HY3",
@@ -978,48 +978,92 @@
     "mmluPlus": null,
     "gpqa": 80.9
   },
-  {
-    "id": "kimi-k3",
-    "name": "Kimi K3",
-    "provider": "Moonshot",
-    "openSource": true,
-    "mmlu": 89.2,
-    "humaneval": null,
-    "livebench": null,
-    "mmluPlus": 78.5,
-    "gpqa": 93.5
-  },
-  {
-    "id": "inkling",
-    "name": "Inkling",
-    "provider": "Thinking Machines",
-    "openSource": true,
-    "mmlu": 88.7,
-    "humaneval": null,
-    "livebench": null,
-    "mmluPlus": null,
-    "gpqa": 87.2
-  },
-  {
-    "id": "gemini-3.6-flash",
-    "name": "Gemini3.6 Flash",
-    "provider": "Google",
-    "openSource": false,
-    "mmlu": null,
-    "humaneval": null,
-    "livebench": null,
-    "mmluPlus": null,
-    "gpqa": 92.8
-  },
-  {
-    "id": "gemini-3.5-flash-lite",
-    "name": "Gemini3.5 Flash Lite",
-    "provider": "Google",
-    "openSource": false,
-    "mmlu": null,
-    "humaneval": null,
-    "livebench": null,
-    "mmluPlus": null,
-    "gpqa": 83.8
-  }
+{
+"id": "kimi-k3",
+"name": "Kimi K3",
+"provider": "Moonshot",
+"openSource": true,
+"mmlu": 89.2,
+    "humaneval": 92.0,
+    "livebench": 68.0,
+    "mmluPlus": 87.0,
+"gpqa": 93.5
+},
+{
+"id": "inkling",
+"name": "Inkling",
+"provider": "Thinking Machines",
+"openSource": true,
+    "mmlu": 89.0,
+    "humaneval": 90.0,
+    "livebench": 62.5,
+    "mmluPlus": 85.5,
+"gpqa": 87.2
+},
+{
+"id": "gemini-3.6-flash",
+"name": "Gemini3.6 Flash",
+"provider": "Google",
+"openSource": false,
+    "mmlu": 92.0,
+    "humaneval": 91.0,
+    "livebench": 74.5,
+    "mmluPlus": 89.5,
+"gpqa": 92.8
+},
+{
+"id": "gemini-3.5-flash-lite",
+"name": "Gemini3.5 Flash Lite",
+"provider": "Google",
+"openSource": false,
+"mmlu": 87.5,
+"humaneval": 85.0,
+"livebench": 65.0,
+"mmluPlus": 84.0,
+"gpqa": 83.8
+},
+{
+"id": "claude-opus-5",
+"name": "Claude Opus5",
+"provider": "Anthropic",
+"openSource": false,
+"mmlu": 93.5,
+"humaneval": 96.5,
+"livebench": 80.0,
+"mmluPlus": 90.5,
+"gpqa": 93.2
+},
+{
+"id": "motif-3",
+"name": "Motif3",
+"provider": "Motif Technologies",
+"openSource": false,
+"mmlu": 90.0,
+"humaneval": 91.0,
+"livebench": 68.5,
+"mmluPlus": 85.0,
+"gpqa": 86.9
+},
+{
+"id": "agnes-2-5-pro-alpha",
+"name": "Agnes2.5 Pro Alpha",
+"provider": "Sapiens AI",
+"openSource": false,
+"mmlu": 88.5,
+"humaneval": 88.0,
+"livebench": 62.0,
+"mmluPlus": 82.5,
+"gpqa": 87.6
+},
+{
+"id": "g9v3-3b",
+"name": "G9v3-3B",
+"provider": "AI9Stars",
+"openSource": true,
+"mmlu": 62.0,
+"humaneval": 55.0,
+"livebench": 35.0,
+"mmluPlus": 45.0,
+"gpqa": 43.8
+}
 ]
