@@ -88,7 +88,7 @@
       "DeepSeek": {
         "name": "DeepSeek V4",
         "url": "https://api-docs.deepseek.com/news/news260424",
-        "description": "Open-model MoE family (V4-Pro: 1.6T total / 49B active, V4-Flash: 284B / 13B active, April 24, 2026) with 1M context, Apache 2.0 licensed. 27% of per-token inference FLOPs vs V3. V4-Pro: $0.435/$0.87, V4-Flash: $0.14/$0.28 per 1M tokens (cache hit from $0.0028/$0.003625). Legacy deepseek-chat/deepseek-reasoner retire Jul 24, 2026."
+        "description": "Open-model MoE family (V4-Pro: 1.6T total / 49B active, V4-Flash: 284B / 13B active, April 24, 2026 preview; graduated to GA on July 24, 2026 alongside peak/off-peak pricing). 1M context, Apache 2.0 licensed. 27% of per-token inference FLOPs vs V3. V4-Pro: $0.435/$0.87, V4-Flash: $0.14/$0.28 per 1M tokens (cache hit from $0.0028/$0.003625); 2× multiplier during Beijing peak windows (09:00–12:00 and 14:00–18:00 local time) since the July 24 GA. Legacy deepseek-chat/deepseek-reasoner retired 2026-07-24 15:59 UTC; all API traffic must now use deepseek-v4-pro / deepseek-v4-flash identifiers with the thinking parameter for reasoning mode."
       },
       "Mistral": {
         "name": "Medium 3.5",
@@ -349,6 +349,16 @@
         "name": "Cursor Router",
         "url": "https://cursor.com/blog/router",
         "description": "Cursor's intelligent model router (GA July 22, 2026 for Teams and Enterprise plans; on by default for Teams). Per-request classifier trained on 600k+ live requests, dispatches each prompt to the right model for the task. Three optimization modes: Intelligence (frontier quality, lands near Fable on satisfaction at ~60% lower cost), Balance (above Opus 4.8 at ~36% lower cost), and Cost (highest available intelligence while optimizing token spend). Reported cost per commit: $4.63 Balance, $6.76 Intelligence vs $7.34 Opus 4.8 and $12.69 Fable 5. Online A/B tests show frontier-quality output at 60% savings; three early-access enterprise accounts saved 30–50% vs Opus 4.8. Ships across desktop, web, iOS, CLI, and the Cursor SDK. Admin controls: per-team and per-group enablement, mode restrictions, default mode, model allow/block lists, soft and hard enforcement options for standardizing on Auto. Grok 4.5 is a required routing option (cannot be excluded). Balance and Intelligence bill at the routed model's rate; routed model is hidden by default and visible only when teams opt in."
+      },
+      "OpenAI-Codex-Micro": {
+        "name": "Codex Micro",
+        "url": "https://www.openai.com/codex-micro",
+        "description": "OpenAI's first hardware product (launched July 24, 2026, $230, sold via OpenAI Supply Co.) — a 13-key mechanical macropad / 'command center for agentic work' built in collaboration with Work Louder (rebranded Creator Micro 2). Bluetooth/USB-C, CNC-machined polycarbonate + aluminum body, PBT keycaps, clicky or silent switches, planar joystick, rotary encoder for adjusting Codex agent reasoning level. Pre-programmed macros for Codex Skills: open PRs, debug errors, refactor, review diffs. Sold out in under 24 hours. Ships amid an Apple lawsuit accusing OpenAI of stealing trade secrets for its Jony Ive-designed screen-free device."
+      },
+      "Anthropic-Claude-Security": {
+        "name": "Claude Security Plugin",
+        "url": "https://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta/",
+        "description": "Anthropic's multi-agent vulnerability scanner for Claude Code (released in beta July 22-23, 2026; current plugin v0.10.0). Runs a six-phase scan of a repository from inside an existing Claude Code session, then turns selected findings into patch files for review. Two entry points: /security-review for a one-time branch pass, or the Claude Security plugin for full-codebase deep scan with multi-agent review and patch generation. Three-voter adversarial panel (REACHABILITY/IMPACT/DEFENSES) must clear a 2-of-3 quorum before findings reach the report; non-unanimous votes cap stated confidence at medium. Patches built in an isolated scratch clone, independently verified, never auto-applied. Requires Claude Code v2.1.154+ with dynamic workflows enabled and Python 3.9.6+ / Git on PATH. Linux/macOS/Windows supported; counts against plan token limits."
       }
     }
   },
@@ -738,6 +748,11 @@
         "name": "Microsoft Agent Framework Harness",
         "url": "https://devblogs.microsoft.com/agent-framework/the-microsoft-agent-framework-harness-is-now-released/",
         "description": "Microsoft's production-ready agent runtime (Harness released July 15-22, 2026) for the Agent Framework line that succeeded AutoGen and Semantic Kernel. Opinionated, batteries-included harness wrapping a chat client with a complete agentic pipeline — planning, memory, context management, approvals, tool orchestration, telemetry — tuned for long-running autonomous work like research, data analysis, and general task automation. Python 1.12 and .NET 1.14 shipped July 21, 2026 with two production-shape changes: app-owned MCP hosting helpers expose your agents and workflows as native MCP tools (your agent becomes an MCP server, not just a client), and an alpha Azure Cosmos DB semantic-memory context provider with fact extraction and user profiles gives agents persistent memory that outlives the session. Stable graduation: declarative workflows, tool-approval middleware, and file memory provider graduated to stable in Python. Available across Microsoft Foundry and developer machines."
+      },
+      "Microsoft-SharePoint-Apps": {
+        "name": "SharePoint Copilot Apps",
+        "url": "https://devblogs.microsoft.com/microsoft365dev/sharepoint-copilot-apps-now-in-public-preview-from-intent-to-action-in-microsoft-365-copilot/",
+        "description": "Microsoft's new way to deliver action-oriented, app-like experiences inside Microsoft 365 Copilot (entered public preview July 9, 2026 via SPFx 1.24 preview; full worldwide rollout targeted by July 20, 2026). Built on SPFx 1.24 with industry-standard web stack, MCP Apps, and the SPFx packaging model — hosted automatically in Microsoft 365 tenant at no extra setup. Replaces 'wall-of-text chat' with concrete one-click app flows (approve an expense, triage an incident, run an onboarding checklist) inside the Copilot canvas. Shipped with Copilot Workbench and full developer experience; APIs and the 'SharePoint Copilot Apps' working name subject to change before GA."
       }
     }
   },

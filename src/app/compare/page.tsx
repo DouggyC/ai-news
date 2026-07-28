@@ -62,7 +62,8 @@ const providerColors: Record<string, string> = {
   'LG AI Research': '#a50034',
   Inception: '#14b8a6',
   AI9Stars: '#f97316',
-  'Sapiens AI': '#84cc16',
+'Sapiens AI': '#84cc16',
+'Motif Technologies': '#f59e0b',
 };
 
 function getInitialModels(): FrontierModel[] {
@@ -176,7 +177,7 @@ export default function ComparePage() {
             paddingRight: '24px',
           }}
         >
-          Last updated: July 24, 2026
+          Last updated: July 25, 2026
         </div>
         <div
           style={{

@@ -2186,8 +2186,31 @@
     "multimodal": true,
     "vision": true,
     "functionCalling": true,
-    "json": true,
-    "search": true
-  }
-
+"json": true,
+"search": true
+},
+{
+"id": "motif-3",
+"name": "Motif 3 (Beta)",
+"provider": "Motif Technologies",
+"openSource": true,
+"license": "Research Only",
+"releaseDate": "2026-07-14",
+"parameters": 314000000000,
+"modelSizeGB": 0,
+"contextLength": 262144,
+"inputPrice": 0,
+"outputPrice": 0,
+"free": true,
+"mmlu": 90,
+"mmluPlus": 87,
+"humaneval": 91,
+"liveBench": 62,
+"gpqa": 86.9,
+"multimodal": false,
+"vision": false,
+"functionCalling": true,
+"json": true,
+"search": false
+}
 ]

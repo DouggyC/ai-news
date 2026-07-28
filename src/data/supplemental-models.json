@@ -1830,7 +1830,21 @@
 "humaneval": 96.5
 },
 "motif-3": {
+"motif-3": {
 "provider": "Motif Technologies",
+"parameters": 314000000000,
+"modelSizeGB": 0,
+"contextLength": 262144,
+"openSource": true,
+"license": "Research Only",
+"mmlu": 90,
+"humaneval": 91,
+"multimodal": false,
+"vision": false,
+"functionCalling": true,
+"json": true,
+"search": false
+},
 "parameters": 0,
 "modelSizeGB": 0,
 "contextLength": 1000000,

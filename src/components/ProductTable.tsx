@@ -24,6 +24,7 @@ const companyOrder = [
   'Microsoft-Agent-Framework',
   'Microsoft-MAI-Image-2.5-Pro',
   'Microsoft-MAI-Voice-2-Flash',
+  'Microsoft-SharePoint-Apps',
   'Meta',
   'Amazon',
   'SpaceXAI',
@@ -38,6 +39,7 @@ const companyOrder = [
 'Anthropic-Voice',
   'Anthropic-Cowork',
   'Anthropic-Economic-Index',
+  'Anthropic-Claude-Security',
   'OpenAI',
   'OpenAI-Realtime-2',
   'OpenAI-Realtime-2-Mini',
@@ -48,6 +50,7 @@ const companyOrder = [
   'OpenAI-Presence',
   'OpenAI-GPT-5.6-Sol',
   'OpenAI-Health',
+  'OpenAI-Codex-Micro',
   'Cursor',
   'Cursor-Router',
   'Oracle',
@@ -324,6 +327,9 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
     'OpenRouter-Transcription': 'backgroundColor:rgba(99, 102, 241, 0.2);color:#a5b4fc;borderColor:rgba(99, 102, 241, 0.3)',
     'OpenRouter-Classifiers': 'backgroundColor:rgba(99, 102, 241, 0.2);color:#c7d2fe;borderColor:rgba(99, 102, 241, 0.35)',
     Kore: 'backgroundColor:rgba(190, 24, 93, 0.2);color:#fbcfe8;borderColor:rgba(190, 24, 93, 0.3)',
+    'Microsoft-SharePoint-Apps': 'backgroundColor:rgba(99, 102, 241, 0.2);color:#c7d2fe;borderColor:rgba(99, 102, 241, 0.4)',
+    'Anthropic-Claude-Security': 'backgroundColor:rgba(239, 68, 68, 0.2);color:#fecaca;borderColor:rgba(239, 68, 68, 0.35)',
+    'OpenAI-Codex-Micro': 'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.5)',
   };
 
   const style =
