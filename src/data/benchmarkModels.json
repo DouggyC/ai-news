@@ -179,15 +179,15 @@
     "id": "gemini-3-flash",
     "name": "Gemini3 Flash",
     "provider": "Google",
-    "openSource": false,
-    "mmlu": 90.0,
-    "humaneval": 90.0,
-    "livebench": 73.0,
-    "mmluPlus": 89.0,
-    "gpqa": 89.8
-  },
-  {
-    "id": "gemini-3.1-flash-lite",
+"openSource": false,
+"mmlu": 90.0,
+"humaneval": 90.0,
+"livebench": 73.0,
+"mmluPlus": 88.2,
+"gpqa": 81.2
+},
+{
+"id": "gemini-3.1-flash-lite",
     "name": "Gemini3.1 Flash Lite",
     "provider": "Google",
     "openSource": false,
@@ -794,15 +794,15 @@
   {
     "id": "gpt-5-mini",
     "name": "GPT-5 Mini",
-    "provider": "OpenAI",
-    "openSource": false,
-    "mmlu": 86.0,
-    "humaneval": 88.0,
-    "livebench": 65.9,
-    "mmluPlus": 84,
-    "gpqa": 83
-  },
-  {
+"provider": "OpenAI",
+"openSource": false,
+"mmlu": 86.0,
+"humaneval": 88.0,
+"livebench": 65.9,
+"mmluPlus": 83.7,
+"gpqa": 82.8
+},
+{
     "id": "kimi-k2-thinking",
     "name": "Kimi K2 Thinking",
     "provider": "Moonshot",

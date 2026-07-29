@@ -87,6 +87,7 @@ const companyOrder = [
   'Midjourney',
   'StabilityAI',
   'BlackForest',
+  'FLUX-3',
   'HuggingFace',
   'HuggingFace-Serge',
   'HuggingFace-Tau',
@@ -330,6 +331,7 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
     'Microsoft-SharePoint-Apps': 'backgroundColor:rgba(99, 102, 241, 0.2);color:#c7d2fe;borderColor:rgba(99, 102, 241, 0.4)',
     'Anthropic-Claude-Security': 'backgroundColor:rgba(239, 68, 68, 0.2);color:#fecaca;borderColor:rgba(239, 68, 68, 0.35)',
     'OpenAI-Codex-Micro': 'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.5)',
+    'FLUX-3': 'backgroundColor:rgba(59, 130, 246, 0.2);color:#60a5fa;borderColor:rgba(59, 130, 246, 0.45)',
   };
 
   const style =

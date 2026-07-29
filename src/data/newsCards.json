@@ -228,5 +228,15 @@
     "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
     "category": "research",
     "publishedAt": "2026-07-24"
+  },
+  {
+    "id": "apple-siri-ai-powered-by-google-gemini-2026-07-25",
+    "title": "Apple's Siri AI now public-beta runs on customized Google Gemini (~$1B/yr) inside Private Cloud Compute",
+    "summary": "Apple on July 22-25, 2026 opened Siri AI to public-beta testers via the iOS 27 beta — the rebuilt assistant that Apple confirmed at WWDC is powered on the cloud side by a customized ~1.2-trillion-parameter version of Google Gemini (reported ~$1B/year deal) routed through Apple's Private Cloud Compute, while on-device models handle the rest. Access is gated behind a waitlist and is limited to iPhone 15 Pro / iPhone 16 or newer in English at launch; EU rollout is delayed under the Digital Markets Act and China remains on the separate Alibaba-Qwen-powered Apple Intelligence path. The move puts Google's frontier model behind Apple's flagship assistant for the first time and lets Apple ship a conversational, multi-step Siri two years after it telegraphed the rebuild.",
+    "source": "Apple",
+    "sourceUrl": "https://techsunnews.com/new-siri-ai-ios-27-public-beta-2026/",
+    "imageUrl": "https://www.apple.com/favicon.ico",
+    "category": "capability",
+    "publishedAt": "2026-07-25"
   }
-]
+] 
