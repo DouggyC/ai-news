@@ -10,16 +10,6 @@
     "publishedAt": "2026-07-22"
   },
   {
-    "id": "openai-chatgpt-health-us-rollout-2026-07-23",
-    "title": "OpenAI makes ChatGPT Health available to all U.S. users over 18 — GPT-5.6-Luna tops GPT-5.5 on HealthBench",
-    "summary": "OpenAI on July 23, 2026 made ChatGPT Health available to all logged-in U.S. users 18+ across Free, Go, Plus and Pro plans on web and iOS — a health-focused experience with physicians helping improve responses and explicit guarantees that user data is not used for training. The launch lands a day after a Florida pastor sued the company for a near-fatal suggestion not to consult a doctor, and OpenAI separately disclosed that GPT-5.6-Luna, the smallest model from its latest release, outperforms GPT-5.5 on its open-source HealthBench evaluation; the rollout comes ahead of expected expansion to other regions.",
-    "source": "OpenAI",
-    "sourceUrl": "https://openai.com/index/health-in-chatgpt/",
-    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg",
-    "category": "product",
-    "publishedAt": "2026-07-23"
-  },
-  {
     "id": "openai-gpt-5-6-sol-public-rollout-2026-07-25",
     "title": "OpenAI releases GPT-5.6 Sol publicly after U.S. government national security review — paired with GPT-Live voice and office-work tool",
     "summary": "OpenAI on July 24-25, 2026 publicly released GPT-5.6 Sol — its most powerful model yet — after a rollout postponed last month when the U.S. government raised heightened national security concerns; Reuters and The New York Times reported the company had previewed the model with the Administration before launch. The release went live alongside a separate tool meant to assist with routine office tasks and the GPT-Live full-duplex voice feature OpenAI says can hold a genuine two-way conversation; OpenAI has not disclosed the specific national-security issues that prompted the hold or announced pricing changes tied to the new model, and is rolling GPT-Live and GPT-5.6 Sol out in phases over the coming weeks. The episode signals that even the companies building frontier systems are now subject to government review before releasing them — a dynamic that did not exist two years ago.",
@@ -28,16 +18,6 @@
     "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg",
     "category": "model",
     "publishedAt": "2026-07-25"
-  },
-  {
-    "id": "anthropic-voice-mode-opus-sonnet-2026-07-23",
-    "title": "Anthropic brings voice mode to Claude Opus and Sonnet — Gmail, Slack, Canva reach, 9 new languages",
-    "summary": "Anthropic on July 23, 2026 extended voice mode beyond Haiku to Opus and Sonnet, letting users tackle 'real business problems' (turn a conversation into a one-page pitch, rearrange a calendar when a train is delayed) by speaking, and seamlessly switch models mid-conversation when a Haiku exchange sparks something deeper. Voice mode also reaches into apps like Gmail, Slack and Canva, and exits beta for French, German, Spanish, Hindi, Indonesian, Italian, Japanese, Korean and Portuguese — Anthropic framed the launch as a response to users immediately pushing voice past quick Q&A into 'work conversations' that Haiku 'kept quick, but not always deep.'",
-    "source": "Anthropic",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
-    "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
-    "category": "product",
-    "publishedAt": "2026-07-23"
   },
   {
     "id": "anthropic-claude-opus-5-launch-2026-07-24",
@@ -60,14 +40,14 @@
     "publishedAt": "2026-07-25"
   },
   {
-    "id": "nvidia-cosmos-3-edge-siggraph-2026-07-23",
-    "title": "NVIDIA ships Cosmos 3 Edge at SIGGRAPH — 4B-parameter physical-AI world model runs on one RTX PRO 6000 (was 64 GB300s)",
-    "summary": "NVIDIA on July 20, 2026 released Cosmos 3 Edge at SIGGRAPH 2026 — a 4-billion-parameter open world foundation model that compresses the Cosmos-Dreams autonomous-vehicle simulator from 64 GB300 GPUs to a single RTX PRO 6000 workstation card, processing text, images, video, audio and physical actions through a mixture-of-transformers architecture. Weights ship under OpenMDW 1.1 on Hugging Face; the model targets real-time edge deployment on Jetson Thor, RTX PRO and DGX systems, with a separate 2B reasoning module that runs on Jetson Orin 8GB. NVIDIA simultaneously shipped Synthetic Video Detector (22ms 1080p deepfake detection, 92% accuracy uncompressed, NIM-microservice deployable) and an open-source Medical Physics Simulation framework that cut robot-training time from >5 hours to <2 minutes across 8,192 parallel environments — confirmed adopters include CMR Surgical, Johnson & Johnson MedTech and Medtronic Structural Heart.",
+    "id": "nvidia-ssi-strategic-partnership-2026-07-27",
+    "title": "NVIDIA + Sutskever's Safe Superintelligence announce long-term partnership — Vera Rubin compute, undisclosed investment",
+    "summary": "NVIDIA and Safe Superintelligence Inc. (SSI) — the Ilya Sutskever–led lab focused on safe superintelligence — announced a long-term strategic partnership on July 27, 2026 alongside a separate NVIDIA investment in SSI. Under the deal, SSI gets access to NVIDIA's next-generation Vera Rubin platform, allowing it to scale its compute 'by an order of magnitude,' and the two companies will co-develop technical advances on current and future NVIDIA compute platforms by drawing on SSI's research direction; Jensen Huang called Sutskever 'a pioneer of fundamental breakthroughs at the foundation of modern AI' starting with AlexNet, while Sutskever said SSI 'has research that is worthy of scaling up' and is betting on Vera Rubin to take the lab 'to the next level.' Terms of NVIDIA's investment were not disclosed.",
     "source": "NVIDIA",
-    "sourceUrl": "https://www.techtimes.com/articles/321401/20260723/nvidia-siggraph-cosmos-3-edge-brings-physical-ai-pipeline-single-gpu.htm",
+    "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/Ilya-Sutskevers-Safe-Superintelligence-Inc--and-NVIDIA-Announce-Long-Term-Strategic-Partnership/default.aspx",
     "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
-    "category": "model",
-    "publishedAt": "2026-07-23"
+    "category": "capability",
+    "publishedAt": "2026-07-27"
   },
   {
     "id": "spacexai-grok-build-workflows-2026-07-23",
@@ -110,14 +90,24 @@
     "publishedAt": "2026-07-23"
   },
   {
-    "id": "alibaba-qwen-audio-3-0-tts-2026-07-23",
-    "title": "Alibaba ships Qwen-Audio-3.0-TTS — inline [whisper]/[breaths]/[laughs] tags + free-style natural-language voice control",
-    "summary": "Alibaba's Qwen team on July 23, 2026 released Qwen-Audio-3.0-TTS in two flavors — Flash (sub-100ms latency on a single A100, for interactive assistants and gaming NPCs) and Plus (~12B parameters, up to 48 kHz studio-grade output for audiobooks, e-learning, advertising). The release's headline feature is inline tag steering: developers can embed `[whisper]`, `[angry]`, `[breaths]`, `[laughs]` markup directly in input text to control prosody, emotional tone and breath sounds without post-processing, and the model accepts free-style natural-language style prompts (e.g. 'a calm, slightly breathy late-night radio host'). The launch fits Alibaba Cloud's pay-as-you-go monetization pattern, though per-second pricing was not disclosed; Plus topped the Speech Arena Leaderboard on Artificial Analysis at launch.",
+    "id": "microsoft-mai-cyber-1-flash-mdash-2026-07-27",
+    "title": "Microsoft ships MAI-Cyber-1-Flash inside MDASH — 50% the cost of frontier models, code-heavy security specialist",
+    "summary": "Microsoft AI on July 27, 2026 announced MAI-Cyber-1-Flash inside MDASH (its multi-agent vulnerability identification and remediation harness) — a compact, code-heavy security model derived from the MAI-Thinking-1 lineage, built from scratch in-house on the highest-quality data, that delivers 'world-class performance at 50% of the cost of leading models.' MDASH pairs the model with an agentic workflow to find and fix vulnerabilities end-to-end; Microsoft says MAI-Cyber-1-Flash lets MDASH match or beat larger frontier security models at roughly half the inference spend — a direct play for security-tooling budgets as the company routes more of its own Office AI workloads onto MAI models instead of paying OpenAI and Anthropic.",
+    "source": "Microsoft",
+    "sourceUrl": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/",
+    "imageUrl": "https://www.microsoft.com/favicon.ico",
+    "category": "model",
+    "publishedAt": "2026-07-27"
+  },
+  {
+    "id": "alibaba-qwen-image-3-0-2026-07-24",
+    "title": "Alibaba ships Qwen-Image-3.0 — 4.5k-token inputs, 12-language native rendering, 20+ fonts in one step",
+    "summary": "Alibaba's Qwen team on July 24, 2026 released Qwen-Image-3.0 — its latest image generation model that supports ultra-long inputs of up to 4.5k tokens, enabling one-step generation of knowledge diagrams and complex UI interfaces covering multiple elements such as mathematical symbols, geometric shapes, and logical deduction steps. The model renders natively in 12 languages and 20+ font styles, which Alibaba says can significantly cut production costs for multilingual product posters and film/comic storyboards; the launch completes a three-model Qwen multimodal push in the same week alongside Qwen-Audio-3.0-Realtime and Qwen-Audio-3.0-TTS, all framed under Alibaba Cloud's pay-as-you-go monetization via Model Studio. Per-second pricing was not disclosed; the broader push targets short films, comics, interactive education, and immersive entertainment use cases.",
     "source": "Alibaba",
-    "sourceUrl": "https://runtimewire.com/article/qwen-audio-3-0-tts-offers-real-time-and-studio-grade-voice-generation-for-alibab",
+    "sourceUrl": "https://www.alibabacloud.com/blog/alibaba-unveiled-multimodal-models-on-image-and-audio_603395",
     "imageUrl": "https://cdn.techinasia.com/wp-content/uploads/2025/09/1759051591_WhatsApp-Image-2025-09-28-at-16.21.03.jpeg",
     "category": "model",
-    "publishedAt": "2026-07-23"
+    "publishedAt": "2026-07-24"
   },
   {
     "id": "alibaba-qwen-agentworld-2026-07-25",
@@ -140,6 +130,16 @@
     "publishedAt": "2026-07-23"
   },
   {
+    "id": "google-gemini-3-6-flash-3-5-flash-lite-cyber-2026-07-21",
+    "title": "Google ships Gemini 3.6 Flash + 3.5 Flash-Lite + 3.5 Flash Cyber — workhorse refresh, 17% fewer output tokens vs 3.5",
+    "summary": "Google on July 21, 2026 shipped a triple Gemini release — Gemini 3.6 Flash (workhorse), Gemini 3.5 Flash-Lite (cheapest 3.5-class model) and Gemini 3.5 Flash Cyber (security-focused, governments-only via CodeMender) — replacing Gemini 3.5 Flash as the Gemini app and API default. 3.6 Flash is the production default at $1.50/$7.50 per million tokens, reduces output tokens 17% vs 3.5 Flash per Artificial Analysis (up to 65% on DeepSWE), and is also available in Google Antigravity and the Gemini Enterprise app; 3.5 Flash-Lite streams ~350 tokens/sec at $0.30/$2.50 and is positioned for subagents in multi-agent systems. Google separately confirmed Gemini 3.5 Pro is still in partner testing and 'will be made broadly available as soon as it's ready' — and that pre-training for Gemini 4 is already underway.",
+    "source": "Google",
+    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+    "imageUrl": "https://deepmind.google/favicon.ico",
+    "category": "model",
+    "publishedAt": "2026-07-21"
+  },
+  {
     "id": "apple-ios-27-public-beta-apple-intelligence-2026-07-25",
     "title": "Apple ships iOS 27 public beta — AI HomeKit Secure Video summaries, Passwords AI fixes, cross-platform Shared Albums",
     "summary": "Apple on July 25, 2026 released the first public beta builds of iOS 27, macOS 27 Golden Gate, iPadOS 27 and watchOS 27 — the AI-focused release lands ahead of its official September launch alongside new iPhone models. Headline Apple Intelligence additions include AI-driven HomeKit Secure Video summaries that pair motion events across cameras (e.g. 'someone seen' or 'animal seen') and require a 2TB+ iCloud+ plan, Apple Intelligence auto-fixing weak passwords in the Passwords app via iCloud Keychain + Safari (requires an Apple Intelligence-compatible iPhone), faster iCloud Photos syncing, cross-platform Shared Album uploads from Android and Windows, and richer iCloud collaboration-link previews. Siri conversations now sync across devices via iCloud inside the dedicated Siri app; Apple has not disclosed specific daily-use limits for Image Playground and other Apple Intelligence features beyond saying higher iCloud+ plans raise them.",
@@ -147,6 +147,16 @@
     "sourceUrl": "https://time.news/ios-27-beta-adds-ai-homekit-summaries-and-enhanced-icloud-features/",
     "imageUrl": "https://www.apple.com/favicon.ico",
     "category": "product",
+    "publishedAt": "2026-07-25"
+  },
+  {
+    "id": "apple-siri-ai-powered-by-google-gemini-2026-07-25",
+    "title": "Apple's Siri AI now public-beta runs on customized Google Gemini (~$1B/yr) inside Private Cloud Compute",
+    "summary": "Apple on July 22-25, 2026 opened Siri AI to public-beta testers via the iOS 27 beta — the rebuilt assistant that Apple confirmed at WWDC is powered on the cloud side by a customized ~1.2-trillion-parameter version of Google Gemini (reported ~$1B/year deal) routed through Apple's Private Cloud Compute, while on-device models handle the rest. Access is gated behind a waitlist and is limited to iPhone 15 Pro / iPhone 16 or newer in English at launch; EU rollout is delayed under the Digital Markets Act and China remains on the separate Alibaba-Qwen-powered Apple Intelligence path. The move puts Google's frontier model behind Apple's flagship assistant for the first time and lets Apple ship a conversational, multi-step Siri two years after it telegraphed the rebuild.",
+    "source": "Apple",
+    "sourceUrl": "https://techsunnews.com/new-siri-ai-ios-27-public-beta-2026/",
+    "imageUrl": "https://www.apple.com/favicon.ico",
+    "category": "capability",
     "publishedAt": "2026-07-25"
   },
   {
@@ -228,15 +238,5 @@
     "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
     "category": "research",
     "publishedAt": "2026-07-24"
-  },
-  {
-    "id": "apple-siri-ai-powered-by-google-gemini-2026-07-25",
-    "title": "Apple's Siri AI now public-beta runs on customized Google Gemini (~$1B/yr) inside Private Cloud Compute",
-    "summary": "Apple on July 22-25, 2026 opened Siri AI to public-beta testers via the iOS 27 beta — the rebuilt assistant that Apple confirmed at WWDC is powered on the cloud side by a customized ~1.2-trillion-parameter version of Google Gemini (reported ~$1B/year deal) routed through Apple's Private Cloud Compute, while on-device models handle the rest. Access is gated behind a waitlist and is limited to iPhone 15 Pro / iPhone 16 or newer in English at launch; EU rollout is delayed under the Digital Markets Act and China remains on the separate Alibaba-Qwen-powered Apple Intelligence path. The move puts Google's frontier model behind Apple's flagship assistant for the first time and lets Apple ship a conversational, multi-step Siri two years after it telegraphed the rebuild.",
-    "source": "Apple",
-    "sourceUrl": "https://techsunnews.com/new-siri-ai-ios-27-public-beta-2026/",
-    "imageUrl": "https://www.apple.com/favicon.ico",
-    "category": "capability",
-    "publishedAt": "2026-07-25"
   }
-] 
+]

@@ -138,6 +138,8 @@ const companyOrder = [
   'Ideogram',
   'Vercel',
   'Kore',
+  'Cogent',
+  'Cogent-AI-Harness',
 ];
 
 
@@ -331,7 +333,9 @@ function getCompanyBadgeStyle(company: string): React.CSSProperties {
     'Microsoft-SharePoint-Apps': 'backgroundColor:rgba(99, 102, 241, 0.2);color:#c7d2fe;borderColor:rgba(99, 102, 241, 0.4)',
     'Anthropic-Claude-Security': 'backgroundColor:rgba(239, 68, 68, 0.2);color:#fecaca;borderColor:rgba(239, 68, 68, 0.35)',
     'OpenAI-Codex-Micro': 'backgroundColor:rgba(34, 197, 94, 0.2);color:#4ade80;borderColor:rgba(34, 197, 94, 0.5)',
-    'FLUX-3': 'backgroundColor:rgba(59, 130, 246, 0.2);color:#60a5fa;borderColor:rgba(59, 130, 246, 0.45)',
+'FLUX-3': 'backgroundColor:rgba(59, 130, 246, 0.2);color:#60a5fa;borderColor:rgba(59, 130, 246, 0.45)',
+    Cogent: 'backgroundColor:rgba(220, 38, 38, 0.2);color:#f87171;borderColor:rgba(220, 38, 38, 0.4)',
+    'Cogent-AI-Harness': 'backgroundColor:rgba(220, 38, 38, 0.15);color:#fca5a5;borderColor:rgba(220, 38, 38, 0.3)',
   };
 
   const style =

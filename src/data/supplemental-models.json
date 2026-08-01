@@ -1819,58 +1819,73 @@
     "json": true,
     "search": true
   },
-"claude-opus-5": {
-"provider": "Anthropic",
-"parameters": 0,
-"modelSizeGB": 0,
-"contextLength": 1000000,
-"openSource": false,
-"license": "Proprietary",
-"mmlu": 93.5,
-"humaneval": 96.5
-},
-"motif-3": {
-"motif-3": {
-"provider": "Motif Technologies",
-"parameters": 314000000000,
-"modelSizeGB": 0,
-"contextLength": 262144,
-"openSource": true,
-"license": "Research Only",
-"mmlu": 90,
-"humaneval": 91,
-"multimodal": false,
-"vision": false,
-"functionCalling": true,
-"json": true,
-"search": false
-},
-"parameters": 0,
-"modelSizeGB": 0,
-"contextLength": 1000000,
-"openSource": false,
-"license": "Proprietary",
-"mmlu": 90,
-"humaneval": 91
-},
-"agnes-2-5-pro-alpha": {
-"provider": "Sapiens AI",
-"parameters": 0,
-"modelSizeGB": 0,
-"contextLength": 1000000,
-"openSource": false,
-"license": "Proprietary",
-"mmlu": 88.5,
-"humaneval": 88
-},
-"g9v3-3b": {
-"provider": "AI9Stars",
-"parameters": 3000000000,
-"modelSizeGB": 0,
-"contextLength": 131072,
-"openSource": true,
-"license": "Apache 2.0",
-"mmlu": 62,
-"humaneval": 55
-}
+  "claude-opus-5": {
+    "provider": "Anthropic",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 93.5,
+    "humaneval": 96.5
+  },
+  "motif-3": {
+    "motif-3": {
+      "provider": "Motif Technologies",
+      "parameters": 314000000000,
+      "modelSizeGB": 0,
+      "contextLength": 262144,
+      "openSource": true,
+      "license": "Research Only",
+      "mmlu": 90,
+      "humaneval": 91,
+      "multimodal": false,
+      "vision": false,
+      "functionCalling": true,
+      "json": true,
+      "search": false
+    },
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 90,
+    "humaneval": 91
+  },
+  "agnes-2-5-pro-alpha": {
+    "provider": "Sapiens AI",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 88.5,
+    "humaneval": 88
+  },
+  "g9v3-3b": {
+    "provider": "AI9Stars",
+    "parameters": 3000000000,
+    "modelSizeGB": 0,
+    "contextLength": 131072,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 62,
+    "humaneval": 55
+  },
+  "inkling-small": {
+    "provider": "Thinking Machines",
+    "parameters": 250000000000,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": null,
+    "humaneval": null,
+    "multimodal": true,
+    "vision": true,
+    "functionCalling": true,
+    "json": true,
+    "search": true
+  }
 }

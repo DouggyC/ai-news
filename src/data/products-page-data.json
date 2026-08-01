@@ -75,6 +75,11 @@
         "name": "GPT-5.6 Sol",
         "url": "https://openai.com/index/gpt-5-6/",
         "description": "OpenAI's next-generation frontier model (GA July 9, 2026) after limited preview to trusted US partners at request of the Trump administration (Office of National Cyber Director + OSTP) — OpenAI coordinated pre-deployment testing with the US Center for AI Standards and Innovation and the June 2026 Executive Order on AI security. Sol ($5/$30 per 1M tokens) is the new frontier workhorse and OpenAI's 'strongest cybersecurity model yet' — sets new SOTA on the Coding Agent Index at 80.0 (+2.8 over Fable 5) at less than half the output tokens in less than half the time, with 'max' and 'ultra' (multi-agent parallel workstream coordinator) settings. Terra ($2.50/$15) is balanced for everyday work; Luna ($1/$6) is fastest/most affordable. GPT-5.6 Sol now preferred model across Microsoft 365 Copilot (Word/Excel/PowerPoint/Cowork, July 9, 2026) and the new ChatGPT Work agent (July 9, 2026). Powers ChatGPT Health (rolled out to all US users 18+ on web and iOS July 23, 2026, with Apple Health/Weight Watchers/MyFitnessPal/Function connectors and HealthBench Professional benchmark). Replaces GPT-5.5 as the API default behind OpenAI Presence, Codex, Deep Research, voice, image, and agent tools."
+      },
+      "Cogent": {
+        "name": "Cogent VR-1",
+        "url": "https://www.cogent.com/blog/cogent-at-the-frontier-announcing-vr-1-the-first-mythos-class-ai-model-built-for-cyber-defense",
+        "description": "Cogent Security's Mythos-class frontier reasoning model (announced July 27, 2026, San Francisco). First frontier model trained and optimized specifically for cyber defense. Given a foothold inside an enterprise, VR-1 autonomously maps the surrounding environment, connects weaknesses across cloud/identity/application/endpoint systems, and verifies proposed attack paths through execution. On the black-box configuration of IntrusionBench (released alongside the model, execution-verified benchmark for enterprise attack chains), VR-1 achieved 2x the pass@3 of the strongest frontier baseline within a 2-hour wall-clock limit / 250 agent turns. Cogent calls its validation principle 'prove, don't detonate' -- exposure gets confirmed without causing damage, persistence, or disruption. Not released openly; available only to vetted organizations through the Cogent Frontier Access Program with guardrails, policy controls, and audit logging. Pricing not publicly disclosed. Founders Vineet Edupuganti (CEO), Geng Sng (CTO), Anirudh Ravula (Head of AI)."
       }
     }
   },
@@ -756,6 +761,11 @@
         "name": "SharePoint Copilot Apps",
         "url": "https://devblogs.microsoft.com/microsoft365dev/sharepoint-copilot-apps-now-in-public-preview-from-intent-to-action-in-microsoft-365-copilot/",
         "description": "Microsoft's new way to deliver action-oriented, app-like experiences inside Microsoft 365 Copilot (entered public preview July 9, 2026 via SPFx 1.24 preview; full worldwide rollout targeted by July 20, 2026). Built on SPFx 1.24 with industry-standard web stack, MCP Apps, and the SPFx packaging model — hosted automatically in Microsoft 365 tenant at no extra setup. Replaces 'wall-of-text chat' with concrete one-click app flows (approve an expense, triage an incident, run an onboarding checklist) inside the Copilot canvas. Shipped with Copilot Workbench and full developer experience; APIs and the 'SharePoint Copilot Apps' working name subject to change before GA."
+      },
+      "Cogent": {
+        "name": "Cogent AI Harness",
+        "url": "https://www.cogent.com/blog/cogent-at-the-frontier-announcing-vr-1-the-first-mythos-class-ai-model-built-for-cyber-defense",
+        "description": "Cogent Security's governed runtime for cyber-defense agents (released July 27, 2026 alongside VR-1). Wraps any capable model -- open-weight or frontier -- with environment context, scoped tools, policy enforcement, and verification so it can operate as a governed security agent inside a live enterprise. Every action is checked against the customer's own policy and backed by evidence; Cogent's validation principle is 'prove, don't detonate' -- exposure is confirmed without causing damage, persistence, or disruption. Available through the Cogent Frontier Access Program."
       }
     }
   },
@@ -994,7 +1004,7 @@
       "Microsoft-MAI-Voice-2-Flash": {
         "name": "MAI-Voice-2-Flash",
         "url": "https://microsoft.ai/news/introducing-mai-image-2-5-pro-and-mai-voice-2-flash/",
-        "description": "Microsoft's real-time text-to-speech and voice synthesis model, released in public preview July 23, 2026. 30+ prebuilt voices across 20+ languages with SSML support, low-latency streaming, and emotional tone control. Available through Microsoft Foundry and MAI Playground. Priced at $3 per 1M text input tokens and $30 per 1M audio output tokens."
+        "description": "Microsoft's real-time text-to-speech and voice synthesis model, released in public preview July 23, 2026 alongside MAI-Image-2.5-Pro. 2x faster than MAI-Voice-2 and 32% lower cost. 30+ prebuilt voices across 20+ languages with SSML support, low-latency streaming, and emotional tone control. Powers Dynamics 365 Contact Center (T-Mobile, EasyJet deployments) -- Microsoft claims up to 89% GPU cost reduction vs prior generation; integrated into Azure Voice Live for developers building speech-to-speech agents. Priced at $15 per 1M characters. Available through Microsoft Foundry and MAI Playground. In production across Bing voice summaries, PowerPoint AI voice-over, and Azure."
       },
       "Omilia": {
         "name": "Lexis",
@@ -1125,6 +1135,11 @@
         "name": "DeepSearch",
         "url": "https://grok.com",
         "description": "Grok research workflow combining live web search and reasoning chains."
+      },
+      "Cogent": {
+        "name": "Cogent VR-1 (Intrusion Research)",
+        "url": "https://www.cogent.com/blog/how-we-built-and-benchmarked-vr-1-our-frontier-cyber-reasoning-model",
+        "description": "Cogent Security's cyber-research deployment of VR-1 (July 27, 2026). Customers can request a Frontier Model Risk Assessment -- VR-1 maps reachable attack paths in the customer's environment and produces a readout a frontier-level adversary could exploit. Built on IntrusionBench (execution-verified; agent gets only a foothold + a target). Pairs with the Cogent AI Harness runtime (every action checked against the customer's policy; 'prove, don't detonate' validation). Available only through the Cogent Frontier Access Program."
       }
     }
   },
