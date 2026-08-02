@@ -80,6 +80,11 @@
         "name": "Cogent VR-1",
         "url": "https://www.cogent.com/blog/cogent-at-the-frontier-announcing-vr-1-the-first-mythos-class-ai-model-built-for-cyber-defense",
         "description": "Cogent Security's Mythos-class frontier reasoning model (announced July 27, 2026, San Francisco). First frontier model trained and optimized specifically for cyber defense. Given a foothold inside an enterprise, VR-1 autonomously maps the surrounding environment, connects weaknesses across cloud/identity/application/endpoint systems, and verifies proposed attack paths through execution. On the black-box configuration of IntrusionBench (released alongside the model, execution-verified benchmark for enterprise attack chains), VR-1 achieved 2x the pass@3 of the strongest frontier baseline within a 2-hour wall-clock limit / 250 agent turns. Cogent calls its validation principle 'prove, don't detonate' -- exposure gets confirmed without causing damage, persistence, or disruption. Not released openly; available only to vetted organizations through the Cogent Frontier Access Program with guardrails, policy controls, and audit logging. Pricing not publicly disclosed. Founders Vineet Edupuganti (CEO), Geng Sng (CTO), Anirudh Ravula (Head of AI)."
+      },
+      "Microsoft-MAI-Cyber-1-Flash": {
+        "name": "MAI-Cyber-1-Flash",
+        "url": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
+        "description": "Microsoft AI's first in-house cybersecurity model (announced July 27, 2026) — a compact, code-heavy security model built from scratch on the MAI-Thinking-1 platform and trained on the highest-quality security data, optimized for finding and validating vulnerabilities in complex codebases. Powers MDASH, Microsoft's multi-model agentic scanning harness orchestrated by FORGE (Frontier Offensive Research & Generative Exploration, led by Georgia Tech professor Taesoo Kim). When paired with GPT-5.4 in MDASH, the combo scores 95.95-96% on CyberGym benchmark (~12 points above Mythos 5) at roughly half the cost of the prior MDASH configuration (which mixed GPT-5.4, 5.4 mini, and 5.3 Codex). Available in preview via Microsoft Defender / Microsoft Security Exposure Management starting November 3, 2026 — same window as Project Perception."
       }
     }
   },
@@ -367,6 +372,11 @@
         "name": "Claude Security Plugin",
         "url": "https://www.marktechpost.com/2026/07/22/anthropic-releases-claude-security-plugin-for-claude-code-in-beta/",
         "description": "Anthropic's multi-agent vulnerability scanner for Claude Code (released in beta July 22-23, 2026; current plugin v0.10.0). Runs a six-phase scan of a repository from inside an existing Claude Code session, then turns selected findings into patch files for review. Two entry points: /security-review for a one-time branch pass, or the Claude Security plugin for full-codebase deep scan with multi-agent review and patch generation. Three-voter adversarial panel (REACHABILITY/IMPACT/DEFENSES) must clear a 2-of-3 quorum before findings reach the report; non-unanimous votes cap stated confidence at medium. Patches built in an isolated scratch clone, independently verified, never auto-applied. Requires Claude Code v2.1.154+ with dynamic workflows enabled and Python 3.9.6+ / Git on PATH. Linux/macOS/Windows supported; counts against plan token limits."
+      },
+      "SpaceXAI-Build-Mode": {
+        "name": "Grok Build Mode",
+        "url": "https://x.ai/news/build-mode",
+        "description": "SpaceXAI's prompt-to-app builder inside Grok (launched July 28, 2026 in early beta; SuperGrok Heavy subscribers only at launch). Generates working websites, apps, games, and interactive dashboards from natural-language prompts; Grok writes the code, renders a live preview inside the chat, and accepts follow-up changes by chat. Once ready, projects publish to a grok.me address or a connected custom domain. Available on web, iOS, and Android. Ships 13 days after the open-source release of the Grok Build terminal coding agent (Rust source, MIT, July 15, 2026) — Build Mode wraps the same coding harness in a no-terminal consumer surface with managed hosting. Examples shown at launch include a physics playground and a browser-based beat machine."
       }
     }
   },
@@ -1210,6 +1220,11 @@
         "name": "Apple Intelligence for Enterprise",
         "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/",
         "description": "Apple's enterprise surface for Apple Intelligence, announced at WWDC26 (June 1, 2026): Apple Intelligence and Siri AI ship as free software updates in iOS 27 / iPadOS 27 / macOS 27 / watchOS 27 / visionOS 27 / tvOS 27 this fall. Built on Apple silicon with on-device processing and Private Cloud Compute for larger server-based models (personal data not stored or made accessible to Apple). Foundation Models framework lets enterprise developers integrate Apple Intelligence into their apps at no per-request cost. App Intents framework connects line-of-business apps to Siri AI. Trust and safety improvements: stronger parental controls, Communication Safety, expanded Sensitive Content Warning. iPhone, iPad, Mac, Apple Watch, Apple Vision Pro."
+      },
+      "Microsoft-Perception": {
+        "name": "Microsoft Project Perception",
+        "url": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
+        "description": "Microsoft's agentic security platform (announced July 27, 2026, public preview August 3, 2026). Coordinates specialized red-team (attack path discovery), blue-team (investigation/triage), and green-team (remediation/hardening) agents over Microsoft's threat intelligence and customer security graph. The harness decides per task whether to route to MAI-Cyber-1-Flash, GPT-5.4, or other models — Microsoft's pitch is that a small purpose-built model paired with a strong generalist inside a multi-agent harness can beat frontier-class models at roughly half the cost (MDASH with MAI-Cyber-1-Flash + GPT-5.4 scores 95.95% on CyberGym). Triggers on threat-intelligence feeds: human analyst assigns an investigation, agents extract IOCs/TTPs from the report, map the attacker surface against the customer's environment, run penetration tests, generate custom detection rules, and propose remediation plans (WAF rules, code fixes, automated patch PRs). Pricing positioned to undercut Anthropic/Cogent/CrowdStrike for ~90% of tasks; larger frontier models reserved for the remaining long-tail."
       }
     }
   },

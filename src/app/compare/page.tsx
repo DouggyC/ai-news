@@ -64,6 +64,8 @@ const providerColors: Record<string, string> = {
   AI9Stars: '#f97316',
 'Sapiens AI': '#84cc16',
 'Motif Technologies': '#f59e0b',
+Celeris: '#06b6d4',
+
 };
 
 function getInitialModels(): FrontierModel[] {
@@ -177,7 +179,7 @@ export default function ComparePage() {
             paddingRight: '24px',
           }}
         >
-          Last updated: July 26, 2026
+          Last updated: July 28, 2026
         </div>
         <div
           style={{

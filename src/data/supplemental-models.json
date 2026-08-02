@@ -1887,5 +1887,65 @@
     "functionCalling": true,
     "json": true,
     "search": true
+  },
+  "claude-4-5-sonnet-thinking": {
+    "provider": "Anthropic",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 88.5,
+    "humaneval": 90.0
+  },
+  "qwen3-max-thinking": {
+    "provider": "Alibaba",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 89.5,
+    "humaneval": 87.0
+  },
+  "glm-4-7": {
+    "provider": "Zhipu AI",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": true,
+    "license": "Apache-2.0",
+    "mmlu": 85.0,
+    "humaneval": 82.0
+  },
+  "deepseek-v3-2-reasoning": {
+    "provider": "DeepSeek",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 128000,
+    "openSource": true,
+    "license": "MIT",
+    "mmlu": 88.0,
+    "humaneval": 85.0
+  },
+  "minimax-m2-5": {
+    "provider": "MiniMax",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": true,
+    "license": "Apache-2.0",
+    "mmlu": 86.0,
+    "humaneval": 88.0
+  },
+  "minimax-m2-1": {
+    "provider": "MiniMax",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": true,
+    "license": "Apache-2.0",
+    "mmlu": 85.0,
+    "humaneval": 86.0
   }
 }

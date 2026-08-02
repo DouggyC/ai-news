@@ -50,6 +50,16 @@
     "publishedAt": "2026-07-27"
   },
   {
+    "id": "nvidia-rtx-spark-windows-ai-pc-2026-07-28",
+    "title": "NVIDIA launches RTX Spark superchip for Windows AI PCs — 128GB unified memory, 1 petaflop FP4 in laptops",
+    "summary": "NVIDIA on July 28, 2026 launched RTX Spark — a new AI-first 'superchip' for Windows laptops and compact desktops that pairs a 20-core Grace CPU with a Blackwell RTX GPU (6,144 CUDA cores) on a single TSMC 3-nanometer die, connected by NVLink-C2C. The flagship tier supports up to 128GB of LPDDR5X unified memory shared between CPU and GPU (~300GB/s bandwidth) and is rated at 1 petaflop of FP4 AI performance — letting laptops run LLMs up to ~120B parameters locally instead of relying on cloud GPUs, much like DGX Spark did for desktops a year earlier. NVIDIA and Microsoft announced RTX Spark jointly, calling the resulting systems the world's first Windows PCs built specifically for personal AI agents; systems ship this fall from Asus, Dell, HP, Lenovo, Microsoft Surface, and MSI, with Acer and Gigabyte expected later. No USD pricing has been announced; RTX Spark is NVIDIA's direct counter to Apple Silicon's efficiency story and to Qualcomm/AMD/Intel AI PCs that have focused on NPUs rather than unified memory.",
+    "source": "NVIDIA",
+    "sourceUrl": "https://pcvenus.com/nvidia-rtx-spark-128gb-unified-memory-windows-ai-pcs/",
+    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
+    "category": "product",
+    "publishedAt": "2026-07-28"
+  },
+  {
     "id": "spacexai-grok-build-workflows-2026-07-23",
     "title": "SpaceXAI ships Workflows in Grok Build — fan-out orchestration across up to 1,024 parallel agents",
     "summary": "SpaceXAI on July 23, 2026 shipped Workflows in Grok Build — an orchestration layer that lets Grok write and run multi-phase workflows, fanning a task out across up to 128 agents (1,024 for big jobs), verifying results, and reporting back when everything finishes while the user's session stays free. Progress is saved phase-by-phase so pause-and-resume never redoes finished work; runs can be watched live with per-agent token counts via `/workflows`. Saved workflows in `.grok/workflows/` are team-shared, and ones in `~/.grok/workflows/` follow the user everywhere; each saved workflow becomes its own slash command that takes arguments, and a built-in `/deep-research` ships that fans research questions out to parallel investigators, verifies claims, and returns a cited report.",
@@ -78,6 +88,16 @@
     "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
     "category": "tool",
     "publishedAt": "2026-07-25"
+  },
+  {
+    "id": "spacexai-grok-4-6-4-7-roadmap-2026-07-28",
+    "title": "Musk: Grok 4.6 (1.5T) targets Aug 7, Grok 4.7 (2.1T) follows — SpaceXAI accelerates monthly release cadence",
+    "summary": "Elon Musk on July 28, 2026 said SpaceXAI will release Grok 4.6 'around August 7' as a 1.5-trillion-parameter model with significantly improved supervised fine-tuning and reinforcement learning, with Grok 4.7 — a 2.1-trillion-parameter model — following 'a few weeks later' (pointing to late August or September if the first date holds). Musk described Grok 4.7 as 'better than 4.6 in every way, except slightly slower to serve, albeit with even better token efficiency,' and signaled that 'Grok 5 will be the next major leap' on an unspecified timeline. The announcement came in response to Vercel CEO Guillermo Rauch calling Grok 4.5 the best-performing cybersecurity model relative to price in Vercel's latest tests; SpaceXAI has not published model cards, API documentation, prices or benchmarks for 4.6 or 4.7 yet, and the 7 August target remains a roadmap statement rather than a confirmed release appointment.",
+    "source": "SpaceXAI",
+    "sourceUrl": "https://crypto.news/grok-4-6-gets-aug-7-launch-date-grok-4-7-follows/",
+    "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
+    "category": "capability",
+    "publishedAt": "2026-07-28"
   },
   {
     "id": "microsoft-mai-image-voice-flash-hill-climb-2026-07-23",
@@ -140,16 +160,6 @@
     "publishedAt": "2026-07-21"
   },
   {
-    "id": "apple-ios-27-public-beta-apple-intelligence-2026-07-25",
-    "title": "Apple ships iOS 27 public beta — AI HomeKit Secure Video summaries, Passwords AI fixes, cross-platform Shared Albums",
-    "summary": "Apple on July 25, 2026 released the first public beta builds of iOS 27, macOS 27 Golden Gate, iPadOS 27 and watchOS 27 — the AI-focused release lands ahead of its official September launch alongside new iPhone models. Headline Apple Intelligence additions include AI-driven HomeKit Secure Video summaries that pair motion events across cameras (e.g. 'someone seen' or 'animal seen') and require a 2TB+ iCloud+ plan, Apple Intelligence auto-fixing weak passwords in the Passwords app via iCloud Keychain + Safari (requires an Apple Intelligence-compatible iPhone), faster iCloud Photos syncing, cross-platform Shared Album uploads from Android and Windows, and richer iCloud collaboration-link previews. Siri conversations now sync across devices via iCloud inside the dedicated Siri app; Apple has not disclosed specific daily-use limits for Image Playground and other Apple Intelligence features beyond saying higher iCloud+ plans raise them.",
-    "source": "Apple",
-    "sourceUrl": "https://time.news/ios-27-beta-adds-ai-homekit-summaries-and-enhanced-icloud-features/",
-    "imageUrl": "https://www.apple.com/favicon.ico",
-    "category": "product",
-    "publishedAt": "2026-07-25"
-  },
-  {
     "id": "apple-siri-ai-powered-by-google-gemini-2026-07-25",
     "title": "Apple's Siri AI now public-beta runs on customized Google Gemini (~$1B/yr) inside Private Cloud Compute",
     "summary": "Apple on July 22-25, 2026 opened Siri AI to public-beta testers via the iOS 27 beta — the rebuilt assistant that Apple confirmed at WWDC is powered on the cloud side by a customized ~1.2-trillion-parameter version of Google Gemini (reported ~$1B/year deal) routed through Apple's Private Cloud Compute, while on-device models handle the rest. Access is gated behind a waitlist and is limited to iPhone 15 Pro / iPhone 16 or newer in English at launch; EU rollout is delayed under the Digital Markets Act and China remains on the separate Alibaba-Qwen-powered Apple Intelligence path. The move puts Google's frontier model behind Apple's flagship assistant for the first time and lets Apple ship a conversational, multi-step Siri two years after it telegraphed the rebuild.",
@@ -190,14 +200,14 @@
     "publishedAt": "2026-07-25"
   },
   {
-    "id": "moonshot-kimi-k3-open-weights-july-27-2026-07-24",
-    "title": "Moonshot Kimi K3 open-weights release scheduled for July 27 — 2.8T-param open model with 51% hallucination rate",
-    "summary": "Moonshot AI on July 16, 2026 launched Kimi K3 (2.8T-parameter vision-language MoE with a 1M-token context, 16-of-896 active experts per token, Kimi Delta Attention + Attention Residuals yielding 2.5× scaling-efficiency gains over K2) and confirmed the full Modified-MIT open weights drop on July 27, 2026 — making K3 the largest known open-weights model to ship if it lands on schedule. The model has topped Arena.ai's Frontend Code Arena at 1,679 points (vs Fable 5's 1,631) with a 76% pairwise win rate; Artificial Analysis places it at 57.1 on Intelligence Index v4.1 (4th behind Fable 5 at 59.9 and GPT-5.6 Sol Max at 58.9) but flags a hallucination rate climb from 39% (K2.6) to ~51% on AA-Omniscience — a finding absent from Moonshot's published charts. The White House's Michael Kratsios on July 22 publicly accused Moonshot of 'industrial distillation' of Anthropic Fable and alleged Thailand-routed GB300 access; China's MOFCOM is separately consulting Alibaba, ByteDance and Zhipu on potential export controls ahead of the July 27 release.",
+    "id": "moonshot-kimi-k3-open-weights-july-27-2026-07-27",
+    "title": "Moonshot releases Kimi K3 open weights — largest open model ever at 2.8T params, ~1.4TB Hugging Face download",
+    "summary": "Moonshot AI on July 27, 2026 released the full open weights of Kimi K3 — a 2.8-trillion-parameter vision-language MoE with 1M-token context, 16-of-896 active experts per token, Kimi Delta Attention + Attention Residuals yielding 2.5× scaling-efficiency gains over K2 — making K3 the largest known open-weights model ever shipped at ~1.4TB on Hugging Face. The release arrived alongside high-performance attention kernels, MoE communication code, and agent-deployment infrastructure; the HF card drew ~700 upvotes within hours and a Bloomberg confirmation cited Moonshot's bid to expand its reach in the global open software community. The launch lands while Moonshot is targeting a $50B valuation ahead of a planned Hong Kong IPO, and the company temporarily paused new subscriptions after heavy downloads — Beijing's MOFCOM is separately consulting Alibaba, ByteDance and Zhipu on export controls ahead of any future frontier releases.",
     "source": "Moonshot",
-    "sourceUrl": "https://www.techtimes.com/articles/321499/20260724/kimi-k3-open-weights-drop-july-27-near-frontier-coding-undisclosed-hallucination-risk.htm",
+    "sourceUrl": "https://techstartups.com/2026/07/27/moonshot-ai-releases-kimi-k3-open-weights-largest-free-ai-model-ever-at-2-8-trillion-parameters/",
     "imageUrl": "https://kimi.com/favicon.ico",
-    "category": "capability",
-    "publishedAt": "2026-07-24"
+    "category": "model",
+    "publishedAt": "2026-07-27"
   },
   {
     "id": "moonshot-uk-us-cyber-eval-kimi-k3-2026-07-25",
@@ -227,16 +237,6 @@
     "sourceUrl": "https://digg.com/tech/tgn5d3yx",
     "imageUrl": "https://avatars.githubusercontent.com/u/105819157?s=200&v=4",
     "category": "tool",
-    "publishedAt": "2026-07-24"
-  },
-  {
-    "id": "mistral-leanstral-1-5-formal-verification-2026-07-24",
-    "title": "Mistral releases Leanstral 1.5 — 119B-param open-source model that verifies code via Lean 4 mathematical proof",
-    "summary": "Mistral released Leanstral 1.5 on July 2, 2026 (widely reported July 24) as an open-source formal-verification model that uses Lean 4 proof language to verify code correctness as mathematical statements, scoring 100% on the miniF2F benchmark and surfacing five previously unknown bugs while scanning 57 open-source repositories. The model uses 6B active parameters out of 119B total, ships under Apache 2.0 with weights on Hugging Face and a free API endpoint on Mistral's platform, and is positioned as a self-hostable alternative to vendor-locked verification tooling — Mistral framed the launch as 'Proof Abundance for All' and pointed to integration into existing code-review pipelines without proprietary data agreements.",
-    "source": "Mistral",
-    "sourceUrl": "https://inews.zoombangla.com/mistral-leanstral-1-5-ai-formal-verification-2/",
-    "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
-    "category": "research",
     "publishedAt": "2026-07-24"
   }
 ]

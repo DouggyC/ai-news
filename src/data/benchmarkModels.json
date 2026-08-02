@@ -129,7 +129,7 @@
     "humaneval": 93.7,
     "livebench": 76.3,
     "mmluPlus": null,
-    "gpqa": 84.0
+    "gpqa": 89.6
   },
   {
     "id": "claude-sonnet-4.6",
@@ -261,7 +261,7 @@
     "humaneval": 93.0,
     "livebench": 70.2,
     "mmluPlus": 89.2,
-    "gpqa": 92.9
+    "gpqa": 93.1
   },
   {
     "id": "grok-4.3",
@@ -294,7 +294,7 @@
     "humaneval": 76.8,
     "livebench": 74.4,
     "mmluPlus": 87.5,
-    "gpqa": 90.5
+    "gpqa": 88.8
   },
   {
     "id": "deepseek-v4-flash",
@@ -305,7 +305,7 @@
     "humaneval": 69.5,
     "livebench": 67.7,
     "mmluPlus": 86.2,
-    "gpqa": 90.8
+    "gpqa": 89.4
   },
   {
     "id": "qwen-3.7-max",
@@ -360,7 +360,7 @@
     "humaneval": 82.6,
     "livebench": 56.4,
     "mmluPlus": null,
-    "gpqa": 89.3
+    "gpqa": 85.8
   },
   {
     "id": "qwen3-6-27b",
@@ -437,7 +437,7 @@
     "humaneval": 72.0,
     "livebench": 55.0,
     "mmluPlus": null,
-    "gpqa": 85.5
+    "gpqa": 82.8
   },
   {
     "id": "nemotron-3-ultra-550b",
@@ -1031,7 +1031,7 @@
     "humaneval": 96.5,
     "livebench": 80.0,
     "mmluPlus": 90.5,
-    "gpqa": 93.7
+    "gpqa": 93.2
   },
   {
     "id": "motif-3",
@@ -1076,5 +1076,71 @@
     "livebench": null,
     "mmluPlus": null,
     "gpqa": 89.5
+  },
+  {
+    "id": "claude-4-5-sonnet-thinking",
+    "name": "Claude Sonnet4.5 Thinking",
+    "provider": "Anthropic",
+    "openSource": false,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": 83.4
+  },
+  {
+    "id": "qwen3-max-thinking",
+    "name": "Qwen3 Max Thinking",
+    "provider": "Alibaba",
+    "openSource": false,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": 86.1
+  },
+  {
+    "id": "glm-4-7",
+    "name": "GLM-4.7",
+    "provider": "Zhipu AI",
+    "openSource": true,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": 85.9
+  },
+  {
+    "id": "deepseek-v3-2-reasoning",
+    "name": "DeepSeek V3.2 Reasoning",
+    "provider": "DeepSeek",
+    "openSource": true,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": 86.2,
+    "gpqa": 84.0
+  },
+  {
+    "id": "minimax-m2-5",
+    "name": "MiniMax M2.5",
+    "provider": "MiniMax",
+    "openSource": true,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": 84.8
+  },
+  {
+    "id": "minimax-m2-1",
+    "name": "MiniMax M2.1",
+    "provider": "MiniMax",
+    "openSource": true,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": 87.5,
+    "gpqa": 83.0
   }
 ]
