@@ -30,7 +30,7 @@
     "humaneval": 88.0,
     "livebench": 75.0,
     "mmluPlus": null,
-    "gpqa": 82.3
+    "gpqa": 84.6
   },
   {
     "id": "gpt-5.4-pro",
@@ -305,7 +305,7 @@
     "humaneval": 69.5,
     "livebench": 67.7,
     "mmluPlus": 86.2,
-    "gpqa": 89.4
+    "gpqa": 90.8
   },
   {
     "id": "qwen-3.7-max",
@@ -635,7 +635,7 @@
     "humaneval": 95.0,
     "livebench": 74.3,
     "mmluPlus": 87.4,
-    "gpqa": 90.3
+    "gpqa": 89.9
   },
   {
     "id": "gpt-5.4-nano",
