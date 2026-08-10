@@ -14,7 +14,7 @@
       "OpenAI": {
         "name": "GPT-5.5",
         "url": "https://developers.openai.com/api/docs/guides/latest-model",
-        "description": "Frontier reasoning model (April 23, 2026), GPT-5.5 and GPT-5.5 Pro in API (April 24). GPT-5.5 Instant default in ChatGPT since June 3, 2026. Powers Codex (including Codex Mobile preview May 14, 2026), Deep Research, voice, image, agent tools. GPT-5.6 series (Sol, Terra, Luna) GA July 9, 2026 after limited preview to trusted US partners at request of Trump administration (Office of National Cyber Director + OSTP) \u2014 OpenAI coordinated pre-deployment testing with US Center for AI Standards and Innovation and the June 2026 Executive Order on AI security. Sol ($5/$30 per 1M tokens) is the new frontier workhorse and 'strongest cybersecurity model yet', sets new SOTA on Coding Agent Index 80.0 (+2.8 over Fable 5) at less than half the output tokens in less than half the time, with 'max' and 'ultra' (multi-agent parallel workstream coordinator) settings; Terra ($2.50/$15) is balanced for everyday work; Luna ($1/$6) is fastest/most affordable. GPT-5.6 now preferred model across Microsoft 365 Copilot (Word/Excel/PowerPoint/Cowork, July 9, 2026) and the new ChatGPT Work agent (July 9, 2026). GPT-5.5-Cyber full release June 22, 2026 as part of Daybreak. Patch the Planet (June 22, 2026) pairs Codex Security with Trail of Bits engineers."
+        "description": "Frontier reasoning model (April 23, 2026), GPT-5.5 and GPT-5.5 Pro in API (April 24). GPT-5.5 Instant default in ChatGPT since June 3, 2026. Powers Codex (including Codex Mobile preview May 14, 2026), Deep Research, voice, image, agent tools. GPT-5.6 series (Sol, Terra, Luna) GA July 9, 2026 after limited preview to trusted US partners at request of Trump administration (Office of National Cyber Director + OSTP) \u2014 OpenAI coordinated pre-deployment testing with US Center for AI Standards and Innovation and the June 2026 Executive Order on AI security. Sol ($5/$30 per 1M tokens) is the new frontier workhorse and 'strongest cybersecurity model yet', sets new SOTA on Coding Agent Index 80.0 (+2.8 over Fable 5) at less than half the output tokens in less than half the time, with 'max' and 'ultra' (multi-agent parallel workstream coordinator) settings; Terra ($2.50/$15) is balanced for everyday work; Luna ($1/$6) is fastest/most affordable. July 30, 2026 price-performance frontier push: Luna cut 80% to $0.20/$1.20 per 1M tokens, Terra cut 20% to $2/$12, Sol now ships Fast mode (replaces Priority Processing) at 2.5x speed for 2x price ($10/$60) \u2014 Luna undercuts Gemini 3.5 Flash-Lite on combined I/O cost. GPT-5.6 now preferred model across Microsoft 365 Copilot (Word/Excel/PowerPoint/Cowork, July 9, 2026) and the new ChatGPT Work agent (July 9, 2026). GPT-5.5-Cyber full release June 22, 2026 as part of Daybreak. Patch the Planet (June 22, 2026) pairs Codex Security with Trail of Bits engineers."
       },
       "Anthropic": {
         "name": "Claude Fable 5",
@@ -85,7 +85,23 @@
         "name": "MAI-Cyber-1-Flash",
         "url": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
         "description": "Microsoft AI's first in-house cybersecurity model (announced July 27, 2026) \u2014 a compact, code-heavy security model built from scratch on the MAI-Thinking-1 platform and trained on the highest-quality security data, optimized for finding and validating vulnerabilities in complex codebases. Powers MDASH, Microsoft's multi-model agentic scanning harness orchestrated by FORGE (Frontier Offensive Research & Generative Exploration, led by Georgia Tech professor Taesoo Kim). When paired with GPT-5.4 in MDASH, the combo scores 95.95-96% on CyberGym benchmark (~12 points above Mythos 5) at roughly half the cost of the prior MDASH configuration (which mixed GPT-5.4, 5.4 mini, and 5.3 Codex). Available in preview via Microsoft Defender / Microsoft Security Exposure Management starting November 3, 2026 \u2014 same window as Project Perception."
+      },
+      "Google-Gemini-Robotics-2": {
+        "name": "Gemini Robotics 2",
+        "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+        "description": "Google DeepMind's most advanced vision-language-action (VLA) model for embodied AI (launched July 30, 2026). Converts vision and language input into motor control for full humanoids (feet to fingertips) and other bi-arm robots; new level of dexterous manipulation on hands and grippers. Paired with Gemini Robotics ER 2 (reasoning/planning) and Gemini Robotics On-Device 2 (efficiency). VLA and On-Device models available to early-access partners; ER 2 publicly available via Gemini API, Google AI Studio, and in private preview on Gemini Enterprise Agent Platform."
+      },
+      "Google-Gemini-Robotics-ER-2": {
+        "name": "Gemini Robotics ER 2",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/",
+        "description": "Google DeepMind's most capable embodied reasoning (ER) model (launched July 30, 2026) \u2014 a vision-language model acting as the high-level brain for robots. Chats with humans, understands the physical world, plans multi-step tasks lasting several minutes, hands off motor execution to lower-level VLA models (e.g., Gemini Robotics 2), natively calls tools like Google Search, and introduces multi-robot collaboration so robot teams can work together in shared spaces. Publicly available to developers via Gemini API, Google AI Studio, and in private preview on Gemini Enterprise Agent Platform."
+      },
+      "Microsoft-Copilot-Super-App": {
+        "name": "Microsoft Copilot Super App",
+        "url": "https://blogs.microsoft.com/blog/2026/07/29/microsoft-q1-fy27-earnings/",
+        "description": "Microsoft's unified Copilot surface confirmed by CEO Satya Nadella on the July 29, 2026 earnings call \u2014 ships this quarter. Merges Copilot chat, GitHub Copilot coding, Copilot Cowork, and long-running Autopilots (including the always-on Microsoft Scout) into a single super app spanning both consumer and commercial experiences. Backed by multi-model architecture (GPT-5.6, Claude, MAI-Thinking-1, MAI-Image/Voice, others) with movement between models per task. Wired into Agent 365 governance, IT Ops, SecOps, FinOps, and CRM/ERP skills. Shift from per-seat to per-seat-plus-consumption pricing already underway across Cowork and Agent 365. Microsoft posted $90B in quarterly revenue; Copilot paid seats now surpass 30M."
       }
+
     }
   },
   {
@@ -377,7 +393,13 @@
         "name": "Grok Build Mode",
         "url": "https://x.ai/news/build-mode",
         "description": "SpaceXAI's prompt-to-app builder inside Grok (launched July 28, 2026 in early beta; SuperGrok Heavy subscribers only at launch). Generates working websites, apps, games, and interactive dashboards from natural-language prompts; Grok writes the code, renders a live preview inside the chat, and accepts follow-up changes by chat. Once ready, projects publish to a grok.me address or a connected custom domain. Available on web, iOS, and Android. Ships 13 days after the open-source release of the Grok Build terminal coding agent (Rust source, MIT, July 15, 2026) \u2014 Build Mode wraps the same coding harness in a no-terminal consumer surface with managed hosting. Examples shown at launch include a physics playground and a browser-based beat machine."
+      },
+      "BrowserStack": {
+        "name": "Test Companion",
+        "url": "https://www.browserstack.com/test-companion",
+        "description": "BrowserStack's agentic AI for test automation inside the IDE (launched July 29, 2026, Dublin). Closes the gap between authored tests and existing code/frameworks/testing stack with no setup or context switching. Accelerates test authoring, execution, debugging, and maintenance across web and mobile apps; teams report 4x faster test authoring, debugging, and maintenance. Newest addition to BrowserStack AI portfolio (2025: 20+ agents across the testing lifecycle; open-source BrowserStack MCP Server connects the testing platform to GitHub Copilot, Cursor, and Claude). 1,000+ teams already use Test Companion; installs from the marketplace in VS Code, JetBrains, Cursor, and Antigravity."
       }
+
     }
   },
   {
@@ -557,7 +579,13 @@
         "name": "OpenRouter Classifiers",
         "url": "https://openrouter.ai/blog/announcements/classifiers/",
         "description": "OpenRouter's beta classifier system (launched July 24, 2026) \u2014 automatically tags every OpenRouter generation with structured metadata for AI usage reporting. Each classifier is a small config with a taxonomy (up to eight dimensions, e.g. department, task type, agent complexity, compliance category), a system prompt, a model (Gemini 3.5 Flash Lite recommended for cost), and a sampling rate. Classification runs asynchronously after requests complete, so it never adds latency to the inference path. Outputs are coerced into structured formats constrained to the taxonomy dimensions and values. Works even with input and output logging disabled. Filter logs by classification (e.g. `department: legal`, `agent_complexity_difficulty_tier: complex_multistep`) and feed the tags into the Activity Explorer to see which models are used for each task type, which departments drive the most spend, and how patterns shift over time."
+      },
+      "Atlassian": {
+        "name": "Forge LLMs API",
+        "url": "https://www.atlassian.com/blog/development/forge-llms-api-is-now-ga-heres-how-you-can-build-ai-native-apps-on-atlassian",
+        "description": "Atlassian's generally available LLM API for the Forge developer platform (GA July 29, 2026 after June preview). Lets any Forge app bring LLM intelligence directly into Atlassian apps from inside the Atlassian trust boundary \u2014 no separate AI account, credentials, or billing setup. 100+ apps in production since Preview, 350+ in development, 20+ public Marketplace apps serving customers (risk management, diagramming, workflow automation, content quality). Backed by Amazon Bedrock, now natively built into Forge's core infrastructure: current model selection includes Claude Sonnet 5, Claude Opus 4.7 and 4.8. Simple SDK, more model tiers planned. Sits alongside Forge custom Rovo agents and skills in Atlassian's broader AI building-block set."
       }
+
     }
   },
   {

@@ -1947,5 +1947,65 @@
     "license": "Apache-2.0",
     "mmlu": 85.0,
     "humaneval": 86.0
-  }
+  },
+  "qwen3-8-max": {
+    "provider": "Alibaba",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 92.5,
+    "humaneval": 90.0,
+    "multimodal": true,
+    "vision": true,
+    "functionCalling": true,
+    "json": true,
+    "search": true
+  },
+  "muse-spark-1-2": {
+    "provider": "Meta",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 91.0,
+    "humaneval": 92.0,
+    "multimodal": true,
+    "vision": true,
+    "functionCalling": true,
+    "json": true,
+    "search": true
+  },
+  "ling-3-0-flash": {
+    "provider": "InclusionAI",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 262144,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 86.0,
+    "humaneval": 80.0,
+    "multimodal": false,
+    "vision": false,
+    "functionCalling": true,
+    "json": true,
+    "search": false
+  },
+  "g9v3-39a5b": {
+    "provider": "AI9Stars",
+    "parameters": 39000000000,
+    "modelSizeGB": 0,
+    "contextLength": 131072,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 70.0,
+    "humaneval": 62.0,
+    "multimodal": false,
+    "vision": false,
+    "functionCalling": true,
+    "json": true,
+    "search": false
+}
 }
