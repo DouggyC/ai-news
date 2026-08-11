@@ -2007,5 +2007,35 @@
     "functionCalling": true,
     "json": true,
     "search": false
-}
+  },
+  "muse-glimmer": {
+    "provider": "Meta",
+    "parameters": 29600000000,
+    "modelSizeGB": 64,
+    "contextLength": 131072,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 82.0,
+    "humaneval": 80.0,
+    "multimodal": true,
+    "vision": true,
+    "functionCalling": true,
+    "json": true,
+    "search": false
+  },
+  "ling-3-0-tiny": {
+    "provider": "InclusionAI",
+    "parameters": 1500000000,
+    "modelSizeGB": 0,
+    "contextLength": 131072,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 72.0,
+    "humaneval": 65.0,
+    "multimodal": false,
+    "vision": false,
+    "functionCalling": true,
+    "json": true,
+    "search": false
+  }
 }

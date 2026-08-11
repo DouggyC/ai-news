@@ -19,7 +19,9 @@ const companyOrder = [
   'Google-Gemini-3.5-Flash-Lite',
   'Google-Gemini-3.5-Flash-Cyber',
   'Google-Gemini-Robotics-2',
+  'Google-Gemini-Robotics-2',
   'Google-Gemini-Robotics-ER-2',
+  'Google-Gemini-Robotics-On-Device-2',
   'Apple',
   'Microsoft',
   'Microsoft-Code',
@@ -34,7 +36,11 @@ const companyOrder = [
   'Meta',
   'Amazon',
   'SpaceXAI',
+  'SpaceXAI',
   'SpaceXAI-Voice-Builder',
+  'SpaceXAI-Voice-Think-Fast-2.0',
+  'SpaceXAI-Workflows',
+  'SpaceXAI-Build-Mode',
   'SpaceXAI-Workflows',
   'SpaceXAI-Build-Mode',
   'Anthropic',
@@ -79,6 +85,7 @@ const companyOrder = [
   'Mind Lab',
   'MiniMax-H3',
   'ThinkingMachines',
+  'ThinkingMachines-Inkling-Small',
   'MiniMax',
   'Z.ai',
   'Mind Lab',
@@ -156,7 +163,10 @@ const companyOrder = [
   'Kore',
   'Cogent',
   'Cogent-AI-Harness',
+  'LG-K-EXAONE-2.0',
+  'SKT-A.X-K2',
 ];
+
 
 
 function getCompanyBadgeStyle(company: string): React.CSSProperties {
@@ -364,7 +374,13 @@ HubSpot: 'backgroundColor:rgba(255, 122, 89, 0.2);color:#ff7a59;borderColor:rgba
     'Microsoft-Copilot-Super-App': 'backgroundColor:rgba(99, 102, 241, 0.2);color:#c7d2fe;borderColor:rgba(99, 102, 241, 0.4)',
     Atlassian: 'backgroundColor:rgba(0, 82, 204, 0.2);color:#2684ff;borderColor:rgba(0, 82, 204, 0.3)',
     BrowserStack: 'backgroundColor:rgba(229, 76, 33, 0.2);color:#f37b4d;borderColor:rgba(229, 76, 33, 0.3)',
+    'Google-Gemini-Robotics-On-Device-2': 'backgroundColor:rgba(59, 130, 246, 0.15);color:#bfdbfe;borderColor:rgba(59, 130, 246, 0.3)',
+    'SpaceXAI-Voice-Think-Fast-2.0': 'backgroundColor:rgba(229, 231, 235, 0.2);color:#fafafa;borderColor:rgba(229, 231, 235, 0.35)',
+    'ThinkingMachines-Inkling-Small': 'backgroundColor:rgba(13, 148, 136, 0.15);color:#5eead4;borderColor:rgba(13, 148, 136, 0.3)',
+    'LG-K-EXAONE-2.0': 'backgroundColor:rgba(170, 66, 244, 0.2);color:#c084fc;borderColor:rgba(170, 66, 244, 0.3)',
+    'SKT-A.X-K2': 'backgroundColor:rgba(229, 0, 65, 0.2);color:#ff3860;borderColor:rgba(229, 0, 65, 0.3)',
   };
+
 
   const style =
     colors[company] ||
