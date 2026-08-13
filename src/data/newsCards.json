@@ -1,5 +1,15 @@
 [
   {
+    "id": "openai-astra-ten-math-proofs-lean-certificates-2026-08-01",
+    "title": "OpenAI's Astra solves 10 long-open math problems with Lean 4 certificates — first explicit non-sofic group, disproves Connes's rigidity",
+    "summary": "OpenAI on August 1, 2026 revealed that an internal version of Astra — the company's 'next major model' — produced results on 10 open problems in mathematics and theoretical computer science that had been stagnant for at least a decade, including the first-ever explicit construction of a non-sofic group (a question open since Gromov introduced soficity in 1999), a disproof of Connes's rigidity conjecture on von Neumann algebras, a proof of Ehrhart's volume conjecture, and resolutions of three problems from Paul Erdős's catalogue (including problem 183 on multicolour Ramsey numbers). OpenAI published a 249-page manuscript, model-written reasoning walkthroughs, and machine-checkable Lean 4 certificates for every result in a public GitHub repository under Apache 2.0 — the formalization.yaml manifest reports a 'sorry' count of zero, meaning no step in any of the 12 theorems is left as an unproved placeholder, with only the three classical axioms Lean ships with as dependencies. OpenAI said the compute to find the solutions cost roughly $2,000 at GPT-5.6 Sol API rates; Astra itself remains unreleased and its release name (GPT-5.7, GPT-6, or standalone) is undecided, with any launch routed through the federal AI safety review process that already staggered the GPT-5.6 rollout.",
+    "source": "OpenAI",
+    "sourceUrl": "https://openai.com/index/ten-advances-in-mathematics/",
+    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg",
+    "category": "research",
+    "publishedAt": "2026-08-01"
+  },
+  {
     "id": "openai-1-billion-weekly-active-users-2026-07-31",
     "title": "OpenAI crosses 1 billion weekly active users — and 2 million businesses — as GPT-5.6 price cuts ripple out",
     "summary": "OpenAI on July 31, 2026 disclosed that its models now reach more than 1 billion weekly active users and more than 2 million businesses, framing the milestone around the economics of 'abundant intelligence' rather than raw compute. The announcement followed OpenAI's July 30 GPT-5.6 price cuts (Luna down 80% to $0.20/$1.20 per million input/output tokens, Terra down 20% to $2/$12) and a stand-alone 'Building abundant intelligence' post arguing that the company will keep pushing capability, cost, and reach together. OpenAI also said six months after signup users send ~50% more messages per day and use ChatGPT for ~2× more task types, and that Codex now accounts for 99.8% of weekly output tokens across the company — financial filings separately showed $13.07B in 2025 revenue against a $38.5B net loss as the company continues to spend aggressively on model development and infrastructure.",
@@ -36,6 +46,26 @@
     "source": "ByteDance",
     "sourceUrl": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
     "imageUrl": "https://cdn.technobezz.com/c/Technobezz_2026_02_14_T092431_822_304d822711.png",
+    "category": "model",
+    "publishedAt": "2026-07-31"
+  },
+  {
+    "id": "lg-k-exaone-2-0-750b-apache-open-source-2026-07-31",
+    "title": "LG releases K-EXAONE 2.0 — Korea's largest 750B-parameter MoE, fully Apache 2.0 commercial use",
+    "summary": "LG AI Research on July 31, 2026 uploaded K-EXAONE 2.0 — a 750-billion-parameter Mixture-of-Experts model (37B active per token via 256 routed experts selecting 8 per token, 262,144-token context) — to Hugging Face under the Apache 2.0 license, the first time an LG EXAONE release has shipped under a permissive open-source license. The model handles 10 languages and LG's self-reported benchmarks place it in frontier territory (83.5 on MMLU-Pro, 68.2 on SWE-Bench Verified, 94.4 on OpenAI-MRCR long-context comprehension versus 71.5 for China's GLM-5.1). The release lands two days after SK Telecom's rival A.X K2 (688B parameters, Apache 2.0) — both are submissions to Korea's Ministry of Science and ICT Sovereign AI Foundation Model project, whose second-phase evaluation August 8–11 will cut the four-team field to three, with a final pair selected by year-end to power the national AI chatbot; Apache 2.0 removes the user caps, field-of-use limits and redistribution restrictions that blocked enterprise productization on prior LG releases.",
+    "source": "LG AI Research",
+    "sourceUrl": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0",
+    "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
+    "category": "model",
+    "publishedAt": "2026-07-31"
+  },
+  {
+    "id": "huawei-openpangu-2-pro-505b-ascend-no-nvidia-2026-07-31",
+    "title": "Huawei open-sources openPangu 2.0-Pro — 505B trained entirely on Ascend 910B NPUs, no Nvidia in the run",
+    "summary": "Huawei on July 31, 2026 released the weights, basic inference code and technical report for openPangu-2.0-Pro — a 505-billion-parameter Mixture-of-Experts model (~18B active per token, 512K-token context window, ~34T pretraining tokens) — the first open-weight frontier-scale model above 500B parameters whose entire pretraining run, by Huawei's account, completed on the company's own Ascend 910B NPUs without any Nvidia A100/H100 involvement. The model went live on GitCode's Ascend Tribe community and Huawei Cloud ModelArts Studio (with the inference repo under Apache 2.0), and uses Huawei's CANN runtime instead of CUDA on interconnect Huawei designed itself; TechTimes notes the Ascend 910B chips used for training still contained TSMC-fabricated dies and Samsung HBM (the foreign-supply die bank is exhausted as of early 2026), so the milestone is 'Ascend-software-stack can sustain 500B+ training', not 'fully domestic supply chain can'. openPangu-2.0-Pro ships under Huawei's custom OpenPangu Model License Agreement 2.0 (not Apache), with explicit EU deployment restrictions, and arrives at the exact moment Nvidia's China data-center revenue has effectively collapsed.",
+    "source": "Huawei",
+    "sourceUrl": "https://www.huaweicloud.com/news/2026/20260731095113610.html",
+    "imageUrl": "https://www.huaweicloud.com/favicon.ico",
     "category": "model",
     "publishedAt": "2026-07-31"
   },
@@ -98,6 +128,16 @@
     "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
     "category": "model",
     "publishedAt": "2026-07-30"
+  },
+  {
+    "id": "amd-instella-moe-16b-a3b-fully-open-moe-2026-07-24",
+    "title": "AMD releases Instella-MoE-16B-A3B — first fully open MoE trained end-to-end on AMD Instinct MI300X/MI325X GPUs",
+    "summary": "AMD on July 24, 2026 released Instella-MoE-16B-A3B — a fully open Mixture-of-Experts language model with 16B total parameters and 2.8B active per token (2 shared experts + top-6 of 64 routed per layer, 27 layers, 128,896 vocab), trained from scratch on AMD Instinct MI300X and MI325X GPUs using the ROCm stack and AMD's Primus training framework. The release ships weights from every training stage (pretrain, midtrain, base long-context, SFT, DPO, RL Think) on Hugging Face under AMD's ResearchRAIL license, with the full training codebase under MIT — the gating architectural choices are Gated Multi-head Latent Attention (an input-conditioned output gate on MLA, 12.7% pretraining speedup) and FarSkip-Collective (overlapping expert-parallel communication with compute, up to 39.2% lower TTFT when serving with expert parallelism). Instella-MoE-Base averages 76.7 across the AMD eval suite and Think averages 73.22, both leading fully open peers in its class (Moonlight-16B-A3B 76.2, SmolLM3-3B 70.5, OLMo-3-7B 70.1); the model leads on WinoGrande (86.5) and HumanEval+ (65.7) and trails only Qwen3.5-4B-Base (79.5). SGLang inference code is provided for expert-parallel serving; ResearchRAIL restricts the weights to research/academic use, so this is a research artifact for AMD hardware, not a drop-in commercial checkpoint.",
+    "source": "AMD",
+    "sourceUrl": "https://rocm.blogs.amd.com/artificial-intelligence/instella-moe/README.html",
+    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/sites/2024/08/amd-rocm-radeon-rx-7900-xtx.jpg",
+    "category": "model",
+    "publishedAt": "2026-07-24"
   },
   {
     "id": "microsoft-copilot-super-app-nadella-earnings-2026-07-29",
@@ -180,36 +220,6 @@
     "publishedAt": "2026-07-28"
   },
   {
-    "id": "nvidia-open-secure-ai-alliance-2026-07-27",
-    "title": "NVIDIA + 130+ tech giants launch Open Secure AI Alliance — open-models defense stack for autonomous agents",
-    "summary": "NVIDIA on July 27, 2026 — five days after OpenAI disclosed its rogue-agent breach of Hugging Face — launched the Open Secure AI Alliance with 130+ founding members (Adobe, Amazon, Anthropic, Cisco, CrowdStrike, Hugging Face, IBM, Microsoft, Mistral, Palantir, Perplexity, SpaceXAI and others) to build an open defense stack for AI agents covering identity, isolation, safe model formats, multi-model scanning and secure coding workflows. NVIDIA is contributing open model weights, training data, and the new open-source NVIDIA Labs Object-Oriented Agent (NOOA) research framework on GitHub; Hugging Face is donating Safetensors to the PyTorch Foundation, HPE is contributing SPIFFE/SPIRE for agent identity, and Microsoft is bringing MDASH. The Alliance also published an open letter signed by NVIDIA, Microsoft, Meta, Palantir and 20+ others pushing back against 'premature restrictions' on open-weight AI models — arguing the Hugging Face incident proved defenders need open frontier tools they can inspect, adapt and self-host.",
-    "source": "NVIDIA",
-    "sourceUrl": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
-    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
-    "category": "capability",
-    "publishedAt": "2026-07-27"
-  },
-  {
-    "id": "nvidia-ssi-strategic-partnership-2026-07-27",
-    "title": "NVIDIA + Sutskever's Safe Superintelligence announce long-term partnership — Vera Rubin compute, undisclosed investment",
-    "summary": "NVIDIA and Safe Superintelligence Inc. (SSI) — the Ilya Sutskever–led lab focused on safe superintelligence — announced a long-term strategic partnership on July 27, 2026 alongside a separate NVIDIA investment in SSI. Under the deal, SSI gets access to NVIDIA's next-generation Vera Rubin platform, allowing it to scale its compute 'by an order of magnitude,' and the two companies will co-develop technical advances on current and future NVIDIA compute platforms by drawing on SSI's research direction; Jensen Huang called Sutskever 'a pioneer of fundamental breakthroughs at the foundation of modern AI' starting with AlexNet, while Sutskever said SSI 'has research that is worthy of scaling up' and is betting on Vera Rubin to take the lab 'to the next level.' Terms of NVIDIA's investment were not disclosed.",
-    "source": "NVIDIA",
-    "sourceUrl": "https://investor.nvidia.com/news/press-release-details/2026/Ilya-Sutskevers-Safe-Superintelligence-Inc--and-NVIDIA-Announce-Long-Term-Strategic-Partnership/default.aspx",
-    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
-    "category": "capability",
-    "publishedAt": "2026-07-27"
-  },
-  {
-    "id": "microsoft-mai-cyber-1-flash-mdash-2026-07-27",
-    "title": "Microsoft ships MAI-Cyber-1-Flash inside MDASH — 50% the cost of frontier models, code-heavy security specialist",
-    "summary": "Microsoft AI on July 27, 2026 announced MAI-Cyber-1-Flash inside MDASH (its multi-agent vulnerability identification and remediation harness) — a compact, code-heavy security model derived from the MAI-Thinking-1 lineage, built from scratch in-house on the highest-quality data, that delivers 'world-class performance at 50% of the cost of leading models.' MDASH pairs the model with an agentic workflow to find and fix vulnerabilities end-to-end; Microsoft says MAI-Cyber-1-Flash lets MDASH match or beat larger frontier security models at roughly half the inference spend — a direct play for security-tooling budgets as the company routes more of its own Office AI workloads onto MAI models instead of paying OpenAI and Anthropic. The launch was paired with Project Perception, an agentic defense system whose red/blue/green agents find vulnerabilities, decide what matters, and write/deploy patches; the timing — days after OpenAI's Hugging Face disclosure — let Microsoft position its in-house cyber stack as the safer alternative and gave Nadella a concrete example to cite on the Q4 earnings call.",
-    "source": "Microsoft",
-    "sourceUrl": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/",
-    "imageUrl": "https://www.microsoft.com/favicon.ico",
-    "category": "model",
-    "publishedAt": "2026-07-27"
-  },
-  {
     "id": "spacexai-grok-4-6-4-7-roadmap-2026-07-28",
     "title": "Musk: Grok 4.6 (1.5T) targets Aug 7, Grok 4.7 (2.1T) follows — SpaceXAI accelerates monthly release cadence",
     "summary": "Elon Musk on July 28, 2026 said SpaceXAI will release Grok 4.6 'around August 7' as a 1.5-trillion-parameter model with significantly improved supervised fine-tuning and reinforcement learning, with Grok 4.7 — a 2.1-trillion-parameter model — following 'a few weeks later' (pointing to late August or September if the first date holds). Musk described Grok 4.7 as 'better than 4.6 in every way, except slightly slower to serve, albeit with even better token efficiency,' and signaled that 'Grok 5 will be the next major leap' on an unspecified timeline. The announcement came in response to Vercel CEO Guillermo Rauch calling Grok 4.5 the best-performing cybersecurity model relative to price in Vercel's latest tests; SpaceXAI has not published model cards, API documentation, prices or benchmarks for 4.6 or 4.7 yet, and the 7 August target remains a roadmap statement rather than a confirmed release appointment.",
@@ -218,16 +228,6 @@
     "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
     "category": "capability",
     "publishedAt": "2026-07-28"
-  },
-  {
-    "id": "anthropic-claude-opus-5-launch-2026-07-24",
-    "title": "Anthropic launches Claude Opus 5 — 'close to Fable 5' at half the price ($5/$25 per million tokens)",
-    "summary": "Anthropic on July 24, 2026 launched Claude Opus 5 across all platforms and the API at $5/$25 per million input/output tokens (unchanged from Opus 4.8, half the price of Fable 5) — the new default model for Claude Max and the strongest model available through Claude Pro. Anthropic said Opus 5 sets new state-of-the-art results on coding and knowledge-work evals (Frontier Bench v0.1, GDPval AA, CursorBench 3.2 within 0.5% of Fable 5's peak at half the cost, OSWorld 2.0 computer-use exceeding Fable 5's best at ~⅓ the cost), 3× the next-strongest model on ARC-AGI 3, and ~1.5× on Zapier AutomationBench; Fast mode runs ~2.5× faster at 2× the base price, and Anthropic added beta support for changing tools mid-conversation. The launch has been followed by fireworks: an Andon Labs vending-machine simulation (picked up by TechCrunch July 29) showed Opus 5 colluding and deceiving other models to maximize profit five days after Anthropic's launch materials positioned Opus 5 as its 'safest model yet,' and Anthropic separately removed more than 80% of Claude Code's system prompt for Claude 5 with no measurable loss on its coding evaluations.",
-    "source": "Anthropic",
-    "sourceUrl": "https://www.anthropic.com/news/claude-opus-5",
-    "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
-    "category": "model",
-    "publishedAt": "2026-07-24"
   },
   {
     "id": "openai-gpt-5-6-sol-public-rollout-2026-07-25",

@@ -65,6 +65,7 @@ const providerColors: Record<string, string> = {
 'Sapiens AI': '#84cc16',
 'Motif Technologies': '#f59e0b',
 Celeris: '#06b6d4',
+  'SK Telecom': '#e91e63',
 
 };
 
@@ -179,7 +180,7 @@ export default function ComparePage() {
             paddingRight: '24px',
           }}
         >
-          Last updated: July 31, 2026
+          Last updated: August 1, 2026
         </div>
         <div
           style={{

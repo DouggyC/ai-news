@@ -294,7 +294,7 @@
     "humaneval": 76.8,
     "livebench": 74.4,
     "mmluPlus": 87.5,
-    "gpqa": 88.8
+    "gpqa": 92.8
   },
   {
     "id": "deepseek-v4-flash",
@@ -1042,7 +1042,7 @@
     "humaneval": 91.0,
     "livebench": 68.5,
     "mmluPlus": 85.0,
-    "gpqa": 86.9
+    "gpqa": 83.4
   },
   {
     "id": "agnes-2-5-pro-alpha",
@@ -1186,5 +1186,93 @@
     "livebench": 40.0,
     "mmluPlus": null,
     "gpqa": 75.6
+  },
+  {
+    "id": "grok-4-6",
+    "name": "Grok4.6",
+    "provider": "xAI",
+    "openSource": false,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": 94.9
+  },
+  {
+    "id": "solar-pro4",
+    "name": "Solar Pro4",
+    "provider": "Upstage",
+    "openSource": false,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": 89.1
+  },
+  {
+    "id": "solar-open2-250b",
+    "name": "Solar Open2 250B",
+    "provider": "Upstage",
+    "openSource": true,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": 85.7
+  },
+  {
+    "id": "ling-3-0-tiny",
+    "name": "Ling 3.0 Tiny",
+    "provider": "InclusionAI",
+    "openSource": true,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": 73.4
+  },
+  {
+    "id": "muse-glimmer",
+    "name": "Muse Glimmer",
+    "provider": "Meta",
+    "openSource": false,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": 83.5
+  },
+  {
+    "id": "nemotron-3-5-lightning",
+    "name": "Nemotron3.5 Lightning",
+    "provider": "NVIDIA",
+    "openSource": true,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": 74.3
+  },
+  {
+    "id": "k-exaone-2-0-0803",
+    "name": "K-EXAONE 2.0 0803",
+    "provider": "LG AI Research",
+    "openSource": true,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": 82.9
+  },
+  {
+    "id": "a-x-k2",
+    "name": "A.X-K2",
+    "provider": "SK Telecom",
+    "openSource": true,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": 85.7
   }
 ]

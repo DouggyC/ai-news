@@ -2037,5 +2037,65 @@
     "functionCalling": true,
     "json": true,
     "search": false
+  },
+  "grok-4.6": {
+    "provider": "xAI",
+    "parameters": 1500000000000,
+    "modelSizeGB": 0,
+    "contextLength": 2000000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 92.8,
+    "humaneval": 95.5
+},
+  "solar-pro4": {
+    "provider": "Upstage",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 131072,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 89.5,
+    "humaneval": 90.0
+  },
+  "solar-open2-250b": {
+    "provider": "Upstage",
+    "parameters": 250000000000,
+    "modelSizeGB": 500,
+    "contextLength": 131072,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 87.0,
+    "humaneval": 88.0
+  },
+  "nemotron-3-5-lightning": {
+    "provider": "NVIDIA",
+    "parameters": 32000000000,
+    "modelSizeGB": 64,
+    "contextLength": 1048576,
+    "openSource": true,
+    "license": "NVIDIA Nemotron Open Model License",
+    "mmlu": 79.0,
+    "humaneval": 74.0
+  },
+  "k-exaone-2-0-0803": {
+    "provider": "LG AI Research",
+    "parameters": 236000000000,
+    "modelSizeGB": 472,
+    "contextLength": 262144,
+    "openSource": true,
+    "license": "EXAONE AI Model License 1.2",
+    "mmlu": 88.0,
+    "humaneval": 80.0
+  },
+  "a-x-k2": {
+    "provider": "SK Telecom",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 131072,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 86.0,
+    "humaneval": 87.0
   }
 }
