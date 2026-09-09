@@ -1,6 +1,7 @@
 'use client';
 
-import { useRef, useState, useEffect } from 'react';
+import { useRef, useState, useEffect, useCallback } from 'react';
+import { createPortal } from 'react-dom';
 import { ProductRow } from '@/types/index';
 
 interface ProductTableProps {
@@ -406,6 +407,9 @@ export function ProductTable({ productData }: ProductTableProps) {
   const [showLeftArrow, setShowLeftArrow] = useState(false);
   const [showRightArrow, setShowRightArrow] = useState(false);
 
+  const [tooltip, setTooltip] = useState<{ text: string; anchor: HTMLElement | null } | null>(null);
+  const [tooltipPos, setTooltipPos] = useState<{ top: number; left: number } | null>(null);
+
   const activeCompanies = companyOrder.filter((company) =>
     productData.some(
       (row) =>
@@ -432,6 +436,36 @@ export function ProductTable({ productData }: ProductTableProps) {
       window.removeEventListener('resize', checkOverflow);
     };
   }, []);
+
+  useEffect(() => {
+    if (!tooltip || !tooltip.anchor) { setTooltipPos(null); return; }
+    const rect = tooltip.anchor.getBoundingClientRect();
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
+    const MAX_W = 260;
+    const MAX_H = 80;
+    const OFF = 8;
+    const M = 8;
+    let left = rect.right + OFF;
+    let top = rect.top + rect.height / 2 - MAX_H / 2;
+    if (left + MAX_W + M > vw) { left = rect.left - MAX_W - OFF; }
+    if (left < M) {
+      left = Math.max(M, Math.min(rect.left + rect.width / 2 - MAX_W / 2, vw - MAX_W - M));
+      top = rect.top - MAX_H - OFF;
+    }
+    if (top < M) { top = rect.bottom + OFF; }
+    top = Math.max(M, Math.min(top, vh - MAX_H - M));
+    left = Math.max(M, Math.min(left, vw - MAX_W - M));
+    setTooltipPos({ top, left });
+  }, [tooltip]);
+
+  const handleShowTooltip = useCallback((text: string, anchor: HTMLElement) => {
+    setTooltip({ text, anchor });
+  }, []);
+
+  const handleHideTooltip = useCallback(() => { setTooltip(null); }, []);
+
+
 
   const scrollBy = (direction: 'left' | 'right') => {
     if (!scrollRef.current) return;
@@ -588,6 +622,10 @@ export function ProductTable({ productData }: ProductTableProps) {
                           onMouseLeave={(e) => {
                             e.currentTarget.style.textDecoration = 'none';
                           }}
+                          onFocus={(e) => handleShowTooltip(product.description || '', e.currentTarget)}
+                          onBlur={handleHideTooltip}
+                          onMouseOver={(e) => handleShowTooltip(product.description || '', e.currentTarget)}
+                          onMouseOut={handleHideTooltip}
                         >
                           {product.name}
                         </a>
@@ -605,37 +643,13 @@ export function ProductTable({ productData }: ProductTableProps) {
                             fontWeight: 500,
                             cursor: 'default',
                           }}
+                          onFocus={(e) => handleShowTooltip(product.description || '', e.currentTarget)}
+                          onBlur={handleHideTooltip}
+                          onMouseOver={(e) => handleShowTooltip(product.description || '', e.currentTarget)}
+                          onMouseOut={handleHideTooltip}
                         >
                           {product.name}
                         </span>
-                      )}
-                      {product.description && (
-                        <div
-                          role='tooltip'
-                          style={{
-                            position: 'absolute',
-                            bottom: 'calc(100% + 6px)',
-                            left: '50%',
-                            transform: 'translateX(-50%)',
-                            backgroundColor: '#1a1a1d',
-                            color: 'rgba(255, 255, 255, 0.92)',
-                            fontSize: '11px',
-                            lineHeight: '1.4',
-                            padding: '6px 10px',
-                            borderRadius: '4px',
-                            border: '1px solid rgba(255, 255, 255, 0.15)',
-                            boxShadow: '0 4px 12px rgba(0, 0, 0, 0.6)',
-                            whiteSpace: 'normal',
-                            width: 'max-content',
-                            maxWidth: '260px',
-                            textAlign: 'left',
-                            pointerEvents: 'none',
-                            zIndex: 50,
-                          }}
-                          className='product-tooltip'
-                        >
-                          {product.description}
-                        </div>
                       )}
                     </td>
                   );
@@ -645,6 +659,36 @@ export function ProductTable({ productData }: ProductTableProps) {
           </tbody>
         </table>
       </div>
+      {tooltip && tooltipPos && typeof document !== 'undefined'
+        ? createPortal(
+            <div
+              role='tooltip'
+              data-testid='product-tooltip-portal'
+              style={{
+                position: 'fixed',
+                top: tooltipPos.top,
+                left: tooltipPos.left,
+                backgroundColor: '#1a1a1d',
+                color: 'rgba(255, 255, 255, 0.92)',
+                fontSize: '11px',
+                lineHeight: '1.4',
+                padding: '6px 10px',
+                borderRadius: '4px',
+                border: '1px solid rgba(255, 255, 255, 0.15)',
+                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.6)',
+                whiteSpace: 'normal',
+                width: 'max-content',
+                maxWidth: '260px',
+                textAlign: 'left',
+                pointerEvents: 'none',
+                zIndex: 9999,
+              }}
+            >
+              {tooltip.text}
+            </div>,
+            document.body
+          )
+        : null}
     </div>
   );
 }
