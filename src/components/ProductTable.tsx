@@ -556,17 +556,31 @@ export function ProductTable({ productData }: ProductTableProps) {
                     );
                   }
                   return (
-                    <td key={company} className='py-2 px-6 text-center'>
+                    <td
+                      key={company}
+                      className='py-2 px-6 text-center'
+                      style={{
+                        position: 'relative',
+                        verticalAlign: 'middle',
+                      }}
+                    >
                       {product.url ? (
                         <a
                           href={product.url}
                           target='_blank'
                           rel='noopener noreferrer'
+                          tabIndex={0}
+                          aria-label={
+                            product.description
+                              ? `${product.name} — ${product.description}`
+                              : product.name
+                          }
                           style={{
                             fontSize: '12px',
                             color: '#00ffff',
                             fontWeight: 500,
                             textDecoration: 'none',
+                            cursor: 'pointer',
                           }}
                           onMouseEnter={(e) => {
                             e.currentTarget.style.textDecoration = 'underline';
@@ -579,26 +593,52 @@ export function ProductTable({ productData }: ProductTableProps) {
                         </a>
                       ) : (
                         <span
+                          tabIndex={0}
+                          aria-label={
+                            product.description
+                              ? `${product.name} — ${product.description}`
+                              : product.name
+                          }
                           style={{
                             fontSize: '12px',
                             color: '#ffffff',
                             fontWeight: 500,
+                            cursor: 'default',
                           }}
                         >
                           {product.name}
                         </span>
                       )}
                       {product.description && (
-                        <p
+                        <div
+                          role='tooltip'
                           style={{
-                            fontSize: '10px',
-                            color: 'rgba(255, 255, 255, 0.4)',
-                            marginTop: '2px',
+                            position: 'absolute',
+                            bottom: 'calc(100% + 6px)',
+                            left: '50%',
+                            transform: 'translateX(-50%)',
+                            backgroundColor: '#1a1a1d',
+                            color: 'rgba(255, 255, 255, 0.92)',
+                            fontSize: '11px',
                             lineHeight: '1.4',
+                            padding: '6px 10px',
+                            borderRadius: '4px',
+                            border: '1px solid rgba(255, 255, 255, 0.15)',
+                            boxShadow: '0 4px 12px rgba(0, 0, 0, 0.6)',
+                            whiteSpace: 'normal',
+                            width: 'max-content',
+                            maxWidth: '260px',
+                            textAlign: 'left',
+                            pointerEvents: 'none',
+                            opacity: 0,
+                            visibility: 'hidden',
+                            transition: 'opacity 120ms ease, visibility 120ms ease',
+                            zIndex: 50,
                           }}
+                          className='product-tooltip'
                         >
                           {product.description}
-                        </p>
+                        </div>
                       )}
                     </td>
                   );

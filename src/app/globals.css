@@ -225,6 +225,7 @@ code, pre {
 }
 
 /* Glow effect for cards */
+/* Glow effect for cards */
 .glow-cyan {
   position: relative;
 }
@@ -236,4 +237,10 @@ code, pre {
   background: radial-gradient(ellipse at center, rgba(0, 255, 255, 0.08) 0%, transparent 70%);
   border-radius: 4px;
   z-index: -1;
+}
+
+/* Product table tooltip — visible on hover/focus of the product name cell */
+td:has(> a:focus, > a:hover, > span:focus, > span:hover) .product-tooltip {
+  opacity: 1;
+  visibility: visible;
 }
