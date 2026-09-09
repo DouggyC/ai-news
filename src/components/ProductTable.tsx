@@ -630,9 +630,6 @@ export function ProductTable({ productData }: ProductTableProps) {
                             maxWidth: '260px',
                             textAlign: 'left',
                             pointerEvents: 'none',
-                            opacity: 0,
-                            visibility: 'hidden',
-                            transition: 'opacity 120ms ease, visibility 120ms ease',
                             zIndex: 50,
                           }}
                           className='product-tooltip'

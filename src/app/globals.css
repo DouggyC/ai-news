@@ -238,9 +238,14 @@ code, pre {
   border-radius: 4px;
   z-index: -1;
 }
+/* Product table tooltip — hidden by default, shown on hover/focus of the product name cell */
+.product-tooltip {
+opacity: 0;
+visibility: hidden;
+transition: opacity 120ms ease, visibility 120ms ease;
+}
 
-/* Product table tooltip — visible on hover/focus of the product name cell */
 td:has(> a:focus, > a:hover, > span:focus, > span:hover) .product-tooltip {
-  opacity: 1;
-  visibility: visible;
+  opacity: 1 !important;
+  visibility: visible !important;
 }
