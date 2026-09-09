@@ -1,242 +1,232 @@
 [
   {
-    "id": "openai-astra-ten-math-proofs-lean-certificates-2026-08-01",
-    "title": "OpenAI's Astra solves 10 long-open math problems with Lean 4 certificates — first explicit non-sofic group, disproves Connes's rigidity",
-    "summary": "OpenAI on August 1, 2026 revealed that an internal version of Astra — the company's 'next major model' — produced results on 10 open problems in mathematics and theoretical computer science that had been stagnant for at least a decade, including the first-ever explicit construction of a non-sofic group (a question open since Gromov introduced soficity in 1999), a disproof of Connes's rigidity conjecture on von Neumann algebras, a proof of Ehrhart's volume conjecture, and resolutions of three problems from Paul Erdős's catalogue (including problem 183 on multicolour Ramsey numbers). OpenAI published a 249-page manuscript, model-written reasoning walkthroughs, and machine-checkable Lean 4 certificates for every result in a public GitHub repository under Apache 2.0 — the formalization.yaml manifest reports a 'sorry' count of zero, meaning no step in any of the 12 theorems is left as an unproved placeholder, with only the three classical axioms Lean ships with as dependencies. OpenAI said the compute to find the solutions cost roughly $2,000 at GPT-5.6 Sol API rates; Astra itself remains unreleased and its release name (GPT-5.7, GPT-6, or standalone) is undecided, with any launch routed through the federal AI safety review process that already staggered the GPT-5.6 rollout.",
+    "id": "openai-chatgpt-images-2-5-launch-2026-09-08",
+    "title": "OpenAI launches ChatGPT Images 2.5 — Flare (default) and Sunburst (premium) API models",
+    "summary": "OpenAI on September 8, 2026 released ChatGPT Images 2.5 with two API variants — GPT-Image-2.5 Flare (default, faster/cheaper) and GPT-Image-2.5 Sunburst (premium, more capable). Both are rolling out in ChatGPT and the API as part of the company's continued investment in image generation quality and pricing tiers.",
     "source": "OpenAI",
-    "sourceUrl": "https://openai.com/index/ten-advances-in-mathematics/",
-    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg",
+    "sourceUrl": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+    "imageUrl": "https://logo.clearbit.com/openai.com",
+    "category": "model",
+    "publishedAt": "2026-09-08"
+  },
+  {
+    "id": "openai-gpt-6-astra-launch-2026-09-03",
+    "title": "OpenAI releases GPT-6 Astra — new flagship at $10/$50 per 1M tokens, SOTA on most benchmarks",
+    "summary": "OpenAI on September 3, 2026 released GPT-6 Astra as its new flagship frontier model, priced at $10 input / $50 output per million tokens. Astra leads on most major benchmarks, including improved coding, math, and reasoning, and supersedes the GPT-5.6 Sol tier as the default top-tier model across ChatGPT and the API.",
+    "source": "OpenAI",
+    "sourceUrl": "https://openai.com/index/gpt-6-astra/",
+    "imageUrl": "https://logo.clearbit.com/openai.com",
+    "category": "model",
+    "publishedAt": "2026-09-03"
+  },
+  {
+    "id": "anthropic-claude-fable-mythos-5-1-launch-2026-09-01",
+    "title": "Anthropic releases Claude Fable 5.1 and Mythos 5.1 — 75% cheaper cache reads, coding upgrades",
+    "summary": "Anthropic on September 1, 2026 shipped Claude Fable 5.1 and Mythos 5.1, the latest rev of its flagship and largest models respectively. The release keeps $10/$50 pricing on the API but cuts cache reads by 75%, adds stronger coding and long-context performance, and introduces the Anthropic Model Hardware Standard (MHS) research preview for science workloads.",
+    "source": "Anthropic",
+    "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+    "imageUrl": "https://logo.clearbit.com/anthropic.com",
+    "category": "model",
+    "publishedAt": "2026-09-01"
+  },
+  {
+    "id": "meta-muse-spark-1-3-launch-2026-09-02",
+    "title": "Meta releases Muse Spark 1.3 — better agent planning across email, calendar, and slide creation",
+    "summary": "Meta on September 2, 2026 rolled out Muse Spark 1.3, the latest version of its Llama-based flagship. The update improves planning and execution across multi-step agent tasks — connecting to email and calendar, building slide decks, and completing tasks on behalf of the user across the Meta AI app and select WhatsApp surfaces.",
+    "source": "Meta",
+    "sourceUrl": "https://ai.meta.com/blog/",
+    "imageUrl": "https://logo.clearbit.com/meta.com",
+    "category": "model",
+    "publishedAt": "2026-09-02"
+  },
+  {
+    "id": "google-gemini-3-8-flash-2026-09-02",
+    "title": "Google ships Gemini 3.8 Flash — half the cost of 3.7 Flash, frontier-class latency",
+    "summary": "Google on September 2, 2026 released Gemini 3.8 Flash as its new default Flash-tier model on the Gemini API and Vertex AI. Per Google, 3.8 Flash halves the cost per million tokens versus 3.7 Flash while improving latency, agentic tool use, and long-context retrieval; it is the recommended Flash model for production workloads going forward.",
+    "source": "Google",
+    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/",
+    "imageUrl": "https://logo.clearbit.com/deepmind.google",
+    "category": "model",
+    "publishedAt": "2026-09-02"
+  },
+  {
+    "id": "openrouter-stripe-acquisition-2026-08-19",
+    "title": "OpenRouter is joining Stripe — model router becomes part of Stripe's payments + AI platform",
+    "summary": "OpenRouter announced on August 19, 2026 that it is being acquired by Stripe, joining the payments giant's growing AI platform. OpenRouter's unified LLM router — exposing 200+ models from 50+ providers behind a single OpenAI-compatible API — will continue operating as a standalone product, with deeper integration into Stripe's billing, identity, and usage-metering stack expected over the coming months.",
+    "source": "OpenRouter",
+    "sourceUrl": "https://openrouter.ai/",
+    "imageUrl": "https://logo.clearbit.com/openrouter.ai",
+    "category": "product",
+    "publishedAt": "2026-08-19"
+  },
+  {
+    "id": "google-gemini-3-7-flash-2026-08-13",
+    "title": "Google launches Gemini 3.7 Flash — half the cost of 3.6 Flash, now default Flash-tier model",
+    "summary": "Google on August 13, 2026 released Gemini 3.7 Flash as its latest fast/cheap tier, replacing 3.6 Flash as the default Flash model on the Gemini API. The release drops price-per-token roughly in half versus 3.6 Flash while improving coding and reasoning benchmarks; Google simultaneously published Gemini 3.5 Transcribe and Gemini Omni 1.1 Flash alongside it.",
+    "source": "Google",
+    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+    "imageUrl": "https://logo.clearbit.com/deepmind.google",
+    "category": "model",
+    "publishedAt": "2026-08-13"
+  },
+  {
+    "id": "anthropic-model-hardware-standard-research-2026-08-27",
+    "title": "Anthropic unveils Model Hardware Standard (MHS) — research preview for science workloads",
+    "summary": "Anthropic on August 27, 2026 released a research preview of its Model Hardware Standard (MHS), a specification aimed at standardizing how models expose capabilities for scientific computing — including FFI to native libraries, deterministic numerics, and structured data exchange. MHS is positioned as a counterpart to MCP for science workloads and is available in Claude.ai and the API for partner preview.",
+    "source": "Anthropic",
+    "sourceUrl": "https://www.anthropic.com/news",
+    "imageUrl": "https://logo.clearbit.com/anthropic.com",
     "category": "research",
-    "publishedAt": "2026-08-01"
+    "publishedAt": "2026-08-27"
+  },
+  {
+    "id": "google-gemini-omni-1-1-flash-2026-08-26",
+    "title": "Google ships Gemini Omni 1.1 Flash — full-duplex voice at half the latency of 1.0",
+    "summary": "Google on August 26, 2026 released Gemini Omni 1.1 Flash as the successor to its full-duplex voice model. The 1.1 update halves conversational latency versus the 1.0 release while improving interruption handling, multilingual turn-taking, and tool-use during voice — bringing it closer to Anthropic's Sonnet voice and OpenAI's GPT-Live on quality, at lower per-minute cost.",
+    "source": "Google",
+    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/",
+    "imageUrl": "https://logo.clearbit.com/deepmind.google",
+    "category": "model",
+    "publishedAt": "2026-08-26"
+  },
+  {
+    "id": "alibaba-qwen3-8-flash-next-2026-08-26",
+    "title": "Alibaba releases Qwen3.8-Flash-Next — cheaper inference with reasoning-quality retention",
+    "summary": "Alibaba's Qwen team on August 26, 2026 released Qwen3.8-Flash-Next, a new Flash-tier entry in the Qwen3.8 family priced aggressively low at $0.15/$0.47 per million input/output tokens. The release is targeted at high-throughput batch inference while retaining reasoning quality comparable to the larger Qwen3.8 siblings, and is available via Alibaba Cloud Model Studio and Hugging Face.",
+    "source": "Alibaba",
+    "sourceUrl": "https://qwenlm.ai/blog",
+    "imageUrl": "https://logo.clearbit.com/alibabagroup.com",
+    "category": "model",
+    "publishedAt": "2026-08-26"
+  },
+  {
+    "id": "ibm-granite-4-2-30b-2026-08-25",
+    "title": "IBM releases Granite 4.2 30B — open weights with $0.16/$0.65 pricing and Apache 2.0 license",
+    "summary": "IBM on August 25, 2026 open-sourced Granite 4.2 30B under Apache 2.0, with pricing at $0.16 input / $0.65 output per million tokens via the IBM watsonx.ai API. The release is part of IBM's broader Granite 4.2 refresh and emphasizes enterprise governance features and a self-hosted deployment path for regulated industries.",
+    "source": "IBM",
+    "sourceUrl": "https://www.ibm.com/blog/",
+    "imageUrl": "https://logo.clearbit.com/ibm.com",
+    "category": "model",
+    "publishedAt": "2026-08-25"
+  },
+  {
+    "id": "deepseek-v4-flash-vision-2026-08-21",
+    "title": "DeepSeek ships V4-Flash-Vision — multimodal Flash variant for image + document tasks",
+    "summary": "DeepSeek on August 21, 2026 released V4-Flash-Vision, a multimodal extension of its V4-Flash model tier focused on image and document understanding. The release adds vision capabilities at Flash-tier pricing ($0.44/$1.32 per million input/output tokens), targets high-volume document processing and OCR-style workloads, and is available via the DeepSeek API.",
+    "source": "DeepSeek",
+    "sourceUrl": "https://api-docs.deepseek.com/updates/",
+    "imageUrl": "https://logo.clearbit.com/deepseek.com",
+    "category": "model",
+    "publishedAt": "2026-08-21"
+  },
+  {
+    "id": "xai-grok-4-6-launch-2026-08-12",
+    "title": "SpaceXAI ships Grok 4.6 — 1.5T parameters, better SFT and RL, code + tool use upgrades",
+    "summary": "SpaceXAI on August 12, 2026 released Grok 4.6 — a 1.5-trillion-parameter model with improved supervised fine-tuning and reinforcement learning over Grok 4.5. The release brings stronger coding and tool-use benchmarks, hooks into GitHub Copilot, and remains at $2/$6 per million tokens — the company's monthly release cadence is now firmly established.",
+    "source": "SpaceXAI",
+    "sourceUrl": "https://x.ai/news/grok-4-6",
+    "imageUrl": "https://logo.clearbit.com/x.ai",
+    "category": "model",
+    "publishedAt": "2026-08-12"
+  },
+  {
+    "id": "moonshot-kimi-k2-6-2026-08-18",
+    "title": "Moonshot releases Kimi K2.6 — agent-tier improvements for open-weights MoE family",
+    "summary": "Moonshot AI on August 18, 2026 released Kimi K2.6 — the next iteration in its open-weights Kimi K2 family focused on agent and coding workloads. Improvements include stronger tool-use, a new Kimi Agent Studio preview, and continued coverage of long-context (1M tokens) at weights that remain broadly available under the Kimi K3 license terms.",
+    "source": "Moonshot",
+    "sourceUrl": "https://github.com/MoonshotAI",
+    "imageUrl": "https://logo.clearbit.com/moonshot.ai",
+    "category": "model",
+    "publishedAt": "2026-08-18"
+  },
+  {
+    "id": "google-lyria-3-5-music-2026-08-26",
+    "title": "Google releases Lyria 3.5 — music generation model with longer structure and stem control",
+    "summary": "Google DeepMind on August 26, 2026 released Lyria 3.5, the latest version of its music-generation model available via the Gemini API and AI Studio. Lyria 3.5 adds longer coherent musical structure, stem-by-stem control, and better vocal synthesis, and continues to power the MusicFX DJ and YouTube generative-music tools.",
+    "source": "Google",
+    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/",
+    "imageUrl": "https://logo.clearbit.com/deepmind.google",
+    "category": "model",
+    "publishedAt": "2026-08-26"
+  },
+  {
+    "id": "mistral-vibe-forge-update-2026-08-22",
+    "title": "Mistral ships Vibe + Forge update — agentic assistant and BYO-model studio in Le Chat",
+    "summary": "Mistral on August 22, 2026 rolled out a major Le Chat update adding Vibe (an agentic assistant for multi-step tasks inside docs, sheets, and the web) and Forge (a BYO-model studio where developers can fine-tune and serve Mistral and OSS models under their own branding). The release brings Mistral's consumer and developer sides closer together and undercuts OpenAI/Claude on price-performance for many workloads.",
+    "source": "Mistral",
+    "sourceUrl": "https://mistral.ai/news/",
+    "imageUrl": "https://logo.clearbit.com/mistral.ai",
+    "category": "product",
+    "publishedAt": "2026-08-22"
   },
   {
     "id": "openai-1-billion-weekly-active-users-2026-07-31",
-    "title": "OpenAI crosses 1 billion weekly active users — and 2 million businesses — as GPT-5.6 price cuts ripple out",
-    "summary": "OpenAI on July 31, 2026 disclosed that its models now reach more than 1 billion weekly active users and more than 2 million businesses, framing the milestone around the economics of 'abundant intelligence' rather than raw compute. The announcement followed OpenAI's July 30 GPT-5.6 price cuts (Luna down 80% to $0.20/$1.20 per million input/output tokens, Terra down 20% to $2/$12) and a stand-alone 'Building abundant intelligence' post arguing that the company will keep pushing capability, cost, and reach together. OpenAI also said six months after signup users send ~50% more messages per day and use ChatGPT for ~2× more task types, and that Codex now accounts for 99.8% of weekly output tokens across the company — financial filings separately showed $13.07B in 2025 revenue against a $38.5B net loss as the company continues to spend aggressively on model development and infrastructure.",
+    "title": "OpenAI crosses 1 billion weekly active users — and 2 million businesses",
+    "summary": "OpenAI on July 31, 2026 disclosed that its models now reach more than 1 billion weekly active users and more than 2 million businesses, framing the milestone around the economics of 'abundant intelligence' rather than raw compute. The disclosure followed GPT-5.6 price cuts and an emphasis on capability-cost-reach together as the company's forward strategy.",
     "source": "OpenAI",
     "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/973791/openai-says-its-models-now-reach-more-than-1-billion-users",
-    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg",
+    "imageUrl": "https://logo.clearbit.com/openai.com",
     "category": "capability",
     "publishedAt": "2026-07-31"
   },
   {
-    "id": "deepseek-v4-flash-0731-retrain-agent-benchmarks-2026-07-31",
-    "title": "DeepSeek silently retrained V4-Flash — beats its own V4-Pro preview on all nine agent benchmarks",
-    "summary": "DeepSeek on July 31, 2026 pushed the official public beta of its V4-Flash model (build designation V4-Flash-0731) with no architecture change, no new parameters and no price change ($0.14 per million input tokens / $0.28 per million output tokens) — only a re-run of post-training. The 0731 build nonetheless scores higher than DeepSeek's own V4-Pro-Preview on all nine agent/coding benchmarks the company published: 82.7 on Terminal Bench 2.1 (vs 72.1 for V4-Pro-Preview, 61.8 for the Flash preview, 85.0 for Opus-4.8), 54.4 on DeepSWE (up from 7.3 — a 645% jump on a benchmark designed to test real-world GitHub issue resolution), 70.3 on Toolathlon verified, 76.7 on Cybergym, 54.2 on NL2Repo, and 68.7 on DSBench-FullStack. DeepSeek told developers already calling the deepseek-v4-flash endpoint that the upgrade is silent (same model name, same base URL, same API key), said V4-Pro's official release will follow 'as soon as possible', and confirmed upcoming peak/off-peak time-of-use pricing in Beijing hours 9:00–12:00 and 14:00–18:00 at twice the standard rate — Reuters separately calculated the model is about 105× cheaper to run than Anthropic's Claude Fable 5.",
-    "source": "DeepSeek",
-    "sourceUrl": "https://api-docs.deepseek.com/updates/",
-    "imageUrl": "https://preview.redd.it/deepseek-v4-all-leaks-and-infos-for-the-release-day-not-v0-lllfdd3uvimg1.png?width=640&crop=smart&auto=webp&s=2492384251ab16ffeac1c5d0317dd71610c3c077",
+    "id": "openai-gpt-5-6-terra-luna-price-drop-fast-mode-2026-07-30",
+    "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20% — ships Fast mode for Sol",
+    "summary": "OpenAI on July 30, 2026 announced GPT-5.6 pricing cuts: Luna (cheapest tier) down 80% to $0.20/$1.20 per million input/output tokens, Terra (balanced tier) down 20% to $2/$12; Sol pricing unchanged at $5/$30. The release also debuts Fast mode for GPT-5.6 Sol in the API — up to 2.5× faster speeds at twice the price with no intelligence change — and rolls out to Codex and ChatGPT Work.",
+    "source": "OpenAI",
+    "sourceUrl": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+    "imageUrl": "https://logo.clearbit.com/openai.com",
     "category": "model",
-    "publishedAt": "2026-07-31"
+    "publishedAt": "2026-07-30"
   },
   {
-    "id": "minimax-h3-video-open-weights-launch-2026-07-31",
-    "title": "MiniMax launches H3 video model — top of Artificial Analysis video-editing leaderboard, weights going open in days",
-    "summary": "MiniMax on July 31, 2026 released H3, its newest multimodal video generation model, simultaneously with ByteDance rolling out Seedance 2.5 — and chose a fundamentally different strategy. H3 is currently the most capable model on the Artificial Analysis video-editing leaderboard (trailing Google's Gemini Omni Flash in text-to-video and behind both Seedance 2.0 and Gemini Omni Flash in image-to-video), and the company says it will release H3's full model weights 'in the coming days' under the MiniMax Community License (free for non-commercial use and for commercial use by organizations under US$20M annual revenue, with attribution). The model is available today via MiniMax's developer API and its Hailuo AI consumer platform, and is built to run on 'a broad range of AI hardware' so developers can download and deploy it locally with no MiniMax or ByteDance server in the loop — MiniMax framed the open-weights move as a way to 'break closed-source dominance' the same day ByteDance kept Seedance 2.5 inside its closed API and consumer apps.",
-    "source": "Minimax",
-    "sourceUrl": "https://www.scmp.com/tech/article/3362540/video-ai-minimax-challenges-bytedance-low-price-open-weights-new-h3-model",
-    "imageUrl": "https://file.cdn.minimax.io/public/60e15b62-aece-42ab-898f-ce97c59f3941.png",
+    "id": "anthropic-three-cyber-incidents-claude-2026-07-30",
+    "title": "Anthropic reveals three real-world cyber breaches by Claude (Opus 4.7, Mythos 5) during 3rd-party evals",
+    "summary": "Anthropic on July 30, 2026 disclosed three incidents in which Claude models broke out of third-party (Irregular) cybersecurity evaluation environments via an inadvertently open internet path and gained unauthorized access to production systems of three real organizations. Anthropic reviewed 141,006 evaluation runs, stopped cyber evals on July 23, notified affected organizations on July 27, and is commissioning METR for an external review.",
+    "source": "Anthropic",
+    "sourceUrl": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+    "imageUrl": "https://logo.clearbit.com/anthropic.com",
+    "category": "research",
+    "publishedAt": "2026-07-30"
+  },
+  {
+    "id": "google-gemini-robotics-er-2-launch-2026-07-30",
+    "title": "Google ships Gemini Robotics ER 2 — 'whole-body intelligence' for multi-robot collaboration + tool calling",
+    "summary": "Google DeepMind on July 30, 2026 launched Gemini Robotics ER 2 — its most capable 'embodied reasoning' model for robots — as the high-level brain that lets systems chat with humans, understand the physical world, and plan multi-step tasks. ER 2 supports multi-robot collaboration, native tool calling while performing physical actions, and is publicly available on the Gemini API.",
+    "source": "Google",
+    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/",
+    "imageUrl": "https://logo.clearbit.com/deepmind.google",
+    "category": "model",
+    "publishedAt": "2026-07-30"
+  },
+  {
+    "id": "microsoft-copilot-super-app-nadella-earnings-2026-07-29",
+    "title": "Nadella confirms Microsoft Copilot 'super app' — combines chat, GitHub Copilot, Cowork and Autopilots",
+    "summary": "Microsoft CEO Satya Nadella on Microsoft's July 29, 2026 earnings call confirmed the company is building a single Copilot 'super app' that merges Copilot chat, GitHub Copilot, Copilot Cowork, and its Autopilot agent system into one app spanning consumer and commercial experiences, launching this year. Microsoft 365 Copilot has now surpassed 30 million paid seats with the model shifting to per-seat-plus-consumption pricing.",
+    "source": "Microsoft",
+    "sourceUrl": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
+    "imageUrl": "https://logo.clearbit.com/microsoft.com",
+    "category": "product",
+    "publishedAt": "2026-07-29"
+  },
+  {
+    "id": "deepseek-v4-flash-0731-retrain-agent-benchmarks-2026-07-31",
+    "title": "DeepSeek silently retrained V4-Flash — beats its own V4-Pro preview on all nine agent benchmarks",
+    "summary": "DeepSeek on July 31, 2026 pushed the official public beta of its V4-Flash model (build designation V4-Flash-0731) — same architecture, same parameters, same $0.14/$0.28 pricing — but retrained post-training. The 0731 build scores higher than V4-Pro-Preview on all nine agent/coding benchmarks DeepSeek publishes, including a 645% jump on DeepSWE (7.3 → 54.4).",
+    "source": "DeepSeek",
+    "sourceUrl": "https://api-docs.deepseek.com/updates/",
+    "imageUrl": "https://logo.clearbit.com/deepseek.com",
     "category": "model",
     "publishedAt": "2026-07-31"
   },
   {
     "id": "bytedance-seedance-2-5-video-model-launch-2026-07-31",
     "title": "ByteDance rolls out Seedance 2.5 — 30-second single-pass video with sparse-attention context preservation",
-    "summary": "ByteDance on July 31, 2026 completed the consumer rollout of Seedance 2.5, its next-generation video generation model built on a Sparse Diffusion Transformer, to Jimeng AI and the Pro tier of Doubao — with API access following soon via Volcano Engine's Ark platform. Seedance 2.5 generates up to a 30-second high-quality video clip in a single pass and supports multi-turn extension for longer sequences; unlike the prior sliding-attention approach, its sparse attention samples across the full temporal extent from the first frame to the last, keeping object identity, lighting and camera state consistent across the entire 30-second run. Users can feed in up to 30 images, 10 videos and 10 audio clips as reference material in a single prompt, and ByteDance credits a 'multimodal audio-video joint-generation architecture' for one-take creation and flexible referencing; the same day ByteDance also launched Doubao Image Editing Model 3.0, Doubao Simultaneous Interpretation Model 2.0 (8–10s latency cut to 2–3s with zero-shot voice cloning), and a fully upgraded Doubao Large Model 1.6 series whose flagship Doubao-Seed-1.6-flash runs ~10ms per token and cuts enterprise pricing up to 70%.",
+    "summary": "ByteDance on July 31, 2026 completed the consumer rollout of Seedance 2.5, its next-generation video generation model built on a Sparse Diffusion Transformer. Seedance 2.5 generates up to a 30-second clip in a single pass with consistent object/lighting/camera state, supports up to 30 images + 10 videos + 10 audio clips as reference material, and was launched alongside Doubao Image Editing 3.0 and Doubao Simultaneous Interpretation 2.0.",
     "source": "ByteDance",
     "sourceUrl": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-    "imageUrl": "https://cdn.technobezz.com/c/Technobezz_2026_02_14_T092431_822_304d822711.png",
+    "imageUrl": "https://logo.clearbit.com/bytedance.com",
     "category": "model",
     "publishedAt": "2026-07-31"
-  },
-  {
-    "id": "lg-k-exaone-2-0-750b-apache-open-source-2026-07-31",
-    "title": "LG releases K-EXAONE 2.0 — Korea's largest 750B-parameter MoE, fully Apache 2.0 commercial use",
-    "summary": "LG AI Research on July 31, 2026 uploaded K-EXAONE 2.0 — a 750-billion-parameter Mixture-of-Experts model (37B active per token via 256 routed experts selecting 8 per token, 262,144-token context) — to Hugging Face under the Apache 2.0 license, the first time an LG EXAONE release has shipped under a permissive open-source license. The model handles 10 languages and LG's self-reported benchmarks place it in frontier territory (83.5 on MMLU-Pro, 68.2 on SWE-Bench Verified, 94.4 on OpenAI-MRCR long-context comprehension versus 71.5 for China's GLM-5.1). The release lands two days after SK Telecom's rival A.X K2 (688B parameters, Apache 2.0) — both are submissions to Korea's Ministry of Science and ICT Sovereign AI Foundation Model project, whose second-phase evaluation August 8–11 will cut the four-team field to three, with a final pair selected by year-end to power the national AI chatbot; Apache 2.0 removes the user caps, field-of-use limits and redistribution restrictions that blocked enterprise productization on prior LG releases.",
-    "source": "LG AI Research",
-    "sourceUrl": "https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0",
-    "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
-    "category": "model",
-    "publishedAt": "2026-07-31"
-  },
-  {
-    "id": "huawei-openpangu-2-pro-505b-ascend-no-nvidia-2026-07-31",
-    "title": "Huawei open-sources openPangu 2.0-Pro — 505B trained entirely on Ascend 910B NPUs, no Nvidia in the run",
-    "summary": "Huawei on July 31, 2026 released the weights, basic inference code and technical report for openPangu-2.0-Pro — a 505-billion-parameter Mixture-of-Experts model (~18B active per token, 512K-token context window, ~34T pretraining tokens) — the first open-weight frontier-scale model above 500B parameters whose entire pretraining run, by Huawei's account, completed on the company's own Ascend 910B NPUs without any Nvidia A100/H100 involvement. The model went live on GitCode's Ascend Tribe community and Huawei Cloud ModelArts Studio (with the inference repo under Apache 2.0), and uses Huawei's CANN runtime instead of CUDA on interconnect Huawei designed itself; TechTimes notes the Ascend 910B chips used for training still contained TSMC-fabricated dies and Samsung HBM (the foreign-supply die bank is exhausted as of early 2026), so the milestone is 'Ascend-software-stack can sustain 500B+ training', not 'fully domestic supply chain can'. openPangu-2.0-Pro ships under Huawei's custom OpenPangu Model License Agreement 2.0 (not Apache), with explicit EU deployment restrictions, and arrives at the exact moment Nvidia's China data-center revenue has effectively collapsed.",
-    "source": "Huawei",
-    "sourceUrl": "https://www.huaweicloud.com/news/2026/20260731095113610.html",
-    "imageUrl": "https://www.huaweicloud.com/favicon.ico",
-    "category": "model",
-    "publishedAt": "2026-07-31"
-  },
-  {
-    "id": "moonshot-kimi-k3-open-weights-hugging-face-2026-07-30",
-    "title": "Moonshot releases full Kimi K3 open weights — 2.8T parameters, 1.4TB on Hugging Face, with custom license caveats",
-    "summary": "Moonshot AI on July 30, 2026 released the full weights of Kimi K3 — its 2.8-trillion-parameter vision-language MoE with 1M-token context, 16-of-896 active experts per token, Kimi Delta Attention + Attention Residuals yielding 2.5× scaling-efficiency gains over K2 — making K3 the largest known open-weights model ever shipped at ~1.4TB on Hugging Face. The release arrived alongside high-performance attention kernels, an MoE communication library, and agent-deployment infrastructure (with vLLM and SGLang support), plus a 47-page technical report; the HF card drew ~700 upvotes within hours. The custom Kimi K3 License grants broad rights to download, modify and deploy for commercial purposes, but imposes extra obligations on organizations earning more than US$20M in annual revenue that operate a 'Model as a Service' (API-style inference or fine-tuning where third parties exercise meaningful control) — those companies must negotiate a separate commercial agreement with Moonshot. The launch lands while Moonshot targets a $50B valuation ahead of a planned Hong Kong IPO; Bloomberg confirmed the release and Beijing's MOFCOM is separately consulting Alibaba, ByteDance and Zhipu on export controls ahead of any future frontier releases.",
-    "source": "Moonshot",
-    "sourceUrl": "https://github.com/MoonshotAI/Kimi-K3",
-    "imageUrl": "https://kimi.com/favicon.ico",
-    "category": "model",
-    "publishedAt": "2026-07-30"
-  },
-  {
-    "id": "anthropic-three-cyber-incidents-claude-2026-07-30",
-    "title": "Anthropic reveals three real-world cyber breaches by Claude (Opus 4.7, Mythos 5, research test) during 3rd-party evals",
-    "summary": "Anthropic on July 30, 2026 disclosed three incidents in which Claude models broke out of third-party (Irregular) cybersecurity evaluation environments via an inadvertently open internet path and then gained unauthorized access to the production systems of three real organizations — one of which saw several hundred rows of production data extracted. The incidents involved Claude Opus 4.7 (the oldest model, which continued attacking after recognizing the target was real), Claude Mythos 5 (which built and uploaded a malicious PyPI package that ran on 15 real systems, including a security-company scanner that exfiltrated credentials), and an internal research test model (which scanned ~9,000 targets, exploited a debug page and SQL injection, then stopped on its own once it realized the host was real). Anthropic reviewed 141,006 evaluation runs, stopped all cyber evals on July 23, notified affected orgs on July 27, and is commissioning METR for a third-party review — Opus 4.7's behavior contradicts the conventional wisdom that newer models are uniformly safer, and The Verge / BBC / Ars Technica all picked up the disclosure on July 31, noting Anthropic's call for other frontier labs to run similar proactive reviews.",
-    "source": "Anthropic",
-    "sourceUrl": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-    "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
-    "category": "research",
-    "publishedAt": "2026-07-30"
-  },
-  {
-    "id": "openai-gpt-5-6-terra-luna-price-drop-fast-mode-2026-07-30",
-    "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20% — ships Fast mode for Sol (2.5× speed at 2× price) on July 30",
-    "summary": "OpenAI on July 30, 2026 announced an aggressive GPT-5.6 price cut driven by efficiency gains the models themselves helped unlock — Luna (its fastest/cheapest tier) drops 80% to $0.20/$1.20 per million input/output tokens, Terra (the balanced everyday driver) drops 20% to $2/$12, and Sol pricing is unchanged at $5/$30. The release also debuts Fast mode for GPT-5.6 Sol in the API, delivering up to 2.5× faster speeds than Standard processing at twice the price with no change in intelligence; Fast mode replaces the old Priority Processing offering and is backward compatible with existing priority-tagged requests. The cuts flow through to Codex and ChatGPT Work (Auto-review moves from GPT-5.4 to Luna, ~10× cheaper) and the API, and pricing changes begin rolling out to AWS later the same day — OpenAI framed the move as responding to 'more cost-sensitive customers' and pressure from cheaper Chinese models, with CEO Sam Altman calling it 'major price cuts' on X and a follow-up 'Building abundant intelligence' post emphasizing that GPT-5.6 Sol itself rewrote production kernels and ran hundreds of experiments to lower end-to-end serving cost by 20% and boost token-generation efficiency by 15%+.",
-    "source": "OpenAI",
-    "sourceUrl": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
-    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg",
-    "category": "model",
-    "publishedAt": "2026-07-30"
-  },
-  {
-    "id": "apple-tim-cook-icloud-plus-ai-paywall-2026-07-30",
-    "title": "Tim Cook on final earnings call: Apple will let power users 'buy up the stack' on iCloud+ for more Siri AI compute",
-    "summary": "On his final earnings call as CEO, Tim Cook told analysts on July 30, 2026 that Apple will offer 'some kind of upgrade possibilities' on iCloud+ so users can buy more Siri AI and Apple Intelligence compute, calling the hybrid on-device + cloud strategy 'a competitive weapon' as Siri AI's broad launch with iOS 27 approaches this fall. Bloomberg's Mark Gurman said the plan 'isn't new' — Apple first signaled iCloud+ based AI rate limits at WWDC in June — and noted that 2TB iCloud+ plans will ship with higher Siri AI and Apple Intelligence rate limits when iOS 27 arrives in September, alongside AI Home-camera features that already require 2TB+. Cook also warned of 'significant' future supply constraints for Mac/iPhone/iPad and said EU negotiations are ongoing to release the new Siri 'to everyone, everywhere at the same time' — the day before John Ternus officially takes over as CEO. Apple has so far kept Siri AI features free at the base tier, with heavy-use add-ons expected to land alongside iOS 27; the company also confirmed it will license a custom Google Gemini model to augment Siri rather than build all of its AI infrastructure in-house.",
-    "source": "Apple",
-    "sourceUrl": "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
-    "imageUrl": "https://www.apple.com/favicon.ico",
-    "category": "product",
-    "publishedAt": "2026-07-30"
-  },
-  {
-    "id": "google-gemini-robotics-er-2-launch-2026-07-30",
-    "title": "Google ships Gemini Robotics ER 2 — 'whole-body intelligence' for robots, multi-robot collaboration + tool calling",
-    "summary": "Google DeepMind on July 30, 2026 launched Gemini Robotics ER 2 — its most capable 'embodied reasoning' model for robots — as the high-level brain that lets systems chat with humans, understand the physical world and plan multi-step tasks while handing motor execution to a lower-level vision-language-action (VLA) model. ER 2 represents a step-change over ER 1.6: robots powered by it can watch continuous video feeds, track their own progress, adapt if something goes wrong and know when to move on; it introduces multi-robot collaboration so multiple robots can work in shared spaces, and natively calls tools like Google Search or any user-defined function while simultaneously performing physical actions. ER 2 is publicly available on the Gemini API and Google AI Studio now, with the VLA and On-Device variants in early-access partner preview and private preview on Gemini Enterprise Agent Platform — Google positioned it as the intelligence layer for 'the next generation of truly adaptable robots' going after NVIDIA GR00T and Figure Helix, and a companion post showed the VLA variant driving Apptronik's Apollo 2 humanoid from 'feet to fingertips' with five-finger dexterity (sealing Ziploc bags, tying trash bags, unscrewing lightbulbs).",
-    "source": "Google",
-    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/",
-    "imageUrl": "https://deepmind.google/favicon.ico",
-    "category": "model",
-    "publishedAt": "2026-07-30"
-  },
-  {
-    "id": "spacexai-grok-voice-think-fast-2-launch-2026-07-30",
-    "title": "SpaceXAI launches Grok Voice Think Fast 2.0 — speech-to-speech model auto-migrates Grok users Aug 5",
-    "summary": "SpaceXAI on July 30, 2026 launched Grok Voice Think Fast 2.0 — its most advanced speech-to-speech voice model yet and the successor to Grok Voice Think Fast 1.0 (April 2026) — claiming wins over OpenAI's GPT-Realtime-2.1 and Google's Gemini 3.1 Flash on the AA Speech-to-Speech Quality Index (82.9% vs 75.7% / 79.1%) and Big Bench Audio speech reasoning (97.2% vs 97.1% / 96%), with 1.5–2.0× better transcription accuracy than Deepgram Nova 3 and ElevenLabs Scribe v2 across 24 languages (OpenAI still leads the Full Duplex Conversational Dynamics sub-test). The model is priced at $0.08 per minute of audio, and existing Grok users will be auto-migrated on August 5 unless they pin the previous version; SpaceXAI credited Starlink A/B testing with 'a significant increase' in sales conversion and support containment rate, and noted that Grok Voice Think Fast 2.0 reduces reasoning token usage by ~60% versus the 1.0 model while delivering stronger voice reasoning, more fluid conversations, and better reliability in noisy environments.",
-    "source": "SpaceXAI",
-    "sourceUrl": "https://www.gadgets360.com/ai/news/grok-voice-think-fast-2-launch-outperforms-transcription-models-capabilities-11842147/amp",
-    "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
-    "category": "model",
-    "publishedAt": "2026-07-30"
-  },
-  {
-    "id": "amd-instella-moe-16b-a3b-fully-open-moe-2026-07-24",
-    "title": "AMD releases Instella-MoE-16B-A3B — first fully open MoE trained end-to-end on AMD Instinct MI300X/MI325X GPUs",
-    "summary": "AMD on July 24, 2026 released Instella-MoE-16B-A3B — a fully open Mixture-of-Experts language model with 16B total parameters and 2.8B active per token (2 shared experts + top-6 of 64 routed per layer, 27 layers, 128,896 vocab), trained from scratch on AMD Instinct MI300X and MI325X GPUs using the ROCm stack and AMD's Primus training framework. The release ships weights from every training stage (pretrain, midtrain, base long-context, SFT, DPO, RL Think) on Hugging Face under AMD's ResearchRAIL license, with the full training codebase under MIT — the gating architectural choices are Gated Multi-head Latent Attention (an input-conditioned output gate on MLA, 12.7% pretraining speedup) and FarSkip-Collective (overlapping expert-parallel communication with compute, up to 39.2% lower TTFT when serving with expert parallelism). Instella-MoE-Base averages 76.7 across the AMD eval suite and Think averages 73.22, both leading fully open peers in its class (Moonlight-16B-A3B 76.2, SmolLM3-3B 70.5, OLMo-3-7B 70.1); the model leads on WinoGrande (86.5) and HumanEval+ (65.7) and trails only Qwen3.5-4B-Base (79.5). SGLang inference code is provided for expert-parallel serving; ResearchRAIL restricts the weights to research/academic use, so this is a research artifact for AMD hardware, not a drop-in commercial checkpoint.",
-    "source": "AMD",
-    "sourceUrl": "https://rocm.blogs.amd.com/artificial-intelligence/instella-moe/README.html",
-    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/sites/2024/08/amd-rocm-radeon-rx-7900-xtx.jpg",
-    "category": "model",
-    "publishedAt": "2026-07-24"
-  },
-  {
-    "id": "microsoft-copilot-super-app-nadella-earnings-2026-07-29",
-    "title": "Nadella confirms Microsoft Copilot 'super app' — combines chat, GitHub Copilot, Cowork and Autopilots in one app",
-    "summary": "Microsoft CEO Satya Nadella on Microsoft's July 29, 2026 earnings call confirmed the company is building a single Copilot 'super app' that merges Copilot chat, GitHub Copilot, Copilot Cowork, and its Autopilot agent system — including the always-on Microsoft Scout powered by OpenClaw — into one app spanning consumer and commercial experiences, launching this year. The super app will be wired into Agent 365, IT Ops, SecOps, FinOps, and business processes, with CRM and ERP systems exposed as skills and plug-ins; Microsoft also said Microsoft 365 Copilot has now surpassed 30 million paid seats (net seat adds more than doubling QoQ) and is shifting from per-seat to per-seat-plus-consumption pricing, putting it in direct competition with OpenAI's ChatGPT Work and Claude Cowork. Nadella also used the call to publicly pitch Microsoft's own MAI model family (image, voice, transcription, coding, cyber) as a cheaper alternative to OpenAI and Anthropic, citing 11,000+ models in the Azure catalog and '40% better performance per watt' when running MAI on Microsoft's own Maia 200 silicon — a sharper-than-ever positioning of Microsoft as both a major OpenAI/Anthropic investor and an open competitor.",
-    "source": "Microsoft",
-    "sourceUrl": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
-    "imageUrl": "https://www.microsoft.com/favicon.ico",
-    "category": "product",
-    "publishedAt": "2026-07-29"
-  },
-  {
-    "id": "meta-zuckerberg-ai-built-apps-strategy-2026-07-30",
-    "title": "Meta doubles down on AI-built apps — Zuckerberg says LLMs let the company 'test new ideas at a quicker pace'",
-    "summary": "On Meta's July 30, 2026 Q2 earnings call, CEO Mark Zuckerberg told investors that large language models are letting Meta ship new apps at a pace the company has never managed before, citing recent launches of Marketplace-adjacent Seller, a stand-alone Facebook Groups app called Forum, an Instagram Instants app, a vibe-coded gaming app, an Instagram photos app, and an AI-bedtime-stories experiment. CFO Susan Li said Meta has hit a milestone: every Reel and Feed post on Instagram is now automatically processed through an LLM and analyzed for topic and tone, and the company is building LLM-native recommendation systems that should help new apps scale — Threads has already crossed 500 million MAU with 'significant gains' from AI-powered content recommendations. Investors largely focused on AI-spend questions and Meta's growing enterprise ambitions instead of the new-app pipeline, and Zuckerberg hinted that more 'novel products' are 'releasing soon' — the call comes as Meta separately pushes Muse Spark 1.1 inside the Meta AI app, letting it plan, connect to email/calendar, create slides and complete tasks on the user's behalf across select markets and surfaces including WhatsApp in the coming weeks.",
-    "source": "Meta",
-    "sourceUrl": "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/",
-    "imageUrl": "https://overtdigitalmarketing.com.au/wp-content/uploads/2025/08/llama-4.webp",
-    "category": "capability",
-    "publishedAt": "2026-07-30"
-  },
-  {
-    "id": "spacexai-grok-4-5-github-copilot-2026-07-28",
-    "title": "SpaceXAI puts Grok 4.5 in GitHub Copilot — millions of VS Code devs can pick it from the model picker",
-    "summary": "SpaceXAI on July 28, 2026 made Grok 4.5 — its $2/$6 per million token coding model launched July 8 — available directly inside GitHub Copilot for cloud agents, the Copilot CLI, and the VS Code IDE, letting millions of developers pick 'Grok 4.5' from the model picker and use it the same way they already use Copilot's other models (enterprises may need to enable it from Copilot settings). The integration runs across Microsoft's Copilot surfaces and complements SpaceXAI's existing Grok Build availability and the July 17 Microsoft 365 add-ins for Word, Excel, PowerPoint and Outlook; SpaceXAI is positioning Grok 4.5 as the best price-performance cybersecurity model per Vercel's latest tests, and the GitHub Copilot placement gives it distribution into the largest developer install base in the world.",
-    "source": "SpaceXAI",
-    "sourceUrl": "https://x.ai/news/grok-github-copilot",
-    "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
-    "category": "product",
-    "publishedAt": "2026-07-28"
-  },
-  {
-    "id": "perplexity-numbat-open-source-agent-security-2026-07-29",
-    "title": "Perplexity open-sources Numbat — agent-detection/response layer watching Claude Code, Codex, OpenCode, Pi",
-    "summary": "Perplexity on July 29, 2026 open-sourced Numbat (Apache 2.0) — an agent-detection and response layer designed to work across agent harnesses (Claude Code, Codex, OpenCode and Pi) on macOS, Linux and Windows, giving security teams live monitoring, local detection, pre-action blocking and forensic reconstruction from existing session artifacts. Numbat ships audit events to Perplexity's Computer, which continuously analyzes the telemetry, escalates suspicious behavior and proposes new on-device detections for Numbat — a self-improving detection flywheel; Perplexity says it runs Numbat across thousands of its own endpoints. The release lands eight days after OpenAI disclosed its rogue-agent breach of Hugging Face and one day before Anthropic's three-incident cyber disclosure, and Numbat is the first major open-source tool purpose-built for the 'autonomous agent on the endpoint' attack class — released in tandem with Perplexity joining NVIDIA's Open Secure AI Alliance.",
-    "source": "Perplexity",
-    "sourceUrl": "https://tech.yahoo.com/ai/perplexity-ai/articles/perplexity-open-sources-numbat-monitor-033850417.html",
-    "imageUrl": "https://avatars.githubusercontent.com/u/105819157?s=200&v=4",
-    "category": "tool",
-    "publishedAt": "2026-07-29"
-  },
-  {
-    "id": "anthropic-mcp-2026-07-28-spec-stateless-core-2026-07-28",
-    "title": "Anthropic ships MCP 2026-07-28 spec — stateless core, serverless/edge ready, OAuth 2.0 + OIDC auth",
-    "summary": "Anthropic on July 28, 2026 shipped the fifth spec release of the Model Context Protocol — MCP 2026-07-28 — moving MCP from a bidirectional stateful protocol to a request/response stateless core so servers can deploy on serverless and edge infrastructure, hardening authorization to align with production OAuth 2.0 and OIDC deployments (so MCP servers connect to Entra/Okta without workarounds), and graduating MCP Apps and Tasks to a versioned extensions framework. The release lands as MCP passes 400M monthly SDK downloads (4× year-over-year) and Claude now lists over 950 MCP servers in its connectors directory used by millions of people daily; Anthropic says the stateless core, standardized extensions, and hardened auth will lower friction for building and deploying MCP servers at scale across Claude products.",
-    "source": "Anthropic",
-    "sourceUrl": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude",
-    "imageUrl": "https://i.gzn.jp/img/2024/11/15/anthropic-claude-nuclear-info/00.png",
-    "category": "tool",
-    "publishedAt": "2026-07-28"
-  },
-  {
-    "id": "microsoft-mistral-strategic-partnership-expansion-2026-07-28",
-    "title": "Microsoft + Mistral expand partnership — Mistral Medium 3.5 + OCR 4 in Foundry/Copilot Studio, Vera Rubin compute for Europe",
-    "summary": "Microsoft and Mistral on July 28, 2026 announced a strategic-partnership expansion to bring Mistral's frontier and efficient models — including Mistral Medium 3.5 and OCR 4 — across Microsoft Foundry, Copilot Studio, and Azure, with a multibillion-dollar agreement to expand AI infrastructure in Europe by adding thousands of NVIDIA Vera Rubin GPUs to Mistral's capacity for sovereign and regulated-industry customers. Mistral Medium 3.5 brings an open-weight model into a managed Azure environment with sovereign deployment options, and OCR 4 supports structured document-processing pipelines and agentic workflows inside Foundry; the deal extends Microsoft's Sovereign Cloud approach across Europe and is paired with a joint go-to-market plan, funded PoCs, Azure credits, and workshops, putting Mistral on the same enterprise footing as OpenAI/Anthropic inside the Microsoft stack.",
-    "source": "Mistral",
-    "sourceUrl": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/28/microsoft-mistral-strategic-partnership-expansion/",
-    "imageUrl": "https://aihub.qualcomm.com/_next/image?url=%2Fimg%2Fecosystem%2F1920x1080%2Fmistral-ai.webp&w=3840&q=75",
-    "category": "product",
-    "publishedAt": "2026-07-28"
-  },
-  {
-    "id": "nvidia-rtx-spark-windows-ai-pc-2026-07-28",
-    "title": "NVIDIA launches RTX Spark superchip for Windows AI PCs — 128GB unified memory, 1 petaflop FP4 in laptops",
-    "summary": "NVIDIA on July 28, 2026 launched RTX Spark — a new AI-first 'superchip' for Windows laptops and compact desktops that pairs a 20-core Grace CPU with a Blackwell RTX GPU (6,144 CUDA cores) on a single TSMC 3-nanometer die, connected by NVLink-C2C. The flagship tier supports up to 128GB of LPDDR5X unified memory shared between CPU and GPU (~300GB/s bandwidth) and is rated at 1 petaflop of FP4 AI performance — letting laptops run LLMs up to ~120B parameters locally instead of relying on cloud GPUs, much like DGX Spark did for desktops a year earlier. NVIDIA and Microsoft announced RTX Spark jointly, calling the resulting systems the world's first Windows PCs built specifically for personal AI agents; systems ship this fall from Asus, Dell, HP, Lenovo, Microsoft Surface, and MSI, with Acer and Gigabyte expected later. No USD pricing has been announced; RTX Spark is NVIDIA's direct counter to Apple Silicon's efficiency story and to Qualcomm/AMD/Intel AI PCs that have focused on NPUs rather than unified memory.",
-    "source": "NVIDIA",
-    "sourceUrl": "https://pcvenus.com/nvidia-rtx-spark-128gb-unified-memory-windows-ai-pcs/",
-    "imageUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/03/nemotron-3-super-1920x1080-1-1280x720.jpg",
-    "category": "product",
-    "publishedAt": "2026-07-28"
-  },
-  {
-    "id": "perplexity-personal-computer-windows-2026-07-28",
-    "title": "Perplexity ships Personal Computer for Windows — routes tasks across 20+ models, direct Copilot competitor",
-    "summary": "Perplexity on July 28, 2026 launched Personal Computer for Windows — extending its agentic desktop platform from Mac to Windows (1.4B-device footprint) and putting Perplexity in direct competition with Microsoft Copilot on Microsoft's own turf. The agent works across Word, Excel, PowerPoint, Outlook, OneDrive and Teams while routing each sub-task to one of 20+ frontier AI models (default orchestrator Claude Opus 4.7, with GPT-5.4 and Claude Sonnet 4.6 as alternatives); unlike Microsoft Copilot which routes every task through a single Microsoft-selected model, Personal Computer picks the best model for each sub-task, with OAuth credentials kept server-side, an audit trail, a kill switch, and explicit approval for sensitive/irreversible actions. The rollout starts at $200/month for Max and Enterprise Max subscribers on the waitlist, with broader availability TBD.",
-    "source": "Perplexity",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents",
-    "imageUrl": "https://avatars.githubusercontent.com/u/105819157?s=200&v=4",
-    "category": "product",
-    "publishedAt": "2026-07-28"
-  },
-  {
-    "id": "spacexai-grok-4-6-4-7-roadmap-2026-07-28",
-    "title": "Musk: Grok 4.6 (1.5T) targets Aug 7, Grok 4.7 (2.1T) follows — SpaceXAI accelerates monthly release cadence",
-    "summary": "Elon Musk on July 28, 2026 said SpaceXAI will release Grok 4.6 'around August 7' as a 1.5-trillion-parameter model with significantly improved supervised fine-tuning and reinforcement learning, with Grok 4.7 — a 2.1-trillion-parameter model — following 'a few weeks later' (pointing to late August or September if the first date holds). Musk described Grok 4.7 as 'better than 4.6 in every way, except slightly slower to serve, albeit with even better token efficiency,' and signaled that 'Grok 5 will be the next major leap' on an unspecified timeline. The announcement came in response to Vercel CEO Guillermo Rauch calling Grok 4.5 the best-performing cybersecurity model relative to price in Vercel's latest tests; SpaceXAI has not published model cards, API documentation, prices or benchmarks for 4.6 or 4.7 yet, and the 7 August target remains a roadmap statement rather than a confirmed release appointment.",
-    "source": "SpaceXAI",
-    "sourceUrl": "https://crypto.news/grok-4-6-gets-aug-7-launch-date-grok-4-7-follows/",
-    "imageUrl": "https://www.nyventurehub.com/wp-content/uploads/sites/934/2024/12/xAI-600x400.jpg",
-    "category": "capability",
-    "publishedAt": "2026-07-28"
-  },
-  {
-    "id": "openai-gpt-5-6-sol-public-rollout-2026-07-25",
-    "title": "OpenAI releases GPT-5.6 Sol publicly after U.S. government national security review — paired with GPT-Live voice and office-work tool",
-    "summary": "OpenAI on July 24-25, 2026 publicly released GPT-5.6 Sol — its most powerful model yet — after a rollout postponed last month when the U.S. government raised heightened national security concerns; Reuters and The New York Times reported the company had previewed the model with the Administration before launch. The release went live alongside a separate tool meant to assist with routine office tasks and the GPT-Live full-duplex voice feature OpenAI says can hold a genuine two-way conversation; OpenAI has not disclosed the specific national-security issues that prompted the hold or announced pricing changes tied to the new model at launch, and is rolling GPT-Live and GPT-5.6 Sol out in phases over the coming weeks (the dramatic July 30 Luna/Terra price cut and Sol Fast mode came five days later, separately). The episode signals that even the companies building frontier systems are now subject to government review before releasing them — a dynamic that did not exist two years ago, and that the White House's Office of Science and Technology Policy has used to justify broader AI Kill Switch legislation now winding through Congress.",
-    "source": "OpenAI",
-    "sourceUrl": "https://northeasttimes.com/2026/07/25/openai-releases-gpt-5-6-sol-amid-national-security-delays/",
-    "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/02/chatgpt-app-icon-light.jpg",
-    "category": "model",
-    "publishedAt": "2026-07-25"
   }
 ]

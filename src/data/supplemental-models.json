@@ -1830,28 +1830,19 @@
     "humaneval": 96.5
   },
   "motif-3": {
-    "motif-3": {
-      "provider": "Motif Technologies",
-      "parameters": 314000000000,
-      "modelSizeGB": 0,
-      "contextLength": 262144,
-      "openSource": true,
-      "license": "Research Only",
-      "mmlu": 90,
-      "humaneval": 91,
-      "multimodal": false,
-      "vision": false,
-      "functionCalling": true,
-      "json": true,
-      "search": false
-    },
-    "parameters": 0,
+    "parameters": 314000000000,
     "modelSizeGB": 0,
-    "contextLength": 1000000,
-    "openSource": false,
-    "license": "Proprietary",
+    "contextLength": 262144,
+    "openSource": true,
+    "license": "Research Only",
     "mmlu": 90,
-    "humaneval": 91
+    "humaneval": 91,
+    "provider": "Motif Technologies",
+    "multimodal": false,
+    "vision": false,
+    "functionCalling": true,
+    "json": true,
+    "search": false
   },
   "agnes-2-5-pro-alpha": {
     "provider": "Sapiens AI",
@@ -2047,7 +2038,7 @@
     "license": "Proprietary",
     "mmlu": 92.8,
     "humaneval": 95.5
-},
+  },
   "solar-pro4": {
     "provider": "Upstage",
     "parameters": 0,
@@ -2097,5 +2088,255 @@
     "license": "Apache 2.0",
     "mmlu": 86.0,
     "humaneval": 87.0
+  },
+  "gpt-6-astra": {
+    "provider": "OpenAI",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 95.5,
+    "humaneval": 96.0
+  },
+  "gemini-3.7-flash": {
+    "provider": "Google",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1048576,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 92.5,
+    "humaneval": 94.5
+  },
+  "gemini-3.8-flash": {
+    "provider": "Google",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1048576,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 93.0,
+    "humaneval": 95.0
+  },
+  "claude-fable-5.1": {
+    "provider": "Anthropic",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 94.0,
+    "humaneval": 96.5
+  },
+  "muse-spark-1.3": {
+    "provider": "Meta",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 92.5,
+    "humaneval": 94.5
+  },
+  "qwen3-8-flash-next": {
+    "provider": "Alibaba",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1048576,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 89.5,
+    "humaneval": 90.0
+  },
+  "glm-5-3-flash": {
+    "provider": "Z AI",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1048576,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 87.0,
+    "humaneval": 84.0
+  },
+  "glm-5-3": {
+    "provider": "Z AI",
+    "parameters": 744000000000,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": true,
+    "license": "MIT",
+    "mmlu": 87.5,
+    "humaneval": 85.0
+  },
+  "qwen3-8-27b": {
+    "provider": "Alibaba",
+    "parameters": 27000000000,
+    "modelSizeGB": 0,
+    "contextLength": 262144,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 85.0,
+    "humaneval": 85.0
+  },
+  "qwen3-8-2-4t-a95b": {
+    "provider": "Alibaba",
+    "parameters": 2400000000000,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 92.0,
+    "humaneval": 93.5
+  },
+  "deepseek-v4-flash-vision": {
+    "provider": "DeepSeek",
+    "parameters": 284000000000,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": true,
+    "license": "MIT",
+    "mmlu": 90.0,
+    "humaneval": 88.0
+  },
+  "quasar-438b": {
+    "provider": "Multiverse Computing",
+    "parameters": 438000000000,
+    "modelSizeGB": 0,
+    "contextLength": 262144,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 88.0,
+    "humaneval": 86.0
+  },
+  "k2-horizon-375b-a23b": {
+    "provider": "MBZUAI",
+    "parameters": 375000000000,
+    "modelSizeGB": 0,
+    "contextLength": 524288,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 84.0,
+    "humaneval": 86.0
+  },
+  "minicpm5-2b": {
+    "provider": "OpenBMB",
+    "parameters": 2000000000,
+    "modelSizeGB": 4,
+    "contextLength": 131072,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 70.0,
+    "humaneval": 72.0
+  },
+  "apodex-1-1": {
+    "provider": "Apodex",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 262144,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 86.0,
+    "humaneval": 88.0
+  },
+  "agnes-2-5-pro-beta": {
+    "provider": "Sapiens AI",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 262144,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 88.5,
+    "humaneval": 91.0
+  },
+  "granite-4-2-30b": {
+    "provider": "IBM",
+    "parameters": 30000000000,
+    "modelSizeGB": 60,
+    "contextLength": 131072,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 80.0,
+    "humaneval": 78.0
+  },
+  "lfm2-5-2-6b": {
+    "provider": "Liquid AI",
+    "parameters": 2600000000,
+    "modelSizeGB": 5,
+    "contextLength": 32768,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 65.0,
+    "humaneval": 58.0
+  },
+  "glm-5.3": {
+    "provider": "Zhipu AI",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": true,
+    "license": "MIT",
+    "mmlu": null,
+    "humaneval": null
+  },
+  "glm-5.3-flash": {
+    "provider": "Zhipu AI",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": true,
+    "license": "MIT",
+    "mmlu": null,
+    "humaneval": null
+  },
+  "k2-horizon-375b": {
+    "provider": "MBZUAI",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 262000,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": null,
+    "humaneval": null
+  },
+  "muse-spark-1-3": {
+    "provider": "Meta",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": null,
+    "humaneval": null
+  },
+  "qwen3.8-2-4t": {
+    "provider": "Alibaba",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1048576,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": null,
+    "humaneval": null
+  },
+  "qwen3.8-27b": {
+    "provider": "Alibaba",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1048576,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": null,
+    "humaneval": null
+  },
+  "qwen3.8-flash-next": {
+    "provider": "Alibaba",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1048576,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": null,
+    "humaneval": null
   }
 }

@@ -82,6 +82,7 @@ const companyOrder = [
   'Baidu',
   'DeepSeek',
   'Mistral',
+  'Moonshot',
   'Mind Lab',
   'MiniMax-H3',
   'ThinkingMachines',
