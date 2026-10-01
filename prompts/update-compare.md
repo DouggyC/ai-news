@@ -187,3 +187,8 @@ Fetch from AA API:
 #PH|- **DO NOT modify UI or CSS** in `page.tsx`
 #XZ|- Only update data in `compare-page-data.json` and date in page header
 #KX|- For new models, also update `supplemental-models.json`
+
+## Honesty Rules (MANDATORY)
+- **NO FABRICATION**: only include data points (URLs, summaries, benchmark scores, prices) that you actually found via web search or AA API and verified. Never invent URLs, scores, or descriptions to make the data look fresher.
+- **Skip if no verified delta**: if research finds no verifiable changes, leave the existing data file untouched. Report "no verified updates" and exit. DO NOT bump the header date or rotate data speculatively — the date stamp alone misleads readers about what was actually changed.
+- **Date window**: queries target the most recent period from today (update the month in this prompt file each run if you keep it).

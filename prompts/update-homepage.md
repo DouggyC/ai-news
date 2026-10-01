@@ -10,17 +10,17 @@ Research recent AI news. **Do NOT assume existing news is still relevant or comp
 
 Research queries to execute:
 ```
-OpenAI AI news May 2026 site:openai.com OR site:techcrunch.com OR site:theverge.com
-Anthropic AI news May 2026 site:anthropic.com OR site:techcrunch.com OR site:theverge.com
-Google AI news May 2026 site:deepmind.google OR site:techcrunch.com OR site:theverge.com
-Meta AI news May 2026 site:ai.meta.com OR site:techcrunch.com OR site:theverge.com
-xAI Grok news May 2026 site:x.ai OR site:techcrunch.com OR site:theverge.com
-NVIDIA AI news May 2026 site:nvidia.com OR site:techcrunch.com OR site:theverge.com
+OpenAI AI news September 2026 site:openai.com OR site:techcrunch.com OR site:theverge.com
+Anthropic AI news September 2026 site:anthropic.com OR site:techcrunch.com OR site:theverge.com
+Google AI news September 2026 site:deepmind.google OR site:techcrunch.com OR site:theverge.com
+Meta AI news September 2026 site:ai.meta.com OR site:techcrunch.com OR site:theverge.com
+xAI Grok news September 2026 site:x.ai OR site:techcrunch.com OR site:theverge.com
+NVIDIA AI news September 2026 site:nvidia.com OR site:techcrunch.com OR site:theverge.com
 OpenRouter AI news 2026 site:openrouter.ai OR site:artificialanalysis.ai
-DeepSeek AI news May 2026 site:deepseek.com OR site:techcrunch.com OR site:theverge.com
-Alibaba Qwen AI news May 2026 site:qwenlm.ai OR site:techcrunch.com OR site:theverge.com
-MiniMax AI news May 2026 site:minimaxi.com OR site:techcrunch.com OR site:theverge.com
-Mistral AI news May 2026 site:mistral.ai OR site:techcrunch.com OR site:theverge.com
+DeepSeek AI news September 2026 site:deepseek.com OR site:techcrunch.com OR site:theverge.com
+Alibaba Qwen AI news September 2026 site:qwenlm.ai OR site:techcrunch.com OR site:theverge.com
+MiniMax AI news September 2026 site:minimaxi.com OR site:techcrunch.com OR site:theverge.com
+Mistral AI news September 2026 site:mistral.ai OR site:techcrunch.com OR site:theverge.com
 ```
 
 Discover:
@@ -71,14 +71,14 @@ export const NewsCardSchema: z.ZodType<NewsCard> = z.object({
 ```json
 [
   {
-    "id": "openai-gpt-5-5-pro-2026-05-15",
+    "id": "openai-gpt-5-5-pro-2026-09-XX",
     "title": "GPT-5.5 Pro Released with 1M Token Context",
     "summary": "OpenAI announces GPT-5.5 Pro featuring improved reasoning and 1M token context window.",
     "source": "OpenAI",
     "sourceUrl": "https://openai.com/blog/gpt-5-5-pro",
     "imageUrl": "https://example.com/openai-logo.png",
     "category": "model",
-    "publishedAt": "2026-05-15"
+    "publishedAt": "2026-09-XX"
   }
 ]
 ```
@@ -86,7 +86,7 @@ export const NewsCardSchema: z.ZodType<NewsCard> = z.object({
 ## Card Fields
 | Field | Rule |
 |-------|------|
-| `id` | Unique string, e.g. `'openai-gpt-5-5-pro-2026-05-15'` |
+| `id` | Unique string, e.g. `'openai-gpt-5-5-pro-2026-09-XX'` |
 | `title` | Concise announcement title |
 | `summary` | 1-2 sentences, key details |
 | `source` | Company name (e.g. `'OpenAI'`) |
@@ -138,3 +138,8 @@ Update "Last updated:" in `src/app/page.tsx` to today.
 - **DO NOT modify UI or CSS** in `page.tsx`
 - Only update `newsCards.json` and header date
 - Cards validated via `validateData(NewsCardSchema.array(), newsCardsData)`
+
+## Honesty Rules (MANDATORY)
+- **NO FABRICATION**: only include cards for news you actually found via web search with a real source URL you fetched (HTTP 200 verified). If web search returns no fresh results, skip the update rather than invent URLs or summaries.
+- **Skip if no verified delta**: if research finds no news from the last 14 days that you can verify, leave `newsCards.json` untouched and report "no verified updates" — DO NOT bump the header date or rotate cards speculatively.
+- **Date window**: queries target the most recent 14 days from today (update the month in this prompt file each run if you keep it).

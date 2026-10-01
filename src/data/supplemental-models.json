@@ -2338,5 +2338,165 @@
     "license": "Proprietary",
     "mmlu": null,
     "humaneval": null
+  },
+  "step-5": {
+    "provider": "StepFun",
+    "parameters": 600000000000,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "deepseek-v4-1-flash": {
+    "provider": "DeepSeek",
+    "parameters": 552000000000,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": true,
+    "license": "DeepSeek License",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "ling-3-0-flash-vl": {
+    "provider": "InclusionAI",
+    "parameters": 124000000000,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "grok-4.7": {
+    "provider": "xAI",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 0,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "claude-opus-5.5": {
+    "provider": "Anthropic",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 0,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "gpt-6-sol": {
+    "provider": "OpenAI",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 0,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "gpt-6-luna": {
+    "provider": "OpenAI",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 0,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "mimo-v2.6-pro": {
+    "provider": "Xiaomi",
+    "parameters": 1020000000000,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": true,
+    "license": "MIT",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "mimo-v2.6-flash": {
+    "provider": "Xiaomi",
+    "parameters": 309000000000,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": true,
+    "license": "MIT",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "kimi-k2.6-v2": {
+    "provider": "Moonshot",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 0,
+    "openSource": true,
+    "license": "Modified MIT",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "flux-3-action": {
+    "provider": "BlackForest",
+    "parameters": 7000000000,
+    "modelSizeGB": 0,
+    "contextLength": 0,
+    "openSource": true,
+    "license": "FLUX Kommunity License v1.0",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "xing4-29b-a4b": {
+    "provider": "China Telecom",
+    "parameters": 29000000000,
+    "modelSizeGB": 0,
+    "contextLength": 262144,
+    "openSource": true,
+    "license": "Open source (per China Telecom AI)",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "claude-sonnet-5.5": {
+    "provider": "Anthropic",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 0,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "gpt-6.1-sol": {
+    "provider": "OpenAI",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 0,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "naive-n0.5-flash": {
+    "provider": "NaiveAI",
+    "parameters": 309000000000,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": true,
+    "license": "Open weight (license not yet specified in source)",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "k2-horizon-mova-36b-a4b": {
+    "provider": "IFM",
+    "parameters": 36000000000,
+    "modelSizeGB": 0,
+    "contextLength": 524288,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 0,
+    "humaneval": 0
   }
 }

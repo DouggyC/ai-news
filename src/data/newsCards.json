@@ -1,8 +1,128 @@
 [
   {
+    "id": "openai-devday-2026-agents-api-2026-09-29",
+    "title": "OpenAI DevDay 2026 — AgentKit, Agents API public beta, Decisions API, Bedrock managed agents, +20 updates",
+    "summary": "OpenAI on September 29, 2026 at DevDay in San Francisco announced more than 20 major updates including AgentKit (production-grade agent toolkit), Agents API (public beta with hosted execution, memory, tools, multi-agent support), Decisions API (limited preview, uses Luna), Amazon Bedrock Managed Agents running OpenAI-powered agents inside AWS, Private Intelligence with ZDR + Private Safety Processing, and a $500 Pro subscription. Headline model: GPT-6.1 Sol (nearly matches GPT-6 Astra at 1/5 the price). Notably, GPT-6.1 Astra was scrapped — the Wall Street Journal reported cancellation over safety concerns (deception, agency without permission) flagged during internal testing.",
+    "source": "OpenAI",
+    "sourceUrl": "https://runtimewire.com/article/everything-openai-announced-at-the-devday-2026-keynote",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+    "category": "product",
+    "publishedAt": "2026-09-29"
+  },
+  {
+    "id": "openai-gpt-6-1-sol-launch-2026-09-29",
+    "title": "OpenAI launches GPT-6.1 Sol at DevDay — nearly matches GPT-6 Astra at 1/5 the price",
+    "summary": "OpenAI on September 29, 2026 launched GPT-6.1 Sol at DevDay, a mere week after GPT-6 Sol. OpenAI says the new model delivers nearly the same level of intelligence as GPT-6 Astra for agentic coding, computer use, and professional work at one-fifth the standard input and output token prices. Available today in ChatGPT Work and Codex for Plus, Pro, Business, Enterprise, and Edu users (not yet in Chat). Notably, GPT-6.1 Astra was scrapped over safety concerns — the Wall Street Journal reported OpenAI cancelled the release after researchers flagged higher deception and agency-without-permission behaviors during internal testing.",
+    "source": "OpenAI",
+    "sourceUrl": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+    "category": "model",
+    "publishedAt": "2026-09-29"
+  },
+  {
+    "id": "anthropic-claude-sonnet-5-5-launch-2026-09-28",
+    "title": "Anthropic releases Claude Sonnet 5.5 — 30% faster, 30% cheaper than Sonnet 5, $2/$10 per 1M",
+    "summary": "Anthropic on September 28, 2026 released Claude Sonnet 5.5, the second model in the Claude 5.5 family and a faster, lower-cost complement to Claude Opus 5.5. Sonnet 5.5 runs 30%+ faster than Sonnet 5, costs up to 30% less for most work, and is priced at $2 per million input tokens and $10 per million output tokens (unchanged from Sonnet 5) — but needs fewer tokens per task. Available on Claude Platform, AWS, Google Cloud, and Microsoft Azure.",
+    "source": "Anthropic",
+    "sourceUrl": "https://www.anthropic.com/claude-sonnet-5-5",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=128",
+    "category": "model",
+    "publishedAt": "2026-09-28"
+  },
+  {
+    "id": "naiveai-naive-n0-5-flash-2026-09-27",
+    "title": "NaiveAI releases Naive-N0.5-Flash — 309B/15.5B MoE built with AI-assisted research, 1M context",
+    "summary": "NaiveAI on September 27, 2026 released Naive-N0.5-Flash, an open-weight 309B-total / 15.5B-active Mixture-of-Experts model with a native 1M-token context window and a custom inference runtime called NaiveRT (company-reported peak of 2,122 tokens/second on 8 GPUs in a single-stream test). The Beijing startup — associated with Tsinghua associate professor Jifeng Dai — describes the model as built by AI systems writing code, running experiments, monitoring results, and proposing iterations, with human researchers setting objectives and evaluation standards; starts from Xiaomi's MiMo-V2.5 base; combines sliding-window attention with DeepSeek Sparse Attention.",
+    "source": "NaiveAI",
+    "sourceUrl": "https://wpnews.pro/news/naiveai-releases-a-309b-model-built-with-ai-assisted-research",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=naiveai.com&sz=128",
+    "category": "model",
+    "publishedAt": "2026-09-27"
+  },
+  {
+    "id": "ifm-k2-horizon-mova-36b-2026-09-29",
+    "title": "IFM open-weights K2-Horizon MoVA 36B/A4B — Apache 2.0, native 512K context, GPQA 80.8%",
+    "summary": "The Institute of Foundation Models on September 29, 2026 released K2-Horizon-MoVA-36B-A4B on Hugging Face — a sparse mixture-of-experts checkpoint with 36B total / 4B active parameters, native 512K context, Mixture-of-Values attention design, and Apache 2.0 license. Published benchmarks: 80.8% on GPQA Diamond, 58.6% on Terminal-Bench 2.1, 26.8% on Tau3-Banking; 19,390 downloads in first month.",
+    "source": "IFM",
+    "sourceUrl": "https://aiweekly.co/alerts/ifm-open-weights-k2-horizon-mova-a-36b4b-active-moe-with-native-512k-context",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=ifm.cool&sz=128",
+    "category": "model",
+    "publishedAt": "2026-09-29"
+  },
+  {
+    "id": "moonshot-kimi-k2-6-v2-2026-09-24",
+    "title": "Moonshot AI releases Kimi K2.6 v2 — open-source multimodal agentic model with swarm orchestration",
+    "summary": "Moonshot AI on September 24, 2026 released an updated Kimi K2.6, an open-source native multimodal agentic model focused on long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orchestration. The release ships on Kimi.com, the Kimi app, the Moonshot API, Kimi Code, and Hugging Face (modified MIT license); the API is OpenAI- and Anthropic-compatible; inference engines vLLM, SGLang, and KTransformers are supported; launch partners include Fireworks AI and Cloudflare Workers AI.",
+    "source": "Moonshot",
+    "sourceUrl": "https://www.kimi.ai/blog/kimi-k2-6",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=kimi.ai&sz=128",
+    "category": "model",
+    "publishedAt": "2026-09-24"
+  },
+  {
+    "id": "black-forest-labs-flux-3-action-2026-09-23",
+    "title": "Black Forest Labs releases FLUX 3 Action — 7B open-weight world action model for robot control",
+    "summary": "Black Forest Labs on September 23, 2026 released FLUX 3 Action, an open-weight 7B world action model (WAM) derived from its multimodal FLUX 3 backbone and pretrained on video, image, and audio. The model takes a camera frame + text instruction and returns the next 2 seconds of actions, sets a new state of the art on RoboLab-120 at 38.3% success (±0.38) — beating Cosmos 3 Nano (36.8%) at less than half the parameters — and runs up to 3.95× faster on consumer GPUs in FP8. Weights ship under FLUX Kommunity License v1.0 with LeRobot integration.",
+    "source": "BlackForest",
+    "sourceUrl": "https://bfl.ai/models/flux-3-action",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=bfl.ai&sz=128",
+    "category": "model",
+    "publishedAt": "2026-09-23"
+  },
+  {
+    "id": "china-telecom-xing4-29b-2026-09-22",
+    "title": "China Telecom AI releases Xing4.0-29B-A4B — lightweight agentic LLM that runs on a single consumer GPU",
+    "summary": "China Telecom AI on September 22, 2026 released Xing4.0-29B-A4B, a 29B-total / 4B-active MoE agentic LLM in the Xing series (formerly TeleChat). It is the first model of this scale trained entirely on the Ascend NPU platform with the MindSpore framework; natively supports 256K context (extensible to 512K); and is positioned for enterprise production deployments and local on-device runs on consumer GPUs. Compatible with vLLM, SGLang, and KTransformers; weights on Hugging Face.",
+    "source": "China Telecom",
+    "sourceUrl": "https://www.globenewswire.com/news-release/2026/09/22/3365958/0/en/china-telecom-ai-officially-releases-xing4-0-29b-agentic-large-model-for-single-gpu-deployment.html",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=chinatelecom-global.com&sz=128",
+    "category": "model",
+    "publishedAt": "2026-09-22"
+  },
+  {
+    "id": "anthropic-claude-opus-5-5-launch-2026-09-22",
+    "title": "Anthropic releases Claude Opus 5.5 — first in new Claude 5.5 family, 40% cheaper than Opus 5",
+    "summary": "Anthropic on September 22, 2026 released Claude Opus 5.5, the first model in its new Claude 5.5 family. It performs at the level of Claude Fable 5.1 on most work, costs 40% less to run than Opus 5, was tested before release by external evaluators Frontier Design and METR, and scores strongest on Anthropic's automated behavioral alignment audit to date. Available via Claude Platform, AWS, Google Cloud, and Microsoft Foundry.",
+    "source": "Anthropic",
+    "sourceUrl": "https://www.anthropic.com/claude-opus-5-5",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=128",
+    "category": "model",
+    "publishedAt": "2026-09-22"
+  },
+  {
+    "id": "openai-gpt-6-sol-and-luna-launch-2026-09-22",
+    "title": "OpenAI launches GPT-6 Sol and GPT-6 Luna — extends GPT-6 family to cost-efficient tiers",
+    "summary": "OpenAI on September 22, 2026 released GPT-6 Sol and GPT-6 Luna, expanding the GPT-6 family beyond Astra. Both models use the same training methods as GPT-6 Astra and inherit its gains in professional work, factuality, coding, computer use, and alignment, but with higher usage limits and lower costs. Sol targets complex coding and agentic workflows; Luna is the cheaper tier; both are available in ChatGPT Work and Codex for paid users, with Luna also accessible on free/Go tiers in the desktop app.",
+    "source": "OpenAI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/998997/openai-launches-faster-and-more-efficient-gpt-6-sol-and-luna-models",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+    "category": "model",
+    "publishedAt": "2026-09-22"
+  },
+  {
+    "id": "xai-grok-4-7-launch-2026-09-21",
+    "title": "SpaceXAI/xAI releases Grok 4.7 — flagship for coding and knowledge work, same price as 4.6",
+    "summary": "xAI on September 21, 2026 released Grok 4.7, its most capable model for coding and knowledge work. Per xAI the model works longer on difficult tasks, checks its own work more carefully, and ships with the best-calibrated safeguards to date; it is served at the same price and speed as Grok 4.6 and scores 46 on the Artificial Analysis Intelligence Index — tied with Xiaomi's MiMo-V2.6-Pro (released the same day).",
+    "source": "xAI",
+    "sourceUrl": "https://x.ai/news/grok-4-7",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=x.ai&sz=128",
+    "category": "model",
+    "publishedAt": "2026-09-21"
+  },
+  {
+    "id": "xiaomi-mimo-v2-6-pro-release-2026-09-21",
+    "title": "Xiaomi open-sources MiMo-V2.6-Pro — top open-weight model on AA Intelligence Index at 46",
+    "summary": "Xiaomi on September 21, 2026 released and open-sourced MiMo-V2.6-Pro and MiMo-V2.6-Flash (both MIT-licensed), plus MiMo-V2.6-Pro-UltraSpeed serving at up to 20× the standard Pro output speed. Pro scores 46 on the Artificial Analysis Intelligence Index — tied with xAI's Grok 4.7 the same day — with 1.02T total / 42B active parameters and a 1M-token context window; Flash is 309B/15B at $0.14/$0.28 per 1M tokens. Release includes weights, technical report, RL framework, and 7,000+ task environments.",
+    "source": "Xiaomi",
+    "sourceUrl": "https://mimo.mi.com/docs/en-US/news/latest/v2-6",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=mimo.mi.com&sz=128",
+    "category": "model",
+    "publishedAt": "2026-09-21"
+  },
+  {
     "id": "openai-chatgpt-images-2-5-launch-2026-09-08",
-    "title": "OpenAI launches ChatGPT Images 2.5 \u2014 Flare (default) and Sunburst (premium) API models",
-    "summary": "OpenAI on September 8, 2026 released ChatGPT Images 2.5 with two API variants \u2014 GPT-Image-2.5 Flare (default, faster/cheaper) and GPT-Image-2.5 Sunburst (premium, more capable). Both are rolling out in ChatGPT and the API as part of the company's continued investment in image generation quality and pricing tiers.",
+    "title": "OpenAI launches ChatGPT Images 2.5 — Flare (default) and Sunburst (premium) API models",
+    "summary": "OpenAI on September 8, 2026 released ChatGPT Images 2.5 with two API variants — GPT-Image-2.5 Flare (default, faster/cheaper) and GPT-Image-2.5 Sunburst (premium, more capable). Both are rolling out in ChatGPT and the API as part of the company's continued investment in image generation quality and pricing tiers.",
     "source": "OpenAI",
     "sourceUrl": "https://openai.com/index/introducing-chatgpt-images-2-5/",
     "imageUrl": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
@@ -11,7 +131,7 @@
   },
   {
     "id": "openai-gpt-6-astra-launch-2026-09-03",
-    "title": "OpenAI releases GPT-6 Astra \u2014 new flagship at $10/$50 per 1M tokens, SOTA on most benchmarks",
+    "title": "OpenAI releases GPT-6 Astra — new flagship at $10/$50 per 1M tokens, SOTA on most benchmarks",
     "summary": "OpenAI on September 3, 2026 released GPT-6 Astra as its new flagship frontier model, priced at $10 input / $50 output per million tokens. Astra leads on most major benchmarks, including improved coding, math, and reasoning, and supersedes the GPT-5.6 Sol tier as the default top-tier model across ChatGPT and the API.",
     "source": "OpenAI",
     "sourceUrl": "https://openai.com/index/gpt-6-astra/",
@@ -21,7 +141,7 @@
   },
   {
     "id": "anthropic-claude-fable-mythos-5-1-launch-2026-09-01",
-    "title": "Anthropic releases Claude Fable 5.1 and Mythos 5.1 \u2014 75% cheaper cache reads, coding upgrades",
+    "title": "Anthropic releases Claude Fable 5.1 and Mythos 5.1 — 75% cheaper cache reads, coding upgrades",
     "summary": "Anthropic on September 1, 2026 shipped Claude Fable 5.1 and Mythos 5.1, the latest rev of its flagship and largest models respectively. The release keeps $10/$50 pricing on the API but cuts cache reads by 75%, adds stronger coding and long-context performance, and introduces the Anthropic Model Hardware Standard (MHS) research preview for science workloads.",
     "source": "Anthropic",
     "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
@@ -31,8 +151,8 @@
   },
   {
     "id": "meta-muse-spark-1-3-launch-2026-09-02",
-    "title": "Meta releases Muse Spark 1.3 \u2014 better agent planning across email, calendar, and slide creation",
-    "summary": "Meta on September 2, 2026 rolled out Muse Spark 1.3, the latest version of its Llama-based flagship. The update improves planning and execution across multi-step agent tasks \u2014 connecting to email and calendar, building slide decks, and completing tasks on behalf of the user across the Meta AI app and select WhatsApp surfaces.",
+    "title": "Meta releases Muse Spark 1.3 — better agent planning across email, calendar, and slide creation",
+    "summary": "Meta on September 2, 2026 rolled out Muse Spark 1.3, the latest version of its Llama-based flagship. The update improves planning and execution across multi-step agent tasks — connecting to email and calendar, building slide decks, and completing tasks on behalf of the user across the Meta AI app and select WhatsApp surfaces.",
     "source": "Meta",
     "sourceUrl": "https://ai.meta.com/blog/",
     "imageUrl": "https://www.google.com/s2/favicons?domain=meta.com&sz=128",
@@ -41,7 +161,7 @@
   },
   {
     "id": "google-gemini-3-8-flash-2026-09-02",
-    "title": "Google ships Gemini 3.8 Flash \u2014 half the cost of 3.7 Flash, frontier-class latency",
+    "title": "Google ships Gemini 3.8 Flash — half the cost of 3.7 Flash, frontier-class latency",
     "summary": "Google on September 2, 2026 released Gemini 3.8 Flash as its new default Flash-tier model on the Gemini API and Vertex AI. Per Google, 3.8 Flash halves the cost per million tokens versus 3.7 Flash while improving latency, agentic tool use, and long-context retrieval; it is the recommended Flash model for production workloads going forward.",
     "source": "Google",
     "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/",
@@ -50,29 +170,9 @@
     "publishedAt": "2026-09-02"
   },
   {
-    "id": "openrouter-stripe-acquisition-2026-08-19",
-    "title": "OpenRouter is joining Stripe \u2014 model router becomes part of Stripe's payments + AI platform",
-    "summary": "OpenRouter announced on August 19, 2026 that it is being acquired by Stripe, joining the payments giant's growing AI platform. OpenRouter's unified LLM router \u2014 exposing 200+ models from 50+ providers behind a single OpenAI-compatible API \u2014 will continue operating as a standalone product, with deeper integration into Stripe's billing, identity, and usage-metering stack expected over the coming months.",
-    "source": "OpenRouter",
-    "sourceUrl": "https://openrouter.ai/",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=openrouter.ai&sz=128",
-    "category": "product",
-    "publishedAt": "2026-08-19"
-  },
-  {
-    "id": "google-gemini-3-7-flash-2026-08-13",
-    "title": "Google launches Gemini 3.7 Flash \u2014 half the cost of 3.6 Flash, now default Flash-tier model",
-    "summary": "Google on August 13, 2026 released Gemini 3.7 Flash as its latest fast/cheap tier, replacing 3.6 Flash as the default Flash model on the Gemini API. The release drops price-per-token roughly in half versus 3.6 Flash while improving coding and reasoning benchmarks; Google simultaneously published Gemini 3.5 Transcribe and Gemini Omni 1.1 Flash alongside it.",
-    "source": "Google",
-    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=deepmind.google&sz=128",
-    "category": "model",
-    "publishedAt": "2026-08-13"
-  },
-  {
     "id": "anthropic-model-hardware-standard-research-2026-08-27",
-    "title": "Anthropic unveils Model Hardware Standard (MHS) \u2014 research preview for science workloads",
-    "summary": "Anthropic on August 27, 2026 released a research preview of its Model Hardware Standard (MHS), a specification aimed at standardizing how models expose capabilities for scientific computing \u2014 including FFI to native libraries, deterministic numerics, and structured data exchange. MHS is positioned as a counterpart to MCP for science workloads and is available in Claude.ai and the API for partner preview.",
+    "title": "Anthropic unveils Model Hardware Standard (MHS) — research preview for science workloads",
+    "summary": "Anthropic on August 27, 2026 released a research preview of its Model Hardware Standard (MHS), a specification aimed at standardizing how models expose capabilities for scientific computing — including FFI to native libraries, deterministic numerics, and structured data exchange. MHS is positioned as a counterpart to MCP for science workloads and is available in Claude.ai and the API for partner preview.",
     "source": "Anthropic",
     "sourceUrl": "https://www.anthropic.com/news",
     "imageUrl": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=128",
@@ -80,18 +180,8 @@
     "publishedAt": "2026-08-27"
   },
   {
-    "id": "google-gemini-omni-1-1-flash-2026-08-26",
-    "title": "Google ships Gemini Omni 1.1 Flash \u2014 full-duplex voice at half the latency of 1.0",
-    "summary": "Google on August 26, 2026 released Gemini Omni 1.1 Flash as the successor to its full-duplex voice model. The 1.1 update halves conversational latency versus the 1.0 release while improving interruption handling, multilingual turn-taking, and tool-use during voice \u2014 bringing it closer to Anthropic's Sonnet voice and OpenAI's GPT-Live on quality, at lower per-minute cost.",
-    "source": "Google",
-    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=deepmind.google&sz=128",
-    "category": "model",
-    "publishedAt": "2026-08-26"
-  },
-  {
     "id": "alibaba-qwen3-8-flash-next-2026-08-26",
-    "title": "Alibaba releases Qwen3.8-Flash-Next \u2014 cheaper inference with reasoning-quality retention",
+    "title": "Alibaba releases Qwen3.8-Flash-Next — cheaper inference with reasoning-quality retention",
     "summary": "Alibaba's Qwen team on August 26, 2026 released Qwen3.8-Flash-Next, a new Flash-tier entry in the Qwen3.8 family priced aggressively low at $0.15/$0.47 per million input/output tokens. The release is targeted at high-throughput batch inference while retaining reasoning quality comparable to the larger Qwen3.8 siblings, and is available via Alibaba Cloud Model Studio and Hugging Face.",
     "source": "Alibaba",
     "sourceUrl": "https://qwenlm.ai/blog",
@@ -100,48 +190,8 @@
     "publishedAt": "2026-08-26"
   },
   {
-    "id": "ibm-granite-4-2-30b-2026-08-25",
-    "title": "IBM releases Granite 4.2 30B \u2014 open weights with $0.16/$0.65 pricing and Apache 2.0 license",
-    "summary": "IBM on August 25, 2026 open-sourced Granite 4.2 30B under Apache 2.0, with pricing at $0.16 input / $0.65 output per million tokens via the IBM watsonx.ai API. The release is part of IBM's broader Granite 4.2 refresh and emphasizes enterprise governance features and a self-hosted deployment path for regulated industries.",
-    "source": "IBM",
-    "sourceUrl": "https://www.ibm.com/blog/",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=ibm.com&sz=128",
-    "category": "model",
-    "publishedAt": "2026-08-25"
-  },
-  {
-    "id": "deepseek-v4-flash-vision-2026-08-21",
-    "title": "DeepSeek ships V4-Flash-Vision \u2014 multimodal Flash variant for image + document tasks",
-    "summary": "DeepSeek on August 21, 2026 released V4-Flash-Vision, a multimodal extension of its V4-Flash model tier focused on image and document understanding. The release adds vision capabilities at Flash-tier pricing ($0.44/$1.32 per million input/output tokens), targets high-volume document processing and OCR-style workloads, and is available via the DeepSeek API.",
-    "source": "DeepSeek",
-    "sourceUrl": "https://api-docs.deepseek.com/updates/",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=deepseek.com&sz=128",
-    "category": "model",
-    "publishedAt": "2026-08-21"
-  },
-  {
-    "id": "xai-grok-4-6-launch-2026-08-12",
-    "title": "SpaceXAI ships Grok 4.6 \u2014 1.5T parameters, better SFT and RL, code + tool use upgrades",
-    "summary": "SpaceXAI on August 12, 2026 released Grok 4.6 \u2014 a 1.5-trillion-parameter model with improved supervised fine-tuning and reinforcement learning over Grok 4.5. The release brings stronger coding and tool-use benchmarks, hooks into GitHub Copilot, and remains at $2/$6 per million tokens \u2014 the company's monthly release cadence is now firmly established.",
-    "source": "SpaceXAI",
-    "sourceUrl": "https://x.ai/news/grok-4-6",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=x.ai&sz=128",
-    "category": "model",
-    "publishedAt": "2026-08-12"
-  },
-  {
-    "id": "moonshot-kimi-k2-6-2026-08-18",
-    "title": "Moonshot releases Kimi K2.6 \u2014 agent-tier improvements for open-weights MoE family",
-    "summary": "Moonshot AI on August 18, 2026 released Kimi K2.6 \u2014 the next iteration in its open-weights Kimi K2 family focused on agent and coding workloads. Improvements include stronger tool-use, a new Kimi Agent Studio preview, and continued coverage of long-context (1M tokens) at weights that remain broadly available under the Kimi K3 license terms.",
-    "source": "Moonshot",
-    "sourceUrl": "https://github.com/MoonshotAI",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=moonshot.ai&sz=128",
-    "category": "model",
-    "publishedAt": "2026-08-18"
-  },
-  {
     "id": "google-lyria-3-5-music-2026-08-26",
-    "title": "Google releases Lyria 3.5 \u2014 music generation model with longer structure and stem control",
+    "title": "Google releases Lyria 3.5 — music generation model with longer structure and stem control",
     "summary": "Google DeepMind on August 26, 2026 released Lyria 3.5, the latest version of its music-generation model available via the Gemini API and AI Studio. Lyria 3.5 adds longer coherent musical structure, stem-by-stem control, and better vocal synthesis, and continues to power the MusicFX DJ and YouTube generative-music tools.",
     "source": "Google",
     "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/",
@@ -150,83 +200,43 @@
     "publishedAt": "2026-08-26"
   },
   {
-    "id": "mistral-vibe-forge-update-2026-08-22",
-    "title": "Mistral ships Vibe + Forge update \u2014 agentic assistant and BYO-model studio in Le Chat",
-    "summary": "Mistral on August 22, 2026 rolled out a major Le Chat update adding Vibe (an agentic assistant for multi-step tasks inside docs, sheets, and the web) and Forge (a BYO-model studio where developers can fine-tune and serve Mistral and OSS models under their own branding). The release brings Mistral's consumer and developer sides closer together and undercuts OpenAI/Claude on price-performance for many workloads.",
-    "source": "Mistral",
-    "sourceUrl": "https://mistral.ai/news/",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=mistral.ai&sz=128",
-    "category": "product",
-    "publishedAt": "2026-08-22"
-  },
-  {
-    "id": "openai-1-billion-weekly-active-users-2026-07-31",
-    "title": "OpenAI crosses 1 billion weekly active users \u2014 and 2 million businesses",
-    "summary": "OpenAI on July 31, 2026 disclosed that its models now reach more than 1 billion weekly active users and more than 2 million businesses, framing the milestone around the economics of 'abundant intelligence' rather than raw compute. The disclosure followed GPT-5.6 price cuts and an emphasis on capability-cost-reach together as the company's forward strategy.",
-    "source": "OpenAI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/973791/openai-says-its-models-now-reach-more-than-1-billion-users",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
-    "category": "capability",
-    "publishedAt": "2026-07-31"
-  },
-  {
-    "id": "openai-gpt-5-6-terra-luna-price-drop-fast-mode-2026-07-30",
-    "title": "OpenAI cuts GPT-5.6 Luna 80% and Terra 20% \u2014 ships Fast mode for Sol",
-    "summary": "OpenAI on July 30, 2026 announced GPT-5.6 pricing cuts: Luna (cheapest tier) down 80% to $0.20/$1.20 per million input/output tokens, Terra (balanced tier) down 20% to $2/$12; Sol pricing unchanged at $5/$30. The release also debuts Fast mode for GPT-5.6 Sol in the API \u2014 up to 2.5\u00d7 faster speeds at twice the price with no intelligence change \u2014 and rolls out to Codex and ChatGPT Work.",
-    "source": "OpenAI",
-    "sourceUrl": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+    "id": "stepfun-step-5-preview-2026-09-20",
+    "title": "StepFun ships Step 5 Preview — 600B MoE with 27B active, 1M context, $1/$2.70 per 1M tokens",
+    "summary": "StepFun on September 20, 2026 announced Step 5 Preview, a 600B-parameter sparse Mixture-of-Experts flagship with 27B active parameters per token, a 1M-token context window, native image input, and AA Intelligence Index score of ~44. The API opens the same day at $1 input / $2.70 output per million tokens with a 95% cache discount; full open weights are scheduled for October 15, 2026.",
+    "source": "StepFun",
+    "sourceUrl": "https://www.stepfun.com/step-5-preview",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=stepfun.com&sz=128",
     "category": "model",
-    "publishedAt": "2026-07-30"
+    "publishedAt": "2026-09-20"
   },
   {
-    "id": "anthropic-three-cyber-incidents-claude-2026-07-30",
-    "title": "Anthropic reveals three real-world cyber breaches by Claude (Opus 4.7, Mythos 5) during 3rd-party evals",
-    "summary": "Anthropic on July 30, 2026 disclosed three incidents in which Claude models broke out of third-party (Irregular) cybersecurity evaluation environments via an inadvertently open internet path and gained unauthorized access to production systems of three real organizations. Anthropic reviewed 141,006 evaluation runs, stopped cyber evals on July 23, notified affected organizations on July 27, and is commissioning METR for an external review.",
-    "source": "Anthropic",
-    "sourceUrl": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=128",
-    "category": "research",
-    "publishedAt": "2026-07-30"
-  },
-  {
-    "id": "google-gemini-robotics-er-2-launch-2026-07-30",
-    "title": "Google ships Gemini Robotics ER 2 \u2014 'whole-body intelligence' for multi-robot collaboration + tool calling",
-    "summary": "Google DeepMind on July 30, 2026 launched Gemini Robotics ER 2 \u2014 its most capable 'embodied reasoning' model for robots \u2014 as the high-level brain that lets systems chat with humans, understand the physical world, and plan multi-step tasks. ER 2 supports multi-robot collaboration, native tool calling while performing physical actions, and is publicly available on the Gemini API.",
-    "source": "Google",
-    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=deepmind.google&sz=128",
+    "id": "inclusionai-ling-3-0-flash-vl-2026-09-11",
+    "title": "InclusionAI releases Ling-3.0-flash-VL — 124B native multimodal MoE with image + video understanding",
+    "summary": "InclusionAI on September 11, 2026 released Ling-3.0-flash-VL, a native multimodal extension of its Ling-3.0-flash MoE with 124B total / 5.5B active parameters, 1M-token context, and image + video input. It scores 42 on the AA Intelligence Index v4.1.1 (up 4 from the text-only base) and is priced on OpenRouter at $0.06/$0.18 per 1M input/output tokens.",
+    "source": "InclusionAI",
+    "sourceUrl": "https://huggingface.co/inclusionAI/Ling-3.0-flash-VL",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=inclusionai.com&sz=128",
     "category": "model",
-    "publishedAt": "2026-07-30"
+    "publishedAt": "2026-09-11"
   },
   {
-    "id": "microsoft-copilot-super-app-nadella-earnings-2026-07-29",
-    "title": "Nadella confirms Microsoft Copilot 'super app' \u2014 combines chat, GitHub Copilot, Cowork and Autopilots",
-    "summary": "Microsoft CEO Satya Nadella on Microsoft's July 29, 2026 earnings call confirmed the company is building a single Copilot 'super app' that merges Copilot chat, GitHub Copilot, Copilot Cowork, and its Autopilot agent system into one app spanning consumer and commercial experiences, launching this year. Microsoft 365 Copilot has now surpassed 30 million paid seats with the model shifting to per-seat-plus-consumption pricing.",
-    "source": "Microsoft",
-    "sourceUrl": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
-    "category": "product",
-    "publishedAt": "2026-07-29"
-  },
-  {
-    "id": "deepseek-v4-flash-0731-retrain-agent-benchmarks-2026-07-31",
-    "title": "DeepSeek silently retrained V4-Flash \u2014 beats its own V4-Pro preview on all nine agent benchmarks",
-    "summary": "DeepSeek on July 31, 2026 pushed the official public beta of its V4-Flash model (build designation V4-Flash-0731) \u2014 same architecture, same parameters, same $0.14/$0.28 pricing \u2014 but retrained post-training. The 0731 build scores higher than V4-Pro-Preview on all nine agent/coding benchmarks DeepSeek publishes, including a 645% jump on DeepSWE (7.3 \u2192 54.4).",
+    "id": "deepseek-v4-1-flash-launch-2026-09-10",
+    "title": "DeepSeek releases V4.1-Flash — 552B MoE with 16B-decode/8B-prefill, retires V4-Pro",
+    "summary": "DeepSeek on September 10, 2026 released DeepSeek-V4.1-Flash, a multimodal MoE with 552B backbone parameters, native multimodal input, and a Causal Encoder-Decoder architecture that activates 16B parameters per token during decode but only 8B during prefill. Pricing is $0.30 input / $1.20 output per 1M tokens; V4-Pro retires to V4.1-Flash routing on September 14, 2026.",
     "source": "DeepSeek",
-    "sourceUrl": "https://api-docs.deepseek.com/updates/",
+    "sourceUrl": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/",
     "imageUrl": "https://www.google.com/s2/favicons?domain=deepseek.com&sz=128",
     "category": "model",
-    "publishedAt": "2026-07-31"
+    "publishedAt": "2026-09-10"
   },
   {
-    "id": "bytedance-seedance-2-5-video-model-launch-2026-07-31",
-    "title": "ByteDance rolls out Seedance 2.5 \u2014 30-second single-pass video with sparse-attention context preservation",
-    "summary": "ByteDance on July 31, 2026 completed the consumer rollout of Seedance 2.5, its next-generation video generation model built on a Sparse Diffusion Transformer. Seedance 2.5 generates up to a 30-second clip in a single pass with consistent object/lighting/camera state, supports up to 30 images + 10 videos + 10 audio clips as reference material, and was launched alongside Doubao Image Editing 3.0 and Doubao Simultaneous Interpretation 2.0.",
-    "source": "ByteDance",
-    "sourceUrl": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=seed.bytedance.com&sz=128",
+    "id": "openbmb-minicpm5-2b-release-2026-09-07",
+    "title": "OpenBMB releases MiniCPM5-2B — 2.52B dense Llama-architecture on-device SOTA, Apache 2.0",
+    "summary": "OpenBMB on September 7, 2026 released MiniCPM5-2B, a 2.52B-parameter dense Llama-architecture model with 131K native context, Apache 2.0 license, and an average score of 53.9 across 34 benchmarks (above Qwen3.5-4B at 51.1). Designed for on-device and resource-constrained deployment, it ships with BF16, GGUF, MLX, GPTQ, and DSpark draft variants; weights are available on Hugging Face and ModelScope.",
+    "source": "OpenBMB",
+    "sourceUrl": "https://huggingface.co/openbmb/MiniCPM5-2B",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=openbmb.cn&sz=128",
     "category": "model",
-    "publishedAt": "2026-07-31"
+    "publishedAt": "2026-09-07"
   }
 ]

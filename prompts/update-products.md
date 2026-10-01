@@ -10,18 +10,18 @@ Research current AI product landscape. **Do NOT assume existing products are sti
 
 Research queries to execute:
 ```
-OpenAI AI products May 2026 site:openai.com OR site:techcrunch.com
-Anthropic Claude products May 2026 site:anthropic.com OR site:techcrunch.com
-Google AI products May 2026 site:deepmind.google OR site:techcrunch.com
-Meta AI products May 2026 site:ai.meta.com OR site:techcrunch.com
-xAI Grok products May 2026 site:x.ai OR site:techcrunch.com
-NVIDIA AI products May 2026 site:nvidia.com OR site:techcrunch.com
+OpenAI AI products September 2026 site:openai.com OR site:techcrunch.com
+Anthropic Claude products September 2026 site:anthropic.com OR site:techcrunch.com
+Google AI products September 2026 site:deepmind.google OR site:techcrunch.com
+Meta AI products September 2026 site:ai.meta.com OR site:techcrunch.com
+xAI Grok products September 2026 site:x.ai OR site:techcrunch.com
+NVIDIA AI products September 2026 site:nvidia.com OR site:techcrunch.com
 OpenRouter AI products 2026 site:openrouter.ai OR site:artificialanalysis.ai
-DeepSeek AI products May 2026 site:deepseek.com OR site:techcrunch.com
-Cursor AI editor May 2026 site:cursor.com OR site:techcrunch.com
-JetBrains AI tools May 2026 site:jetbrains.com OR site:techcrunch.com
-Midjourney May 2026 site:midjourney.com OR site:techcrunch.com
-Runway AI video May 2026 site:runwayml.com OR site:techcrunch.com
+DeepSeek AI products September 2026 site:deepseek.com OR site:techcrunch.com
+Cursor AI editor September 2026 site:cursor.com OR site:techcrunch.com
+JetBrains AI tools September 2026 site:jetbrains.com OR site:techcrunch.com
+Midjourney September 2026 site:midjourney.com OR site:techcrunch.com
+Runway AI video September 2026 site:runwayml.com OR site:techcrunch.com
 ```
 
 Discover:
@@ -135,6 +135,12 @@ Update `providerColors` in `src/app/products/page.tsx` if new companies added.
 - Only update `products-page-data.json`
 - Products organized by category — maintain structure
 
+## Honesty Rules (MANDATORY)
+- **NO FABRICATION**: only include data points (URLs, summaries, benchmark scores, prices) that you actually found via web search or AA API and verified. Never invent URLs, scores, or descriptions to make the data look fresher.
+- **Skip if no verified delta**: if research finds no verifiable changes, leave the existing data file untouched. Report "no verified updates" and exit. DO NOT bump the header date or rotate data speculatively — the date stamp alone misleads readers about what was actually changed.
+- **Date window**: queries target the most recent period from today (update the month in this prompt file each run if you keep it).
+
+
 ---
 
 ## Preventing Data/Table Mismatch (CRITICAL)
@@ -169,30 +175,27 @@ When removing a company from ALL categories in JSON:
 ### Verification Step
 Run this check AFTER every update — if a company appears in JSON but NOT as a table column header, it's misaligned.
 
-### Current `companyOrder` Reference
-Current companyOrder list (from ProductTable.tsx lines 10-70):
-```
-'NVIDIA', 'Microsoft', 'Google', 'Amazon', 'Meta', 'Oracle', 'ByteDance', 'Adobe',
-'Tencent', 'Alibaba', 'OpenAI', 'Anthropic', 'xAI', 'DeepSeek', 'Mistral', 'MiniMax',
-'JetBrains', 'Perplexity', 'Cursor', 'Midjourney', 'Runway', 'Pika', 'HeyGen', 'Luma',
-'StabilityAI', 'BlackForest', 'LangChain', 'LangGraph', 'LangGraph-Cloud', 'Langflow',
-'AssemblyAI', 'Suno', 'Udio', 'ElevenLabs', 'PlayHT', 'WellSaid', 'Murf', 'Coqui',
-'Temporal', 'Make', 'Courier', 'Zapier', 'HuggingFace', 'Replicate', 'Ollama', 'LMStudio',
-'CrewAI', 'MultiOn', 'AutoGen', 'Nous Research', 'Kilo', 'n8n', 'OpenClaw', 'deepset',
-'FlowiseAI', 'Jan', 'LocalAI', 'vLLM', 'Vellum'
-```
+### `companyOrder` Reference (LIVE — read from source)
+**DO NOT** rely on a hand-maintained list — the actual `companyOrder` array in `src/components/ProductTable.tsx` evolves faster than this prompt. Before any update:
 
-Companies in JSON but NOT in companyOrder (MUST ADD):
-- (none currently — all are synced)
+1. Read the current `companyOrder` array from `src/components/ProductTable.tsx` (it starts at line ~11 with `const companyOrder = [`).
+2. Diff against the company keys present in `src/data/products-page-data.json`.
+3. For each NEW company key in JSON but NOT in `companyOrder`: add it to `companyOrder` (preserve the existing ordering style — this file currently mixes parent-company and sub-product keys; match that pattern) AND add a color entry to `getCompanyBadgeStyle()` in the same file.
+4. For each company REMOVED from all JSON categories: remove from `companyOrder` AND `getCompanyBadgeStyle()`.
+
+The previous hand-maintained reference list in this prompt is **deprecated** and must not be used.
+
+Companies in JSON but NOT in companyOrder (CHECK EACH RUN):
+- **VERIFY at runtime** by running the live-read directive above — this hand-maintained list goes stale immediately. Do not trust it.
 
 ---
 
-## Company Order (Market Value)
-Columns are ordered by market value, largest to smallest: NVIDIA, Microsoft, Google, Amazon, Meta...
+## Company Order (LIVE)
+The actual `companyOrder` in `src/components/ProductTable.tsx` mixes parent-company keys (e.g., `'NVIDIA'`, `'Microsoft'`) with sub-product keys (e.g., `'Microsoft-Code'`, `'Google-Gemini-Robotics-2'`). **The current ordering is NOT a strict market-value sort** — it has been edited many times as the product landscape shifted. Treat the live array as authoritative; the previous "ordered by market value" framing is deprecated.
 
-If a company has multiple distinct products (e.g., Amazon Q AND Bedrock AgentCore), add them ALL under the single parent company key (Amazon), not separate keys.
-
-Only create a separate key if the brand is genuinely different (e.g., Cursor from Microsoft).
+When adding a new product:
+- If the parent company exists in `companyOrder`, decide based on how the file currently treats sub-products of that parent (look at existing `'Microsoft-*'`, `'Google-*'`, `'OpenAI-*'`, `'Anthropic-*'` entries for the pattern).
+- If neither parent nor sub-product key exists, add the parent company to `companyOrder` and add a color to `getCompanyBadgeStyle()`. Sub-product keys go alongside.
 
 ## Constraints
 - **DO NOT modify UI or CSS** in `page.tsx`

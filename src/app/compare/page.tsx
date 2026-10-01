@@ -66,8 +66,10 @@ const providerColors: Record<string, string> = {
 'Motif Technologies': '#f59e0b',
 Celeris: '#06b6d4',
   'SK Telecom': '#e91e63',
-
+  NaiveAI: '#06b6d4',
+  IFM: '#facc15',
 };
+
 
 function getInitialModels(): FrontierModel[] {
   const data = compareModelsData as unknown;
@@ -180,7 +182,7 @@ export default function ComparePage() {
             paddingRight: '24px',
           }}
         >
-          Last updated: September 9, 2026
+          Last updated: September 30, 2026
         </div>
         <div
           style={{

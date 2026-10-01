@@ -144,8 +144,8 @@ export default function ProductsPage() {
           style={{ fontSize: '13px', color: 'rgba(255, 255, 255, 0.4)' }}
         >
           <p>
-            Product data sourced from company documentation • Last Updated: June
-            7, 2026
+            Product data sourced from company documentation · Last Updated: September 30, 2026
+
           </p>
         </div>
       </main>
