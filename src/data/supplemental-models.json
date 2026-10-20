@@ -2498,5 +2498,115 @@
     "license": "Apache 2.0",
     "mmlu": 0,
     "humaneval": 0
+  },
+  "gemini-4-argon": {
+    "provider": "Google",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 0,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "ling-3.1-flash": {
+    "provider": "InclusionAI",
+    "parameters": 560000000000,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Proprietary (open after trial)",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "mistral-large-4": {
+    "provider": "Mistral",
+    "parameters": 1000000000000,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Custom Mistral license (pending)",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "claude-haiku-5.5": {
+    "provider": "Anthropic",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "muse-wonder": {
+    "provider": "Meta",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 0,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "muse-wonder-full": {
+    "provider": "Meta",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 0,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "muse-spark-open": {
+    "provider": "Meta",
+    "parameters": 816000000000,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": true,
+    "license": "Muse Model License",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "nemotron-3-5-super-vl": {
+    "provider": "NVIDIA",
+    "parameters": 120000000000,
+    "modelSizeGB": 0,
+    "contextLength": 0,
+    "openSource": true,
+    "license": "NVIDIA Open Model License (assumed; needs verification)",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "nemotron-3-5-bolt-74b-a9b": {
+    "provider": "NVIDIA",
+    "parameters": 74000000000,
+    "modelSizeGB": 24,
+    "contextLength": 0,
+    "openSource": true,
+    "license": "NVIDIA Open Model License (assumed; needs verification)",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "reflection-beam-1-0": {
+    "provider": "Reflection",
+    "parameters": 501000000000,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "deepseek-v4-1-flash-1017": {
+    "provider": "DeepSeek",
+    "parameters": 763000000000,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": true,
+    "license": "MIT",
+    "mmlu": 0,
+    "humaneval": 0
   }
 }

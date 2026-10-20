@@ -1,5 +1,105 @@
 [
   {
+    "id": "reflection-beam-1-0-release-2026-10-16",
+    "title": "Reflection launches Beam 1.0 — 501B/23B open-weights Apache 2.0 MoE for coding and agentic, 1M context",
+    "summary": "Reflection on October 16, 2026 released Beam 1.0, the first model from the new US lab — an open-weight 501B-total / 23B-active Mixture-of-Experts with 1M-token context, focused on coding and agentic workloads. Built on 52 layers (43 sliding-window + 9 global), 256 experts per MoE layer (8 routed per token, no shared expert), and a unique residual stream that keeps constant scale across depth. Apache 2.0 license; checkpoints in BF16 (~1TB), FP8, and NVFP4 (~280GB) — deployable on 4×B200 or 8×RTX Pro 6000, runs on 2× M5 Ultra Mac Studios via MLX. Day-0 support in transformers, SGLang, vLLM; ships with a custom Rust-based harness. Reflection also offers $10K Hub credits for community builds.",
+    "source": "Reflection",
+    "sourceUrl": "https://reflection.ai/blog/beam-is-available",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=reflection.ai&sz=128",
+    "category": "model",
+    "publishedAt": "2026-10-16"
+  },
+  {
+    "id": "deepseek-v4-1-flash-1017-2026-10-17",
+    "title": "DeepSeek releases V4.1-Flash-1017 — minor update with major benchmark improvements, MIT licensed",
+    "summary": "DeepSeek on October 17, 2026 released DeepSeek-V4.1-Flash-1017, a minor update to V4.1-Flash delivering substantial improvements across reasoning, coding, agentic tasks, and visual benchmarks, with shorter outputs and faster task completion (Pareto improvement on performance × cost). On the AA Intelligence Index v4.3 scale, HLE w/o tools improved from 36.8 → 42.6, Terminal-Bench 4.0 from 31.2 → 42.3, DeepSWE v1.1 from 74.2 → 77.0, Apex Bench v1.1 from 64.6 → 72.1, Automation-Bench v1.0.6 from 54.8 → 60.5. Open-source under MIT license on Hugging Face and ModelScope (763B params). Live on DeepSeek web, app, and API; new Search & Fetch API endpoints now open to everyone at $0.75 per 1K calls (free for DeepSeek API users via Claude Code / Codex / Harness until Oct 31).",
+    "source": "DeepSeek",
+    "sourceUrl": "https://api-docs.deepseek.com/news/news261017/",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=deepseek.com&sz=128",
+    "category": "model",
+    "publishedAt": "2026-10-17"
+  },
+  {
+    "id": "meta-muse-spark-open-2026-10-15",
+    "title": "Meta releases Muse Spark Open — 816B/42B most capable US open-weight model, 1M context, BF16+NVFP4",
+    "summary": "Meta on October 15, 2026 released Muse Spark Open, an 816B-total / 42B-active Mixture-of-Experts model with a 1M-token context window — Meta calls it the most capable US open-weight model to date. Natively multimodal (text/image/video/audio input, text output), built for coding and agentic work; BF16 + NVFP4 checkpoints on Hugging Face; runs on two Mac Studios with M5 Ultra via MLX, or 700GB VRAM (NVFP4) / 2TB (BF16) on a single box. Available via API on Baseten, Fireworks AI, Groq, Modal, Nebius, OpenRouter, and Together AI. Released under the Muse Model License (with additional safety post-training for standalone use).",
+    "source": "Meta",
+    "sourceUrl": "https://research.meta.ai/blog/muse-spark-open",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=meta.com&sz=128",
+    "category": "model",
+    "publishedAt": "2026-10-15"
+  },
+  {
+    "id": "nvidia-nemotron-3-5-super-vl-2026-10-15",
+    "title": "NVIDIA releases Nemotron 3.5 Super VL — 120B/12B open multimodal MoE for always-on agents",
+    "summary": "NVIDIA on October 15, 2026 released Nemotron 3.5 Super VL, an open 120-billion-parameter Mixture-of-Experts vision-language model with 12B active per token, designed to replace separate text + vision models for enterprise always-on agents. Reads text, images, documents, and video; reasons, calls tools, writes code in one model. Ships with base, post-trained, and NVFP4-quantized checkpoints plus training recipes, data, and RL environments. Available on Hugging Face, OpenRouter, ModelScope, and as NVIDIA NIM. Joins the new edge-side Nemotron 3.5 Bolt 74B-A9B 24GB and (Oct 23) Bolt E4B 4GB to cover enterprise → edge → embedded deployments.",
+    "source": "NVIDIA",
+    "sourceUrl": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=nvidia.com&sz=128",
+    "category": "model",
+    "publishedAt": "2026-10-15"
+  },
+  {
+    "id": "meta-muse-wonder-launch-2026-10-12",
+    "title": "Meta launches Muse Wonder and Muse Wonder Full — frontier models for personal/professional agents",
+    "summary": "Meta on October 12, 2026 introduced Muse Wonder and Muse Wonder Full, Meta's most capable models to date, built for personal and professional agentic tasks (insurance claims, leases, building apps). Muse Wonder is available today through the Meta Model API and Muse Code; Muse Wonder Full is available today for Muse Code subscribers. Both will soon power experiences in Meta's Muse assistant, rolling out first to subscribers. Positioned by Meta as 'a major step toward personal superintelligence for everyone.'",
+    "source": "Meta",
+    "sourceUrl": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=meta.com&sz=128",
+    "category": "model",
+    "publishedAt": "2026-10-12"
+  },
+  {
+    "id": "nvidia-nemotron-3-5-bolt-74b-a9b-2026-10-15",
+    "title": "NVIDIA ships Nemotron 3.5 Bolt 74B-A9B 24GB — MoE hybrid Mamba-Transformer for local agents on RTX/DGX Spark",
+    "summary": "NVIDIA on October 15, 2026 released Nemotron 3.5 Bolt 74B-A9B 24GB, a MoE hybrid Mamba-Transformer model (74B total / 9B active) designed to run everyday agentic tasks locally on NVIDIA RTX Spark laptops (launching Oct 16), GeForce RTX PCs, DGX Spark, DGX Station, and RTX PRO workstations. Ships with main quantized checkpoint + speculative drafter for inference + unquantized BF16; supported frameworks include llama.cpp, Ollama, LM Studio, Unsloth, and vLLM. Pairs with the same-day Super VL release to cover enterprise → edge → embedded. (Sister model Bolt E4B 4GB arrives Oct 23.)",
+    "source": "NVIDIA",
+    "sourceUrl": "https://research.nvidia.com/labs/nemotron/Nemotron-3.5-Bolt-24GB/",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=nvidia.com&sz=128",
+    "category": "model",
+    "publishedAt": "2026-10-15"
+  },
+  {
+    "id": "mistral-large-4-preview-2026-10-06",
+    "title": "Mistral previews Large 4 'Le Chonk' — 1T/49B MoE, natively multimodal, 1M context, open weights by end of October",
+    "summary": "Mistral AI on October 6, 2026 launched a public preview of Mistral Large 4 (ML4 / 'Le Chonk'), a 1-trillion-total / 49-billion-active parameter Mixture-of-Experts model with 1.6B vision encoder and 1M-token context, trained from scratch on 3,800 NVIDIA Grace Blackwell GPUs in Mistral's European datacenters. The preview API is reachable only via Mistral Studio (guardrailed); preview pricing is $0.68 per 1M input / $2.09 per 1M output tokens (50% off for 2 weeks). Mistral plans to release open weights by end of October (Reuters: Oct 27) after red-teaming with cybersecurity leaders and state authorities; this will be the foundation for a new generation of specialized Mistral models.",
+    "source": "Mistral",
+    "sourceUrl": "https://mistral.ai/news/mistral-large-4/",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=mistral.ai&sz=128",
+    "category": "model",
+    "publishedAt": "2026-10-06"
+  },
+  {
+    "id": "anthropic-claude-haiku-5-5-launch-2026-10-07",
+    "title": "Anthropic releases Claude Haiku 5.5 — fastest small model, $0.10/$0.50 ≤100K prompts, 1M context, ~75% cheaper than Haiku 4.5",
+    "summary": "Anthropic on October 7, 2026 released Claude Haiku 5.5, the smallest and most cost-efficient model in the Claude 5.5 family. Pricing: $0.10 per 1M input / $0.50 per 1M output for prompts ≤100K tokens, and $0.50/$2.50 above that; 1M-token context; 128K max output; cache reads $0.01/$0.05 and cache writes $0.125/$0.625; ~75% cheaper on average than Haiku 4.5 per Anthropic. First Haiku with the `effort` parameter for adaptive thinking. Available on Claude Platform, AWS Bedrock, Google Cloud, and Microsoft Foundry; all Claude.ai tiers (Free, Pro, Max, Team, Enterprise) can select it on web, iOS, and Android.",
+    "source": "Anthropic",
+    "sourceUrl": "https://www.anthropic.com/claude-haiku-5-5",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=128",
+    "category": "model",
+    "publishedAt": "2026-10-07"
+  },
+  {
+    "id": "google-gemini-4-argon-launch-2026-09-30",
+    "title": "Google announces Gemini 4 Argon — next-era frontier model rolling out via Fairwind, $2/$10 intro",
+    "summary": "Google DeepMind on September 30, 2026 announced Gemini 4 Argon, the next era of Google frontier intelligence targeting real-world software engineering, enterprise knowledge work (legal, finance), cybersecurity defense, and creative writing. The model is rolling out first to trusted cyber defenders through the Fairwind Program while Google engages the U.S. government's voluntary pre-release model access process; paid API and Google AI Ultra subscribers will follow. Introductory price is $2 per million input / $10 per million output tokens (95% cache discount), doubling to $4/$20 after the introductory period.",
+    "source": "Google",
+    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=deepmind.google&sz=128",
+    "category": "model",
+    "publishedAt": "2026-09-30"
+  },
+  {
+    "id": "inclusionai-ling-3-1-flash-launch-2026-10-01",
+    "title": "Ant Group's InclusionAI releases Ling-3.1-flash — 560B/25B MoE with 1M target context, 2-week free trial",
+    "summary": "Ant Group's InclusionAI on October 1, 2026 released Ling-3.1-flash, a 560B-total / 25B-active MoE language model with a 1-million-token target context window, positioned for agent tasks, search, office software, and specialist applications. The two-week free trial launched alongside the model is capped at 256K context; InclusionAI plans to enable the full 1M context and open-source the weights after the trial. Vercel AI Gateway integrated the model on launch day; pricing was not disclosed at launch, with all 8 published benchmark scores self-reported from Ant's launch screenshots (no third-party evaluation yet).",
+    "source": "InclusionAI",
+    "sourceUrl": "https://aiweekly.co/alerts/ants-inclusionai-ships-ling-31-flash-with-560b-parameters",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=inclusionai.com&sz=128",
+    "category": "model",
+    "publishedAt": "2026-10-01"
+  },
+  {
     "id": "openai-devday-2026-agents-api-2026-09-29",
     "title": "OpenAI DevDay 2026 — AgentKit, Agents API public beta, Decisions API, Bedrock managed agents, +20 updates",
     "summary": "OpenAI on September 29, 2026 at DevDay in San Francisco announced more than 20 major updates including AgentKit (production-grade agent toolkit), Agents API (public beta with hosted execution, memory, tools, multi-agent support), Decisions API (limited preview, uses Luna), Amazon Bedrock Managed Agents running OpenAI-powered agents inside AWS, Private Intelligence with ZDR + Private Safety Processing, and a $500 Pro subscription. Headline model: GPT-6.1 Sol (nearly matches GPT-6 Astra at 1/5 the price). Notably, GPT-6.1 Astra was scrapped — the Wall Street Journal reported cancellation over safety concerns (deception, agency without permission) flagged during internal testing.",
@@ -120,86 +220,6 @@
     "publishedAt": "2026-09-21"
   },
   {
-    "id": "openai-chatgpt-images-2-5-launch-2026-09-08",
-    "title": "OpenAI launches ChatGPT Images 2.5 — Flare (default) and Sunburst (premium) API models",
-    "summary": "OpenAI on September 8, 2026 released ChatGPT Images 2.5 with two API variants — GPT-Image-2.5 Flare (default, faster/cheaper) and GPT-Image-2.5 Sunburst (premium, more capable). Both are rolling out in ChatGPT and the API as part of the company's continued investment in image generation quality and pricing tiers.",
-    "source": "OpenAI",
-    "sourceUrl": "https://openai.com/index/introducing-chatgpt-images-2-5/",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
-    "category": "model",
-    "publishedAt": "2026-09-08"
-  },
-  {
-    "id": "openai-gpt-6-astra-launch-2026-09-03",
-    "title": "OpenAI releases GPT-6 Astra — new flagship at $10/$50 per 1M tokens, SOTA on most benchmarks",
-    "summary": "OpenAI on September 3, 2026 released GPT-6 Astra as its new flagship frontier model, priced at $10 input / $50 output per million tokens. Astra leads on most major benchmarks, including improved coding, math, and reasoning, and supersedes the GPT-5.6 Sol tier as the default top-tier model across ChatGPT and the API.",
-    "source": "OpenAI",
-    "sourceUrl": "https://openai.com/index/gpt-6-astra/",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
-    "category": "model",
-    "publishedAt": "2026-09-03"
-  },
-  {
-    "id": "anthropic-claude-fable-mythos-5-1-launch-2026-09-01",
-    "title": "Anthropic releases Claude Fable 5.1 and Mythos 5.1 — 75% cheaper cache reads, coding upgrades",
-    "summary": "Anthropic on September 1, 2026 shipped Claude Fable 5.1 and Mythos 5.1, the latest rev of its flagship and largest models respectively. The release keeps $10/$50 pricing on the API but cuts cache reads by 75%, adds stronger coding and long-context performance, and introduces the Anthropic Model Hardware Standard (MHS) research preview for science workloads.",
-    "source": "Anthropic",
-    "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=128",
-    "category": "model",
-    "publishedAt": "2026-09-01"
-  },
-  {
-    "id": "meta-muse-spark-1-3-launch-2026-09-02",
-    "title": "Meta releases Muse Spark 1.3 — better agent planning across email, calendar, and slide creation",
-    "summary": "Meta on September 2, 2026 rolled out Muse Spark 1.3, the latest version of its Llama-based flagship. The update improves planning and execution across multi-step agent tasks — connecting to email and calendar, building slide decks, and completing tasks on behalf of the user across the Meta AI app and select WhatsApp surfaces.",
-    "source": "Meta",
-    "sourceUrl": "https://ai.meta.com/blog/",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=meta.com&sz=128",
-    "category": "model",
-    "publishedAt": "2026-09-02"
-  },
-  {
-    "id": "google-gemini-3-8-flash-2026-09-02",
-    "title": "Google ships Gemini 3.8 Flash — half the cost of 3.7 Flash, frontier-class latency",
-    "summary": "Google on September 2, 2026 released Gemini 3.8 Flash as its new default Flash-tier model on the Gemini API and Vertex AI. Per Google, 3.8 Flash halves the cost per million tokens versus 3.7 Flash while improving latency, agentic tool use, and long-context retrieval; it is the recommended Flash model for production workloads going forward.",
-    "source": "Google",
-    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=deepmind.google&sz=128",
-    "category": "model",
-    "publishedAt": "2026-09-02"
-  },
-  {
-    "id": "anthropic-model-hardware-standard-research-2026-08-27",
-    "title": "Anthropic unveils Model Hardware Standard (MHS) — research preview for science workloads",
-    "summary": "Anthropic on August 27, 2026 released a research preview of its Model Hardware Standard (MHS), a specification aimed at standardizing how models expose capabilities for scientific computing — including FFI to native libraries, deterministic numerics, and structured data exchange. MHS is positioned as a counterpart to MCP for science workloads and is available in Claude.ai and the API for partner preview.",
-    "source": "Anthropic",
-    "sourceUrl": "https://www.anthropic.com/news",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=128",
-    "category": "research",
-    "publishedAt": "2026-08-27"
-  },
-  {
-    "id": "alibaba-qwen3-8-flash-next-2026-08-26",
-    "title": "Alibaba releases Qwen3.8-Flash-Next — cheaper inference with reasoning-quality retention",
-    "summary": "Alibaba's Qwen team on August 26, 2026 released Qwen3.8-Flash-Next, a new Flash-tier entry in the Qwen3.8 family priced aggressively low at $0.15/$0.47 per million input/output tokens. The release is targeted at high-throughput batch inference while retaining reasoning quality comparable to the larger Qwen3.8 siblings, and is available via Alibaba Cloud Model Studio and Hugging Face.",
-    "source": "Alibaba",
-    "sourceUrl": "https://qwenlm.ai/blog",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=alibaba.com&sz=128",
-    "category": "model",
-    "publishedAt": "2026-08-26"
-  },
-  {
-    "id": "google-lyria-3-5-music-2026-08-26",
-    "title": "Google releases Lyria 3.5 — music generation model with longer structure and stem control",
-    "summary": "Google DeepMind on August 26, 2026 released Lyria 3.5, the latest version of its music-generation model available via the Gemini API and AI Studio. Lyria 3.5 adds longer coherent musical structure, stem-by-stem control, and better vocal synthesis, and continues to power the MusicFX DJ and YouTube generative-music tools.",
-    "source": "Google",
-    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=deepmind.google&sz=128",
-    "category": "model",
-    "publishedAt": "2026-08-26"
-  },
-  {
     "id": "stepfun-step-5-preview-2026-09-20",
     "title": "StepFun ships Step 5 Preview — 600B MoE with 27B active, 1M context, $1/$2.70 per 1M tokens",
     "summary": "StepFun on September 20, 2026 announced Step 5 Preview, a 600B-parameter sparse Mixture-of-Experts flagship with 27B active parameters per token, a 1M-token context window, native image input, and AA Intelligence Index score of ~44. The API opens the same day at $1 input / $2.70 output per million tokens with a 95% cache discount; full open weights are scheduled for October 15, 2026.",
@@ -218,25 +238,5 @@
     "imageUrl": "https://www.google.com/s2/favicons?domain=inclusionai.com&sz=128",
     "category": "model",
     "publishedAt": "2026-09-11"
-  },
-  {
-    "id": "deepseek-v4-1-flash-launch-2026-09-10",
-    "title": "DeepSeek releases V4.1-Flash — 552B MoE with 16B-decode/8B-prefill, retires V4-Pro",
-    "summary": "DeepSeek on September 10, 2026 released DeepSeek-V4.1-Flash, a multimodal MoE with 552B backbone parameters, native multimodal input, and a Causal Encoder-Decoder architecture that activates 16B parameters per token during decode but only 8B during prefill. Pricing is $0.30 input / $1.20 output per 1M tokens; V4-Pro retires to V4.1-Flash routing on September 14, 2026.",
-    "source": "DeepSeek",
-    "sourceUrl": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=deepseek.com&sz=128",
-    "category": "model",
-    "publishedAt": "2026-09-10"
-  },
-  {
-    "id": "openbmb-minicpm5-2b-release-2026-09-07",
-    "title": "OpenBMB releases MiniCPM5-2B — 2.52B dense Llama-architecture on-device SOTA, Apache 2.0",
-    "summary": "OpenBMB on September 7, 2026 released MiniCPM5-2B, a 2.52B-parameter dense Llama-architecture model with 131K native context, Apache 2.0 license, and an average score of 53.9 across 34 benchmarks (above Qwen3.5-4B at 51.1). Designed for on-device and resource-constrained deployment, it ships with BF16, GGUF, MLX, GPTQ, and DSpark draft variants; weights are available on Hugging Face and ModelScope.",
-    "source": "OpenBMB",
-    "sourceUrl": "https://huggingface.co/openbmb/MiniCPM5-2B",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=openbmb.cn&sz=128",
-    "category": "model",
-    "publishedAt": "2026-09-07"
   }
 ]
