@@ -121,8 +121,20 @@ export const ProductRowSchema: z.ZodType<ProductRow> = z.object({
 - **Routing/distribution note**: OpenRouter (https://openrouter.ai) is a unified LLM router exposing 200+ models from 50+ providers behind a single OpenAI-compatible API. When a frontier model is also distributed via OpenRouter, note "Also on OpenRouter" in the description (already done for several models).
 - Mistral → Le Chat / Mistral Large
 
-### Step 3: Provider Colors (if new company)
-Update `providerColors` in `src/app/products/page.tsx` if new companies added.
+### Step 3: Company Badge Colors (if new company)
+The products page has **no** `providerColors` map. Company colors live in the
+`getCompanyBadgeStyle()` function in `src/components/ProductTable.tsx` — a
+`Record<string, string>` of inline style strings keyed by company name. When a
+new company (or sub-product key) is added to `products-page-data.json`, add a
+matching entry there, e.g.:
+
+```
+Canva: 'backgroundColor:rgba(125, 42, 232, 0.2);color:#c084fc;borderColor:rgba(125, 42, 232, 0.3)',
+```
+
+Sub-product keys of an existing company (e.g. `Anthropic-Duet`) get their own
+entry too, usually a lighter tint of the parent's color. If a company has no
+entry, the badge falls back to the default style and will look unstyled.
 
 ## Verification
 1. `npm run build` — must succeed
