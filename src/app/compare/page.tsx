@@ -17,10 +17,10 @@ export interface FrontierModel {
   inputPrice: number;
   outputPrice: number;
   free: boolean;
-  mmlu: number;
+  mmlu: number | null;
   mmluPlus?: number;
-  humaneval: number;
-  liveBench: number;
+  humaneval: number | null;
+  liveBench: number | null;
   multimodal: boolean;
   vision: boolean;
   functionCalling: boolean;
@@ -68,6 +68,8 @@ Celeris: '#06b6d4',
   'SK Telecom': '#e91e63',
   NaiveAI: '#06b6d4',
   IFM: '#facc15',
+  Recursive: '#8b5cf6',
+  MemTensor: '#0891b2',
 };
 
 
@@ -112,6 +114,12 @@ export default function ComparePage() {
       const valB = b[sortField];
 
       if (valA === undefined || valB === undefined) return 0;
+
+      // Models with an undisclosed score sort last in both directions.
+      if (valA === null || valB === null) {
+        if (valA === null && valB === null) return 0;
+        return valA === null ? 1 : -1;
+      }
 
       if (typeof valA === 'number' && typeof valB === 'number') {
         return sortOrder === 'asc' ? valA - valB : valB - valA;
@@ -182,7 +190,7 @@ export default function ComparePage() {
             paddingRight: '24px',
           }}
         >
-          Last updated: October 19, 2026
+          Last updated: October 24, 2026
         </div>
         <div
           style={{
