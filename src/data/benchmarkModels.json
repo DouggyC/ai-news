@@ -1417,5 +1417,38 @@
     "livebench": null,
     "mmluPlus": null,
     "gpqa": 91.1
+  },
+  {
+    "id": "mercury-3",
+    "name": "Mercury 3",
+    "provider": "Inception",
+    "openSource": false,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": null
+  },
+  {
+    "id": "recursive-flint",
+    "name": "Flint",
+    "provider": "Recursive",
+    "openSource": true,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": null
+  },
+  {
+    "id": "memt-1.0-flash",
+    "name": "MemT 1.0 Flash",
+    "provider": "MemTensor",
+    "openSource": true,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": null
   }
 ]

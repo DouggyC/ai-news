@@ -2608,5 +2608,55 @@
     "license": "MIT",
     "mmlu": 0,
     "humaneval": 0
+  },
+  "minimax-m3.1-flash": {
+    "provider": "MiniMax",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Proprietary (weights pending)",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "voxtral-3": {
+    "provider": "Mistral",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 0,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "mercury-3": {
+    "provider": "Inception",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1048576,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "recursive-flint": {
+    "provider": "Recursive",
+    "parameters": 40000000000,
+    "modelSizeGB": 0,
+    "contextLength": 262144,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "memt-1.0-flash": {
+    "provider": "MemTensor",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 0,
+    "openSource": true,
+    "license": "Open source (per MemTensor)",
+    "mmlu": 0,
+    "humaneval": 0
   }
 }
