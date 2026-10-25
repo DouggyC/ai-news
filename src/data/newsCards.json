@@ -1,5 +1,75 @@
 [
   {
+    "id": "canva-craft-image-model-2026-10-22",
+    "title": "Canva ships Craft — its first in-house image model, 2K resolution across 30+ aspect ratios",
+    "summary": "Canva on October 22, 2026 unveiled Canva Craft, the first image generation model built and trained from scratch by Canva Research. Craft uses a two-stage architecture that first plans the design — spatial relationships, relative scale, visual hierarchy, text information — then generates the image at up to 2K resolution in more than 30 aspect ratios, which Canva says makes it the second most capable image model per DesignArena rankings. Available to all Canva users globally via the Dream Lab tab, plus the Canva Public API and Canva MCP Server, letting third-party chatbots like ChatGPT and Gemini generate images through it.",
+    "source": "Canva",
+    "sourceUrl": "https://www.canva.com/newsroom/news/canva-craft/",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=canva.com&sz=128",
+    "category": "product",
+    "publishedAt": "2026-10-22"
+  },
+  {
+    "id": "anthropic-claude-duet-2026-10-21",
+    "title": "Anthropic previews Claude Duet — a proactive agent app built on Claude Opus 5.5",
+    "summary": "Anthropic on October 21, 2026 opened a research preview of Claude Duet, a standalone agent app for professionals and small business owners. Built around Claude Opus 5.5, it sends a daily brief on the most important items across connected apps and messages the user only when something needs attention, working in its own virtual machine with a browser so it continues after you step away. It can schedule meetings, build dashboards, forecast financials, and build web apps, but asks approval before sending a message, making a payment, signing a document, or deleting anything; trading securities and moving money between accounts are off-limits even with approval. Integrates 6,000+ Claude Marketplace connectors. Waitlist-only for US Pro and Max subscribers, on iOS, Android, and claude.ai.",
+    "source": "Anthropic",
+    "sourceUrl": "https://claude.com/resources/articles/claude-duet",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=128",
+    "category": "product",
+    "publishedAt": "2026-10-21"
+  },
+  {
+    "id": "inception-mercury-3-launch-2026-10-19",
+    "title": "Inception releases Mercury 3 — most capable diffusion LLM yet, 1M context, 1,068 tokens/sec",
+    "summary": "Inception on October 19, 2026 released Mercury 3, the most capable diffusion-based LLM to date and its fourth model since Mercury 1 in June 2025. Scaled more than 40x in total parameters since Mercury 1, it runs at 1,068 tokens/second on NVIDIA GPUs — 4-8x faster than GPT-6 Luna and Claude Haiku 5.5, which it matches or beats on quality. Context expands to 1M tokens from 260K on Mercury 2.5. Pricing is $0.20 per 1M input and $0.70 per 1M output tokens, 50% off at launch ($0.10/$0.35), with cached tokens 90% off. OpenAI API compatible; available on the Inception API, OpenRouter, Baseten, and Vercel, with early partners running it for browser agents, tutoring, real-time search, and customer support.",
+    "source": "Inception",
+    "sourceUrl": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=inceptionlabs.ai&sz=128",
+    "category": "model",
+    "publishedAt": "2026-10-19"
+  },
+  {
+    "id": "recursive-flint-release-2026-10-21",
+    "title": "Recursive releases Flint — 40B/2.5B open-weight MoE coding model, 125+ tok/s on a MacBook Pro",
+    "summary": "Recursive on October 21, 2026 released Flint, an open-weight 40-billion-total / 2.5-billion-active Mixture-of-Experts model for fast agentic coding on local hardware, built by a small team of people and agents in under four months. It leads MoE models under 50B total parameters on SWE-Bench Pro v2, Terminal-Bench 2.1, and SWE-Bench Verified while running over 5x faster than dense models of similar quality, generating 125+ tokens/sec on an M4 Pro MacBook Pro and 150+ on a 64GB RTX Spark. 49 layers with sliding-window attention in 35 of them (513-token window) and full-context attention in the other 14, 262,144 max positions, and a dedicated 'rec' inference engine. Apache 2.0 licensed; weights on Hugging Face, with day-0 support in vLLM, SGLang, llama.cpp, Ollama, LM Studio, and Unsloth.",
+    "source": "Recursive",
+    "sourceUrl": "https://recursive.com/updates/introducing-recursive-flint",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=recursive.com&sz=128",
+    "category": "model",
+    "publishedAt": "2026-10-21"
+  },
+  {
+    "id": "memtensor-memt-1-0-2026-10-22",
+    "title": "MemTensor open-sources MemT 1.0 — fixed-size memory state, 3.99x faster inference at 256K context",
+    "summary": "MemTensor on October 22, 2026 open-sourced MemT 1.0 Flash and MemT 1.0 Nano, a model family that writes each interaction into a fixed-size internal state and reads from it later, rather than keeping the whole conversation history in the context window. MemTensor reports 3.99x faster end-to-end inference than full context at 256K tokens, with a memory state of roughly 40 MiB per session against a 5.06 GiB KV cache for the full-context equivalent. The approach targets the cost curve of long-running assistants, where every turn otherwise re-processes the entire transcript.",
+    "source": "MemTensor",
+    "sourceUrl": "https://github.com/memtensor",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=memtensor.ai&sz=128",
+    "category": "research",
+    "publishedAt": "2026-10-22"
+  },
+  {
+    "id": "minimax-m3-1-flash-launch-2026-10-19",
+    "title": "MiniMax releases M3.1 Flash — 3x faster inference, 70% lower agentic cost, $0.15/$0.60 per 1M",
+    "summary": "MiniMax on October 19, 2026 released M3.1 Flash, the next-generation Flash-tier model built for agentic tasks, coding, computer use, and cybersecurity. Per MiniMax, online inference is nearly three times faster than its predecessor with output speeds above 200 tokens/second (P50 170+), and agentic usage cost is 70% lower. Pricing is flat $0.15 input / $0.60 output / $0.015 cached input per 1M tokens. Artificial Analysis scores it 42 on its Intelligence Index — up 13.5 points from M3's 29.2 — at ~$0.22 cost per task, edging Claude Haiku 5.5 (Max) on price-performance. An earlier anonymous version, 'Space Bunny', processed over 200 trillion tokens during testing. Weights announced for October 23; available now via MiniMax API, M Plan, and MiniMax Code.",
+    "source": "MiniMax",
+    "sourceUrl": "https://www.minimax.io/blog/minimax-m31f",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=minimax.io&sz=128",
+    "category": "model",
+    "publishedAt": "2026-10-19"
+  },
+  {
+    "id": "mistral-voxtral-3-launch-2026-10-20",
+    "title": "Mistral releases Voxtral 3 — next generation of Voxtral speech models (Transcribe 3, TTS 3)",
+    "summary": "Mistral AI on October 20, 2026 launched Voxtral 3, the third generation of its Voxtral speech model family. The release spans four variants: Voxtral Small Transcribe 3, Voxtral Mini Transcribe 3, Voxtral Mini Transcribe Realtime 3, and Voxtral TTS 3 — covering transcription (batch and realtime) and text-to-speech across Mistral's speech stack. Mistral has paired the Voxtral line with the Mistral Large 4 model line released October 6, continuing its expansion beyond text LLMs into audio.",
+    "source": "Mistral",
+    "sourceUrl": "https://mistral.ai/news/voxtral-3",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=mistral.ai&sz=128",
+    "category": "model",
+    "publishedAt": "2026-10-20"
+  },
+  {
     "id": "reflection-beam-1-0-release-2026-10-16",
     "title": "Reflection launches Beam 1.0 — 501B/23B open-weights Apache 2.0 MoE for coding and agentic, 1M context",
     "summary": "Reflection on October 16, 2026 released Beam 1.0, the first model from the new US lab — an open-weight 501B-total / 23B-active Mixture-of-Experts with 1M-token context, focused on coding and agentic workloads. Built on 52 layers (43 sliding-window + 9 global), 256 experts per MoE layer (8 routed per token, no shared expert), and a unique residual stream that keeps constant scale across depth. Apache 2.0 license; checkpoints in BF16 (~1TB), FP8, and NVFP4 (~280GB) — deployable on 4×B200 or 8×RTX Pro 6000, runs on 2× M5 Ultra Mac Studios via MLX. Day-0 support in transformers, SGLang, vLLM; ships with a custom Rust-based harness. Reflection also offers $10K Hub credits for community builds.",
@@ -168,75 +238,5 @@
     "imageUrl": "https://www.google.com/s2/favicons?domain=bfl.ai&sz=128",
     "category": "model",
     "publishedAt": "2026-09-23"
-  },
-  {
-    "id": "china-telecom-xing4-29b-2026-09-22",
-    "title": "China Telecom AI releases Xing4.0-29B-A4B — lightweight agentic LLM that runs on a single consumer GPU",
-    "summary": "China Telecom AI on September 22, 2026 released Xing4.0-29B-A4B, a 29B-total / 4B-active MoE agentic LLM in the Xing series (formerly TeleChat). It is the first model of this scale trained entirely on the Ascend NPU platform with the MindSpore framework; natively supports 256K context (extensible to 512K); and is positioned for enterprise production deployments and local on-device runs on consumer GPUs. Compatible with vLLM, SGLang, and KTransformers; weights on Hugging Face.",
-    "source": "China Telecom",
-    "sourceUrl": "https://www.globenewswire.com/news-release/2026/09/22/3365958/0/en/china-telecom-ai-officially-releases-xing4-0-29b-agentic-large-model-for-single-gpu-deployment.html",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=chinatelecom-global.com&sz=128",
-    "category": "model",
-    "publishedAt": "2026-09-22"
-  },
-  {
-    "id": "anthropic-claude-opus-5-5-launch-2026-09-22",
-    "title": "Anthropic releases Claude Opus 5.5 — first in new Claude 5.5 family, 40% cheaper than Opus 5",
-    "summary": "Anthropic on September 22, 2026 released Claude Opus 5.5, the first model in its new Claude 5.5 family. It performs at the level of Claude Fable 5.1 on most work, costs 40% less to run than Opus 5, was tested before release by external evaluators Frontier Design and METR, and scores strongest on Anthropic's automated behavioral alignment audit to date. Available via Claude Platform, AWS, Google Cloud, and Microsoft Foundry.",
-    "source": "Anthropic",
-    "sourceUrl": "https://www.anthropic.com/claude-opus-5-5",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=128",
-    "category": "model",
-    "publishedAt": "2026-09-22"
-  },
-  {
-    "id": "openai-gpt-6-sol-and-luna-launch-2026-09-22",
-    "title": "OpenAI launches GPT-6 Sol and GPT-6 Luna — extends GPT-6 family to cost-efficient tiers",
-    "summary": "OpenAI on September 22, 2026 released GPT-6 Sol and GPT-6 Luna, expanding the GPT-6 family beyond Astra. Both models use the same training methods as GPT-6 Astra and inherit its gains in professional work, factuality, coding, computer use, and alignment, but with higher usage limits and lower costs. Sol targets complex coding and agentic workflows; Luna is the cheaper tier; both are available in ChatGPT Work and Codex for paid users, with Luna also accessible on free/Go tiers in the desktop app.",
-    "source": "OpenAI",
-    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/998997/openai-launches-faster-and-more-efficient-gpt-6-sol-and-luna-models",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
-    "category": "model",
-    "publishedAt": "2026-09-22"
-  },
-  {
-    "id": "xai-grok-4-7-launch-2026-09-21",
-    "title": "SpaceXAI/xAI releases Grok 4.7 — flagship for coding and knowledge work, same price as 4.6",
-    "summary": "xAI on September 21, 2026 released Grok 4.7, its most capable model for coding and knowledge work. Per xAI the model works longer on difficult tasks, checks its own work more carefully, and ships with the best-calibrated safeguards to date; it is served at the same price and speed as Grok 4.6 and scores 46 on the Artificial Analysis Intelligence Index — tied with Xiaomi's MiMo-V2.6-Pro (released the same day).",
-    "source": "xAI",
-    "sourceUrl": "https://x.ai/news/grok-4-7",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=x.ai&sz=128",
-    "category": "model",
-    "publishedAt": "2026-09-21"
-  },
-  {
-    "id": "xiaomi-mimo-v2-6-pro-release-2026-09-21",
-    "title": "Xiaomi open-sources MiMo-V2.6-Pro — top open-weight model on AA Intelligence Index at 46",
-    "summary": "Xiaomi on September 21, 2026 released and open-sourced MiMo-V2.6-Pro and MiMo-V2.6-Flash (both MIT-licensed), plus MiMo-V2.6-Pro-UltraSpeed serving at up to 20× the standard Pro output speed. Pro scores 46 on the Artificial Analysis Intelligence Index — tied with xAI's Grok 4.7 the same day — with 1.02T total / 42B active parameters and a 1M-token context window; Flash is 309B/15B at $0.14/$0.28 per 1M tokens. Release includes weights, technical report, RL framework, and 7,000+ task environments.",
-    "source": "Xiaomi",
-    "sourceUrl": "https://mimo.mi.com/docs/en-US/news/latest/v2-6",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=mimo.mi.com&sz=128",
-    "category": "model",
-    "publishedAt": "2026-09-21"
-  },
-  {
-    "id": "stepfun-step-5-preview-2026-09-20",
-    "title": "StepFun ships Step 5 Preview — 600B MoE with 27B active, 1M context, $1/$2.70 per 1M tokens",
-    "summary": "StepFun on September 20, 2026 announced Step 5 Preview, a 600B-parameter sparse Mixture-of-Experts flagship with 27B active parameters per token, a 1M-token context window, native image input, and AA Intelligence Index score of ~44. The API opens the same day at $1 input / $2.70 output per million tokens with a 95% cache discount; full open weights are scheduled for October 15, 2026.",
-    "source": "StepFun",
-    "sourceUrl": "https://www.stepfun.com/step-5-preview",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=stepfun.com&sz=128",
-    "category": "model",
-    "publishedAt": "2026-09-20"
-  },
-  {
-    "id": "inclusionai-ling-3-0-flash-vl-2026-09-11",
-    "title": "InclusionAI releases Ling-3.0-flash-VL — 124B native multimodal MoE with image + video understanding",
-    "summary": "InclusionAI on September 11, 2026 released Ling-3.0-flash-VL, a native multimodal extension of its Ling-3.0-flash MoE with 124B total / 5.5B active parameters, 1M-token context, and image + video input. It scores 42 on the AA Intelligence Index v4.1.1 (up 4 from the text-only base) and is priced on OpenRouter at $0.06/$0.18 per 1M input/output tokens.",
-    "source": "InclusionAI",
-    "sourceUrl": "https://huggingface.co/inclusionAI/Ling-3.0-flash-VL",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=inclusionai.com&sz=128",
-    "category": "model",
-    "publishedAt": "2026-09-11"
   }
 ]
