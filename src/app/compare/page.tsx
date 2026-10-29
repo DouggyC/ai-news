@@ -70,6 +70,7 @@ Celeris: '#06b6d4',
   IFM: '#facc15',
   Recursive: '#8b5cf6',
   MemTensor: '#0891b2',
+  LiquidAI: '#34d399',
 };
 
 
@@ -190,7 +191,7 @@ export default function ComparePage() {
             paddingRight: '24px',
           }}
         >
-          Last updated: October 24, 2026
+          Last updated: October 30, 2026
         </div>
         <div
           style={{
