@@ -1450,5 +1450,126 @@
     "livebench": null,
     "mmluPlus": null,
     "gpqa": null
+  },
+  {
+    "id": "gpt-6.1-terra",
+    "name": "GPT-6.1 Terra",
+    "provider": "OpenAI",
+    "openSource": false,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": null
+  },
+  {
+    "id": "gemini-4-carbon",
+    "name": "Gemini 4 Carbon",
+    "provider": "Google",
+    "openSource": false,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": null
+  },
+  {
+    "id": "kimi-k3.1-pro",
+    "name": "Kimi K3.1 Pro",
+    "provider": "Moonshot",
+    "openSource": false,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": null
+  },
+  {
+    "id": "gpt-6.1-sol",
+    "name": "GPT-6.1 Sol",
+    "provider": "OpenAI",
+    "openSource": false,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": null
+  },
+  {
+    "id": "gpt-6-luna",
+    "name": "GPT-6 Luna",
+    "provider": "OpenAI",
+    "openSource": false,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": null
+  },
+  {
+    "id": "gemini-4-argon",
+    "name": "Gemini 4 Argon",
+    "provider": "Google",
+    "openSource": false,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": null
+  },
+  {
+    "id": "claude-haiku-5.5",
+    "name": "Claude Haiku 5.5",
+    "provider": "Anthropic",
+    "openSource": false,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": null
+  },
+  {
+    "id": "mistral-large-4",
+    "name": "Mistral Large 4",
+    "provider": "Mistral",
+    "openSource": false,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": null
+  },
+  {
+    "id": "nemotron-3.5-bolt-e4b-4gb",
+    "name": "Nemotron 3.5 Bolt E4B 4GB",
+    "provider": "NVIDIA",
+    "openSource": true,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": null
+  },
+  {
+    "id": "lfm3-1.7b",
+    "name": "LFM3-1.7B",
+    "provider": "LiquidAI",
+    "openSource": true,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": null
+  },
+  {
+    "id": "lfm3-vl-2b",
+    "name": "LFM3-VL-2B",
+    "provider": "LiquidAI",
+    "openSource": true,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": null
   }
 ]

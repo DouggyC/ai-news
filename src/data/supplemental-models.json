@@ -2658,5 +2658,65 @@
     "license": "Open source (per MemTensor)",
     "mmlu": 0,
     "humaneval": 0
+  },
+  "gpt-6.1-terra": {
+    "provider": "OpenAI",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 1050000,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "gemini-4-carbon": {
+    "provider": "Google",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 0,
+    "openSource": false,
+    "license": "Proprietary",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "kimi-k3.1-pro": {
+    "provider": "Moonshot",
+    "parameters": 2800000000000,
+    "modelSizeGB": 0,
+    "contextLength": 1000000,
+    "openSource": false,
+    "license": "Open weights pending (Nov 4, 2026)",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "nemotron-3.5-bolt-e4b-4gb": {
+    "provider": "NVIDIA",
+    "parameters": 8000000000,
+    "modelSizeGB": 4,
+    "contextLength": 65536,
+    "openSource": true,
+    "license": "OpenMDW-1.1",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "lfm3-1.7b": {
+    "provider": "LiquidAI",
+    "parameters": 1700000000,
+    "modelSizeGB": 0,
+    "contextLength": 0,
+    "openSource": true,
+    "license": "LFM Open License v1.0",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "lfm3-vl-2b": {
+    "provider": "LiquidAI",
+    "parameters": 1920000000,
+    "modelSizeGB": 0,
+    "contextLength": 131072,
+    "openSource": true,
+    "license": "LFM Open License v1.0",
+    "mmlu": 0,
+    "humaneval": 0
   }
 }
