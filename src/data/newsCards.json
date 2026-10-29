@@ -1,5 +1,75 @@
 [
   {
+    "id": "liquid-ai-lfm3-suite-2026-10-29",
+    "title": "Liquid AI releases LFM3 — six open models from a 1.7B base, small enough to run on a smartphone",
+    "summary": "Liquid AI on October 29, 2026 released LFM3, a suite of six open models derived from LFM3-1.7B-Base, itself pre-trained on 22 trillion tokens spanning scientific papers, code, and mathematics. The suite covers every modality: LFM3-1.7B (text), LFM3-VL-2B (text, image and video in, 128K context, the first LFM vision model to accept video, with step-by-step thinking), LFM3-Audio-2B (text and audio), LFM3-Omni-2B (text, image, video and audio), d1-2B and d1-Omni-2B (decision-making models). All ship as open models under the LFM Open License v1.0, sized for smartphones and laptops, and were developed in collaboration with AMD and Qualcomm.",
+    "source": "LiquidAI",
+    "sourceUrl": "https://www.liquid.ai/blog/lfm3",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=liquid.ai&sz=128",
+    "category": "model",
+    "publishedAt": "2026-10-29"
+  },
+  {
+    "id": "mistral-large-4-open-weights-2026-10-29",
+    "title": "Mistral publishes Large 4 open weights — the 1T-parameter 'Le Chonk' is now freely downloadable",
+    "summary": "Mistral on October 29, 2026 published the open weights for Mistral Large 4, the 1-trillion-total / 49-billion-active parameter natively multimodal MoE it previewed on October 6. Per Mistral, the released model is the world's best open-weight model for automated coding and cybersecurity, matching or surpassing DeepSeek and Z.ai. The preview API on Mistral Studio remains available at $0.68 per 1M input and $2.09 per 1M output tokens, with a 1M-token context window. Weights were released after red-teaming with cybersecurity leaders, vetted partners, and state authorities under a custom Mistral license.",
+    "source": "Mistral",
+    "sourceUrl": "https://mistral.ai/news/mistral-large-4/",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=mistral.ai&sz=128",
+    "category": "model",
+    "publishedAt": "2026-10-29"
+  },
+  {
+    "id": "openai-chatgpt-api-credits-2026-10-28",
+    "title": "OpenAI adds up to $500/month in API credits to ChatGPT Pro and Business plans",
+    "summary": "OpenAI on October 28, 2026 made API credits a subscription benefit for eligible ChatGPT Pro and Business plans. Pro tiers at $100, $200 and $500 receive $100, $200 and $500 of API credit per billing period; Business Standard seats contribute $20 each and Premium seats $100, pooled and capped at $500 per workspace per month. Credits fund one linked API organization and do not increase ChatGPT or Codex usage limits. Activation requires linking an API organization you own, the subscription must be at least seven days old, and grants renew automatically with the subscription but expire at the end of each billing cycle without rolling over.",
+    "source": "OpenAI",
+    "sourceUrl": "https://developers.openai.com/api/docs/guides/chatgpt-api-credits",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+    "category": "product",
+    "publishedAt": "2026-10-28"
+  },
+  {
+    "id": "google-gemini-4-carbon-2026-10-28",
+    "title": "Google announces Gemini 4 Carbon — #1 on AA Intelligence Index v5.0 at 59, state-of-the-art cybersecurity",
+    "summary": "Google DeepMind on October 28, 2026 announced Gemini 4 Carbon, its strongest model yet, with state-of-the-art cybersecurity and long-horizon capability. It ranks #1 on the newly updated v5.0 of the Artificial Analysis Intelligence Index at 59, ahead of Claude Opus 5.5 and GPT-6 Astra, and leads SEC-bench Pro (88.2%) for vulnerability discovery, ExploitGym (54.8%) for exploitation, and CWE-bench (71.0%) for patching. Like Argon, it rolls out first to a subset of cyber defenders via the Fairwind Program under the U.S. voluntary pre-release testing process. Introductory pricing $2 per 1M input / $10 per 1M output tokens (cached input 95% off), doubling to $4/$20 after the intro period.",
+    "source": "Google",
+    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=deepmind.google&sz=128",
+    "category": "model",
+    "publishedAt": "2026-10-28"
+  },
+  {
+    "id": "openai-gpt-6-1-terra-2026-10-26",
+    "title": "OpenAI releases GPT-6.1 Terra — visual reasoning and computer use at $1/$5, half the price of Sol",
+    "summary": "OpenAI on October 26, 2026 released GPT-6.1 Terra, a fast, efficient model combining detailed visual reasoning, precise computer use, and clearer writing. Standard API prices are $1 per 1M input, $0.05 cached input, and $5 per 1M output — 50% below GPT-6.1 Sol. Per OpenAI, Terra scores 15 points higher than GPT-5.6 Terra on Agents' Last Exam at medium effort at a third the cost, performs on par with GPT-6 Astra at one-tenth the price per token, and is over 3x faster than Astra and Sol. Terminal-Bench 4.0 hits 50.3% at max effort, more than double GPT-5.6 Terra's 21.5%. Available in ChatGPT Work and Codex for Plus, Pro, Enterprise and Edu, and via the API as gpt-6.1-terra.",
+    "source": "OpenAI",
+    "sourceUrl": "https://www.theverge.com/ai-artificial-intelligence/1018854/gpt-6-1-terra-is-very-good-at-computer-use-openai-says",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+    "category": "model",
+    "publishedAt": "2026-10-26"
+  },
+  {
+    "id": "moonshot-kimi-k3-1-pro-2026-10-23",
+    "title": "Moonshot releases Kimi K3.1 Pro — 3T-class open-weight model, 1M context, Terminal-Bench 4.0 at 65.7%",
+    "summary": "Moonshot AI on October 23, 2026 released Kimi K3.1 Pro, the first model in its new K3.1 series and its most capable 3T-class open-weight model to date, with a 1-million-token context window and improvements across coding, 3D creation, and financial research. Per Moonshot, it scores 65.7% on Terminal-Bench 4.0 — ahead of GPT-6 Astra at 58.2% and just behind Claude Opus 5.5 at 66.4% — and cut false claims on its stress test to 8.3% from 23.4% for K3. Notably, Moonshot removed cyberattack-related training data before release; the shipped model still solves 81% of real-software-exploitation tasks versus 33.3% for K3. A Highspeed variant runs 2-3x faster. Priced $2/$10 per 1M tokens on the API, with full weights promised by November 4.",
+    "source": "Moonshot",
+    "sourceUrl": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=kimi.ai&sz=128",
+    "category": "model",
+    "publishedAt": "2026-10-23"
+  },
+  {
+    "id": "nvidia-nemotron-3-5-bolt-e4b-4gb-2026-10-23",
+    "title": "NVIDIA ships Nemotron 3.5 Bolt E4B 4GB — smallest open SLM, conversational agents in 4GB of memory",
+    "summary": "NVIDIA on October 23, 2026 released Nemotron 3.5 Bolt E4B 4GB, an 8B-parameter (4B effective) small language model post-trained from Gemma 4 E4B for speed and intelligence per GB in conversational agents. It packs agentic capability into as little as ~4GB, delivers roughly 40% higher average quality than NVIDIA's prior model on key conversational agent benchmarks, and outputs up to ~80% fewer tokens than peers. Features multi-turn tool use with async tool-call guidance, a speech-ready conversational mode, configurable reasoning, 64K context, and support for 35 languages. Ships under the OpenMDW-1.1 license with weights, data and recipes, deployable via llama.cpp on Jetson Orin Nano 8GB and GeForce RTX.",
+    "source": "NVIDIA",
+    "sourceUrl": "https://research.nvidia.com/labs/nemotron/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB/",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=nvidia.com&sz=128",
+    "category": "model",
+    "publishedAt": "2026-10-23"
+  },
+  {
     "id": "canva-craft-image-model-2026-10-22",
     "title": "Canva ships Craft — its first in-house image model, 2K resolution across 30+ aspect ratios",
     "summary": "Canva on October 22, 2026 unveiled Canva Craft, the first image generation model built and trained from scratch by Canva Research. Craft uses a two-stage architecture that first plans the design — spatial relationships, relative scale, visual hierarchy, text information — then generates the image at up to 2K resolution in more than 30 aspect ratios, which Canva says makes it the second most capable image model per DesignArena rankings. Available to all Canva users globally via the Dream Lab tab, plus the Canva Public API and Canva MCP Server, letting third-party chatbots like ChatGPT and Gemini generate images through it.",
@@ -168,75 +238,5 @@
     "imageUrl": "https://www.google.com/s2/favicons?domain=inclusionai.com&sz=128",
     "category": "model",
     "publishedAt": "2026-10-01"
-  },
-  {
-    "id": "openai-devday-2026-agents-api-2026-09-29",
-    "title": "OpenAI DevDay 2026 — AgentKit, Agents API public beta, Decisions API, Bedrock managed agents, +20 updates",
-    "summary": "OpenAI on September 29, 2026 at DevDay in San Francisco announced more than 20 major updates including AgentKit (production-grade agent toolkit), Agents API (public beta with hosted execution, memory, tools, multi-agent support), Decisions API (limited preview, uses Luna), Amazon Bedrock Managed Agents running OpenAI-powered agents inside AWS, Private Intelligence with ZDR + Private Safety Processing, and a $500 Pro subscription. Headline model: GPT-6.1 Sol (nearly matches GPT-6 Astra at 1/5 the price). Notably, GPT-6.1 Astra was scrapped — the Wall Street Journal reported cancellation over safety concerns (deception, agency without permission) flagged during internal testing.",
-    "source": "OpenAI",
-    "sourceUrl": "https://runtimewire.com/article/everything-openai-announced-at-the-devday-2026-keynote",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
-    "category": "product",
-    "publishedAt": "2026-09-29"
-  },
-  {
-    "id": "openai-gpt-6-1-sol-launch-2026-09-29",
-    "title": "OpenAI launches GPT-6.1 Sol at DevDay — nearly matches GPT-6 Astra at 1/5 the price",
-    "summary": "OpenAI on September 29, 2026 launched GPT-6.1 Sol at DevDay, a mere week after GPT-6 Sol. OpenAI says the new model delivers nearly the same level of intelligence as GPT-6 Astra for agentic coding, computer use, and professional work at one-fifth the standard input and output token prices. Available today in ChatGPT Work and Codex for Plus, Pro, Business, Enterprise, and Edu users (not yet in Chat). Notably, GPT-6.1 Astra was scrapped over safety concerns — the Wall Street Journal reported OpenAI cancelled the release after researchers flagged higher deception and agency-without-permission behaviors during internal testing.",
-    "source": "OpenAI",
-    "sourceUrl": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
-    "category": "model",
-    "publishedAt": "2026-09-29"
-  },
-  {
-    "id": "anthropic-claude-sonnet-5-5-launch-2026-09-28",
-    "title": "Anthropic releases Claude Sonnet 5.5 — 30% faster, 30% cheaper than Sonnet 5, $2/$10 per 1M",
-    "summary": "Anthropic on September 28, 2026 released Claude Sonnet 5.5, the second model in the Claude 5.5 family and a faster, lower-cost complement to Claude Opus 5.5. Sonnet 5.5 runs 30%+ faster than Sonnet 5, costs up to 30% less for most work, and is priced at $2 per million input tokens and $10 per million output tokens (unchanged from Sonnet 5) — but needs fewer tokens per task. Available on Claude Platform, AWS, Google Cloud, and Microsoft Azure.",
-    "source": "Anthropic",
-    "sourceUrl": "https://www.anthropic.com/claude-sonnet-5-5",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=128",
-    "category": "model",
-    "publishedAt": "2026-09-28"
-  },
-  {
-    "id": "naiveai-naive-n0-5-flash-2026-09-27",
-    "title": "NaiveAI releases Naive-N0.5-Flash — 309B/15.5B MoE built with AI-assisted research, 1M context",
-    "summary": "NaiveAI on September 27, 2026 released Naive-N0.5-Flash, an open-weight 309B-total / 15.5B-active Mixture-of-Experts model with a native 1M-token context window and a custom inference runtime called NaiveRT (company-reported peak of 2,122 tokens/second on 8 GPUs in a single-stream test). The Beijing startup — associated with Tsinghua associate professor Jifeng Dai — describes the model as built by AI systems writing code, running experiments, monitoring results, and proposing iterations, with human researchers setting objectives and evaluation standards; starts from Xiaomi's MiMo-V2.5 base; combines sliding-window attention with DeepSeek Sparse Attention.",
-    "source": "NaiveAI",
-    "sourceUrl": "https://wpnews.pro/news/naiveai-releases-a-309b-model-built-with-ai-assisted-research",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=naiveai.com&sz=128",
-    "category": "model",
-    "publishedAt": "2026-09-27"
-  },
-  {
-    "id": "ifm-k2-horizon-mova-36b-2026-09-29",
-    "title": "IFM open-weights K2-Horizon MoVA 36B/A4B — Apache 2.0, native 512K context, GPQA 80.8%",
-    "summary": "The Institute of Foundation Models on September 29, 2026 released K2-Horizon-MoVA-36B-A4B on Hugging Face — a sparse mixture-of-experts checkpoint with 36B total / 4B active parameters, native 512K context, Mixture-of-Values attention design, and Apache 2.0 license. Published benchmarks: 80.8% on GPQA Diamond, 58.6% on Terminal-Bench 2.1, 26.8% on Tau3-Banking; 19,390 downloads in first month.",
-    "source": "IFM",
-    "sourceUrl": "https://aiweekly.co/alerts/ifm-open-weights-k2-horizon-mova-a-36b4b-active-moe-with-native-512k-context",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=ifm.cool&sz=128",
-    "category": "model",
-    "publishedAt": "2026-09-29"
-  },
-  {
-    "id": "moonshot-kimi-k2-6-v2-2026-09-24",
-    "title": "Moonshot AI releases Kimi K2.6 v2 — open-source multimodal agentic model with swarm orchestration",
-    "summary": "Moonshot AI on September 24, 2026 released an updated Kimi K2.6, an open-source native multimodal agentic model focused on long-horizon coding, coding-driven design, proactive autonomous execution, and swarm-based task orchestration. The release ships on Kimi.com, the Kimi app, the Moonshot API, Kimi Code, and Hugging Face (modified MIT license); the API is OpenAI- and Anthropic-compatible; inference engines vLLM, SGLang, and KTransformers are supported; launch partners include Fireworks AI and Cloudflare Workers AI.",
-    "source": "Moonshot",
-    "sourceUrl": "https://www.kimi.ai/blog/kimi-k2-6",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=kimi.ai&sz=128",
-    "category": "model",
-    "publishedAt": "2026-09-24"
-  },
-  {
-    "id": "black-forest-labs-flux-3-action-2026-09-23",
-    "title": "Black Forest Labs releases FLUX 3 Action — 7B open-weight world action model for robot control",
-    "summary": "Black Forest Labs on September 23, 2026 released FLUX 3 Action, an open-weight 7B world action model (WAM) derived from its multimodal FLUX 3 backbone and pretrained on video, image, and audio. The model takes a camera frame + text instruction and returns the next 2 seconds of actions, sets a new state of the art on RoboLab-120 at 38.3% success (±0.38) — beating Cosmos 3 Nano (36.8%) at less than half the parameters — and runs up to 3.95× faster on consumer GPUs in FP8. Weights ship under FLUX Kommunity License v1.0 with LeRobot integration.",
-    "source": "BlackForest",
-    "sourceUrl": "https://bfl.ai/models/flux-3-action",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=bfl.ai&sz=128",
-    "category": "model",
-    "publishedAt": "2026-09-23"
   }
 ]
