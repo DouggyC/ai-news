@@ -1571,5 +1571,38 @@
     "livebench": null,
     "mmluPlus": null,
     "gpqa": null
+  },
+  {
+    "id": "mage-vl-cowork",
+    "name": "Mage-VL-Cowork",
+    "provider": "Microsoft",
+    "openSource": true,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": null
+  },
+  {
+    "id": "clover-35b-a3b-preview",
+    "name": "Clover-35B-A3B-Preview",
+    "provider": "DiffuSpace",
+    "openSource": true,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": null
+  },
+  {
+    "id": "pika-h3-flex",
+    "name": "Pika H3 Flex",
+    "provider": "Pika",
+    "openSource": true,
+    "mmlu": null,
+    "humaneval": null,
+    "livebench": null,
+    "mmluPlus": null,
+    "gpqa": null
   }
 ]

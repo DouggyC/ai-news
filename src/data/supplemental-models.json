@@ -2718,5 +2718,35 @@
     "license": "LFM Open License v1.0",
     "mmlu": 0,
     "humaneval": 0
+  },
+  "mage-vl-cowork": {
+    "provider": "Microsoft",
+    "parameters": 4000000000,
+    "modelSizeGB": 0,
+    "contextLength": 0,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "clover-35b-a3b-preview": {
+    "provider": "DiffuSpace",
+    "parameters": 35000000000,
+    "modelSizeGB": 0,
+    "contextLength": 131072,
+    "openSource": true,
+    "license": "Apache 2.0",
+    "mmlu": 0,
+    "humaneval": 0
+  },
+  "pika-h3-flex": {
+    "provider": "Pika",
+    "parameters": 0,
+    "modelSizeGB": 0,
+    "contextLength": 0,
+    "openSource": true,
+    "license": "Pika open weights",
+    "mmlu": 0,
+    "humaneval": 0
   }
 }
