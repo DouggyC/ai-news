@@ -71,6 +71,7 @@ Celeris: '#06b6d4',
   Recursive: '#8b5cf6',
   MemTensor: '#0891b2',
   LiquidAI: '#34d399',
+  DiffuSpace: '#eab308',
 };
 
 
@@ -191,7 +192,7 @@ export default function ComparePage() {
             paddingRight: '24px',
           }}
         >
-          Last updated: October 30, 2026
+          Last updated: November 1, 2026
         </div>
         <div
           style={{
