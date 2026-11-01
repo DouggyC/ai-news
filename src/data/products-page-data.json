@@ -687,7 +687,7 @@
       "Canva": {
         "name": "Canva Craft",
         "url": "https://www.canva.com/newsroom/news/canva-craft/",
-        "description": "Canva's first in-house image model, built and trained by Canva Research. Two-stage plan-then-generate architecture, 2K resolution in 30+ aspect ratios. Available in Canva (Dream Lab) and via Public API + Canva MCP Server."
+        "description": "Canva's in-house models from Canva Research. Craft is the first image model built and trained from scratch by Canva: two-stage plan-then-generate architecture, 2K resolution in 30+ aspect ratios. Brush (Oct 30, 2026) is their in-house vision-language model for natural-language design editing that preserves core styling — typography, colour palettes, layout. Both available in Canva (Dream Lab) and via Public API + Canva MCP Server."
       }
     }
   },
@@ -732,7 +732,7 @@
       "Pika": {
         "name": "Pika 2.5",
         "url": "https://pika.art",
-        "description": "Pika 2.5 (current production as of early 2026) with rebuilt physics engine, layered motion control (pan/tilt/zoom/dolly/orbit), Pikaframes scene extension to 15-25s, 4K upscaling, sharper textures, sound-to-video synchronization. Pika 2.5 Studio timeline editor, Pikaffects 2.0 (Melt, Inflate, Explode, Squish, Cake-ify), Pikaswaps, Pikadditions, Pika MCP. 12s individual clips at 1080p. API via fal.ai, $0.05/second. Standard $8/mo, Pro $28/mo, Fancy $58/mo."
+        "description": "Pika 2.5 with rebuilt physics engine, layered motion control, Pikaframes scene extension to 15-25s, and 4K upscaling. H3 Flex (Oct 30, 2026) is Pika's first open-weight release: two LoRA adapters post-trained on MiniMax H3 generating video and stereo audio together in 6 sampling steps, up to 12 reference assets. Local build runs native 480p/768p; 1080p-4K and separated audio tracks are API-only from $0.01/sec."
       },
       "ByteDance": {
         "name": "Seedance 2.0",
