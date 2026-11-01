@@ -1,43 +1,43 @@
 [
   {
-    "id": "liquid-ai-lfm3-suite-2026-10-29",
-    "title": "Liquid AI releases LFM3 — six open models from a 1.7B base, small enough to run on a smartphone",
-    "summary": "Liquid AI on October 29, 2026 released LFM3, a suite of six open models derived from LFM3-1.7B-Base, itself pre-trained on 22 trillion tokens spanning scientific papers, code, and mathematics. The suite covers every modality: LFM3-1.7B (text), LFM3-VL-2B (text, image and video in, 128K context, the first LFM vision model to accept video, with step-by-step thinking), LFM3-Audio-2B (text and audio), LFM3-Omni-2B (text, image, video and audio), d1-2B and d1-Omni-2B (decision-making models). All ship as open models under the LFM Open License v1.0, sized for smartphones and laptops, and were developed in collaboration with AMD and Qualcomm.",
-    "source": "LiquidAI",
-    "sourceUrl": "https://www.liquid.ai/blog/lfm3",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=liquid.ai&sz=128",
+    "id": "microsoft-mage-vl-cowork-2026-10-30",
+    "title": "Microsoft releases Mage-VL-Cowork — 4B open-weight VLM for computer use, 66% on OSWorld-Verified",
+    "summary": "Microsoft on October 30, 2026 published Mage-VL-Cowork, a 4-billion-parameter open-weight vision-language model built to operate a graphical user interface or a persistent terminal shell for computer use and workflow automation. The model card reports a 66.0% success rate on OSWorld-Verified under a 50-step budget. Weights are released under Apache 2.0, making this one of the smallest open models to reach that level of agentic desktop reliability.",
+    "source": "Microsoft",
+    "sourceUrl": "https://huggingface.co/microsoft/Mage-VL-Cowork",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
     "category": "model",
-    "publishedAt": "2026-10-29"
+    "publishedAt": "2026-10-30"
   },
   {
-    "id": "mistral-large-4-open-weights-2026-10-29",
-    "title": "Mistral publishes Large 4 open weights — the 1T-parameter 'Le Chonk' is now freely downloadable",
-    "summary": "Mistral on October 29, 2026 published the open weights for Mistral Large 4, the 1-trillion-total / 49-billion-active parameter natively multimodal MoE it previewed on October 6. Per Mistral, the released model is the world's best open-weight model for automated coding and cybersecurity, matching or surpassing DeepSeek and Z.ai. The preview API on Mistral Studio remains available at $0.68 per 1M input and $2.09 per 1M output tokens, with a 1M-token context window. Weights were released after red-teaming with cybersecurity leaders, vetted partners, and state authorities under a custom Mistral license.",
-    "source": "Mistral",
-    "sourceUrl": "https://mistral.ai/news/mistral-large-4/",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=mistral.ai&sz=128",
+    "id": "pika-h3-flex-open-weights-2026-10-30",
+    "title": "Pika releases H3 Flex, its first open-weight model — video with stereo audio in 6 steps, built on MiniMax H3",
+    "summary": "Pika on October 30, 2026 released Pika H3 Flex, the first open weights the company has ever published, after previously keeping a fully closed product strategy. It consists of two LoRA adapters post-trained on MiniMax H3 — one for text and first/last-frame generation, one for multi-reference input with up to 12 reference assets — generating video and stereo audio together in 6 sampling steps. The local open-weight build supports native 480p and 768p, while 1080p through 4K and separated audio tracks require Pika's paid API starting at $0.01 per second. DesignArena ranks it 7th on its video leaderboard at 1293 Elo, the highest-scoring open-weight video model.",
+    "source": "Pika",
+    "sourceUrl": "https://huggingface.co/pika-labs/Pika-H3-Flex",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=pika.art&sz=128",
     "category": "model",
-    "publishedAt": "2026-10-29"
+    "publishedAt": "2026-10-30"
   },
   {
-    "id": "openai-chatgpt-api-credits-2026-10-28",
-    "title": "OpenAI adds up to $500/month in API credits to ChatGPT Pro and Business plans",
-    "summary": "OpenAI on October 28, 2026 made API credits a subscription benefit for eligible ChatGPT Pro and Business plans. Pro tiers at $100, $200 and $500 receive $100, $200 and $500 of API credit per billing period; Business Standard seats contribute $20 each and Premium seats $100, pooled and capped at $500 per workspace per month. Credits fund one linked API organization and do not increase ChatGPT or Codex usage limits. Activation requires linking an API organization you own, the subscription must be at least seven days old, and grants renew automatically with the subscription but expire at the end of each billing cycle without rolling over.",
-    "source": "OpenAI",
-    "sourceUrl": "https://developers.openai.com/api/docs/guides/chatgpt-api-credits",
-    "imageUrl": "https://www.google.com/s2/favicons?domain=openai.com&sz=128",
+    "id": "canva-brush-2026-10-30",
+    "title": "Canva ships Brush — in-house vision-language model for natural-language design editing",
+    "summary": "Canva on October 30, 2026 released Brush, an in-house vision-language model that edits designs from natural-language instructions while strictly preserving core styling elements such as typography, colour palettes, and layout. It follows Canva Craft, the company's first image model, which launched two days earlier as the world's second most capable AI lab for image generation by DesignArena rankings. Together they make Canva Research a credible in-house model operation rather than a wrapper around third-party APIs.",
+    "source": "Canva",
+    "sourceUrl": "https://www.canva.com/newsroom/news/canva-brush/",
+    "imageUrl": "https://www.google.com/s2/favicons?domain=canva.com&sz=128",
     "category": "product",
-    "publishedAt": "2026-10-28"
+    "publishedAt": "2026-10-30"
   },
   {
-    "id": "google-gemini-4-carbon-2026-10-28",
-    "title": "Google announces Gemini 4 Carbon — #1 on AA Intelligence Index v5.0 at 59, state-of-the-art cybersecurity",
-    "summary": "Google DeepMind on October 28, 2026 announced Gemini 4 Carbon, its strongest model yet, with state-of-the-art cybersecurity and long-horizon capability. It ranks #1 on the newly updated v5.0 of the Artificial Analysis Intelligence Index at 59, ahead of Claude Opus 5.5 and GPT-6 Astra, and leads SEC-bench Pro (88.2%) for vulnerability discovery, ExploitGym (54.8%) for exploitation, and CWE-bench (71.0%) for patching. Like Argon, it rolls out first to a subset of cyber defenders via the Fairwind Program under the U.S. voluntary pre-release testing process. Introductory pricing $2 per 1M input / $10 per 1M output tokens (cached input 95% off), doubling to $4/$20 after the intro period.",
+    "id": "google-genie-4-2026-10-27",
+    "title": "Google DeepMind announces Genie 4 — world model with natively generated audio and real-time steering",
+    "summary": "Google DeepMind on October 27, 2026 announced Genie 4, a world model for real-time interactive simulation and its first to generate audio natively — ambient sound, music, and interactive dialogue generated with the world. Scenarios are steered in real time with natural language (change the weather, move the camera, introduce a character), and Gemini 3.8 Flash acts as a guiding agent in the loop, breaking goals into steps and reviewing frames to track progress. Google says it maintains a consistent scene for up to two minutes, double Genie 3's limit. Rolling out as a research preview to trusted testers, then Google AI Ultra subscribers in Project Genie and Gemini API / AI Studio early access partners.",
     "source": "Google",
-    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+    "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/",
     "imageUrl": "https://www.google.com/s2/favicons?domain=deepmind.google&sz=128",
     "category": "model",
-    "publishedAt": "2026-10-28"
+    "publishedAt": "2026-10-27"
   },
   {
     "id": "openai-gpt-6-1-terra-2026-10-26",
