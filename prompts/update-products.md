@@ -10,18 +10,18 @@ Research current AI product landscape. **Do NOT assume existing products are sti
 
 Research queries to execute:
 ```
-OpenAI AI products September 2026 site:openai.com OR site:techcrunch.com
-Anthropic Claude products September 2026 site:anthropic.com OR site:techcrunch.com
-Google AI products September 2026 site:deepmind.google OR site:techcrunch.com
-Meta AI products September 2026 site:ai.meta.com OR site:techcrunch.com
-xAI Grok products September 2026 site:x.ai OR site:techcrunch.com
-NVIDIA AI products September 2026 site:nvidia.com OR site:techcrunch.com
+OpenAI AI products November 2026 site:openai.com OR site:techcrunch.com
+Anthropic Claude products November 2026 site:anthropic.com OR site:techcrunch.com
+Google AI products November 2026 site:deepmind.google OR site:techcrunch.com
+Meta AI products November 2026 site:ai.meta.com OR site:techcrunch.com
+xAI Grok products November 2026 site:x.ai OR site:techcrunch.com
+NVIDIA AI products November 2026 site:nvidia.com OR site:techcrunch.com
 OpenRouter AI products 2026 site:openrouter.ai OR site:artificialanalysis.ai
-DeepSeek AI products September 2026 site:deepseek.com OR site:techcrunch.com
-Cursor AI editor September 2026 site:cursor.com OR site:techcrunch.com
-JetBrains AI tools September 2026 site:jetbrains.com OR site:techcrunch.com
-Midjourney September 2026 site:midjourney.com OR site:techcrunch.com
-Runway AI video September 2026 site:runwayml.com OR site:techcrunch.com
+DeepSeek AI products November 2026 site:deepseek.com OR site:techcrunch.com
+Cursor AI editor November 2026 site:cursor.com OR site:techcrunch.com
+JetBrains AI tools November 2026 site:jetbrains.com OR site:techcrunch.com
+Midjourney November 2026 site:midjourney.com OR site:techcrunch.com
+Runway AI video November 2026 site:runwayml.com OR site:techcrunch.com
 ```
 
 Discover:

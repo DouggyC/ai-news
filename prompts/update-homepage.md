@@ -10,17 +10,17 @@ Research recent AI news. **Do NOT assume existing news is still relevant or comp
 
 Research queries to execute:
 ```
-OpenAI AI news September 2026 site:openai.com OR site:techcrunch.com OR site:theverge.com
-Anthropic AI news September 2026 site:anthropic.com OR site:techcrunch.com OR site:theverge.com
-Google AI news September 2026 site:deepmind.google OR site:techcrunch.com OR site:theverge.com
-Meta AI news September 2026 site:ai.meta.com OR site:techcrunch.com OR site:theverge.com
-xAI Grok news September 2026 site:x.ai OR site:techcrunch.com OR site:theverge.com
-NVIDIA AI news September 2026 site:nvidia.com OR site:techcrunch.com OR site:theverge.com
+OpenAI AI news November 2026 site:openai.com OR site:techcrunch.com OR site:theverge.com
+Anthropic AI news November 2026 site:anthropic.com OR site:techcrunch.com OR site:theverge.com
+Google AI news November 2026 site:deepmind.google OR site:techcrunch.com OR site:theverge.com
+Meta AI news November 2026 site:ai.meta.com OR site:techcrunch.com OR site:theverge.com
+xAI Grok news November 2026 site:x.ai OR site:techcrunch.com OR site:theverge.com
+NVIDIA AI news November 2026 site:nvidia.com OR site:techcrunch.com OR site:theverge.com
 OpenRouter AI news 2026 site:openrouter.ai OR site:artificialanalysis.ai
-DeepSeek AI news September 2026 site:deepseek.com OR site:techcrunch.com OR site:theverge.com
-Alibaba Qwen AI news September 2026 site:qwenlm.ai OR site:techcrunch.com OR site:theverge.com
-MiniMax AI news September 2026 site:minimaxi.com OR site:techcrunch.com OR site:theverge.com
-Mistral AI news September 2026 site:mistral.ai OR site:techcrunch.com OR site:theverge.com
+DeepSeek AI news November 2026 site:deepseek.com OR site:techcrunch.com OR site:theverge.com
+Alibaba Qwen AI news November 2026 site:qwenlm.ai OR site:techcrunch.com OR site:theverge.com
+MiniMax AI news November 2026 site:minimaxi.com OR site:techcrunch.com OR site:theverge.com
+Mistral AI news November 2026 site:mistral.ai OR site:techcrunch.com OR site:theverge.com
 ```
 
 Discover:
